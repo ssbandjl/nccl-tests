@@ -1,0 +1,147 @@
+root@gdr114:~/project/ai/nccl-tests# export NCCL_DEBUG=INFO
+root@gdr114:~/project/ai/nccl-tests# mpirun -np 2 -N 2 --allow-run-as-root ./build/all_reduce_perf -b 8 -e 8G -f 2 -g 1
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 8589934592 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+# Using devices
+# nThread 1 nGpus 1 minBytes 8 maxBytes 8589934592 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid  13510 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#
+# Reducing maxBytes to 5284866730 due to memory limitation
+#  Rank  0 Group  0 Pid  13511 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#
+# Reducing maxBytes to 5284866730 due to memory limitation
+gdr114:13510:13510 [0] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr114:13511:13511 [0] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr114:13510:13510 [0] NCCL INFO cudaDriverVersion 12080
+gdr114:13510:13510 [0] NCCL INFO NCCL version 2.26.5+cuda12.9
+gdr114:13511:13511 [0] NCCL INFO cudaDriverVersion 12080
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+gdr114:13510:13533 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:13510:13533 [0] NCCL INFO NET/IB : Using [0]rocep4s0f0:1/RoCE [1]rocep137s0f0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:13510:13533 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:13510:13533 [0] NCCL INFO Using network IB
+gdr114:13510:13533 [0] NCCL INFO ncclCommInitAll comm 0x61905d596ec0 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 8000 commId 0x4acfc507fb1180e - Init START
+gdr114:13510:13533 [0] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:13510:13533 [0] NCCL INFO Bootstrap timings total 0.000790 (create 0.000034, send 0.000139, recv 0.000157, ring 0.000002, delay 0.000000)
+gdr114:13510:13533 [0] NCCL INFO Setting affinity for GPU 0 to 10000001
+gdr114:13510:13533 [0] NCCL INFO comm 0x61905d596ec0 rank 0 nRanks 1 nNodes 1 localRanks 1 localRank 0 MNNVL 0
+gdr114:13510:13533 [0] NCCL INFO Channel 00/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 01/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 02/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 03/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 04/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 05/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 06/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 07/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 08/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 09/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 10/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 11/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 12/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 13/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 14/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 15/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 16/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 17/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 18/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 19/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 20/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 21/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 22/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 23/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 24/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 25/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 26/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 27/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 28/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 29/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 30/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 31/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 32/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 33/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 34/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 35/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 36/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 37/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 38/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 39/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 40/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 41/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 42/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 43/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 44/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 45/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 46/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 47/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 48/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 49/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 50/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 51/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 52/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 53/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 54/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 55/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 56/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 57/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 58/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 59/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 60/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 61/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 62/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Channel 63/64 : 0
+gdr114:13510:13533 [0] NCCL INFO Trees [0] -1/-1/-1->0->-1 [1] -1/-1/-1->0->-1 [2] -1/-1/-1->0->-1 [3] -1/-1/-1->0->-1 [4] -1/-1/-1->0->-1 [5] -1/-1/-1->0->-1 [6] -1/-1/-1->0->-1 [7] -1/-1/-1->0->-1 [8] -1/-1/-1->0->-1 [9] -1/-1/-1->0->-1 [10] -1/-1/-1->0->-1 [11] -1/-1/-1->0->-1 [12] -1/-1/-1->0->-1 [13] -1/-1/-1->0->-1 [14] -1/-1/-1->0->-1 [15] -1/-1/-1->0->-1 [16] -1/-1/-1->0->-1 [17] -1/-1/-1->0->-1 [18] -1/-1/-1->0->-1 [19] -1/-1/-1->0->-1 [20] -1/-1/-1->0->-1 [21] -1/-1/-1->0->-1 [22] -1/-1/-1->0->-1 [23] -1/-1/-1->0->-1 [24] -1/-1/-1->0->-1 [25] -1/-1/-1->0->-1 [26] -1/-1/-1->0->-1 [27] -1/-1/-1->0->-1 [28] -1/-1/-1->0->-1 [29] -1/-1/-1->0->-1 [30] -1/-1/-1->0->-1 [31] -1/-1/-1->0->-1 [32] -1/-1/-1->0->-1 [33] -1/-1/-1->0->-1 [34] -1/-1/-1->0->-1 [35] -1/-1/-1->0->-1 [36] -1/-1/-1->0->-1 [37] -1/-1/-1->0->-1 [38] -1/-1/-1->0->-1 [39] -1/-1/-1->0->-1 [40] -1/-1/-1->0->-1 [41] -1/-1/-1->0->-1 [42] -1/-1/-1->0->-1 [43] -1/-1/-1->0->-1 [44] -1/-1/-1->0->-1 [45] -1/-1/-1->0->-1 [46] -1/-1/-1->0->-1 [47] -1
+gdr114:13510:13533 [0] NCCL INFO P2P Chunksize set to 524288
+gdr114:13510:13533 [0] NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr114:13510:13550 [0] NCCL INFO [Proxy Service] Device 0 CPU core 0
+gdr114:13510:13551 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 0
+gdr114:13510:13533 [0] NCCL INFO 64 coll channels, 64 collnet channels, 0 nvls channels, 64 p2p channels, 64 p2p channels per peer
+gdr114:13510:13533 [0] NCCL INFO CC Off, workFifoBytes 1048576
+gdr114:13510:13533 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:13510:13533 [0] NCCL INFO ncclCommInitAll comm 0x61905d596ec0 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 8000 commId 0x4acfc507fb1180e - Init COMPLETE
+gdr114:13510:13533 [0] NCCL INFO Init timings - ncclCommInitAll: rank 0 nranks 1 total 0.29 (kernels 0.21, alloc 0.04, bootstrap 0.00, allgathers 0.00, topo 0.01, graphs 0.00, connections 0.03, rest 0.00)
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+           8             2     float     sum      -1     3.45    0.00    0.00      0     0.13    0.06    0.00      0
+          16             4     float     sum      -1     3.33    0.00    0.00      0     0.13    0.12    0.00      0
+          32             8     float     sum      -1     3.28    0.01    0.00      0     0.13    0.25    0.00      0
+          64            16     float     sum      -1     3.26    0.02    0.00      0     0.13    0.48    0.00      0
+         128            32     float     sum      -1     3.25    0.04    0.00      0     0.13    0.98    0.00      0
+         256            64     float     sum      -1     3.26    0.08    0.00      0     0.13    1.93    0.00      0
+         512           128     float     sum      -1     3.61    0.14    0.00      0     0.13    3.82    0.00      0
+        1024           256     float     sum      -1     3.40    0.30    0.00      0     0.13    7.89    0.00      0
+        2048           512     float     sum      -1     3.25    0.63    0.00      0     0.13   15.48    0.00      0
+        4096          1024     float     sum      -1     3.22    1.27    0.00      0     0.13   30.64    0.00      0
+        8192          2048     float     sum      -1     3.28    2.50    0.00      0     0.13   62.80    0.00      0
+       16384          4096     float     sum      -1     3.22    5.08    0.00      0     0.13  123.84    0.00      0
+       32768          8192     float     sum      -1     3.20   10.24    0.00      0     0.13  249.66    0.00      0
+       65536         16384     float     sum      -1     3.29   19.90    0.00      0     0.13  495.73    0.00      0
+      131072         32768     float     sum      -1     3.32   39.51    0.00      0     0.13  1005.54    0.00      0
+      262144         65536     float     sum      -1     3.30   79.53    0.00      0     0.13  1996.53    0.00      0
+      524288        131072     float     sum      -1     3.61  145.14    0.00      0     0.13  3965.87    0.00      0
+     1048576        262144     float     sum      -1     4.46  234.88    0.00      0     0.13  7958.83    0.00      0
+     2097152        524288     float     sum      -1     7.04  297.77    0.00      0     0.13  15947.92    0.00      0
+     4194304       1048576     float     sum      -1    12.06  347.85    0.00      0     0.13  31920.12    0.00      0
+     8388608       2097152     float     sum      -1    22.72  369.26    0.00      0     0.13  64133.09    0.00      0
+    16777216       4194304     float     sum      -1    43.13  389.03    0.00      0     0.13  127534.90    0.00      0
+    33554432       8388608     float     sum      -1    83.83  400.27    0.00      0     0.13  252004.75    0.00      0
+    67108864      16777216     float     sum      -1    165.3  406.03    0.00      0     0.13  510721.95    0.00      0
+   134217728      33554432     float     sum      -1    327.8  409.43    0.00      0     0.13  1014495.30    0.00      0
+   268435456      67108864     float     sum      -1    652.9  411.15    0.00      0     0.13  2040558.39    0.00      0
+   536870912     134217728     float     sum      -1   1305.6  411.21    0.00      0     0.13  4076468.58    0.00      0
+  1073741824     268435456     float     sum      -1   2606.2  412.00    0.00      0     0.13  8122101.54    0.00      0
+  2147483648     536870912     float     sum      -1   5290.0  405.95    0.00      0     0.13  16281149.72    0.00      0
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node gdr114 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+root@gdr114:~/project/ai/nccl-tests# 
