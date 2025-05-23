@@ -2,3 +2,6 @@
 #
 # See LICENCE.txt for license information
 /build
+
+uid
+get_unique_id
