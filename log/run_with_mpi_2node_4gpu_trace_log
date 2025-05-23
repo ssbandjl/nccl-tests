@@ -1,3 +1,13 @@
+clear
+mpirun -np 4 -H 192.168.1.10:2,192.168.1.11:2 \
+  -bind-to none -map-by slot \
+  -x NCCL_DEBUG=TRACE \
+  -x NCCL_IB_DISABLE=0 \
+  -x NCCL_NET=IB \
+  -x NCCL_DEBUG_SUBSYS=ALL \
+  -x LD_LIBRARY_PATH=/root/project/rdma/rdma-core/build/lib:/root/project/ai/nccl-tests/nccl/build/lib \
+  --allow-run-as-root \
+  ./build/all_gather_perf -b 8 -e 1G -f 2 -g 1
 
 gdr114:842736:842746 [1] ncclTopoPopulateNics, 1242 NCCL INFO ncclTopoPopulateNics : Filled mlx5_0 in topo with pciPath=/sys/devices/pci0000:00/0000:00:02.0/0000:02:00.0/0000:03:08.0/0000:04:00.0 keep=1 coll=(null)
 ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
