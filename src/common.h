@@ -281,6 +281,12 @@ static int ncclstringtoop (char *str) {
 
 extern int is_main_proc;
 extern thread_local int is_main_thread;
-#define PRINT if (is_main_thread) printf
+
+#ifndef printf_ffl
+#define printf_ffl(format, arg...)						\
+	printf("%s(), %s:%d, " format, __func__, __FILE__, __LINE__, ##arg)
+#endif
+// #define PRINT if (is_main_thread) printf
+#define PRINT if (is_main_thread) printf_ffl
 
 #endif

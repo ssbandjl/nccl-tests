@@ -73,6 +73,9 @@ The line of code:
 
 ```cpp
 bool gdrSupport = (props.ptrdSupport & NCCL_PTR_CUDA) || (comm->dmaBufSupport && (props.ptrSupport & NCCL_PTR_DMABUF));
+
+nccl:
+bool gdrSupport = (props.ptrSupport & NCCL_PTR_CUDA) || (comm->dmaBufSupport && (props.ptrSupport & NCCL_PTR_DMABUF));
 ```
 
 is part of **NCCL’s internal logic** to decide whether **GPUDirect RDMA (GDR)** is supported on a given network interface (`props`) for a particular communicator (`comm`).
@@ -240,7 +243,7 @@ static ncclResult_t dmaBufSupported(struct ncclComm* comm) {
   if (CUPFN(cuDeviceGet) == NULL || cudaDriverVersion < 11070) return ncclInternalError;
   CUCHECK(cuDeviceGet(&dev, comm->cudaDev));
   // Query device to see if DMA-BUF support is available
-  (void) CUPFN(cuDeviceGetAttribute(&flag, CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED, dev)); // check dma_buf support
+  (void) CUPFN(cuDeviceGetAttribute(&flag, CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED, dev)); // check gpu dma_buf support
   if (flag == 0) return ncclInternalError;
   INFO(NCCL_INIT, "DMA-BUF is available on GPU device %d", comm->cudaDev);
   return ncclSuccess;
