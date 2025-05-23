@@ -116,12 +116,22 @@ mpirun -np 4 -H 192.168.1.10:2,192.168.1.11:2 \
     --allow-run-as-root \
     /root/project/ai/nccl-tests/run_with_rdma.sh
 
+clear
+export NCCL_DEBUG=TRACE
+export NCCL_DEBUG_SUBSYS=NET
+# export NCCL_NET_GDR_LEVEL=SYS
+export NCCL_NET_GDR_LEVEL=2
+export LD_LIBRARY_PATH=/root/project/rdma/rdma-core/build/lib:/root/project/ai/nccl-tests/nccl/build/lib
 
 mpirun -np 4 -H 192.168.1.10:2,192.168.1.11:2 \
   -bind-to none -map-by slot \
   -x NCCL_DEBUG=TRACE \
   -x NCCL_IB_DISABLE=0 \
   -x NCCL_NET=IB \
+  -x NCCL_DEBUG_SUBSYS=NET \
+  -x NCCL_NET_GDR_LEVEL=2 \
+  -x NCCL_IB_HCA=mlx5_2 \
   -x LD_LIBRARY_PATH=/root/project/rdma/rdma-core/build/lib:/root/project/ai/nccl-tests/nccl/build/lib \
   --allow-run-as-root \
-  ./build/all_gather_perf -b 8 -e 1G -f 2 -g 1
+  -x NCCL_SOCKET_IFNAME=^enp129,^lo \
+  /root/project/ai/nccl-tests/build/all_gather_perf -b 8 -e 1G -f 2 -g 1
