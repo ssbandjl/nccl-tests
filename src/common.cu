@@ -972,7 +972,7 @@ testResult_t run() {
   if (parallel_init) PRINT("# Parallel Init Enabled: threads call into NcclInitRank concurrently \n");
   PRINT("#\n");
 
-  PRINT("# Using devices\n");
+//   PRINT("# Using devices\n");
 #define MAX_LINE 2048
   char line[MAX_LINE];
   int len = 0;
