@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+			"name": "all_reduce_perf",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/all_reduce_perf",
+			"args": ["-b", "8", "-e", "512M", "-f", "2", "-g", "1"],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/build",
+			"environment": [
+			    {"name": "NCCL_SOCKET_IFNAME", "value":"enp137s0f0np0"},
+			    {"name": "WORLD_SIZE", "value":"4"},
+			    {"name": "CUDA_VISIBLE_DEVICES", "value":"0"},
+			    {"name": "RANK", "value":"0"},
+			    {"name": "NCCL_IB_HCA", "value":"mlx5_0"},
+			    {"name": "NCCL_DEBUG", "value":"TRACE"},
+			    {"name": "NCCL_DEBUG_SUBSYS", "value":"ALL"},
+			    {"name": "LD_LIBRARY_PATH", "value":"/root/project/rdma/rdma-core/build/lib:/root/project/ai/nccl-tests/nccl/build/lib"},
+			    {"name": "NCCL_NET_GDR_LEVEL", "value":"SYS"}
+			],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"miDebuggerPath": "/usr/bin/gdb",
+			"setupCommands": [
+				{
+					"description": "Enable pretty-printing for gdb",
+					"text": "-enable-pretty-printing",
+					"ignoreFailures": true
+				},
+				{
+					"description": "Set Disassembly Flavor to Intel",
+					"text": "-gdb-set disassembly-flavor intel",
+					"ignoreFailures": true
+				}
+			]
+		},
+    ]
+}

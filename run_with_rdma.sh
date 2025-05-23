@@ -2,7 +2,7 @@
 export NCCL_IB_GID_INDEX=3
 export NCCL_DEBUG=TRACE
 export NCCL_LAUNCH_MODE=GROUP
-export LD_LIBRARY_PATH=/root/project/rdma/rdma-core/build/lib:/root/project/ai/nccl/build/lib
+export LD_LIBRARY_PATH=/root/project/rdma/rdma-core/build/lib:/root/project/ai/nccl-tests/nccl/build/lib
 export RANK=0
 export WORLD_SIZE=2
 export MASTER_ADDR=192.168.1.10
