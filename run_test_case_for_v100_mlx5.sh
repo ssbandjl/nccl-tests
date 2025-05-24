@@ -44,7 +44,7 @@ clear;mpirun -np 4 -H 192.168.1.10:1,192.168.1.11:1,192.168.2.10:1,192.168.2.11:
 
 clear;mpirun -np 4 -H 192.168.1.10:1,192.168.1.11:1,192.168.2.10:1,192.168.2.11:1 \
   -bind-to none -map-by slot \
-  -x NCCL_DEBUG=INFO \
+  -x NCCL_DEBUG=TRACE \
   -x NCCL_IB_DISABLE=0 \
   -x NCCL_NET=IB \
   -x NCCL_DEBUG_SUBSYS=NET \
