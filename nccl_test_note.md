@@ -1143,3 +1143,25 @@ https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html
 
 
 
+
+# build
+2,安装 nvidia-cuda-toolkit
+
+ apt install nvidia-cuda-toolkit
+
+3，安装openmpi
+apt install openmpi-bin libopenmpi-dev
+
+4，安装nccl-test
+export CUDA_HOME=/usr/lib/cuda
+export PATH=$CUDA_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+export MPI_HOME=/usr/include/x86_64-linux-gnu/openmpi/
+ln -s /usr/bin/nvcc /usr/lib/cuda/bin/nvcc
+
+注意，如上的路径要根据自己的实际情况修改
+
+git clone https://github.com/NVIDIA/nccl-tests.git
+cd nccl-test
+make MPI=1 MPI_HOME=$MPI_HOME CUDA_HOME=$CUDA_HOME NCCL_HOME=$NCCL_HOME
+
