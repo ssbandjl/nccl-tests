@@ -1,0 +1,1362 @@
+mpirun -np 4 -H 192.168.1.10:1,192.168.1.11:1,192.168.2.10:1,192.168.2.11:1 \
+  -bind-to none -map-by slot \
+  -x NCCL_DEBUG=INFO \
+  -x NCCL_IB_DISABLE=0 \
+  -x NCCL_NET=IB \
+  -x NCCL_DEBUG_SUBSYS=NET \
+  -x LD_LIBRARY_PATH=/root/project/rdma/rdma-core/build/lib:/root/project/ai/nccl-tests/nccl/build/lib \
+  --allow-run-as-root \
+  ./build/all_gather_perf -b 8 -e 1G -f 2 -g 1
+  
+run(), common.cu:967, # nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+run(), common.cu:973, #
+run(), common.cu:998, #  Rank  0 Group  0 Pid 1766944 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+run(), common.cu:998, #  Rank  1 Group  0 Pid 1766945 on     gdr114 device  1 [0x85] Tesla V100-SXM2-16GB
+run(), common.cu:998, #  Rank  2 Group  0 Pid  98893 on     gdr116 device  0 [0x08] Tesla V100-SXM2-16GB
+run(), common.cu:998, #  Rank  3 Group  0 Pid  98894 on     gdr116 device  1 [0x82] Tesla V100-SXM2-16GB
+gdr114:1766944:1766944 [0] showVersion, 544 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:1766945:1766945 [1] showVersion, 544 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:98893:98893 [0] NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:98894:98894 [1] NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:1766945:1766956 [1] openPluginLib, 102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+ncclIbInit(), transport/net_ib.cc:615, NCCL rdma dev_num:4
+gdr114:1766945:1766956 [1] ncclIbMakeVDeviceInternal, 557 NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
+ncclIbInit(), transport/net_ib.cc:691, Match dev:mlx5_0
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_1, 
+gdr114:1766945:1766956 [1] ncclIbMakeVDeviceInternal, 557 NCCL INFO NET/IB : Made virtual device [1] name=mlx5_2 speed=25000 ndevs=1
+ncclIbInit(), transport/net_ib.cc:691, Match dev:mlx5_2
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_3, 
+ncclIbInit(), transport/net_ib.cc:700, NCCL Match dev_num:2
+ncclIbInit(), transport/net_ib.cc:716, Using enp129s0f0
+gdr114:1766945:1766956 [1] ncclIbInit, 717 NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:1766944:1766955 [0] openPluginLib, 102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+ncclIbInit(), transport/net_ib.cc:615, NCCL rdma dev_num:4
+gdr114:1766944:1766955 [0] ncclIbMakeVDeviceInternal, 557 NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
+ncclIbInit(), transport/net_ib.cc:691, Match dev:mlx5_0
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_1, 
+gdr114:1766944:1766955 [0] ncclIbMakeVDeviceInternal, 557 NCCL INFO NET/IB : Made virtual device [1] name=mlx5_2 speed=25000 ndevs=1
+ncclIbInit(), transport/net_ib.cc:691, Match dev:mlx5_2
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_3, 
+ncclIbInit(), transport/net_ib.cc:700, NCCL Match dev_num:2
+ncclIbInit(), transport/net_ib.cc:716, Using enp129s0f0
+gdr114:1766944:1766955 [0] ncclIbInit, 717 NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr116:98894:98904 [1] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr116:98893:98903 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+ncclIbInit(), transport/net_ib.cc:615, NCCL rdma dev_num:4
+gdr116:98894:98904 [1] NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_1, 
+ncclIbInit(), transport/net_ib.cc:615, NCCL rdma dev_num:4
+gdr116:98893:98903 [0] NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
+gdr116:98894:98904 [1] NCCL INFO NET/IB : Made virtual device [1] name=mlx5_2 speed=25000 ndevs=1
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_3, 
+ncclIbInit(), transport/net_ib.cc:699, NCCL Match dev_num:2
+ncclIbInit(), transport/net_ib.cc:715, Using enp129s0f0
+gdr116:98894:98904 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_1, 
+gdr116:98893:98903 [0] NCCL INFO NET/IB : Made virtual device [1] name=mlx5_2 speed=25000 ndevs=1
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_3, 
+ncclIbInit(), transport/net_ib.cc:699, NCCL Match dev_num:2
+ncclIbInit(), transport/net_ib.cc:715, Using enp129s0f0
+gdr116:98893:98903 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr114:1766944:1766955 [0] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr114:1766944:1766955 [0] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr114:1766945:1766956 [1] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+gdr114:1766944:1766955 [0] ncclIbMakeVDeviceInternal, 557 NCCL INFO NET/IB : Made virtual device [2] name=mlx5_0 speed=25000 ndevs=1
+gdr114:1766944:1766955 [0] ncclIbMakeVDeviceInternal, 557 NCCL INFO NET/IB : Made virtual device [3] name=mlx5_2 speed=25000 ndevs=1
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr114:1766944:1766955 [0] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr114:1766944:1766955 [0] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr114:1766944:1766955 [0] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr114:1766944:1766955 [0] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'mlx5_2'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr114:1766945:1766956 [1] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+gdr114:1766945:1766956 [1] ncclIbMakeVDeviceInternal, 557 NCCL INFO NET/IB : Made virtual device [2] name=mlx5_0 speed=25000 ndevs=1
+gdr114:1766945:1766956 [1] ncclIbMakeVDeviceInternal, 557 NCCL INFO NET/IB : Made virtual device [3] name=mlx5_2 speed=25000 ndevs=1
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr114:1766945:1766956 [1] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr114:1766945:1766956 [1] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr114:1766945:1766956 [1] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr114:1766945:1766956 [1] ncclTopoPopulateNics, 1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'mlx5_2'
+ncclTopoGetSystem(), graph/topo.cc:1348, ncclTopoProcessNet, name:IB
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+gdr116:98894:98904 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+ncclTopoGetSystem(), graph/topo.cc:1348, ncclTopoProcessNet, name:IB
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+gdr116:98893:98903 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+gdr116:98894:98904 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+gdr116:98894:98904 [1] NCCL INFO NET/IB : Made virtual device [2] name=mlx5_0 speed=25000 ndevs=1
+gdr116:98894:98904 [1] NCCL INFO NET/IB : Made virtual device [3] name=mlx5_2 speed=25000 ndevs=1
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+gdr116:98894:98904 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+gdr116:98894:98904 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+gdr116:98894:98904 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+gdr116:98894:98904 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'mlx5_2'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+gdr116:98893:98903 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+gdr116:98893:98903 [0] NCCL INFO NET/IB : Made virtual device [2] name=mlx5_0 speed=25000 ndevs=1
+gdr116:98893:98903 [0] NCCL INFO NET/IB : Made virtual device [3] name=mlx5_2 speed=25000 ndevs=1
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+gdr116:98893:98903 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+gdr116:98893:98903 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+gdr116:98893:98903 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+gdr116:98893:98903 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'mlx5_2'
+run(), common.cu:1082, #
+run(), common.cu:1083, #                                                              out-of-place                       in-place          
+run(), common.cu:1084, #       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+run(), common.cu:1086, #        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+gdr114:1766945:1767139 [1] proxyConnInit, 1403 NCCL INFO New proxy recv connection 0 from local rank 1, transport 1
+gdr114:1766945:1767143 [1] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7454e8000d20
+gdr116:98894:98931 [1] NCCL INFO New proxy recv connection 0 from local rank 1, transport 1
+gdr116:98894:98935 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x787a54000d20
+gdr114:1766945:1767139 [1] proxyConnInit, 1403 NCCL INFO New proxy recv connection 1 from local rank 1, transport 1
+gdr114:1766945:1767143 [1] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7454e8000d98
+gdr116:98894:98931 [1] NCCL INFO New proxy recv connection 1 from local rank 1, transport 1
+gdr116:98894:98935 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x787a54000d98
+gdr114:1766945:1767139 [1] proxyConnInit, 1403 NCCL INFO New proxy recv connection 2 from local rank 1, transport 1
+gdr114:1766945:1767143 [1] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7454e8000e10
+gdr116:98894:98931 [1] NCCL INFO New proxy recv connection 2 from local rank 1, transport 1
+gdr116:98894:98935 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x787a54000e10
+gdr116:98894:98931 [1] NCCL INFO New proxy recv connection 3 from local rank 1, transport 1
+gdr116:98894:98935 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x787a54000e88
+gdr114:1766945:1767139 [1] proxyConnInit, 1403 NCCL INFO New proxy recv connection 3 from local rank 1, transport 1
+gdr114:1766945:1767143 [1] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7454e8000e88
+gdr116:98893:98930 [0] NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+gdr116:98893:98934 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c913c000d20
+gdr116:98893:98934 [0] NCCL INFO Channel 00/0 : 1[1] -> 2[0] [receive] via NET/IB/2
+gdr116:98893:98930 [0] NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+gdr116:98893:98934 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c913c000d98
+gdr116:98893:98934 [0] NCCL INFO Channel 01/0 : 1[1] -> 2[0] [receive] via NET/IB/3
+gdr116:98893:98930 [0] NCCL INFO New proxy recv connection 2 from local rank 0, transport 2
+gdr116:98893:98934 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c913c000e10
+gdr116:98893:98934 [0] NCCL INFO Channel 02/0 : 1[1] -> 2[0] [receive] via NET/IB/2
+gdr116:98893:98930 [0] NCCL INFO New proxy recv connection 3 from local rank 0, transport 2
+gdr116:98893:98934 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c913c000e88
+gdr116:98893:98934 [0] NCCL INFO Channel 03/0 : 1[1] -> 2[0] [receive] via NET/IB/3
+gdr116:98893:98930 [0] NCCL INFO New proxy send connection 4 from local rank 0, transport 1
+gdr116:98893:98934 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c913c000f00
+gdr114:1766944:1767140 [0] proxyConnInit, 1403 NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+gdr114:1766944:1767144 [0] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x71af84000d20
+gdr116:98893:98930 [0] NCCL INFO New proxy send connection 5 from local rank 0, transport 1
+gdr116:98893:98934 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c913c000f78
+gdr114:1766944:1767144 [0] recvSetup, 263 NCCL INFO Channel 00/0 : 3[1] -> 0[0] [receive] via NET/IB/2
+gdr114:1766944:1767140 [0] proxyConnInit, 1403 NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+gdr114:1766944:1767144 [0] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x71af84000d98
+gdr116:98893:98930 [0] NCCL INFO New proxy send connection 6 from local rank 0, transport 1
+gdr114:1766944:1767144 [0] recvSetup, 263 NCCL INFO Channel 01/0 : 3[1] -> 0[0] [receive] via NET/IB/3
+gdr114:1766944:1767140 [0] proxyConnInit, 1403 NCCL INFO New proxy recv connection 2 from local rank 0, transport 2
+gdr114:1766944:1767144 [0] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x71af84000e10
+gdr116:98893:98934 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c913c000ff0
+gdr114:1766944:1767144 [0] recvSetup, 263 NCCL INFO Channel 02/0 : 3[1] -> 0[0] [receive] via NET/IB/2
+gdr114:1766944:1767140 [0] proxyConnInit, 1403 NCCL INFO New proxy recv connection 3 from local rank 0, transport 2
+gdr114:1766944:1767144 [0] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x71af84000e88
+gdr114:1766944:1767144 [0] recvSetup, 263 NCCL INFO Channel 03/0 : 3[1] -> 0[0] [receive] via NET/IB/3
+gdr114:1766944:1767140 [0] proxyConnInit, 1403 NCCL INFO New proxy send connection 4 from local rank 0, transport 1
+gdr114:1766944:1767144 [0] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x71af84000f00
+gdr116:98893:98930 [0] NCCL INFO New proxy send connection 7 from local rank 0, transport 1
+gdr116:98893:98934 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c913c001068
+gdr114:1766944:1767140 [0] proxyConnInit, 1403 NCCL INFO New proxy send connection 5 from local rank 0, transport 1
+gdr114:1766944:1767144 [0] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x71af84000f78
+gdr114:1766944:1767140 [0] proxyConnInit, 1403 NCCL INFO New proxy send connection 6 from local rank 0, transport 1
+gdr114:1766944:1767144 [0] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x71af84000ff0
+gdr114:1766944:1767140 [0] proxyConnInit, 1403 NCCL INFO New proxy send connection 7 from local rank 0, transport 1
+gdr114:1766944:1767144 [0] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x71af84001068
+gdr116:98894:98931 [1] NCCL INFO New proxy send connection 4 from local rank 1, transport 2
+gdr116:98894:98935 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x787a54000f00
+gdr116:98894:98935 [1] NCCL INFO Channel 00/0 : 3[1] -> 0[0] [send] via NET/IB/2
+gdr116:98894:98931 [1] NCCL INFO New proxy send connection 5 from local rank 1, transport 2
+gdr116:98894:98935 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x787a54000f78
+gdr116:98894:98935 [1] NCCL INFO Channel 01/0 : 3[1] -> 0[0] [send] via NET/IB/3
+gdr116:98894:98931 [1] NCCL INFO New proxy send connection 6 from local rank 1, transport 2
+gdr116:98894:98935 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x787a54000ff0
+gdr116:98894:98935 [1] NCCL INFO Channel 02/0 : 3[1] -> 0[0] [send] via NET/IB/2
+gdr116:98894:98931 [1] NCCL INFO New proxy send connection 7 from local rank 1, transport 2
+gdr116:98894:98935 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x787a54001068
+gdr116:98894:98935 [1] NCCL INFO Channel 03/0 : 3[1] -> 0[0] [send] via NET/IB/3
+ncclIbConnect(), transport/net_ib.cc:1246, NCCL RDMA Client connect
+ncclIbConnect(), transport/net_ib.cc:1246, NCCL RDMA Client connect
+ncclIbConnect(), transport/net_ib.cc:1246, NCCL RDMA Client connect
+ncclIbConnect(), transport/net_ib.cc:1246, NCCL RDMA Client connect
+gdr114:1766945:1767139 [1] proxyConnInit, 1403 NCCL INFO New proxy send connection 4 from local rank 1, transport 2
+gdr114:1766945:1767143 [1] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7454e8000f00
+gdr114:1766945:1767143 [1] sendSetup, 217 NCCL INFO Channel 00/0 : 1[1] -> 2[0] [send] via NET/IB/2
+gdr114:1766945:1767139 [1] proxyConnInit, 1403 NCCL INFO New proxy send connection 5 from local rank 1, transport 2
+gdr114:1766945:1767143 [1] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7454e8000f78
+gdr114:1766945:1767143 [1] sendSetup, 217 NCCL INFO Channel 01/0 : 1[1] -> 2[0] [send] via NET/IB/3
+gdr114:1766945:1767139 [1] proxyConnInit, 1403 NCCL INFO New proxy send connection 6 from local rank 1, transport 2
+gdr114:1766945:1767143 [1] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7454e8000ff0
+gdr114:1766945:1767143 [1] sendSetup, 217 NCCL INFO Channel 02/0 : 1[1] -> 2[0] [send] via NET/IB/2
+gdr114:1766945:1767139 [1] proxyConnInit, 1403 NCCL INFO New proxy send connection 7 from local rank 1, transport 2
+gdr114:1766945:1767143 [1] ncclProxyConnect, 1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7454e8001068
+gdr114:1766945:1767143 [1] sendSetup, 217 NCCL INFO Channel 03/0 : 1[1] -> 2[0] [send] via NET/IB/3
+ncclIbConnect(), transport/net_ib.cc:1248, NCCL RDMA Client connect
+ncclIbConnect(), transport/net_ib.cc:1248, NCCL RDMA Client connect
+ncclIbConnect(), transport/net_ib.cc:1248, NCCL RDMA Client connect
+ncclIbConnect(), transport/net_ib.cc:1248, NCCL RDMA Client connect
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1098, NCCL init ib commom dev base, create cq
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+gdr116:98894:98931 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 184 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x180dcb fifoLkey=0x180dcb
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbInitCommDevBase(), transport/net_ib.cc:1098, NCCL init ib commom dev base, create cq
+gdr114:1766945:1767139 [1] ncclIbConnect, 1364 NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 184 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/A02A8C0FFFF0000) fifoRkey=0x182cea fifoLkey=0x182cea
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1098, NCCL init ib commom dev base, create cq
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+gdr116:98894:98931 [1] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 184 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B02A8C0FFFF0000) fifoRkey=0x1802c0 fifoLkey=0x1802c0
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+gdr114:1766945:1767139 [1] ncclIbConnect, 1364 NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 184 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x1819d7 fifoLkey=0x1819d7
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+gdr116:98894:98931 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 185 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1098, NCCL init ib commom dev base, create cq
+gdr114:1766945:1767139 [1] ncclIbConnect, 1459 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 185 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+gdr116:98894:98931 [1] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 185 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+gdr114:1766945:1767139 [1] ncclIbConnect, 1459 NCCL INFO NET/IB: IbDev 1 Port 1 qpn 185 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1098, NCCL init ib commom dev base, create cq
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+gdr116:98894:98931 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 187 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x1ffcba fifoLkey=0x1ffcba
+ncclIbInitCommDevBase(), transport/net_ib.cc:1098, NCCL init ib commom dev base, create cq
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+gdr114:1766945:1767139 [1] ncclIbConnect, 1364 NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 187 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/A02A8C0FFFF0000) fifoRkey=0x1817d5 fifoLkey=0x1817d5
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+gdr116:98894:98931 [1] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 187 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B02A8C0FFFF0000) fifoRkey=0x181ad8 fifoLkey=0x181ad8
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1098, NCCL init ib commom dev base, create cq
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+gdr114:1766945:1767139 [1] ncclIbConnect, 1364 NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 187 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x1810ce fifoLkey=0x1810ce
+gdr116:98894:98931 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 188 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+ncclIbInitCommDevBase(), transport/net_ib.cc:1098, NCCL init ib commom dev base, create cq
+gdr114:1766945:1767139 [1] ncclIbConnect, 1459 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 188 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+gdr116:98894:98931 [1] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 188 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+gdr114:1766945:1767139 [1] ncclIbConnect, 1459 NCCL INFO NET/IB: IbDev 1 Port 1 qpn 188 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+ncclIbAccept(), transport/net_ib.cc:1539, NCCL RDMA server accept
+ncclIbAccept(), transport/net_ib.cc:1537, NCCL RDMA server accept
+TimeTest(), common.cu:610,            0             0     float    none      -1BenchTime(), common.cu:561,      0.63    0.00    0.00      0BenchTime(), common.cu:561,      0.40    0.00    0.00      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,            0             0     float    none      -1BenchTime(), common.cu:561,      0.41    0.00    0.00      0BenchTime(), common.cu:561,      0.35    0.00    0.00      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,            0             0     float    none      -1BenchTime(), common.cu:561,      0.37    0.00    0.00      0BenchTime(), common.cu:561,      0.57    0.00    0.00      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,           64             4     float    none      -1BenchTime(), common.cu:561,     477.8    0.00    0.00      0BenchTime(), common.cu:561,     466.0    0.00    0.00      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,          128             8     float    none      -1BenchTime(), common.cu:561,     475.5    0.00    0.00      0BenchTime(), common.cu:561,     468.2    0.00    0.00      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,          256            16     float    none      -1BenchTime(), common.cu:561,     476.5    0.00    0.00      0BenchTime(), common.cu:561,     468.6    0.00    0.00      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,          512            32     float    none      -1BenchTime(), common.cu:561,     479.1    0.00    0.00      0BenchTime(), common.cu:561,     467.7    0.00    0.00      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,         1024            64     float    none      -1BenchTime(), common.cu:561,     460.0    0.00    0.00      0BenchTime(), common.cu:561,     452.7    0.00    0.00      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,         2048           128     float    none      -1BenchTime(), common.cu:561,     462.0    0.00    0.00      0BenchTime(), common.cu:561,     453.4    0.00    0.00      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,         4096           256     float    none      -1BenchTime(), common.cu:561,     472.5    0.01    0.01      0BenchTime(), common.cu:561,     462.0    0.01    0.01      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,         8192           512     float    none      -1BenchTime(), common.cu:561,     489.1    0.02    0.01      0BenchTime(), common.cu:561,     482.8    0.02    0.01      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,        16384          1024     float    none      -1BenchTime(), common.cu:561,     493.2    0.03    0.02      0BenchTime(), common.cu:561,     485.5    0.03    0.03      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,        32768          2048     float    none      -1BenchTime(), common.cu:561,     499.4    0.07    0.05      0BenchTime(), common.cu:561,     489.6    0.07    0.05      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,        65536          4096     float    none      -1BenchTime(), common.cu:561,     513.5    0.13    0.10      0BenchTime(), common.cu:561,     507.7    0.13    0.10      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,       131072          8192     float    none      -1BenchTime(), common.cu:561,     621.5    0.21    0.16      0BenchTime(), common.cu:561,     607.4    0.22    0.16      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,       262144         16384     float    none      -1BenchTime(), common.cu:561,     866.3    0.30    0.23      0BenchTime(), common.cu:561,     852.0    0.31    0.23      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,       524288         32768     float    none      -1BenchTime(), common.cu:561,    3520.8    0.15    0.11      0BenchTime(), common.cu:561,     975.1    0.54    0.40      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,      1048576         65536     float    none      -1BenchTime(), common.cu:561,    1401.8    0.75    0.56      0BenchTime(), common.cu:561,    1362.1    0.77    0.58      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,      2097152        131072     float    none      -1BenchTime(), common.cu:561,    1942.8    1.08    0.81      0BenchTime(), common.cu:561,    1861.4    1.13    0.84      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,      4194304        262144     float    none      -1BenchTime(), common.cu:561,    3094.3    1.36    1.02      0BenchTime(), common.cu:561,    2925.5    1.43    1.08      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,      8388608        524288     float    none      -1BenchTime(), common.cu:561,    5407.8    1.55    1.16      0BenchTime(), common.cu:561,    5125.7    1.64    1.23      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,     16777216       1048576     float    none      -1BenchTime(), common.cu:561,     10134    1.66    1.24      0BenchTime(), common.cu:561,    9533.6    1.76    1.32      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,     33554432       2097152     float    none      -1BenchTime(), common.cu:561,     19501    1.72    1.29      0BenchTime(), common.cu:561,     18432    1.82    1.37      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,     67108864       4194304     float    none      -1BenchTime(), common.cu:561,     38787    1.73    1.30      0BenchTime(), common.cu:561,     36552    1.84    1.38      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,    134217728       8388608     float    none      -1BenchTime(), common.cu:561,     77130    1.74    1.31      0BenchTime(), common.cu:561,     72688    1.85    1.38      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,    268435456      16777216     float    none      -1BenchTime(), common.cu:561,    153922    1.74    1.31      0BenchTime(), common.cu:561,    145053    1.85    1.39      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,    536870912      33554432     float    none      -1BenchTime(), common.cu:561,    307433    1.75    1.31      0BenchTime(), common.cu:561,    289809    1.85    1.39      0TimeTest(), common.cu:613, 
+TimeTest(), common.cu:610,   1073741824      67108864     float    none      -1BenchTime(), common.cu:561,    614810    1.75    1.31      0BenchTime(), common.cu:561,    579261    1.85    1.39      0TimeTest(), common.cu:613, 
+run(), common.cu:1174, # Out of bounds values : 0 OK
+run(), common.cu:1175, # Avg bus bandwidth    : 0.493556 
+run(), common.cu:1176, #
+run(), common.cu:1182, 
+root@gdr114:~/project/ai/nccl-tests#
