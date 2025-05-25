@@ -4,4 +4,9 @@ export LD_LIBRARY_PATH=/root/project/rdma/dpu_user_rdma/build/lib:/root/project/
 export HUGE_PAGE_NUM=100
 export XT_CQ_INLINE_CQE=0
 
+export NCCL_DEBUG=TRACE
+export NCCL_IB_DISABLE=0
+export NCCL_NET=IB
+export NCCL_DEBUG_SUBSYS=ALL
+
 /root/project/ai/nccl-tests/build/all_gather_perf -b 8 -e 1G -f 2 -g 1
