@@ -1,4 +1,17 @@
 xt:
+--mca btl_openib_use_eager_rdma 1 --mca btl_openib_max_inline_data 256
+
+
+mpirun -np 2 -H 192.168.1.10:1,192.168.1.11:1 \
+  -bind-to none -map-by slot \
+  --mca btl_openib_use_eager_rdma 1 --mca btl_openib_max_inline_data 256 \
+  -x NCCL_DEBUG=INFO \
+  -x NCCL_IB_DISABLE=0 \
+  -x NCCL_NET=IB \
+  -x NCCL_DEBUG_SUBSYS=NET \
+  --allow-run-as-root \
+  /root/project/ai/nccl-tests/run_nccl_test.sh
+
 mpirun -np 2 -H 192.168.1.10:1,192.168.1.11:1 \
   -bind-to none -map-by slot \
   -x NCCL_DEBUG=INFO \
