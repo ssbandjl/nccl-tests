@@ -1,0 +1,103 @@
+root@s95:~/project/ai/nccl-tests# mpirun -np 2 -H 192.168.1.10:1,192.168.1.11:1   -bind-to none -map-by slot   -x NCCL_DEBUG=INFO   -x NCCL_IB_DISABLE=0   -x NCCL_NET=IB   -x NCCL_DEBUG_SUBSYS=NET   -x LD_LIBRARY_PATH=/root/project/rdma/rdma-core/build/lib:/root/project/ai/nccl-tests/nccl/build/lib   --allow-run-as-root   ./build/all_gather_perf -b 8 -e 1G -f 2 -g 1
+No protocol specified
+No protocol specified
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            s95
+  Device name:           mlx5_0
+  Device vendor ID:      0x02c9
+  Device vendor part ID: 4127
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           s95
+  Local device:         mlx5_0
+  Local port:           1
+  CPCs attempted:       udcm
+--------------------------------------------------------------------------
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 validation: 1 
+#
+# Using devices
+#   Rank  0 Pid 307265 on        s95 device  0 [0x84] Tesla V100-SXM2-16GB
+#   Rank  1 Pid 268939 on        s96 device  0 [0x84] Tesla V100-SXM2-16GB
+s95:307265:307265 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+s95:307265:307265 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+s95:307265:307265 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE ; OOB enp5s0:10.20.10.95<0>
+s96:268939:268939 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+s96:268939:268939 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+s96:268939:268939 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE ; OOB enp5s0:10.20.10.96<0>
+NCCL version 2.5.7+cudaCUDA_MAJOR.CUDA_MINOR
+s95:307265:307281 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0' (no module)
+s96:268939:268946 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0' (no module)
+s95:307265:307281 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 84000 / HCA 0 (distance 4 >= 2)
+s96:268939:268946 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 84000 / HCA 0 (distance 4 >= 2)
+s95:307265:307281 [0] NCCL INFO Ring 00 : 1[84000] -> 0[84000] [receive] via NET/IB/0
+s96:268939:268946 [0] NCCL INFO Ring 00 : 0[84000] -> 1[84000] [receive] via NET/IB/0
+s95:307265:307281 [0] NCCL INFO Ring 00 : 0[84000] -> 1[84000] [send] via NET/IB/0
+ncclIbConnect(), transport/net_ib.cc:406, NCCL RDMA Client connect
+s96:268939:268946 [0] NCCL INFO Ring 00 : 1[84000] -> 0[84000] [send] via NET/IB/0
+ncclIbConnect(), transport/net_ib.cc:406, NCCL RDMA Client connect
+s95:307265:307281 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 390 mtu 3 GID 0 (80FE/48A5EAFEFF739DE2)
+s96:268939:268946 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 384 mtu 3 GID 0 (80FE/9CA2C4FEFF739DE2)
+s95:307265:307281 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 84000 / HCA 0 (distance 4 >= 2)
+s96:268939:268946 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 84000 / HCA 0 (distance 4 >= 2)
+s95:307265:307281 [0] NCCL INFO Ring 01 : 1[84000] -> 0[84000] [receive] via NET/IB/0
+s96:268939:268946 [0] NCCL INFO Ring 01 : 0[84000] -> 1[84000] [receive] via NET/IB/0
+s95:307265:307281 [0] NCCL INFO Ring 01 : 0[84000] -> 1[84000] [send] via NET/IB/0
+ncclIbConnect(), transport/net_ib.cc:406, NCCL RDMA Client connect
+s96:268939:268946 [0] NCCL INFO Ring 01 : 1[84000] -> 0[84000] [send] via NET/IB/0
+ncclIbConnect(), transport/net_ib.cc:406, NCCL RDMA Client connect
+s95:307265:307281 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 392 mtu 3 GID 0 (80FE/48A5EAFEFF739DE2)
+s96:268939:268946 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 386 mtu 3 GID 0 (80FE/9CA2C4FEFF739DE2)
+#
+#                                             out-of-place                       in-place          
+#       size         count    type     time   algbw   busbw  error     time   algbw   busbw  error
+#        (B)    (elements)             (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+[s95:307246] 3 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[s95:307246] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[s95:307246] 1 more process has sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+           8             1   float    95.31    0.00    0.00  0e+00    91.49    0.00    0.00  0e+00
+          16             2   float    97.32    0.00    0.00  0e+00    92.93    0.00    0.00  0e+00
+          32             4   float    97.60    0.00    0.00  0e+00    92.78    0.00    0.00  0e+00
+          64             8   float    98.00    0.00    0.00  0e+00    92.77    0.00    0.00  0e+00
+         128            16   float    97.32    0.00    0.00  0e+00    92.80    0.00    0.00  0e+00
+         256            32   float    98.72    0.00    0.00  0e+00    93.14    0.00    0.00  0e+00
+         512            64   float    96.68    0.01    0.00  0e+00    91.48    0.01    0.00  0e+00
+        1024           128   float    96.32    0.01    0.01  0e+00    91.54    0.01    0.01  0e+00
+        2048           256   float    102.8    0.02    0.01  0e+00    98.38    0.02    0.01  0e+00
+        4096           512   float    110.0    0.04    0.02  0e+00    104.8    0.04    0.02  0e+00
+        8192          1024   float    112.5    0.07    0.04  0e+00    107.8    0.08    0.04  0e+00
+       16384          2048   float    122.5    0.13    0.07  0e+00    117.0    0.14    0.07  0e+00
+       32768          4096   float    155.4    0.21    0.11  0e+00    152.7    0.21    0.11  0e+00
+       65536          8192   float    273.1    0.24    0.12  0e+00    270.7    0.24    0.12  0e+00
+      131072         16384   float    297.0    0.44    0.22  0e+00    273.1    0.48    0.24  0e+00
+      262144         32768   float    418.7    0.63    0.31  0e+00    376.6    0.70    0.35  0e+00
+      524288         65536   float    567.3    0.92    0.46  0e+00    499.3    1.05    0.53  0e+00
+     1048576        131072   float    882.4    1.19    0.59  0e+00    750.4    1.40    0.70  0e+00
+     2097152        262144   float   1524.7    1.38    0.69  0e+00   1307.7    1.60    0.80  0e+00
+     4194304        524288   float   2865.4    1.46    0.73  0e+00   2477.4    1.69    0.85  0e+00
+     8388608       1048576   float   5525.0    1.52    0.76  0e+00   4672.8    1.80    0.90  0e+00
+    16777216       2097152   float    10866    1.54    0.77  0e+00   9307.3    1.80    0.90  0e+00
+    33554432       4194304   float    21562    1.56    0.78  0e+00    18310    1.83    0.92  0e+00
+    67108864       8388608   float    43011    1.56    0.78  0e+00    36375    1.84    0.92  0e+00
+   134217728      16777216   float    85494    1.57    0.78  0e+00    71521    1.88    0.94  0e+00
+   268435456      33554432   float   170595    1.57    0.79  0e+00   142784    1.88    0.94  0e+00
+   536870912      67108864   float   340830    1.58    0.79  0e+00   284234    1.89    0.94  0e+00
+  1073741824     134217728   float   682771    1.57    0.79  0e+00   566460    1.90    0.95  0e+00
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.372466 
+#
+root@s95:~/project/ai/nccl-tests# 
