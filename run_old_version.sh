@@ -9,6 +9,7 @@ mpirun -np 2 -H 192.168.1.10:1,192.168.1.11:1 \
   -x NCCL_IB_DISABLE=0 \
   -x NCCL_NET=IB \
   -x NCCL_DEBUG_SUBSYS=NET \
+  -x LD_LIBRARY_PATH=/root/project/ai/nccl-tests/nccl/build/lib:${LD_LIBRARY_PATH} \
   --allow-run-as-root \
   /root/project/ai/nccl-tests/run_nccl_test.sh
 

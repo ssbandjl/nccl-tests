@@ -566,6 +566,12 @@ testResult_t AllocateBuffs(void **sendbuff, size_t sendBytes, void **recvbuff, s
 testResult_t run(); // Main function
 
 int main(int argc, char* argv[]) {
+
+    int version;
+    
+    ncclGetVersion(&version);
+    printf("NCCL version: %d.%d.%d\n", version / 1000, (version % 1000) / 100, version % 100);
+
   // Make sure everyline is flushed so that we see the progress of the test
   setlinebuf(stdout);
 
