@@ -163,6 +163,7 @@ nccl_build(){
 }
 
 nccl_test_build(){
+    nccl_build
     cd /root/project/ai/nccl-tests/
     ./build_old.sh
     cd -
