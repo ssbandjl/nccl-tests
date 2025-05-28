@@ -158,3 +158,20 @@ xilinx(){
 dm(){
 	dmesg -wT
 }
+
+nvidia_topo(){
+	run_cmd "nvidia-smi"
+}
+
+nccl_build(){
+    cd /root/project/ai/nccl-tests/nccl/
+    ./build.sh
+    cd -
+}
+
+nccl_test_build(){
+    nccl_build
+    cd /root/project/ai/nccl-tests/
+    ./build.sh
+    cd -
+}
