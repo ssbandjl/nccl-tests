@@ -8,6 +8,7 @@ export NCCL_DEBUG=TRACE
 export NCCL_IB_DISABLE=0
 export NCCL_NET=IB
 export NCCL_DEBUG_SUBSYS=ALL
+export NCCL_IB_GID_INDEX=1
 
 echo  'module xt_rdma +p' > /sys/kernel/debug/dynamic_debug/control
 
