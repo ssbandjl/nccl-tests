@@ -1,0 +1,293 @@
+NCCL version: 2.5.7
+NCCL version: 2.5.7
+[s96] tid:24484, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:98, pid:8096 not exists, now remove huge file:/dev/hugepages/huge_file_8096_1748501219_0x555abba26700_282874260
+[s96] tid:24484, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:98, pid:8096 not exists, now remove huge file:/dev/hugepages/huge_file_8096_1748501219_0x555abab25f60_1233780062
+[s96] tid:24484, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_24484_1748566167_0x55a204715f60_1397675717
+[s95] tid:34986, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:98, pid:8072 not exists, now remove huge file:/dev/hugepages/huge_file_8072_1748501219_0x564d78e49d10_886707947
+[s95] tid:34986, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:98, pid:8072 not exists, now remove huge file:/dev/hugepages/huge_file_8072_1748501219_0x564d78adee00_2121394546
+[s95] tid:34986, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_34986_1748566167_0x564dfc46ee00_247806361
+[s96] tid:24484, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:258, Create cq, cqn:27, need_cqe_num:2, ret_cqe_num:1023
+[s96] tid:24484, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:27, s_cqn:27, r_cqn:27
+[s95] tid:34986, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:258, Create cq, cqn:27, need_cqe_num:2, ret_cqe_num:1023
+[s95] tid:34986, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:27, s_cqn:27, r_cqn:27
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 validation: 1 
+#
+# Using devices
+#   Rank  0 Pid  34986 on        s95 device  0 [0x84] Tesla V100-SXM2-16GB
+#   Rank  1 Pid  24484 on        s96 device  0 [0x84] Tesla V100-SXM2-16GB
+s95:34986:34986 [0] bootstrapNetInit(), bootstrap.cc:43 NCCL INFO Bootstrap : Using [0]enp5s0:10.20.10.95<0> [1]ens4f0:192.168.1.10<0> [2]dpu_port0:fe80::481c:d316:23c8:7aea%dpu_port0<0> [3]dpu_port1:fe80::78a4:ffd7:f251:16ca%dpu_port1<0> [4]dpu_port2:fe80::195a:4363:5352:942%dpu_port2<0> [5]dpu_port3:fe80::3e38:5153:69af:f3ae%dpu_port3<0> [6]dpu_port4:fe80::735c:94b3:dfb4:e7b2%dpu_port4<0> [7]dpu_port5:fe80::4d33:2af2:bd33:9896%dpu_port5<0> [8]dpu_port6:fe80::6931:303c:c4c:d40d%dpu_port6<0> [9]dpu_port7:fe80::d24a:7d4a:bfbe:5e67%dpu_port7<0>
+s95:34986:34986 [0] initNetPlugin(), init.cc:63 NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+s95:34986:34986 [0] ncclParamIbDisable(), transport/net_ib.cc:86 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+[s95] tid:34986, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_34986_1748566167_0x564dfc7d9d40_1481127313
+s95:34986:34986 [0] ncclIbInit(), transport/net_ib.cc:171 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE ; OOB enp5s0:10.20.10.95<0>
+NCCL version 2.5.7+cudaCUDA_MAJOR.CUDA_MINOR
+s96:24484:24484 [0] bootstrapNetInit(), bootstrap.cc:43 NCCL INFO Bootstrap : Using [0]enp5s0:10.20.10.96<0> [1]ens4f0:192.168.1.11<0> [2]dpu_port0:fe80::6f3b:5e96:1b04:fc00%dpu_port0<0> [3]dpu_port1:fe80::86c1:c266:2c8a:1ec%dpu_port1<0> [4]dpu_port2:fe80::65d3:ef6:7f19:7145%dpu_port2<0> [5]dpu_port3:fe80::990e:d692:3baa:1754%dpu_port3<0> [6]dpu_port4:fe80::d930:b51d:2765:acf4%dpu_port4<0> [7]dpu_port5:fe80::164c:1699:783e:f0b7%dpu_port5<0> [8]dpu_port6:fe80::ddbd:d94d:1455:7ed4%dpu_port6<0> [9]dpu_port7:fe80::c2bc:a669:661c:336f%dpu_port7<0>
+s96:24484:24484 [0] initNetPlugin(), init.cc:63 NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+s96:24484:24484 [0] ncclParamIbDisable(), transport/net_ib.cc:86 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+[s96] tid:24484, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_24484_1748566168_0x55a205616600_524940343
+s96:24484:24484 [0] ncclIbInit(), transport/net_ib.cc:171 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE ; OOB enp5s0:10.20.10.96<0>
+s95:34986:35000 [0] setCpuAffinity(), init.cc:721 NCCL INFO Setting affinity for GPU 0 to ff,ffc0000f,fffc0000
+s96:24484:24499 [0] setCpuAffinity(), init.cc:721 NCCL INFO Setting affinity for GPU 0 to ff,ffc0000f,fffc0000
+s95:34986:35000 [0] ncclIbPtrSupport(), transport/net_ib.cc:211 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0' (no module)
+s96:24484:24499 [0] ncclIbPtrSupport(), transport/net_ib.cc:211 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0' (no module)
+s95:34986:35000 [0] getCpuWidths(), graph/topo.cc:146 NCCL INFO Intel CPU (PCI 12, InterCpu 8)
+s96:24484:24499 [0] getCpuWidths(), graph/topo.cc:146 NCCL INFO Intel CPU (PCI 12, InterCpu 8)
+s95:34986:35000 [0] ncclTopoComputeNetInfo(), graph/topo.cc:414 NCCL INFO /sys/devices/pci0000:00/0000:00:03.0/0000:03:00.0 -> 0/0/0/0
+s96:24484:24499 [0] ncclTopoComputeNetInfo(), graph/topo.cc:414 NCCL INFO /sys/devices/pci0000:00/0000:00:03.0/0000:03:00.0 -> 0/0/0/0
+s95:34986:35000 [0] ncclTopoPrint(), graph/topo.cc:523 NCCL INFO === System : maxWidth 12 maxSpeed 12 ===
+s95:34986:35000 [0] ncclTopoPrintRec(), graph/topo.cc:498 NCCL INFO CPU/1
+s95:34986:35000 [0] ncclTopoPrintRec(), graph/topo.cc:498 NCCL INFO + PCI[12] - GPU/84000 (0)
+s95:34986:35000 [0] ncclTopoPrintRec(), graph/topo.cc:515 NCCL INFO + QPI[ 8] - CPU/0
+s95:34986:35000 [0] ncclTopoPrintRec(), graph/topo.cc:498 NCCL INFO CPU/0
+s95:34986:35000 [0] ncclTopoPrintRec(), graph/topo.cc:498 NCCL INFO + PCI[12] - NIC/0
+s95:34986:35000 [0] ncclTopoPrintRec(), graph/topo.cc:515 NCCL INFO             + NET[12] - NET/0 (0)
+s95:34986:35000 [0] ncclTopoPrintRec(), graph/topo.cc:515 NCCL INFO + QPI[ 8] - CPU/1
+s95:34986:35000 [0] ncclTopoPrint(), graph/topo.cc:526 NCCL INFO ==========================================
+s96:24484:24499 [0] ncclTopoPrint(), graph/topo.cc:523 NCCL INFO === System : maxWidth 12 maxSpeed 12 ===
+s96:24484:24499 [0] ncclTopoPrintRec(), graph/topo.cc:498 NCCL INFO CPU/1
+s96:24484:24499 [0] ncclTopoPrintRec(), graph/topo.cc:498 NCCL INFO + PCI[12] - GPU/84000 (1)
+s96:24484:24499 [0] ncclTopoPrintRec(), graph/topo.cc:515 NCCL INFO + QPI[ 8] - CPU/0
+s95:34986:35000 [0] printNodePaths(), graph/paths.cc:128 NCCL INFO GPU/84000 :GPU/84000 (0/5000/0) CPU/1 (1/12/2) CPU/0 (2/8/3) NET/0 (4/8/3) 
+s95:34986:35000 [0] printNodePaths(), graph/paths.cc:128 NCCL INFO NET/0 :GPU/84000 (4/8/3) CPU/1 (3/8/3) CPU/0 (2/12/2) NET/0 (0/5000/0) 
+s96:24484:24499 [0] ncclTopoPrintRec(), graph/topo.cc:498 NCCL INFO CPU/0
+s96:24484:24499 [0] ncclTopoPrintRec(), graph/topo.cc:498 NCCL INFO + PCI[12] - NIC/0
+s96:24484:24499 [0] ncclTopoPrintRec(), graph/topo.cc:515 NCCL INFO             + NET[12] - NET/0 (0)
+s96:24484:24499 [0] ncclTopoPrintRec(), graph/topo.cc:515 NCCL INFO + QPI[ 8] - CPU/1
+s96:24484:24499 [0] ncclTopoPrint(), graph/topo.cc:526 NCCL INFO ==========================================
+s96:24484:24499 [0] printNodePaths(), graph/paths.cc:128 NCCL INFO GPU/84000 :GPU/84000 (0/5000/0) CPU/1 (1/12/2) CPU/0 (2/8/3) NET/0 (4/8/3) 
+s96:24484:24499 [0] printNodePaths(), graph/paths.cc:128 NCCL INFO NET/0 :GPU/84000 (4/8/3) CPU/1 (3/8/3) CPU/0 (2/12/2) NET/0 (0/5000/0) 
+s95:34986:35000 [0] ncclTopoPrintGraph(), graph/search.cc:567 NCCL INFO Pattern 3, crossNic 0, nChannels 1, speed 12/6, nvlink 1, type 3, sameChannels 1
+s96:24484:24499 [0] ncclTopoPrintGraph(), graph/search.cc:567 NCCL INFO Pattern 3, crossNic 0, nChannels 1, speed 12/6, nvlink 1, type 3, sameChannels 1
+s96:24484:24499 [0] ncclTopoPrintGraph(), graph/search.cc:586 NCCL INFO  0 : NET/0 GPU/1 NET/0
+s95:34986:35000 [0] ncclTopoPrintGraph(), graph/search.cc:586 NCCL INFO  0 : NET/0 GPU/0 NET/0
+s95:34986:35000 [0] ncclTopoPrintGraph(), graph/search.cc:567 NCCL INFO Pattern 4, crossNic 0, nChannels 1, speed 6/6, nvlink 1, type 3, sameChannels 1
+s96:24484:24499 [0] ncclTopoPrintGraph(), graph/search.cc:567 NCCL INFO Pattern 4, crossNic 0, nChannels 1, speed 6/6, nvlink 1, type 3, sameChannels 1
+s96:24484:24499 [0] ncclTopoPrintGraph(), graph/search.cc:586 NCCL INFO  0 : NET/0 GPU/1 NET/0
+s95:34986:35000 [0] ncclTopoPrintGraph(), graph/search.cc:586 NCCL INFO  0 : NET/0 GPU/0 NET/0
+s95:34986:35000 [0] dumpLine(), graph/rings.cc:19 NCCL INFO Channel 00/02 :    0   1
+s95:34986:35000 [0] dumpLine(), graph/rings.cc:19 NCCL INFO Channel 01/02 :    0   1
+s95:34986:35000 [0] ncclSetThresholds(), graph/tuning.cc:85 NCCL INFO Threads per block : 512/640/256
+s95:34986:35000 [0] ncclSetThresholds(), graph/tuning.cc:170 NCCL INFO Latency/AlgBw | Tree/    LL | Tree/ LL128 | Tree/Simple | Ring/    LL | Ring/ LL128 | Ring/Simple |
+s95:34986:35000 [0] ncclSetThresholds(), graph/tuning.cc:180 NCCL INFO     Broadcast |    0.0/  0.0|    0.0/  0.0|    0.0/  0.0|    4.5/  1.5|    6.1/  0.0|   15.0/  6.0|
+s95:34986:35000 [0] ncclSetThresholds(), graph/tuning.cc:180 NCCL INFO        Reduce |    0.0/  0.0|    0.0/  0.0|    0.0/  0.0|    4.5/  1.5|    6.1/  0.0|   15.0/  6.0|
+s95:34986:35000 [0] ncclSetThresholds(), graph/tuning.cc:180 NCCL INFO     AllGather |    0.0/  0.0|    0.0/  0.0|    0.0/  0.0|    4.5/  3.0|    6.1/  0.0|   15.0/ 12.0|
+s95:34986:35000 [0] ncclSetThresholds(), graph/tuning.cc:180 NCCL INFO ReduceScatter |    0.0/  0.0|    0.0/  0.0|    0.0/  0.0|    4.5/  3.0|    6.1/  0.0|   15.0/ 12.0|
+s96:24484:24499 [0] ncclSetThresholds(), graph/tuning.cc:85 NCCL INFO Threads per block : 512/640/256
+s95:34986:35000 [0] ncclSetThresholds(), graph/tuning.cc:180 NCCL INFO     AllReduce |   14.4/  1.8|   19.4/  0.0|  100.0/  5.4|    5.4/  1.5|    8.6/  0.0|   21.6/  6.0|
+s95:34986:35000 [0] ncclSetThresholds(), graph/tuning.cc:204 NCCL INFO threadThresholds 8/8/64 | 16/8/64
+s95:34986:35000 [0] initTransportsRank(), init.cc:616 NCCL INFO Trees [0] 1/-1/-1->0->-1|-1->0->1/-1/-1 [1] -1/-1/-1->0->1|1->0->-1/-1/-1
+s96:24484:24499 [0] ncclSetThresholds(), graph/tuning.cc:204 NCCL INFO threadThresholds 8/8/64 | 16/8/64
+s96:24484:24499 [0] initTransportsRank(), init.cc:616 NCCL INFO Trees [0] -1/-1/-1->1->0|0->1->-1/-1/-1 [1] 0/-1/-1->1->-1|-1->1->0/-1/-1
+s95:34986:35000 [0] netGetGdrSupport(), transport/net.cc:77 NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 84000 / HCA 0 (distance 4 >= 2)
+s96:24484:24499 [0] netGetGdrSupport(), transport/net.cc:77 NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 84000 / HCA 0 (distance 4 >= 2)
+s96:24484:24499 [0] netRecvSetup(), transport/net.cc:133 NCCL INFO Ring 00 : 0[84000] -> 1[84000] [receive] via NET/IB/0
+s95:34986:35000 [0] netRecvSetup(), transport/net.cc:133 NCCL INFO Ring 00 : 1[84000] -> 0[84000] [receive] via NET/IB/0
+s96:24484:24499 [0] netSendSetup(), transport/net.cc:110 NCCL INFO Ring 00 : 1[84000] -> 0[84000] [send] via NET/IB/0
+[s96] NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ, need_cqe_num:128
+s95:34986:35000 [0] netSendSetup(), transport/net.cc:110 NCCL INFO Ring 00 : 0[84000] -> 1[84000] [send] via NET/IB/0
+[s95] NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ, need_cqe_num:128
+[s96] tid:24499, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:258, Create cq, cqn:28, need_cqe_num:128, ret_cqe_num:1023
+[s96] NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP Modify(-> IBV_QPS_INIT), max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1, ib_port:1, access_flags:2, scq:0x7febb01382a0, rcq:0x7febb01382a0
+[s95] tid:35000, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:258, Create cq, cqn:28, need_cqe_num:128, ret_cqe_num:1023
+[s95] NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP Modify(-> IBV_QPS_INIT), max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1, ib_port:1, access_flags:2, scq:0x7f81281382a0, rcq:0x7f81281382a0
+[s96] tid:24499, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:28, s_cqn:28, r_cqn:28
+[s96] NCCL_XB, ncclIbConnect(), transport/net_ib.cc:430, NCCL RDMA Client connect, mtu:3, lid:0
+[s95] tid:35000, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:28, s_cqn:28, r_cqn:28
+[s95] NCCL_XB, ncclIbConnect(), transport/net_ib.cc:430, NCCL RDMA Client connect, mtu:3, lid:0
+s96:24484:24499 [0] ncclParamIbGidIndex(), transport/net_ib.cc:51 NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+s96:24484:24499 [0] ncclIbConnect(), transport/net_ib.cc:446 NCCL INFO NET/IB: Dev 0 Port 1 qpn 28 mtu 3 GID 1 (0/B01A8C0FFFF0000)
+s95:34986:35000 [0] ncclParamIbGidIndex(), transport/net_ib.cc:51 NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+s95:34986:35000 [0] ncclIbConnect(), transport/net_ib.cc:446 NCCL INFO NET/IB: Dev 0 Port 1 qpn 28 mtu 3 GID 1 (0/A01A8C0FFFF0000)
+[s96] NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ, need_cqe_num:128
+[s95] NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ, need_cqe_num:128
+[s96] tid:24499, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:258, Create cq, cqn:29, need_cqe_num:128, ret_cqe_num:1023
+[s96] NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP Modify(-> IBV_QPS_INIT), max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1, ib_port:1, access_flags:2, scq:0x7febb01388d0, rcq:0x7febb01388d0
+[s95] tid:35000, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:258, Create cq, cqn:29, need_cqe_num:128, ret_cqe_num:1023
+[s95] NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP Modify(-> IBV_QPS_INIT), max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1, ib_port:1, access_flags:2, scq:0x7f81281388d0, rcq:0x7f81281388d0
+[s96] tid:24499, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:29, s_cqn:29, r_cqn:29
+[s96] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:367, DGID (IPv6 format): ::ffff:192.168.1.10
+[s96] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:375, Modify QP(29) to RTR, dts_qpn:28, mtu:3, lid:0, ib_port:1, spn:0, iid:0xa01a8c0ffff0000, is_global:1
+[s95] tid:35000, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:29, s_cqn:29, r_cqn:29
+[s95] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:367, DGID (IPv6 format): ::ffff:192.168.1.11
+[s95] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:375, Modify QP(29) to RTR, dts_qpn:28, mtu:3, lid:0, ib_port:1, spn:0, iid:0xb01a8c0ffff0000, is_global:1
+[s96] NCCL_XB, ncclIbRtsQp(), transport/net_ib.cc:390, Modify QP(29) to RTS
+[s95] NCCL_XB, ncclIbRtsQp(), transport/net_ib.cc:390, Modify QP(29) to RTS
+s96:24484:24499 [0] netGetGdrSupport(), transport/net.cc:77 NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 84000 / HCA 0 (distance 4 >= 2)
+s95:34986:35000 [0] netGetGdrSupport(), transport/net.cc:77 NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 84000 / HCA 0 (distance 4 >= 2)
+s96:24484:24499 [0] netRecvSetup(), transport/net.cc:133 NCCL INFO Ring 01 : 0[84000] -> 1[84000] [receive] via NET/IB/0
+s95:34986:35000 [0] netRecvSetup(), transport/net.cc:133 NCCL INFO Ring 01 : 1[84000] -> 0[84000] [receive] via NET/IB/0
+s96:24484:24499 [0] netSendSetup(), transport/net.cc:110 NCCL INFO Ring 01 : 1[84000] -> 0[84000] [send] via NET/IB/0
+[s96] NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ, need_cqe_num:128
+s95:34986:35000 [0] netSendSetup(), transport/net.cc:110 NCCL INFO Ring 01 : 0[84000] -> 1[84000] [send] via NET/IB/0
+[s95] NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ, need_cqe_num:128
+[s96] tid:24499, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:258, Create cq, cqn:30, need_cqe_num:128, ret_cqe_num:1023
+[s96] NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP Modify(-> IBV_QPS_INIT), max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1, ib_port:1, access_flags:2, scq:0x7febb014f010, rcq:0x7febb014f010
+[s95] tid:35000, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:258, Create cq, cqn:30, need_cqe_num:128, ret_cqe_num:1023
+[s95] NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP Modify(-> IBV_QPS_INIT), max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1, ib_port:1, access_flags:2, scq:0x7f812814f010, rcq:0x7f812814f010
+[s96] tid:24499, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:30, s_cqn:30, r_cqn:30
+[s96] NCCL_XB, ncclIbConnect(), transport/net_ib.cc:430, NCCL RDMA Client connect, mtu:3, lid:0
+[s95] tid:35000, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:30, s_cqn:30, r_cqn:30
+[s95] NCCL_XB, ncclIbConnect(), transport/net_ib.cc:430, NCCL RDMA Client connect, mtu:3, lid:0
+s96:24484:24499 [0] ncclIbConnect(), transport/net_ib.cc:446 NCCL INFO NET/IB: Dev 0 Port 1 qpn 30 mtu 3 GID 1 (0/B01A8C0FFFF0000)
+s95:34986:35000 [0] ncclIbConnect(), transport/net_ib.cc:446 NCCL INFO NET/IB: Dev 0 Port 1 qpn 30 mtu 3 GID 1 (0/A01A8C0FFFF0000)
+[s96] NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ, need_cqe_num:128
+[s95] NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ, need_cqe_num:128
+[s96] tid:24499, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:258, Create cq, cqn:31, need_cqe_num:128, ret_cqe_num:1023
+[s96] NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP Modify(-> IBV_QPS_INIT), max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1, ib_port:1, access_flags:2, scq:0x7febb0155590, rcq:0x7febb0155590
+[s95] tid:35000, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:258, Create cq, cqn:31, need_cqe_num:128, ret_cqe_num:1023
+[s95] NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP Modify(-> IBV_QPS_INIT), max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1, ib_port:1, access_flags:2, scq:0x7f8128155590, rcq:0x7f8128155590
+[s96] tid:24499, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:31, s_cqn:31, r_cqn:31
+[s96] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:367, DGID (IPv6 format): ::ffff:192.168.1.10
+[s96] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:375, Modify QP(31) to RTR, dts_qpn:30, mtu:3, lid:0, ib_port:1, spn:0, iid:0xa01a8c0ffff0000, is_global:1
+[s95] tid:35000, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:31, s_cqn:31, r_cqn:31
+[s95] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:367, DGID (IPv6 format): ::ffff:192.168.1.11
+[s95] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:375, Modify QP(31) to RTR, dts_qpn:30, mtu:3, lid:0, ib_port:1, spn:0, iid:0xb01a8c0ffff0000, is_global:1
+[s96] NCCL_XB, ncclIbRtsQp(), transport/net_ib.cc:390, Modify QP(31) to RTS
+[s95] NCCL_XB, ncclIbRtsQp(), transport/net_ib.cc:390, Modify QP(31) to RTS
+s96:24484:24499 [0] ncclCommInitRankSync(), init.cc:746 NCCL INFO comm 0x7febb0013340 rank 1 nranks 2 cudaDev 0 busId 84000 - Init COMPLETE
+s96:24484:24484 [0] ncclEnqueueCheck(), enqueue.cc:434 NCCL INFO AllGather: opCount 0 sendbuff 0x7fec44000000 recvbuff 0x7fec04000000 count 134217728 datatype 7 op 0 root 0 comm 0x7febb0013340 [nranks=2] stream 0x55a2055f3190
+s95:34986:35000 [0] ncclCommInitRankSync(), init.cc:746 NCCL INFO comm 0x7f8128013340 rank 0 nranks 2 cudaDev 0 busId 84000 - Init COMPLETE
+#
+#                                             out-of-place                       in-place          
+#       size         count    type     time   algbw   busbw  error     time   algbw   busbw  error
+#        (B)    (elements)             (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+s96:24484:24484 [0] ncclEnqueueCheck(), enqueue.cc:434 NCCL INFO AllGather: opCount 1 sendbuff 0x7fec44000000 recvbuff 0x7fec04000000 count 134217728 datatype 7 op 0 root 0 comm 0x7febb0013340 [nranks=2] stream 0x55a2055f3190
+s96:24484:24484 [0] ncclEnqueueCheck(), enqueue.cc:434 NCCL INFO AllGather: opCount 2 sendbuff 0x7fec44000000 recvbuff 0x7fec04000000 count 134217728 datatype 7 op 0 root 0 comm 0x7febb0013340 [nranks=2] stream 0x55a2055f3190
+s96:24484:24484 [0] ncclEnqueueCheck(), enqueue.cc:434 NCCL INFO AllGather: opCount 3 sendbuff 0x7fec44000000 recvbuff 0x7fec04000000 count 134217728 datatype 7 op 0 root 0 comm 0x7febb0013340 [nranks=2] stream 0x55a2055f3190
+s96:24484:24484 [0] ncclEnqueueCheck(), enqueue.cc:434 NCCL INFO AllGather: opCount 4 sendbuff 0x7fec44000000 recvbuff 0x7fec04000000 count 134217728 datatype 7 op 0 root 0 comm 0x7febb0013340 [nranks=2] stream 0x55a2055f3190
+s95:34986:34986 [0] ncclEnqueueCheck(), enqueue.cc:434 NCCL INFO AllGather: opCount 0 sendbuff 0x7f81ae000000 recvbuff 0x7f816e000000 count 134217728 datatype 7 op 0 root 0 comm 0x7f8128013340 [nranks=2] stream 0x564dfd27ff10
+s95:34986:34986 [0] ncclBarrierEnqueueWait(), enqueue.cc:185 NCCL INFO Launch mode Parallel
+[s96] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:367, DGID (IPv6 format): ::ffff:192.168.1.10
+[s96] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:375, Modify QP(30) to RTR, dts_qpn:31, mtu:3, lid:0, ib_port:1, spn:0, iid:0xa01a8c0ffff0000, is_global:1
+s95:34986:34986 [0] ncclEnqueueCheck(), enqueue.cc:434 NCCL INFO AllGather: opCount 1 sendbuff 0x7f81ae000000 recvbuff 0x7f816e000000 count 134217728 datatype 7 op 0 root 0 comm 0x7f8128013340 [nranks=2] stream 0x564dfd27ff10
+s95:34986:34986 [0] ncclEnqueueCheck(), enqueue.cc:434 NCCL INFO AllGather: opCount 2 sendbuff 0x7f81ae000000 recvbuff 0x7f816e000000 count 134217728 datatype 7 op 0 root 0 comm 0x7f8128013340 [nranks=2] stream 0x564dfd27ff10
+s95:34986:34986 [0] ncclEnqueueCheck(), enqueue.cc:434 NCCL INFO AllGather: opCount 3 sendbuff 0x7f81ae000000 recvbuff 0x7f816e000000 count 134217728 datatype 7 op 0 root 0 comm 0x7f8128013340 [nranks=2] stream 0x564dfd27ff10
+s95:34986:34986 [0] ncclEnqueueCheck(), enqueue.cc:434 NCCL INFO AllGather: opCount 4 sendbuff 0x7f81ae000000 recvbuff 0x7f816e000000 count 134217728 datatype 7 op 0 root 0 comm 0x7f8128013340 [nranks=2] stream 0x564dfd27ff10
+[s95] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:367, DGID (IPv6 format): ::ffff:192.168.1.11
+[s95] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:375, Modify QP(30) to RTR, dts_qpn:31, mtu:3, lid:0, ib_port:1, spn:0, iid:0xb01a8c0ffff0000, is_global:1
+[s96] NCCL_XB, ncclIbRtsQp(), transport/net_ib.cc:390, Modify QP(30) to RTS
+[s95] NCCL_XB, ncclIbRtsQp(), transport/net_ib.cc:390, Modify QP(30) to RTS
+[s96] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:367, DGID (IPv6 format): ::ffff:192.168.1.10
+[s96] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:375, Modify QP(28) to RTR, dts_qpn:29, mtu:3, lid:0, ib_port:1, spn:0, iid:0xa01a8c0ffff0000, is_global:1
+[s95] tid:35001, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1955, Post recv for qp:31
+[s95] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:31, op:IBV_WR_RDMA_WRITE, IBV_SEND_SIGNALED, send_flag:2 
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:31
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f8218a00000
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f8218a00000, sge_addr:0x7f8128156010
+[s95] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:367, DGID (IPv6 format): ::ffff:192.168.1.11
+[s95] NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:375, Modify QP(28) to RTR, dts_qpn:29, mtu:3, lid:0, ib_port:1, spn:0, iid:0xb01a8c0ffff0000, is_global:1
+[s96] NCCL_XB, ncclIbRtsQp(), transport/net_ib.cc:390, Modify QP(28) to RTS
+[s95] NCCL_XB, ncclIbRtsQp(), transport/net_ib.cc:390, Modify QP(28) to RTS
+[s96] NCCL_XB, ncclIbIsend(), transport/net_ib.cc:666, Post WR for qp:30
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s96] tid:24504, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1952, Post recv for qp:31
+[s96] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:31
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s96] tid:24504, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1952, Post recv for qp:31
+[s96] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:31
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s96] tid:24504, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1952, Post recv for qp:31
+[s96] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:31
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s96] tid:24504, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1585, Source QPN:31
+[s96] tid:24504, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1585, Source QPN:31
+[s96] tid:24504, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1700, Poll cq success, cqn:31, poll_num:2
+[s96] tid:24504, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1585, Source QPN:31
+[s96] tid:24504, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1700, Poll cq success, cqn:31, poll_num:1
+[s96] tid:24504, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1952, Post recv for qp:31
+[s96] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:31
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s96] tid:24504, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1585, Source QPN:31
+[s96] tid:24504, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1700, Poll cq success, cqn:31, poll_num:1
+[s95] tid:35001, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1955, Post recv for qp:29
+[s95] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:29, op:IBV_WR_RDMA_WRITE, IBV_SEND_SIGNALED, send_flag:2 
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:29
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f8219600000
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f8219600000, sge_addr:0x7f8128142010
+[s95] NCCL_XB, ncclIbIsend(), transport/net_ib.cc:666, Post WR for qp:30, op:IBV_WR_RDMA_WRITE_WITH_IMM, size:1048576
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:30
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f8219000000
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f8219000000, sge_addr:0x7f8124531000
+[s95] tid:35001, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1955, Post recv for qp:31
+[s95] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:31, op:IBV_WR_RDMA_WRITE, IBV_SEND_SIGNALED, send_flag:2 
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:31
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f8218a00040
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f8218a00040, sge_addr:0x7f8128156028
+[s95] tid:35001, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1587, Source QPN:31
+[s95] tid:35001, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1702, Poll cq success, cqn:31, poll_num:1
+[s95] NCCL_XB, ncclIbIsend(), transport/net_ib.cc:666, Post WR for qp:28, op:IBV_WR_RDMA_WRITE_WITH_IMM, size:1048576
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:28
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f8219c00000
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f8219c00000, sge_addr:0x7f8126f31000
+[s96] tid:24504, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1952, Post recv for qp:29
+[s96] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:29
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s96] tid:24504, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1952, Post recv for qp:29
+[s95] tid:35001, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1955, Post recv for qp:29
+[s95] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:29, op:IBV_WR_RDMA_WRITE, IBV_SEND_SIGNALED, send_flag:2 
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:29
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f8219600040
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f8219600040, sge_addr:0x7f8128142028
+[s96] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:29
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s96] NCCL_XB, ncclIbIsend(), transport/net_ib.cc:666, Post WR for qp:28
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s96] tid:24504, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1952, Post recv for qp:29
+[s96] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:29
+[s95] tid:35001, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1587, Source QPN:29
+[s95] tid:35001, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1702, Poll cq success, cqn:29, poll_num:1
+[s95] NCCL_XB, ncclIbIsend(), transport/net_ib.cc:666, Post WR for qp:30, op:IBV_WR_RDMA_WRITE_WITH_IMM, size:1048576
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:30
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f8219000040
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f8219000040, sge_addr:0x7f8124631000
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s96] tid:24504, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1585, Source QPN:29
+[s96] tid:24504, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1585, Source QPN:29
+[s96] tid:24504, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1700, Poll cq success, cqn:29, poll_num:2
+[s95] tid:35001, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1955, Post recv for qp:31
+[s95] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:31, op:IBV_WR_RDMA_WRITE, IBV_SEND_SIGNALED, send_flag:2 
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:31
+[s96] tid:24504, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1952, Post recv for qp:29
+[s96] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:29
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s96] tid:24504, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1585, Source QPN:29
+[s96] tid:24504, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1700, Poll cq success, cqn:29, poll_num:1
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f8218a00080
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f8218a00080, sge_addr:0x7f8128156040
+[s95] tid:35001, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1587, Source QPN:31
+[s95] tid:35001, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1702, Poll cq success, cqn:31, poll_num:1
+[s95] NCCL_XB, ncclIbIsend(), transport/net_ib.cc:666, Post WR for qp:28, op:IBV_WR_RDMA_WRITE_WITH_IMM, size:1048576
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:28
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f8219c00040
+[s96] NCCL_XB, ncclIbIsend(), transport/net_ib.cc:666, Post WR for qp:30
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s96] tid:24504, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1585, Source QPN:29
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f8219c00040, sge_addr:0x7f8127031000
+[s95] tid:35001, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1955, Post recv for qp:29
+[s95] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:29, op:IBV_WR_RDMA_WRITE, IBV_SEND_SIGNALED, send_flag:2 
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:29
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f8219600080
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f8219600080, sge_addr:0x7f8128142040
+[s96] tid:24504, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1700, Poll cq success, cqn:29, poll_num:1
+[s95] tid:35001, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1587, Source QPN:29
+[s95] tid:35001, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1702, Poll cq success, cqn:29, poll_num:1
+[s95] tid:35001, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1955, Post recv for qp:31
+[s95] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:31, op:IBV_WR_RDMA_WRITE, IBV_SEND_SIGNALED, send_flag:2 
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:31
+[s96] NCCL_XB, ncclIbIsend(), transport/net_ib.cc:666, Post WR for qp:28
+[s96] tid:24504, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:950, Post send for qp:0
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f8218a000c0
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f8218a000c0, sge_addr:0x7f8128156058
+[s95] tid:35001, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1587, Source QPN:31
+[s95] tid:35001, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1702, Poll cq success, cqn:31, poll_num:1
+[s95] tid:35001, xtrdma_upost_recv(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1955, Post recv for qp:29
+[s95] NCCL_XB, ncclIbPostFifo(), transport/net_ib.cc:696, Post WR for qp:29, op:IBV_WR_RDMA_WRITE, IBV_SEND_SIGNALED, send_flag:2 
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:951, Post send for qp:29
+[s95] tid:35001, xtrdma_upost_send(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1024, xtrdma_copy_payload, wqe:0x7f82196000c0
+[s95] tid:35001, xtrdma_set_sge(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:250, wqe:0x7f82196000c0, sge_addr:0x7f8128142058
+[s95] tid:35001, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1587, Source QPN:29
+[s95] tid:35001, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1702, Poll cq success, cqn:29, poll_num:1
+[s95] tid:35001, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1587, Source QPN:31
+[s95] tid:35001, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1702, Poll cq success, cqn:31, poll_num:1
+[s95] tid:35001, xtrdma_parse_cqe(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1587, Source QPN:29
+[s95] tid:35001, xtrdma_upoll_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/wr.c:1702, Poll cq success, cqn:29, poll_num:1
