@@ -16,7 +16,7 @@
 #define printf_ffl(format, arg...)	do {					\
   char hostname[1024];  \
   gethostname(hostname, 1024); \
-  printf("%s(), %s:%d, " format, __func__, __FILE__, __LINE__, ##arg);	\
+  printf("[%s] %s(), %s:%d, " format, hostname, __func__, __FILE__, __LINE__, ##arg);	\
 } while(0)
 #endif
 
