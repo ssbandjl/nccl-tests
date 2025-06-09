@@ -1,0 +1,186 @@
+run(), common.cu:967, # nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+run(), common.cu:973, #
+run(), common.cu:998, #  Rank  0 Group  0 Pid 1514770 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+run(), common.cu:998, #  Rank  1 Group  0 Pid 276784 on     gdr116 device  0 [0x08] Tesla V100-SXM2-16GB
+gdr114:1514770:1514770 [0] showVersion(), init.cc:544 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:276784:276784 [0] showVersion(), init.cc:544 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:1514770:1514779 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+ncclIbInit(), transport/net_ib.cc:615, NCCL rdma dev_num:4
+gdr114:1514770:1514779 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:557 NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
+ncclIbInit(), transport/net_ib.cc:691, Match dev:mlx5_0
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_1, 
+gdr114:1514770:1514779 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:557 NCCL INFO NET/IB : Made virtual device [1] name=mlx5_2 speed=25000 ndevs=1
+ncclIbInit(), transport/net_ib.cc:691, Match dev:mlx5_2
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_3, 
+ncclIbInit(), transport/net_ib.cc:700, NCCL Match dev_num:2
+ncclIbInit(), transport/net_ib.cc:716, Using enp129s0f0
+gdr114:1514770:1514779 [0] ncclIbInit(), transport/net_ib.cc:717 NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr116:276784:276789 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+ncclIbInit(), transport/net_ib.cc:615, NCCL rdma dev_num:4
+gdr116:276784:276789 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:557 NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
+ncclIbInit(), transport/net_ib.cc:691, Match dev:mlx5_0
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_1, 
+gdr116:276784:276789 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:557 NCCL INFO NET/IB : Made virtual device [1] name=mlx5_2 speed=25000 ndevs=1
+ncclIbInit(), transport/net_ib.cc:691, Match dev:mlx5_2
+ncclIbInit(), transport/net_ib.cc:639, NCCL state:1 not match, dev_name mlx5_3, 
+ncclIbInit(), transport/net_ib.cc:700, NCCL Match dev_num:2
+ncclIbInit(), transport/net_ib.cc:716, Using enp129s0f0
+gdr116:276784:276789 [0] ncclIbInit(), transport/net_ib.cc:717 NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr114:1514770:1514779 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr114:1514770:1514779 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+gdr114:1514770:1514779 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:557 NCCL INFO NET/IB : Made virtual device [2] name=mlx5_0 speed=25000 ndevs=1
+gdr114:1514770:1514779 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:557 NCCL INFO NET/IB : Made virtual device [3] name=mlx5_2 speed=25000 ndevs=1
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr114:1514770:1514779 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr114:1514770:1514779 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr114:1514770:1514779 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr114:1514770:1514779 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'mlx5_2'
+ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr116:276784:276789 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr116:276784:276789 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+gdr116:276784:276789 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:557 NCCL INFO NET/IB : Made virtual device [2] name=mlx5_0 speed=25000 ndevs=1
+gdr116:276784:276789 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:557 NCCL INFO NET/IB : Made virtual device [3] name=mlx5_2 speed=25000 ndevs=1
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr116:276784:276789 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr116:276784:276789 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_2'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_0
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_0 support dmabuf
+gdr116:276784:276789 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'mlx5_0'
+ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:mlx5_2
+ncclTopoPopulateNics(), graph/topo.cc:1232, Nic mlx5_2 support dmabuf
+gdr116:276784:276789 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'mlx5_2'
+run(), common.cu:1082, #
+run(), common.cu:1083, #                                                              out-of-place                       in-place          
+run(), common.cu:1084, #       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+run(), common.cu:1086, #        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+gdr114:1514770:1514869 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+gdr114:1514770:1514871 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x7aa6e4000d20
+gdr114:1514770:1514871 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 1[0] -> 0[0] [receive] via NET/IB/2
+gdr114:1514770:1514869 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+gdr114:1514770:1514871 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x7aa6e4000d98
+gdr114:1514770:1514871 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 1[0] -> 0[0] [receive] via NET/IB/2
+gdr114:1514770:1514869 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 2 from local rank 0, transport 2
+gdr114:1514770:1514871 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x7aa6e4000e10
+gdr114:1514770:1514871 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 0[0] -> 1[0] [send] via NET/IB/2
+gdr114:1514770:1514869 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 3 from local rank 0, transport 2
+gdr114:1514770:1514871 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x7aa6e4000e88
+gdr114:1514770:1514871 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 0[0] -> 1[0] [send] via NET/IB/2
+gdr116:276784:276794 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+gdr116:276784:276796 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x72d95c000d20
+gdr116:276784:276796 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 0[0] -> 1[0] [receive] via NET/IB/2
+gdr116:276784:276794 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+gdr116:276784:276796 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x72d95c000d98
+gdr116:276784:276796 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 0[0] -> 1[0] [receive] via NET/IB/2
+gdr116:276784:276794 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 2 from local rank 0, transport 2
+gdr116:276784:276796 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x72d95c000e10
+gdr116:276784:276796 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 1[0] -> 0[0] [send] via NET/IB/2
+gdr116:276784:276794 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 3 from local rank 0, transport 2
+gdr116:276784:276796 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x72d95c000e88
+gdr116:276784:276796 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 1[0] -> 0[0] [send] via NET/IB/2
+ncclIbConnect(), transport/net_ib.cc:1250, NCCL RDMA Client connect
+ncclIbConnect(), transport/net_ib.cc:1250, NCCL RDMA Client connect
+ncclIbConnect(), transport/net_ib.cc:1250, NCCL RDMA Client connect
+ncclIbConnect(), transport/net_ib.cc:1250, NCCL RDMA Client connect
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr116:276784:276794 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=626 pkey=0 pd=0x72d95c006cd0
+gdr116:276784:276794 [0] ncclIbConnect(), transport/net_ib.cc:1366 NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 626 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x1835bb fifoLkey=0x1835bb
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr116:276784:276794 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=627 pkey=0 pd=0x72d95c006cd0
+gdr114:1514770:1514869 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=636 pkey=0 pd=0x7aa6e4006d10
+gdr116:276784:276794 [0] ncclIbConnect(), transport/net_ib.cc:1366 NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 627 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x184ad0 fifoLkey=0x184ad0
+gdr114:1514770:1514869 [0] ncclIbConnect(), transport/net_ib.cc:1366 NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 636 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x1855dc fifoLkey=0x1855dc
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr116:276784:276794 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=628 pkey=0 pd=0x72d95c006cd0
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+gdr114:1514770:1514869 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=637 pkey=0 pd=0x7aa6e4006d10
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr116:276784:276794 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=629 pkey=0 pd=0x72d95c006cd0
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr114:1514770:1514869 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=638 pkey=0 pd=0x7aa6e4006d10
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr116:276784:276794 [0] ncclIbConnect(), transport/net_ib.cc:1461 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 637 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+gdr114:1514770:1514869 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=639 pkey=0 pd=0x7aa6e4006d10
+gdr114:1514770:1514869 [0] ncclIbConnect(), transport/net_ib.cc:1366 NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 639 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x1841c8 fifoLkey=0x1841c8
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr114:1514770:1514869 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=640 pkey=0 pd=0x7aa6e4006d10
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr114:1514770:1514869 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=641 pkey=0 pd=0x7aa6e4006d10
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+gdr114:1514770:1514869 [0] ncclIbConnect(), transport/net_ib.cc:1461 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 628 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+gdr116:276784:276794 [0] ncclIbConnect(), transport/net_ib.cc:1461 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 640 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+ncclIbInitCommDevBase(), transport/net_ib.cc:1099, NCCL init ib commom dev base, create cq
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr116:276784:276794 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=630 pkey=0 pd=0x72d95c006cd0
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+ncclIbCreateQp(), transport/net_ib.cc:1133, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr116:276784:276794 [0] ncclIbCreateQp(), transport/net_ib.cc:1143 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=mlx5_0 ndevs=2 nmdevs=4 qpn=631 pkey=0 pd=0x72d95c006cd0
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+gdr114:1514770:1514869 [0] ncclIbConnect(), transport/net_ib.cc:1461 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 630 set_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0}
+           0             0     float    none      -1     0.47    0.00    0.00      0     0.50    0.00    0.00      0
+           0             0     float    none      -1     0.34    0.00    0.00      0     0.36    0.00    0.00      0
+          32             4     float    none      -1    379.3    0.00    0.00      0    370.8    0.00    0.00      0
+          64             8     float    none      -1    378.8    0.00    0.00      0    370.3    0.00    0.00      0
+         128            16     float    none      -1    380.7    0.00    0.00      0    371.9    0.00    0.00      0
+         256            32     float    none      -1    381.4    0.00    0.00      0    371.7    0.00    0.00      0
+         512            64     float    none      -1    368.3    0.00    0.00      0    359.5    0.00    0.00      0
+        1024           128     float    none      -1    369.0    0.00    0.00      0    360.3    0.00    0.00      0
+        2048           256     float    none      -1    372.2    0.01    0.00      0    363.6    0.01    0.00      0
+        4096           512     float    none      -1    379.9    0.01    0.01      0    372.3    0.01    0.01      0
+        8192          1024     float    none      -1    383.4    0.02    0.01      0    374.8    0.02    0.01      0
+       16384          2048     float    none      -1    387.6    0.04    0.02      0    379.0    0.04    0.02      0
+       32768          4096     float    none      -1    434.8    0.08    0.04      0    424.8    0.08    0.04      0
+       65536          8192     float    none      -1    605.4    0.11    0.05      0    595.9    0.11    0.05      0
+      131072         16384     float    none      -1    646.5    0.20    0.10      0    624.4    0.21    0.10      0
+      262144         32768     float    none      -1    854.8    0.31    0.15      0    813.1    0.32    0.16      0
+      524288         65536     float    none      -1   1125.9    0.47    0.23      0   1051.8    0.50    0.25      0
+     1048576        131072     float    none      -1   1687.7    0.62    0.31      0   1543.9    0.68    0.34      0
+     2097152        262144     float    none      -1   2809.5    0.75    0.37      0   2528.5    0.83    0.41      0
+     4194304        524288     float    none      -1   5057.6    0.83    0.41      0   4666.1    0.90    0.45      0
+     8388608       1048576     float    none      -1   9547.7    0.88    0.44      0   8492.1    0.99    0.49      0
+    16777216       2097152     float    none      -1    18719    0.90    0.45      0    16650    1.01    0.50      0
+    33554432       4194304     float    none      -1    37096    0.90    0.45      0    32926    1.02    0.51      0
+    67108864       8388608     float    none      -1    73801    0.91    0.45      0    65468    1.03    0.51      0
+   134217728      16777216     float    none      -1   147288    0.91    0.46      0   130688    1.03    0.51      0
+   268435456      33554432     float    none      -1   294247    0.91    0.46      0   261029    1.03    0.51      0
