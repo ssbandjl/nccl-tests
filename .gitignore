@@ -2,3 +2,8 @@
 #
 # See LICENCE.txt for license information
 /build
+
+xt2xt*_log
+xt2xt*_log*
+
+.vscode/

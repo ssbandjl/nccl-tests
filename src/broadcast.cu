@@ -8,6 +8,7 @@
 #include "common.h"
 
 void print_header() {
+  printf_ffl("Broadcast\n");
   PRINT("# %10s  %12s  %6s  %6s            out-of-place                       in-place          \n", "", "", "", "");
   PRINT("# %10s  %12s  %6s  %6s  %7s  %6s  %6s  %5s  %7s  %6s  %6s  %5s\n", "size", "count", "type", "root",
         "time", "algbw", "busbw", "error", "time", "algbw", "busbw", "error");

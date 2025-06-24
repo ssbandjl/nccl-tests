@@ -1,0 +1,189 @@
+root@s95:~/project/ai/nccl-tests# mpirun -np 2 -H 192.168.1.10:1,192.168.1.11:1 \
+>   -bind-to none -map-by slot \
+>   --mca mtl ^ofi \
+>   -x NCCL_DEBUG=TRACE \
+>   -x NCCL_IB_DISABLE=0 \
+>   -x NCCL_NET=IB \
+>   -x IB_QPS_PER_CONNECTION=2 \
+>   -x NCCL_DEBUG_SUBSYS=ALL \
+>   -x LD_LIBRARY_PATH=/root/project/ai/nccl-tests/nccl/build/lib \
+>   --allow-run-as-root \
+>   /root/project/ai/nccl-tests/run_nccl_test.sh
+No protocol specified
+No protocol specified
+NCCL version: 2.5.7
+tid:9040, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_9040_1748310582_0x55cefd62eb80_7304989
+tid:7398, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_7398_1748310582_0x55f58e2e5e20_830226762
+tid:9040, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:226, Create cq, need_cqe_num:2
+tid:7398, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:226, Create cq, need_cqe_num:2
+tid:9040, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:257, Create cq, cqn:2, ret_cqe_num:1023
+tid:7398, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:257, Create cq, cqn:2, ret_cqe_num:1023
+tid:9040, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:2, s_cqn:2, r_cqn:2
+tid:7398, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:2, s_cqn:2, r_cqn:2
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            s96
+  Device name:           xtrdma_0
+  Device vendor ID:      0x10ee
+  Device vendor part ID: 36920
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           s96
+  Local device:         xtrdma_0
+  Local port:           1
+  CPCs attempted:       udcm
+--------------------------------------------------------------------------
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 validation: 1 
+#
+# Using devices
+#   Rank  0 Pid   7398 on        s95 device  0 [0x84] Tesla V100-SXM2-16GB
+#   Rank  1 Pid   9040 on        s96 device  0 [0x84] Tesla V100-SXM2-16GB
+s95:7398:7398 [0] bootstrapNetInit:43 NCCL INFO Bootstrap : Using [0]enp5s0:10.20.10.95<0> [1]ens4f0:192.168.1.10<0>
+s95:7398:7398 [0] initNetPlugin:63 NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+s95:7398:7398 [0] ncclParamIbDisable:86 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+tid:7398, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_7398_1748310583_0x55f58e650d20_1221453824
+s95:7398:7398 [0] ncclIbInit:171 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE ; OOB enp5s0:10.20.10.95<0>
+s96:9040:9040 [0] NCCL INFO Bootstrap : Using [0]enp5s0:10.20.10.96<0> [1]ens4f0:192.168.1.11<0>
+s96:9040:9040 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+s96:9040:9040 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+tid:9040, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_9040_1748310583_0x55cefe525120_809615998
+NCCL version 2.5.7+cudaCUDA_MAJOR.CUDA_MINOR
+s96:9040:9040 [0] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE ; OOB enp5s0:10.20.10.96<0>
+s95:7398:7412 [0] setCpuAffinity:721 NCCL INFO Setting affinity for GPU 0 to ff,ffc0000f,fffc0000
+s96:9040:9046 [0] NCCL INFO Setting affinity for GPU 0 to ff,ffc0000f,fffc0000
+s95:7398:7412 [0] ncclIbPtrSupport:211 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0' (no module)
+s96:9040:9046 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0' (no module)
+s95:7398:7412 [0] getCpuWidths:146 NCCL INFO Intel CPU (PCI 12, InterCpu 8)
+s96:9040:9046 [0] NCCL INFO Intel CPU (PCI 12, InterCpu 8)
+s95:7398:7412 [0] ncclTopoComputeNetInfo:414 NCCL INFO /sys/devices/pci0000:00/0000:00:03.0/0000:03:00.0 -> 0/0/0/0
+s96:9040:9046 [0] NCCL INFO /sys/devices/pci0000:00/0000:00:03.0/0000:03:00.0 -> 0/0/0/0
+s95:7398:7412 [0] ncclTopoPrint:523 NCCL INFO === System : maxWidth 12 maxSpeed 12 ===
+s95:7398:7412 [0] ncclTopoPrintRec:498 NCCL INFO CPU/1
+s95:7398:7412 [0] ncclTopoPrintRec:498 NCCL INFO + PCI[12] - GPU/84000 (0)
+s95:7398:7412 [0] ncclTopoPrintRec:515 NCCL INFO + QPI[ 8] - CPU/0
+s95:7398:7412 [0] ncclTopoPrintRec:498 NCCL INFO CPU/0
+s95:7398:7412 [0] ncclTopoPrintRec:498 NCCL INFO + PCI[12] - NIC/0
+s95:7398:7412 [0] ncclTopoPrintRec:515 NCCL INFO             + NET[12] - NET/0 (0)
+s95:7398:7412 [0] ncclTopoPrintRec:515 NCCL INFO + QPI[ 8] - CPU/1
+s95:7398:7412 [0] ncclTopoPrint:526 NCCL INFO ==========================================
+s95:7398:7412 [0] printNodePaths:128 NCCL INFO GPU/84000 :GPU/84000 (0/5000/0) CPU/1 (1/12/2) CPU/0 (2/8/3) NET/0 (4/8/3) 
+s95:7398:7412 [0] printNodePaths:128 NCCL INFO NET/0 :GPU/84000 (4/8/3) CPU/1 (3/8/3) CPU/0 (2/12/2) NET/0 (0/5000/0) 
+s96:9040:9046 [0] NCCL INFO === System : maxWidth 12 maxSpeed 12 ===
+s96:9040:9046 [0] NCCL INFO CPU/1
+s96:9040:9046 [0] NCCL INFO + PCI[12] - GPU/84000 (1)
+s96:9040:9046 [0] NCCL INFO + QPI[ 8] - CPU/0
+s96:9040:9046 [0] NCCL INFO CPU/0
+s95:7398:7412 [0] ncclTopoPrintGraph:567 NCCL INFO Pattern 3, crossNic 0, nChannels 1, speed 12/6, nvlink 1, type 3, sameChannels 1
+s95:7398:7412 [0] ncclTopoPrintGraph:586 NCCL INFO  0 : NET/0 GPU/0 NET/0
+s96:9040:9046 [0] NCCL INFO + PCI[12] - NIC/0
+s96:9040:9046 [0] NCCL INFO             + NET[12] - NET/0 (0)
+s96:9040:9046 [0] NCCL INFO + QPI[ 8] - CPU/1
+s96:9040:9046 [0] NCCL INFO ==========================================
+s96:9040:9046 [0] NCCL INFO GPU/84000 :GPU/84000 (0/5000/0) CPU/1 (1/12/2) CPU/0 (2/8/3) NET/0 (4/8/3) 
+s95:7398:7412 [0] ncclTopoPrintGraph:567 NCCL INFO Pattern 4, crossNic 0, nChannels 1, speed 6/6, nvlink 1, type 3, sameChannels 1
+s95:7398:7412 [0] ncclTopoPrintGraph:586 NCCL INFO  0 : NET/0 GPU/0 NET/0
+s96:9040:9046 [0] NCCL INFO NET/0 :GPU/84000 (4/8/3) CPU/1 (3/8/3) CPU/0 (2/12/2) NET/0 (0/5000/0) 
+s96:9040:9046 [0] NCCL INFO Pattern 3, crossNic 0, nChannels 1, speed 12/6, nvlink 1, type 3, sameChannels 1
+s96:9040:9046 [0] NCCL INFO  0 : NET/0 GPU/1 NET/0
+s96:9040:9046 [0] NCCL INFO Pattern 4, crossNic 0, nChannels 1, speed 6/6, nvlink 1, type 3, sameChannels 1
+s96:9040:9046 [0] NCCL INFO  0 : NET/0 GPU/1 NET/0
+s95:7398:7412 [0] dumpLine:19 NCCL INFO Channel 00/02 :    0   1
+s95:7398:7412 [0] dumpLine:19 NCCL INFO Channel 01/02 :    0   1
+s95:7398:7412 [0] ncclSetThresholds:85 NCCL INFO Threads per block : 512/640/256
+s95:7398:7412 [0] ncclSetThresholds:170 NCCL INFO Latency/AlgBw | Tree/    LL | Tree/ LL128 | Tree/Simple | Ring/    LL | Ring/ LL128 | Ring/Simple |
+s96:9040:9046 [0] NCCL INFO Threads per block : 512/640/256
+s95:7398:7412 [0] ncclSetThresholds:180 NCCL INFO     Broadcast |    0.0/  0.0|    0.0/  0.0|    0.0/  0.0|    4.5/  1.5|    6.1/  0.0|   15.0/  6.0|
+s95:7398:7412 [0] ncclSetThresholds:180 NCCL INFO        Reduce |    0.0/  0.0|    0.0/  0.0|    0.0/  0.0|    4.5/  1.5|    6.1/  0.0|   15.0/  6.0|
+s96:9040:9046 [0] NCCL INFO threadThresholds 8/8/64 | 16/8/64
+s96:9040:9046 [0] NCCL INFO Trees [0] -1/-1/-1->1->0|0->1->-1/-1/-1 [1] 0/-1/-1->1->-1|-1->1->0/-1/-1
+s95:7398:7412 [0] ncclSetThresholds:180 NCCL INFO     AllGather |    0.0/  0.0|    0.0/  0.0|    0.0/  0.0|    4.5/  3.0|    6.1/  0.0|   15.0/ 12.0|
+s95:7398:7412 [0] ncclSetThresholds:180 NCCL INFO ReduceScatter |    0.0/  0.0|    0.0/  0.0|    0.0/  0.0|    4.5/  3.0|    6.1/  0.0|   15.0/ 12.0|
+s95:7398:7412 [0] ncclSetThresholds:180 NCCL INFO     AllReduce |   14.4/  1.8|   19.4/  0.0|  100.0/  5.4|    5.4/  1.5|    8.6/  0.0|   21.6/  6.0|
+s95:7398:7412 [0] ncclSetThresholds:204 NCCL INFO threadThresholds 8/8/64 | 16/8/64
+s95:7398:7412 [0] initTransportsRank:616 NCCL INFO Trees [0] 1/-1/-1->0->-1|-1->0->1/-1/-1 [1] -1/-1/-1->0->1|1->0->-1/-1/-1
+s96:9040:9046 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 84000 / HCA 0 (distance 4 >= 2)
+s95:7398:7412 [0] netGetGdrSupport:77 NCCL INFO NET/IB : GPU Direct RDMA Disabled for GPU 84000 / HCA 0 (distance 4 >= 2)
+s96:9040:9046 [0] NCCL INFO Ring 00 : 0[84000] -> 1[84000] [receive] via NET/IB/0
+s95:7398:7412 [0] netRecvSetup:133 NCCL INFO Ring 00 : 1[84000] -> 0[84000] [receive] via NET/IB/0
+s96:9040:9046 [0] NCCL INFO Ring 00 : 1[84000] -> 0[84000] [send] via NET/IB/0
+[s96]NCCL_XB, ncclIbConnect(), transport/net_ib.cc:410, NCCL RDMA Client connect
+[s96]NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ
+tid:9046, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:226, Create cq, need_cqe_num:128
+s95:7398:7412 [0] netSendSetup:110 NCCL INFO Ring 00 : 0[84000] -> 1[84000] [send] via NET/IB/0
+[s95]NCCL_XB, ncclIbConnect(), transport/net_ib.cc:410, NCCL RDMA Client connect
+[s95]NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ
+tid:7412, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:226, Create cq, need_cqe_num:128
+tid:9046, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:257, Create cq, cqn:3, ret_cqe_num:1023
+[s96]NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP, max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1
+tid:7412, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:257, Create cq, cqn:3, ret_cqe_num:1023
+[s95]NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP, max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1, ib_port:1, access_flags:2, scq:0x7fa9e81382a0, rcq:0x7fa9e81382a0
+tid:9046, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:3, s_cqn:3, r_cqn:3
+tid:7412, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:3, s_cqn:3, r_cqn:3
+[s95]NCCL_XB, ncclIbConnect(), transport/net_ib.cc:424, NCCL RDMA Client connect, mtu:3
+s96:9040:9046 [0] NCCL INFO NET/IB: Dev 0 Port 1 qpn 3 mtu 3 LID 1
+s95:7398:7412 [0] ncclIbConnect:434 NCCL INFO NET/IB: Dev 0 Port 1 qpn 3 mtu 3 LID 1
+[s96]NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ
+tid:9046, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:226, Create cq, need_cqe_num:128
+[s95]NCCL_XB, ncclIbInitVerbs(), transport/net_ib.cc:311, RDMA Alloc PD and Create CQ
+tid:7412, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:226, Create cq, need_cqe_num:128
+tid:9046, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:257, Create cq, cqn:4, ret_cqe_num:1023
+[s96]NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP, max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1
+tid:7412, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:257, Create cq, cqn:4, ret_cqe_num:1023
+[s95]NCCL_XB, ncclIbCreateQp(), transport/net_ib.cc:334, RDMA Create QP, max_send_wr/max_recv_wr:128, max_send_sge/max_recv_sge:1, ib_port:1, access_flags:2, scq:0x7fa9e81388d0, rcq:0x7fa9e81388d0
+tid:9046, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:4, s_cqn:4, r_cqn:4
+[s96]NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:370, Modify QP to RTR, dts_qpn:3, mtu:3, lid:1, ib_port:1, spn:4294967295, iid:140372727689713
+
+s96:9040:9046 [0] misc/ibvwrap.cc:284 NCCL WARN Call to ibv_modify_qp failed with error Invalid argument
+s96:9040:9046 [0] NCCL INFO transport/net_ib.cc:371 -> 2
+s96:9040:9046 [0] NCCL INFO transport/net_ib.cc:476 -> 2
+s96:9040:9046 [0] NCCL INFO /root/project/ai/nccl-tests/nccl/src/include/net.h:22 -> 2
+s96:9040:9046 [0] NCCL INFO transport/net.cc:190 -> 2
+s96:9040:9046 [0] NCCL INFO init.cc:432 -> 2
+s96:9040:9046 [0] NCCL INFO init.cc:625 -> 2
+s96:9040:9046 [0] NCCL INFO init.cc:740 -> 2
+s96:9040:9046 [0] NCCL INFO group.cc:63 -> 2 [Async thread]
+s96: Test NCCL failure common.cu:784 'unhandled system error'
+tid:7412, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:4, s_cqn:4, r_cqn:4
+[s95]NCCL_XB, ncclIbRtrQp(), transport/net_ib.cc:371, Modify QP to RTR, dts_qpn:3, mtu:3, lid:1, ib_port:1, spn:4294967295, iid:139732898894321
+
+s95:7398:7412 [0] misc/ibvwrap.cc:284 NCCL WARN Call to ibv_modify_qp failed with error Invalid argument
+s95:7398:7412 [0] ncclIbRtrQp:372 NCCL INFO transport/net_ib.cc:372 -> 2
+s95:7398:7412 [0] ncclIbAccept:477 NCCL INFO transport/net_ib.cc:477 -> 2
+s95:7398:7412 [0] ncclNetAccept:22 NCCL INFO /root/project/ai/nccl-tests/nccl/src/include/net.h:22 -> 2
+s95:7398:7412 [0] netRecvConnect:190 NCCL INFO transport/net.cc:190 -> 2
+s95:7398:7412 [0] p2pSetup:432 NCCL INFO init.cc:432 -> 2
+s95:7398:7412 [0] initTransportsRank:625 NCCL INFO init.cc:625 -> 2
+s95:7398:7412 [0] ncclCommInitRankSync:740 NCCL INFO init.cc:740 -> 2
+s95:7398:7412 [0] ncclAsyncThreadMain:63 NCCL INFO group.cc:63 -> 2 [Async thread]
+s95: Test NCCL failure common.cu:790 'unhandled system error'
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[s95:07371] 1 more process has sent help message help-mpi-btl-openib.txt / no device params found
+[s95:07371] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[s95:07371] 1 more process has sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[15063,1],1]
+  Exit code:    3
+--------------------------------------------------------------------------
+root@s95:~/project/ai/nccl-tests# 
+
+

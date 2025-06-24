@@ -1,0 +1,210 @@
+root@s95:~/project/ai/nccl-tests# mpirun -np 2 -H 192.168.1.10:1,192.168.1.11:1 \
+>   -bind-to none -map-by slot \
+>   --mca btl_openib_use_eager_rdma 1 --mca btl_openib_max_inline_data 256 \
+>   -x NCCL_DEBUG=INFO \
+>   -x NCCL_IB_DISABLE=0 \
+>   -x NCCL_NET=IB \
+>   -x NCCL_DEBUG_SUBSYS=NET \
+>   --allow-run-as-root \
+>   /root/project/ai/nccl-tests/run_nccl_test.sh^C
+root@s95:~/project/ai/nccl-tests# ^C
+root@s95:~/project/ai/nccl-tests# ^C
+root@s95:~/project/ai/nccl-tests# mpirun -np 2 -H 192.168.1.10:1,192.168.1.11:1 \
+>   -bind-to none -map-by slot \
+>   -x NCCL_DEBUG=INFO \
+>   -x NCCL_IB_DISABLE=0 \
+>   -x NCCL_NET=IB \
+>   -x NCCL_DEBUG_SUBSYS=NET \
+>   --allow-run-as-root \
+>   /root/project/ai/nccl-tests/run_nccl_test.sh
+No protocol specified
+No protocol specified
+tid:12322, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_12322_1748160399_0x5556f37f1a10_1871014219
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            s96
+  Device name:           mlx5_0
+  Device vendor ID:      0x02c9
+  Device vendor part ID: 4127
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           s96
+  Local device:         mlx5_0
+  Local port:           1
+  CPCs attempted:       udcm
+--------------------------------------------------------------------------
+tid:12322, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:2
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:2, s_cqn:2, r_cqn:2
+tid:12322, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_12322_1748160399_0x5556f3a1d1d0_235945563
+tid:12322, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_12322_1748160399_0x5556f3a1d1d0_1746280142
+tid:12322, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:3
+tid:12322, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:4
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:3, s_cqn:4, r_cqn:4
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:4, s_cqn:4, r_cqn:4
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:5, s_cqn:4, r_cqn:4
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:6, s_cqn:4, r_cqn:4
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:7, s_cqn:4, r_cqn:4
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:8, s_cqn:4, r_cqn:4
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:9, s_cqn:4, r_cqn:4
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:10, s_cqn:4, r_cqn:4
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:11, s_cqn:4, r_cqn:4
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:12, s_cqn:3, r_cqn:3
+tid:12322, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:5
+tid:12322, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:6
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:13, s_cqn:6, r_cqn:6
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:14, s_cqn:6, r_cqn:6
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:15, s_cqn:6, r_cqn:6
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:16, s_cqn:6, r_cqn:6
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:17, s_cqn:6, r_cqn:6
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:18, s_cqn:6, r_cqn:6
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:19, s_cqn:6, r_cqn:6
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:20, s_cqn:6, r_cqn:6
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:21, s_cqn:6, r_cqn:6
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:22, s_cqn:5, r_cqn:5
+tid:12322, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:7
+tid:12322, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:8
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:23, s_cqn:8, r_cqn:8
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:24, s_cqn:8, r_cqn:8
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:25, s_cqn:8, r_cqn:8
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:26, s_cqn:8, r_cqn:8
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:27, s_cqn:8, r_cqn:8
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:28, s_cqn:8, r_cqn:8
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:29, s_cqn:8, r_cqn:8
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:30, s_cqn:8, r_cqn:8
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:31, s_cqn:8, r_cqn:8
+tid:12322, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Bind QP and CQ, qpn:32, s_cqn:7, r_cqn:7
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: s95
+  Location: mtl_ofi_component.c:629
+  Error: No such file or directory (2)
+--------------------------------------------------------------------------
+[s96:03575] mtl_ofi_endpoint.h:47: *** The Open MPI OFI MTL is aborting the MPI job (via exit(3)).
+[s95][[5658,1],0][btl_tcp.c:559:mca_btl_tcp_recv_blocking] recv(22) failed: Connection reset by peer (104)
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[s95:12294] 2 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[s95:12294] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[s95:12294] 1 more process has sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[5658,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+root@s95:~/project/ai/nccl-tests# mpirun -np 2 -H 192.168.1.10:1,192.168.1.11:1   -bind-to none -map-by slot   -x NCCL_DEBUG=INFO   -x NCCL_IB_DISABLE=0   -x NCCL_NET=IB   -x NCCL_DEBUG_SUBSYS=NET   --allow-run-as-root   /root/project/ai/nccl-tests/run_nccl_test.sh
+No protocol specified
+No protocol specified
+tid:14407, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:98, pid:12322 not exists, now remove huge file:/dev/hugepages/huge_file_12322_1748160399_0x5556f3a1d1d0_1746280142
+tid:14407, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:98, pid:12322 not exists, now remove huge file:/dev/hugepages/huge_file_12322_1748160399_0x5556f37f1a10_1871014219
+tid:14407, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_14407_1748160973_0x555acd079a10_1742860184
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            s96
+  Device name:           mlx5_0
+  Device vendor ID:      0x02c9
+  Device vendor part ID: 4127
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           s96
+  Local device:         mlx5_0
+  Local port:           1
+  CPCs attempted:       udcm
+--------------------------------------------------------------------------
+tid:14407, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:9
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:33, s_cqn:9, r_cqn:9
+tid:14407, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_14407_1748160974_0x555acd2a50a0_1998778694
+tid:14407, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:137, Huge map file /dev/hugepages/huge_file_14407_1748160974_0x555acd2a50a0_1089346024
+tid:14407, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:10
+tid:14407, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:11
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:34, s_cqn:11, r_cqn:11
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:35, s_cqn:11, r_cqn:11
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:36, s_cqn:11, r_cqn:11
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:37, s_cqn:11, r_cqn:11
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:38, s_cqn:11, r_cqn:11
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:39, s_cqn:11, r_cqn:11
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:40, s_cqn:11, r_cqn:11
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:41, s_cqn:11, r_cqn:11
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:42, s_cqn:11, r_cqn:11
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:43, s_cqn:10, r_cqn:10
+tid:14407, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:12
+tid:14407, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:13
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:44, s_cqn:13, r_cqn:13
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:45, s_cqn:13, r_cqn:13
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:46, s_cqn:13, r_cqn:13
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:47, s_cqn:13, r_cqn:13
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:48, s_cqn:13, r_cqn:13
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:49, s_cqn:13, r_cqn:13
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:50, s_cqn:13, r_cqn:13
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:51, s_cqn:13, r_cqn:13
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:52, s_cqn:13, r_cqn:13
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:53, s_cqn:12, r_cqn:12
+tid:14407, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:14
+tid:14407, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:234, Create cq, cqn:15
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:54, s_cqn:15, r_cqn:15
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:55, s_cqn:15, r_cqn:15
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:56, s_cqn:15, r_cqn:15
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:57, s_cqn:15, r_cqn:15
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:58, s_cqn:15, r_cqn:15
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:59, s_cqn:15, r_cqn:15
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:60, s_cqn:15, r_cqn:15
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:61, s_cqn:15, r_cqn:15
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:62, s_cqn:15, r_cqn:15
+tid:14407, xtrdma_uqp_init_process(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:293, Cread QP, and Bind QP and CQ, qpn:63, s_cqn:14, r_cqn:14
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_endpoint).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: s95
+  Location: mtl_ofi_component.c:629
+  Error: No such file or directory (2)
+--------------------------------------------------------------------------
+[s96:08098] mtl_ofi_endpoint.h:47: *** The Open MPI OFI MTL is aborting the MPI job (via exit(3)).
+[s95][[7728,1],0][btl_tcp.c:559:mca_btl_tcp_recv_blocking] recv(22) failed: Connection reset by peer (104)
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[s95:14380] 2 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[s95:14380] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[s95:14380] 1 more process has sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[7728,1],1]
+  Exit code:    1
+------------------------------------

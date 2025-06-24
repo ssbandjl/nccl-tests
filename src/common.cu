@@ -11,6 +11,10 @@
 #include <libgen.h>
 #include "cuda.h"
 
+#include <unistd.h>
+
+// #define DEBUG_PRINT 1
+
 #if NCCL_MAJOR >= 2
 ncclDataType_t test_types[ncclNumTypes] = {ncclInt8, ncclUint8, ncclInt32, ncclUint32, ncclInt64, ncclUint64, ncclHalf, ncclFloat, ncclDouble};
 const char *test_typenames[ncclNumTypes] = {"int8", "uint8", "int32", "uint32", "int64", "uint64", "half", "float", "double"};
@@ -273,6 +277,7 @@ void Barrier(struct threadArgs* args)
 }
 
 testResult_t CheckData(struct threadArgs* args, ncclDataType_t type, ncclRedOp_t op, int root, int in_place, double *delta) {
+  // printf_ffl("Check data\n");
   size_t count = args->expectedBytes/wordSize(type);
   double maxDelta = 0.0;
   for (int i=0; i<args->nGpus; i++) {
@@ -308,7 +313,10 @@ testResult_t CheckData(struct threadArgs* args, ncclDataType_t type, ncclRedOp_t
 #endif
   }
   double nranks = args->nProcs*args->nThreads*args->nGpus;
-  if (args->reportErrors && maxDelta > DeltaMaxValue(type)*(nranks - 1)) args->errors[0]++;
+  if (args->reportErrors && maxDelta > DeltaMaxValue(type)*(nranks - 1)) {
+    args->errors[0]++;
+    // printf_ffl("errors, args->reportErrors:%d, maxDelta:%f, DeltaMaxValue:%f\n", args->reportErrors, maxDelta, DeltaMaxValue(type)*(nranks - 1));
+  }
   *delta = maxDelta;
   return testSuccess;
 }
@@ -399,6 +407,7 @@ testResult_t completeColl(struct threadArgs* args) {
 testResult_t BenchTime(struct threadArgs* args, ncclDataType_t type, ncclRedOp_t op, int root, int in_place) {
   size_t count = args->nbytes / wordSize(type);
 
+  // printf_ffl("BenchTime\n");
   // Sync
   TESTCHECK(startColl(args, type, op, root, in_place, 0));
   TESTCHECK(completeColl(args));
@@ -429,6 +438,7 @@ testResult_t BenchTime(struct threadArgs* args, ncclDataType_t type, ncclRedOp_t
   static __thread int rep = 0;
   rep++;
   if (datacheck) {
+      // printf_ffl("DataCheck(validate)\n");
       // Initialize sendbuffs, recvbuffs and expected
       TESTCHECK(args->collTest->initData(args, type, op, root, rep, in_place));
 
@@ -486,6 +496,7 @@ void setupArgs(size_t size, ncclDataType_t type, struct threadArgs* args) {
 }
 
 testResult_t TimeTest(struct threadArgs* args, ncclDataType_t type, const char* typeName, ncclRedOp_t op, const char* opName, int root) {
+  // printf_ffl("TimeTest, typeName:%s, opName:%s\n", typeName, opName);
   // Warm-up for large size
   setupArgs(args->maxbytes, type, args);
   for (int iter = 0; iter < warmup_iters; iter++) {
@@ -501,6 +512,7 @@ testResult_t TimeTest(struct threadArgs* args, ncclDataType_t type, const char* 
   TESTCHECK(completeColl(args));
 
   // Benchmark
+  // printf_ffl("Benchmark, BenchTime\n");
   for (size_t size = args->minbytes; size<=args->maxbytes; size = ((args->stepfactor > 1) ? size*args->stepfactor : size+args->stepbytes)) {
       setupArgs(size, type, args);
       print_line_header(max(args->sendBytes, args->expectedBytes), args->nbytes / wordSize(type), typeName, opName, root);
@@ -515,6 +527,7 @@ testResult_t threadRunTests(struct threadArgs* args) {
   // Set device to the first of our GPUs. If we don't do that, some operations
   // will be done on the current GPU (by default : 0) and if the GPUs are in
   // exclusive mode those operations will fail.
+  printf_ffl("runTest\n");
   int gpuid = args->localRank*args->nThreads*args->nGpus + args->thread*args->nGpus;
   CUDACHECK(cudaSetDevice(gpuid));
   TESTCHECK(ncclTestEngine.runTest(args, ncclroot, (ncclDataType_t)nccltype, test_typenames[nccltype], (ncclRedOp_t)ncclop, test_opnames[ncclop]));
@@ -566,6 +579,12 @@ testResult_t AllocateBuffs(void **sendbuff, size_t sendBytes, void **recvbuff, s
 testResult_t run(); // Main function
 
 int main(int argc, char* argv[]) {
+
+    int version;
+    
+    ncclGetVersion(&version);
+    printf_ffl("NCCL version: %d.%d.%d\n", version / 1000, (version % 1000) / 100, version % 100);
+
   // Make sure everyline is flushed so that we see the progress of the test
   setlinebuf(stdout);
 
@@ -703,6 +722,7 @@ testResult_t run() {
   getHostName(hostname, 1024);
 
 #ifdef MPI_SUPPORT
+  printf_ffl("Enable MPI_SUPPORT\n");
   MPI_Comm_size(MPI_COMM_WORLD, &nProcs);
   MPI_Comm_rank(MPI_COMM_WORLD, &proc);
   uint64_t hostHashs[nProcs];
@@ -762,6 +782,7 @@ testResult_t run() {
 
   ncclTestEngine.getBuffSize(&sendBytes, &recvBytes, (size_t)maxBytes, (size_t)nProcs*nGpus*nThreads);
 
+  printf_ffl("sendBytes:%lu, recvBytes:%lu\n", sendBytes, recvBytes);
   for (int i=0; i<nGpus*nThreads; i++) {
     CUDACHECK(cudaSetDevice(localRank*nThreads*nGpus+i));
     TESTCHECK(AllocateBuffs(sendbuffs+i, sendBytes, recvbuffs+i, recvBytes, expected+i, (size_t)maxBytes, nProcs*nThreads*nGpus));
@@ -848,6 +869,7 @@ testResult_t run() {
     if (t) pthread_join(threads[t].thread, NULL);
     TESTCHECK(threads[t].ret);
     if (t) {
+      printf_ffl("Err, td:%d\n", errors[t]);
       errors[0] += errors[t];
       bw[0] += bw[t];
       bw_count[0] += bw_count[t];
@@ -855,6 +877,7 @@ testResult_t run() {
   }
 
 #ifdef MPI_SUPPORT
+  printf_ffl("MPI_Allreduce\n");
   MPI_Allreduce(MPI_IN_PLACE, &errors[0], 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);
 #endif
 

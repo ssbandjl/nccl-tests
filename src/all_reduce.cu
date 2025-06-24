@@ -8,6 +8,7 @@
 #include "common.h"
 
 void print_header() {
+  printf_ffl("All Reduce\n");
   PRINT("# %10s  %12s  %6s  %6s            out-of-place                       in-place          \n", "", "", "", "");
   PRINT("# %10s  %12s  %6s  %6s  %7s  %6s  %6s  %5s  %7s  %6s  %6s  %5s\n", "size", "count", "type", "redop",
         "time", "algbw", "busbw", "error", "time", "algbw", "busbw", "error");
@@ -98,6 +99,7 @@ testResult_t AllReduceRunTest(struct threadArgs* args, int root, ncclDataType_t 
     run_opnames = test_opnames;
   }
 
+  printf_ffl("type_count:%d, TimeTest\n", type_count);
   for (int i=0; i<type_count; i++) {
     for (int j=0; j<op_count; j++) {
       TESTCHECK(TimeTest(args, run_types[i], run_typenames[i], run_ops[j], run_opnames[j], -1));
