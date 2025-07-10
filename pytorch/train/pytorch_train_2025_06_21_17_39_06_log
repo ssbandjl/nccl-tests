@@ -1,0 +1,29 @@
+s95:5762:5762 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to ens4f0np0
+s95:5762:5762 [0] NCCL INFO NCCL_SOCKET_IFNAME set to ens4f0np0
+
+s95:5762:5762 [0] bootstrap.cc:32 NCCL WARN Bootstrap : no socket interface found
+s95:5762:5762 [0] NCCL INFO init.cc:101 -> 3
+s95:5762:5762 [0] NCCL INFO init.cc:123 -> 3
+s95:5762:5762 [0] NCCL INFO init.cc:140 -> 3
+Traceback (most recent call last):
+  File "train4.py", line 73, in <module>
+    main()
+  File "train4.py", line 40, in main
+    setup()
+  File "train4.py", line 21, in setup
+    dist.init_process_group("nccl", init_method="env://")
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/distributed_c10d.py", line 455, in init_process_group
+    barrier()
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/distributed_c10d.py", line 1960, in barrier
+    work = _default_pg.barrier()
+RuntimeError: NCCL error in: /pytorch/torch/lib/c10d/ProcessGroupNCCL.cpp:748, internal error, NCCL version 2.7.8
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launch.py", line 260, in <module>
+    main()
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launch.py", line 255, in main
+    raise subprocess.CalledProcessError(returncode=process.returncode,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '-u', 'train4.py', '--local_rank=0']' returned non-zero exit status 1.

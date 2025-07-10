@@ -20,6 +20,20 @@
 // For nccl.h < 2.13 since we define a weak fallback
 extern "C" char const* ncclGetLastError(ncclComm_t comm);
 
+
+#define NCCL_DEBUG 1
+#ifndef printf_ffl
+#include <sys/syscall.h>
+#define printf_ffl(format, arg...) do {							\
+	if (NCCL_DEBUG) {								\
+		char hostname[128] = {0};  							\
+		gethostname(hostname, sizeof(hostname)); 						\
+		printf("[%s] tid:%ld, %s(), %s:%d, " format,					\
+			hostname, (long)syscall(SYS_gettid), __FUNCTION__, __FILE__, __LINE__, ##arg);	\
+	}										\
+} while(0)
+#endif
+
 #define CUDACHECK(cmd) do {                         \
   cudaError_t err = cmd;                            \
   if( err != cudaSuccess ) {                        \
@@ -281,6 +295,9 @@ static int ncclstringtoop (char *str) {
 
 extern int is_main_proc;
 extern thread_local int is_main_thread;
+
+#define PRINT_RESULT if (is_main_thread) printf
+// #define PRINT if (is_main_thread) printf_ffl
 #define PRINT if (is_main_thread) printf
 
 #endif

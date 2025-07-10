@@ -97,6 +97,7 @@ testResult_t HyperCubeRunTest(struct threadArgs* args, int root, ncclDataType_t 
     run_typenames = test_typenames;
   }
 
+  printf_ffl("HyperCubeRunColl, TimeTest, type_count:%d, typeName:%s, opName:%s\n", type_count, typeName, opName);
   // Check if this is a power of 2
   int nRanks = args->nProcs*args->nThreads*args->nGpus;
   if (nRanks && !(nRanks & (nRanks - 1))) {

@@ -1,0 +1,14 @@
+[Rank 3] World size: 8, Local rank: 3, GPU count: 4
+[Rank 2] World size: 8, Local rank: 2, GPU count: 4
+[Rank 0] World size: 8, Local rank: 0, GPU count: 4
+[Rank 1] World size: 8, Local rank: 1, GPU count: 4
+[Rank 0] Epoch 1, Loss: 259.2032
+[Rank 0] Epoch 2, Loss: 223.4589
+[Rank 0] Epoch 3, Loss: 179.7290
+[Rank 0] Epoch 4, Loss: 138.6962
+[Rank 0] Epoch 5, Loss: 110.6342
+[Rank 0] Epoch 6, Loss: 93.4981
+[Rank 0] Epoch 7, Loss: 82.4692
+[Rank 0] Epoch 8, Loss: 73.3704
+[Rank 0] Epoch 9, Loss: 68.8764
+[Rank 0] Epoch 10, Loss: 64.4489

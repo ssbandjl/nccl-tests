@@ -93,6 +93,7 @@ testResult_t AlltoAllRunTest(struct threadArgs* args, int root, ncclDataType_t t
     run_typenames = test_typenames;
   }
 
+  printf_ffl("AlltoAllRunColl, TimeTest, type_count:%d, typeName:%s, opName:%s\n", type_count, typeName, opName);
   for (int i=0; i<type_count; i++) {
       TESTCHECK(TimeTest(args, run_types[i], run_typenames[i], (ncclRedOp_t)0, "none", -1));
   }

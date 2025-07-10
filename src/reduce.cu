@@ -92,6 +92,7 @@ testResult_t ReduceRunTest(struct threadArgs* args, int root, ncclDataType_t typ
     end_root = args->nProcs*args->nThreads*args->nGpus-1;
   }
 
+  printf_ffl("ReduceRunColl, TimeTest, type_count:%d, typeName:%s, opName:%s\n", type_count, typeName, opName);
   for (int i=0; i<type_count; i++) {
     for (int j=0; j<op_count; j++) {
       for (int k=begin_root; k<=end_root; k++) {

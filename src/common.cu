@@ -486,6 +486,8 @@ testResult_t BenchTime(struct threadArgs* args, ncclDataType_t type, ncclRedOp_t
 #endif
 
   double algBw, busBw;
+  // printf_ffl("count:%lu, type:%d, wordSize(type):%lu, deltaSec:%f, nProcs:%d, nThreads:%d, nGpus:%d",
+  //   count, type, wordSize(type), deltaSec, args->nProcs, args->nThreads, args->nGpus);
   args->collTest->getBw(count, wordSize(type), deltaSec, &algBw, &busBw, args->nProcs*args->nThreads*args->nGpus);
 
   Barrier(args);
@@ -558,9 +560,9 @@ testResult_t BenchTime(struct threadArgs* args, ncclDataType_t type, ncclRedOp_t
     sprintf(timeStr, "%7.2f", timeUsec);
   }
   if (args->reportErrors) {
-    PRINT("  %7s  %6.2f  %6.2f  %5g", timeStr, algBw, busBw, (double)wrongElts);
+    PRINT_RESULT("  %7s  %6.2f  %6.2f  %5g", timeStr, algBw, busBw, (double)wrongElts);
   } else {
-    PRINT("  %7s  %6.2f  %6.2f  %5s", timeStr, algBw, busBw, "N/A");
+    PRINT_RESULT("  %7s  %6.2f  %6.2f  %5s", timeStr, algBw, busBw, "N/A");
   }
 
   args->bw[0] += busBw;
@@ -607,10 +609,10 @@ testResult_t TimeTest(struct threadArgs* args, ncclDataType_t type, const char* 
       setupArgs(size, type, args);
       char rootName[100];
       sprintf(rootName, "%6i", root);
-      PRINT("%12li  %12li  %8s  %6s  %6s", max(args->sendBytes, args->expectedBytes), args->nbytes / wordSize(type), typeName, opName, rootName);
+      PRINT_RESULT("%12li  %12li  %8s  %6s  %6s", max(args->sendBytes, args->expectedBytes), args->nbytes / wordSize(type), typeName, opName, rootName);
       TESTCHECK(BenchTime(args, type, op, root, 0));
       TESTCHECK(BenchTime(args, type, op, root, 1));
-      PRINT("\n");
+      PRINT_RESULT("\n");
     }
   } while (--repeat);
 
@@ -690,6 +692,14 @@ testResult_t run(); // Main function
 int main(int argc, char* argv[]) {
   // Make sure everyline is flushed so that we see the progress of the test
   setlinebuf(stdout);
+  
+  int version;
+  int runtime_version = 0, driver_version = 0;
+  cudaRuntimeGetVersion(&runtime_version);
+  cudaDriverGetVersion(&driver_version);
+  ncclGetVersion(&version);
+  printf_ffl("NCCL version: %d, CUDA Runtime Version: %d.%d, CUDA Driver Version: %d.%d\n",
+    version, runtime_version / 1000, (runtime_version % 1000) / 10, driver_version / 1000, (driver_version % 1000) / 10);
 
   #if NCCL_VERSION_CODE >= NCCL_VERSION(2,4,0)
     ncclGetVersion(&test_ncclVersion);
@@ -964,25 +974,35 @@ testResult_t run() {
 #endif
   is_main_thread = is_main_proc = (proc == 0) ? 1 : 0;
 
-  PRINT("# nThread %d nGpus %d minBytes %ld maxBytes %ld step: %ld(%s) warmup iters: %d iters: %d agg iters: %d validation: %d graph: %d\n",
+  PRINT("# nThread %d nGpus %d minBytes %ld maxBytes %ld step: %ld(%s) warmup iters: %d iters: %d agg iters: %d validation: %d graph: %d, parallel_init:%d\n",
         nThreads, nGpus, minBytes, maxBytes,
         (stepFactor > 1)?stepFactor:stepBytes, (stepFactor > 1)?"factor":"bytes",
-        warmup_iters, iters, agg_iters, datacheck, cudaGraphLaunches);
+        warmup_iters, iters, agg_iters, datacheck, cudaGraphLaunches, parallel_init);
   if (blocking_coll) PRINT("# Blocking Enabled: wait for completion and barrier after each collective \n");
   if (parallel_init) PRINT("# Parallel Init Enabled: threads call into NcclInitRank concurrently \n");
   PRINT("#\n");
 
-  PRINT("# Using devices\n");
+//   PRINT("# Using devices\n");
 #define MAX_LINE 2048
   char line[MAX_LINE];
   int len = 0;
   size_t maxMem = ~0;
   char* envstr = getenv("NCCL_TESTS_DEVICE");
   int gpu0 = envstr ? atoi(envstr) : -1;
+
+  // int total_gpu = 0;
+  // cudaGetDeviceCount(&total_gpu);
+  // printf_ffl("TotalGPU:%d\n", total_gpu);
+
   for (int i=0; i<nThreads*nGpus; i++) {
     int cudaDev = (gpu0 != -1 ? gpu0 : localRank*nThreads*nGpus) + i;
     int rank = proc*nThreads*nGpus+i;
     cudaDeviceProp prop;
+    // printf_ffl("cudaDev:%d\n", cudaDev);
+
+    // cudaError_t err = cudaGetDeviceProperties(&prop, cudaDev);
+    // printf_ffl("ret: %s\n", cudaGetErrorString(err));
+
     CUDACHECK(cudaGetDeviceProperties(&prop, cudaDev));
     len += snprintf(line+len, MAX_LINE-len, "#  Rank %2d Group %2d Pid %6d on %10s device %2d [0x%02x] %s\n",
                     rank, color, getpid(), hostname, cudaDev, prop.pciBusID, prop.name);

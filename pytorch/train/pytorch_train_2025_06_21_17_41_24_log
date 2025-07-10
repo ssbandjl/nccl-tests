@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "train4.py", line 73, in <module>
+    main()
+  File "train4.py", line 40, in main
+    setup()
+  File "train4.py", line 21, in setup
+    dist.init_process_group("nccl", init_method="env://")
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/distributed_c10d.py", line 436, in init_process_group
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/rendezvous.py", line 179, in _env_rendezvous_handler
+    store = TCPStore(master_addr, master_port, world_size, start_daemon, timeout)
+RuntimeError: Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launch.py", line 260, in <module>
+    main()
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launch.py", line 255, in main
+    raise subprocess.CalledProcessError(returncode=process.returncode,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '-u', 'train4.py', '--local_rank=0']' returned non-zero exit status 1.

@@ -1,0 +1,528 @@
+root@gdr114:~/project/ai/nccl-tests# mpirun -np 4 -H s114:2,s116:2 \
+  -bind-to none -map-by slot \
+  -x NCCL_DEBUG=TRACE \
+  -x NCCL_IB_DISABLE=0 \
+  -x LD_LIBRARY_PATH \
+  --allow-run-as-root \
+  ./build/all_reduce_perf -b 8 -e 1G -f 2 -g 1
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+# Using devices
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+# Using devices
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+# Using devices
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid  45874 on     gdr116 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  0 Group  0 Pid  45875 on     gdr116 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  0 Group  0 Pid  71918 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  0 Group  0 Pid  71919 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+gdr116:45875:45875 [0] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.116<0>
+gdr116:45874:45874 [0] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.116<0>
+gdr114:71918:71918 [0] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr114:71919:71919 [0] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr116:45875:45875 [0] NCCL INFO cudaDriverVersion 12040
+gdr116:45874:45874 [0] NCCL INFO cudaDriverVersion 12040
+gdr116:45875:45875 [0] NCCL INFO NCCL version 2.26.2+cuda12.8
+gdr116:45874:45874 [0] NCCL INFO NCCL version 2.26.2+cuda12.8
+gdr114:71918:71918 [0] NCCL INFO cudaDriverVersion 12080
+gdr114:71919:71919 [0] NCCL INFO cudaDriverVersion 12080
+gdr114:71918:71918 [0] NCCL INFO NCCL version 2.26.5+cuda12.9
+gdr114:71919:71919 [0] NCCL INFO NCCL version 2.26.5+cuda12.9
+gdr116:45874:45884 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr116:45874:45884 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr116:45875:45885 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr116:45875:45885 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr114:71919:71928 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:71919:71928 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr114:71918:71929 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:71918:71929 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr116:45874:45884 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:45875:45885 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [1]mlx5_2:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:45875:45885 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:45875:45885 [0] NCCL INFO Using network IB
+gdr116:45874:45884 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:45874:45884 [0] NCCL INFO Using network IB
+gdr116:45874:45884 [0] NCCL INFO ncclCommInitAll comm 0x5a92f7200dd0 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 8000 commId 0x5a07cf57dd8b27fc - Init START
+gdr116:45874:45884 [0] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:45874:45884 [0] NCCL INFO Bootstrap timings total 0.000854 (create 0.000054, send 0.000174, recv 0.000241, ring 0.000001, delay 0.000000)
+gdr116:45875:45885 [0] NCCL INFO ncclCommInitAll comm 0x61b916750f10 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 8000 commId 0xa9f77e80e65bcfc0 - Init START
+gdr116:45875:45885 [0] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:45875:45885 [0] NCCL INFO Bootstrap timings total 0.000825 (create 0.000033, send 0.000132, recv 0.000278, ring 0.000001, delay 0.000000)
+gdr114:71919:71928 [0] NCCL INFO NET/IB : Using [0]rocep4s0f0:1/RoCE [1]rocep137s0f0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:71918:71929 [0] NCCL INFO NET/IB : Using [0]rocep4s0f0:1/RoCE [1]rocep137s0f0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:71919:71928 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:71919:71928 [0] NCCL INFO Using network IB
+gdr114:71918:71929 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:71918:71929 [0] NCCL INFO Using network IB
+gdr116:45874:45884 [0] NCCL INFO Setting affinity for GPU 0 to 03ff,f0003fff
+gdr116:45875:45885 [0] NCCL INFO Setting affinity for GPU 0 to 03ff,f0003fff
+gdr116:45874:45884 [0] NCCL INFO comm 0x5a92f7200dd0 rank 0 nRanks 1 nNodes 1 localRanks 1 localRank 0 MNNVL 0
+gdr116:45874:45884 [0] NCCL INFO Channel 00/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 01/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 02/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 03/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 04/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 05/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 06/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 07/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 08/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 09/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 10/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 11/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 12/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 13/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 14/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 15/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 16/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 17/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 18/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 19/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 20/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 21/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 22/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 23/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 24/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 25/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 26/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 27/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 28/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 29/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 30/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 31/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 32/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 33/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 34/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 35/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 36/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 37/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 38/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 39/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 40/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 41/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 42/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 43/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 44/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 45/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 46/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 47/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 48/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 49/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 50/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 51/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 52/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 53/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 54/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 55/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 56/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 57/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 58/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 59/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 60/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 61/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 62/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Channel 63/64 : 0
+gdr116:45875:45885 [0] NCCL INFO comm 0x61b916750f10 rank 0 nRanks 1 nNodes 1 localRanks 1 localRank 0 MNNVL 0
+gdr116:45875:45885 [0] NCCL INFO Channel 00/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 01/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 02/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 03/64 : 0
+gdr116:45874:45884 [0] NCCL INFO Trees [0] -1/-1/-1->0->-1 [1] -1/-1/-1->0->-1 [2] -1/-1/-1->0->-1 [3] -1/-1/-1->0->-1 [4] -1/-1/-1->0->-1 [5] -1/-1/-1->0->-1 [6] -1/-1/-1->0->-1 [7] -1/-1/-1->0->-1 [8] -1/-1/-1->0->-1 [9] -1/-1/-1->0->-1 [10] -1/-1/-1->0->-1 [11] -1/-1/-1->0->-1 [12] -1/-1/-1->0->-1 [13] -1/-1/-1->0->-1 [14] -1/-1/-1->0->-1 [15] -1/-1/-1->0->-1 [16] -1/-1/-1->0->-1 [17] -1/-1/-1->0->-1 [18] -1/-1/-1->0->-1 [19] -1/-1/-1->0->-1 [20] -1/-1/-1->0->-1 [21] -1/-1/-1->0->-1 [22] -1/-1/-1->0->-1 [23] -1/-1/-1->0->-1 [24] -1/-1/-1->0->-1 [25] -1/-1/-1->0->-1 [26] -1/-1/-1->0->-1 [27] -1/-1/-1->0->-1 [28] -1/-1/-1->0->-1 [29] -1/-1/-1->0->-1 [30] -1/-1/-1->0->-1 [31] -1/-1/-1->0->-1 [32] -1/-1/-1->0->-1 [33] -1/-1/-1->0->-1 [34] -1/-1/-1->0->-1 [35] -1/-1/-1->0->-1 [36] -1/-1/-1->0->-1 [37] -1/-1/-1->0->-1 [38] -1/-1/-1->0->-1 [39] -1/-1/-1->0->-1 [40] -1/-1/-1->0->-1 [41] -1/-1/-1->0->-1 [42] -1/-1/-1->0->-1 [43] -1/-1/-1->0->-1 [44] -1/-1/-1->0->-1 [45] -1/-1/-1->0->-1 [46] -1/-1/-1->0->-1 [47] -1
+gdr116:45874:45884 [0] NCCL INFO P2P Chunksize set to 524288
+gdr116:45874:45884 [0] NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr116:45875:45885 [0] NCCL INFO Channel 04/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 05/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 06/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 07/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 08/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 09/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 10/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 11/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 12/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 13/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 14/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 15/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 16/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 17/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 18/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 19/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 20/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 21/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 22/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 23/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 24/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 25/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 26/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 27/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 28/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 29/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 30/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 31/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 32/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 33/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 34/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 35/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 36/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 37/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 38/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 39/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 40/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 41/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 42/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 43/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 44/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 45/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 46/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 47/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 48/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 49/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 50/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 51/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 52/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 53/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 54/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 55/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 56/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 57/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 58/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 59/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 60/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 61/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 62/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Channel 63/64 : 0
+gdr116:45875:45885 [0] NCCL INFO Trees [0] -1/-1/-1->0->-1 [1] -1/-1/-1->0->-1 [2] -1/-1/-1->0->-1 [3] -1/-1/-1->0->-1 [4] -1/-1/-1->0->-1 [5] -1/-1/-1->0->-1 [6] -1/-1/-1->0->-1 [7] -1/-1/-1->0->-1 [8] -1/-1/-1->0->-1 [9] -1/-1/-1->0->-1 [10] -1/-1/-1->0->-1 [11] -1/-1/-1->0->-1 [12] -1/-1/-1->0->-1 [13] -1/-1/-1->0->-1 [14] -1/-1/-1->0->-1 [15] -1/-1/-1->0->-1 [16] -1/-1/-1->0->-1 [17] -1/-1/-1->0->-1 [18] -1/-1/-1->0->-1 [19] -1/-1/-1->0->-1 [20] -1/-1/-1->0->-1 [21] -1/-1/-1->0->-1 [22] -1/-1/-1->0->-1 [23] -1/-1/-1->0->-1 [24] -1/-1/-1->0->-1 [25] -1/-1/-1->0->-1 [26] -1/-1/-1->0->-1 [27] -1/-1/-1->0->-1 [28] -1/-1/-1->0->-1 [29] -1/-1/-1->0->-1 [30] -1/-1/-1->0->-1 [31] -1/-1/-1->0->-1 [32] -1/-1/-1->0->-1 [33] -1/-1/-1->0->-1 [34] -1/-1/-1->0->-1 [35] -1/-1/-1->0->-1 [36] -1/-1/-1->0->-1 [37] -1/-1/-1->0->-1 [38] -1/-1/-1->0->-1 [39] -1/-1/-1->0->-1 [40] -1/-1/-1->0->-1 [41] -1/-1/-1->0->-1 [42] -1/-1/-1->0->-1 [43] -1/-1/-1->0->-1 [44] -1/-1/-1->0->-1 [45] -1/-1/-1->0->-1 [46] -1/-1/-1->0->-1 [47] -1
+gdr116:45875:45885 [0] NCCL INFO P2P Chunksize set to 524288
+gdr116:45875:45885 [0] NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr116:45874:45893 [0] NCCL INFO [Proxy Service] Device 0 CPU core 33
+gdr116:45874:45894 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 34
+gdr116:45875:45895 [0] NCCL INFO [Proxy Service] Device 0 CPU core 36
+gdr116:45875:45896 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 38
+gdr114:71918:71929 [0] NCCL INFO ncclCommInitAll comm 0x622f1f3b67c0 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 8000 commId 0x5589df792ca0d9b2 - Init START
+gdr114:71919:71928 [0] NCCL INFO ncclCommInitAll comm 0x5ab0bd4e87d0 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 8000 commId 0x6a8019454be6a16e - Init START
+gdr114:71918:71929 [0] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:71919:71928 [0] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:71918:71929 [0] NCCL INFO Bootstrap timings total 0.000884 (create 0.000077, send 0.000116, recv 0.000314, ring 0.000001, delay 0.000000)
+gdr114:71919:71928 [0] NCCL INFO Bootstrap timings total 0.000854 (create 0.000050, send 0.000113, recv 0.000341, ring 0.000001, delay 0.000000)
+gdr114:71918:71929 [0] NCCL INFO Setting affinity for GPU 0 to 03ff,f0003fff
+gdr114:71919:71928 [0] NCCL INFO Setting affinity for GPU 0 to 03ff,f0003fff
+gdr114:71918:71929 [0] NCCL INFO comm 0x622f1f3b67c0 rank 0 nRanks 1 nNodes 1 localRanks 1 localRank 0 MNNVL 0
+gdr114:71918:71929 [0] NCCL INFO Channel 00/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 01/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 02/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 03/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 04/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 05/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 06/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 07/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 08/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 09/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 10/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 11/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 12/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 13/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 14/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 15/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 16/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 17/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 18/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 19/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 20/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 21/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 22/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 23/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 24/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 25/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 26/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 27/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 28/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 29/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 30/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 31/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 32/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 33/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 34/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 35/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 36/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 37/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 38/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 39/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 40/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 41/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 42/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 43/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 44/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 45/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 46/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 47/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 48/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 49/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 50/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 51/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 52/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 53/64 : 0
+gdr114:71919:71928 [0] NCCL INFO comm 0x5ab0bd4e87d0 rank 0 nRanks 1 nNodes 1 localRanks 1 localRank 0 MNNVL 0
+gdr114:71919:71928 [0] NCCL INFO Channel 00/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 01/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 02/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 03/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 04/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 54/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 55/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 56/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 57/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 58/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 59/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 60/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 61/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 62/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Channel 63/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 05/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 06/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 07/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 08/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 09/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 10/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 11/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 12/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 13/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 14/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 15/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 16/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 17/64 : 0
+gdr114:71918:71929 [0] NCCL INFO Trees [0] -1/-1/-1->0->-1 [1] -1/-1/-1->0->-1 [2] -1/-1/-1->0->-1 [3] -1/-1/-1->0->-1 [4] -1/-1/-1->0->-1 [5] -1/-1/-1->0->-1 [6] -1/-1/-1->0->-1 [7] -1/-1/-1->0->-1 [8] -1/-1/-1->0->-1 [9] -1/-1/-1->0->-1 [10] -1/-1/-1->0->-1 [11] -1/-1/-1->0->-1 [12] -1/-1/-1->0->-1 [13] -1/-1/-1->0->-1 [14] -1/-1/-1->0->-1 [15] -1/-1/-1->0->-1 [16] -1/-1/-1->0->-1 [17] -1/-1/-1->0->-1 [18] -1/-1/-1->0->-1 [19] -1/-1/-1->0->-1 [20] -1/-1/-1->0->-1 [21] -1/-1/-1->0->-1 [22] -1/-1/-1->0->-1 [23] -1/-1/-1->0->-1 [24] -1/-1/-1->0->-1 [25] -1/-1/-1->0->-1 [26] -1/-1/-1->0->-1 [27] -1/-1/-1->0->-1 [28] -1/-1/-1->0->-1 [29] -1/-1/-1->0->-1 [30] -1/-1/-1->0->-1 [31] -1/-1/-1->0->-1 [32] -1/-1/-1->0->-1 [33] -1/-1/-1->0->-1 [34] -1/-1/-1->0->-1 [35] -1/-1/-1->0->-1 [36] -1/-1/-1->0->-1 [37] -1/-1/-1->0->-1 [38] -1/-1/-1->0->-1 [39] -1/-1/-1->0->-1 [40] -1/-1/-1->0->-1 [41] -1/-1/-1->0->-1 [42] -1/-1/-1->0->-1 [43] -1/-1/-1->0->-1 [44] -1/-1/-1->0->-1 [45] -1/-1/-1->0->-1 [46] -1/-1/-1->0->-1 [47] -1
+gdr114:71918:71929 [0] NCCL INFO P2P Chunksize set to 524288
+gdr114:71918:71929 [0] NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr114:71919:71928 [0] NCCL INFO Channel 18/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 19/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 20/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 21/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 22/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 23/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 24/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 25/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 26/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 27/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 28/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 29/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 30/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 31/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 32/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 33/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 34/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 35/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 36/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 37/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 38/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 39/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 40/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 41/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 42/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 43/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 44/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 45/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 46/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 47/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 48/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 49/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 50/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 51/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 52/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 53/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 54/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 55/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 56/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 57/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 58/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 59/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 60/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 61/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 62/64 : 0
+gdr114:71919:71928 [0] NCCL INFO Channel 63/64 : 0
+gdr114:71918:72006 [0] NCCL INFO [Proxy Service] Device 0 CPU core 35
+gdr114:71919:71928 [0] NCCL INFO Trees [0] -1/-1/-1->0->-1 [1] -1/-1/-1->0->-1 [2] -1/-1/-1->0->-1 [3] -1/-1/-1->0->-1 [4] -1/-1/-1->0->-1 [5] -1/-1/-1->0->-1 [6] -1/-1/-1->0->-1 [7] -1/-1/-1->0->-1 [8] -1/-1/-1->0->-1 [9] -1/-1/-1->0->-1 [10] -1/-1/-1->0->-1 [11] -1/-1/-1->0->-1 [12] -1/-1/-1->0->-1 [13] -1/-1/-1->0->-1 [14] -1/-1/-1->0->-1 [15] -1/-1/-1->0->-1 [16] -1/-1/-1->0->-1 [17] -1/-1/-1->0->-1 [18] -1/-1/-1->0->-1 [19] -1/-1/-1->0->-1 [20] -1/-1/-1->0->-1 [21] -1/-1/-1->0->-1 [22] -1/-1/-1->0->-1 [23] -1/-1/-1->0->-1 [24] -1/-1/-1->0->-1 [25] -1/-1/-1->0->-1 [26] -1/-1/-1->0->-1 [27] -1/-1/-1->0->-1 [28] -1/-1/-1->0->-1 [29] -1/-1/-1->0->-1 [30] -1/-1/-1->0->-1 [31] -1/-1/-1->0->-1 [32] -1/-1/-1->0->-1 [33] -1/-1/-1->0->-1 [34] -1/-1/-1->0->-1 [35] -1/-1/-1->0->-1 [36] -1/-1/-1->0->-1 [37] -1/-1/-1->0->-1 [38] -1/-1/-1->0->-1 [39] -1/-1/-1->0->-1 [40] -1/-1/-1->0->-1 [41] -1/-1/-1->0->-1 [42] -1/-1/-1->0->-1 [43] -1/-1/-1->0->-1 [44] -1/-1/-1->0->-1 [45] -1/-1/-1->0->-1 [46] -1/-1/-1->0->-1 [47] -1
+gdr114:71919:71928 [0] NCCL INFO P2P Chunksize set to 524288
+gdr114:71919:71928 [0] NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr114:71918:72007 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 38
+gdr114:71919:72008 [0] NCCL INFO [Proxy Service] Device 0 CPU core 11
+gdr114:71919:72009 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 13
+gdr116:45874:45884 [0] NCCL INFO 64 coll channels, 64 collnet channels, 0 nvls channels, 64 p2p channels, 64 p2p channels per peer
+gdr116:45875:45885 [0] NCCL INFO 64 coll channels, 64 collnet channels, 0 nvls channels, 64 p2p channels, 64 p2p channels per peer
+gdr116:45874:45884 [0] NCCL INFO CC Off, workFifoBytes 1048576
+gdr116:45875:45885 [0] NCCL INFO CC Off, workFifoBytes 1048576
+gdr116:45874:45884 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:45874:45884 [0] NCCL INFO ncclCommInitAll comm 0x5a92f7200dd0 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 8000 commId 0x5a07cf57dd8b27fc - Init COMPLETE
+gdr116:45874:45884 [0] NCCL INFO Init timings - ncclCommInitAll: rank 0 nranks 1 total 0.38 (kernels 0.24, alloc 0.09, bootstrap 0.00, allgathers 0.00, topo 0.01, graphs 0.00, connections 0.04, rest 0.00)
+#
+#                                                              out-of-place                       in-place          
+gdr116:45875:45885 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:45875:45885 [0] NCCL INFO ncclCommInitAll comm 0x61b916750f10 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 8000 commId 0xa9f77e80e65bcfc0 - Init COMPLETE
+gdr116:45875:45885 [0] NCCL INFO Init timings - ncclCommInitAll: rank 0 nranks 1 total 0.38 (kernels 0.25, alloc 0.07, bootstrap 0.00, allgathers 0.00, topo 0.01, graphs 0.00, connections 0.04, rest 0.00)
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+gdr114:71919:71928 [0] NCCL INFO 64 coll channels, 64 collnet channels, 0 nvls channels, 64 p2p channels, 64 p2p channels per peer
+gdr114:71919:71928 [0] NCCL INFO CC Off, workFifoBytes 1048576
+gdr114:71919:71928 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:71919:71928 [0] NCCL INFO ncclCommInitAll comm 0x5ab0bd4e87d0 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 8000 commId 0x6a8019454be6a16e - Init COMPLETE
+gdr114:71919:71928 [0] NCCL INFO Init timings - ncclCommInitAll: rank 0 nranks 1 total 0.40 (kernels 0.24, alloc 0.10, bootstrap 0.00, allgathers 0.00, topo 0.01, graphs 0.00, connections 0.05, rest 0.00)
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+gdr114:71918:71929 [0] NCCL INFO 64 coll channels, 64 collnet channels, 0 nvls channels, 64 p2p channels, 64 p2p channels per peer
+gdr114:71918:71929 [0] NCCL INFO CC Off, workFifoBytes 1048576
+gdr114:71918:71929 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:71918:71929 [0] NCCL INFO ncclCommInitAll comm 0x622f1f3b67c0 rank 0 nranks 1 cudaDev 0 nvmlDev 0 busId 8000 commId 0x5589df792ca0d9b2 - Init COMPLETE
+gdr114:71918:71929 [0] NCCL INFO Init timings - ncclCommInitAll: rank 0 nranks 1 total 0.41 (kernels 0.24, alloc 0.10, bootstrap 0.00, allgathers 0.00, topo 0.01, graphs 0.00, connections 0.05, rest 0.00)
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+           8             2     float     sum      -1     5.55    0.00    0.00      0     0.16    0.05    0.00      0
+          16             4     float     sum      -1     9.89    0.00    0.00      0     0.14    0.12    0.00      0
+           8             2     float     sum      -1    11.53    0.00    0.00      0     0.19    0.04    0.00      0
+          32             8     float     sum      -1     9.96    0.00    0.00      0     0.14    0.24    0.00      0
+          16             4     float     sum      -1    11.58    0.00    0.00      0     0.18    0.09    0.00      0
+          64            16     float     sum      -1    10.70    0.01    0.00      0     0.15    0.44    0.00      0
+          32             8     float     sum      -1    11.54    0.00    0.00      0     0.18    0.18    0.00      0
+         128            32     float     sum      -1    10.00    0.01    0.00      0     0.14    0.94    0.00      0
+          64            16     float     sum      -1    11.64    0.01    0.00      0     0.18    0.35    0.00      0
+         256            64     float     sum      -1     9.93    0.03    0.00      0     0.14    1.87    0.00      0
+         128            32     float     sum      -1    11.62    0.01    0.00      0     0.18    0.71    0.00      0
+         512           128     float     sum      -1    10.65    0.05    0.00      0     0.13    3.80    0.00      0
+         256            64     float     sum      -1    11.69    0.02    0.00      0     0.18    1.42    0.00      0
+        1024           256     float     sum      -1    10.59    0.10    0.00      0     0.14    7.57    0.00      0
+         512           128     float     sum      -1    11.77    0.04    0.00      0     0.18    2.84    0.00      0
+        2048           512     float     sum      -1    10.59    0.19    0.00      0     0.14   14.27    0.00      0
+        1024           256     float     sum      -1    11.83    0.09    0.00      0     0.18    5.65    0.00      0
+        4096          1024     float     sum      -1    10.83    0.38    0.00      0     0.13   30.58    0.00      0
+        2048           512     float     sum      -1    11.77    0.17    0.00      0     0.18   11.35    0.00      0
+        8192          2048     float     sum      -1    10.54    0.78    0.00      0     0.14   57.25    0.00      0
+        4096          1024     float     sum      -1    11.54    0.35    0.00      0     0.18   22.69    0.00      0
+           8             2     float     sum      -1     3.58    0.00    0.00      0     0.16    0.05    0.00      0
+          16             4     float     sum      -1    10.12    0.00    0.00      0     0.13    0.12    0.00      0
+           8             2     float     sum      -1    11.83    0.00    0.00      0     0.19    0.04    0.00      0
+       16384          4096     float     sum      -1    10.46    1.57    0.00      0     0.14  120.47    0.00      0
+        8192          2048     float     sum      -1    11.88    0.69    0.00      0     0.18   45.26    0.00      0
+          32             8     float     sum      -1    10.07    0.00    0.00      0     0.15    0.21    0.00      0
+          16             4     float     sum      -1    11.86    0.00    0.00      0     0.18    0.09    0.00      0
+          64            16     float     sum      -1    10.12    0.01    0.00      0     0.14    0.46    0.00      0
+       32768          8192     float     sum      -1    10.38    3.16    0.00      0     0.14  242.46    0.00      0
+          32             8     float     sum      -1    11.93    0.00    0.00      0     0.18    0.17    0.00      0
+       16384          4096     float     sum      -1    11.85    1.38    0.00      0     0.18   91.38    0.00      0
+         128            32     float     sum      -1    10.49    0.01    0.00      0     0.14    0.89    0.00      0
+          64            16     float     sum      -1    12.32    0.01    0.00      0     0.18    0.35    0.00      0
+         256            64     float     sum      -1    10.08    0.03    0.00      0     0.15    1.72    0.00      0
+         128            32     float     sum      -1    11.97    0.01    0.00      0     0.18    0.71    0.00      0
+         512           128     float     sum      -1    10.17    0.05    0.00      0     0.14    3.67    0.00      0
+       32768          8192     float     sum      -1    12.05    2.72    0.00      0     0.18  182.20    0.00      0
+         256            64     float     sum      -1    11.95    0.02    0.00      0     0.18    1.41    0.00      0
+        1024           256     float     sum      -1    10.38    0.10    0.00      0     0.13    7.84    0.00      0
+       65536         16384     float     sum      -1    10.49    6.25    0.00      0     0.14  483.48    0.00      0
+         512           128     float     sum      -1    12.18    0.04    0.00      0     0.18    2.85    0.00      0
+        2048           512     float     sum      -1    10.14    0.20    0.00      0     0.13   15.86    0.00      0
+        1024           256     float     sum      -1    11.95    0.09    0.00      0     0.18    5.68    0.00      0
+        4096          1024     float     sum      -1    10.19    0.40    0.00      0     0.13   31.45    0.00      0
+        2048           512     float     sum      -1    12.03    0.17    0.00      0     0.18   11.44    0.00      0
+        8192          2048     float     sum      -1    10.09    0.81    0.00      0     0.14   57.89    0.00      0
+        4096          1024     float     sum      -1    11.89    0.34    0.00      0     0.18   22.47    0.00      0
+       16384          4096     float     sum      -1    10.62    1.54    0.00      0     0.13  123.98    0.00      0
+        8192          2048     float     sum      -1    12.48    0.66    0.00      0     0.18   45.73    0.00      0
+       65536         16384     float     sum      -1    10.32    6.35    0.00      0     0.18  360.88    0.00      0
+       32768          8192     float     sum      -1    10.42    3.14    0.00      0     0.13  248.81    0.00      0
+       16384          4096     float     sum      -1    12.28    1.33    0.00      0     0.18   90.92    0.00      0
+      131072         32768     float     sum      -1    10.82   12.11    0.00      0     0.13  978.15    0.00      0
+       32768          8192     float     sum      -1    12.20    2.69    0.00      0     0.18  182.70    0.00      0
+       65536         16384     float     sum      -1    10.38    6.32    0.00      0     0.13  502.96    0.00      0
+       65536         16384     float     sum      -1    10.74    6.10    0.00      0     0.18  364.49    0.00      0
+      131072         32768     float     sum      -1    10.85   12.08    0.00      0     0.18  715.85    0.00      0
+      131072         32768     float     sum      -1    11.07   11.84    0.00      0     0.13  1006.31    0.00      0
+      262144         65536     float     sum      -1    11.28   23.24    0.00      0     0.14  1930.37    0.00      0
+      131072         32768     float     sum      -1    10.52   12.45    0.00      0     0.18  721.56    0.00      0
+      262144         65536     float     sum      -1    11.04   23.74    0.00      0     0.15  1807.27    0.00      0
+      262144         65536     float     sum      -1    11.22   23.36    0.00      0     0.18  1436.41    0.00      0
+      524288        131072     float     sum      -1    11.72   44.73    0.00      0     0.14  3653.57    0.00      0
+      262144         65536     float     sum      -1    11.13   23.54    0.00      0     0.18  1449.51    0.00      0
+      524288        131072     float     sum      -1    11.60   45.21    0.00      0     0.14  3883.61    0.00      0
+      524288        131072     float     sum      -1    11.78   44.51    0.00      0     0.18  2957.90    0.00      0
+     1048576        262144     float     sum      -1    14.18   73.93    0.00      0     0.14  7744.28    0.00      0
+      524288        131072     float     sum      -1    11.64   45.05    0.00      0     0.19  2831.69    0.00      0
+     1048576        262144     float     sum      -1    12.71   82.52    0.00      0     0.15  7155.07    0.00      0
+     1048576        262144     float     sum      -1    13.91   75.37    0.00      0     0.18  5804.46    0.00      0
+     2097152        524288     float     sum      -1    16.49  127.16    0.00      0     0.14  15431.58    0.00      0
+     1048576        262144     float     sum      -1    12.92   81.19    0.00      0     0.18  5677.18    0.00      0
+     2097152        524288     float     sum      -1    15.36  136.57    0.00      0     0.14  15352.50    0.00      0
+     2097152        524288     float     sum      -1    17.00  123.38    0.00      0     0.18  11683.30    0.00      0
+     4194304       1048576     float     sum      -1    23.06  181.88    0.00      0     0.14  29016.29    0.00      0
+     2097152        524288     float     sum      -1    15.89  132.02    0.00      0     0.13  15720.78    0.00      0
+     4194304       1048576     float     sum      -1    20.67  202.90    0.00      0     0.13  31335.85    0.00      0
+     4194304       1048576     float     sum      -1    23.55  178.12    0.00      0     0.18  23140.99    0.00      0
+     8388608       2097152     float     sum      -1    34.20  245.25    0.00      0     0.14  58335.24    0.00      0
+     4194304       1048576     float     sum      -1    22.34  187.73    0.00      0     0.14  30840.47    0.00      0
+     8388608       2097152     float     sum      -1    31.51  266.20    0.00      0     0.13  62206.96    0.00      0
+     8388608       2097152     float     sum      -1    205.6   40.81    0.00      0     0.13  63024.85    0.00      0
+    16777216       4194304     float     sum      -1    662.9   25.31    0.00      0     0.14  117077.57    0.00      0
+     8388608       2097152     float     sum      -1    210.5   39.86    0.00      0     0.13  62578.20    0.00      0
+    16777216       4194304     float     sum      -1    581.5   28.85    0.00      0     0.13  126764.00    0.00      0
+    16777216       4194304     float     sum      -1    441.8   37.97    0.00      0     0.13  126955.85    0.00      0
+    33554432       8388608     float     sum      -1    357.8   93.78    0.00      0     0.14  246633.09    0.00      0
+    16777216       4194304     float     sum      -1    293.4   57.18    0.00      0     0.13  126716.13    0.00      0
+    33554432       8388608     float     sum      -1    370.2   90.63    0.00      0     0.14  245550.18    0.00      0
+    33554432       8388608     float     sum      -1    103.0  325.82    0.00      0     0.13  249289.99    0.00      0
+    33554432       8388608     float     sum      -1    303.8  110.44    0.00      0     0.18  183057.46    0.00      0
+    67108864      16777216     float     sum      -1    267.8  250.58    0.00      0     0.13  497655.65    0.00      0
+    67108864      16777216     float     sum      -1    567.7  118.22    0.00      0     0.15  461864.17    0.00      0
+    67108864      16777216     float     sum      -1    267.9  250.53    0.00      0     0.13  501373.66    0.00      0
+    67108864      16777216     float     sum      -1    608.4  110.31    0.00      0     0.13  504198.83    0.00      0
+   134217728      33554432     float     sum      -1    878.6  152.76    0.00      0     0.15  907183.02    0.00      0
+   134217728      33554432     float     sum      -1    825.1  162.67    0.00      0     0.14  991634.49    0.00      0
+   134217728      33554432     float     sum      -1    880.2  152.48    0.00      0     0.14  952574.36    0.00      0
+   134217728      33554432     float     sum      -1    795.4  168.73    0.00      0     0.14  969081.07    0.00      0
+   268435456      67108864     float     sum      -1   1726.9  155.45    0.00      0     0.15  1811916.68    0.00      0
+   268435456      67108864     float     sum      -1   1472.7  182.27    0.00      0     0.13  2004745.75    0.00      0
+   268435456      67108864     float     sum      -1   1749.0  153.48    0.00      0     0.13  2034372.54    0.00      0
+   268435456      67108864     float     sum      -1   1778.9  150.90    0.00      0     0.13  1996544.86    0.00      0
+   536870912     134217728     float     sum      -1   3464.9  154.95    0.00      0     0.14  3876324.27    0.00      0
+   536870912     134217728     float     sum      -1   3483.1  154.14    0.00      0     0.13  4021504.96    0.00      0
+   536870912     134217728     float     sum      -1   3457.5  155.28    0.00      0     0.13  4059515.40    0.00      0
+   536870912     134217728     float     sum      -1   3146.9  170.60    0.00      0     0.14  3975349.22    0.00      0
+  1073741824     268435456     float     sum      -1   6809.3  157.69    0.00      0     0.15  7233020.03    0.00      0
+  1073741824     268435456     float     sum      -1   6760.2  158.83    0.00      0     0.14  7941877.40    0.00      0
+  1073741824     268435456     float     sum      -1   6986.4  153.69    0.00      0     0.13  8036989.70    0.00      0
+  1073741824     268435456     float     sum      -1   6766.1  158.69    0.00      0     0.14  7713662.53    0.00      0
+gdr116:45875:45897 [0] NCCL INFO comm 0x61b916750f10 rank 0 nranks 1 cudaDev 0 busId 8000 - Destroy COMPLETE
+gdr116:45874:45898 [0] NCCL INFO comm 0x5a92f7200dd0 rank 0 nranks 1 cudaDev 0 busId 8000 - Destroy COMPLETE
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0 
+#
+
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0 
+#
+
+gdr114:71918:72037 [0] NCCL INFO comm 0x622f1f3b67c0 rank 0 nranks 1 cudaDev 0 busId 8000 - Destroy COMPLETE
+gdr114:71919:72047 [0] NCCL INFO comm 0x5ab0bd4e87d0 rank 0 nranks 1 cudaDev 0 busId 8000 - Destroy COMPLETE
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0 
+#
+
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0 
+#
+
+root@gdr114:~/project/ai/nccl-tests# 

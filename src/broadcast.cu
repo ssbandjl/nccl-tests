@@ -90,7 +90,8 @@ testResult_t BroadcastRunTest(struct threadArgs* args, int root, ncclDataType_t 
     begin_root = 0;
     end_root = args->nProcs*args->nThreads*args->nGpus-1;
   }
-
+  
+  printf_ffl("BroadcastRunColl, TimeTest, type_count:%d, typeName:%s, opName:%s\n", type_count, typeName, opName);
   for (int i=0; i<type_count; i++) {
     for (int j=begin_root; j<=end_root; j++) {
       TESTCHECK(TimeTest(args, run_types[i], run_typenames[i], (ncclRedOp_t)0, "none", j));

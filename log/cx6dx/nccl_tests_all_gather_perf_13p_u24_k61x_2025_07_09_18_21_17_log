@@ -1,0 +1,147 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] tid:5230, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:11442, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 30 iters: 20 agg iters: 1 validation: 1 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid   5230 on     gdr114 device  0 [0x09] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid  11442 on     gdr116 device  0 [0x09] Tesla V100-SXM2-16GB
+[gdr114] tid:5236, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr114] tid:5236, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+[gdr114] tid:5236, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+[gdr114] tid:5236, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] tid:5236, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr114] tid:5236, ibDmaBufSupportInitOnce(), transport/net_ib.cc:770, dev_name:mlx5_0, dmabuf support
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr114] tid:5236, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:mlx5_0, props->speed:25000
+[gdr114] tid:5236, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr116] tid:11447, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr116] tid:11447, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+[gdr116] tid:11447, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+[gdr116] tid:11447, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:11447, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:11447, ibDmaBufSupportInitOnce(), transport/net_ib.cc:770, dev_name:mlx5_0, dmabuf support
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:11447, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:mlx5_0, props->speed:25000
+[gdr116] tid:11447, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr114] tid:5236, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:5236, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr114] tid:5236, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr116] tid:11447, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:11447, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr116] tid:11447, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr114] tid:5236, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr114] tid:5236, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:mlx5_0, props->speed:25000
+[gdr114] tid:5236, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:5236, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:11447, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:11447, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:mlx5_0, props->speed:25000
+[gdr116] tid:11447, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:11447, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:5236, initTransportsRank(), init.cc:811, Detect TOPO, ncclTopoGetSystem
+[gdr116] tid:11447, initTransportsRank(), init.cc:811, Detect TOPO, ncclTopoGetSystem
+[gdr114] tid:5236, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr114] tid:5236, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:mlx5_0, props->speed:25000
+[gdr114] tid:5236, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:5236, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr114] tid:5236, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:mlx5_0, props->speed:25000
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr114] tid:5236, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:mlx5_0, props->speed:25000
+[gdr114] tid:5236, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:5236, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr114] tid:5236, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr114] tid:5236, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:1, props->name:mlx5_0, props->speed:25000
+[gdr114] tid:5236, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:5236, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:11447, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:11447, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:mlx5_0, props->speed:25000
+[gdr116] tid:11447, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:11447, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:11447, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:mlx5_0, props->speed:25000
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:11447, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:mlx5_0, props->speed:25000
+[gdr116] tid:11447, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:11447, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:11447, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:11447, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:1, props->name:mlx5_0, props->speed:25000
+[gdr116] tid:11447, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:11447, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+[gdr114] tid:5230, AllGatherRunTest(), all_gather.cu:80, AllGatherRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:11442, AllGatherRunTest(), all_gather.cu:80, AllGatherRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr114] tid:5269, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr114] tid:5269, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr114] tid:5269, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:1, props->name:mlx5_0, props->speed:25000
+[gdr116] tid:11450, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:11450, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:11450, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:1, props->name:mlx5_0, props->speed:25000
+[gdr116] tid:11450, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:11450, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:11450, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:1, props->name:mlx5_0, props->speed:25000
+[gdr114] tid:5269, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr114] tid:5269, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr114] tid:5269, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:1, props->name:mlx5_0, props->speed:25000
+[gdr116] tid:11450, ibDmaBufSupportInitOnce(), transport/net_ib.cc:770, dev_name:mlx5_0, dmabuf support
+[gdr114] tid:5269, ibDmaBufSupportInitOnce(), transport/net_ib.cc:770, dev_name:mlx5_0, dmabuf support
+           0             0     float    none      -1     4.09    0.00    0.00      0     4.16    0.00    0.00      0
+           0             0     float    none      -1     4.77    0.00    0.00      0     3.90    0.00    0.00      0
+          32             4     float    none      -1    380.4    0.00    0.00      0    370.3    0.00    0.00      0
+          64             8     float    none      -1    380.2    0.00    0.00      0    371.1    0.00    0.00      0
+         128            16     float    none      -1    381.8    0.00    0.00      0    372.5    0.00    0.00      0
+         256            32     float    none      -1    382.1    0.00    0.00      0    372.7    0.00    0.00      0
+         512            64     float    none      -1    368.8    0.00    0.00      0    360.0    0.00    0.00      0
+        1024           128     float    none      -1    369.6    0.00    0.00      0    360.9    0.00    0.00      0
+        2048           256     float    none      -1    373.2    0.01    0.00      0    363.6    0.01    0.00      0
+        4096           512     float    none      -1    381.5    0.01    0.01      0    372.4    0.01    0.01      0
+        8192          1024     float    none      -1    383.2    0.02    0.01      0    374.4    0.02    0.01      0
+       16384          2048     float    none      -1    430.1    0.04    0.02      0    414.0    0.04    0.02      0
+       32768          4096     float    none      -1    530.8    0.06    0.03      0    499.3    0.07    0.03      0
+       65536          8192     float    none      -1    648.9    0.10    0.05      0    627.7    0.10    0.05      0
+      131072         16384     float    none      -1    851.3    0.15    0.08      0    810.0    0.16    0.08      0
+      262144         32768     float    none      -1   1119.6    0.23    0.12      0   1047.5    0.25    0.13      0
+      524288         65536     float    none      -1   1672.4    0.31    0.16      0   1534.8    0.34    0.17      0
+     1048576        131072     float    none      -1   2772.2    0.38    0.19      0   2503.4    0.42    0.21      0
+     2097152        262144     float    none      -1   4976.7    0.42    0.21      0   4446.7    0.47    0.24      0
+     4194304        524288     float    none      -1   9426.5    0.44    0.22      0   8363.0    0.50    0.25      0
+     8388608       1048576     float    none      -1    18491    0.45    0.23      0    16399    0.51    0.26      0
+    16777216       2097152     float    none      -1    36621    0.46    0.23      0    32453    0.52    0.26      0
+    33554432       4194304     float    none      -1    72883    0.46    0.23      0    64552    0.52    0.26      0
+    67108864       8388608     float    none      -1   145437    0.46    0.23      0   128689    0.52    0.26      0
+   134217728      16777216     float    none      -1   290497    0.46    0.23      0   257081    0.52    0.26      0
+   268435456      33554432     float    none      -1   581687    0.46    0.23      0   513647    0.52    0.26      0
+   536870912      67108864     float    none      -1  1161419    0.46    0.23      0  1028157    0.52    0.26      0

@@ -1,0 +1,371 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] tid:21841, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:57407, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 4 maxBytes 67108864 step: 2(factor) warmup iters: 30 iters: 100 agg iters: 1 validation: 0 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid  21841 on     gdr114 device  0 [0x05] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid  57407 on     gdr116 device  0 [0x05] Tesla V100-SXM2-16GB
+gdr114:21841:21841 [0] 0.554527 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr114:21841:21841 [0] 0.593442 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.114<0>
+gdr114:21841:21841 [0] 0.600425 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0np0:192.168.1.10<0>
+gdr114:21841:21841 [0] 0.606978 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:::1<0>
+gdr114:21841:21841 [0] 0.635088 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:fe80::cce5:6d0a:154d:2547%enp129s0f0<0>
+gdr114:21841:21841 [0] 0.653888 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0np0:fe80::ac0:ebff:fe4c:5a6c%enp8s0f0np0<0>
+gdr114:21841:21841 [0] 2.467023 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr114:21841:21841 [0] 2.479206 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.114<0>
+gdr114:21841:21841 [0] bootstrapNetInit(), bootstrap.cc:120 NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr114:21841:21841 [0] 2.615968 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<36321>
+gdr114:21841:21845 [0] 2.971727 bootstrapRoot(), bootstrap.cc:288 NCCL TRACE BEGIN
+gdr114:21841:21841 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr114:21841:21841 [0] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:57407:57407 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12040
+gdr116:57407:57407 [0] 0.941720 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:57407:57407 [0] 0.961998 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:57407:57407 [0] 0.969039 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:172.17.0.1<0>
+gdr116:57407:57407 [0] 0.974767 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0np0:192.168.1.11<0>
+gdr116:57407:57407 [0] 0.980083 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:::1<0>
+gdr116:57407:57407 [0] 0.999807 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:fe80::9f74:8206:ec00:7c6b%enp129s0f0<0>
+gdr116:57407:57407 [0] 1.013168 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:fe80::24ca:d2ff:fe87:caf0%docker0<0>
+gdr116:57407:57407 [0] 1.025644 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface vethcd173ea:fe80::c0e9:22ff:fe88:86d8%vethcd173ea<0>
+gdr116:57407:57407 [0] 1.036801 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0np0:fe80::ac0:ebff:fe62:34f0%enp8s0f0np0<0>
+gdr116:57407:57407 [0] 1.272992 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:57407:57407 [0] 1.279510 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:57407:57407 [0] bootstrapNetInit(), bootstrap.cc:120 NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.116<0>
+gdr116:57407:57407 [0] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:57407:57412 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr116:57407:57412 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr114:21841:21847 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:21841:21847 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr116:57407:57412 [0] 3170.636131 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:57407:57412 [0] 3170.651211 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:57407:57412 [0] 3170.655886 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:172.17.0.1<0>
+gdr116:57407:57412 [0] 3170.659967 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0np0:192.168.1.11<0>
+gdr116:57407:57412 [0] 3170.664597 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:::1<0>
+gdr116:57407:57412 [0] 3170.686384 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:fe80::9f74:8206:ec00:7c6b%enp129s0f0<0>
+gdr116:57407:57412 [0] 3170.699563 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:fe80::24ca:d2ff:fe87:caf0%docker0<0>
+gdr116:57407:57412 [0] 3170.711978 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface vethcd173ea:fe80::c0e9:22ff:fe88:86d8%vethcd173ea<0>
+gdr116:57407:57412 [0] 3170.723975 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0np0:fe80::ac0:ebff:fe62:34f0%enp8s0f0np0<0>
+gdr114:21841:21847 [0] 3345.413823 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr114:21841:21847 [0] 3345.427915 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.114<0>
+gdr114:21841:21847 [0] 3345.447102 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0np0:192.168.1.10<0>
+gdr114:21841:21847 [0] 3345.451419 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:::1<0>
+gdr114:21841:21847 [0] 3345.483775 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:fe80::cce5:6d0a:154d:2547%enp129s0f0<0>
+gdr114:21841:21847 [0] 3345.499854 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0np0:fe80::ac0:ebff:fe4c:5a6c%enp8s0f0np0<0>
+gdr116:57407:57412 [0] 3171.066115 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:57407:57412 [0] 3171.073899 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:57407:57412 [0] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to mlx5_0
+[gdr116] tid:57412, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+gdr114:21841:21847 [0] 3346.309788 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr114:21841:21847 [0] 3346.318152 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.114<0>
+gdr114:21841:21847 [0] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to mlx5_0
+[gdr114] tid:21847, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr116] tid:57412, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+[gdr114] tid:21847, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+[gdr116] tid:57412, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+[gdr114] tid:21847, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+[gdr116] tid:57412, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:57412, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr116:57407:57412 [0] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+[gdr114] tid:21847, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] tid:21847, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr114:21841:21847 [0] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr116:57407:57412 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:57407:57412 [0] commAlloc(), init.cc:340 NCCL INFO Using network IB
+gdr114:21841:21847 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:21841:21847 [0] commAlloc(), init.cc:340 NCCL INFO Using network IB
+gdr114:21841:21847 [0] 3371.251012 commAlloc(), init.cc:362 NCCL TRACE comm 0x643f05d80800 rank 0 nranks 2 cudaDev 0 busId 5000 compCap 70
+[gdr114] tid:21847, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+gdr114:21841:21847 [0] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x643f05d80800 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 5000 commId 0x24ff2bb90020f308 - Init START
+gdr114:21841:21847 [0] bootstrapInit(), bootstrap.cc:643 NCCL INFO rank 0 nranks 2
+gdr114:21841:21847 [0] 3371.436637 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<48203>
+gdr114:21841:21847 [0] 3371.457939 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<34729>
+gdr114:21841:21847 [0] 3371.472938 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<36321>
+gdr114:21841:21845 [0] 3371.720746 bootstrapRoot(), bootstrap.cc:341 NCCL TRACE Received connect from rank 0 total 1/2
+gdr116:57407:57412 [0] 3217.802602 commAlloc(), init.cc:362 NCCL TRACE comm 0x61c4e5c0ec90 rank 1 nranks 2 cudaDev 0 busId 5000 compCap 70
+[gdr116] tid:57412, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+gdr116:57407:57412 [0] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x61c4e5c0ec90 rank 1 nranks 2 cudaDev 0 nvmlDev 0 busId 5000 commId 0x24ff2bb90020f308 - Init START
+gdr116:57407:57412 [0] bootstrapInit(), bootstrap.cc:643 NCCL INFO rank 1 nranks 2
+gdr116:57407:57412 [0] 3218.006995 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<40531>
+gdr116:57407:57412 [0] 3218.033963 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<46065>
+gdr116:57407:57412 [0] 3218.051220 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<36321>
+gdr114:21841:21845 [0] 3392.752715 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<34729>
+gdr114:21841:21847 [0] 3392.888988 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<40531>
+gdr114:21841:21845 [0] 3392.907456 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<46065>
+gdr114:21841:21845 [0] 3393.164804 bootstrapRoot(), bootstrap.cc:341 NCCL TRACE Received connect from rank 1 total 2/2
+gdr114:21841:21845 [0] 3393.176632 bootstrapRoot(), bootstrap.cc:343 NCCL TRACE COLLECTED ALL 2 HANDLES
+gdr114:21841:21845 [0] 3393.202804 bootstrapRoot(), bootstrap.cc:358 NCCL TRACE Root timings (wait 3.368661, recv 0.021523, send 0.000000)
+gdr114:21841:21845 [0] 3393.237404 bootstrapRoot(), bootstrap.cc:370 NCCL TRACE DONE
+gdr116:57407:57412 [0] 3218.878578 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<48203>
+gdr114:21841:21847 [0] 3393.854095 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<38113>
+gdr114:21841:21847 [0] 3393.907871 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '21841pid:[4026531836]'
+gdr114:21841:21847 [0] 3393.928905 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<60767>
+gdr114:21841:21847 [0] 3393.964317 getHostHashOnce(), misc/utils.cc:105 NCCL TRACE unique hostname 'gdr114de58cd3c-f71b-42d4-8567-f9d5e0b8f844'
+gdr114:21841:21847 [0] 3393.978612 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '21841pid:[4026531836]'
+gdr114:21841:21847 [0] 3394.016802 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<60631>
+gdr114:21841:21847 [0] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:21841:21847 [0] 3394.224606 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 0 nranks 2 size 120 - AllGather
+gdr114:21841:21847 [0] 3394.234401 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr116:57407:57412 [0] 3219.589241 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<41663>
+gdr116:57407:57412 [0] 3219.650668 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '57407pid:[4026531836]'
+gdr116:57407:57412 [0] 3219.671217 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<46825>
+gdr116:57407:57412 [0] 3219.707340 getHostHashOnce(), misc/utils.cc:105 NCCL TRACE unique hostname 'gdr116e11632f5-9d87-4e91-a3cc-fbcba28d5b3d'
+gdr116:57407:57412 [0] 3219.720715 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '57407pid:[4026531836]'
+gdr116:57407:57412 [0] 3219.759967 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<42531>
+gdr116:57407:57412 [0] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:57407:57412 [0] 3219.978897 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 1 nranks 2 size 120 - AllGather
+gdr116:57407:57412 [0] 3219.987884 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr114:21841:21847 [0] 3394.452544 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000211 (0.567929 MB/sec), rest in 0.000000 (4000.000000 MB/sec)
+gdr114:21841:21847 [0] 3394.464141 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 120 B done in 0.000230 sec: 1.045091 MB/sec
+gdr114:21841:21847 [0] 3394.470996 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 0 nranks 2 size 120 - AllGather DONE
+gdr114:21841:21847 [0] 3394.499732 ncclIpcSocketInit(), misc/ipcsocket.cc:51 NCCL TRACE UDS: Creating socket /tmp/nccl-socket-0-d7238dbd0891398d
+gdr114:21841:21847 [0] 3394.523584 bootstrapInit(), bootstrap.cc:763 NCCL TRACE rank 0 nranks 2 - DONE
+gdr114:21841:21847 [0] bootstrapInit(), bootstrap.cc:764 NCCL INFO Bootstrap timings total 0.023117 (create 0.000058, send 0.000145, recv 0.021269, ring 0.000255, delay 0.000001)
+[gdr114] tid:21847, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:21847, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+gdr114:21841:21847 [0] 3394.564154 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '21841pid:[4026531836]'
+[gdr114] tid:21847, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+gdr114:21841:21847 [0] 3394.640053 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 0 nranks 2 size 104 - AllGather
+gdr114:21841:21847 [0] 3394.647831 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr116:57407:57412 [0] 3220.123380 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000130 (0.921794 MB/sec), rest in 0.000000 (4444.444444 MB/sec)
+gdr116:57407:57412 [0] 3220.132702 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 120 B done in 0.000145 sec: 1.656303 MB/sec
+gdr116:57407:57412 [0] 3220.138545 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 1 nranks 2 size 120 - AllGather DONE
+gdr116:57407:57412 [0] 3220.165924 ncclIpcSocketInit(), misc/ipcsocket.cc:51 NCCL TRACE UDS: Creating socket /tmp/nccl-socket-1-abe4d6b2d600eca4
+gdr114:21841:21879 [0] 3394.705346 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<42531>
+gdr116:57407:57412 [0] 3220.184287 bootstrapInit(), bootstrap.cc:763 NCCL TRACE rank 1 nranks 2 - DONE
+gdr116:57407:57412 [0] bootstrapInit(), bootstrap.cc:764 NCCL INFO Bootstrap timings total 0.002220 (create 0.000077, send 0.000234, recv 0.000589, ring 0.000167, delay 0.000001)
+[gdr116] tid:57412, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:57412, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+gdr116:57407:57412 [0] 3220.219619 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '57407pid:[4026531836]'
+[gdr116] tid:57412, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+gdr114:21841:21847 [0] 3394.768678 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000115 (0.900885 MB/sec), rest in 0.000000 (4521.739130 MB/sec)
+gdr114:21841:21847 [0] 3394.776261 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 104 B done in 0.000129 sec: 1.614155 MB/sec
+gdr114:21841:21847 [0] 3394.780795 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 0 nranks 2 size 104 - AllGather DONE
+gdr114:21841:21847 [0] 3394.793208 initTransportsRank(), init.cc:783 NCCL TRACE pidHash[0] 151c61f701f3e8d intraProcRank 0 intraProcRanks 1 intraProcRank0 0
+gdr116:57407:57412 [0] 3220.305661 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 1 nranks 2 size 104 - AllGather
+gdr116:57407:57412 [0] 3220.312851 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr116:57407:57412 [0] 3220.426409 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000109 (0.958207 MB/sec), rest in 0.000000 (3354.838710 MB/sec)
+gdr116:57407:57412 [0] 3220.434751 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 104 B done in 0.000122 sec: 1.704317 MB/sec
+gdr116:57407:57412 [0] 3220.439871 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 1 nranks 2 size 104 - AllGather DONE
+gdr116:57407:57412 [0] 3220.451352 initTransportsRank(), init.cc:783 NCCL TRACE pidHash[1] c5c0df860300a1f4 intraProcRank 0 intraProcRanks 1 intraProcRank0 1
+[gdr114] tid:21847, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:21847, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:21847, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:57412, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+gdr114:21841:21847 [0] ncclTopoGetSystem(), graph/topo.cc:1403 NCCL INFO NCCL_TOPO_DUMP_FILE set by environment to topo_all_reduce_perf.xml
+[gdr116] tid:57412, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:57412, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:21847, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:21847, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:21847, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:21847, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:21847, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:21847, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:21847, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:57412, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:57412, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:57412, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:57412, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:57412, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:57412, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:57412, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr114:21841:21847 [0] 3413.545445 ncclTopoGetCpuAffinity(), graph/topo.cc:1551 NCCL TRACE Current affinity for GPU 0 is ffffff,ffffffff
+gdr114:21841:21847 [0] 3413.557027 ncclTopoGetCpuAffinity(), graph/topo.cc:1562 NCCL TRACE CPU GPU affinity for GPU 0 is 03ff,f0003fff
+gdr114:21841:21847 [0] ncclTopoGetCpuAffinity(), graph/topo.cc:1580 NCCL INFO Setting affinity for GPU 0 to 03ff,f0003fff
+gdr114:21841:21847 [0] 3413.871938 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 0 nranks 2 size 2284 - AllGather
+gdr114:21841:21847 [0] 3413.878352 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr116:57407:57412 [0] 3242.741505 ncclTopoGetCpuAffinity(), graph/topo.cc:1551 NCCL TRACE Current affinity for GPU 0 is ffffff,ffffffff
+gdr116:57407:57412 [0] 3242.751615 ncclTopoGetCpuAffinity(), graph/topo.cc:1562 NCCL TRACE CPU GPU affinity for GPU 0 is 03ff,f0003fff
+gdr116:57407:57412 [0] ncclTopoGetCpuAffinity(), graph/topo.cc:1580 NCCL INFO Setting affinity for GPU 0 to 03ff,f0003fff
+gdr114:21841:21847 [0] 3417.646464 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.003764 (0.606722 MB/sec), rest in 0.000000 (120210.526316 MB/sec)
+gdr114:21841:21847 [0] 3417.654698 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 2284 B done in 0.003777 sec: 1.209546 MB/sec
+gdr114:21841:21847 [0] 3417.658310 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 0 nranks 2 size 2284 - AllGather DONE
+gdr114:21841:21847 [0] 3417.664718 initTransportsRank(), init.cc:993 NCCL TRACE hostHash[0] b334bfe8216c6734 localRank 0 localRanks 1 localRank0 0
+gdr114:21841:21847 [0] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x643f05d80800 rank 0 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+gdr114:21841:21847 [0] dumpLine(), graph/rings.cc:25 NCCL INFO Channel 00/02 : 0 1
+gdr114:21841:21847 [0] dumpLine(), graph/rings.cc:25 NCCL INFO Channel 01/02 : 0 1
+gdr114:21841:21847 [0] 3417.697319 initTransportsRank(), init.cc:1048 NCCL TRACE rank 0 nranks 2 - BUILT 2 TREES/RINGS
+gdr114:21841:21847 [0] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] -1/-1/-1->0->1
+gdr114:21841:21847 [0] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr116:57407:57412 [0] 3243.128305 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 1 nranks 2 size 2284 - AllGather
+gdr116:57407:57412 [0] 3243.135305 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr114:21841:21847 [0] ncclTransportCheckP2pType(), transport.cc:98 NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr114:21841:21847 [0] 3417.862412 setupChannel(), init.cc:602 NCCL TRACE rank 0 nranks 2
+gdr116:57407:57412 [0] 3243.413090 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000274 (8.337836 MB/sec), rest in 0.000000 (84592.592593 MB/sec)
+gdr116:57407:57412 [0] 3243.422027 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 2284 B done in 0.000287 sec: 15.921758 MB/sec
+gdr116:57407:57412 [0] 3243.426657 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 1 nranks 2 size 2284 - AllGather DONE
+gdr114:21841:21880 [0] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 0 CPU core 36
+gdr116:57407:57412 [0] 3243.435257 initTransportsRank(), init.cc:993 NCCL TRACE hostHash[1] 1d81f8faf6908a7f localRank 0 localRanks 1 localRank0 1
+gdr116:57407:57412 [0] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x61c4e5c0ec90 rank 1 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+gdr116:57407:57412 [0] 3243.467532 initTransportsRank(), init.cc:1048 NCCL TRACE rank 1 nranks 2 - BUILT 2 TREES/RINGS
+gdr116:57407:57412 [0] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] -1/-1/-1->1->0 [1] 0/-1/-1->1->-1
+gdr114:21841:21881 [0] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 0 CPU core 9
+gdr116:57407:57412 [0] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr116:57407:57412 [0] 3243.674309 setupChannel(), init.cc:602 NCCL TRACE rank 1 nranks 2
+gdr116:57407:57436 [0] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 0 CPU core 7
+gdr116:57407:57437 [0] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 0 CPU core 37
+gdr114:21841:21847 [0] 3418.426174 setupChannel(), init.cc:602 NCCL TRACE rank 0 nranks 2
+gdr114:21841:21847 [0] 3418.825259 initTransportsRank(), init.cc:1229 NCCL TRACE rank 0 nranks 2 - CONNECTED 2 RINGS AND TREES
+gdr114:21841:21847 [0] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+gdr114:21841:21847 [0] initTransportsRank(), init.cc:1234 NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+gdr116:57407:57412 [0] 3244.433572 setupChannel(), init.cc:602 NCCL TRACE rank 1 nranks 2
+gdr114:21841:21847 [0] devCommSetup(), init.cc:483 NCCL INFO CC Off, workFifoBytes 1048576
+gdr114:21841:21847 [0] 3419.499335 bootstrapIntraNodeBarrier(), bootstrap.cc:1082 NCCL TRACE bootstrapIntraNodeBarrier done in 0.000000 sec
+gdr114:21841:21847 [0] 3419.507460 initTransportsRank(), init.cc:1261 NCCL TRACE rank 0 nranks 2 - DONE
+gdr114:21841:21847 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:21841:21847 [0] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x643f05d80800 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 5000 commId 0x24ff2bb90020f308 - Init COMPLETE
+gdr114:21841:21847 [0] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 0 nranks 2 total 3.27 (kernels 3.19, alloc 0.03, bootstrap 0.02, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.00, rest 0.00)
+gdr116:57407:57412 [0] 3245.024080 initTransportsRank(), init.cc:1229 NCCL TRACE rank 1 nranks 2 - CONNECTED 2 RINGS AND TREES
+gdr116:57407:57412 [0] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+gdr116:57407:57412 [0] initTransportsRank(), init.cc:1234 NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllReduceRunColl
+gdr116:57407:57412 [0] 3245.871513 bootstrapIntraNodeBarrier(), bootstrap.cc:1082 NCCL TRACE bootstrapIntraNodeBarrier done in 0.000000 sec
+gdr116:57407:57412 [0] 3245.883398 initTransportsRank(), init.cc:1261 NCCL TRACE rank 1 nranks 2 - DONE
+gdr116:57407:57412 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:57407:57412 [0] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x61c4e5c0ec90 rank 1 nranks 2 cudaDev 0 nvmlDev 0 busId 5000 commId 0x24ff2bb90020f308 - Init COMPLETE
+gdr116:57407:57412 [0] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 1 nranks 2 total 3.24 (kernels 3.16, alloc 0.05, bootstrap 0.00, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.00, rest 0.00)
+gdr114:21841:21882 [0] 3420.910155 ncclTransportP2pConnect(), transport.cc:45 NCCL TRACE nsend 1 nrecv 1
+gdr114:21841:21882 [0] 3420.931549 ncclTransportP2pConnect(), transport.cc:45 NCCL TRACE nsend 1 nrecv 1
+gdr114:21841:21882 [0] 3421.032148 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<38113>
+gdr116:57407:57438 [0] 3246.519156 ncclTransportP2pConnect(), transport.cc:45 NCCL TRACE nsend 1 nrecv 1
+gdr116:57407:57438 [0] 3246.540813 ncclTransportP2pConnect(), transport.cc:45 NCCL TRACE nsend 1 nrecv 1
+gdr116:57407:57438 [0] 3246.632873 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<41663>
+gdr114:21841:21883 [0] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 0 CPU core 10
+gdr114:21841:21880 [0] 3454.418311 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<44709>
+gdr114:21841:21882 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 1[0] -> 0[0] [receive] via NET/IB/1
+gdr114:21841:21880 [0] 3454.566312 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<33419>
+gdr114:21841:21882 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 1[0] -> 0[0] [receive] via NET/IB/1
+gdr114:21841:21882 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 0[0] -> 1[0] [send] via NET/IB/1
+gdr114:21841:21882 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 0[0] -> 1[0] [send] via NET/IB/1
+gdr114:21841:21882 [0] 3454.792453 bootstrapSend(), bootstrap.cc:878 NCCL TRACE Sending to peer=1 tag=257 size=1024
+gdr114:21841:21882 [0] 3454.815398 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<46825>
+gdr114:21841:21882 [0] 3455.106157 bootstrapSend(), bootstrap.cc:881 NCCL TRACE Sent to peer=1 tag=257 size=1024
+gdr116:57407:57439 [0] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 0 CPU core 12
+gdr116:57407:57436 [0] 3280.813073 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<41549>
+gdr116:57407:57438 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 0[0] -> 1[0] [receive] via NET/IB/1
+gdr116:57407:57436 [0] 3280.986852 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<33553>
+gdr116:57407:57438 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 0[0] -> 1[0] [receive] via NET/IB/1
+gdr116:57407:57438 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 1[0] -> 0[0] [send] via NET/IB/1
+gdr116:57407:57438 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 1[0] -> 0[0] [send] via NET/IB/1
+gdr116:57407:57438 [0] 3281.251968 bootstrapSend(), bootstrap.cc:878 NCCL TRACE Sending to peer=0 tag=257 size=1024
+gdr116:57407:57438 [0] 3281.274338 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<60767>
+gdr114:21841:21882 [0] 3455.881313 bootstrapRecv(), bootstrap.cc:970 NCCL TRACE Receiving tag=257 peer=1 size=1024
+gdr116:57407:57438 [0] 3281.455476 bootstrapSend(), bootstrap.cc:881 NCCL TRACE Sent to peer=0 tag=257 size=1024
+gdr116:57407:57438 [0] 3281.503076 bootstrapRecv(), bootstrap.cc:970 NCCL TRACE Receiving tag=257 peer=0 size=1024
+gdr114:21841:21880 [0] 3456.129374 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<41549>
+gdr116:57407:57436 [0] 3281.769695 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<44709>
+gdr114:21841:21880 [0] 3456.737646 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<33553>
+gdr116:57407:57436 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+gdr114:21841:21880 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
+gdr116:57407:57436 [0] 3284.195399 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<33419>
+gdr114:21841:21880 [0] 3471.313066 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c28600000 size=524288 rkey=0x203600 lkey=0x203600 fd=-1
+gdr114:21841:21880 [0] 3471.873646 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c28680000 size=4915200 rkey=0x203700 lkey=0x203700 fd=-1
+gdr114:21841:21880 [0] 3472.370458 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c28b30000 size=4194304 rkey=0x203800 lkey=0x203800 fd=-1
+gdr116:57407:57436 [0] 3298.528005 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1890600000 size=524288 rkey=0x203600 lkey=0x203600 fd=-1
+gdr116:57407:57436 [0] 3299.069975 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1890680000 size=4915200 rkey=0x203700 lkey=0x203700 fd=-1
+gdr116:57407:57436 [0] 3299.551264 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1890b30000 size=4194304 rkey=0x203800 lkey=0x203800 fd=-1
+gdr114:21841:21880 [0] 3479.279289 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c29000000 size=524288 rkey=0x203900 lkey=0x203900 fd=-1
+gdr114:21841:21880 [0] 3479.799081 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c29080000 size=4915200 rkey=0x203a00 lkey=0x203a00 fd=-1
+gdr114:21841:21880 [0] 3480.280818 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c29530000 size=4194304 rkey=0x203b00 lkey=0x203b00 fd=-1
+gdr116:57407:57436 [0] 3306.524137 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1891000000 size=524288 rkey=0x203900 lkey=0x203900 fd=-1
+gdr116:57407:57436 [0] 3307.053463 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1891080000 size=4915200 rkey=0x203a00 lkey=0x203a00 fd=-1
+gdr116:57407:57436 [0] 3307.516479 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1891530000 size=4194304 rkey=0x203b00 lkey=0x203b00 fd=-1
+gdr114:21841:21880 [0] 3492.852439 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c29a00000 size=524288 rkey=0x203c00 lkey=0x203c00 fd=-1
+gdr116:57407:57436 [0] 3318.498216 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1891a00000 size=524288 rkey=0x203c00 lkey=0x203c00 fd=-1
+gdr114:21841:21880 [0] 3493.366311 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c29a80000 size=4915200 rkey=0x203d00 lkey=0x203d00 fd=-1
+gdr116:57407:57436 [0] 3319.044910 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1891a80000 size=4915200 rkey=0x203d00 lkey=0x203d00 fd=-1
+gdr114:21841:21880 [0] 3493.868888 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c29f30000 size=4194304 rkey=0x203e00 lkey=0x203e00 fd=-1
+gdr116:57407:57436 [0] 3319.512430 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1891f30000 size=4194304 rkey=0x203e00 lkey=0x203e00 fd=-1
+gdr114:21841:21880 [0] 3500.836973 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c2a400000 size=524288 rkey=0x203f00 lkey=0x203f00 fd=-1
+gdr116:57407:57436 [0] 3326.490785 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1892400000 size=524288 rkey=0x203f00 lkey=0x203f00 fd=-1
+gdr114:21841:21880 [0] 3501.382566 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c2a480000 size=4915200 rkey=0x204000 lkey=0x204000 fd=-1
+gdr116:57407:57436 [0] 3327.074428 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1892480000 size=4915200 rkey=0x204000 lkey=0x204000 fd=-1
+gdr114:21841:21880 [0] 3501.878507 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x721c2a930000 size=4194304 rkey=0x204100 lkey=0x204100 fd=-1
+gdr114:21841:21882 [0] 3501.917835 bootstrapSend(), bootstrap.cc:878 NCCL TRACE Sending to peer=1 tag=385 size=0
+gdr114:21841:21882 [0] 3501.957251 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<46825>
+gdr116:57407:57436 [0] 3327.547701 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1858 NCCL TRACE regAddr=0x7d1892930000 size=4194304 rkey=0x204100 lkey=0x204100 fd=-1
+gdr116:57407:57438 [0] 3327.593003 bootstrapSend(), bootstrap.cc:878 NCCL TRACE Sending to peer=0 tag=385 size=0
+gdr116:57407:57438 [0] 3327.626975 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<60767>
+gdr114:21841:21882 [0] 3502.287157 bootstrapSend(), bootstrap.cc:881 NCCL TRACE Sent to peer=1 tag=385 size=0
+gdr114:21841:21882 [0] 3502.374772 bootstrapRecv(), bootstrap.cc:970 NCCL TRACE Receiving tag=385 peer=1 size=0
+gdr114:21841:21882 [0] 3502.417292 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 0 nranks 2 size 2 - AllGather
+gdr114:21841:21882 [0] 3502.425612 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr116:57407:57438 [0] 3327.938045 bootstrapSend(), bootstrap.cc:881 NCCL TRACE Sent to peer=0 tag=385 size=0
+gdr116:57407:57438 [0] 3328.059151 bootstrapRecv(), bootstrap.cc:970 NCCL TRACE Receiving tag=385 peer=0 size=0
+gdr116:57407:57438 [0] 3328.096555 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 1 nranks 2 size 2 - AllGather
+gdr116:57407:57438 [0] 3328.104130 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr114:21841:21882 [0] 3502.611896 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000181 (0.011063 MB/sec), rest in 0.000000 (74.074074 MB/sec)
+gdr114:21841:21882 [0] 3502.621224 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 2 B done in 0.000196 sec: 0.020390 MB/sec
+gdr114:21841:21882 [0] 3502.627108 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 0 nranks 2 size 2 - AllGather DONE
+gdr114:21841:21882 [0] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr116:57407:57438 [0] 3328.295415 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000186 (0.010772 MB/sec), rest in 0.000000 (40.816327 MB/sec)
+gdr116:57407:57438 [0] 3328.303993 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 2 B done in 0.000200 sec: 0.019974 MB/sec
+gdr116:57407:57438 [0] 3328.310031 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 1 nranks 2 size 2 - AllGather DONE
+gdr116:57407:57438 [0] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+           4             1     float     sum      -1    383.6    0.00    0.00    N/A    405.3    0.00    0.00    N/A
+           8             2     float     sum      -1    386.2    0.00    0.00    N/A    386.5    0.00    0.00    N/A
+          16             4     float     sum      -1    386.5    0.00    0.00    N/A    386.5    0.00    0.00    N/A
+          32             8     float     sum      -1    426.6    0.00    0.00    N/A    426.8    0.00    0.00    N/A
+          64            16     float     sum      -1    426.5    0.00    0.00    N/A    426.6    0.00    0.00    N/A
+         128            32     float     sum      -1    427.9    0.00    0.00    N/A    428.3    0.00    0.00    N/A
+         256            64     float     sum      -1    428.5    0.00    0.00    N/A    428.6    0.00    0.00    N/A
+         512           128     float     sum      -1    411.8    0.00    0.00    N/A    411.5    0.00    0.00    N/A
+        1024           256     float     sum      -1    412.8    0.00    0.00    N/A    412.8    0.00    0.00    N/A
+        2048           512     float     sum      -1    419.6    0.00    0.00    N/A    419.4    0.00    0.00    N/A
+        4096          1024     float     sum      -1    431.2    0.01    0.01    N/A    431.1    0.01    0.01    N/A
+        8192          2048     float     sum      -1    434.6    0.02    0.02    N/A    434.8    0.02    0.02    N/A
+       16384          4096     float     sum      -1    441.4    0.04    0.04    N/A    441.5    0.04    0.04    N/A
+       32768          8192     float     sum      -1    517.8    0.06    0.06    N/A    518.0    0.06    0.06    N/A
+       65536         16384     float     sum      -1    682.9    0.10    0.10    N/A    677.0    0.10    0.10    N/A
+      131072         32768     float     sum      -1   1034.4    0.13    0.13    N/A   1032.8    0.13    0.13    N/A
+      262144         65536     float     sum      -1   1610.8    0.16    0.16    N/A   1610.6    0.16    0.16    N/A
+      524288        131072     float     sum      -1   2477.1    0.21    0.21    N/A   2494.3    0.21    0.21    N/A
+     1048576        262144     float     sum      -1   4240.9    0.25    0.25    N/A   4235.4    0.25    0.25    N/A
+     2097152        524288     float     sum      -1   7826.3    0.27    0.27    N/A   7837.0    0.27    0.27    N/A
+     4194304       1048576     float     sum      -1    15097    0.28    0.28    N/A    15035    0.28    0.28    N/A
+     8388608       2097152     float     sum      -1    29499    0.28    0.28    N/A    29449    0.28    0.28    N/A
+    16777216       4194304     float     sum      -1    58761    0.29    0.29    N/A    58547    0.29    0.29    N/A
+    33554432       8388608     float     sum      -1   116793    0.29    0.29    N/A   116724    0.29    0.29    N/A
+    67108864      16777216     float     sum      -1   233216    0.29    0.29    N/A   233360    0.29    0.29    N/A
+gdr114:21841:21841 [0] 106980.506953 ncclCommDestroy(), init.cc:2060 NCCL TRACE comm 0x643f05d80800 rank 0 nRanks 2 cudaDev 0 busId 5000
+gdr114:21841:21958 [0] 106980.731664 commDestroySync(), init.cc:1908 NCCL TRACE Destroying comm 0x643f05d80800 rank 0 abortFlag 0 asyncResult 0
+gdr114:21841:21958 [0] 106980.827794 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<38113>
+gdr116:57407:57407 [0] 106806.665988 ncclCommDestroy(), init.cc:2060 NCCL TRACE comm 0x61c4e5c0ec90 rank 1 nRanks 2 cudaDev 0 busId 5000
+gdr116:57407:57508 [0] 106806.901012 commDestroySync(), init.cc:1908 NCCL TRACE Destroying comm 0x61c4e5c0ec90 rank 1 abortFlag 0 asyncResult 0
+gdr116:57407:57508 [0] 106806.992110 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<41663>
+[gdr114] tid:21880, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(554)
+[gdr116] tid:57436, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(685)
+[gdr114] tid:21880, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(555)
+[gdr116] tid:57436, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(686)
+[gdr114] tid:21880, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(557)
+[gdr116] tid:57436, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(688)
+[gdr114] tid:21880, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(558)
+[gdr116] tid:57436, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(689)
+[gdr114] tid:21880, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(553)
+[gdr116] tid:57436, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(684)
+[gdr114] tid:21880, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(556)
+[gdr116] tid:57436, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(687)
+gdr114:21841:21958 [0] commFree(), init.cc:256 NCCL INFO comm 0x643f05d80800 rank 0 nranks 2 cudaDev 0 busId 5000 - Destroy COMPLETE
+gdr116:57407:57508 [0] commFree(), init.cc:256 NCCL INFO comm 0x61c4e5c0ec90 rank 1 nranks 2 cudaDev 0 busId 5000 - Destroy COMPLETE
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.106988 
+#
+

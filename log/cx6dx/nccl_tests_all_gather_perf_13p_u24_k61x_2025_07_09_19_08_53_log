@@ -1,0 +1,110 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] tid:4558, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:15705, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 67108864 step: 2(factor) warmup iters: 30 iters: 100 agg iters: 1 validation: 1 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid   4558 on     gdr114 device  0 [0x05] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid  15705 on     gdr116 device  0 [0x05] Tesla V100-SXM2-16GB
+[gdr116] tid:15710, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr116] tid:15710, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+[gdr116] tid:15710, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+[gdr116] tid:15710, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:15710, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr116] tid:15710, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr114] tid:4564, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr114] tid:4564, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+[gdr114] tid:4564, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+[gdr114] tid:4564, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] tid:4564, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr114] tid:4564, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr116] tid:15710, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:15710, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr116] tid:15710, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr114] tid:4564, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:4564, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr114] tid:4564, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr114] tid:4564, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:15710, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:4564, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:4564, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:15710, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:15710, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:4564, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:4564, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:4564, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:4564, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:4564, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:4564, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:4564, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:15710, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:15710, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:15710, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:15710, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:15710, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:15710, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:15710, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+           0             0     float    none      -1     4.10    0.00    0.00      0     4.04    0.00    0.00      0
+           0             0     float    none      -1     4.51    0.00    0.00      0     4.22    0.00    0.00      0
+          32             4     float    none      -1    378.6    0.00    0.00      0    369.9    0.00    0.00      0
+          64             8     float    none      -1    378.6    0.00    0.00      0    370.2    0.00    0.00      0
+         128            16     float    none      -1    380.5    0.00    0.00      0    372.0    0.00    0.00      0
+         256            32     float    none      -1    380.8    0.00    0.00      0    372.3    0.00    0.00      0
+         512            64     float    none      -1    367.8    0.00    0.00      0    359.6    0.00    0.00      0
+        1024           128     float    none      -1    391.2    0.00    0.00      0    360.1    0.00    0.00      0
+        2048           256     float    none      -1    371.3    0.01    0.00      0    362.8    0.01    0.00      0
+        4096           512     float    none      -1    379.5    0.01    0.01      0    371.4    0.01    0.01      0
+        8192          1024     float    none      -1    382.9    0.02    0.01      0    374.3    0.02    0.01      0
+       16384          2048     float    none      -1    429.5    0.04    0.02      0    414.6    0.04    0.02      0
+       32768          4096     float    none      -1    528.1    0.06    0.03      0    504.4    0.06    0.03      0
+       65536          8192     float    none      -1    646.8    0.10    0.05      0    626.3    0.10    0.05      0
+      131072         16384     float    none      -1    848.3    0.15    0.08      0    807.1    0.16    0.08      0
+      262144         32768     float    none      -1   1115.2    0.24    0.12      0   1042.2    0.25    0.13      0
+      524288         65536     float    none      -1   1669.5    0.31    0.16      0   1536.1    0.34    0.17      0
+     1048576        131072     float    none      -1   2767.0    0.38    0.19      0   2493.6    0.42    0.21      0
+     2097152        262144     float    none      -1   4985.4    0.42    0.21      0   4435.2    0.47    0.24      0
+     4194304        524288     float    none      -1   9421.1    0.45    0.22      0   8358.1    0.50    0.25      0
+     8388608       1048576     float    none      -1    18491    0.45    0.23      0    16371    0.51    0.26      0
+    16777216       2097152     float    none      -1    36633    0.46    0.23      0    32389    0.52    0.26      0
+    33554432       4194304     float    none      -1    72923    0.46    0.23      0    64443    0.52    0.26      0
+    67108864       8388608     float    none      -1   145902    0.46    0.23      0   128739    0.52    0.26      0
+[gdr114] tid:4605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(506)
+[gdr116] tid:15714, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(637)
+[gdr114] tid:4605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(507)
+[gdr116] tid:15714, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(638)
+[gdr114] tid:4605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(508)
+[gdr116] tid:15714, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(639)
+[gdr116] tid:15714, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(640)
+[gdr114] tid:4605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(509)
+[gdr116] tid:15714, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(641)
+[gdr114] tid:4605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(510)
+[gdr116] tid:15714, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(633)
+[gdr114] tid:4605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(502)
+[gdr116] tid:15714, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(634)
+[gdr114] tid:4605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(503)
+[gdr116] tid:15714, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(635)
+[gdr116] tid:15714, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(636)
+[gdr114] tid:4605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(504)
+[gdr114] tid:4605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(505)
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.0885485 
+#
+

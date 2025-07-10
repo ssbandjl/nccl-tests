@@ -1,0 +1,88 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] tid:21080, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:56668, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 4 maxBytes 67108864 step: 2(factor) warmup iters: 30 iters: 100 agg iters: 1 validation: 0 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid  21080 on     gdr114 device  0 [0x05] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid  56668 on     gdr116 device  0 [0x05] Tesla V100-SXM2-16GB
+[gdr114] tid:21086, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr114] tid:21086, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+[gdr114] tid:21086, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+[gdr114] tid:21086, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] tid:21086, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr114] tid:21086, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr116] tid:56673, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr116] tid:56673, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+[gdr116] tid:56673, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+[gdr116] tid:56673, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:56673, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr116] tid:56673, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr114] tid:21086, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:21086, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr114] tid:21086, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr116] tid:56673, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:56673, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr116] tid:56673, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr114] tid:21086, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:21086, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:21086, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:56673, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:56673, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:56673, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:21086, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:21086, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:21086, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:21086, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:21086, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr114] tid:21086, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:21086, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:56673, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:56673, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:56673, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:56673, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:56673, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+[gdr116] tid:56673, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:56673, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllReduceRunColl
+           4             1     float     sum      -1    385.0    0.00    0.00    N/A    384.0    0.00    0.00    N/A
+           8             2     float     sum      -1    387.1    0.00    0.00    N/A    387.0    0.00    0.00    N/A
+          16             4     float     sum      -1    387.0    0.00    0.00    N/A    386.9    0.00    0.00    N/A
+          32             8     float     sum      -1    427.0    0.00    0.00    N/A    426.6    0.00    0.00    N/A
+          64            16     float     sum      -1    426.6    0.00    0.00    N/A    426.4    0.00    0.00    N/A
+         128            32     float     sum      -1    428.2    0.00    0.00    N/A    427.7    0.00    0.00    N/A
+         256            64     float     sum      -1    428.3    0.00    0.00    N/A    428.1    0.00    0.00    N/A
+         512           128     float     sum      -1    411.4    0.00    0.00    N/A    411.4    0.00    0.00    N/A
+        1024           256     float     sum      -1    413.4    0.00    0.00    N/A    423.8    0.00    0.00    N/A
+        2048           512     float     sum      -1    419.3    0.00    0.00    N/A    419.4    0.00    0.00    N/A
+        4096          1024     float     sum      -1    431.5    0.01    0.01    N/A    431.4    0.01    0.01    N/A
+        8192          2048     float     sum      -1    434.3    0.02    0.02    N/A    434.5    0.02    0.02    N/A
+       16384          4096     float     sum      -1    441.6    0.04    0.04    N/A    442.0    0.04    0.04    N/A
+       32768          8192     float     sum      -1    519.1    0.06    0.06    N/A    518.2    0.06    0.06    N/A
+       65536         16384     float     sum      -1    680.1    0.10    0.10    N/A    678.0    0.10    0.10    N/A
+      131072         32768     float     sum      -1   1018.8    0.13    0.13    N/A   1032.7    0.13    0.13    N/A
+      262144         65536     float     sum      -1   1612.6    0.16    0.16    N/A   1623.9    0.16    0.16    N/A
+      524288        131072     float     sum      -1   2479.1    0.21    0.21    N/A   2475.2    0.21    0.21    N/A
+     1048576        262144     float     sum      -1   4241.8    0.25    0.25    N/A   4234.9    0.25    0.25    N/A
+     2097152        524288     float     sum      -1   7827.5    0.27    0.27    N/A   7813.8    0.27    0.27    N/A
+     4194304       1048576     float     sum      -1    15029    0.28    0.28    N/A    15035    0.28    0.28    N/A
+     8388608       2097152     float     sum      -1    29476    0.28    0.28    N/A    29479    0.28    0.28    N/A
+    16777216       4194304     float     sum      -1    58612    0.29    0.29    N/A    58626    0.29    0.29    N/A

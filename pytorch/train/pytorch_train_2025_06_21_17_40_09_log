@@ -1,0 +1,83 @@
+s95:5954:5954 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to ens4f0
+s95:5954:5954 [0] NCCL INFO NCCL_SOCKET_IFNAME set to ens4f0
+s95:5954:5954 [0] NCCL INFO Bootstrap : Using [0]ens4f0:192.168.1.10<0>
+s95:5954:5954 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+s95:5954:5954 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+s95:5954:5954 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to ens4f0
+s95:5954:5954 [0] NCCL INFO NCCL_SOCKET_IFNAME set to ens4f0
+s95:5954:5954 [0] NCCL INFO NET/IB : No device found.
+s95:5954:5954 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to ens4f0
+s95:5954:5954 [0] NCCL INFO NCCL_SOCKET_IFNAME set to ens4f0
+s95:5954:5954 [0] NCCL INFO NET/Socket : Using [0]ens4f0:192.168.1.10<0>
+s95:5954:5954 [0] NCCL INFO Using network Socket
+NCCL version 2.7.8+cuda10.1
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launch.py", line 260, in <module>
+    main()
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/launch.py", line 253, in main
+    process.wait()
+  File "/usr/lib/python3.8/subprocess.py", line 1083, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1806, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.8/subprocess.py", line 1764, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+s95:5954:6020 [0] NCCL INFO Could not get speed from /sys/class/net/ens4f0/speed. Defaulting to 10 Gbps.
+s95:5954:6020 [0] NCCL INFO Could not get speed from /sys/class/net/ens4f0/speed. Defaulting to 10 Gbps.
+s95:5954:6020 [0] NCCL INFO KV Convert to int : could not find value of '8.0 GT/s PCIe' in dictionary, falling back to 60
+s95:5954:6020 [0] NCCL INFO Attribute coll of node net not found
+s95:5954:6020 [0] NCCL INFO KV Convert to int : could not find value of '8.0 GT/s PCIe' in dictionary, falling back to 60
+s95:5954:6020 [0] NCCL INFO NCCL_P2P_LEVEL set by environment to NVL
+s95:5954:6020 [0] NCCL INFO === System : maxWidth 1.2 ===
+s95:5954:6020 [0] NCCL INFO CPU/1 (1/1/1)
+s95:5954:6020 [0] NCCL INFO + PCI[12.0] - GPU/84000 (0)
+s95:5954:6020 [0] NCCL INFO + SYS[6.0] - CPU/0
+s95:5954:6020 [0] NCCL INFO CPU/0 (1/1/1)
+s95:5954:6020 [0] NCCL INFO + SYS[6.0] - CPU/1
+s95:5954:6020 [0] NCCL INFO + PCI[3.0] - NIC/3000
+s95:5954:6020 [0] NCCL INFO              + NET[1.2] - NET/0 (0/0/1.250000)
+s95:5954:6020 [0] NCCL INFO ==========================================
+s95:5954:6020 [0] NCCL INFO GPU/84000 :GPU/84000 (0/5000.000000/LOC) CPU/1 (1/12.000000/PHB) CPU/0 (2/6.000000/SYS) NET/0 (4/1.250000/SYS) 
+s95:5954:6020 [0] NCCL INFO NET/0 :GPU/84000 (4/1.250000/SYS) CPU/1 (3/1.250000/SYS) CPU/0 (2/1.250000/PHB) NET/0 (0/5000.000000/LOC) 
+s95:5954:6020 [0] NCCL INFO Pattern 4, crossNic 0, nChannels 1, speed 1.200000/1.200000, type LOC/SYS, sameChannels 1
+s95:5954:6020 [0] NCCL INFO  0 : NET/0 GPU/0 NET/0
+s95:5954:6020 [0] NCCL INFO Pattern 3, crossNic 0, nChannels 1, speed 2.400000/1.200000, type LOC/SYS, sameChannels 1
+s95:5954:6020 [0] NCCL INFO  0 : NET/0 GPU/0 NET/0
+s95:5954:6020 [0] NCCL INFO Pattern 3, crossNic 0, nChannels 0, speed 0.000000/0.000000, type LOC/PIX, sameChannels 1
+s95:5954:6020 [0] NCCL INFO Channel 00/02 :    0   1
+s95:5954:6020 [0] NCCL INFO Channel 01/02 :    0   1
+s95:5954:6020 [0] NCCL INFO Latency/AlgBw |    Tree/    LL |    Tree/ LL128 |    Tree/Simple |    Ring/    LL |    Ring/ LL128 |    Ring/Simple | CollNet/    LL | CollNet/ LL128 | CollNet/Simple |
+s95:5954:6020 [0] NCCL INFO  Max NThreads |            512 |            640 |            512 |            512 |            640 |            256 |            512 |            640 |            512 |
+s95:5954:6020 [0] NCCL INFO     Broadcast |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     6.3/   0.3 |    14.0/   0.0 |    18.0/   1.2 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+s95:5954:6020 [0] NCCL INFO        Reduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     6.3/   0.3 |    14.0/   0.0 |    18.0/   1.2 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+s95:5954:6020 [0] NCCL INFO     AllGather |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     6.3/   0.6 |    14.0/   0.0 |    18.0/   2.4 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+s95:5954:6020 [0] NCCL INFO ReduceScatter |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     6.3/   0.6 |    14.0/   0.0 |    18.0/   2.4 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+s95:5954:6020 [0] NCCL INFO     AllReduce |    14.4/   0.3 |    21.4/   0.0 |   100.0/   1.1 |     9.0/   0.3 |    18.0/   0.0 |    27.6/   1.2 |     9.4/   0.0 |     9.4/   0.0 |    10.7/   0.0 |
+s95:5954:6020 [0] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 8/8/64
+s95:5954:6020 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1|-1->0->1/-1/-1 [1] -1/-1/-1->0->1|1->0->-1/-1/-1
+s95:5954:6020 [0] NCCL INFO Setting affinity for GPU 0 to ff,ffc0000f,fffc0000
+s95:5954:6020 [0] NCCL INFO Channel 00 : 1[84000] -> 0[84000] [receive] via NET/Socket/0
+s95:5954:6020 [0] NCCL INFO Channel 00 : 0[84000] -> 1[84000] [send] via NET/Socket/0
+s95:5954:6020 [0] NCCL INFO Channel 01 : 1[84000] -> 0[84000] [receive] via NET/Socket/0
+s95:5954:6020 [0] NCCL INFO Channel 01 : 0[84000] -> 1[84000] [send] via NET/Socket/0
+s95:5954:6020 [0] NCCL INFO 2 coll channels, 2 p2p channels, 1 p2p channels per peer
+s95:5954:6020 [0] NCCL INFO comm 0x7f6cbc001100 rank 0 nranks 2 cudaDev 0 busId 84000 - Init COMPLETE
+s95:5954:5954 [0] NCCL INFO AllReduce: opCount 0 sendbuff 0x7f6d10600000 recvbuff 0x7f6d10600000 count 1 datatype 1 op 0 root 0 comm 0x7f6cbc001100 [nranks=2] stream 0x4977680
+s95:5954:5954 [0] NCCL INFO Launch mode Parallel
+Traceback (most recent call last):
+  File "train4.py", line 73, in <module>
+    main()
+  File "train4.py", line 40, in main
+    setup()
+  File "train4.py", line 21, in setup
+    dist.init_process_group("nccl", init_method="env://")
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/distributed_c10d.py", line 455, in init_process_group
+    barrier()
+  File "/usr/local/lib/python3.8/dist-packages/torch/distributed/distributed_c10d.py", line 1960, in barrier
+    work = _default_pg.barrier()
+KeyboardInterrupt
