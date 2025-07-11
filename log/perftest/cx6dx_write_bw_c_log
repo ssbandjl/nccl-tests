@@ -48,3 +48,37 @@ root@gdr114:~/project/ai/nccl-tests# ib_write_bw -F -d mlx5_0 192.168.1.11 -a
  8388608    5000             2759.21            2754.58              0.000344
 ---------------------------------------------------------------------------------------
 root@gdr114:~/project/ai/nccl-tests# 
+
+
+
+root@gdr116:~# ib_write_bw -d mlx5_0 -F -a
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF          Device         : mlx5_0
+ Number of qps   : 1            Transport type : IB
+ Connection type : RC           Using SRQ      : OFF
+ PCIe relax order: ON           Lock-free      : OFF
+ WARNING: CPU is not PCIe relaxed ordering compliant.
+ WARNING: You should disable PCIe RO with `--disable_pcie_relaxed` for both server and client.
+ ibv_wr* API     : ON           Using DDP      : OFF
+ CQ Moderation   : 100
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 3
+ Max inline data : 0[B]
+ rdma_cm QPs     : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x0284 PSN 0x7fcf3e RKey 0x2036c9 VAddr 0x007469db9ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:192:168:01:11
+ remote address: LID 0000 QPN 0x0201 PSN 0xc07f9e RKey 0x2036c3 VAddr 0x0070634432e000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:192:168:01:10
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 8388608    5000             2759.21            2754.58              0.000344
+---------------------------------------------------------------------------------------
+root@gdr116:~# 
