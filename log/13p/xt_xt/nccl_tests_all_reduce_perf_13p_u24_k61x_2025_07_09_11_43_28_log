@@ -1,0 +1,212 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr116] tid:9951, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] tid:31588, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid  31588 on     gdr114 device  0 [0x05] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid   9951 on     gdr116 device  0 [0x05] Tesla V100-SXM2-16GB
+[gdr116] tid:9956, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr116] tid:9956, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:9956, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr116] tid:9956, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr116] tid:9956, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr116] tid:9956, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:9956, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr116] tid:9956, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:9956, ibDmaBufSupportInitOnce(), transport/net_ib.cc:770, dev_name:xtrdma_0, dmabuf support
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:9956, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:9956, ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr116] tid:9956, initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+[gdr116] tid:9956, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr116] tid:9956, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr116] tid:9956, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:9956, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:9956, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:9956, ncclTopoPopulateNics(), graph/topo.cc:1232, Nic xtrdma_0 support dmabuf
+[gdr116] tid:9956, initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+[gdr116] tid:9956, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr116] tid:9956, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:9956, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:9956, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:9956, ncclTopoPopulateNics(), graph/topo.cc:1232, Nic xtrdma_0 support dmabuf
+[gdr116] tid:9956, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:9956, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:9956, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:9956, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:9956, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:9956, ncclTopoPopulateNics(), graph/topo.cc:1232, Nic xtrdma_0 support dmabuf
+[gdr116] tid:9956, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:9956, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:9956, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:9956, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:9956, ncclTopoPopulateNics(), graph/topo.cc:1232, Nic xtrdma_0 support dmabuf
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllReduceRunColl
+[gdr116] tid:9959, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9959, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:9959, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:9959, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:9959, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9959, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:9959, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:9959, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:9959, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9959, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:9959, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:9959, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:9959, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9959, ncclIbGetPhysProperties(), transport/net_ib.cc:811, Nic not support ib gdr, not set NCCL_PTR_CUDA flag
+[gdr116] tid:9959, ncclIbGetPhysProperties(), transport/net_ib.cc:815, Nic support ib gdr dmabuf, add NCCL_PTR_DMABUF flag
+[gdr116] tid:9959, ncclIbGetProperties(), transport/net_ib.cc:842, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:9959, ncclIbInitCommDevBase(), transport/net_ib.cc:1106, Create CQ, need_cqe_num:2048
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbInitCommDevBase(), transport/net_ib.cc:1106, Create CQ, need_cqe_num:2048
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9959, ibDmaBufSupportInitOnce(), transport/net_ib.cc:770, dev_name:xtrdma_0, dmabuf support
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+[gdr116] tid:9959, ncclIbInitCommDevBase(), transport/net_ib.cc:1106, Create CQ, need_cqe_num:2048
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbInitCommDevBase(), transport/net_ib.cc:1106, Create CQ, need_cqe_num:2048
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbGdrSupport(), transport/net_ib.cc:746, Warning, no find memory_peers, /sys/kernel/mm/memory_peers/nv_mem/version or /sys/kernel/mm/memory_peers/nv_mem_nc/version or /sys/module/nvidia_peermem/version
+[gdr116] tid:9959, ncclIbCreateQp(), transport/net_ib.cc:1140, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbRtrQp(), transport/net_ib.cc:1197, link_layer:2, is_global:1
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+[gdr116] tid:9959, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1850, Reg iova2 mr
+           8             2     float     sum      -1    427.6    0.00    0.00      0    428.3    0.00    0.00      0
+          16             4     float     sum      -1    426.0    0.00    0.00      0    425.9    0.00    0.00      0
+          32             8     float     sum      -1    432.8    0.00    0.00      0    432.3    0.00    0.00      0
+          64            16     float     sum      -1    432.4    0.00    0.00      0    433.2    0.00    0.00      0
+         128            32     float     sum      -1    432.4    0.00    0.00      0    432.2    0.00    0.00      0
+         256            64     float     sum      -1    433.2    0.00    0.00      0    433.8    0.00    0.00      0
+         512           128     float     sum      -1    422.9    0.00    0.00      0    421.1    0.00    0.00      0
+        1024           256     float     sum      -1    424.8    0.00    0.00      0    422.9    0.00    0.00      0
+        2048           512     float     sum      -1    428.9    0.00    0.00      0    429.2    0.00    0.00      0
+        4096          1024     float     sum      -1    438.8    0.01    0.01      0    439.4    0.01    0.01      0
+        8192          2048     float     sum      -1    447.7    0.02    0.02      0    449.5    0.02    0.02      0
+       16384          4096     float     sum      -1    467.6    0.04    0.04      0    472.8    0.03    0.03      0
+       32768          8192     float     sum      -1    549.6    0.06    0.06      0    554.6    0.06    0.06      0
+       65536         16384     float     sum      -1    725.8    0.09    0.09      0    735.1    0.09    0.09      0
+      131072         32768     float     sum      -1   1175.7    0.11    0.11      0   1147.0    0.11    0.11      0
+      262144         65536     float     sum      -1   1615.9    0.16    0.16      0   1616.5    0.16    0.16      0
+      524288        131072     float     sum      -1   2492.2    0.21    0.21      0   2486.5    0.21    0.21      0
+     1048576        262144     float     sum      -1   4290.9    0.24    0.24      0   4291.9    0.24    0.24      0
+     2097152        524288     float     sum      -1   7929.6    0.26    0.26      0   7928.6    0.26    0.26      0
+     4194304       1048576     float     sum      -1    15211    0.28    0.28      0    15219    0.28    0.28      0
+     8388608       2097152     float     sum      -1    29808    0.28    0.28      0    29864    0.28    0.28      0
+    16777216       4194304     float     sum      -1    59179    0.28    0.28      0   228559    0.07    0.07      0
+    33554432       8388608     float     sum      -1   118862    0.28    0.28      0   120386    0.28    0.28      0
+    67108864      16777216     float     sum      -1   235939    0.28    0.28      0   236387    0.28    0.28      0
+   134217728      33554432     float     sum      -1   473100    0.28    0.28      0   473617    0.28    0.28      0
+   268435456      67108864     float     sum      -1   947966    0.28    0.28      0   949830    0.28    0.28      0
+   536870912     134217728     float     sum      -1  1900559    0.28    0.28      0  1896414    0.28    0.28      0
+  1073741824     268435456     float     sum      -1  3799946    0.28    0.28      0  4022888    0.27    0.27      0
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(42)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(42)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(43)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(43)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(44)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(44)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(45)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(45)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(46)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(46)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(51)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(51)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(52)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(52)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(53)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(53)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(54)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(54)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(55)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(55)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(38)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(38)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(39)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(39)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(40)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(40)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(41)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(41)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(47)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(47)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(48)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(48)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(49)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(49)
+[gdr116] tid:9959, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(50)
+[gdr114] tid:31609, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(50)
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.129983 
+#
+

@@ -1,0 +1,160 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr116] main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] run(), common.cu:975, # nThread 1 nGpus 1 minBytes 8 maxBytes 65536 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+[gdr114] run(), common.cu:981, #
+[gdr114] run(), common.cu:993, TotalGPU:4
+[gdr116] run(), common.cu:993, TotalGPU:4
+[gdr114] run(), common.cu:1016, #  Rank  0 Group  0 Pid  82404 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+[gdr114] run(), common.cu:1016, #  Rank  1 Group  0 Pid 636385 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+[gdr114] ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr114] tid:82410, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:82288 not exists, now remove huge file:/dev/hugepages/huge_file_82288_1751009103_0x711dd4d0bf40_599247212
+[gdr114] tid:82410, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_82404_1751009159_0x767cd8d0be70_1713738527
+[gdr114] ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:82410, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_82404_1751009159_0x767cd919d3e0_480528734
+[gdr116] ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr116] tid:636390, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:636272 not exists, now remove huge file:/dev/hugepages/huge_file_636272_1751009103_0x776aa89995d0_233774508
+[gdr116] tid:636390, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_636385_1751009159_0x77bd8c9996c0_1984909180
+[gdr114] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr114] tid:82410, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_82404_1751009159_0x767cd919d3e0_1317922281
+[gdr116] ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:636390, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_636385_1751009159_0x77bd8ce2a9f0_1226544239
+[gdr114] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr114] tid:82410, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_82404_1751009159_0x767cd919d3e0_1174140958
+[gdr116] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr116] tid:636390, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_636385_1751009159_0x77bd8ce2a9f0_1796092043
+[gdr114] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr114] ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr116] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr116] tid:636390, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_636385_1751009159_0x77bd8ce2a9f0_1488054620
+[gdr116] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr116] ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr114] ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr114] initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+[gdr116] ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr116] initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+[gdr114] initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+[gdr116] initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+[gdr114] ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr114] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr116] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] run(), common.cu:1100, #
+[gdr114] run(), common.cu:1101, #                                                              out-of-place                       in-place          
+[gdr114] run(), common.cu:1102, #       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+[gdr114] run(), common.cu:1104, #        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+[gdr114] ncclIbConnect(), transport/net_ib.cc:1247, NCCL RDMA Client connect
+[gdr116] ncclIbConnect(), transport/net_ib.cc:1247, NCCL RDMA Client connect
+[gdr114] ncclIbConnect(), transport/net_ib.cc:1247, NCCL RDMA Client connect
+[gdr116] ncclIbInitCommDevBase(), transport/net_ib.cc:1095, NCCL init ib commom dev base, create cq
+[gdr114] ncclIbInitCommDevBase(), transport/net_ib.cc:1095, NCCL init ib commom dev base, create cq
+[gdr116] ncclIbCreateQp(), transport/net_ib.cc:1129, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] ncclIbCreateQp(), transport/net_ib.cc:1129, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr116] ncclIbConnect(), transport/net_ib.cc:1247, NCCL RDMA Client connect
+[gdr114] ncclIbInitCommDevBase(), transport/net_ib.cc:1095, NCCL init ib commom dev base, create cq
+[gdr116] ncclIbInitCommDevBase(), transport/net_ib.cc:1095, NCCL init ib commom dev base, create cq
+[gdr114] ncclIbCreateQp(), transport/net_ib.cc:1129, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] ncclIbCreateQp(), transport/net_ib.cc:1129, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr114] ncclIbRtrQp(), transport/net_ib.cc:1186, link_layer:2, is_global:1
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr116] ncclIbRtrQp(), transport/net_ib.cc:1186, link_layer:2, is_global:1
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] ncclIbInitCommDevBase(), transport/net_ib.cc:1095, NCCL init ib commom dev base, create cq
+[gdr114] ncclIbCreateQp(), transport/net_ib.cc:1129, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] ncclIbRtrQp(), transport/net_ib.cc:1186, link_layer:2, is_global:1
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] ncclIbRtrQp(), transport/net_ib.cc:1186, link_layer:2, is_global:1
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbInitCommDevBase(), transport/net_ib.cc:1095, NCCL init ib commom dev base, create cq
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbCreateQp(), transport/net_ib.cc:1129, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr114] ncclIbInitCommDevBase(), transport/net_ib.cc:1095, NCCL init ib commom dev base, create cq
+[gdr116] ncclIbInitCommDevBase(), transport/net_ib.cc:1095, NCCL init ib commom dev base, create cq
+[gdr114] ncclIbCreateQp(), transport/net_ib.cc:1129, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] ncclIbCreateQp(), transport/net_ib.cc:1129, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr114] ncclIbRtrQp(), transport/net_ib.cc:1186, link_layer:2, is_global:1
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr116] ncclIbRtrQp(), transport/net_ib.cc:1186, link_layer:2, is_global:1
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] ncclIbRtrQp(), transport/net_ib.cc:1186, link_layer:2, is_global:1
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] ncclIbRtrQp(), transport/net_ib.cc:1186, link_layer:2, is_global:1
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:82423, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:636393, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr114] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+[gdr116] ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1833, Reg iova2 mr
+           8             2     float    none       0    400.5    0.00    0.00      0    390.6    0.00    0.00      0
+          16             4     float    none       0    399.2    0.00    0.00      0    390.0    0.00    0.00      0
+          32             8     float    none       0    399.2    0.00    0.00      0    390.1    0.00    0.00      0
+          64            16     float    none       0    402.6    0.00    0.00      0    392.7    0.00    0.00      0
+         128            32     float    none       0    401.6    0.00    0.00      0    392.2    0.00    0.00      0
+         256            64     float    none       0    392.6    0.00    0.00      0    383.8    0.00    0.00      0
+         512           128     float    none       0    486.2    0.00    0.00      0    383.5    0.00    0.00      0
+        1024           256     float    none       0    422.5    0.00    0.00      0    368.1    0.00    0.00      0
+        2048           512     float    none       0    386.5    0.01    0.01      0    370.1    0.01    0.01      0
+        4096          1024     float    none       0    393.4    0.01    0.01      0    376.6    0.01    0.01      0
+        8192          2048     float    none       0    393.3    0.02    0.02      0    377.7    0.02    0.02      0
+       16384          4096     float    none       0    487.1    0.03    0.03      0    474.6    0.03    0.03      0
+       32768          8192     float    none       0    487.3    0.07    0.07      0    475.3    0.07    0.07      0
+       65536         16384     float    none       0    535.4    0.12    0.12      0    515.0    0.13    0.13      0
+[gdr114] run(), common.cu:1192, # Out of bounds values : 0 OK
+[gdr114] run(), common.cu:1193, # Avg bus bandwidth    : 0.0192436 
+[gdr114] run(), common.cu:1194, #
+[gdr114] run(), common.cu:1200, 

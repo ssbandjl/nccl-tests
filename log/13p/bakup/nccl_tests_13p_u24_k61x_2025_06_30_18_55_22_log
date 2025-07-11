@@ -1,0 +1,122 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr116] tid:16778, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] tid:18100, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:18101, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:16779, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr116] tid:16780, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] tid:18102, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:18103, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:16781, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid  18100 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid  18101 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid  18102 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid  18103 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid  16778 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid  16779 on     gdr116 device  1 [0x08] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid  16780 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid  16781 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+[gdr114] tid:18134, ncclTopoComputeP2pChannels(), graph/paths.cc:833, comm->p2pnChannels:2, comm->p2pnChannelsPerPeer:1
+[gdr114] tid:18133, ncclTopoComputeP2pChannels(), graph/paths.cc:833, comm->p2pnChannels:2, comm->p2pnChannelsPerPeer:1
+[gdr114] tid:18132, ncclTopoComputeP2pChannels(), graph/paths.cc:833, comm->p2pnChannels:2, comm->p2pnChannelsPerPeer:1
+[gdr114] tid:18124, ncclTopoComputeP2pChannels(), graph/paths.cc:833, comm->p2pnChannels:2, comm->p2pnChannelsPerPeer:1
+[gdr114] tid:18102, HyperCubeRunTest(), hypercube.cu:100, HyperCubeRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr114] tid:18103, HyperCubeRunTest(), hypercube.cu:100, HyperCubeRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr114] tid:18101, HyperCubeRunTest(), hypercube.cu:100, HyperCubeRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+[gdr114] tid:18100, HyperCubeRunTest(), hypercube.cu:100, HyperCubeRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:16778, HyperCubeRunTest(), hypercube.cu:100, HyperCubeRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:16781, HyperCubeRunTest(), hypercube.cu:100, HyperCubeRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:16779, HyperCubeRunTest(), hypercube.cu:100, HyperCubeRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:16780, HyperCubeRunTest(), hypercube.cu:100, HyperCubeRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+           0             0     float              -1   1095.4    0.00    0.00      0   1095.4    0.00    0.00      0
+           0             0     float              -1   1094.7    0.00    0.00      0   1095.7    0.00    0.00      0
+           0             0     float              -1   1094.9    0.00    0.00      0   1095.1    0.00    0.00      0
+           0             0     float              -1   1096.5    0.00    0.00      0   1094.5    0.00    0.00      0
+         128             4     float              -1   1311.9    0.00    0.00      0   1308.8    0.00    0.00      0
+         256             8     float              -1   1312.4    0.00    0.00      0   1310.3    0.00    0.00      0
+         512            16     float              -1   1314.2    0.00    0.00      0   1310.8    0.00    0.00      0
+        1024            32     float              -1   1292.0    0.00    0.00      0   1289.9    0.00    0.00      0
+        2048            64     float              -1   1286.1    0.00    0.00      0   1280.0    0.00    0.00      0
+        4096           128     float              -1   1294.9    0.00    0.00      0   1298.7    0.00    0.00      0
+        8192           256     float              -1   1298.9    0.01    0.01      0   1295.8    0.01    0.01      0
+       16384           512     float              -1   1329.7    0.01    0.01      0   1326.6    0.01    0.01      0
+       32768          1024     float              -1   1421.6    0.02    0.02      0   1472.1    0.02    0.02      0
+       65536          2048     float              -1   1668.1    0.03    0.03      0   1656.0    0.03    0.03      0
+      131072          4096     float              -1   1923.1    0.06    0.06      0   1904.2    0.06    0.06      0
+      262144          8192     float              -1   2291.1    0.10    0.10      0   2279.8    0.10    0.10      0
+      524288         16384     float              -1   3060.3    0.15    0.15      0   3037.8    0.15    0.15      0
+     1048576         32768     float              -1   4494.4    0.20    0.20      0   4493.2    0.20    0.20      0
+     2097152         65536     float              -1   7025.2    0.26    0.26      0   7028.2    0.26    0.26      0
+     4194304        131072     float              -1    12187    0.30    0.30      0    12207    0.30    0.30      0
+     8388608        262144     float              -1    22603    0.32    0.32      0    22585    0.32    0.32      0
+    16777216        524288     float              -1    43333    0.34    0.34      0    43282    0.34    0.34      0
+    33554432       1048576     float              -1    84699    0.35    0.35      0    84682    0.35    0.35      0
+    67108864       2097152     float              -1   167739    0.35    0.35      0   168677    0.35    0.35      0
+   134217728       4194304     float              -1   335724    0.35    0.35      0   335659    0.35    0.35      0
+   268435456       8388608     float              -1   669444    0.35    0.35      0   670314    0.35    0.35      0
+   536870912      16777216     float              -1  1339980    0.35    0.35      0  1341818    0.35    0.35      0
+  1073741824      33554432     float              -1  2684167    0.35    0.35      0  2682125    0.35    0.35      0
+[gdr114] tid:18167, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(837)
+[gdr114] tid:18168, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(841)
+[gdr116] tid:16813, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(836)
+[gdr114] tid:18169, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(840)
+[gdr114] tid:18170, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(836)
+[gdr116] tid:16810, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(840)
+[gdr114] tid:18168, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(839)
+[gdr114] tid:18167, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(835)
+[gdr114] tid:18169, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(838)
+[gdr114] tid:18170, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(834)
+[gdr116] tid:16812, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(841)
+[gdr116] tid:16811, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(837)
+[gdr116] tid:16813, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(834)
+[gdr116] tid:16810, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(838)
+[gdr116] tid:16812, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(839)
+[gdr116] tid:16811, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(835)
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.139773 
+#
+

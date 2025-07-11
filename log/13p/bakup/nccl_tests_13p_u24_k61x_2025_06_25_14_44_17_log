@@ -1,0 +1,1181 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] main(), common.cu:696, NCCL version: 22.6.6
+[gdr116] main(), common.cu:696, NCCL version: 22.6.6
+[gdr116] main(), common.cu:701, CUDA Runtime Version: 12.0
+[gdr116] main(), common.cu:702, CUDA Driver Version: 12.4
+[gdr114] main(), common.cu:701, CUDA Runtime Version: 12.9
+[gdr114] main(), common.cu:702, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] run(), common.cu:977, # nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+[gdr114] run(), common.cu:983, #
+[gdr114] run(), common.cu:995, TotalGPU:4
+[gdr114] run(), common.cu:1001, cudaDev:0
+[gdr114] run(), common.cu:1004, ret: no error
+[gdr116] run(), common.cu:995, TotalGPU:4
+[gdr116] run(), common.cu:1001, cudaDev:0
+[gdr116] run(), common.cu:1004, ret: no error
+[gdr114] run(), common.cu:1018, #  Rank  0 Group  0 Pid  22457 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+[gdr114] run(), common.cu:1018, #  Rank  1 Group  0 Pid  26586 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+gdr114:22457:22457 [0] 1.043864 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr114:22457:22457 [0] 1.071984 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.114<0>
+gdr114:22457:22457 [0] 1.077150 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp10s0f0:192.168.1.10<0>
+gdr114:22457:22457 [0] 1.082504 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:::1<0>
+gdr114:22457:22457 [0] 1.104060 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:fe80::cce5:6d0a:154d:2547%enp129s0f0<0>
+gdr114:22457:22457 [0] 1.117149 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp10s0f0:fe80::201:2ff:fe04:0%enp10s0f0<0>
+gdr114:22457:22457 [0] 1.131225 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port0:fe80::956d:9dd5:bdb2:bebe%dpu_port0<0>
+gdr114:22457:22457 [0] 1.144401 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port1:fe80::58ac:3e4d:7955:5976%dpu_port1<0>
+gdr114:22457:22457 [0] 1.157350 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp10s0f1:fe80::535f:cc79:34f5:c25f%enp10s0f1<0>
+gdr114:22457:22457 [0] 1.170912 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp10s0f2:fe80::d6b1:b93d:1a0:ba72%enp10s0f2<0>
+gdr114:22457:22457 [0] 1.184065 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp10s0f3:fe80::16ed:9b0f:17d0:cd7a%enp10s0f3<0>
+gdr114:22457:22457 [0] 3.074119 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr114:22457:22457 [0] 3.083576 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.114<0>
+gdr114:22457:22457 [0] bootstrapNetInit(), bootstrap.cc:120 NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr114:22457:22457 [0] 3.187453 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<59009>
+gdr114:22457:22457 [0] ncclGetUniqueId(), init.cc:103 NCCL TRACE ncclGetUniqueId(0x410062e0091d2df4)
+gdr114:22457:22461 [0] 3.474712 bootstrapRoot(), bootstrap.cc:288 NCCL TRACE BEGIN
+gdr114:22457:22457 [0] ncclGroupStart(), group.cc:98 NCCL TRACE ncclGroupStart()
+gdr114:22457:22457 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr114:22457:22457 [0] showVersion(), init.cc:544 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:22457:22457 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:1683 Cuda Host Alloc Size 4 pointer 0x73a25fa00000
+gdr116:26586:26586 [0] ncclGroupStart(), group.cc:98 NCCL TRACE ncclGroupStart()
+gdr116:26586:26586 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12040
+gdr116:26586:26586 [0] 1.315812 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:26586:26586 [0] 1.352609 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:26586:26586 [0] 1.360732 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:172.17.0.1<0>
+gdr116:26586:26586 [0] 1.367322 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp133s0f0:192.168.1.11<0>
+gdr116:26586:26586 [0] 1.374812 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:::1<0>
+gdr116:26586:26586 [0] 1.412569 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:fe80::9f74:8206:ec00:7c6b%enp129s0f0<0>
+gdr116:26586:26586 [0] 1.443599 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:fe80::243f:bfff:feda:4f7d%docker0<0>
+gdr116:26586:26586 [0] 1.457259 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface vethe9368c5:fe80::fccd:3eff:fef5:e24b%vethe9368c5<0>
+gdr116:26586:26586 [0] 1.470139 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp133s0f0:fe80::201:2ff:fe05:0%enp133s0f0<0>
+gdr116:26586:26586 [0] 1.483608 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port0:fe80::e316:52a4:2e2a:9b70%dpu_port0<0>
+gdr116:26586:26586 [0] 1.495666 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp133s0f1:fe80::3b37:5264:1c2b:5b20%enp133s0f1<0>
+gdr116:26586:26586 [0] 1.507304 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp133s0f2:fe80::edbd:a5e6:bb30:b7c3%enp133s0f2<0>
+gdr116:26586:26586 [0] 1.519383 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp133s0f3:fe80::4feb:ad5:a1ab:f271%enp133s0f3<0>
+gdr116:26586:26586 [0] 1.807004 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:26586:26586 [0] 1.815179 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:26586:26586 [0] bootstrapNetInit(), bootstrap.cc:120 NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.116<0>
+gdr116:26586:26586 [0] showVersion(), init.cc:544 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:26586:26586 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:1683 Cuda Host Alloc Size 4 pointer 0x72b73fa00000
+gdr114:22457:22463 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:22457:22463 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr114:22457:22463 [0] 3163.135068 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr114:22457:22463 [0] 3163.147789 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.114<0>
+gdr114:22457:22463 [0] 3163.166168 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp10s0f0:192.168.1.10<0>
+gdr114:22457:22463 [0] 3163.170215 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:::1<0>
+gdr114:22457:22463 [0] 3163.188664 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:fe80::cce5:6d0a:154d:2547%enp129s0f0<0>
+gdr114:22457:22463 [0] 3163.215950 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp10s0f0:fe80::201:2ff:fe04:0%enp10s0f0<0>
+gdr114:22457:22463 [0] 3163.226620 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port0:fe80::956d:9dd5:bdb2:bebe%dpu_port0<0>
+gdr114:22457:22463 [0] 3163.237180 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port1:fe80::58ac:3e4d:7955:5976%dpu_port1<0>
+gdr114:22457:22463 [0] 3163.250224 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp10s0f1:fe80::535f:cc79:34f5:c25f%enp10s0f1<0>
+gdr114:22457:22463 [0] 3163.260533 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp10s0f2:fe80::d6b1:b93d:1a0:ba72%enp10s0f2<0>
+gdr114:22457:22463 [0] 3163.271363 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp10s0f3:fe80::16ed:9b0f:17d0:cd7a%enp10s0f3<0>
+gdr114:22457:22463 [0] 3165.019132 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr114:22457:22463 [0] 3165.025319 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.114<0>
+gdr114:22457:22463 [0] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to xtrdma_0
+[gdr114] ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr114] tid:22463, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:20048 not exists, now remove huge file:/dev/hugepages/huge_file_20048_1750832848_0x73aa0cd0c740_2095048675
+[gdr114] tid:22463, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_22457_1750833862_0x73a094d0c640_1712070367
+gdr114:22457:22463 [0] 3206.068215 ncclIbInit(), transport/net_ib.cc:672 NCCL TRACE NET/IB: [0] xtrdma_0:uverbs0:1/RoCE speed=25000 context=0x73a094d0c780 pciPath=/sys/devices/pci0000:00/0000:00:1c.0/0000:0a:00.0 ar=0
+gdr114:22457:22463 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [0] name=xtrdma_0 speed=25000 ndevs=1
+[gdr114] ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:22463, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_22457_1750833862_0x73a09519da40_2101836980
+[gdr114] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr114] tid:22463, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_22457_1750833862_0x73a09519da40_2135825850
+[gdr114] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr114] tid:22463, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_22457_1750833862_0x73a09519da40_1789977026
+[gdr114] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr114] ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] ncclIbInit(), transport/net_ib.cc:711, Using enp129s0f0
+gdr114:22457:22463 [0] ncclIbInit(), transport/net_ib.cc:712 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:22457:22463 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:22457:22463 [0] commAlloc(), init.cc:337 NCCL INFO Using network IB
+gdr116:26586:26591 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr116:26586:26591 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr116:26586:26591 [0] 3131.247594 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:26586:26591 [0] 3131.260203 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:26586:26591 [0] 3131.279340 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:172.17.0.1<0>
+gdr116:26586:26591 [0] 3131.282662 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp133s0f0:192.168.1.11<0>
+gdr116:26586:26591 [0] 3131.286503 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:::1<0>
+gdr116:26586:26591 [0] 3131.305237 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:fe80::9f74:8206:ec00:7c6b%enp129s0f0<0>
+gdr116:26586:26591 [0] 3131.317061 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:fe80::243f:bfff:feda:4f7d%docker0<0>
+gdr116:26586:26591 [0] 3131.357541 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface vethe9368c5:fe80::fccd:3eff:fef5:e24b%vethe9368c5<0>
+gdr116:26586:26591 [0] 3131.367984 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp133s0f0:fe80::201:2ff:fe05:0%enp133s0f0<0>
+gdr116:26586:26591 [0] 3131.381570 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port0:fe80::e316:52a4:2e2a:9b70%dpu_port0<0>
+gdr116:26586:26591 [0] 3131.392109 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp133s0f1:fe80::3b37:5264:1c2b:5b20%enp133s0f1<0>
+gdr116:26586:26591 [0] 3131.402766 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp133s0f2:fe80::edbd:a5e6:bb30:b7c3%enp133s0f2<0>
+gdr116:26586:26591 [0] 3131.412988 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp133s0f3:fe80::4feb:ad5:a1ab:f271%enp133s0f3<0>
+gdr116:26586:26591 [0] 3131.686735 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:26586:26591 [0] 3131.707242 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:26586:26591 [0] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to xtrdma_0
+[gdr116] ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr116] tid:26591, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:25323 not exists, now remove huge file:/dev/hugepages/huge_file_25323_1750832848_0x7be098998d00_62876928
+[gdr116] tid:26591, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_26586_1750833862_0x72b570999470_1247477783
+gdr114:22457:22463 [0] 3344.683107 commAlloc(), init.cc:359 NCCL TRACE comm 0x62de02ee2cc0 rank 0 nranks 2 cudaDev 0 busId 8000 compCap 70
+gdr114:22457:22463 [0] ncclCommInitRankFunc(), init.cc:1413 NCCL INFO ncclCommInitRank comm 0x62de02ee2cc0 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 8000 commId 0x410062e0091d2df4 - Init START
+gdr114:22457:22463 [0] bootstrapInit(), bootstrap.cc:643 NCCL INFO rank 0 nranks 2
+gdr114:22457:22463 [0] 3345.546989 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<36693>
+gdr114:22457:22463 [0] 3345.568442 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<40289>
+gdr114:22457:22463 [0] 3345.583260 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<59009>
+gdr114:22457:22461 [0] 3345.842344 bootstrapRoot(), bootstrap.cc:341 NCCL TRACE Received connect from rank 0 total 1/2
+gdr116:26586:26591 [0] 3174.056972 ncclIbInit(), transport/net_ib.cc:672 NCCL TRACE NET/IB: [0] xtrdma_0:uverbs0:1/RoCE speed=25000 context=0x72b5709995b0 pciPath=/sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/0000:83:10.0/0000:85:00.0 ar=0
+gdr116:26586:26591 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [0] name=xtrdma_0 speed=25000 ndevs=1
+[gdr116] ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:26591, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_26586_1750833862_0x72b570e2ac60_859173546
+[gdr116] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr116] tid:26591, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_26586_1750833862_0x72b570e2ac60_53271852
+[gdr116] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr116] tid:26591, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_26586_1750833862_0x72b570e2ac60_1032985675
+[gdr116] ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr116] ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] ncclIbInit(), transport/net_ib.cc:711, Using enp129s0f0
+gdr116:26586:26591 [0] ncclIbInit(), transport/net_ib.cc:712 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:26586:26591 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:26586:26591 [0] commAlloc(), init.cc:337 NCCL INFO Using network IB
+gdr116:26586:26591 [0] 3318.471991 commAlloc(), init.cc:359 NCCL TRACE comm 0x579243e3b740 rank 1 nranks 2 cudaDev 0 busId 4000 compCap 70
+gdr116:26586:26591 [0] ncclCommInitRankFunc(), init.cc:1413 NCCL INFO ncclCommInitRank comm 0x579243e3b740 rank 1 nranks 2 cudaDev 0 nvmlDev 0 busId 4000 commId 0x410062e0091d2df4 - Init START
+gdr116:26586:26591 [0] bootstrapInit(), bootstrap.cc:643 NCCL INFO rank 1 nranks 2
+gdr116:26586:26591 [0] 3319.354260 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<57825>
+gdr116:26586:26591 [0] 3319.380725 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<41313>
+gdr116:26586:26591 [0] 3319.396630 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<59009>
+gdr114:22457:22461 [0] 3518.077417 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<40289>
+gdr114:22457:22461 [0] 3518.217359 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<41313>
+gdr114:22457:22463 [0] 3518.228595 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<57825>
+gdr114:22457:22461 [0] 3518.545592 bootstrapRoot(), bootstrap.cc:341 NCCL TRACE Received connect from rank 1 total 2/2
+gdr114:22457:22461 [0] 3518.556953 bootstrapRoot(), bootstrap.cc:343 NCCL TRACE COLLECTED ALL 2 HANDLES
+gdr114:22457:22461 [0] 3518.575128 bootstrapRoot(), bootstrap.cc:358 NCCL TRACE Root timings (wait 3.342311, recv 0.172749, send 0.000000)
+gdr114:22457:22461 [0] 3518.599343 bootstrapRoot(), bootstrap.cc:370 NCCL TRACE DONE
+gdr116:26586:26591 [0] 3320.472601 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<36693>
+gdr116:26586:26591 [0] 3320.764355 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<50971>
+gdr116:26586:26591 [0] 3320.816317 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '26586pid:[4026531836]'
+gdr116:26586:26591 [0] 3320.833577 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<34355>
+gdr116:26586:26591 [0] 3320.861154 getHostHashOnce(), misc/utils.cc:105 NCCL TRACE unique hostname 'gdr116dc2acadb-8ee8-4966-b985-4f4b08f8f3ee'
+gdr116:26586:26591 [0] 3320.871730 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '26586pid:[4026531836]'
+gdr116:26586:26591 [0] 3320.905704 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<59157>
+gdr116:26586:26591 [0] ncclRasCommInit(), ras/ras.cc:103 NCCL INFO RAS network listening socket at 10.20.10.116<59157>
+gdr116:26586:26591 [0] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:26586:26591 [0] ncclRealloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:164 NCCL INFO Mem Realloc old size 0, new size 256 pointer 0x5792431fb020
+gdr116:26586:26591 [0] 3321.160266 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 1 nranks 2 size 120 - AllGather
+gdr116:26586:26591 [0] 3321.166767 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr114:22457:22463 [0] 3519.560109 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<35199>
+gdr114:22457:22463 [0] 3519.631522 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '22457pid:[4026531836]'
+gdr116:26586:26593 [0] rasThreadMain(), ras/ras.cc:593 NCCL INFO RAS thread started
+gdr116:26586:26593 [0] ncclRealloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:164 NCCL INFO Mem Realloc old size 0, new size 32 pointer 0x72b550000bf0
+gdr114:22457:22463 [0] 3519.650325 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<57129>
+gdr114:22457:22463 [0] 3519.703431 getHostHashOnce(), misc/utils.cc:105 NCCL TRACE unique hostname 'gdr11403d8dbaf-5f65-4d75-b2f3-b7f6efa1f0c4'
+gdr114:22457:22463 [0] 3519.715660 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '22457pid:[4026531836]'
+gdr114:22457:22463 [0] 3519.751548 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<57231>
+gdr114:22457:22463 [0] ncclRasCommInit(), ras/ras.cc:103 NCCL INFO RAS network listening socket at 10.20.10.114<57231>
+gdr114:22457:22463 [0] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:22457:22463 [0] ncclRealloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:164 NCCL INFO Mem Realloc old size 0, new size 256 pointer 0x62de0227c730
+gdr114:22457:22463 [0] 3519.918418 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 0 nranks 2 size 120 - AllGather
+gdr114:22457:22463 [0] 3519.924255 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr114:22457:22502 [0] rasThreadMain(), ras/ras.cc:593 NCCL INFO RAS thread started
+gdr114:22457:22502 [0] ncclRealloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:164 NCCL INFO Mem Realloc old size 0, new size 32 pointer 0x73a26c000bf0
+gdr114:22457:22463 [0] 3520.130337 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000203 (0.592514 MB/sec), rest in 0.000000 (6000.000000 MB/sec)
+gdr114:22457:22463 [0] 3520.138013 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 120 B done in 0.000214 sec: 1.121443 MB/sec
+gdr114:22457:22463 [0] 3520.142370 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 0 nranks 2 size 120 - AllGather DONE
+gdr114:22457:22463 [0] 3520.165371 ncclIpcSocketInit(), misc/ipcsocket.cc:51 NCCL TRACE UDS: Creating socket /tmp/nccl-socket-0-66650c967a1ffe3a
+gdr114:22457:22463 [0] 3520.181428 bootstrapInit(), bootstrap.cc:763 NCCL TRACE rank 0 nranks 2 - DONE
+gdr114:22457:22463 [0] bootstrapInit(), bootstrap.cc:764 NCCL INFO Bootstrap timings total 0.174691 (create 0.000084, send 0.000204, recv 0.172438, ring 0.000230, delay 0.000001)
+[gdr114] ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr114] initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+gdr116:26586:26591 [0] 3321.867863 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000697 (0.172079 MB/sec), rest in 0.000000 (4800.000000 MB/sec)
+gdr116:26586:26591 [0] 3321.874715 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 120 B done in 0.000708 sec: 0.338981 MB/sec
+gdr116:26586:26591 [0] 3321.878008 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 1 nranks 2 size 120 - AllGather DONE
+gdr116:26586:26591 [0] 3321.915887 ncclIpcSocketInit(), misc/ipcsocket.cc:51 NCCL TRACE UDS: Creating socket /tmp/nccl-socket-1-9f5e0398db8767ca
+gdr114:22457:22463 [0] 3520.212142 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '22457pid:[4026531836]'
+gdr114:22457:22502 [0] rasLocalHandleAddRanks(), ras/peers.cc:75 NCCL INFO RAS handling local addRanks request (old nRasPeers 0)
+gdr114:22457:22502 [0] rasLocalHandleAddRanks(), ras/peers.cc:86 NCCL INFO RAS finished local processing of addRanks request (new nRasPeers 2, nRankPeers 2)
+gdr114:22457:22463 [0] 3520.268281 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 0 nranks 2 size 104 - AllGather
+gdr114:22457:22463 [0] 3520.274962 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr114:22457:22502 [0] rasPeersDump(), ras/peers.cc:908 NCCL INFO RAS peer 0: socket 10.20.10.114<57231>, pid 22457, GPU 0 [this process]
+gdr114:22457:22502 [0] rasPeersDump(), ras/peers.cc:908 NCCL INFO RAS peer 1: socket 10.20.10.116<59157>, pid 26586, GPU 0
+gdr114:22457:22502 [0] rasPeersDump(), ras/peers.cc:912 NCCL INFO RAS peersHash 0x465febfb75e87fb4
+gdr116:26586:26591 [0] 3321.930397 bootstrapInit(), bootstrap.cc:763 NCCL TRACE rank 1 nranks 2 - DONE
+gdr116:26586:26591 [0] bootstrapInit(), bootstrap.cc:764 NCCL INFO Bootstrap timings total 0.002650 (create 0.000107, send 0.000378, recv 0.000697, ring 0.000738, delay 0.000001)
+[gdr116] ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr116] initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+gdr116:26586:26591 [0] 3321.972342 getPidHash(), misc/utils.cc:130 NCCL TRACE unique PID '26586pid:[4026531836]'
+gdr116:26586:26593 [0] rasLocalHandleAddRanks(), ras/peers.cc:75 NCCL INFO RAS handling local addRanks request (old nRasPeers 0)
+gdr114:22457:22502 [0] rasLinkReinitConns(), ras/peers.cc:640 NCCL INFO RAS link 1: opening new primary connection with 10.20.10.116<59157>
+gdr114:22457:22463 [0] 3520.369952 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000091 (1.145160 MB/sec), rest in 0.000000 (4160.000000 MB/sec)
+gdr114:22457:22463 [0] 3520.376902 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 104 B done in 0.000102 sec: 2.038276 MB/sec
+gdr114:22457:22502 [0] 3520.374352 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<59157>
+gdr114:22457:22463 [0] 3520.381450 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 0 nranks 2 size 104 - AllGather DONE
+gdr114:22457:22463 [0] 3520.404729 initTransportsRank(), init.cc:780 NCCL TRACE pidHash[0] b238074162028e5d intraProcRank 0 intraProcRanks 1 intraProcRank0 0
+[gdr114] initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+gdr116:26586:26591 [0] 3322.050217 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 1 nranks 2 size 104 - AllGather
+gdr116:26586:26591 [0] 3322.093510 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr116:26586:26593 [0] rasLocalHandleAddRanks(), ras/peers.cc:86 NCCL INFO RAS finished local processing of addRanks request (new nRasPeers 2, nRankPeers 2)
+gdr116:26586:26593 [0] rasLinkReinitConns(), ras/peers.cc:640 NCCL INFO RAS link 1: calculated deferred primary connection with 10.20.10.114<57231>
+gdr116:26586:26593 [0] rasLinkReinitConns(), ras/peers.cc:640 NCCL INFO RAS link -1: calculated deferred primary connection with 10.20.10.114<57231>
+gdr116:26586:26591 [0] 3322.219217 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000121 (0.861590 MB/sec), rest in 0.000000 (5777.777778 MB/sec)
+gdr116:26586:26591 [0] 3322.227277 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 104 B done in 0.000135 sec: 1.542546 MB/sec
+gdr116:26586:26591 [0] 3322.231758 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 1 nranks 2 size 104 - AllGather DONE
+gdr116:26586:26591 [0] 3322.241443 initTransportsRank(), init.cc:780 NCCL TRACE pidHash[1] 447d4ef486a774e7 intraProcRank 0 intraProcRanks 1 intraProcRank0 1
+[gdr116] initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+gdr114:22457:22502 [0] rasLinkReinitConns(), ras/peers.cc:651 NCCL INFO RAS link -1: calculated existing primary connection with 10.20.10.116<59157>
+gdr116:26586:26593 [0] rasNetAcceptNewSocket(), ras/rasnet.cc:375 NCCL INFO RAS new incoming socket connection from 10.20.10.114<49108>
+gdr116:26586:26593 [0] rasMsgHandleConnInit(), ras/ras.cc:424 NCCL INFO RAS handling connInit from 10.20.10.114<49108> (version 22606, listeningAddr 10.20.10.114<57231>, peersHash 0x465febfb75e87fb4, deadPeersHash 0x0)
+gdr114:22457:22502 [0] rasMsgHandleConnInitAck(), ras/ras.cc:520 NCCL INFO RAS handling connInitAck from 10.20.10.116<59157> (nack 0)
+gdr114:22457:22502 [0] rasConnResume(), ras/rasnet.cc:964 NCCL INFO RAS established connection with 10.20.10.116<59157> (sendQ empty, experiencingDelays 0, startRetryTime 0.00s)
+gdr114:22457:22463 [0] 3522.153135 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:03.0/0000:06:00.0/0000:07:08.0/0000:08:00.0/class -> class=0x030200
+gdr114:22457:22463 [0] 3522.188914 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:03.0/0000:06:00.0/0000:07:08.0/0000:08:00.0/vendor -> vendor=0x10de
+gdr114:22457:22463 [0] 3522.202647 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:03.0/0000:06:00.0/0000:07:08.0/0000:08:00.0/device -> device=0x1db1
+gdr114:22457:22463 [0] 3522.232204 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:03.0/0000:06:00.0/0000:07:08.0/0000:08:00.0/subsystem_vendor -> subsystem_vendor=0x10de
+gdr114:22457:22463 [0] 3522.246595 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:03.0/0000:06:00.0/0000:07:08.0/0000:08:00.0/subsystem_device -> subsystem_device=0x1212
+gdr114:22457:22463 [0] 3522.345768 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:03.0/0000:06:00.0/class -> class=0x060400
+gdr114:22457:22463 [0] 3522.361510 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:03.0/0000:06:00.0/vendor -> vendor=0x10b5
+gdr114:22457:22463 [0] 3522.374801 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:03.0/0000:06:00.0/device -> device=0x8747
+gdr114:22457:22463 [0] 3522.388262 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:03.0/0000:06:00.0/subsystem_vendor -> subsystem_vendor=0x10b5
+gdr114:22457:22463 [0] 3522.402976 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:03.0/0000:06:00.0/subsystem_device -> subsystem_device=0x8747
+gdr116:26586:26591 [0] 3324.001210 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:02.0/0000:02:00.0/0000:03:08.0/0000:04:00.0/class -> class=0x030200
+gdr116:26586:26591 [0] 3324.059812 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:02.0/0000:02:00.0/0000:03:08.0/0000:04:00.0/vendor -> vendor=0x10de
+gdr116:26586:26591 [0] 3324.074930 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:02.0/0000:02:00.0/0000:03:08.0/0000:04:00.0/device -> device=0x1db1
+gdr116:26586:26591 [0] 3324.089820 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:02.0/0000:02:00.0/0000:03:08.0/0000:04:00.0/subsystem_vendor -> subsystem_vendor=0x10de
+gdr116:26586:26591 [0] 3324.104363 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:02.0/0000:02:00.0/0000:03:08.0/0000:04:00.0/subsystem_device -> subsystem_device=0x1212
+gdr114:22457:22463 [0] 3522.471191 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/system/node/node0/cpumap -> affinity=0003ff,f0003fff
+gdr116:26586:26591 [0] 3324.205097 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:02.0/0000:02:00.0/class -> class=0x060400
+gdr116:26586:26591 [0] 3324.221010 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:02.0/0000:02:00.0/vendor -> vendor=0x10b5
+gdr116:26586:26591 [0] 3324.235726 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:02.0/0000:02:00.0/device -> device=0x8747
+gdr116:26586:26591 [0] 3324.249725 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:02.0/0000:02:00.0/subsystem_vendor -> subsystem_vendor=0x10b5
+gdr116:26586:26591 [0] 3324.263894 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:02.0/0000:02:00.0/subsystem_device -> subsystem_device=0x8747
+gdr114:22457:22463 [0] ncclTopoGetSystem(), graph/topo.cc:1344 NCCL INFO TOPO/NET : Importing network plugins to topology
+gdr114:22457:22463 [0] ncclTopoGetSharedState(), graph/topo.cc:1283 NCCL INFO Retrieving state for IB
+gdr114:22457:22463 [0] ncclTopoGetSharedState(), graph/topo.cc:1291 NCCL INFO Initialized state 0 for IB
+[gdr114] ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+gdr116:26586:26591 [0] 3324.347089 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/system/node/node0/cpumap -> affinity=0003ff,f0003fff
+gdr114:22457:22463 [0] 3522.800636 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:1c.0/0000:0a:00.0/class -> class=0x020000
+gdr114:22457:22463 [0] 3522.817771 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:1c.0/0000:0a:00.0/vendor -> vendor=0x10ee
+gdr114:22457:22463 [0] 3522.831287 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:1c.0/0000:0a:00.0/device -> device=0x9038
+gdr114:22457:22463 [0] 3522.845224 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:1c.0/0000:0a:00.0/subsystem_vendor -> subsystem_vendor=0x10ee
+gdr114:22457:22463 [0] 3522.858875 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:00/0000:00:1c.0/0000:0a:00.0/subsystem_device -> subsystem_device=0x0007
+[gdr114] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] ncclTopoPopulateNics(), graph/topo.cc:1232, Nic xtrdma_0 support dmabuf
+gdr114:22457:22463 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:22457:22463 [0] ncclTopoPopulateNics(), graph/topo.cc:1242 NCCL INFO ncclTopoPopulateNics : Filled xtrdma_0 in topo with pciPath=/sys/devices/pci0000:00/0000:00:1c.0/0000:0a:00.0 keep=1 coll=(null)
+gdr114:22457:22463 [0] 3522.950507 ncclTopoMakeVNics(), graph/topo.cc:1164 NCCL TRACE Found physical ncclNet node 0 xtrdma_0
+gdr114:22457:22463 [0] 3522.957737 ncclTopoAutoMerge(), graph/topo.cc:1049 NCCL TRACE Allocated 1 paths
+gdr114:22457:22463 [0] 3522.967453 ncclTopoAutoMerge(), graph/topo.cc:1069 NCCL TRACE Placed dev 0
+gdr114:22457:22463 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [1] name=xtrdma_0 speed=25000 ndevs=1
+gdr114:22457:22463 [0] ncclTopoMakeVnic(), graph/topo.cc:979 NCCL INFO TOPO/NET : Made vNic 1
+[gdr114] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] ncclTopoPopulateNics(), graph/topo.cc:1232, Nic xtrdma_0 support dmabuf
+gdr114:22457:22463 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:22457:22463 [0] ncclTopoPopulateNics(), graph/topo.cc:1242 NCCL INFO ncclTopoPopulateNics : Filled xtrdma_0 in topo with pciPath=/sys/devices/pci0000:00/0000:00:1c.0/0000:0a:00.0 keep=0 coll=(null)
+[gdr114] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] ncclTopoPopulateNics(), graph/topo.cc:1232, Nic xtrdma_0 support dmabuf
+gdr114:22457:22463 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_0'
+gdr114:22457:22463 [0] ncclTopoPopulateNics(), graph/topo.cc:1242 NCCL INFO ncclTopoPopulateNics : Filled xtrdma_0 in topo with pciPath=/sys/devices/pci0000:00/0000:00:1c.0/0000:0a:00.0 keep=1 coll=(null)
+gdr116:26586:26591 [0] ncclTopoGetSystem(), graph/topo.cc:1344 NCCL INFO TOPO/NET : Importing network plugins to topology
+gdr116:26586:26591 [0] ncclTopoGetSharedState(), graph/topo.cc:1283 NCCL INFO Retrieving state for IB
+gdr116:26586:26591 [0] ncclTopoGetSharedState(), graph/topo.cc:1291 NCCL INFO Initialized state 0 for IB
+[gdr116] ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+gdr116:26586:26591 [0] 3325.778788 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/0000:83:10.0/0000:85:00.0/class -> class=0x020000
+gdr116:26586:26591 [0] 3325.796055 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/0000:83:10.0/0000:85:00.0/vendor -> vendor=0x10ee
+gdr116:26586:26591 [0] 3325.810795 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/0000:83:10.0/0000:85:00.0/device -> device=0x9038
+gdr116:26586:26591 [0] 3325.824712 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/0000:83:10.0/0000:85:00.0/subsystem_vendor -> subsystem_vendor=0x10ee
+gdr116:26586:26591 [0] 3325.839107 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/0000:83:10.0/0000:85:00.0/subsystem_device -> subsystem_device=0x0007
+gdr116:26586:26591 [0] 3325.928593 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/class -> class=0x060400
+gdr116:26586:26591 [0] 3325.944028 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/vendor -> vendor=0x10b5
+gdr116:26586:26591 [0] 3325.957614 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/device -> device=0x8747
+gdr116:26586:26591 [0] 3325.971914 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/subsystem_vendor -> subsystem_vendor=0x10b5
+gdr116:26586:26591 [0] 3326.000342 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/subsystem_device -> subsystem_device=0x8747
+gdr116:26586:26591 [0] 3326.096792 ncclTopoSetAttrFromSys(), graph/xml.cc:459 NCCL TRACE Read from sys /sys/devices/system/node/node1/cpumap -> affinity=fffc00,0fffc000
+[gdr116] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] ncclTopoPopulateNics(), graph/topo.cc:1232, Nic xtrdma_0 support dmabuf
+gdr116:26586:26591 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr116:26586:26591 [0] ncclTopoPopulateNics(), graph/topo.cc:1242 NCCL INFO ncclTopoPopulateNics : Filled xtrdma_0 in topo with pciPath=/sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/0000:83:10.0/0000:85:00.0 keep=1 coll=(null)
+gdr116:26586:26591 [0] 3326.127372 ncclTopoMakeVNics(), graph/topo.cc:1164 NCCL TRACE Found physical ncclNet node 0 xtrdma_0
+gdr116:26586:26591 [0] 3326.133965 ncclTopoAutoMerge(), graph/topo.cc:1049 NCCL TRACE Allocated 1 paths
+gdr116:26586:26591 [0] 3326.144086 ncclTopoAutoMerge(), graph/topo.cc:1069 NCCL TRACE Placed dev 0
+gdr116:26586:26591 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [1] name=xtrdma_0 speed=25000 ndevs=1
+gdr116:26586:26591 [0] ncclTopoMakeVnic(), graph/topo.cc:979 NCCL INFO TOPO/NET : Made vNic 1
+[gdr116] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] ncclTopoPopulateNics(), graph/topo.cc:1232, Nic xtrdma_0 support dmabuf
+gdr116:26586:26591 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr116:26586:26591 [0] ncclTopoPopulateNics(), graph/topo.cc:1242 NCCL INFO ncclTopoPopulateNics : Filled xtrdma_0 in topo with pciPath=/sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/0000:83:10.0/0000:85:00.0 keep=0 coll=(null)
+[gdr116] ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:5, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] ncclTopoPopulateNics(), graph/topo.cc:1232, Nic xtrdma_0 support dmabuf
+gdr116:26586:26591 [0] ncclTopoPopulateNics(), graph/topo.cc:1234 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_0'
+gdr116:26586:26591 [0] ncclTopoPopulateNics(), graph/topo.cc:1242 NCCL INFO ncclTopoPopulateNics : Filled xtrdma_0 in topo with pciPath=/sys/devices/pci0000:80/0000:80:02.0/0000:82:00.0/0000:83:10.0/0000:85:00.0 keep=1 coll=(null)
+gdr114:22457:22463 [0] ncclTopoPrint(), graph/topo.cc:316 NCCL INFO === System : maxBw 1.5 totalBw 12.0 ===
+gdr114:22457:22463 [0] ncclTopoPrintRec(), graph/topo.cc:289 NCCL INFO CPU/0-0 (1/1/1)
+gdr114:22457:22463 [0] ncclTopoPrintRec(), graph/topo.cc:289 NCCL INFO + PCI[12.0] - PCI/0-6000 (10b5874710b58747)
+gdr114:22457:22463 [0] ncclTopoPrintRec(), graph/topo.cc:289 NCCL INFO               + PCI[12.0] - GPU/0-8000 (0)
+gdr114:22457:22463 [0] ncclTopoPrintRec(), graph/topo.cc:289 NCCL INFO + PCI[1.5] - NIC/0-a000
+gdr114:22457:22463 [0] ncclTopoPrintRec(), graph/topo.cc:308 NCCL INFO              + NET[3.1] - NET/0-1 (0/4feff020102/1/3.125000)
+gdr114:22457:22463 [0] ncclTopoPrint(), graph/topo.cc:319 NCCL INFO ==========================================
+gdr114:22457:22463 [0] printNodePaths(), graph/paths.cc:119 NCCL INFO Paths from GPU/0-8000 :
+gdr114:22457:22463 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO  (5000.000000)
+gdr114:22457:22463 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO --PCI(12)->PCI/0-6000--PCI(12)->CPU/0-0 (12.000000)
+gdr114:22457:22463 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO --PCI(12)->PCI/0-6000--PCI(12)->CPU/0-0--PCI(1.5)->NIC/0-a000--NET(3.125)->NET/0-1 (1.500000)
+gdr114:22457:22463 [0] printNodePaths(), graph/paths.cc:119 NCCL INFO Paths from NET/0-1 :
+gdr114:22457:22463 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO --NET(3.125)->NIC/0-a000--PCI(1.5)->CPU/0-0--PCI(12)->PCI/0-6000--PCI(12)->GPU/0-8000 (1.500000)
+gdr114:22457:22463 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO --NET(3.125)->NIC/0-a000--PCI(1.5)->CPU/0-0 (1.500000)
+gdr114:22457:22463 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO  (5000.000000)
+gdr114:22457:22463 [0] 3535.771187 ncclTopoGetCpuAffinity(), graph/topo.cc:1550 NCCL TRACE Current affinity for GPU 0 is ffffff,ffffffff
+gdr114:22457:22463 [0] 3535.777640 ncclTopoGetCpuAffinity(), graph/topo.cc:1561 NCCL TRACE CPU GPU affinity for GPU 0 is 03ff,f0003fff
+gdr114:22457:22463 [0] ncclTopoGetCpuAffinity(), graph/topo.cc:1579 NCCL INFO Setting affinity for GPU 0 to 03ff,f0003fff
+gdr116:26586:26591 [0] ncclTopoPrint(), graph/topo.cc:316 NCCL INFO === System : maxBw 3.1 totalBw 12.0 ===
+gdr116:26586:26591 [0] ncclTopoPrintRec(), graph/topo.cc:289 NCCL INFO CPU/0-0 (1/1/1)
+gdr116:26586:26591 [0] ncclTopoPrintRec(), graph/topo.cc:289 NCCL INFO + PCI[12.0] - PCI/0-2000 (10b5874710b58747)
+gdr116:26586:26591 [0] ncclTopoPrintRec(), graph/topo.cc:289 NCCL INFO               + PCI[12.0] - GPU/0-4000 (1)
+gdr116:26586:26591 [0] ncclTopoPrintRec(), graph/topo.cc:308 NCCL INFO + SYS[6.0] - CPU/0-1
+gdr116:26586:26591 [0] ncclTopoPrintRec(), graph/topo.cc:289 NCCL INFO CPU/0-1 (1/1/1)
+gdr116:26586:26591 [0] ncclTopoPrintRec(), graph/topo.cc:289 NCCL INFO + PCI[12.0] - PCI/0-82000 (10b5874710b58747)
+gdr116:26586:26591 [0] ncclTopoPrintRec(), graph/topo.cc:289 NCCL INFO               + PCI[6.0] - NIC/0-85000
+gdr116:26586:26591 [0] ncclTopoPrintRec(), graph/topo.cc:308 NCCL INFO                            + NET[3.1] - NET/0-1 (0/5feff020102/1/3.125000)
+gdr116:26586:26591 [0] ncclTopoPrintRec(), graph/topo.cc:308 NCCL INFO + SYS[6.0] - CPU/0-0
+gdr116:26586:26591 [0] ncclTopoPrint(), graph/topo.cc:319 NCCL INFO ==========================================
+gdr116:26586:26591 [0] printNodePaths(), graph/paths.cc:119 NCCL INFO Paths from GPU/0-4000 :
+gdr116:26586:26591 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO  (5000.000000)
+gdr116:26586:26591 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO --PCI(12)->PCI/0-2000--PCI(12)->CPU/0-0 (12.000000)
+gdr116:26586:26591 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO --PCI(12)->PCI/0-2000--PCI(12)->CPU/0-0--SYS(6)->CPU/0-1 (6.000000)
+gdr116:26586:26591 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO --PCI(12)->PCI/0-2000--PCI(12)->CPU/0-0--SYS(6)->CPU/0-1--PCI(12)->PCI/0-82000--PCI(6)->NIC/0-85000--NET(3.125)->NET/0-1 (3.125000)
+gdr116:26586:26591 [0] printNodePaths(), graph/paths.cc:119 NCCL INFO Paths from NET/0-1 :
+gdr116:26586:26591 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO --NET(3.125)->NIC/0-85000--PCI(6)->PCI/0-82000--PCI(12)->CPU/0-1--SYS(6)->CPU/0-0--PCI(12)->PCI/0-2000--PCI(12)->GPU/0-4000 (3.125000)
+gdr116:26586:26591 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO --NET(3.125)->NIC/0-85000--PCI(6)->PCI/0-82000--PCI(12)->CPU/0-1--SYS(6)->CPU/0-0 (3.125000)
+gdr116:26586:26591 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO --NET(3.125)->NIC/0-85000--PCI(6)->PCI/0-82000--PCI(12)->CPU/0-1 (3.125000)
+gdr116:26586:26591 [0] printNodePaths(), graph/paths.cc:136 NCCL INFO  (5000.000000)
+gdr116:26586:26591 [0] 3337.296129 ncclTopoGetCpuAffinity(), graph/topo.cc:1550 NCCL TRACE Current affinity for GPU 0 is ffffff,ffffffff
+gdr116:26586:26591 [0] 3337.302168 ncclTopoGetCpuAffinity(), graph/topo.cc:1561 NCCL TRACE CPU GPU affinity for GPU 0 is 03ff,f0003fff
+gdr116:26586:26591 [0] ncclTopoGetCpuAffinity(), graph/topo.cc:1579 NCCL INFO Setting affinity for GPU 0 to 03ff,f0003fff
+gdr116:26586:26591 [0] ncclTopoPrintGraph(), graph/search.cc:1138 NCCL INFO Pattern 4, crossNic 0, nChannels 1, bw 3.000000/3.000000, type LOC/SYS, sameChannels 1
+gdr116:26586:26591 [0] ncclTopoPrintGraph(), graph/search.cc:1157 NCCL INFO  0 : NET/0-1 GPU/1 NET/0-1
+gdr114:22457:22463 [0] ncclTopoPrintGraph(), graph/search.cc:1138 NCCL INFO Pattern 4, crossNic 0, nChannels 1, bw 1.200000/1.200000, type LOC/PHB, sameChannels 1
+gdr114:22457:22463 [0] ncclTopoPrintGraph(), graph/search.cc:1157 NCCL INFO  0 : NET/0-1 GPU/0 NET/0-1
+gdr116:26586:26591 [0] ncclTopoPrintGraph(), graph/search.cc:1138 NCCL INFO Pattern 3, crossNic 0, nChannels 1, bw 6.000000/3.000000, type LOC/SYS, sameChannels 1
+gdr116:26586:26591 [0] ncclTopoPrintGraph(), graph/search.cc:1157 NCCL INFO  0 : NET/0-1 GPU/1 NET/0-1
+gdr114:22457:22463 [0] ncclTopoPrintGraph(), graph/search.cc:1138 NCCL INFO Pattern 3, crossNic 0, nChannels 1, bw 2.400000/1.200000, type LOC/PHB, sameChannels 1
+gdr114:22457:22463 [0] ncclTopoPrintGraph(), graph/search.cc:1157 NCCL INFO  0 : NET/0-1 GPU/0 NET/0-1
+gdr116:26586:26591 [0] 3337.651508 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 1 nranks 2 size 2284 - AllGather
+gdr116:26586:26591 [0] 3337.656650 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr114:22457:22463 [0] 3536.123735 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 0 nranks 2 size 2284 - AllGather
+gdr114:22457:22463 [0] 3536.129073 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr114:22457:22463 [0] 3536.345231 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000213 (10.718878 MB/sec), rest in 0.000000 (108761.904762 MB/sec)
+gdr114:22457:22463 [0] 3536.352637 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 2284 B done in 0.000224 sec: 20.418745 MB/sec
+gdr114:22457:22463 [0] 3536.356937 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 0 nranks 2 size 2284 - AllGather DONE
+gdr114:22457:22463 [0] 3536.379097 initTransportsRank(), init.cc:990 NCCL TRACE hostHash[0] e2aa8c080b8c50a7 localRank 0 localRanks 1 localRank0 0
+gdr114:22457:22463 [0] initTransportsRank(), init.cc:1000 NCCL INFO comm 0x62de02ee2cc0 rank 0 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+gdr114:22457:22463 [0] connectTrees(), graph/connect.cc:167 NCCL INFO Tree 0 : -1 -> 0 -> 1/-1/-1
+gdr114:22457:22463 [0] connectTrees(), graph/connect.cc:168 NCCL INFO Tree 1 : 1 -> 0 -> -1/-1/-1
+gdr114:22457:22463 [0] dumpLine(), graph/rings.cc:25 NCCL INFO Channel 00/02 : 0 1
+gdr114:22457:22463 [0] dumpLine(), graph/rings.cc:25 NCCL INFO Channel 01/02 : 0 1
+gdr114:22457:22463 [0] 3536.423689 initTransportsRank(), init.cc:1045 NCCL TRACE rank 0 nranks 2 - BUILT 2 TREES/RINGS
+gdr114:22457:22463 [0] initTransportsRank(), init.cc:1053 NCCL INFO Ring 00 : 1 -> 0 -> 1
+gdr114:22457:22463 [0] initTransportsRank(), init.cc:1053 NCCL INFO Ring 01 : 1 -> 0 -> 1
+gdr114:22457:22463 [0] initTransportsRank(), init.cc:1056 NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] -1/-1/-1->0->1
+gdr114:22457:22463 [0] computeBuffSizes(), init.cc:649 NCCL INFO P2P Chunksize set to 131072
+gdr114:22457:22463 [0] ncclTransportCheckP2pType(), transport.cc:98 NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr116:26586:26591 [0] 3338.096484 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000436 (5.233071 MB/sec), rest in 0.000000 (99304.347826 MB/sec)
+gdr116:26586:26591 [0] 3338.104319 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 2284 B done in 0.000448 sec: 10.201666 MB/sec
+gdr116:26586:26591 [0] 3338.108112 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 1 nranks 2 size 2284 - AllGather DONE
+gdr116:26586:26591 [0] 3338.129443 initTransportsRank(), init.cc:990 NCCL TRACE hostHash[1] 419994d036aa62a2 localRank 0 localRanks 1 localRank0 1
+gdr116:26586:26591 [0] initTransportsRank(), init.cc:1000 NCCL INFO comm 0x579243e3b740 rank 1 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+gdr116:26586:26591 [0] connectTrees(), graph/connect.cc:167 NCCL INFO Tree 0 : 0 -> 1 -> -1/-1/-1
+gdr116:26586:26591 [0] connectTrees(), graph/connect.cc:168 NCCL INFO Tree 1 : -1 -> 1 -> 0/-1/-1
+gdr116:26586:26591 [0] 3338.159920 initTransportsRank(), init.cc:1045 NCCL TRACE rank 1 nranks 2 - BUILT 2 TREES/RINGS
+gdr116:26586:26591 [0] initTransportsRank(), init.cc:1053 NCCL INFO Ring 00 : 0 -> 1 -> 0
+gdr116:26586:26591 [0] initTransportsRank(), init.cc:1053 NCCL INFO Ring 01 : 0 -> 1 -> 0
+gdr116:26586:26591 [0] initTransportsRank(), init.cc:1056 NCCL INFO Trees [0] -1/-1/-1->1->0 [1] 0/-1/-1->1->-1
+gdr114:22457:22463 [0] ncclProxyCreate(), proxy.cc:1839 NCCL INFO UDS: Creating service thread comm 0x62de02ee2cc0 rank 0
+gdr116:26586:26591 [0] computeBuffSizes(), init.cc:649 NCCL INFO P2P Chunksize set to 131072
+gdr116:26586:26591 [0] ncclProxyCreate(), proxy.cc:1839 NCCL INFO UDS: Creating service thread comm 0x579243e3b740 rank 1
+gdr114:22457:22463 [0] allocateSpilled(), misc/utils.cc:233 NCCL INFO misc/utils.cc:233 memory stack hunk malloc(65536)
+gdr114:22457:22463 [0] 3536.602428 setupChannel(), init.cc:599 NCCL TRACE rank 0 nranks 2
+gdr116:26586:26591 [0] allocateSpilled(), misc/utils.cc:233 NCCL INFO misc/utils.cc:233 memory stack hunk malloc(65536)
+gdr116:26586:26591 [0] 3338.318220 setupChannel(), init.cc:599 NCCL TRACE rank 1 nranks 2
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 0 CPU core 6
+gdr116:26586:26595 [0] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 0 CPU core 35
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 0 CPU core 7
+gdr114:22457:22504 [0] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 0 CPU core 8
+gdr114:22457:22463 [0] 3536.901067 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x73a093800000 handle 73a0952520a0
+gdr114:22457:22463 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:42 Cuda Alloc Size 1216 pointer 0x73a093800000
+gdr116:26586:26591 [0] 3338.606856 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x72b56f800000 handle 72b570f05fe0
+gdr116:26586:26591 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:42 Cuda Alloc Size 1216 pointer 0x72b56f800000
+gdr114:22457:22463 [0] 3537.123094 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x73a093a00000 handle 73a095253890
+gdr114:22457:22463 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:45 Cuda Alloc Size 32 pointer 0x73a093a00000
+gdr116:26586:26591 [0] 3338.841526 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x72b56fa00000 handle 72b570f077f0
+gdr116:26586:26591 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:45 Cuda Alloc Size 32 pointer 0x72b56fa00000
+gdr114:22457:22463 [0] 3537.333773 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x73a093c00000 handle 73a095254f10
+gdr114:22457:22463 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:56 Cuda Alloc Size 8 pointer 0x73a093c00000
+gdr114:22457:22463 [0] 3537.360397 setupChannel(), init.cc:599 NCCL TRACE rank 0 nranks 2
+gdr116:26586:26591 [0] 3339.069605 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x72b56fc00000 handle 72b570f08e70
+gdr116:26586:26591 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:56 Cuda Alloc Size 8 pointer 0x72b56fc00000
+gdr116:26586:26591 [0] 3339.106313 setupChannel(), init.cc:599 NCCL TRACE rank 1 nranks 2
+gdr114:22457:22463 [0] 3537.503718 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x73a093e00000 handle 73a095256c70
+gdr114:22457:22463 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:42 Cuda Alloc Size 1216 pointer 0x73a093e00000
+gdr116:26586:26591 [0] 3339.262262 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x72b56fe00000 handle 72b570f0abd0
+gdr116:26586:26591 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:42 Cuda Alloc Size 1216 pointer 0x72b56fe00000
+gdr114:22457:22463 [0] 3537.662501 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x73a09de00000 handle 73a095258250
+gdr114:22457:22463 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:45 Cuda Alloc Size 32 pointer 0x73a09de00000
+gdr116:26586:26591 [0] 3339.462592 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x72b579e00000 handle 72b570f0c1b0
+gdr116:26586:26591 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:45 Cuda Alloc Size 32 pointer 0x72b579e00000
+gdr114:22457:22463 [0] 3537.903209 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x73a250000000 handle 73a095259970
+gdr114:22457:22463 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:56 Cuda Alloc Size 8 pointer 0x73a250000000
+gdr114:22457:22463 [0] 3537.927473 initTransportsRank(), init.cc:1226 NCCL TRACE rank 0 nranks 2 - CONNECTED 2 RINGS AND TREES
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:456 NCCL INFO   Algorithm   |                            Tree                  |                            Ring                  |                   CollNetDirect                  |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:463 NCCL INFO   Protocol    |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:472 NCCL INFO  Max NThreads |            512 |            640 |            512 |            512 |            640 |            256 |              0 |              0 |            640 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO     Broadcast |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     9.3/   0.6 |    18.0/   0.0 |    22.4/   1.2 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO        Reduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     9.3/   0.6 |    18.0/   0.0 |    22.4/   1.2 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO     AllGather |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    11.6/   1.2 |    22.5/   0.0 |    22.4/   2.4 |     5.0/   0.0 |     8.5/   0.0 |    14.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO ReduceScatter |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    11.6/   1.2 |    22.5/   0.0 |    22.4/   2.4 |     5.0/   0.0 |     8.5/   0.0 |    14.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO     AllReduce |    16.8/   0.2 |    31.0/   0.0 |    36.4/   0.9 |    16.6/   0.6 |    31.0/   0.0 |    36.4/   1.2 |     5.0/   0.0 |     8.5/   0.0 |    14.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:456 NCCL INFO   Algorithm   |                    CollNetChain                  |                            NVLS                  |                        NVLSTree                  |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:463 NCCL INFO   Protocol    |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:472 NCCL INFO  Max NThreads |              0 |              0 |            640 |              0 |              0 |            640 |              0 |              0 |            640 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO     Broadcast |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO        Reduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO     AllGather |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    14.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO ReduceScatter |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    14.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO     AllReduce |     5.0/   0.0 |     8.5/   0.0 |    14.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    14.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    28.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:456 NCCL INFO   Algorithm   |                             PAT                  |
+gdr116:26586:26591 [0] 3339.691969 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x72b730000000 handle 72b570f0d8d0
+gdr116:26586:26591 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO channel.cc:56 Cuda Alloc Size 8 pointer 0x72b730000000
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:463 NCCL INFO   Protocol    |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:472 NCCL INFO  Max NThreads |              0 |              0 |              0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO     Broadcast |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO        Reduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO     AllGather |     0.0/   0.0 |     0.0/   0.0 |    17.6/   1.8 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO ReduceScatter |     0.0/   0.0 |     0.0/   0.0 |    17.6/   1.8 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:482 NCCL INFO     AllReduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+gdr114:22457:22463 [0] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+gdr114:22457:22463 [0] initTransportsRank(), init.cc:1231 NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+gdr116:26586:26591 [0] 3339.715245 initTransportsRank(), init.cc:1226 NCCL TRACE rank 1 nranks 2 - CONNECTED 2 RINGS AND TREES
+gdr116:26586:26591 [0] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+gdr116:26586:26591 [0] initTransportsRank(), init.cc:1231 NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+gdr116:26586:26591 [0] 3339.904590 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x72b730200000 handle 72b570f0f130
+gdr116:26586:26591 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO init.cc:436 Cuda Alloc Size 23648 pointer 0x72b730200000
+gdr114:22457:22463 [0] 3538.253906 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x73a250200000 handle 73a09525b1d0
+gdr114:22457:22463 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO init.cc:436 Cuda Alloc Size 23648 pointer 0x73a250200000
+gdr116:26586:26591 [0] 3340.121257 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x72b730400000 handle 72b570f107f0
+gdr116:26586:26591 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO init.cc:438 Cuda Alloc Size 8 pointer 0x72b730400000
+gdr114:22457:22463 [0] 3538.452360 ncclCuMemAlloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:239 NCCL TRACE CuMem Alloc Size 2097152 pointer 0x73a250400000 handle 73a09525c890
+gdr114:22457:22463 [0] ncclCudaCallocAsyncDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:347 NCCL INFO init.cc:438 Cuda Alloc Size 8 pointer 0x73a250400000
+gdr114:22457:22463 [0] devCommSetup(), init.cc:480 NCCL INFO CC Off, workFifoBytes 1048576
+gdr114:22457:22463 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:490 Cuda Host Alloc Size 1048576 pointer 0x73a25fa00200
+gdr114:22457:22463 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:495 Cuda Host Alloc Size 256 pointer 0x73a25fb00200
+gdr114:22457:22463 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:502 Cuda Host Alloc Size 512 pointer 0x73a25fb00400
+gdr114:22457:22463 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:503 Cuda Host Alloc Size 512 pointer 0x73a25fb00600
+gdr114:22457:22463 [0] 3538.858586 bootstrapIntraNodeBarrier(), bootstrap.cc:1082 NCCL TRACE bootstrapIntraNodeBarrier done in 0.000000 sec
+gdr114:22457:22463 [0] 3538.865555 initTransportsRank(), init.cc:1258 NCCL TRACE rank 0 nranks 2 - DONE
+gdr116:26586:26591 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:490 Cuda Host Alloc Size 1048576 pointer 0x72b73fa00200
+gdr116:26586:26591 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:495 Cuda Host Alloc Size 256 pointer 0x72b73fb00200
+gdr116:26586:26591 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:502 Cuda Host Alloc Size 512 pointer 0x72b73fb00400
+gdr116:26586:26591 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:503 Cuda Host Alloc Size 512 pointer 0x72b73fb00600
+gdr116:26586:26591 [0] 3340.564394 bootstrapIntraNodeBarrier(), bootstrap.cc:1082 NCCL TRACE bootstrapIntraNodeBarrier done in 0.000000 sec
+gdr116:26586:26591 [0] 3340.571580 initTransportsRank(), init.cc:1258 NCCL TRACE rank 1 nranks 2 - DONE
+gdr116:26586:26591 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:26586:26591 [0] ncclCommInitRankFunc(), init.cc:1441 NCCL TRACE ncclCommInitRank(0x579243e3b740, 2, 0x410062e0091d2df4, 1, 0)
+gdr116:26586:26591 [0] ncclCommInitRankFunc(), init.cc:1442 NCCL INFO ncclCommInitRank comm 0x579243e3b740 rank 1 nranks 2 cudaDev 0 nvmlDev 0 busId 4000 commId 0x410062e0091d2df4 - Init COMPLETE
+gdr114:22457:22463 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:22457:22463 [0] ncclCommInitRankFunc(), init.cc:1441 NCCL TRACE ncclCommInitRank(0x62de02ee2cc0, 2, 0x410062e0091d2df4, 0, 0)
+gdr114:22457:22463 [0] ncclCommInitRankFunc(), init.cc:1442 NCCL INFO ncclCommInitRank comm 0x62de02ee2cc0 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 8000 commId 0x410062e0091d2df4 - Init COMPLETE
+gdr114:22457:22463 [0] ncclCommInitRankFunc(), init.cc:1448 NCCL INFO Init timings - ncclCommInitRank: rank 0 nranks 2 total 3.40 (kernels 3.02, alloc 0.19, bootstrap 0.17, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.00, rest 0.00)
+gdr116:26586:26591 [0] ncclCommInitRankFunc(), init.cc:1448 NCCL INFO Init timings - ncclCommInitRank: rank 1 nranks 2 total 3.34 (kernels 3.12, alloc 0.19, bootstrap 0.00, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.00, rest 0.00)
+gdr114:22457:22457 [0] ncclGroupEnd(), group.cc:107 NCCL TRACE ncclGroupEnd()
+gdr116:26586:26586 [0] ncclGroupEnd(), group.cc:107 NCCL TRACE ncclGroupEnd()
+[gdr114] run(), common.cu:1102, #
+[gdr114] run(), common.cu:1103, #                                                              out-of-place                       in-place          
+[gdr114] run(), common.cu:1104, #       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+[gdr114] run(), common.cu:1106, #        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+gdr114:22457:22457 [0] ncclEnqueueCheck(), enqueue.cc:2306 NCCL INFO AllGather: opCount 0 sendbuff 0x73a210000000 recvbuff 0x73a1d0000000 count 134217728 datatype 7 op 0 root 0 comm 0x62de02ee2cc0 [nranks=2] stream 0x62de02ee2be0
+gdr114:22457:22457 [0] ncclEnqueueCheck(), enqueue.cc:2309 NCCL TRACE ncclAllGather(73a210000000,73a1d0000000,134217728,7,0,0,0x62de02ee2cc0,0x62de02ee2be0)
+gdr114:22457:22457 [0] allocateSpilled(), misc/utils.cc:233 NCCL INFO misc/utils.cc:233 memory stack hunk malloc(65536)
+gdr114:22457:22457 [0] 3539.514946 topoGetAlgoInfo(), enqueue.cc:1749 NCCL TRACE 1073741824 Bytes -> Algo 1 proto 2 time 447414.843750
+gdr116:26586:26586 [0] ncclEnqueueCheck(), enqueue.cc:2306 NCCL INFO AllGather: opCount 0 sendbuff 0x72b6f0000000 recvbuff 0x72b6b0000000 count 134217728 datatype 7 op 0 root 0 comm 0x579243e3b740 [nranks=2] stream 0x579243e34f10
+gdr116:26586:26586 [0] ncclEnqueueCheck(), enqueue.cc:2309 NCCL TRACE ncclAllGather(72b6f0000000,72b6b0000000,134217728,7,0,0,0x579243e3b740,0x579243e34f10)
+gdr116:26586:26586 [0] allocateSpilled(), misc/utils.cc:233 NCCL INFO misc/utils.cc:233 memory stack hunk malloc(65536)
+gdr116:26586:26586 [0] 3341.325247 topoGetAlgoInfo(), enqueue.cc:1749 NCCL TRACE 1073741824 Bytes -> Algo 1 proto 2 time 447414.843750
+gdr114:22457:22505 [0] 3539.734483 ncclTransportP2pConnect(), transport.cc:45 NCCL TRACE nsend 1 nrecv 1
+gdr114:22457:22505 [0] 3539.748243 ncclTransportP2pConnect(), transport.cc:45 NCCL TRACE nsend 1 nrecv 1
+gdr114:22457:22505 [0] 3539.833845 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<35199>
+gdr116:26586:26596 [0] 3341.536264 ncclTransportP2pConnect(), transport.cc:45 NCCL TRACE nsend 1 nrecv 1
+gdr116:26586:26596 [0] 3341.558401 ncclTransportP2pConnect(), transport.cc:45 NCCL TRACE nsend 1 nrecv 1
+gdr116:26586:26596 [0] 3341.687028 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<50971>
+gdr114:22457:22503 [0] 3539.974087 proxyProgressAsync(), proxy.cc:1466 NCCL TRACE proxyProgressAsync::ncclProxyMsgInit opId=0x73a18c000bd0 op.reqBuff=0x73a074000cc0
+gdr114:22457:22503 [0] ncclRealloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:164 NCCL INFO Mem Realloc old size 0, new size 8 pointer 0x73a074000d00
+gdr116:26586:26594 [0] 3341.980916 proxyProgressAsync(), proxy.cc:1466 NCCL TRACE proxyProgressAsync::ncclProxyMsgInit opId=0x72b668000bd0 op.reqBuff=0x72b548000cc0
+gdr116:26586:26594 [0] ncclRealloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:164 NCCL INFO Mem Realloc old size 0, new size 8 pointer 0x72b548000d00
+gdr114:22457:22503 [0] ncclShmOpen(), misc/shmutils.cc:91 NCCL INFO Allocated 33030532 bytes of shared memory in /dev/shm/nccl-xC4T9W
+gdr116:26586:26594 [0] ncclShmOpen(), misc/shmutils.cc:91 NCCL INFO Allocated 33030532 bytes of shared memory in /dev/shm/nccl-WkGx1H
+gdr114:22457:22503 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a18c000bd0 op.type=1 op.reqBuff=0x73a074000cc0 op.respSize=16 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a18c000bd0
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x73a18c000bd0 matches expected opId=0x73a18c000bd0
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Init res=0
+gdr114:22457:22505 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x73a074000d20
+gdr114:22457:22503 [0] 3572.494980 proxyProgressAsync(), proxy.cc:1454 NCCL TRACE proxyProgressAsync::proxySetup() opId=0x73a18c000bd0
+gdr114:22457:22506 [0] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 0 CPU core 37
+gdr116:26586:26594 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b668000bd0 op.type=1 op.reqBuff=0x72b548000cc0 op.respSize=16 done
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b668000bd0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x72b668000bd0 matches expected opId=0x72b668000bd0
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Init res=0
+gdr114:22457:22503 [0] 3572.564279 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<53013>
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a18c000bd0 op.type=3 op.reqBuff=0x73a074004b10 op.respSize=128 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a18c000bd0
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Setup res=0
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x73a18c000bd0 matches expected opId=0x73a18c000bd0
+gdr114:22457:22505 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 1[0] -> 0[0] [receive] via NET/IB/1
+gdr116:26586:26596 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x72b548000d20
+gdr114:22457:22503 [0] 3572.648910 proxyProgressAsync(), proxy.cc:1466 NCCL TRACE proxyProgressAsync::ncclProxyMsgInit opId=0x73a18c000bd0 op.reqBuff=0x73a074000ce0
+gdr114:22457:22503 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a18c000bd0 op.type=1 op.reqBuff=0x73a074000ce0 op.respSize=16 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a18c000bd0
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Init res=0
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x73a18c000bd0 matches expected opId=0x73a18c000bd0
+gdr114:22457:22505 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x73a074000d98
+gdr116:26586:26594 [0] 3374.305294 proxyProgressAsync(), proxy.cc:1454 NCCL TRACE proxyProgressAsync::proxySetup() opId=0x72b668000bd0
+gdr114:22457:22503 [0] 3572.730144 proxyProgressAsync(), proxy.cc:1454 NCCL TRACE proxyProgressAsync::proxySetup() opId=0x73a18c000bd0
+gdr114:22457:22503 [0] 3572.755962 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<49987>
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a18c000bd0 op.type=3 op.reqBuff=0x73a074004b10 op.respSize=128 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a18c000bd0
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Setup res=0
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x73a18c000bd0 matches expected opId=0x73a18c000bd0
+gdr114:22457:22505 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 1[0] -> 0[0] [receive] via NET/IB/1
+gdr116:26586:26597 [0] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 0 CPU core 10
+gdr116:26586:26594 [0] 3374.379384 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<54533>
+gdr114:22457:22503 [0] 3572.824896 proxyProgressAsync(), proxy.cc:1466 NCCL TRACE proxyProgressAsync::ncclProxyMsgInit opId=0x73a18c000bd0 op.reqBuff=0x73a074000cc0
+gdr114:22457:22503 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 2 from local rank 0, transport 2
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a18c000bd0 op.type=1 op.reqBuff=0x73a074000cc0 op.respSize=16 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a18c000bd0
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Init res=0
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b668000bd0 op.type=3 op.reqBuff=0x72b548004b20 op.respSize=128 done
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b668000bd0
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x73a18c000bd0 matches expected opId=0x73a18c000bd0
+gdr114:22457:22505 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x73a074000e10
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Setup res=0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x72b668000bd0 matches expected opId=0x72b668000bd0
+gdr116:26586:26596 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 0[0] -> 1[0] [receive] via NET/IB/1
+gdr116:26586:26594 [0] 3374.481884 proxyProgressAsync(), proxy.cc:1466 NCCL TRACE proxyProgressAsync::ncclProxyMsgInit opId=0x72b668000bd0 op.reqBuff=0x72b548000ce0
+gdr116:26586:26594 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b668000bd0 op.type=1 op.reqBuff=0x72b548000ce0 op.respSize=16 done
+gdr114:22457:22503 [0] 3572.916062 proxyProgressAsync(), proxy.cc:1454 NCCL TRACE proxyProgressAsync::proxySetup() opId=0x73a18c000bd0
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a18c000bd0 op.type=3 op.reqBuff=0x73a074004b10 op.respSize=0 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a18c000bd0
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x73a18c000bd0 matches expected opId=0x73a18c000bd0
+gdr114:22457:22505 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 0[0] -> 1[0] [send] via NET/IB/1
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Setup res=0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b668000bd0
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Init res=0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x72b668000bd0 matches expected opId=0x72b668000bd0
+gdr116:26586:26596 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x72b548000d98
+gdr114:22457:22503 [0] 3572.986882 proxyProgressAsync(), proxy.cc:1466 NCCL TRACE proxyProgressAsync::ncclProxyMsgInit opId=0x73a18c000bd0 op.reqBuff=0x73a074000ce0
+gdr114:22457:22503 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 3 from local rank 0, transport 2
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a18c000bd0 op.type=1 op.reqBuff=0x73a074000ce0 op.respSize=16 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a18c000bd0
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Init res=0
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x73a18c000bd0 matches expected opId=0x73a18c000bd0
+gdr114:22457:22505 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x73a074000e88
+gdr116:26586:26594 [0] 3374.568901 proxyProgressAsync(), proxy.cc:1454 NCCL TRACE proxyProgressAsync::proxySetup() opId=0x72b668000bd0
+gdr116:26586:26594 [0] 3374.595165 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.116<34289>
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b668000bd0 op.type=3 op.reqBuff=0x72b548004b20 op.respSize=128 done
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b668000bd0
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Setup res=0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x72b668000bd0 matches expected opId=0x72b668000bd0
+gdr116:26586:26596 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 0[0] -> 1[0] [receive] via NET/IB/1
+gdr114:22457:22503 [0] 3573.055703 proxyProgressAsync(), proxy.cc:1454 NCCL TRACE proxyProgressAsync::proxySetup() opId=0x73a18c000bd0
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a18c000bd0 op.type=3 op.reqBuff=0x73a074004b10 op.respSize=0 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a18c000bd0
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x73a18c000bd0 matches expected opId=0x73a18c000bd0
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Setup res=0
+gdr114:22457:22505 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 0[0] -> 1[0] [send] via NET/IB/1
+gdr116:26586:26594 [0] 3374.681860 proxyProgressAsync(), proxy.cc:1466 NCCL TRACE proxyProgressAsync::ncclProxyMsgInit opId=0x72b668000bd0 op.reqBuff=0x72b548000cc0
+gdr116:26586:26594 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 2 from local rank 0, transport 2
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b668000bd0 op.type=1 op.reqBuff=0x72b548000cc0 op.respSize=16 done
+gdr114:22457:22505 [0] 3573.103979 bootstrapSend(), bootstrap.cc:878 NCCL TRACE Sending to peer=1 tag=257 size=1024
+gdr114:22457:22505 [0] 3573.126314 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<34355>
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b668000bd0
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Init res=0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x72b668000bd0 matches expected opId=0x72b668000bd0
+gdr116:26586:26596 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x72b548000e10
+gdr116:26586:26594 [0] 3374.765142 proxyProgressAsync(), proxy.cc:1454 NCCL TRACE proxyProgressAsync::proxySetup() opId=0x72b668000bd0
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b668000bd0 op.type=3 op.reqBuff=0x72b548004b20 op.respSize=0 done
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b668000bd0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x72b668000bd0 matches expected opId=0x72b668000bd0
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Setup res=0
+gdr116:26586:26596 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 1[0] -> 0[0] [send] via NET/IB/1
+gdr116:26586:26594 [0] 3374.863554 proxyProgressAsync(), proxy.cc:1466 NCCL TRACE proxyProgressAsync::ncclProxyMsgInit opId=0x72b668000bd0 op.reqBuff=0x72b548000ce0
+gdr116:26586:26594 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 3 from local rank 0, transport 2
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b668000bd0 op.type=1 op.reqBuff=0x72b548000ce0 op.respSize=16 done
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b668000bd0
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Init res=0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x72b668000bd0 matches expected opId=0x72b668000bd0
+gdr116:26586:26596 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x72b548000e88
+gdr116:26586:26594 [0] 3374.947125 proxyProgressAsync(), proxy.cc:1454 NCCL TRACE proxyProgressAsync::proxySetup() opId=0x72b668000bd0
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b668000bd0 op.type=3 op.reqBuff=0x72b548004b20 op.respSize=0 done
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b668000bd0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x72b668000bd0 matches expected opId=0x72b668000bd0
+gdr116:26586:26596 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 1[0] -> 0[0] [send] via NET/IB/1
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Setup res=0
+gdr116:26586:26596 [0] 3374.990160 bootstrapSend(), bootstrap.cc:878 NCCL TRACE Sending to peer=0 tag=257 size=1024
+gdr116:26586:26596 [0] 3375.012378 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<57129>
+gdr114:22457:22505 [0] 3573.444703 bootstrapSend(), bootstrap.cc:881 NCCL TRACE Sent to peer=1 tag=257 size=1024
+gdr114:22457:22505 [0] 3573.494926 bootstrapRecv(), bootstrap.cc:970 NCCL TRACE Receiving tag=257 peer=1 size=1024
+gdr114:22457:22505 [0] sendConnect(), transport/net.cc:330 NCCL INFO sendConnect ncclProxyCallAsync opId=0x73a095251d28
+gdr114:22457:22505 [0] recvConnect(), transport/net.cc:440 NCCL INFO recvConnect ncclProxyCallAsync opId=0x73a095251ed8 &recv->proxyConn=0x73a095251ee0 connectInfo=0x73a09525f750
+gdr114:22457:22503 [0] 3573.571627 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095251d28 op.reqBuff=0x73a074004b40
+[gdr114] ncclIbConnect(), transport/net_ib.cc:1245, NCCL RDMA Client connect
+gdr114:22457:22505 [0] sendConnect(), transport/net.cc:330 NCCL INFO sendConnect ncclProxyCallAsync opId=0x73a0952568f8
+gdr114:22457:22505 [0] recvConnect(), transport/net.cc:440 NCCL INFO recvConnect ncclProxyCallAsync opId=0x73a095256aa8 &recv->proxyConn=0x73a095256ab0 connectInfo=0x73a09525f850
+gdr116:26586:26596 [0] 3375.284024 bootstrapSend(), bootstrap.cc:881 NCCL TRACE Sent to peer=0 tag=257 size=1024
+gdr116:26586:26596 [0] 3375.337428 bootstrapRecv(), bootstrap.cc:970 NCCL TRACE Receiving tag=257 peer=0 size=1024
+gdr116:26586:26596 [0] sendConnect(), transport/net.cc:330 NCCL INFO sendConnect ncclProxyCallAsync opId=0x72b570f05900
+gdr116:26586:26596 [0] recvConnect(), transport/net.cc:440 NCCL INFO recvConnect ncclProxyCallAsync opId=0x72b570f05ab0 &recv->proxyConn=0x72b570f05ab8 connectInfo=0x72b570f136b0
+gdr116:26586:26594 [0] 3375.428956 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f05900 op.reqBuff=0x72b548004b50
+[gdr116] ncclIbConnect(), transport/net_ib.cc:1245, NCCL RDMA Client connect
+gdr114:22457:22503 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1246 Ib Alloc Size 190080 pointer 0x73a074007000
+gdr114:22457:22503 [0] 3573.783382 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<54533>
+gdr116:26586:26596 [0] sendConnect(), transport/net.cc:330 NCCL INFO sendConnect ncclProxyCallAsync opId=0x72b570f0a4f0
+gdr116:26586:26596 [0] recvConnect(), transport/net.cc:440 NCCL INFO recvConnect ncclProxyCallAsync opId=0x72b570f0a6a0 &recv->proxyConn=0x72b570f0a6a8 connectInfo=0x72b570f137b0
+gdr116:26586:26594 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1246 Ib Alloc Size 190080 pointer 0x72b548007000
+gdr116:26586:26594 [0] 3375.628909 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<53013>
+gdr114:22457:22503 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1271 Ib Alloc Size 3584 pointer 0x73a074037000
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Connect res=0
+gdr114:22457:22503 [0] 3574.070984 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095251d28 op.reqBuff=0x73a074004b40
+gdr114:22457:22503 [0] 3574.089214 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095251ed8 op.reqBuff=0x73a074000cc0
+gdr116:26586:26594 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1271 Ib Alloc Size 3584 pointer 0x72b548037000
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Connect res=0
+gdr114:22457:22503 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1548 Ib Alloc Size 173024 pointer 0x73a074039000
+gdr114:22457:22503 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1558 Ib Alloc Size 3584 pointer 0x73a074065000
+gdr116:26586:26594 [0] 3375.925945 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f05900 op.reqBuff=0x72b548004b50
+gdr116:26586:26594 [0] 3375.943967 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f05ab0 op.reqBuff=0x72b548000cc0
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Connect res=0
+gdr114:22457:22503 [0] 3574.284555 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095251d28 op.reqBuff=0x73a074004b40
+gdr114:22457:22503 [0] 3574.291903 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095251ed8 op.reqBuff=0x73a074000cc0
+gdr114:22457:22503 [0] 3574.320396 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+[gdr114] ncclIbConnect(), transport/net_ib.cc:1245, NCCL RDMA Client connect
+gdr116:26586:26594 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1548 Ib Alloc Size 173024 pointer 0x72b548039000
+gdr116:26586:26594 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1558 Ib Alloc Size 3584 pointer 0x72b548065000
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Connect res=0
+gdr116:26586:26594 [0] 3376.150481 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f05900 op.reqBuff=0x72b548004b50
+[gdr116] ncclIbInitCommDevBase(), transport/net_ib.cc:1094, NCCL init ib commom dev base, create cq
+gdr114:22457:22503 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1246 Ib Alloc Size 190080 pointer 0x73a074067000
+gdr114:22457:22503 [0] 3574.494679 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<34289>
+gdr114:22457:22503 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1271 Ib Alloc Size 3584 pointer 0x73a074097000
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Connect res=0
+gdr114:22457:22503 [0] 3574.752279 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095251d28 op.reqBuff=0x73a074004b40
+[gdr114] ncclIbInitCommDevBase(), transport/net_ib.cc:1094, NCCL init ib commom dev base, create cq
+[gdr116] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr116:26586:26594 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=10 pkey=0 pd=0x72b548000ce0
+gdr116:26586:26594 [0] wrap_ibv_query_ece(), misc/ibvwrap.cc:298 NCCL INFO Call to ibv_query_ece not supported
+gdr114:22457:22503 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=2 pkey=0 pd=0x73a074000ce0
+gdr114:22457:22503 [0] wrap_ibv_query_ece(), misc/ibvwrap.cc:298 NCCL INFO Call to ibv_query_ece not supported
+gdr116:26586:26594 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+gdr116:26586:26594 [0] ncclIbConnect(), transport/net_ib.cc:1361 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 10 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/B01A8C0FFFF0000) fifoRkey=0x195a fifoLkey=0x195a
+gdr116:26586:26594 [0] 3409.129395 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f05ab0 op.reqBuff=0x72b548000cc0
+gdr116:26586:26594 [0] 3409.155566 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f0a4f0 op.reqBuff=0x72b548036740
+[gdr116] ncclIbConnect(), transport/net_ib.cc:1245, NCCL RDMA Client connect
+gdr116:26586:26594 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1246 Ib Alloc Size 190080 pointer 0x72b548070000
+gdr116:26586:26594 [0] 3409.342947 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<49987>
+gdr114:22457:22503 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+gdr114:22457:22503 [0] ncclIbConnect(), transport/net_ib.cc:1361 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 2 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x2b8 fifoLkey=0x2b8
+gdr114:22457:22503 [0] 3607.784021 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095251ed8 op.reqBuff=0x73a074000cc0
+[gdr114] ncclIbInitCommDevBase(), transport/net_ib.cc:1094, NCCL init ib commom dev base, create cq
+gdr116:26586:26594 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1271 Ib Alloc Size 3584 pointer 0x72b5480a0000
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Connect res=0
+gdr116:26586:26594 [0] 3409.711130 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f05900 op.reqBuff=0x72b548004b50
+gdr116:26586:26594 [0] 3409.719242 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f05ab0 op.reqBuff=0x72b548000cc0
+gdr116:26586:26594 [0] 3409.728002 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f0a4f0 op.reqBuff=0x72b548036740
+gdr116:26586:26594 [0] 3409.764174 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f0a6a0 op.reqBuff=0x72b548006fe0
+gdr116:26586:26594 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1548 Ib Alloc Size 173024 pointer 0x72b5480a2000
+gdr116:26586:26594 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1558 Ib Alloc Size 3584 pointer 0x72b5480ce000
+gdr116:26586:26594 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Connect res=0
+gdr116:26586:26594 [0] 3409.972678 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f05900 op.reqBuff=0x72b548004b50
+gdr116:26586:26594 [0] 3409.980278 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f05ab0 op.reqBuff=0x72b548000cc0
+[gdr116] ncclIbInitCommDevBase(), transport/net_ib.cc:1094, NCCL init ib commom dev base, create cq
+[gdr114] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr114:22457:22503 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=3 pkey=0 pd=0x73a074000ce0
+[gdr114] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr114:22457:22503 [0] 3629.841440 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=3 mtu=3 dst=10 ll=2 port=1 sl: 0 tc: 0
+gdr116:26586:26594 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=11 pkey=0 pd=0x72b548000ce0
+[gdr116] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr116:26586:26594 [0] 3432.164537 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=11 mtu=3 dst=2 ll=2 port=1 sl: 0 tc: 0
+[gdr114] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr114:22457:22503 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=4 pkey=0 pd=0x73a074000ce0
+[gdr114] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr114:22457:22503 [0] 3684.853603 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=4 mtu=3 dst=4 ll=2 port=1 sl: 0 tc: 0
+gdr116:26586:26594 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=12 pkey=0 pd=0x72b548000ce0
+[gdr116] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr116:26586:26594 [0] 3487.193337 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=12 mtu=3 dst=12 ll=2 port=1 sl: 0 tc: 0
+gdr114:22457:22503 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1753 Ib Alloc Size 3584 pointer 0x73a074065000
+gdr114:22457:22503 [0] 3717.819873 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+[gdr114] ncclIbInitCommDevBase(), transport/net_ib.cc:1094, NCCL init ib commom dev base, create cq
+gdr116:26586:26594 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1753 Ib Alloc Size 3584 pointer 0x72b5480e2000
+gdr116:26586:26594 [0] 3520.206132 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f0a4f0 op.reqBuff=0x72b548036740
+gdr116:26586:26594 [0] 3520.224312 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f0a6a0 op.reqBuff=0x72b548006fe0
+gdr116:26586:26594 [0] 3520.242149 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f05900 op.reqBuff=0x72b548004b50
+[gdr114] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr116:26586:26594 [0] 3532.141713 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=10 mtu=3 dst=3 ll=2 port=1 sl: 0 tc: 0
+gdr114:22457:22503 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=5 pkey=0 pd=0x73a074000ce0
+gdr114:22457:22503 [0] wrap_ibv_query_ece(), misc/ibvwrap.cc:298 NCCL INFO Call to ibv_query_ece not supported
+gdr114:22457:22503 [0] ncclIbConnect(), transport/net_ib.cc:1361 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 5 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x6a7 fifoLkey=0x6a7
+gdr114:22457:22503 [0] 3750.847565 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1548 Ib Alloc Size 173024 pointer 0x73a0740bd000
+gdr114:22457:22503 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1558 Ib Alloc Size 3584 pointer 0x73a0740e9000
+gdr114:22457:22503 [0] ncclProxyService(), proxy.cc:1691 NCCL INFO Received and initiated operation=Connect res=0
+gdr114:22457:22503 [0] 3751.215704 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095251d28 op.reqBuff=0x73a074004b40
+gdr116:26586:26594 [0] ncclIbConnect(), transport/net_ib.cc:1456 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 3 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+[gdr114] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr114:22457:22503 [0] 3761.798826 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=2 mtu=3 dst=11 ll=2 port=1 sl: 0 tc: 0
+gdr116:26586:26594 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO transport/net.cc:805 Cuda Host Alloc Size 9641984 pointer 0x72b730600000
+gdr116:26586:26594 [0] ncclRealloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:164 NCCL INFO Mem Realloc old size 0, new size 1024 pointer 0x72b5480e1990
+gdr116:26586:26594 [0] 3576.109876 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b730600000 size=524288 rkey=0x1ea9 lkey=0x1ea9 fd=-1
+gdr114:22457:22503 [0] ncclIbConnect(), transport/net_ib.cc:1456 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 11 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr116:26586:26594 [0] 3587.107853 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b730680000 size=4915200 rkey=0x1fbd lkey=0x1fbd fd=-1
+gdr114:22457:22503 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO transport/net.cc:805 Cuda Host Alloc Size 9641984 pointer 0x73a250600000
+gdr114:22457:22503 [0] ncclRealloc(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:164 NCCL INFO Mem Realloc old size 0, new size 1024 pointer 0x73a074096010
+gdr116:26586:26594 [0] 3598.109837 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b730b30000 size=4194304 rkey=0x20ac lkey=0x20ac fd=-1
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b570f05900 op.type=4 op.reqBuff=0x72b548004b50 op.respSize=1400 done
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b570f05900
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x72b570f05900 matches expected opId=0x72b570f05900
+gdr116:26586:26596 [0] sendConnect(), transport/net.cc:348 NCCL INFO sendConnect ncclPollProxyResponse opId=0x72b570f05900
+gdr116:26586:26594 [0] 3598.207897 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f05ab0 op.reqBuff=0x72b548000cc0
+gdr114:22457:22503 [0] 3804.767202 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a250600000 size=524288 rkey=0x8c2 lkey=0x8c2 fd=-1
+gdr116:26586:26594 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO transport/net.cc:958 Cuda Host Alloc Size 9641984 pointer 0x72b731000000
+gdr114:22457:22503 [0] 3815.766649 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a250680000 size=4915200 rkey=0x9f1 lkey=0x9f1 fd=-1
+gdr116:26586:26594 [0] 3619.109117 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b731000000 size=524288 rkey=0x21e4 lkey=0x21e4 fd=-1
+gdr114:22457:22503 [0] 3826.768023 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a250b30000 size=4194304 rkey=0xae7 lkey=0xae7 fd=-1
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a095251d28 op.type=4 op.reqBuff=0x73a074004b40 op.respSize=1400 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a095251d28
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1295 NCCL INFO Queuing opId=0x73a095251d28 respBuff=0x73a095268b60 respSize=1400
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1301 NCCL INFO ncclPollProxyResponse Dequeued cached opId=0x73a095251d28
+gdr114:22457:22505 [0] sendConnect(), transport/net.cc:348 NCCL INFO sendConnect ncclPollProxyResponse opId=0x73a095251d28
+gdr114:22457:22503 [0] 3826.852586 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095251ed8 op.reqBuff=0x73a074000cc0
+gdr116:26586:26594 [0] 3630.107991 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b731080000 size=4915200 rkey=0x22d7 lkey=0x22d7 fd=-1
+gdr114:22457:22503 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO transport/net.cc:958 Cuda Host Alloc Size 9641984 pointer 0x73a251000000
+gdr116:26586:26594 [0] 3641.108112 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b731530000 size=4194304 rkey=0x234c lkey=0x234c fd=-1
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b570f05ab0 op.type=4 op.reqBuff=0x72b548000cc0 op.respSize=1400 done
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b570f05ab0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1295 NCCL INFO Queuing opId=0x72b570f05ab0 respBuff=0x72b570e78f30 respSize=1400
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1301 NCCL INFO ncclPollProxyResponse Dequeued cached opId=0x72b570f05ab0
+gdr116:26586:26596 [0] recvConnect(), transport/net.cc:458 NCCL INFO recvConnect ncclPollProxyResponse opId=0x72b570f05ab0
+gdr116:26586:26594 [0] 3641.205052 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f0a4f0 op.reqBuff=0x72b548036740
+[gdr116] ncclIbInitCommDevBase(), transport/net_ib.cc:1094, NCCL init ib commom dev base, create cq
+gdr114:22457:22503 [0] 3847.766644 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a251000000 size=524288 rkey=0xb2e lkey=0xb2e fd=-1
+[gdr116] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr114:22457:22503 [0] 3858.766635 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a251080000 size=4915200 rkey=0xc9a lkey=0xc9a fd=-1
+gdr116:26586:26594 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=13 pkey=0 pd=0x72b548000ce0
+gdr116:26586:26594 [0] wrap_ibv_query_ece(), misc/ibvwrap.cc:298 NCCL INFO Call to ibv_query_ece not supported
+gdr114:22457:22503 [0] 3869.767089 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a251530000 size=4194304 rkey=0xdd9 lkey=0xdd9 fd=-1
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a095251ed8 op.type=4 op.reqBuff=0x73a074000cc0 op.respSize=1400 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a095251ed8
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x73a095251ed8 matches expected opId=0x73a095251ed8
+gdr114:22457:22505 [0] recvConnect(), transport/net.cc:458 NCCL INFO recvConnect ncclPollProxyResponse opId=0x73a095251ed8
+gdr114:22457:22503 [0] 3869.849634 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3869.867184 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3869.885337 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3869.896967 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3869.909204 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3869.920007 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3869.933930 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3869.944397 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3869.957940 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3869.968613 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3869.981943 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3869.992869 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.006329 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.017246 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.030292 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.041915 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.055302 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.066008 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.079262 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.089545 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.102528 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.113381 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.126868 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.137324 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.151524 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.164890 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.178274 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.189517 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.202970 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.214307 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.227540 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.238616 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.251819 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.263419 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.276529 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.288222 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.301682 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.312795 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.325929 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.337282 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.350635 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.361635 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.374765 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.385788 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.398781 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.410317 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.423624 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.434304 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.447790 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.458187 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.471610 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.482130 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.495456 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.506370 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.520276 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.530489 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.543436 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.554012 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.567086 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.577919 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.591592 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.602468 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.615375 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.626878 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.639941 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.650868 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.664078 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.675717 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.716134 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.727050 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.739953 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.750137 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.763866 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.774123 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.787456 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.797923 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.811762 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.822516 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.835732 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.846779 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.859705 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.870662 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.883425 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.894725 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.907885 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.918788 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.931754 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.942744 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.955564 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.966681 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3870.980034 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3870.990677 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.003507 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.014813 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.027750 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.038906 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.056609 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.067473 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.080283 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.091179 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.103996 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.115235 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.128712 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.139865 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.152675 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.163885 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.177221 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.188891 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.202051 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.213031 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.226811 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.238354 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.251194 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.262464 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.275980 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.286773 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.299850 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.311146 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.323976 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.334889 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.347933 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.358669 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.371799 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.382572 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.395812 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.406845 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.420182 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.431125 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.444478 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.455521 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.468411 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.479444 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.492944 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.503601 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.516691 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.527694 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.541220 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.552423 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.565640 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.576660 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.590026 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.601599 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.614473 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.625676 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.638892 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.650022 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.662955 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.674272 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.705242 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.716271 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.729435 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.740198 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.753208 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.764134 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.776904 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.787767 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.801094 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.812100 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.825307 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.836597 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.849593 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.860606 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.874109 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.885073 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.898002 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.909536 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.922362 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.933375 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.946702 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.957572 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.970658 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3871.981678 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3871.994585 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.005768 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.019018 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.029738 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.043034 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.053957 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.075840 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.086640 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.100380 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.111123 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.124270 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.135576 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.148856 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.160206 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.173209 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.184572 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.197775 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.208975 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.221768 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.232592 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.245675 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.256751 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.269965 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.280898 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.294361 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.304744 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.318351 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.328607 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.342244 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.352764 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.366040 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.376647 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3872.389766 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3872.401006 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+[gdr114] ncclIbInitCommDevBase(), transport/net_ib.cc:1094, NCCL init ib commom dev base, create cq
+gdr116:26586:26594 [0] ncclIbConnect(), transport/net_ib.cc:1361 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 13 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/B01A8C0FFFF0000) fifoRkey=0x24db fifoLkey=0x24db
+gdr116:26586:26594 [0] 3674.186198 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f0a6a0 op.reqBuff=0x72b548006fe0
+[gdr116] ncclIbInitCommDevBase(), transport/net_ib.cc:1094, NCCL init ib commom dev base, create cq
+[gdr114] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr114:22457:22503 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=6 pkey=0 pd=0x73a074000ce0
+[gdr114] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr114:22457:22503 [0] 3893.853344 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=6 mtu=3 dst=13 ll=2 port=1 sl: 0 tc: 0
+gdr116:26586:26594 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=14 pkey=0 pd=0x72b548000ce0
+[gdr116] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr116:26586:26594 [0] 3696.192079 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=14 mtu=3 dst=5 ll=2 port=1 sl: 0 tc: 0
+[gdr114] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] ncclIbCreateQp(), transport/net_ib.cc:1128, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+gdr114:22457:22503 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=7 pkey=0 pd=0x73a074000ce0
+[gdr114] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr114:22457:22503 [0] 3948.845548 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=7 mtu=3 dst=7 ll=2 port=1 sl: 0 tc: 0
+gdr116:26586:26594 [0] ncclIbCreateQp(), transport/net_ib.cc:1138 NCCL INFO NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=15 pkey=0 pd=0x72b548000ce0
+[gdr116] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr116:26586:26594 [0] 3751.195139 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=15 mtu=3 dst=15 ll=2 port=1 sl: 0 tc: 0
+gdr114:22457:22503 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1753 Ib Alloc Size 3584 pointer 0x73a0740fd000
+gdr114:22457:22503 [0] 3981.860307 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3981.878550 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3981.893900 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3981.904690 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3981.918373 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3981.929540 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3981.942696 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3981.953189 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3981.966896 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3981.977202 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3981.990239 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.001385 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.014485 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.025195 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.038662 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.050825 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.066731 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.078171 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.091321 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.102947 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.116094 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.127107 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.139994 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.150733 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.163890 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.174313 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.188660 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.199400 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.212753 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.224156 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.236946 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.247789 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.260742 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.271839 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.284782 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.295782 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.308688 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.319608 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.332615 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.343664 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.356808 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.368134 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.380927 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.391751 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.404834 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr114:22457:22503 [0] 3982.415524 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr114:22457:22503 [0] 3982.428387 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a0952568f8 op.reqBuff=0x73a074006c30
+gdr116:26586:26594 [0] ncclIbMallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:411 NCCL INFO transport/net_ib.cc:1753 Ib Alloc Size 3584 pointer 0x72b5480fd000
+gdr116:26586:26594 [0] 3784.198551 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f0a4f0 op.reqBuff=0x72b548036740
+[gdr114] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr114:22457:22503 [0] 3992.784919 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=5 mtu=3 dst=14 ll=2 port=1 sl: 0 tc: 0
+[gdr116] ncclIbRtrQp(), transport/net_ib.cc:1184, link_layer:2, is_global:1
+gdr116:26586:26594 [0] 3795.137035 ncclIbRtrQp(), transport/net_ib.cc:1185 NCCL TRACE NET/IB : ncclIbRtrQp qpn=13 mtu=3 dst=6 ll=2 port=1 sl: 0 tc: 0
+gdr114:22457:22503 [0] ncclIbConnect(), transport/net_ib.cc:1456 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 14 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr116:26586:26594 [0] ncclIbConnect(), transport/net_ib.cc:1456 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 6 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:22457:22503 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO transport/net.cc:805 Cuda Host Alloc Size 9641984 pointer 0x73a251a00000
+gdr116:26586:26594 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO transport/net.cc:805 Cuda Host Alloc Size 9641984 pointer 0x72b731a00000
+gdr114:22457:22503 [0] 4035.770675 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a251a00000 size=524288 rkey=0x124d lkey=0x124d fd=-1
+gdr116:26586:26594 [0] 3838.108673 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b731a00000 size=524288 rkey=0x292b lkey=0x292b fd=-1
+gdr114:22457:22503 [0] 4046.768629 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a251a80000 size=4915200 rkey=0x136b lkey=0x136b fd=-1
+gdr116:26586:26594 [0] 3849.110444 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b731a80000 size=4915200 rkey=0x2a88 lkey=0x2a88 fd=-1
+gdr114:22457:22503 [0] 4057.769206 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a251f30000 size=4194304 rkey=0x1458 lkey=0x1458 fd=-1
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a0952568f8 op.type=4 op.reqBuff=0x73a074006c30 op.respSize=1400 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a0952568f8
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x73a0952568f8 matches expected opId=0x73a0952568f8
+gdr114:22457:22505 [0] sendConnect(), transport/net.cc:348 NCCL INFO sendConnect ncclPollProxyResponse opId=0x73a0952568f8
+gdr114:22457:22503 [0] 4057.848379 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x73a095256aa8 op.reqBuff=0x73a074006fe0
+gdr116:26586:26594 [0] 3860.109301 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b731f30000 size=4194304 rkey=0x2b3a lkey=0x2b3a fd=-1
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b570f0a4f0 op.type=4 op.reqBuff=0x72b548036740 op.respSize=1400 done
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b570f0a4f0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1295 NCCL INFO Queuing opId=0x72b570f0a4f0 respBuff=0x72b570e77cd0 respSize=1400
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1301 NCCL INFO ncclPollProxyResponse Dequeued cached opId=0x72b570f0a4f0
+gdr116:26586:26596 [0] sendConnect(), transport/net.cc:348 NCCL INFO sendConnect ncclPollProxyResponse opId=0x72b570f0a4f0
+gdr116:26586:26594 [0] 3860.203601 proxyProgressAsync(), proxy.cc:1457 NCCL TRACE proxyProgressAsync::proxyConnect() opId=0x72b570f0a6a0 op.reqBuff=0x72b548006fe0
+gdr114:22457:22503 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO transport/net.cc:958 Cuda Host Alloc Size 9641984 pointer 0x73a252400000
+gdr116:26586:26594 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO transport/net.cc:958 Cuda Host Alloc Size 9641984 pointer 0x72b732400000
+gdr114:22457:22503 [0] 4078.768464 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a252400000 size=524288 rkey=0x1555 lkey=0x1555 fd=-1
+gdr116:26586:26594 [0] 3881.109918 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b732400000 size=524288 rkey=0x2c0d lkey=0x2c0d fd=-1
+gdr114:22457:22503 [0] 4089.767894 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a252480000 size=4915200 rkey=0x16b2 lkey=0x16b2 fd=-1
+gdr116:26586:26594 [0] 3892.109622 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b732480000 size=4915200 rkey=0x2d98 lkey=0x2d98 fd=-1
+gdr114:22457:22503 [0] 4100.767075 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x73a252930000 size=4194304 rkey=0x173a lkey=0x173a fd=-1
+gdr114:22457:22503 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x73a095256aa8 op.type=4 op.reqBuff=0x73a074006fe0 op.respSize=1400 done
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x73a095256aa8
+gdr114:22457:22505 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x73a095256aa8 matches expected opId=0x73a095256aa8
+gdr114:22457:22505 [0] recvConnect(), transport/net.cc:458 NCCL INFO recvConnect ncclPollProxyResponse opId=0x73a095256aa8
+gdr114:22457:22505 [0] 4100.853106 bootstrapSend(), bootstrap.cc:878 NCCL TRACE Sending to peer=1 tag=385 size=0
+gdr114:22457:22505 [0] 4100.879912 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.116<34355>
+gdr114:22457:22505 [0] 4101.136880 bootstrapSend(), bootstrap.cc:881 NCCL TRACE Sent to peer=1 tag=385 size=0
+gdr116:26586:26594 [0] 3903.109646 ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1836 NCCL TRACE regAddr=0x72b732930000 size=4194304 rkey=0x2ebc lkey=0x2ebc fd=-1
+gdr116:26586:26594 [0] proxyProgressAsync(), proxy.cc:1477 NCCL INFO proxyProgressAsync opId=0x72b570f0a6a0 op.type=4 op.reqBuff=0x72b548006fe0 op.respSize=1400 done
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1278 NCCL INFO ncclPollProxyResponse Received new opId=0x72b570f0a6a0
+gdr116:26586:26596 [0] ncclPollProxyResponse(), proxy.cc:1291 NCCL INFO resp.opId=0x72b570f0a6a0 matches expected opId=0x72b570f0a6a0
+gdr116:26586:26596 [0] recvConnect(), transport/net.cc:458 NCCL INFO recvConnect ncclPollProxyResponse opId=0x72b570f0a6a0
+gdr116:26586:26596 [0] 3903.205049 bootstrapSend(), bootstrap.cc:878 NCCL TRACE Sending to peer=0 tag=385 size=0
+gdr116:26586:26596 [0] 3903.232233 ncclSocketConnect(), misc/socket.cc:679 NCCL TRACE Connecting to socket 10.20.10.114<57129>
+gdr114:22457:22505 [0] 4101.743677 bootstrapRecv(), bootstrap.cc:970 NCCL TRACE Receiving tag=385 peer=1 size=0
+gdr114:22457:22505 [0] 4101.792803 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 0 nranks 2 size 2 - AllGather
+gdr114:22457:22505 [0] 4101.798679 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr116:26586:26596 [0] 3903.523499 bootstrapSend(), bootstrap.cc:881 NCCL TRACE Sent to peer=0 tag=385 size=0
+gdr116:26586:26596 [0] 3903.585531 bootstrapRecv(), bootstrap.cc:970 NCCL TRACE Receiving tag=385 peer=0 size=0
+gdr114:22457:22505 [0] 4101.907921 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000090 (0.022145 MB/sec), rest in 0.000000 (83.333333 MB/sec)
+gdr114:22457:22505 [0] 4101.914959 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 2 B done in 0.000117 sec: 0.034200 MB/sec
+gdr114:22457:22505 [0] 4101.918474 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 0 nranks 2 size 2 - AllGather DONE
+gdr114:22457:22505 [0] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr116:26586:26596 [0] 3903.616049 bootstrapAllGather(), bootstrap.cc:1043 NCCL TRACE rank 1 nranks 2 size 2 - AllGather
+gdr116:26586:26596 [0] 3903.622564 socketRingAllGather(), bootstrap.cc:1019 NCCL TRACE socketRingAllGather started
+gdr114:22457:22457 [0] scheduleCollTasksToPlan(), enqueue.cc:704 NCCL INFO AllGather: 536870912 Bytes -> Algo RING proto SIMPLE channel{Lo..Hi}={0..1}
+gdr114:22457:22457 [0] 4102.031486 scheduleCollTasksToPlan(), enqueue.cc:716 NCCL TRACE Collective AllGather(Sum, ncclInt8, RING, SIMPLE) count=536870912 devFuncId=5 channel{Lo..Hi}={0..1} count{Lo,Mid,Hi}={268435456,0,268435456} chunkBytes{Lo,Mid,Hi}={2097152,0,2097152}
+gdr116:26586:26596 [0] 3903.749269 socketRingAllGather(), bootstrap.cc:1033 NCCL TRACE socketRingAllGather first message in 0.000123 (0.016216 MB/sec), rest in 0.000000 (100.000000 MB/sec)
+gdr116:26586:26596 [0] 3903.756169 bootstrapAllGather(), bootstrap.cc:1054 NCCL TRACE bootstrapAllGather for 2 B done in 0.000134 sec: 0.029873 MB/sec
+gdr116:26586:26596 [0] 3903.760227 bootstrapAllGather(), bootstrap.cc:1055 NCCL TRACE rank 1 nranks 2 size 2 - AllGather DONE
+gdr116:26586:26596 [0] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:22457:22457 [0] ncclEnqueueCheck(), enqueue.cc:2306 NCCL INFO AllGather: opCount 1 sendbuff 0x73a210000000 recvbuff 0x73a1d0000000 count 134217728 datatype 7 op 0 root 0 comm 0x62de02ee2cc0 [nranks=2] stream 0x62de02ee2be0
+gdr114:22457:22457 [0] ncclEnqueueCheck(), enqueue.cc:2309 NCCL TRACE ncclAllGather(73a210000000,73a1d0000000,134217728,7,0,0,0x62de02ee2cc0,0x62de02ee2be0)
+gdr114:22457:22457 [0] 4111.549509 topoGetAlgoInfo(), enqueue.cc:1749 NCCL TRACE 1073741824 Bytes -> Algo 1 proto 2 time 447414.843750
+gdr114:22457:22457 [0] scheduleCollTasksToPlan(), enqueue.cc:704 NCCL INFO AllGather: 536870912 Bytes -> Algo RING proto SIMPLE channel{Lo..Hi}={0..1}
+gdr114:22457:22457 [0] 4111.585708 scheduleCollTasksToPlan(), enqueue.cc:716 NCCL TRACE Collective AllGather(Sum, ncclInt8, RING, SIMPLE) count=536870912 devFuncId=5 channel{Lo..Hi}={0..1} count{Lo,Mid,Hi}={268435456,0,268435456} chunkBytes{Lo,Mid,Hi}={2097152,0,2097152}
+gdr114:22457:22457 [0] ncclEnqueueCheck(), enqueue.cc:2306 NCCL INFO AllGather: opCount 2 sendbuff 0x73a210000000 recvbuff 0x73a1d0000000 count 134217728 datatype 7 op 0 root 0 comm 0x62de02ee2cc0 [nranks=2] stream 0x62de02ee2be0
+gdr114:22457:22457 [0] ncclEnqueueCheck(), enqueue.cc:2309 NCCL TRACE ncclAllGather(73a210000000,73a1d0000000,134217728,7,0,0,0x62de02ee2cc0,0x62de02ee2be0)
+gdr114:22457:22457 [0] 4111.693440 topoGetAlgoInfo(), enqueue.cc:1749 NCCL TRACE 1073741824 Bytes -> Algo 1 proto 2 time 447414.843750
+gdr114:22457:22457 [0] scheduleCollTasksToPlan(), enqueue.cc:704 NCCL INFO AllGather: 536870912 Bytes -> Algo RING proto SIMPLE channel{Lo..Hi}={0..1}
+gdr114:22457:22457 [0] 4111.723286 scheduleCollTasksToPlan(), enqueue.cc:716 NCCL TRACE Collective AllGather(Sum, ncclInt8, RING, SIMPLE) count=536870912 devFuncId=5 channel{Lo..Hi}={0..1} count{Lo,Mid,Hi}={268435456,0,268435456} chunkBytes{Lo,Mid,Hi}={2097152,0,2097152}
+gdr114:22457:22457 [0] ncclEnqueueCheck(), enqueue.cc:2306 NCCL INFO AllGather: opCount 3 sendbuff 0x73a210000000 recvbuff 0x73a1d0000000 count 134217728 datatype 7 op 0 root 0 comm 0x62de02ee2cc0 [nranks=2] stream 0x62de02ee2be0
+gdr114:22457:22457 [0] ncclEnqueueCheck(), enqueue.cc:2309 NCCL TRACE ncclAllGather(73a210000000,73a1d0000000,134217728,7,0,0,0x62de02ee2cc0,0x62de02ee2be0)
+gdr114:22457:22457 [0] 4111.790612 topoGetAlgoInfo(), enqueue.cc:1749 NCCL TRACE 1073741824 Bytes -> Algo 1 proto 2 time 447414.843750
+gdr114:22457:22457 [0] scheduleCollTasksToPlan(), enqueue.cc:704 NCCL INFO AllGather: 536870912 Bytes -> Algo RING proto SIMPLE channel{Lo..Hi}={0..1}
+gdr114:22457:22457 [0] 4111.818682 scheduleCollTasksToPlan(), enqueue.cc:716 NCCL TRACE Collective AllGather(Sum, ncclInt8, RING, SIMPLE) count=536870912 devFuncId=5 channel{Lo..Hi}={0..1} count{Lo,Mid,Hi}={268435456,0,268435456} chunkBytes{Lo,Mid,Hi}={2097152,0,2097152}
+gdr114:22457:22457 [0] ncclEnqueueCheck(), enqueue.cc:2306 NCCL INFO AllGather: opCount 4 sendbuff 0x73a210000000 recvbuff 0x73a1d0000000 count 134217728 datatype 7 op 0 root 0 comm 0x62de02ee2cc0 [nranks=2] stream 0x62de02ee2be0
+gdr114:22457:22457 [0] ncclEnqueueCheck(), enqueue.cc:2309 NCCL TRACE ncclAllGather(73a210000000,73a1d0000000,134217728,7,0,0,0x62de02ee2cc0,0x62de02ee2be0)
+gdr114:22457:22457 [0] 4111.879998 topoGetAlgoInfo(), enqueue.cc:1749 NCCL TRACE 1073741824 Bytes -> Algo 1 proto 2 time 447414.843750
+gdr114:22457:22457 [0] scheduleCollTasksToPlan(), enqueue.cc:704 NCCL INFO AllGather: 536870912 Bytes -> Algo RING proto SIMPLE channel{Lo..Hi}={0..1}
+gdr114:22457:22457 [0] 4111.906034 scheduleCollTasksToPlan(), enqueue.cc:716 NCCL TRACE Collective AllGather(Sum, ncclInt8, RING, SIMPLE) count=536870912 devFuncId=5 channel{Lo..Hi}={0..1} count{Lo,Mid,Hi}={268435456,0,268435456} chunkBytes{Lo,Mid,Hi}={2097152,0,2097152}
+gdr116:26586:26586 [0] ncclEnqueueCheck(), enqueue.cc:2306 NCCL INFO AllGather: opCount 1 sendbuff 0x72b6f0000000 recvbuff 0x72b6b0000000 count 134217728 datatype 7 op 0 root 0 comm 0x579243e3b740 [nranks=2] stream 0x579243e34f10
+gdr116:26586:26586 [0] ncclEnqueueCheck(), enqueue.cc:2309 NCCL TRACE ncclAllGather(72b6f0000000,72b6b0000000,134217728,7,0,0,0x579243e3b740,0x579243e34f10)
+gdr116:26586:26586 [0] 3914.255047 topoGetAlgoInfo(), enqueue.cc:1749 NCCL TRACE 1073741824 Bytes -> Algo 1 proto 2 time 447414.843750
+gdr116:26586:26586 [0] ncclEnqueueCheck(), enqueue.cc:2306 NCCL INFO AllGather: opCount 2 sendbuff 0x72b6f0000000 recvbuff 0x72b6b0000000 count 134217728 datatype 7 op 0 root 0 comm 0x579243e3b740 [nranks=2] stream 0x579243e34f10
+gdr116:26586:26586 [0] ncclEnqueueCheck(), enqueue.cc:2309 NCCL TRACE ncclAllGather(72b6f0000000,72b6b0000000,134217728,7,0,0,0x579243e3b740,0x579243e34f10)
+gdr116:26586:26586 [0] 3914.345908 topoGetAlgoInfo(), enqueue.cc:1749 NCCL TRACE 1073741824 Bytes -> Algo 1 proto 2 time 447414.843750
+gdr116:26586:26586 [0] ncclEnqueueCheck(), enqueue.cc:2306 NCCL INFO AllGather: opCount 3 sendbuff 0x72b6f0000000 recvbuff 0x72b6b0000000 count 134217728 datatype 7 op 0 root 0 comm 0x579243e3b740 [nranks=2] stream 0x579243e34f10
+gdr116:26586:26586 [0] ncclEnqueueCheck(), enqueue.cc:2309 NCCL TRACE ncclAllGather(72b6f0000000,72b6b0000000,134217728,7,0,0,0x579243e3b740,0x579243e34f10)
+gdr116:26586:26586 [0] 3914.411535 topoGetAlgoInfo(), enqueue.cc:1749 NCCL TRACE 1073741824 Bytes -> Algo 1 proto 2 time 447414.843750
+gdr116:26586:26586 [0] ncclEnqueueCheck(), enqueue.cc:2306 NCCL INFO AllGather: opCount 4 sendbuff 0x72b6f0000000 recvbuff 0x72b6b0000000 count 134217728 datatype 7 op 0 root 0 comm 0x579243e3b740 [nranks=2] stream 0x579243e34f10
+gdr116:26586:26586 [0] ncclEnqueueCheck(), enqueue.cc:2309 NCCL TRACE ncclAllGather(72b6f0000000,72b6b0000000,134217728,7,0,0,0x579243e3b740,0x579243e34f10)
+gdr116:26586:26586 [0] 3914.471862 topoGetAlgoInfo(), enqueue.cc:1749 NCCL TRACE 1073741824 Bytes -> Algo 1 proto 2 time 447414.843750
+gdr114:22457:22506 [0] 4158.709904 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [0/0/512] Irecv posted, buff 0x73a251530000, size 1048576, myRank 0, channelId 0, mhandle 0x73a074096ed0
+gdr114:22457:22506 [0] 4158.755459 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [0/0/512] Irecv posted, buff 0x73a252930000, size 1048576, myRank 0, channelId 1, mhandle 0x73a074097a60
+gdr114:22457:22506 [0] 4158.766299 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [2/2/512] Irecv posted, buff 0x73a251630000, size 1048576, myRank 0, channelId 0, mhandle 0x73a074096ed0
+gdr114:22457:22506 [0] 4158.773507 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [2/2/512] Irecv posted, buff 0x73a252a30000, size 1048576, myRank 0, channelId 1, mhandle 0x73a074097a60
+gdr114:22457:22506 [0] 4158.781585 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [4/4/512] Irecv posted, buff 0x73a251730000, size 1048576, myRank 0, channelId 0, mhandle 0x73a074096ed0
+gdr114:22457:22506 [0] 4158.788872 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [4/4/512] Irecv posted, buff 0x73a252b30000, size 1048576, myRank 0, channelId 1, mhandle 0x73a074097a60
+gdr114:22457:22506 [0] 4158.798138 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [6/6/512] Irecv posted, buff 0x73a251830000, size 1048576, myRank 0, channelId 0, mhandle 0x73a074096ed0
+gdr114:22457:22506 [0] 4158.806953 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [6/6/512] Irecv posted, buff 0x73a252c30000, size 1048576, myRank 0, channelId 1, mhandle 0x73a074097a60
+gdr116:26586:26597 [0] 3962.109135 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [0/0/512] Irecv posted, buff 0x72b731530000, size 1048576, myRank 1, channelId 0, mhandle 0x72b54809fac0
+gdr116:26586:26597 [0] 3962.151022 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [0/0/512] Irecv posted, buff 0x72b732930000, size 1048576, myRank 1, channelId 1, mhandle 0x72b5480a0c00
+gdr116:26586:26597 [0] 3962.162127 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [2/2/512] Irecv posted, buff 0x72b731630000, size 1048576, myRank 1, channelId 0, mhandle 0x72b54809fac0
+gdr116:26586:26597 [0] 3962.169639 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [2/2/512] Irecv posted, buff 0x72b732a30000, size 1048576, myRank 1, channelId 1, mhandle 0x72b5480a0c00
+gdr116:26586:26597 [0] 3962.177652 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [4/4/512] Irecv posted, buff 0x72b731730000, size 1048576, myRank 1, channelId 0, mhandle 0x72b54809fac0
+gdr116:26586:26597 [0] 3962.184672 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [4/4/512] Irecv posted, buff 0x72b732b30000, size 1048576, myRank 1, channelId 1, mhandle 0x72b5480a0c00
+gdr116:26586:26597 [0] 3962.193624 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [6/6/512] Irecv posted, buff 0x72b731830000, size 1048576, myRank 1, channelId 0, mhandle 0x72b54809fac0
+gdr116:26586:26597 [0] 3962.204369 recvProxyProgress(), transport/net.cc:1363 NCCL TRACE recvProxy [6/6/512] Irecv posted, buff 0x72b732c30000, size 1048576, myRank 1, channelId 1, mhandle 0x72b5480a0c00
+
+[2025-06-25 14:57:15] gdr114:22457:22501 [0] ncclIbAsyncThreadMain(), transport/net_ib.cc:182 NCCL WARN NET/IB : xtrdma_0:1 Got async error event: port error
+
+[2025-06-25 14:57:15] gdr114:22457:22501 [0] ncclIbAsyncThreadMain(), transport/net_ib.cc:151 NCCL WARN NET/IB : xtrdma_0:1 async fatal event: local catastrophic error
+
+[2025-06-25 14:59:42] gdr116:26586:26592 [0] ncclIbAsyncThreadMain(), transport/net_ib.cc:182 NCCL WARN NET/IB : xtrdma_0:1 Got async error event: port error
+
+[2025-06-25 14:59:43] gdr116:26586:26592 [0] ncclIbAsyncThreadMain(), transport/net_ib.cc:151 NCCL WARN NET/IB : xtrdma_0:1 async fatal event: local catastrophic error

@@ -1,0 +1,138 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr116] tid:17568, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr116] tid:17569, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] tid:18560, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:18561, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:17570, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr116] tid:17571, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] tid:18562, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:18564, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid  18560 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid  18561 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid  18562 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid  18564 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid  17568 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid  17569 on     gdr116 device  1 [0x08] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid  17570 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid  17571 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+[gdr114] tid:18593, ncclTopoComputeP2pChannels(), graph/paths.cc:833, comm->p2pnChannels:2, comm->p2pnChannelsPerPeer:1
+[gdr114] tid:18592, ncclTopoComputeP2pChannels(), graph/paths.cc:833, comm->p2pnChannels:2, comm->p2pnChannelsPerPeer:1
+[gdr114] tid:18590, ncclTopoComputeP2pChannels(), graph/paths.cc:833, comm->p2pnChannels:2, comm->p2pnChannelsPerPeer:1
+[gdr114] tid:18591, ncclTopoComputeP2pChannels(), graph/paths.cc:833, comm->p2pnChannels:2, comm->p2pnChannelsPerPeer:1
+[gdr114] tid:18562, ReduceRunTest(), reduce.cu:95, ReduceRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr114] tid:18564, ReduceRunTest(), reduce.cu:95, ReduceRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr114] tid:18561, ReduceRunTest(), reduce.cu:95, ReduceRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+[gdr114] tid:18560, ReduceRunTest(), reduce.cu:95, ReduceRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:17571, ReduceRunTest(), reduce.cu:95, ReduceRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:17568, ReduceRunTest(), reduce.cu:95, ReduceRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:17569, ReduceRunTest(), reduce.cu:95, ReduceRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:17570, ReduceRunTest(), reduce.cu:95, ReduceRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+           8             2     float     sum       0    342.3    0.00    0.00      0    340.0    0.00    0.00      0
+          16             4     float     sum       0    339.5    0.00    0.00      0    339.2    0.00    0.00      0
+          32             8     float     sum       0    339.5    0.00    0.00      0    340.5    0.00    0.00      0
+          64            16     float     sum       0    339.8    0.00    0.00      0    340.1    0.00    0.00      0
+         128            32     float     sum       0    341.4    0.00    0.00      0    340.3    0.00    0.00      0
+         256            64     float     sum       0    337.5    0.00    0.00      0    338.6    0.00    0.00      0
+         512           128     float     sum       0    339.3    0.00    0.00      0    341.6    0.00    0.00      0
+        1024           256     float     sum       0    368.7    0.00    0.00      0    366.9    0.00    0.00      0
+        2048           512     float     sum       0    395.9    0.01    0.01      0    397.5    0.01    0.01      0
+        4096          1024     float     sum       0    485.6    0.01    0.01      0    482.2    0.01    0.01      0
+        8192          2048     float     sum       0    553.0    0.01    0.01      0    549.0    0.01    0.01      0
+       16384          4096     float     sum       0    598.0    0.03    0.03      0    597.3    0.03    0.03      0
+       32768          8192     float     sum       0    606.5    0.05    0.05      0    607.4    0.05    0.05      0
+       65536         16384     float     sum       0    692.0    0.09    0.09      0    691.8    0.09    0.09      0
+      131072         32768     float     sum       0    979.3    0.13    0.13      0    978.7    0.13    0.13      0
+      262144         65536     float     sum       0   1599.8    0.16    0.16      0   1599.7    0.16    0.16      0
+      524288        131072     float     sum       0   3032.2    0.17    0.17      0   3021.0    0.17    0.17      0
+     1048576        262144     float     sum       0   5862.9    0.18    0.18      0   5891.4    0.18    0.18      0
+     2097152        524288     float     sum       0    10401    0.20    0.20      0    10386    0.20    0.20      0
+     4194304       1048576     float     sum       0    19490    0.22    0.22      0    19498    0.22    0.22      0
+     8388608       2097152     float     sum       0    37992    0.22    0.22      0    37993    0.22    0.22      0
+    16777216       4194304     float     sum       0    76260    0.22    0.22      0    76271    0.22    0.22      0
+    33554432       8388608     float     sum       0   156359    0.21    0.21      0   156481    0.21    0.21      0
+    67108864      16777216     float     sum       0   317093    0.21    0.21      0   316934    0.21    0.21      0
+   134217728      33554432     float     sum       0   638349    0.21    0.21      0   638403    0.21    0.21      0
+   268435456      67108864     float     sum       0  1283004    0.21    0.21      0  1282753    0.21    0.21      0
+   536870912     134217728     float     sum       0  2571717    0.21    0.21      0  2571432    0.21    0.21      0
+  1073741824     268435456     float     sum       0  5148874    0.21    0.21      0  5150015    0.21    0.21      0
+[gdr114] tid:18623, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(862)
+[gdr114] tid:18621, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(858)
+[gdr116] tid:17605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(862)
+[gdr116] tid:17601, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(858)
+[gdr114] tid:18621, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(859)
+[gdr114] tid:18623, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(863)
+[gdr116] tid:17601, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(859)
+[gdr116] tid:17605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(866)
+[gdr114] tid:18623, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(864)
+[gdr114] tid:18621, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(860)
+[gdr116] tid:17601, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(860)
+[gdr116] tid:17605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(868)
+[gdr114] tid:18621, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(861)
+[gdr114] tid:18623, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(865)
+[gdr116] tid:17605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(869)
+[gdr116] tid:17601, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(861)
+[gdr116] tid:17601, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(863)
+[gdr116] tid:17605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(870)
+[gdr114] tid:18621, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(869)
+[gdr114] tid:18623, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(866)
+[gdr114] tid:18621, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(870)
+[gdr114] tid:18623, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(867)
+[gdr116] tid:17601, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(864)
+[gdr116] tid:17605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(871)
+[gdr114] tid:18623, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(868)
+[gdr114] tid:18621, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(872)
+[gdr116] tid:17605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(872)
+[gdr116] tid:17601, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(865)
+[gdr114] tid:18623, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(871)
+[gdr114] tid:18621, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(873)
+[gdr116] tid:17605, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(873)
+[gdr116] tid:17601, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(867)
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.106446 
+#
+

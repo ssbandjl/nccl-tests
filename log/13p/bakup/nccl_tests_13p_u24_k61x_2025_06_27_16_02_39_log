@@ -1,0 +1,698 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 65536 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+#  Rank  0 Group  0 Pid 103659 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid 103660 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid 103661 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid 103664 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid 649591 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid 649592 on     gdr116 device  1 [0x08] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid 649593 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid 649594 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+           0             0     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+     5.90    0.00    0.00      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+     5.53    0.00    0.00      0
+           0             0     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+     5.63    0.00    0.00      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+     5.48    0.00    0.00      0
+           0             0     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+     6.06    0.00    0.00      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+     5.52    0.00    0.00      0
+           0             0     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+     5.94    0.00    0.00      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+     5.53    0.00    0.00      0
+         128             4     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    776.1    0.00    0.00      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    765.4    0.00    0.00      0
+         256             8     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    775.4    0.00    0.00      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    763.3    0.00    0.00      0
+         512            16     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    776.0    0.00    0.00      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    766.6    0.00    0.00      0
+        1024            32     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    755.7    0.00    0.00      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    697.5    0.00    0.00      0
+        2048            64     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    680.7    0.00    0.00      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    671.9    0.00    0.00      0
+        4096           128     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    685.2    0.01    0.01      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    675.5    0.01    0.01      0
+        8192           256     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    704.9    0.01    0.01      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    697.2    0.01    0.01      0
+       16384           512     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    782.1    0.02    0.02      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    734.5    0.02    0.02      0
+       32768          1024     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    713.9    0.05    0.04      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+    705.1    0.05    0.04      0
+       65536          2048     float    none      -1AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+   1369.6    0.05    0.04      0AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+AllGatherRunColl
+   1358.0    0.05    0.04      0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.00869845 
+#
+

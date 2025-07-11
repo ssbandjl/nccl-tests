@@ -1,0 +1,8 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114:07970] *** Process received signal ***
+[gdr114:07970] Signal: Segmentation fault (11)
+[gdr114:07970] Signal code: Address not mapped (1)
+[gdr114:07970] Failing at address: 0x7e3464b9a490

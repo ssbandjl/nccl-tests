@@ -1,0 +1,178 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] tid:11888, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:12077, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 4 maxBytes 1073741824 step: 2(factor) warmup iters: 30 iters: 100 agg iters: 1 validation: 0 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid  11888 on     gdr114 device  0 [0x09] NVIDIA RTX A6000
+#  Rank  1 Group  0 Pid  12077 on     gdr116 device  0 [0x09] NVIDIA RTX A6000
+gdr114:11888:11888 [0] bootstrapNetInit(), bootstrap.cc:120 NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr116:12077:12077 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr116:12077:12077 [0] bootstrapNetInit(), bootstrap.cc:120 NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.116<0>
+gdr116:12077:12077 [0] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:11888:11888 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr114:11888:11888 [0] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:12077:12083 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr116:12077:12083 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr116:12077:12083 [0] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to xtrdma_0
+[gdr116] tid:12083, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+gdr114:11888:11895 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:11888:11895 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr114:11888:11895 [0] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to xtrdma_0
+[gdr114] tid:11895, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr116] tid:12083, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:11895, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:12083, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr114] tid:11895, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr116] tid:12083, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr114] tid:11895, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr116] tid:12083, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr116] tid:12083, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:12083, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr116:12077:12083 [0] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:12077:12083 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:12077:12083 [0] commAlloc(), init.cc:340 NCCL INFO Using network IB
+[gdr114] tid:11895, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr114] tid:11895, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] tid:11895, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr114:11888:11895 [0] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:11888:11895 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:11888:11895 [0] commAlloc(), init.cc:340 NCCL INFO Using network IB
+gdr114:11888:11895 [0] dmaBufSupported(), init.cc:296 NCCL INFO DMA-BUF is available on GPU device 0
+gdr114:11888:11895 [0] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x5f7d362abe30 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 9000 commId 0xb24127e91f34ebde - Init START
+gdr114:11888:11895 [0] bootstrapInit(), bootstrap.cc:643 NCCL INFO rank 0 nranks 2
+gdr116:12077:12083 [0] dmaBufSupported(), init.cc:296 NCCL INFO DMA-BUF is available on GPU device 0
+gdr116:12077:12083 [0] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x59dd9c0e6ea0 rank 1 nranks 2 cudaDev 0 nvmlDev 0 busId 9000 commId 0xb24127e91f34ebde - Init START
+gdr116:12077:12083 [0] bootstrapInit(), bootstrap.cc:643 NCCL INFO rank 1 nranks 2
+gdr114:11888:11895 [0] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:12077:12083 [0] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:11888:11895 [0] bootstrapInit(), bootstrap.cc:764 NCCL INFO Bootstrap timings total 0.004086 (create 0.000074, send 0.000206, recv 0.002629, ring 0.000194, delay 0.000002)
+[gdr114] tid:11895, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:11895, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr114] tid:11895, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+gdr116:12077:12083 [0] bootstrapInit(), bootstrap.cc:764 NCCL INFO Bootstrap timings total 0.001780 (create 0.000074, send 0.000288, recv 0.000645, ring 0.000154, delay 0.000002)
+[gdr116] tid:12083, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:12083, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr116] tid:12083, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr114] tid:11895, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:11895, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:11895, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:12083, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:12083, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:12083, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+gdr114:11888:11895 [0] ncclTopoGetSystem(), graph/topo.cc:1403 NCCL INFO NCCL_TOPO_DUMP_FILE set by environment to topo_all_reduce_perf.xml
+[gdr116] tid:12083, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:11895, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:12083, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:12083, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:12083, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:12083, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:12083, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:12083, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:11895, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:11895, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:11895, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:11895, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:11895, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:11895, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+gdr116:12077:12083 [0] ncclGetLevel(), graph/paths.cc:240 NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr116:12077:12083 [0] ncclGetLevel(), graph/paths.cc:240 NCCL INFO NCCL_NET_GDR_LEVEL set by environment to SYS
+gdr116:12077:12083 [0] ncclTopoGetCpuAffinity(), graph/topo.cc:1580 NCCL INFO Setting affinity for GPU 0 to 10000001
+gdr114:11888:11895 [0] ncclGetLevel(), graph/paths.cc:240 NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr114:11888:11895 [0] ncclGetLevel(), graph/paths.cc:240 NCCL INFO NCCL_NET_GDR_LEVEL set by environment to SYS
+gdr114:11888:11895 [0] ncclTopoGetCpuAffinity(), graph/topo.cc:1580 NCCL INFO Setting affinity for GPU 0 to 10000001
+gdr114:11888:11895 [0] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x5f7d362abe30 rank 0 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+gdr114:11888:11895 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_MAX_NCHANNELS set by environment to 1.
+gdr114:11888:11895 [0] dumpLine(), graph/rings.cc:25 NCCL INFO Channel 00/01 : 0 1
+gdr114:11888:11895 [0] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] 1/-1/-1->0->-1
+gdr114:11888:11895 [0] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr114:11888:11895 [0] ncclTransportCheckP2pType(), transport.cc:98 NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr114:11888:11907 [0] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 0 CPU core 28
+gdr114:11888:11908 [0] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 0 CPU core 28
+gdr116:12077:12083 [0] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x59dd9c0e6ea0 rank 1 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+gdr116:12077:12083 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_MAX_NCHANNELS set by environment to 1.
+gdr116:12077:12083 [0] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] -1/-1/-1->1->0
+gdr116:12077:12083 [0] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr116:12077:12086 [0] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 0 CPU core 28
+gdr116:12077:12087 [0] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 0 CPU core 28
+gdr114:11888:11895 [0] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+gdr114:11888:11895 [0] initTransportsRank(), init.cc:1234 NCCL INFO 1 coll channels, 1 collnet channels, 0 nvls channels, 1 p2p channels, 1 p2p channels per peer
+gdr116:12077:12083 [0] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+gdr116:12077:12083 [0] initTransportsRank(), init.cc:1234 NCCL INFO 1 coll channels, 1 collnet channels, 0 nvls channels, 1 p2p channels, 1 p2p channels per peer
+gdr114:11888:11895 [0] devCommSetup(), init.cc:483 NCCL INFO CC Off, workFifoBytes 1048576
+gdr114:11888:11895 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:11888:11895 [0] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x5f7d362abe30 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 9000 commId 0xb24127e91f34ebde - Init COMPLETE
+gdr114:11888:11895 [0] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 0 nranks 2 total 0.52 (kernels 0.16, alloc 0.33, bootstrap 0.00, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.00, rest 0.00)
+gdr116:12077:12083 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:12077:12083 [0] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x59dd9c0e6ea0 rank 1 nranks 2 cudaDev 0 nvmlDev 0 busId 9000 commId 0xb24127e91f34ebde - Init COMPLETE
+gdr116:12077:12083 [0] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 1 nranks 2 total 0.53 (kernels 0.16, alloc 0.34, bootstrap 0.00, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.00, rest 0.00)
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllReduceRunColl
+gdr116:12077:12089 [0] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 0 CPU core 28
+gdr116:12077:12088 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 0[0] -> 1[0] [receive] via NET/IB/1/GDRDMA
+gdr114:11888:11910 [0] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 0 CPU core 28
+gdr114:11888:11909 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 1[0] -> 0[0] [receive] via NET/IB/1/GDRDMA
+gdr114:11888:11909 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 0[0] -> 1[0] [send] via NET/IB/1/GDRDMA
+gdr116:12077:12088 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 1[0] -> 0[0] [send] via NET/IB/1/GDRDMA
+gdr114:11888:11907 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_QPS_PER_CONNECTION set by environment to 1.
+gdr116:12077:12086 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_QPS_PER_CONNECTION set by environment to 1.
+gdr114:11888:11907 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+gdr116:12077:12086 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+gdr116:12077:12086 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_TIMEOUT set by environment to 24.
+gdr114:11888:11907 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_TIMEOUT set by environment to 24.
+gdr116:12077:12086 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_GDR_FLUSH_DISABLE set by environment to 1.
+gdr114:11888:11907 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_GDR_FLUSH_DISABLE set by environment to 1.
+gdr114:11888:11909 [0] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+gdr116:12077:12088 [0] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+           4             1     float     sum      -1    97.96    0.00    0.00    N/A    97.86    0.00    0.00    N/A
+           8             2     float     sum      -1    98.46    0.00    0.00    N/A    97.93    0.00    0.00    N/A
+          16             4     float     sum      -1    98.46    0.00    0.00    N/A    98.38    0.00    0.00    N/A
+          32             8     float     sum      -1    101.2    0.00    0.00    N/A    103.7    0.00    0.00    N/A
+          64            16     float     sum      -1    101.8    0.00    0.00    N/A    102.0    0.00    0.00    N/A
+         128            32     float     sum      -1    102.4    0.00    0.00    N/A    101.8    0.00    0.00    N/A
+         256            64     float     sum      -1    102.4    0.00    0.00    N/A    102.6    0.00    0.00    N/A
+         512           128     float     sum      -1    103.3    0.00    0.00    N/A    103.4    0.00    0.00    N/A
+        1024           256     float     sum      -1    104.8    0.01    0.01    N/A    104.7    0.01    0.01    N/A
+        2048           512     float     sum      -1    105.4    0.02    0.02    N/A    105.2    0.02    0.02    N/A
+        4096          1024     float     sum      -1    107.3    0.04    0.04    N/A    107.3    0.04    0.04    N/A
+        8192          2048     float     sum      -1    111.8    0.07    0.07    N/A    110.8    0.07    0.07    N/A
+       16384          4096     float     sum      -1    111.2    0.15    0.15    N/A    110.9    0.15    0.15    N/A
+       32768          8192     float     sum      -1    204.9    0.16    0.16    N/A    204.8    0.16    0.16    N/A
+       65536         16384     float     sum      -1    363.2    0.18    0.18    N/A    365.6    0.18    0.18    N/A
+      131072         32768     float     sum      -1    302.3    0.43    0.43    N/A    305.4    0.43    0.43    N/A
+      262144         65536     float     sum      -1    553.2    0.47    0.47    N/A    549.5    0.48    0.48    N/A
+      524288        131072     float     sum      -1    992.5    0.53    0.53    N/A    955.4    0.55    0.55    N/A
+     1048576        262144     float     sum      -1   1936.7    0.54    0.54    N/A   1926.8    0.54    0.54    N/A
+     2097152        524288     float     sum      -1   4002.7    0.52    0.52    N/A   3878.1    0.54    0.54    N/A
+     4194304       1048576     float     sum      -1   8721.6    0.48    0.48    N/A   8683.0    0.48    0.48    N/A
+     8388608       2097152     float     sum      -1    14487    0.58    0.58    N/A    14371    0.58    0.58    N/A
+    16777216       4194304     float     sum      -1    29159    0.58    0.58    N/A    28794    0.58    0.58    N/A
+    33554432       8388608     float     sum      -1    58000    0.58    0.58    N/A    57395    0.58    0.58    N/A
+    67108864      16777216     float     sum      -1   114363    0.59    0.59    N/A   113930    0.59    0.59    N/A
+   134217728      33554432     float     sum      -1   229630    0.58    0.58    N/A   226971    0.59    0.59    N/A
+   268435456      67108864     float     sum      -1   457633    0.59    0.59    N/A   454378    0.59    0.59    N/A
+   536870912     134217728     float     sum      -1   923818    0.58    0.58    N/A   919320    0.58    0.58    N/A
+  1073741824     268435456     float     sum      -1  1855116    0.58    0.58    N/A  1844670    0.58    0.58    N/A
+[gdr114] tid:11907, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(85)
+[gdr116] tid:12086, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(85)
+[gdr114] tid:11907, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(84)
+[gdr116] tid:12086, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(84)
+gdr114:11888:11933 [0] commFree(), init.cc:256 NCCL INFO comm 0x5f7d362abe30 rank 0 nranks 2 cudaDev 0 busId 9000 - Destroy COMPLETE
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.286561 
+#
+gdr116:12077:12663 [0] commFree(), init.cc:256 NCCL INFO comm 0x59dd9c0e6ea0 rank 1 nranks 2 cudaDev 0 busId 9000 - Destroy COMPLETE
+

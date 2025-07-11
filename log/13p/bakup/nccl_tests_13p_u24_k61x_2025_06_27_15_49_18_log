@@ -1,0 +1,118 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] tid:93836, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:92625 not exists, now remove huge file:/dev/hugepages/huge_file_92625_1751010458_0x72a58cd0bd80_1550142703
+[gdr114] tid:93836, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:92629 not exists, now remove huge file:/dev/hugepages/huge_file_92629_1751010458_0x70512cd0be10_1106326325
+[gdr114] tid:93836, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:92627 not exists, now remove huge file:/dev/hugepages/huge_file_92627_1751010458_0x77c064d0be90_1246266618
+[gdr114] tid:93836, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:92626 not exists, now remove huge file:/dev/hugepages/huge_file_92626_1751010458_0x7c25ccd0be10_2021689784
+[gdr114] tid:93836, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93801_1751010564_0x780ad8d0bd80_1005480554
+[gdr114] tid:93836, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93801_1751010564_0x780ad919d3e0_1106303498
+[gdr114] tid:93827, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93800_1751010564_0x7d5220d0bf40_2030547515
+[gdr114] tid:93836, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93801_1751010564_0x780ad919d3e0_2054329805
+[gdr114] tid:93827, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93800_1751010564_0x7d522119d3e0_643704738
+[gdr114] tid:93836, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93801_1751010564_0x780ad919d3e0_1139759177
+[gdr116] tid:642705, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:641492 not exists, now remove huge file:/dev/hugepages/huge_file_641492_1751010458_0x7bc584999550_1862273963
+[gdr116] tid:642705, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:641491 not exists, now remove huge file:/dev/hugepages/huge_file_641491_1751010458_0x7c5cc89995d0_1074198806
+[gdr116] tid:642705, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:641490 not exists, now remove huge file:/dev/hugepages/huge_file_641490_1751010457_0x7087a89995d0_1900405139
+[gdr116] tid:642705, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:641494 not exists, now remove huge file:/dev/hugepages/huge_file_641494_1751010457_0x707f849993f0_1666458763
+[gdr116] tid:642705, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642685_1751010564_0x7bddfc999550_1223176931
+[gdr114] tid:93827, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93800_1751010564_0x7d522119d3e0_1397516039
+[gdr116] tid:642706, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642686_1751010564_0x7d9f1c9993f0_764806807
+[gdr116] tid:642705, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642685_1751010564_0x7bddfce2abc0_1467399197
+[gdr114] tid:93827, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93800_1751010564_0x7d522119d3e0_1192820814
+[gdr116] tid:642706, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642686_1751010564_0x7d9f1ce2aa60_723617504
+[gdr116] tid:642705, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642685_1751010564_0x7bddfce2abc0_593470183
+[gdr114] tid:93838, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93802_1751010564_0x785234d0bf70_317333292
+[gdr116] tid:642706, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642686_1751010564_0x7d9f1ce2aa60_453770583
+[gdr116] tid:642704, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642684_1751010564_0x75957c999310_1784906781
+[gdr116] tid:642705, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642685_1751010564_0x7bddfce2abc0_754140734
+[gdr114] tid:93838, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93802_1751010564_0x78523519d3e0_1561455535
+[gdr114] tid:93837, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93805_1751010564_0x73ea9cd0be10_215940142
+[gdr116] tid:642706, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642686_1751010564_0x7d9f1ce2aa60_2061301378
+[gdr116] tid:642704, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642684_1751010564_0x75957ce2a9f0_329971894
+[gdr114] tid:93838, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93802_1751010564_0x78523519d3e0_482521034
+[gdr114] tid:93837, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93805_1751010564_0x73ea9d19d2b0_173289865
+[gdr116] tid:642704, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642684_1751010564_0x75957ce2a9f0_1808453891
+[gdr114] tid:93838, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93802_1751010564_0x78523519d3e0_238532294
+[gdr114] tid:93837, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93805_1751010564_0x73ea9d19d2b0_1083815678
+[gdr116] tid:642704, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642684_1751010564_0x75957ce2a9f0_639445005
+[gdr114] tid:93837, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_93805_1751010564_0x73ea9d19d2b0_1989027176
+[gdr116] tid:642707, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642688_1751010564_0x7fb7ec999310_1430588042
+[gdr116] tid:642707, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642688_1751010564_0x7fb7ece2a9f0_824657770
+[gdr116] tid:642707, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642688_1751010564_0x7fb7ece2a9f0_1069618005
+[gdr116] tid:642707, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_642688_1751010564_0x7fb7ece2a9f0_1224683618
+[gdr116] tid:642717, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr114] tid:93853, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr116] tid:642722, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr116] tid:642722, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:642717, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr116] tid:642722, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:93854, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr114] tid:93854, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:93854, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:93853, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr114] tid:93854, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr114] tid:93854, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:93853, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:93854, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:93853, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:642717, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:642717, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:642722, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x2
+[gdr116] tid:642722, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:642722, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:93853, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:642717, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr116] tid:642717, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+[gdr114] tid:93853, xtrdma_umodify_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:453, Add Local Write flag, cur_flags:0x0
+           0             0     float    none      -1     5.20    0.00    0.00      0     5.34    0.00    0.00      0
+           0             0     float    none      -1     5.30    0.00    0.00      0     5.29    0.00    0.00      0
+           0             0     float    none      -1     5.24    0.00    0.00      0     5.19    0.00    0.00      0
+           0             0     float    none      -1     5.25    0.00    0.00      0     5.19    0.00    0.00      0
+         128             4     float    none      -1    775.0    0.00    0.00      0    765.1    0.00    0.00      0
+         256             8     float    none      -1    775.0    0.00    0.00      0    764.5    0.00    0.00      0
+         512            16     float    none      -1    777.9    0.00    0.00      0    761.1    0.00    0.00      0
+        1024            32     float    none      -1    768.3    0.00    0.00      0    741.1    0.00    0.00      0
+        2048            64     float    none      -1    684.2    0.00    0.00      0    670.7    0.00    0.00      0
+        4096           128     float    none      -1    684.2    0.01    0.01      0    675.2    0.01    0.01      0
+        8192           256     float    none      -1    703.5    0.01    0.01      0    695.4    0.01    0.01      0
+       16384           512     float    none      -1    733.2    0.02    0.02      0    724.6    0.02    0.02      0
+       32768          1024     float    none      -1    731.7    0.04    0.04      0    713.4    0.05    0.04      0
+       65536          2048     float    none      -1   1448.7    0.05    0.04      0    94872    0.00    0.00      0

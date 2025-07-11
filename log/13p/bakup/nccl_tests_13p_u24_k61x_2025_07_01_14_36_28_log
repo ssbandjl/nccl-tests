@@ -1,0 +1,1180 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr116] tid:104542, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] tid:92832, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:104543, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] tid:92833, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:104544, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr116] tid:104546, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] tid:92837, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:92834, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 4096 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid  92832 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid  92833 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid  92834 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid  92837 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid 104542 on     gdr116 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid 104543 on     gdr116 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid 104544 on     gdr116 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid 104546 on     gdr116 device  3 [0x89] Tesla V100-SXM2-16GB
+[gdr114] tid:92856, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr114] tid:92856, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:92855, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr114] tid:92856, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr114] tid:92854, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr114] tid:92856, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr114] tid:92855, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:104563, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr116] tid:104564, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr114] tid:92854, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:92853, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr114] tid:92856, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr114] tid:92856, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] tid:92856, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr114] tid:92856, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92855, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr116] tid:104563, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:104564, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:92854, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr114] tid:92853, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:104562, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr114] tid:92855, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr116] tid:104563, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr116] tid:104565, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr116] tid:104564, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr114] tid:92854, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr116] tid:104562, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:92853, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr114] tid:92855, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr114] tid:92855, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] tid:92855, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr114] tid:92855, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104563, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr116] tid:104565, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:104564, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr114] tid:92853, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr114] tid:92854, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr114] tid:92854, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] tid:92854, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr114] tid:92854, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104562, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr116] tid:104563, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr116] tid:104563, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:104563, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr116] tid:104563, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104565, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr114] tid:92853, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr114] tid:92853, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] tid:92853, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr114] tid:92853, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104562, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr116] tid:104564, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr116] tid:104564, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:104564, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr116] tid:104564, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104565, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr116] tid:104562, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr116] tid:104562, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:104562, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr116] tid:104562, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104565, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr116] tid:104565, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:104565, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr116] tid:104565, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92854, ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr114] tid:92854, initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+[gdr114] tid:92854, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr114] tid:92856, ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr114] tid:92856, initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+[gdr114] tid:92853, ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr114] tid:92853, initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+[gdr114] tid:92855, ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr114] tid:92855, initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+[gdr114] tid:92853, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr114] tid:92856, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr114] tid:92855, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr116] tid:104562, ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr116] tid:104562, initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+[gdr116] tid:104562, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr116] tid:104563, ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr116] tid:104563, initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+[gdr116] tid:104563, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr116] tid:104565, ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr116] tid:104565, initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+[gdr116] tid:104565, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr116] tid:104564, ncclCommInitRankFunc(), init.cc:1421, Init transport rank
+[gdr116] tid:104564, initTransportsRank(), init.cc:717, AllGather1 - begin, ncclCalloc
+[gdr116] tid:104564, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport:1
+[gdr114] tid:92854, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr114] tid:92854, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92853, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr114] tid:92853, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92855, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr114] tid:92855, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92856, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr114] tid:92856, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92855, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92856, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92853, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92854, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104562, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr116] tid:104562, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104562, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104563, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr116] tid:104563, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104565, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr116] tid:104565, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104564, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr116] tid:104564, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104563, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104564, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104565, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92855, initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+[gdr114] tid:92856, initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+[gdr114] tid:92854, initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+[gdr114] tid:92853, initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+[gdr114] tid:92855, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr114] tid:92855, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92855, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92855, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92855, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92855, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92855, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92855, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92856, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr114] tid:92856, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92853, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr114] tid:92853, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92854, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr114] tid:92854, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92856, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92856, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92856, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92856, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92856, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92856, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92854, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92854, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92853, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92854, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92854, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92853, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92854, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92854, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92853, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92853, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr114] tid:92853, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92853, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104562, initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+[gdr116] tid:104565, initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+[gdr116] tid:104564, initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+[gdr116] tid:104563, initTransportsRank(), init.cc:808, Detect TOPO, ncclTopoGetSystem
+[gdr116] tid:104565, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr116] tid:104565, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104565, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104565, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104565, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104565, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104565, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104565, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104562, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr116] tid:104562, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104564, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr116] tid:104564, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104563, ncclTopoGetSystem(), graph/topo.cc:1353, ncclTopoProcessNet, name:IB
+[gdr116] tid:104563, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104562, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104564, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104564, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104562, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104562, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104562, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104562, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104562, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104564, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104564, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104564, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104564, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104563, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104563, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104563, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:0, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104563, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104563, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104563, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU:1, dma_buf_enable:0, nic_name:xtrdma_0
+[gdr116] tid:104542, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:104546, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:104543, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:104544, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr114] tid:92834, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr114] tid:92833, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr114] tid:92837, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+[gdr114] tid:92832, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr114] tid:92885, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104594, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92881, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104595, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104594, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92885, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92881, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104595, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92886, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92886, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92886, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104596, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104596, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104596, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104597, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104597, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104597, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92881, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104595, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92882, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92882, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92882, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104594, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92885, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92882, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92882, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104597, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104597, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92882, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104597, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92882, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92885, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92881, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92886, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104597, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104596, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92886, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92885, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104594, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92881, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104596, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104594, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92886, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104596, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92886, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104596, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104595, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104595, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92881, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104595, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92882, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104597, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104594, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92885, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104595, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92881, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104594, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92885, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92886, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104594, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104596, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92885, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr116] tid:104595, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92881, ncclIbGetProperties(), transport/net_ib.cc:834, Check phy prop, dev:1, props->name:xtrdma_0, props->speed:25000
+[gdr114] tid:92881, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104595, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92882, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104596, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104594, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104596, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92885, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr116] tid:104596, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr114] tid:92882, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr116] tid:104595, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr114] tid:92881, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr114] tid:92885, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr114] tid:92881, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr116] tid:104594, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr114] tid:92886, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104596, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104595, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104594, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104597, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104595, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92882, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr116] tid:104597, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104597, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRegMrDmaBufInternal(), transport/net_ib.cc:1842, Reg iova2 mr
+[gdr116] tid:104597, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92886, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92881, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92885, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92886, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbInitCommDevBase(), transport/net_ib.cc:1098, Create CQ, need_cqe_num:2048
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr116] tid:104597, ncclIbCreateQp(), transport/net_ib.cc:1132, RDMA Create QP, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:104597, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+[gdr114] tid:92885, ncclIbRtrQp(), transport/net_ib.cc:1189, link_layer:2, is_global:1
+           0             0     float    none      -1    662.5    0.00    0.00      0    658.3    0.00    0.00    N/A
+           0             0     float    none      -1    631.9    0.00    0.00      0    612.3    0.00    0.00    N/A
+           0             0     float    none      -1    606.0    0.00    0.00      0    597.4    0.00    0.00    N/A
+           0             0     float    none      -1    581.8    0.00    0.00      0    576.6    0.00    0.00    N/A
+         128             4     float    none      -1    692.5    0.00    0.00      0    690.2    0.00    0.00    N/A
+         256             8     float    none      -1    656.2    0.00    0.00      0    668.3    0.00    0.00    N/A
+         512            16     float    none      -1    654.4    0.00    0.00      0    639.4    0.00    0.00    N/A
+        1024            32     float    none      -1    641.1    0.00    0.00      0    641.3    0.00    0.00    N/A
+        2048            64     float    none      -1    642.1    0.00    0.00      0    632.5    0.00    0.00    N/A
+        4096           128     float    none      -1    622.2    0.01    0.01      0    624.4    0.01    0.01    N/A
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(706)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(670)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(750)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(675)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(659)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(671)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(708)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(718)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(753)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(663)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(751)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(673)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(758)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(710)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(686)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(719)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(666)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(676)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(679)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(761)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(720)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(687)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(752)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(712)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(668)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(682)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(721)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(689)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(753)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(684)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(693)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(770)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(682)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(751)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(718)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(755)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(723)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(771)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(684)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(754)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(688)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(719)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(725)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(772)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(686)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(692)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(770)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(759)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(727)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(720)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(773)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(696)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(689)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(697)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(762)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(721)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(771)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(730)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(700)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(699)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(772)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(701)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(661)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(752)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(714)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(683)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(773)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(705)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(755)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(664)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(703)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(659)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(715)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(709)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(685)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(756)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(661)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(711)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(766)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(716)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(688)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(667)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(663)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(757)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(717)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(690)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(767)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(716)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(669)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(666)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(706)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(768)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(708)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(692)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(766)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(769)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(726)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(710)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(694)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(728)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(678)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(727)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(767)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(712)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(731)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(762)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(681)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(696)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(687)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(729)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(732)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(763)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(683)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(670)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(768)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(733)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(685)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(731)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(764)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(672)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(697)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(769)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(765)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(677)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(664)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(691)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(680)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(671)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(674)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(667)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(757)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(673)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(677)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(693)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(678)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(760)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(695)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(658)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(763)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(680)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(660)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(672)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(764)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(662)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(675)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(765)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(665)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(734)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(679)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(668)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(674)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(735)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(707)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(774)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(758)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(681)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(736)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(658)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(709)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(778)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(669)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(676)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(738)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(660)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(759)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(711)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(780)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(662)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(713)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(698)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(761)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(734)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(775)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(781)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(665)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(699)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(776)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(735)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(700)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(698)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(778)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(736)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(722)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(777)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(702)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(737)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(701)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(779)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(722)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(702)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(724)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(704)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(779)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(780)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(726)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(723)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(703)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(707)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(738)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(781)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(724)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(704)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(729)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(739)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(782)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(690)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(740)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(746)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(725)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(691)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(741)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(747)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(742)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(705)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(783)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(774)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(694)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(748)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(775)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(695)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(744)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(784)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(749)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(776)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(737)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(742)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(746)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(728)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(785)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(777)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(743)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(739)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(730)
+[gdr114] tid:92886, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(748)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(744)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(740)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(713)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(750)
+[gdr116] tid:104594, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(745)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(782)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(714)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(754)
+[gdr114] tid:92881, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(743)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(732)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(783)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(715)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(756)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(784)
+[gdr116] tid:104596, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(717)
+[gdr116] tid:104595, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(760)
+[gdr116] tid:104597, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(785)
+[gdr114] tid:92882, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(733)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(741)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(745)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(747)
+[gdr114] tid:92885, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(749)
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.00111521 
+#
+

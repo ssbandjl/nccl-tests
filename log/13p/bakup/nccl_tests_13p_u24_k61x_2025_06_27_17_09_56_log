@@ -1,0 +1,87 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+#  Rank  0 Group  0 Pid 112093 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid 112094 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid 112095 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid 112097 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid 656548 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid 656549 on     gdr116 device  1 [0x08] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid 656550 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid 656551 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllGatherRunColl
+           0             0     float    none      -1     5.27    0.00    0.00      0     4.71    0.00    0.00      0
+           0             0     float    none      -1     4.63    0.00    0.00      0     5.11    0.00    0.00      0
+           0             0     float    none      -1     4.37    0.00    0.00      0     4.42    0.00    0.00      0
+           0             0     float    none      -1     4.34    0.00    0.00      0     4.41    0.00    0.00      0
+         128             4     float    none      -1    663.8    0.00    0.00      0    654.6    0.00    0.00      0
+         256             8     float    none      -1    663.8    0.00    0.00      0    654.9    0.00    0.00      0
+         512            16     float    none      -1    666.1    0.00    0.00      0    657.0    0.00    0.00      0
+        1024            32     float    none      -1    667.1    0.00    0.00      0    657.6    0.00    0.00      0
+        2048            64     float    none      -1    641.5    0.00    0.00      0    632.7    0.00    0.00      0
+        4096           128     float    none      -1    645.9    0.01    0.01      0    645.1    0.01    0.01      0
+        8192           256     float    none      -1    663.7    0.01    0.01      0    657.4    0.01    0.01      0
+       16384           512     float    none      -1    702.8    0.02    0.02      0    695.7    0.02    0.02      0
+       32768          1024     float    none      -1    711.8    0.05    0.04      0    703.6    0.05    0.04      0
+       65536          2048     float    none      -1   1363.9    0.05    0.04      0   1352.5    0.05    0.04      0
+      131072          4096     float    none      -1   1500.4    0.09    0.08      0   1366.7    0.10    0.08      0
+      262144          8192     float    none      -1   1388.2    0.19    0.17      0   1430.0    0.18    0.16      0
+      524288         16384     float    none      -1    36579    0.01    0.01      0   261618    0.00    0.00      0
+     1048576         32768     float    none      -1   2442.9    0.43    0.38      0   2401.7    0.44    0.38      0
+     2097152         65536     float    none      -1   3444.4    0.61    0.53      0   3373.0    0.62    0.54      0
+     4194304        131072     float    none      -1   5686.1    0.74    0.65      0   5543.1    0.76    0.66      0
+     8388608        262144     float    none      -1    10399    0.81    0.71      0    10180    0.82    0.72      0
+    16777216        524288     float    none      -1    20399    0.82    0.72      0    20156    0.83    0.73      0
+    33554432       1048576     float    none      -1    40326    0.83    0.73      0    40171    0.84    0.73      0
+    67108864       2097152     float    none      -1    79712    0.84    0.74      0    79819    0.84    0.74      0
+   134217728       4194304     float    none      -1   159541    0.84    0.74      0   159425    0.84    0.74      0
+   268435456       8388608     float    none      -1   318106    0.84    0.74      0   318158    0.84    0.74      0
+   536870912      16777216     float    none      -1   635824    0.84    0.74      0   639893    0.84    0.73      0
+  1073741824      33554432     float    none      -1  1273227    0.84    0.74      0  1275533    0.84    0.74      0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.278484 
+#
+

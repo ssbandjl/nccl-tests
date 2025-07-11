@@ -1,0 +1,230 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] tid:16913, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:15505, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr116] tid:15506, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr116] tid:15507, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr116] tid:15509, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] tid:16914, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:16915, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:16917, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid  16913 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid  16914 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid  16915 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid  16917 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid  15505 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid  15506 on     gdr116 device  1 [0x08] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid  15507 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid  15509 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16954, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16953, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16952, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16951, ncclTopoGetNchannels(), graph/paths.cc:795, nNetChannels:1
+[gdr114] tid:16914, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+[gdr114] tid:16915, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr114] tid:16913, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr114] tid:16917, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:15505, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:15509, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:15506, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+[gdr116] tid:15507, AlltoAllRunTest(), alltoall.cu:96, AlltoAllRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+           0             0     float    none      -1    500.4    0.00    0.00      0    493.1    0.00    0.00    N/A
+           0             0     float    none      -1    495.2    0.00    0.00      0    497.4    0.00    0.00    N/A
+           0             0     float    none      -1    497.6    0.00    0.00      0    500.9    0.00    0.00    N/A
+           0             0     float    none      -1    497.4    0.00    0.00      0    494.2    0.00    0.00    N/A
+         128             4     float    none      -1    611.0    0.00    0.00      0    620.5    0.00    0.00    N/A
+         256             8     float    none      -1    622.1    0.00    0.00      0    616.3    0.00    0.00    N/A
+         512            16     float    none      -1    623.5    0.00    0.00      0    622.7    0.00    0.00    N/A
+        1024            32     float    none      -1    623.4    0.00    0.00      0    614.0    0.00    0.00    N/A
+        2048            64     float    none      -1    619.5    0.00    0.00      0    618.0    0.00    0.00    N/A
+        4096           128     float    none      -1    610.0    0.01    0.01      0    615.4    0.01    0.01    N/A
+        8192           256     float    none      -1    617.1    0.01    0.01      0    611.4    0.01    0.01    N/A
+       16384           512     float    none      -1    622.8    0.03    0.02      0    622.4    0.03    0.02    N/A
+       32768          1024     float    none      -1    648.6    0.05    0.04      0    645.3    0.05    0.04    N/A
+       65536          2048     float    none      -1    796.6    0.08    0.07      0    793.1    0.08    0.07    N/A
+      131072          4096     float    none      -1   1184.9    0.11    0.10      0   1200.7    0.11    0.10    N/A
+      262144          8192     float    none      -1   1206.5    0.22    0.19      0   1168.0    0.22    0.20    N/A
+      524288         16384     float    none      -1   1550.3    0.34    0.30      0   1550.6    0.34    0.30    N/A
+     1048576         32768     float    none      -1   2481.3    0.42    0.37      0   2481.1    0.42    0.37    N/A
+     2097152         65536     float    none      -1   3943.0    0.53    0.47      0   3936.3    0.53    0.47    N/A
+     4194304        131072     float    none      -1   6873.3    0.61    0.53      0   6881.5    0.61    0.53    N/A
+     8388608        262144     float    none      -1    12750    0.66    0.58      0    12671    0.66    0.58    N/A
+    16777216        524288     float    none      -1    23942    0.70    0.61      0    23860    0.70    0.62    N/A
+    33554432       1048576     float    none      -1    46853    0.72    0.63      0    46767    0.72    0.63    N/A
+    67108864       2097152     float    none      -1    92542    0.73    0.63      0    92076    0.73    0.64    N/A
+   134217728       4194304     float    none      -1   183880    0.73    0.64      0   183146    0.73    0.64    N/A
+   268435456       8388608     float    none      -1   367501    0.73    0.64      0   366703    0.73    0.64    N/A
+   536870912      16777216     float    none      -1   734729    0.73    0.64      0   732586    0.73    0.64    N/A
+  1073741824      33554432     float    none      -1  1470276    0.73    0.64      0  1467597    0.73    0.64    N/A
+[gdr114] tid:16995, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(771)
+[gdr116] tid:15540, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(781)
+[gdr114] tid:17000, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(770)
+[gdr114] tid:16998, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(772)
+[gdr114] tid:16996, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(783)
+[gdr116] tid:15539, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(779)
+[gdr116] tid:15537, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(770)
+[gdr114] tid:16998, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(776)
+[gdr114] tid:16995, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(775)
+[gdr116] tid:15539, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(783)
+[gdr114] tid:17000, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(773)
+[gdr116] tid:15538, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(771)
+[gdr116] tid:15537, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(772)
+[gdr116] tid:15540, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(787)
+[gdr114] tid:16996, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(777)
+[gdr114] tid:16998, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(785)
+[gdr116] tid:15539, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(782)
+[gdr116] tid:15538, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(788)
+[gdr114] tid:16995, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(789)
+[gdr116] tid:15540, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(791)
+[gdr114] tid:16996, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(774)
+[gdr114] tid:17000, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(784)
+[gdr114] tid:16998, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(791)
+[gdr116] tid:15539, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(801)
+[gdr116] tid:15537, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(774)
+[gdr116] tid:15538, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(773)
+[gdr114] tid:16995, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(792)
+[gdr114] tid:16996, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(781)
+[gdr116] tid:15539, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(784)
+[gdr116] tid:15537, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(795)
+[gdr114] tid:16998, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(786)
+[gdr114] tid:17000, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(782)
+[gdr116] tid:15540, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(794)
+[gdr114] tid:16996, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(779)
+[gdr116] tid:15538, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(793)
+[gdr114] tid:16995, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(790)
+[gdr114] tid:17000, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(787)
+[gdr114] tid:16996, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(798)
+[gdr114] tid:16998, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(788)
+[gdr116] tid:15539, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(789)
+[gdr116] tid:15540, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(778)
+[gdr114] tid:16995, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(795)
+[gdr116] tid:15537, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(776)
+[gdr116] tid:15538, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(775)
+[gdr116] tid:15539, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(786)
+[gdr114] tid:16998, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(793)
+[gdr116] tid:15537, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(797)
+[gdr114] tid:17000, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(780)
+[gdr116] tid:15538, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(796)
+[gdr114] tid:16995, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(799)
+[gdr114] tid:16996, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(796)
+[gdr116] tid:15540, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(780)
+[gdr116] tid:15537, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(799)
+[gdr116] tid:15539, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(792)
+[gdr114] tid:16998, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(797)
+[gdr114] tid:17000, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(794)
+[gdr114] tid:16995, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(801)
+[gdr116] tid:15538, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(777)
+[gdr116] tid:15540, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(785)
+[gdr114] tid:16996, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(800)
+[gdr116] tid:15537, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(790)
+[gdr114] tid:17000, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(778)
+[gdr116] tid:15538, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(798)
+[gdr116] tid:15540, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(800)
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.254709 
+#
+

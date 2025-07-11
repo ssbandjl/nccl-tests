@@ -1,0 +1,223 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+#  Rank  0 Group  0 Pid  17161 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid  17162 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid  17163 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid  17165 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid  15161 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid  15162 on     gdr116 device  1 [0x08] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid  15163 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid  15165 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+ScatterRunColl
+[gdr116] tid:15198, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr114] tid:17224, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:15197, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr114] tid:17224, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:15198, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:66, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15198, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:67, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15198, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:68, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15198, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:69, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15197, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:70, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15194, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:15198, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:71, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15197, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:72, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:15193, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:15198, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:73, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15197, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:74, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15198, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:75, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15197, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:76, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15198, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:77, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15197, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:78, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15197, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:79, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15197, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:80, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15197, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:81, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:15194, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:82, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15194, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:83, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15194, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:84, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15194, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:85, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15193, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:86, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15194, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:87, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15193, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:88, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15194, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:89, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15193, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:90, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15194, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:91, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15193, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:92, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15193, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:94, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15194, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:93, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15193, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:95, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:66, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:67, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15193, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:96, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:68, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr116] tid:15193, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:97, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:69, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:70, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:71, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:72, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:73, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:74, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:75, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:76, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:77, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:78, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:79, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:80, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:81, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:82, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:83, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:84, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:85, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:86, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:87, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:88, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:89, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:90, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:91, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:92, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:93, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:94, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:95, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:96, qpAttr.timeout:24, qpAttr.retry_cnt:7
+[gdr114] tid:17224, ncclIbRtsQp(), transport/net_ib.cc:1201, qp:97, qpAttr.timeout:24, qpAttr.retry_cnt:7
+           0             0     float    none       0     0.51    0.00    0.00      0     0.27    0.00    0.00      0
+           0             0     float    none       0     0.27    0.00    0.00      0     0.28    0.00    0.00      0
+           0             0     float    none       0     0.29    0.00    0.00      0     0.26    0.00    0.00      0
+           0             0     float    none       0     0.26    0.00    0.00      0     0.26    0.00    0.00      0
+         128             4     float    none       0    466.6    0.00    0.00      0    464.6    0.00    0.00      0
+         256             8     float    none       0    466.8    0.00    0.00      0    464.2    0.00    0.00      0
+         512            16     float    none       0    466.6    0.00    0.00      0    464.8    0.00    0.00      0
+        1024            32     float    none       0    466.9    0.00    0.00      0    465.2    0.00    0.00      0
+        2048            64     float    none       0    466.8    0.00    0.00      0    465.1    0.00    0.00      0
+        4096           128     float    none       0    462.9    0.01    0.01      0    460.5    0.01    0.01      0
+        8192           256     float    none       0    464.3    0.02    0.02      0    461.1    0.02    0.02      0
+       16384           512     float    none       0    471.4    0.03    0.03      0    469.3    0.03    0.03      0
+       32768          1024     float    none       0    472.9    0.07    0.06      0    471.4    0.07    0.06      0
+       65536          2048     float    none       0    484.5    0.14    0.12      0    484.7    0.14    0.12      0
+      131072          4096     float    none       0    594.9    0.22    0.19      0    591.4    0.22    0.19      0
+      262144          8192     float    none       0    584.7    0.45    0.39      0    594.7    0.44    0.39      0
+      524288         16384     float    none       0    790.2    0.66    0.58      0    787.8    0.67    0.58      0
+     1048576         32768     float    none       0   1078.6    0.97    0.85      0   1091.5    0.96    0.84      0
+     2097152         65536     float    none       0   1779.4    1.18    1.03      0   1776.0    1.18    1.03      0
+     4194304        131072     float    none       0   3210.0    1.31    1.14      0   3225.3    1.30    1.14      0
+     8388608        262144     float    none       0   5605.6    1.50    1.31      0   5594.6    1.50    1.31      0
+    16777216        524288     float    none       0    10660    1.57    1.38      0    10669    1.57    1.38      0
+    33554432       1048576     float    none       0    20859    1.61    1.41      0    20843    1.61    1.41      0
+    67108864       2097152     float    none       0    41309    1.62    1.42      0    41181    1.63    1.43      0
+   134217728       4194304     float    none       0    81979    1.64    1.43      0    81968    1.64    1.43      0
+   268435456       8388608     float    none       0   163665    1.64    1.44      0   163482    1.64    1.44      0
+   536870912      16777216     float    none       0   326849    1.64    1.44      0   329020    1.63    1.43      0
+  1073741824      33554432     float    none       0   655303    1.64    1.43      0   652905    1.64    1.44      0
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(66)
+[gdr116] tid:15197, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(70)
+[gdr116] tid:15194, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(82)
+[gdr116] tid:15193, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(86)
+[gdr116] tid:15194, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(83)
+[gdr116] tid:15198, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(66)
+[gdr116] tid:15197, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(72)
+[gdr116] tid:15198, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(67)
+[gdr116] tid:15193, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(88)
+[gdr116] tid:15194, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(84)
+[gdr116] tid:15197, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(74)
+[gdr116] tid:15198, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(68)
+[gdr116] tid:15193, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(90)
+[gdr116] tid:15194, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(85)
+[gdr116] tid:15197, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(76)
+[gdr116] tid:15198, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(69)
+[gdr116] tid:15193, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(92)
+[gdr116] tid:15194, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(87)
+[gdr116] tid:15197, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(78)
+[gdr116] tid:15198, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(71)
+[gdr116] tid:15193, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(94)
+[gdr116] tid:15194, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(89)
+[gdr116] tid:15197, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(79)
+[gdr116] tid:15198, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(73)
+[gdr116] tid:15193, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(95)
+[gdr116] tid:15194, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(91)
+[gdr116] tid:15197, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(80)
+[gdr116] tid:15198, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(75)
+[gdr116] tid:15193, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(96)
+[gdr116] tid:15194, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(93)
+[gdr116] tid:15197, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(81)
+[gdr116] tid:15198, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(77)
+[gdr116] tid:15193, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(97)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(67)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(68)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(69)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(70)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(71)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(72)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(73)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(74)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(75)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(76)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(77)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(78)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(79)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(80)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(81)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(82)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(83)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(84)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(85)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(86)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(87)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(88)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(89)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(90)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(91)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(92)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(93)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(94)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(95)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(96)
+[gdr114] tid:17224, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(97)
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.559963 
+#
+

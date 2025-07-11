@@ -1,0 +1,79 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+#  Rank  0 Group  0 Pid 112508 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid 112509 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid 112510 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid 112511 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid 657036 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid 657037 on     gdr116 device  1 [0x08] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid 657038 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid 657040 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllReduceRunColl
+           8             2     float     sum      -1    542.4    0.00    0.00      0    538.2    0.00    0.00      0
+          16             4     float     sum      -1    539.1    0.00    0.00      0    538.7    0.00    0.00      0
+          32             8     float     sum      -1    539.3    0.00    0.00      0    537.7    0.00    0.00      0
+          64            16     float     sum      -1    540.8    0.00    0.00      0    541.6    0.00    0.00      0
+         128            32     float     sum      -1    543.8    0.00    0.00      0    543.5    0.00    0.00      0
+         256            64     float     sum      -1    532.8    0.00    0.00      0    538.8    0.00    0.00      0
+         512           128     float     sum      -1    545.0    0.00    0.00      0    538.2    0.00    0.00      0
+        1024           256     float     sum      -1    556.0    0.00    0.00      0    551.0    0.00    0.00      0
+        2048           512     float     sum      -1   1002.7    0.00    0.00      0   1000.4    0.00    0.00      0
+        4096          1024     float     sum      -1   1008.5    0.00    0.01      0   1008.7    0.00    0.01      0
+        8192          2048     float     sum      -1   1038.0    0.01    0.01      0   1038.7    0.01    0.01      0
+       16384          4096     float     sum      -1   1128.6    0.01    0.03      0   1127.7    0.01    0.03      0
+       32768          8192     float     sum      -1   2355.7    0.01    0.02      0   2342.8    0.01    0.02      0
+       65536         16384     float     sum      -1   2381.2    0.03    0.05      0   2383.3    0.03    0.05      0
+      131072         32768     float     sum      -1   3437.7    0.04    0.07      0   3438.4    0.04    0.07      0
+      262144         65536     float     sum      -1   5938.6    0.04    0.08      0   5946.2    0.04    0.08      0
+      524288        131072     float     sum      -1   4225.7    0.12    0.22      0   4229.7    0.12    0.22      0
+     1048576        262144     float     sum      -1   242537    0.00    0.01      0   7092.2    0.15    0.26      0
+     2097152        524288     float     sum      -1    24132    0.09    0.15      0    24126    0.09    0.15      0
+     4194304       1048576     float     sum      -1    31925    0.13    0.23      0    31874    0.13    0.23      0
+     8388608       2097152     float     sum      -1  1045912    0.01    0.01      0   902887    0.01    0.02      0
+    16777216       4194304     float     sum      -1  2808008    0.01    0.01      0  1712089    0.01    0.02      0
+    33554432       8388608     float     sum      -1  18022322    0.00    0.00      0  14813930    0.00    0.00      0
+    67108864      16777216     float     sum      -1  44244421    0.00    0.00      0  31375275    0.00    0.00      0

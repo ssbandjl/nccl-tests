@@ -1,0 +1,95 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+#  Rank  0 Group  0 Pid   6881 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid   6882 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid   6883 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid   6884 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid   7111 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid   7112 on     gdr116 device  1 [0x08] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid   7113 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid   7114 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllGatherRunColl
+           0             0     float    none      -1     4.54    0.00    0.00      0     4.73    0.00    0.00      0
+           0             0     float    none      -1     4.37    0.00    0.00      0     4.39    0.00    0.00      0
+           0             0     float    none      -1     4.31    0.00    0.00      0     4.72    0.00    0.00      0
+           0             0     float    none      -1     4.32    0.00    0.00      0     4.44    0.00    0.00      0
+         128             4     float    none      -1    664.6    0.00    0.00      0    654.9    0.00    0.00      0
+         256             8     float    none      -1    668.6    0.00    0.00      0    674.6    0.00    0.00      0
+         512            16     float    none      -1    690.0    0.00    0.00      0    657.6    0.00    0.00      0
+        1024            32     float    none      -1    667.2    0.00    0.00      0    658.2    0.00    0.00      0
+        2048            64     float    none      -1    641.4    0.00    0.00      0    632.5    0.00    0.00      0
+        4096           128     float    none      -1    645.8    0.01    0.01      0    640.1    0.01    0.01      0
+        8192           256     float    none      -1    664.0    0.01    0.01      0    656.1    0.01    0.01      0
+       16384           512     float    none      -1    702.1    0.02    0.02      0    693.2    0.02    0.02      0
+       32768          1024     float    none      -1    708.9    0.05    0.04      0    700.8    0.05    0.04      0
+       65536          2048     float    none      -1   1363.5    0.05    0.04      0   1351.2    0.05    0.04      0
+      131072          4096     float    none      -1   1427.1    0.09    0.08      0   281391    0.00    0.00      0
+      262144          8192     float    none      -1   1388.4    0.19    0.17      0   1377.5    0.19    0.17      0
+      524288         16384     float    none      -1   1632.7    0.32    0.28      0   1614.1    0.32    0.28      0
+     1048576         32768     float    none      -1   2467.8    0.42    0.37      0   2403.9    0.44    0.38      0
+     2097152         65536     float    none      -1   3440.9    0.61    0.53      0   3360.9    0.62    0.55      0
+     4194304        131072     float    none      -1   5626.0    0.75    0.65      0   5500.9    0.76    0.67      0
+     8388608        262144     float    none      -1    10328    0.81    0.71      0    10214    0.82    0.72      0
+    16777216        524288     float    none      -1    20283    0.83    0.72      0    20225    0.83    0.73      0
+    33554432       1048576     float    none      -1    40315    0.83    0.73      0    40449    0.83    0.73      0
+    67108864       2097152     float    none      -1    79963    0.84    0.73      0    79935    0.84    0.73      0
+   134217728       4194304     float    none      -1   159199    0.84    0.74      0   159225    0.84    0.74      0
+   268435456       8388608     float    none      -1   318919    0.84    0.74      0   318816    0.84    0.74      0
+   536870912      16777216     float    none      -1   636645    0.84    0.74      0   639662    0.84    0.73      0
+  1073741824      33554432     float    none      -1  1271770    0.84    0.74      0  1276840    0.84    0.74      0
+[gdr116] tid:7148, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(3)
+[gdr116] tid:7143, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(2)
+[gdr114] tid:6968, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(2)
+[gdr114] tid:6966, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(4)
+[gdr116] tid:7143, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(4)
+[gdr116] tid:7148, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(5)
+[gdr114] tid:6968, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(5)
+[gdr114] tid:6966, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(3)
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.287102 
+#
+

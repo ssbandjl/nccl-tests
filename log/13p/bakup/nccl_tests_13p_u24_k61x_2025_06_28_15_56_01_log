@@ -1,0 +1,231 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+#
+#  Rank  0 Group  0 Pid  18184 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid  18185 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid  18186 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid  18187 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid  16121 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid  16122 on     gdr116 device  1 [0x08] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid  16123 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid  16124 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+#
+[gdr114] tid:18269, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr114] tid:18269, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:16153, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:16153, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:16153, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:16153, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr114] tid:18269, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr114] tid:18269, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr114] tid:18269, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr114] tid:18269, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:16154, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:16155, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr114] tid:18271, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:16155, ncclIbAccept(), transport/net_ib.cc:1594, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:16154, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr114] tid:18271, ncclIbConnect(), transport/net_ib.cc:1298, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllReduceRunColl
+           8             2     float     sum      -1    542.0    0.00    0.00      0    538.2    0.00    0.00      0
+          16             4     float     sum      -1    539.2    0.00    0.00      0    539.1    0.00    0.00      0
+          32             8     float     sum      -1    539.5    0.00    0.00      0    537.6    0.00    0.00      0
+          64            16     float     sum      -1    540.4    0.00    0.00      0    539.5    0.00    0.00      0
+         128            32     float     sum      -1    545.6    0.00    0.00      0    541.8    0.00    0.00      0
+         256            64     float     sum      -1    536.3    0.00    0.00      0    534.5    0.00    0.00      0
+         512           128     float     sum      -1    541.3    0.00    0.00      0    548.9    0.00    0.00      0
+        1024           256     float     sum      -1    563.8    0.00    0.00      0    548.3    0.00    0.00      0
+        2048           512     float     sum      -1   1003.3    0.00    0.00      0    999.5    0.00    0.00      0
+        4096          1024     float     sum      -1   1007.0    0.00    0.01      0   1006.9    0.00    0.01      0
+        8192          2048     float     sum      -1   1039.2    0.01    0.01      0   1037.9    0.01    0.01      0
+       16384          4096     float     sum      -1   1124.4    0.01    0.03      0   1125.8    0.01    0.03      0
+       32768          8192     float     sum      -1   2354.2    0.01    0.02      0   2342.1    0.01    0.02      0
+       65536         16384     float     sum      -1   2383.7    0.03    0.05      0   2381.3    0.03    0.05      0
+      131072         32768     float     sum      -1   3438.8    0.04    0.07      0   3437.9    0.04    0.07      0
+      262144         65536     float     sum      -1   5941.5    0.04    0.08      0   5947.2    0.04    0.08      0
+      524288        131072     float     sum      -1   4225.6    0.12    0.22      0   4225.9    0.12    0.22      0
+     1048576        262144     float     sum      -1   7090.9    0.15    0.26      0   7082.2    0.15    0.26      0
+     2097152        524288     float     sum      -1    24116    0.09    0.15      0    24105    0.09    0.15      0
+     4194304       1048576     float     sum      -1    31924    0.13    0.23      0    31607    0.13    0.23      0
+     8388608       2097152     float     sum      -1    47713    0.18    0.31      0    47761    0.18    0.31      0
+    16777216       4194304     float     sum      -1    79469    0.21    0.37      0    79432    0.21    0.37      0
+    33554432       8388608     float     sum      -1   142838    0.23    0.41      0   142858    0.23    0.41      0
+    67108864      16777216     float     sum      -1   269605    0.25    0.44      0   269729    0.25    0.44      0
+   134217728      33554432     float     sum      -1   892599    0.15    0.26      0   523277    0.26    0.45      0
+   268435456      67108864     float     sum      -1  1029805    0.26    0.46      0  1235529    0.22    0.38      0
+   536870912     134217728     float     sum      -1  2191182    0.25    0.43      0  2171052    0.25    0.43      0
+  1073741824     268435456     float     sum      -1  4393030    0.24    0.43      0  4658724    0.23    0.40      0
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(114)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(146)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(115)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(147)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(155)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(116)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(159)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(148)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(117)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(163)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(118)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(149)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(165)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(119)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(114)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(150)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(166)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(120)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(151)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(167)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(121)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(168)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(146)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(169)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(152)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(115)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(147)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(153)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(122)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(170)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(123)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(171)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(124)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(172)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(125)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(116)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(173)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(154)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(126)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(148)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(174)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(156)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(127)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(175)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(157)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(128)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(176)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(129)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(158)
+[gdr116] tid:16155, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(177)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(160)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(161)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(149)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(117)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(162)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(130)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(118)
+[gdr116] tid:16154, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(164)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(150)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(131)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(151)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(132)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(119)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(120)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(152)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(133)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(121)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(153)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(134)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(155)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(122)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(156)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(123)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(157)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(124)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(159)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(125)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(160)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(126)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(161)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(127)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(163)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(128)
+[gdr114] tid:18271, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(164)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(129)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(135)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(136)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(137)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(130)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(131)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(132)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(138)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(133)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(134)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(139)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(135)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(140)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(136)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(137)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(141)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(142)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(143)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(144)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(138)
+[gdr116] tid:16153, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(145)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(139)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(140)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(141)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(142)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(143)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(144)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(145)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(154)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(158)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(162)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(165)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(166)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(167)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(168)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(169)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(170)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(171)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(172)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(173)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(174)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(175)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(176)
+[gdr114] tid:18269, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(177)
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.152729 
+#
+

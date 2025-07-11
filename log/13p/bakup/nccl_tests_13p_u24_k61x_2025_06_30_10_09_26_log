@@ -1,0 +1,111 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid  26223 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid  26224 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid  26225 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid  26227 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid 117186 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid 117187 on     gdr116 device  1 [0x08] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid 117188 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid 117190 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AlltoAllRunColl
+gdr114: Test NCCL failure alltoall.cu:62 'unhandled cuda error (run with NCCL_DEBUG=INFO for details) / '
+ .. gdr114 pid 26225: Test failure common.cu:383
+ .. gdr114 pid 26225: Test failure common.cu:592
+ .. gdr114 pid 26225: Test failure alltoall.cu:98
+ .. gdr114 pid 26225: Test failure common.cu:625
+ .. gdr114 pid 26225: Test failure common.cu:1141
+ .. gdr114 pid 26225: Test failure common.cu:901
+gdr116: Test NCCL failure alltoall.cu:62 'unhandled cuda error (run with NCCL_DEBUG=INFO for details) / '
+ .. gdr116 pid 117188: Test failure common.cu:383
+ .. gdr116 pid 117188: Test failure common.cu:592
+ .. gdr116 pid 117188: Test failure alltoall.cu:98
+ .. gdr116 pid 117188: Test failure common.cu:625
+ .. gdr116 pid 117188: Test failure common.cu:1141
+ .. gdr116 pid 117188: Test failure common.cu:901
+gdr114: Test NCCL failure alltoall.cu:62 'unhandled cuda error (run with NCCL_DEBUG=INFO for details) / '
+ .. gdr114 pid 26224: Test failure common.cu:383
+ .. gdr114 pid 26224: Test failure common.cu:592
+ .. gdr114 pid 26224: Test failure alltoall.cu:98
+ .. gdr114 pid 26224: Test failure common.cu:625
+ .. gdr114 pid 26224: Test failure common.cu:1141
+ .. gdr114 pid 26224: Test failure common.cu:901
+gdr116: Test NCCL failure alltoall.cu:62 'unhandled cuda error (run with NCCL_DEBUG=INFO for details) / '
+ .. gdr116 pid 117190: Test failure common.cu:383
+ .. gdr116 pid 117190: Test failure common.cu:592
+ .. gdr116 pid 117190: Test failure alltoall.cu:98
+ .. gdr116 pid 117190: Test failure common.cu:625
+ .. gdr116 pid 117190: Test failure common.cu:1141
+ .. gdr116 pid 117190: Test failure common.cu:901
+gdr114: Test NCCL failure alltoall.cu:62 'unhandled cuda error (run with NCCL_DEBUG=INFO for details) / '
+ .. gdr114 pid 26223: Test failure common.cu:383
+ .. gdr114 pid 26223: Test failure common.cu:592
+ .. gdr114 pid 26223: Test failure alltoall.cu:98
+ .. gdr114 pid 26223: Test failure common.cu:625
+ .. gdr114 pid 26223: Test failure common.cu:1141
+ .. gdr114 pid 26223: Test failure common.cu:901
+gdr114: Test NCCL failure alltoall.cu:62 'unhandled cuda error (run with NCCL_DEBUG=INFO for details) / '
+ .. gdr114 pid 26227: Test failure common.cu:383
+ .. gdr114 pid 26227: Test failure common.cu:592
+ .. gdr114 pid 26227: Test failure alltoall.cu:98
+ .. gdr114 pid 26227: Test failure common.cu:625
+ .. gdr114 pid 26227: Test failure common.cu:1141
+ .. gdr114 pid 26227: Test failure common.cu:901
+gdr116: Test NCCL failure alltoall.cu:62 'unhandled cuda error (run with NCCL_DEBUG=INFO for details) / '
+ .. gdr116 pid 117186: Test failure common.cu:383
+ .. gdr116 pid 117186: Test failure common.cu:592
+ .. gdr116 pid 117186: Test failure alltoall.cu:98
+ .. gdr116 pid 117186: Test failure common.cu:625
+gdr116: Test NCCL failure alltoall.cu:62 'unhandled cuda error (run with NCCL_DEBUG=INFO for details) / '
+ .. gdr116 pid 117187: Test failure common.cu:383
+ .. gdr116 pid 117187: Test failure common.cu:592
+ .. gdr116 pid 117187: Test failure alltoall.cu:98
+ .. gdr116 pid 117187: Test failure common.cu:625
+ .. gdr116 pid 117187: Test failure common.cu:1141
+ .. gdr116 pid 117187: Test failure common.cu:901
+ .. gdr116 pid 117186: Test failure common.cu:1141
+ .. gdr116 pid 117186: Test failure common.cu:901

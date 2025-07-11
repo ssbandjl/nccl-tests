@@ -1,0 +1,262 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr116] tid:13216, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] tid:6616, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 8 maxBytes 4096 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid   6616 on     gdr114 device  0 [0x09] NVIDIA RTX A6000
+#  Rank  1 Group  0 Pid  13216 on     gdr116 device  0 [0x05] Tesla V100-SXM2-16GB
+gdr114:6616:6616 [0] 3.533940 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr114:6616:6616 [0] 3.571350 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.114<0>
+gdr114:6616:6616 [0] 3.578105 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0:192.168.1.10<0>
+gdr114:6616:6616 [0] 3.584956 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:::1<0>
+gdr114:6616:6616 [0] 3.615085 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:fe80::cce5:6d0a:154d:2547%enp129s0f0<0>
+gdr114:6616:6616 [0] 3.633732 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0:fe80::201:2ff:fe04:0%enp8s0f0<0>
+gdr114:6616:6616 [0] 3.649137 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port0:fe80::f2c4:2ae1:dd1d:909b%dpu_port0<0>
+gdr114:6616:6616 [0] 3.664072 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port1:fe80::eff6:1d65:e080:6e1a%dpu_port1<0>
+gdr114:6616:6616 [0] 3.680290 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f1:fe80::20f4:f104:7cba:f498%enp8s0f1<0>
+gdr114:6616:6616 [0] 3.695962 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f2:fe80::4f94:318c:fe31:ebe1%enp8s0f2<0>
+gdr114:6616:6616 [0] 3.710854 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f3:fe80::2519:1d6f:b7d7:fadb%enp8s0f3<0>
+gdr114:6616:6616 [0] 5.550082 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr114:6616:6616 [0] 5.562828 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.114<0>
+gdr114:6616:6616 [0] bootstrapNetInit(), bootstrap.cc:120 NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr114:6616:6616 [0] 6.577747 ncclSocketListen(), misc/socket.cc:411 NCCL TRACE Listening on socket 10.20.10.114<58279>
+gdr114:6616:6616 [0] ncclGetUniqueId(), init.cc:103 NCCL TRACE ncclGetUniqueId(0x230405612bb8690f)
+gdr114:6616:6631 [0] 7.063115 bootstrapRoot(), bootstrap.cc:288 NCCL TRACE BEGIN
+gdr116:13216:13216 [0] ncclGroupStart(), group.cc:98 NCCL TRACE ncclGroupStart()
+gdr116:13216:13216 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12040
+gdr116:13216:13216 [0] 1.049684 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:13216:13216 [0] 1.069489 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:13216:13216 [0] 1.073607 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:172.17.0.1<0>
+gdr116:13216:13216 [0] 1.076174 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0:192.168.1.11<0>
+gdr116:13216:13216 [0] 1.079294 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:::1<0>
+gdr116:13216:13216 [0] 1.095685 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:fe80::9f74:8206:ec00:7c6b%enp129s0f0<0>
+gdr116:13216:13216 [0] 1.105413 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:fe80::c17:d5ff:febd:3d32%docker0<0>
+gdr116:13216:13216 [0] 1.113534 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface veth3c2ce76:fe80::e490:a5ff:fe31:f5ba%veth3c2ce76<0>
+gdr116:13216:13216 [0] 1.126489 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0:fe80::201:2ff:fe06:0%enp8s0f0<0>
+gdr116:13216:13216 [0] 1.135874 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port0:fe80::ae72:f011:6275:a2ac%dpu_port0<0>
+gdr116:13216:13216 [0] 1.145407 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port1:fe80::aefe:695e:5ef4:1150%dpu_port1<0>
+gdr116:13216:13216 [0] 1.154873 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f1:fe80::df40:c496:ac74:6e2b%enp8s0f1<0>
+gdr116:13216:13216 [0] 1.164208 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f2:fe80::ee38:6fe5:d15a:ccfc%enp8s0f2<0>
+gdr116:13216:13216 [0] 1.173520 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f3:fe80::955e:b163:5e46:cb5d%enp8s0f3<0>
+gdr116:13216:13216 [0] 1.594117 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:13216:13216 [0] 1.600690 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:13216:13216 [0] bootstrapNetInit(), bootstrap.cc:120 NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.116<0>
+gdr116:13216:13216 [0] showVersion(), init.cc:544 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:13216:13216 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:1683 Cuda Host Alloc Size 4 pointer 0x75658bc00000
+gdr114:6616:6616 [0] ncclGroupStart(), group.cc:98 NCCL TRACE ncclGroupStart()
+gdr114:6616:6616 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr114:6616:6616 [0] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:6616:6616 [0] ncclCudaHostCallocDebug(), /root/project/ai/nccl-tests/nccl/src/include/alloc.h:120 NCCL INFO init.cc:1686 Cuda Host Alloc Size 4 pointer 0x70af14800000
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:36 NCCL WARN Cuda failure 'named symbol not found'
+
+[2025-07-02 18:54:44] gdr114:6616:6634 [0] ncclInitKernelsForDevice(), enqueue.cc:54 NCCL WARN Cuda failure 'named symbol not found'
+gdr114:6616:6634 [0] ncclCommInitRankFunc(), init.cc:1380 NCCL INFO init.cc:1380 -> 1
+gdr114:6616:6634 [0] ncclAsyncJobMain(), group.cc:75 NCCL INFO group.cc:75 -> 1 [Async thread]
+gdr114:6616:6616 [0] groupLaunch(), group.cc:422 NCCL INFO group.cc:422 -> 1
+gdr114:6616:6616 [0] ncclGroupEndInternal(), group.cc:581 NCCL INFO group.cc:581 -> 1
+gdr114:6616:6616 [0] ncclGroupEnd(), group.cc:106 NCCL INFO group.cc:106 -> 1
+gdr114: Test NCCL failure common.cu:1075 'unhandled cuda error (run with NCCL_DEBUG=INFO for details) / '
+ .. gdr114 pid 6616: Test failure common.cu:901
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+gdr116:13216:13221 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr116:13216:13221 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr116:13216:13221 [0] 3199.811797 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:13216:13221 [0] 3199.826246 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:13216:13221 [0] 3199.829641 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:172.17.0.1<0>
+gdr116:13216:13221 [0] 3199.848315 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0:192.168.1.11<0>
+gdr116:13216:13221 [0] 3199.852329 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:::1<0>
+gdr116:13216:13221 [0] 3199.872320 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:fe80::9f74:8206:ec00:7c6b%enp129s0f0<0>
+gdr116:13216:13221 [0] 3199.886546 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface docker0:fe80::c17:d5ff:febd:3d32%docker0<0>
+gdr116:13216:13221 [0] 3199.897103 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface veth3c2ce76:fe80::e490:a5ff:fe31:f5ba%veth3c2ce76<0>
+gdr116:13216:13221 [0] 3199.907796 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f0:fe80::201:2ff:fe06:0%enp8s0f0<0>
+gdr116:13216:13221 [0] 3199.917839 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port0:fe80::ae72:f011:6275:a2ac%dpu_port0<0>
+gdr116:13216:13221 [0] 3199.927986 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface dpu_port1:fe80::aefe:695e:5ef4:1150%dpu_port1<0>
+gdr116:13216:13221 [0] 3199.938013 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f1:fe80::df40:c496:ac74:6e2b%enp8s0f1<0>
+gdr116:13216:13221 [0] 3199.948044 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f2:fe80::ee38:6fe5:d15a:ccfc%enp8s0f2<0>
+gdr116:13216:13221 [0] 3199.958099 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp8s0f3:fe80::955e:b163:5e46:cb5d%enp8s0f3<0>
+gdr116:13216:13221 [0] 3201.702935 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface lo:127.0.0.1<0>
+gdr116:13216:13221 [0] 3201.709032 findInterfaces(), misc/socket.cc:145 NCCL TRACE Found interface enp129s0f0:10.20.10.116<0>
+gdr116:13216:13221 [0] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to xtrdma_0
+[gdr116] tid:13221, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+gdr116:13216:13221 [0] 3291.813758 ncclIbInit(), transport/net_ib.cc:672 NCCL TRACE NET/IB: [0] xtrdma_0:uverbs0:1/RoCE speed=25000 context=0x75647c999810 pciPath=/sys/devices/pci0000:00/0000:00:03.0/0000:06:00.0/0000:07:08.0/0000:08:00.0 ar=0
+gdr116:13216:13221 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [0] name=xtrdma_0 speed=25000 ndevs=1
+[gdr116] tid:13221, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:13221, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[19768,1],0]
+  Exit code:    3
+--------------------------------------------------------------------------

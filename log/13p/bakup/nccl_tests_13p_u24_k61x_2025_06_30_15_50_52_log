@@ -1,0 +1,103 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr116] tid:7251, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr116] tid:7250, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr116] tid:7253, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr116] tid:7252, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.4
+[gdr114] tid:6756, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:6757, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:6758, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:6759, main(), common.cu:699, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] tid:6759, run(), common.cu:993, TotalGPU:4
+# nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0, parallel_init:0
+#
+[gdr114] tid:6756, run(), common.cu:993, TotalGPU:4
+[gdr114] tid:6757, run(), common.cu:993, TotalGPU:4
+[gdr114] tid:6758, run(), common.cu:993, TotalGPU:4
+[gdr116] tid:7251, run(), common.cu:993, TotalGPU:4
+[gdr116] tid:7252, run(), common.cu:993, TotalGPU:4
+[gdr116] tid:7253, run(), common.cu:993, TotalGPU:4
+[gdr116] tid:7250, run(), common.cu:993, TotalGPU:4
+#  Rank  0 Group  0 Pid   6756 on     gdr114 device  0 [0x08] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid   6757 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid   6758 on     gdr114 device  2 [0x88] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid   6759 on     gdr114 device  3 [0x89] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid   7250 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid   7251 on     gdr116 device  1 [0x08] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid   7252 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid   7253 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllGatherRunColl, TimeTest, type_count:1
+           0             0     float    none      -1     4.98    0.00    0.00      0     4.53    0.00    0.00      0
+           0             0     float    none      -1     4.52    0.00    0.00      0     4.86    0.00    0.00      0
+           0             0     float    none      -1     5.04    0.00    0.00      0     4.83    0.00    0.00      0
+           0             0     float    none      -1     4.61    0.00    0.00      0     4.44    0.00    0.00      0
+         128             4     float    none      -1    664.5    0.00    0.00      0    655.5    0.00    0.00      0
+         256             8     float    none      -1    664.1    0.00    0.00      0    654.8    0.00    0.00      0
+         512            16     float    none      -1    666.1    0.00    0.00      0    657.1    0.00    0.00      0
+        1024            32     float    none      -1    666.8    0.00    0.00      0    657.4    0.00    0.00      0
+        2048            64     float    none      -1    640.8    0.00    0.00      0    632.6    0.00    0.00      0
+        4096           128     float    none      -1    645.0    0.01    0.01      0    636.8    0.01    0.01      0
+        8192           256     float    none      -1    663.6    0.01    0.01      0    656.1    0.01    0.01      0
+       16384           512     float    none      -1    703.9    0.02    0.02      0    695.5    0.02    0.02      0
+       32768          1024     float    none      -1    710.9    0.05    0.04      0    702.6    0.05    0.04      0
+       65536          2048     float    none      -1    715.1    0.09    0.08      0    709.2    0.09    0.08      0
+      131072          4096     float    none      -1    933.8    0.14    0.12      0    919.8    0.14    0.12      0
+      262144          8192     float    none      -1   1386.7    0.19    0.17      0   1376.0    0.19    0.17      0
+      524288         16384     float    none      -1   1631.0    0.32    0.28      0   1610.6    0.33    0.28      0
+     1048576         32768     float    none      -1   2439.8    0.43    0.38      0   2402.4    0.44    0.38      0
+     2097152         65536     float    none      -1   3428.5    0.61    0.54      0   3352.4    0.63    0.55      0
+     4194304        131072     float    none      -1   5599.5    0.75    0.66      0   5447.9    0.77    0.67      0
+     8388608        262144     float    none      -1    10084    0.83    0.73      0   9832.3    0.85    0.75      0
+    16777216        524288     float    none      -1    19010    0.88    0.77      0    18470    0.91    0.79      0
+    33554432       1048576     float    none      -1    36842    0.91    0.80      0    35833    0.94    0.82      0
+    67108864       2097152     float    none      -1    73544    0.91    0.80      0    71448    0.94    0.82      0
+   134217728       4194304     float    none      -1   146932    0.91    0.80      0   142767    0.94    0.82      0
+   268435456       8388608     float    none      -1   294097    0.91    0.80      0   286001    0.94    0.82      0
+   536870912      16777216     float    none      -1   590115    0.91    0.80      0   574633    0.93    0.82      0
+  1073741824      33554432     float    none      -1  1180425    0.91    0.80      0  1147152    0.94    0.82      0
+[gdr114] tid:6840, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(11)
+[gdr116] tid:7286, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(10)
+[gdr114] tid:6838, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(2)
+[gdr116] tid:7282, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(2)

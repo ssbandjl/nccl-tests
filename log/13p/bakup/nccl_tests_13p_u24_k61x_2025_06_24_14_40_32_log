@@ -1,0 +1,72 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+run(), common.cu:967, # nThread 1 nGpus 1 minBytes 8 maxBytes 1073741824 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0
+run(), common.cu:973, #
+gdr114: Test CUDA failure common.cu:986 'unknown error'
+ .. gdr114 pid 11939: Test failure common.cu:893
+gdr114: Test CUDA failure common.cu:986 'unknown error'
+ .. gdr114 pid 11941: Test failure common.cu:893
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+gdr114: Test CUDA failure common.cu:986 'unknown error'
+ .. gdr114 pid 11940: Test failure common.cu:893
+gdr114: Test CUDA failure common.cu:986 'unknown error'
+ .. gdr114 pid 11938: Test failure common.cu:893
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: gdr116
+  PID:        33127
+  Message:    connect() to 10.20.10.114:1024 failed
+  Error:      Operation now in progress (115)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[31252,1],1]
+  Exit code:    2
+--------------------------------------------------------------------------
