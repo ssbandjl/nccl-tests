@@ -1,0 +1,81 @@
+root@gdr114:/lib/x86_64-linux-gnu# /root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a
+
+************************************
+* Waiting for client to connect... *
+************************************
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF          Device         : xtrdma_0
+ Number of qps   : 1            Transport type : IB
+ Connection type : RC           Using SRQ      : OFF
+ PCIe relax order: ON           Lock-free      : Unsupported
+ WARNING: CPU is not PCIe relaxed ordering compliant.
+ WARNING: You should disable PCIe RO with `--disable_pcie_relaxed` for both server and client.
+ ibv_wr* API     : OFF          Using DDP      : OFF
+ CQ Moderation   : 100
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 1
+ Max inline data : 0[B]
+ rdma_cm QPs     : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x00f4 PSN 0xb3012 RKey 0x00eae1 VAddr 0x007b51fe1ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:192:168:01:10
+ remote address: LID 0000 QPN 0x00f4 PSN 0x90212c RKey 0x00ea06 VAddr 0x00744a05bff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:192:168:01:11
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 8388608    5000             2736.06            2736.04              0.000342
+---------------------------------------------------------------------------------------
+
+root@gdr116:~/project/rdma/dpu_user_rdma# /root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a 192.168.1.10
+---------------------------------------------------------------------------------------
+                    RDMA_Write BW Test
+ Dual-port       : OFF          Device         : xtrdma_0
+ Number of qps   : 1            Transport type : IB
+ Connection type : RC           Using SRQ      : OFF
+ PCIe relax order: ON           Lock-free      : Unsupported
+ WARNING: CPU is not PCIe relaxed ordering compliant.
+ WARNING: You should disable PCIe RO with `--disable_pcie_relaxed` for both server and client.
+ ibv_wr* API     : OFF          Using DDP      : OFF
+ TX depth        : 128
+ CQ Moderation   : 100
+ Mtu             : 1024[B]
+ Link type       : Ethernet
+ GID index       : 1
+ Max inline data : 0[B]
+ rdma_cm QPs     : OFF
+ Data ex. method : Ethernet
+---------------------------------------------------------------------------------------
+ local address: LID 0000 QPN 0x00f4 PSN 0x90212c RKey 0x00ea06 VAddr 0x00744a05bff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:192:168:01:11
+ remote address: LID 0000 QPN 0x00f4 PSN 0xb3012 RKey 0x00eae1 VAddr 0x007b51fe1ff000
+ GID: 00:00:00:00:00:00:00:00:00:00:255:255:192:168:01:10
+---------------------------------------------------------------------------------------
+ #bytes     #iterations    BW peak[MiB/sec]    BW average[MiB/sec]   MsgRate[Mpps]
+ 2          5000             2.52               2.52                 1.321592
+ 4          5000             5.08               5.08                 1.331020
+ 8          5000             10.16              10.16                1.331584
+ 16         5000             20.35              20.21                1.324509
+ 32         5000             40.64              40.52                1.327765
+ 64         5000             81.24              81.17                1.329813
+ 128        5000             161.95             161.47               1.322765
+ 256        5000             321.59             320.95               1.314616
+ 512        5000             630.38             626.07               1.282186
+ 1024       5000             1093.16            1086.58              1.112655
+ 2048       5000             1578.82            1568.75              0.803198
+ 4096       5000             2187.36            2183.49              0.558974
+ 8192       5000             2687.40            2687.06              0.343943
+ 16384      5000             2747.04            2746.86              0.175799
+ 32768      5000             2726.30            2726.20              0.087238
+ 65536      5000             2757.34            2757.29              0.044117
+ 131072     5000             2757.64            2757.64              0.022061
+ 262144     5000             2758.15            2758.14              0.011033
+ 524288     5000             2758.47            2758.47              0.005517
+ 1048576    5000             2755.94            2755.77              0.002756
+ 2097152    5000             2738.34            2738.32              0.001369
+ 4194304    5000             2736.15            2736.03              0.000684
+ 8388608    5000             2736.06            2736.04              0.000342
+---------------------------------------------------------------------------------------
+root@gdr116:~/project/rdma/dpu_user_rdma# 

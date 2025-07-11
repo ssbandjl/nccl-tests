@@ -38,7 +38,7 @@ cd /lib/x86_64-linux-gnu
 rm -f libmlx5.so.1
 ln -s /root/project/rdma/rdma-core/build/lib/libmlx5.so.1.25.58.0 libmlx5.so.1
 
-root@gdr114:/lib/x86_64-linux-gnu# /root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a 192.168.1.11
+/root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a 192.168.1.10
 /root/project/rdma/sdn/perftest/ib_write_bw: /root/project/rdma/dpu_user_rdma/build/lib/libibverbs.so.1: version `IBVERBS_PRIVATE_57' not found (required by /lib/x86_64-linux-gnu/libmlx5.so.1)
 root@gdr114:/lib/x86_64-linux-gnu# 
 
@@ -47,6 +47,8 @@ set(IBVERBS_PABI_VERSION "57")
 ./build.sh
 rm -f /root/project/rdma/dpu_user_rdma/build/lib/libmlx5.so.1
 ln -s /root/project/rdma/rdma-core/build/lib/libmlx5.so.1.25.58.0 /root/project/rdma/dpu_user_rdma/build/lib/libmlx5.so.1
+
+/root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a 192.168.1.10
 
 
 
