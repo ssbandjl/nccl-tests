@@ -170,3 +170,42 @@ gdr116:80624:80635 [0] ncclTransportRingConnect(), transport/generic.cc:31 NCCL 
    134217728      33554432     float    none       0    48688    2.76    2.76    N/A    48596    2.76    2.76    N/A
    268435456      67108864     float    none       0    96604    2.78    2.78    N/A    96575    2.78    2.78    N/A
    536870912     134217728     float    none       0   192802    2.78    2.78    N/A   192715    2.79    2.79    N/A
+  1073741824     268435456     float    none       0   384923    2.79    2.79    N/A   384982    2.79    2.79    N/A
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(302)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(302)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(303)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(303)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(304)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(304)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(305)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(305)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(306)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(306)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(307)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(307)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(308)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(308)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(309)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(309)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(294)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(294)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(295)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(295)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(296)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(296)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(297)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(297)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(298)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(298)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(299)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(299)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(300)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(300)
+[gdr114] tid:32372, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(301)
+[gdr116] tid:80633, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(301)
+gdr114:32353:32862 [0] commFree(), init.cc:256 NCCL INFO comm 0x5e670a28c420 rank 0 nranks 2 cudaDev 0 busId 9000 - Destroy COMPLETE
+gdr116:80624:80764 [0] commFree(), init.cc:256 NCCL INFO comm 0x575334a55260 rank 1 nranks 2 cudaDev 0 busId 9000 - Destroy COMPLETE
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 1.01003 
+#
+

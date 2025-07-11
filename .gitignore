@@ -6,4 +6,8 @@
 uid
 get_unique_id
 
-log/13p/
+# log/13p/
+# log/cx6dx/
+.vscode/
+
+*.xml

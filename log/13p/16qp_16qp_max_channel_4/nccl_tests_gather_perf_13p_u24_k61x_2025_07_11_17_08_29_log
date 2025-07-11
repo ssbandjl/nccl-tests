@@ -1,0 +1,205 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] tid:34683, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:84428, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 4 maxBytes 67108864 step: 2(factor) warmup iters: 30 iters: 100 agg iters: 1 validation: 0 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid  34683 on     gdr114 device  0 [0x09] NVIDIA RTX A6000
+#  Rank  1 Group  0 Pid  84428 on     gdr116 device  0 [0x09] NVIDIA RTX A6000
+gdr114:34683:34683 [0] bootstrapNetInit(), bootstrap.cc:120 NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr114:34683:34683 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr114:34683:34683 [0] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:84428:84428 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr116:84428:84428 [0] bootstrapNetInit(), bootstrap.cc:120 NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.116<0>
+gdr116:84428:84428 [0] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:34683:34691 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:34683:34691 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr114:34683:34691 [0] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to xtrdma_0
+[gdr114] tid:34691, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+gdr116:84428:84434 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr116:84428:84434 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr116:84428:84434 [0] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to xtrdma_0
+[gdr116] tid:84434, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr114] tid:34691, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:84434, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:34691, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr116] tid:84434, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_1 matchIfList failed
+[gdr114] tid:34691, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr116] tid:84434, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_2 matchIfList failed
+[gdr114] tid:34691, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr114] tid:34691, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] tid:34691, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr114:34683:34691 [0] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:34683:34691 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:34683:34691 [0] commAlloc(), init.cc:340 NCCL INFO Using network IB
+[gdr116] tid:84434, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name xtrdma_3 matchIfList failed
+[gdr116] tid:84434, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:84434, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr116:84428:84434 [0] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:84428:84434 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:84428:84434 [0] commAlloc(), init.cc:340 NCCL INFO Using network IB
+gdr114:34683:34691 [0] dmaBufSupported(), init.cc:296 NCCL INFO DMA-BUF is available on GPU device 0
+gdr114:34683:34691 [0] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x5e8d6db61450 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 9000 commId 0x234729df520efcd4 - Init START
+gdr114:34683:34691 [0] bootstrapInit(), bootstrap.cc:643 NCCL INFO rank 0 nranks 2
+gdr116:84428:84434 [0] dmaBufSupported(), init.cc:296 NCCL INFO DMA-BUF is available on GPU device 0
+gdr116:84428:84434 [0] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x5cd769047f30 rank 1 nranks 2 cudaDev 0 nvmlDev 0 busId 9000 commId 0x234729df520efcd4 - Init START
+gdr116:84428:84434 [0] bootstrapInit(), bootstrap.cc:643 NCCL INFO rank 1 nranks 2
+gdr114:34683:34691 [0] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:84428:84434 [0] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:34683:34691 [0] bootstrapInit(), bootstrap.cc:764 NCCL INFO Bootstrap timings total 0.029596 (create 0.000060, send 0.000188, recv 0.028277, ring 0.000154, delay 0.000001)
+[gdr114] tid:34691, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:34691, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr114] tid:34691, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+gdr116:84428:84434 [0] bootstrapInit(), bootstrap.cc:764 NCCL INFO Bootstrap timings total 0.001717 (create 0.000076, send 0.000218, recv 0.000704, ring 0.000171, delay 0.000001)
+[gdr116] tid:84434, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:84434, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr116] tid:84434, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr114] tid:34691, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:84434, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:34691, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:34691, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:84434, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:84434, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+gdr114:34683:34691 [0] ncclTopoGetSystem(), graph/topo.cc:1403 NCCL INFO NCCL_TOPO_DUMP_FILE set by environment to topo_gather_perf.xml
+[gdr116] tid:84434, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:84434, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:84434, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:84434, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:84434, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:84434, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:84434, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:34691, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:34691, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:34691, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:34691, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:34691, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:34691, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:1, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:34691, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+gdr116:84428:84434 [0] ncclGetLevel(), graph/paths.cc:240 NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr116:84428:84434 [0] ncclGetLevel(), graph/paths.cc:240 NCCL INFO NCCL_NET_GDR_LEVEL set by environment to SYS
+gdr116:84428:84434 [0] ncclTopoGetCpuAffinity(), graph/topo.cc:1580 NCCL INFO Setting affinity for GPU 0 to 10000001
+gdr114:34683:34691 [0] ncclGetLevel(), graph/paths.cc:240 NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr114:34683:34691 [0] ncclGetLevel(), graph/paths.cc:240 NCCL INFO NCCL_NET_GDR_LEVEL set by environment to SYS
+gdr114:34683:34691 [0] ncclTopoGetCpuAffinity(), graph/topo.cc:1580 NCCL INFO Setting affinity for GPU 0 to 10000001
+gdr114:34683:34691 [0] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x5e8d6db61450 rank 0 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+gdr114:34683:34691 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_MAX_NCHANNELS set by environment to 4.
+gdr114:34683:34691 [0] dumpLine(), graph/rings.cc:25 NCCL INFO Channel 00/02 : 0 1
+gdr114:34683:34691 [0] dumpLine(), graph/rings.cc:25 NCCL INFO Channel 01/02 : 0 1
+gdr114:34683:34691 [0] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] -1/-1/-1->0->1
+gdr114:34683:34691 [0] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr114:34683:34691 [0] ncclTransportCheckP2pType(), transport.cc:98 NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr116:84428:84434 [0] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x5cd769047f30 rank 1 nRanks 2 nNodes 2 localRanks 1 localRank 0 MNNVL 0
+gdr116:84428:84434 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_MAX_NCHANNELS set by environment to 4.
+gdr116:84428:84434 [0] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] -1/-1/-1->1->0 [1] 0/-1/-1->1->-1
+gdr116:84428:84434 [0] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr114:34683:34703 [0] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 0 CPU core 28
+gdr116:84428:84437 [0] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 0 CPU core 28
+gdr114:34683:34704 [0] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 0 CPU core 28
+gdr116:84428:84438 [0] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 0 CPU core 28
+gdr114:34683:34691 [0] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+gdr114:34683:34691 [0] initTransportsRank(), init.cc:1234 NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+gdr116:84428:84434 [0] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 512 | 512
+gdr116:84428:84434 [0] initTransportsRank(), init.cc:1234 NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 2 p2p channels per peer
+gdr114:34683:34691 [0] devCommSetup(), init.cc:483 NCCL INFO CC Off, workFifoBytes 1048576
+gdr114:34683:34691 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:34683:34691 [0] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x5e8d6db61450 rank 0 nranks 2 cudaDev 0 nvmlDev 0 busId 9000 commId 0x234729df520efcd4 - Init COMPLETE
+gdr114:34683:34691 [0] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 0 nranks 2 total 0.54 (kernels 0.16, alloc 0.33, bootstrap 0.03, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.00, rest 0.00)
+gdr116:84428:84434 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:84428:84434 [0] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x5cd769047f30 rank 1 nranks 2 cudaDev 0 nvmlDev 0 busId 9000 commId 0x234729df520efcd4 - Init COMPLETE
+gdr116:84428:84434 [0] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 1 nranks 2 total 0.53 (kernels 0.16, alloc 0.35, bootstrap 0.00, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.00, rest 0.00)
+[gdr116] tid:84428, GatherRunTest(), gather.cu:103, GatherRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+[gdr114] tid:34683, GatherRunTest(), gather.cu:103, GatherRunColl, TimeTest, type_count:1, typeName:float, opName:sum
+gdr114:34683:34706 [0] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 0 CPU core 0
+gdr114:34683:34705 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/1 : 1[0] -> 0[0] [receive] via NET/IB/1/GDRDMA/Shared
+gdr114:34683:34705 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/1 : 1[0] -> 0[0] [receive] via NET/IB/1/GDRDMA/Shared
+gdr116:84428:84440 [0] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 0 CPU core 28
+gdr116:84428:84439 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/1 : 1[0] -> 0[0] [send] via NET/IB/1/GDRDMA/Shared
+gdr116:84428:84439 [0] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/1 : 1[0] -> 0[0] [send] via NET/IB/1/GDRDMA/Shared
+gdr114:34683:34703 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_QPS_PER_CONNECTION set by environment to 8.
+[gdr114] tid:34703, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8, rComm->base.vProps.ndevs:1
+[gdr114] tid:34703, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8, rComm->base.vProps.ndevs:1
+gdr116:84428:84437 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_QPS_PER_CONNECTION set by environment to 8.
+[gdr116] tid:84437, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=494 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=495 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=496 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=497 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=498 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=499 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=500 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=501 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256gdr116:84428:84437 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+[gdr116] tid:84437, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:8, remoteNqps:8, rComm->base.nqps:8, ncclParamIbQpsPerConn:8
+gdr114:34683:34703 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=494 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256gdr114:34683:34703 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_TIMEOUT set by environment to 24.
+[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=502 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=503 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=504 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=505 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=506 pkey=[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=495 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=496 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=497 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=498 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=499 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=500 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=501 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256gdr114:34683:34703 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_GDR_FLUSH_DISABLE set by environment to 1.
+0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=507 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=508 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr116] tid:84437, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=509 pkey=0 pd=0x74741c000ce0, access_flags:0x2, max_send_wr:512, max_recv_wr:256gdr116:84428:84437 [0] ncclLoadParam(), misc/param.cc:87 NCCL INFO NCCL_IB_TIMEOUT set by environment to 24.
+[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=502 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=503 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=504 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=505 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=506 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=507 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=508 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256[gdr114] tid:34703, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=1 nmdevs=2 qpn=509 pkey=0 pd=0x7c23dc0335f0, access_flags:0x2, max_send_wr:512, max_recv_wr:256           0             0     float    none       0     0.23    0.00    0.00    N/A     0.14    0.00    0.00    N/A
+           0             0     float    none       0     0.14    0.00    0.00    N/A     0.21    0.00    0.00    N/A
+           0             0     float    none       0     0.14    0.00    0.00    N/A     0.14    0.00    0.00    N/A
+          32             4     float    none       0    66.41    0.00    0.00    N/A    66.16    0.00    0.00    N/A
+          64             8     float    none       0    66.09    0.00    0.00    N/A    66.13    0.00    0.00    N/A
+         128            16     float    none       0    66.48    0.00    0.00    N/A    66.23    0.00    0.00    N/A
+         256            32     float    none       0    68.12    0.00    0.00    N/A    66.43    0.00    0.00    N/A
+         512            64     float    none       0    67.07    0.01    0.00    N/A    67.12    0.01    0.00    N/A
+        1024           128     float    none       0    67.51    0.02    0.01    N/A    67.11    0.02    0.01    N/A
+        2048           256     float    none       0    68.01    0.03    0.02    N/A    67.95    0.03    0.02    N/A
+        4096           512     float    none       0    68.16    0.06    0.03    N/A    68.26    0.06    0.03    N/A
+        8192          1024     float    none       0    84.87    0.10    0.05    N/A    68.93    0.12    0.06    N/A
+       16384          2048     float    none       0    70.88    0.23    0.12    N/A    85.16    0.19    0.10    N/A
+       32768          4096     float    none       0    74.46    0.44    0.22    N/A    73.93    0.44    0.22    N/A
+       65536          8192     float    none       0    115.6    0.57    0.28    N/A    115.8    0.57    0.28    N/A
+      131072         16384     float    none       0    122.2    1.07    0.54    N/A    122.5    1.07    0.54    N/A
+      262144         32768     float    none       0    200.4    1.31    0.65    N/A    200.1    1.31    0.66    N/A
+      524288         65536     float    none       0    203.4    2.58    1.29    N/A    205.1    2.56    1.28    N/A
+     1048576        131072     float    none       0    240.2    4.37    2.18    N/A    241.7    4.34    2.17    N/A
+     2097152        262144     float    none       0    441.2    4.75    2.38    N/A    440.2    4.76    2.38    N/A
+     4194304        524288     float    none       0    751.5    5.58    2.79    N/A    738.2    5.68    2.84    N/A
+     8388608       1048576     float    none       0   1476.3    5.68    2.84    N/A   1484.3    5.65    2.83    N/A
+    16777216       2097152     float    none       0   2919.9    5.75    2.87    N/A   2941.4    5.70    2.85    N/A
+    33554432       4194304     float    none       0   5854.9    5.73    2.87    N/A   5858.4    5.73    2.86    N/A
+    67108864       8388608     float    none       0    11689    5.74    2.87    N/A    11695    5.74    2.87    N/A
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(494)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(494)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(495)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(495)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(496)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(496)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(497)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(497)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(498)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(498)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(499)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(499)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(500)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(500)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(501)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(501)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(502)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(502)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(503)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(503)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(504)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(504)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(505)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(505)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(506)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(506)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(507)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(507)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(508)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(508)
+[gdr114] tid:34703, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(509)
+[gdr116] tid:84437, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(509)
+gdr114:34683:34714 [0] commFree(), init.cc:256 NCCL INFO comm 0x5e8d6db61450 rank 0 nranks 2 cudaDev 0 busId 9000 - Destroy COMPLETE
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.879953 
+#
+gdr116:84428:84441 [0] commFree(), init.cc:256 NCCL INFO comm 0x5cd769047f30 rank 1 nranks 2 cudaDev 0 busId 9000 - Destroy COMPLETE
+

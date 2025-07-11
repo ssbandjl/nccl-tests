@@ -15,8 +15,8 @@ unset DISPLAY
 export HWLOC_PLUGINS_BLACKLIST="gl,nvml"
 
 # Ref NCCL ENV
-export NCCL_ALGO=Ring
-export NCCL_PROTO=LL
+export NCCL_ALGO=Ring | Tree
+export NCCL_PROTO=LL | Simple | LL128
 
 CUDA_VISIBLE_DEVICES=1
 
@@ -24,6 +24,7 @@ COMMENT
 
 ALGO_LIST="all_reduce_perf"
 ALGO_LIST="all_gather_perf all_reduce_perf alltoall_perf broadcast_perf gather_perf hypercube_perf reduce_perf reduce_scatter_perf scatter_perf sendrecv_perf"
+ALGO_LIST="all_reduce_perf"
 for algo in ${ALGO_LIST};do
   log_file=log/13p/nccl_tests_${algo}_13p_u24_k61x_$(date +'%Y_%m_%d_%H_%M_%S')_log
 	echo $algo
@@ -37,8 +38,10 @@ for algo in ${ALGO_LIST};do
     -x NCCL_IB_HCA=xtrdma_0 \
     -x NCCL_IB_GID_INDEX=1 \
     -x NCCL_NET_GDR_LEVEL=SYS \
-    -x NCCL_IB_QPS_PER_CONNECTION=4 \
+    -x NCCL_IB_QPS_PER_CONNECTION=8 \
     -x NCCL_P2P_LEVEL=PIX \
+    -x NCCL_ALGO=Ring \
+    -x NCCL_PROTO=Simple \
     -x NCCL_GDR_FLUSH_DISABLE=1 \
     -x NCCL_MAX_NCHANNELS=1 \
     -x LD_LIBRARY_PATH=/root/project/rdma/dpu_user_rdma/build/lib:/root/project/ai/nccl-tests/nccl/build/lib \
@@ -46,7 +49,7 @@ for algo in ${ALGO_LIST};do
     -x XT_CQ_INLINE_CQE=0 \
     -x NCCL_TOPO_DUMP_FILE=topo_${algo}.xml \
     --allow-run-as-root \
-    /root/project/ai/nccl-tests/build/${algo} -b 4 -e 1G -w 30 -f 2 -c 0 -g 1 -n 100 > "$log_file" 2>&1
+    /root/project/ai/nccl-tests/build/${algo} -b 4 -e 64M -w 30 -f 2 -c 0 -g 1 -n 100 > "$log_file" 2>&1
 done
 
 # ALGO_LIST="all_gather_perf all_reduce_perf alltoall_perf broadcast_perf gather_perf hypercube_perf reduce_perf reduce_scatter_perf scatter_perf sendrecv_perf"
