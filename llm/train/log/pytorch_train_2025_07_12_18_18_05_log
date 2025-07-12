@@ -1,0 +1,62 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:12<00:12, 12.18s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  7.63s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  8.32s/it]
+Map:   0%|          | 0/36718 [00:00<?, ? examples/s]Map:   5%|▌         | 2000/36718 [00:00<00:03, 10764.78 examples/s]Map:  11%|█         | 4000/36718 [00:00<00:02, 11200.47 examples/s]Map:  16%|█▋        | 6000/36718 [00:00<00:02, 11161.53 examples/s]Map:  22%|██▏       | 8000/36718 [00:00<00:02, 10294.55 examples/s]Map:  27%|██▋       | 10000/36718 [00:00<00:02, 10441.41 examples/s]Map:  33%|███▎      | 12000/36718 [00:01<00:03, 7486.26 examples/s] Map:  38%|███▊      | 14000/36718 [00:01<00:02, 8292.24 examples/s]Map:  44%|████▎     | 16000/36718 [00:01<00:02, 8847.47 examples/s]Map:  49%|████▉     | 18000/36718 [00:01<00:02, 9318.13 examples/s]Map:  54%|█████▍    | 20000/36718 [00:02<00:01, 9523.60 examples/s]Map:  57%|█████▋    | 21000/36718 [00:02<00:01, 9603.14 examples/s]Map:  63%|██████▎   | 23000/36718 [00:02<00:01, 10012.91 examples/s]Map:  68%|██████▊   | 25000/36718 [00:02<00:01, 10379.51 examples/s]Map:  74%|███████▎  | 27000/36718 [00:02<00:00, 10083.50 examples/s]Map:  79%|███████▉  | 29000/36718 [00:03<00:01, 7594.14 examples/s] Map:  84%|████████▍ | 31000/36718 [00:03<00:00, 8328.37 examples/s]Map:  90%|████████▉ | 33000/36718 [00:03<00:00, 8933.83 examples/s]Map:  95%|█████████▌| 35000/36718 [00:03<00:00, 9496.83 examples/s]Map: 100%|██████████| 36718/36718 [00:03<00:00, 9670.61 examples/s]Map: 100%|██████████| 36718/36718 [00:03<00:00, 9276.17 examples/s]
+Map:   0%|          | 0/3760 [00:00<?, ? examples/s]Map:  53%|█████▎    | 2000/3760 [00:00<00:00, 11014.32 examples/s]Map: 100%|██████████| 3760/3760 [00:00<00:00, 10569.22 examples/s]Map: 100%|██████████| 3760/3760 [00:00<00:00, 10533.53 examples/s]
+Map:   0%|          | 0/4358 [00:00<?, ? examples/s]Map:  46%|████▌     | 2000/4358 [00:00<00:00, 10466.31 examples/s]Map:  92%|█████████▏| 4000/4358 [00:00<00:00, 10820.73 examples/s]Map: 100%|██████████| 4358/4358 [00:00<00:00, 10805.35 examples/s]
+[2025-07-12 18:18:48,273] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-12 18:18:49,790] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-12 18:18:49,801] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-12 18:18:49,801] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 2. Using DeepSpeed's value.
+W0712 18:32:15.496000 91030 torch/distributed/elastic/agent/server/api.py:719] Received 2 death signal, shutting down workers
+W0712 18:32:15.498000 91030 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 91090 closing signal SIGINT
+W0712 18:32:15.635000 91030 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 91090 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 870, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 91030 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 261, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 720, in run
+    self._shutdown(e.sigval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 91030 got signal: 2
