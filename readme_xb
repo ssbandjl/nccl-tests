@@ -1,3 +1,17 @@
 filter:
 *.c, *.cc, *.h, *.cpp, *.cu
 
+
+all reduce -> main
+  MPI_Init
+  run -> testResult_t run()
+    MPI_Comm_size
+    MPI_Comm_rank
+    MPI_Allgather(MPI_IN_PLACE, 0, MPI_DATATYPE_NULL, hostHashs, sizeof(uint64_t), MPI_BYTE, MPI_COMM_WORLD)
+    MPI_Gather(line, MAX_LINE, MPI_BYTE, lines, MAX_LINE, MPI_BYTE, 0, MPI_COMM_WORLD)
+    MPI_Allreduce(MPI_IN_PLACE, &maxMem, 1, MPI_LONG, MPI_MIN, MPI_COMM_WORLD)
+    ncclGetUniqueId
+    MPI_Bcast(&ncclId, sizeof(ncclId), MPI_BYTE, 0, mpi_comm)
+
+
+ncclTopoSearchInit
