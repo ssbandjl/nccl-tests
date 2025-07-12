@@ -1,0 +1,42 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:11<00:11, 11.97s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  7.58s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  8.24s/it]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 36718 examples [00:00, 545789.29 examples/s]
+Generating validation split: 0 examples [00:00, ? examples/s]Generating validation split: 3760 examples [00:00, 393546.35 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 4358 examples [00:00, 462238.94 examples/s]
+Traceback (most recent call last):
+  File "/root/project/ai/nccl-tests/llm/train/train.py", line 52, in <module>
+    train_dataset = dataset_dict["train"]
+                    ^^^^^^^^^^^^
+NameError: name 'dataset_dict' is not defined. Did you mean: 'DatasetDict'?
+E0712 18:15:39.320000 90722 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 0 (pid: 90791) of binary: /root/deepseek-env/bin/python3
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 270, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-07-12_18:15:39
+  host      : s114
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 90791)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

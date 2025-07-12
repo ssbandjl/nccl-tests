@@ -65,7 +65,7 @@ collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 training_args = TrainingArguments(
     output_dir="/root/big/llm/ds-output",
     per_device_train_batch_size=1,
-    gradient_accumulation_steps=2,
+    gradient_accumulation_steps=1,
     num_train_epochs=1,
     save_steps=500,
     save_total_limit=2,
