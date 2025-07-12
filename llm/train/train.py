@@ -27,20 +27,26 @@ model = AutoModelForCausalLM.from_pretrained(model_name, local_files_only=True)
 #     ]
 # })
 
-dataset_dict = DatasetDict({
-    "train": Dataset.from_dict({
-        "text": [
-            "Hello, this is a sample sentence.",
-            "DeepSeek is a large language model.",
-            "Distributed training is powerful!"
-        ]
-    }),
-    "validation": Dataset.from_dict({
-        "text": [
-            "Validation example 1.",
-            "Validation example 2."
-        ]
-    })
+# dataset_dict = DatasetDict({
+#     "train": Dataset.from_dict({
+#         "text": [
+#             "Hello, this is a sample sentence.",
+#             "DeepSeek is a large language model.",
+#             "Distributed training is powerful!"
+#         ]
+#     }),
+#     "validation": Dataset.from_dict({
+#         "text": [
+#             "Validation example 1.",
+#             "Validation example 2."
+#         ]
+#     })
+# })
+
+dataset = load_dataset("parquet", data_files={
+    "train": "/root/big/deepseek-llm-7b-base/dataset/wikitext-2-raw-v1/train-00000-of-00001.parquet",
+    "validation": "/root/big/deepseek-llm-7b-base/dataset/wikitext-2-raw-v1/validation-00000-of-00001.parquet",
+    "test": "/root/big/deepseek-llm-7b-base/dataset/wikitext-2-raw-v1/test-00000-of-00001.parquet",
 })
 
 train_dataset = dataset_dict["train"]
@@ -57,7 +63,7 @@ collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
 # ⚙️ Training args (DeepSpeed JSON is external)
 training_args = TrainingArguments(
-    output_dir="./ds-output",
+    output_dir="/root/big/llm/ds-output",
     per_device_train_batch_size=1,
     gradient_accumulation_steps=2,
     num_train_epochs=1,
