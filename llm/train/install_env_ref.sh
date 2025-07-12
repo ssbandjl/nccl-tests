@@ -1,5 +1,15 @@
+cd ~
 python3 -m venv deepseek-env
 source ~/deepseek-env/bin/activate
+pip install --upgrade pip
+
+pip install torch torchvision torchaudio
+pip install -U transformers datasets accelerate peft sentencepiece
+pip install deepspeed
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# pip install ninja
+# DS_BUILD_FUSED_ADAM=1 DS_BUILD_CPU_ADAM=1 pip install deepspeed
+
 deactivate
 
 NCCL_DEBUG=INFO NCCL_IB_DISABLE=0 NCCL_NET_GDR_LEVEL=2 NCCL_SOCKET_IFNAME=eth0 \
