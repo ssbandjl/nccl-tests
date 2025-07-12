@@ -1,4 +1,4 @@
-log_file=pytorch_train_$(date +'%Y_%m_%d_%H_%M_%S')_log
+log_file=log/pytorch_train_$(date +'%Y_%m_%d_%H_%M_%S')_log
 
 export NCCL_DEBUG=0 # INFO | TRACE | 0
 export NCCL_DEBUG_SUBSYS=ALL
