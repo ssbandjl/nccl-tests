@@ -1,0 +1,4 @@
+[Rank 4] World size: 8, Local rank: 0, GPU count: 4
+[Rank 6] World size: 8, Local rank: 2, GPU count: 4
+[Rank 5] World size: 8, Local rank: 1, GPU count: 4
+[Rank 7] World size: 8, Local rank: 3, GPU count: 4

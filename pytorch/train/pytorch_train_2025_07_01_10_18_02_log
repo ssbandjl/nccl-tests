@@ -1,0 +1,59 @@
+/root/pytorch-venv/lib/python3.12/site-packages/torch/distributed/launch.py:207: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use-env is set by default in torchrun.
+If your script expects `--local-rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  main()
+[W701 10:18:57.815926450 TCPStore.cpp:343] [c10d] TCP client failed to connect/validate to host 192.168.1.10:12345 - retrying (try=0, timeout=900000ms, delay=49155ms): Interrupted system call
+Exception raised from delay at /pytorch/torch/csrc/distributed/c10d/socket.cpp:115 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fbbd39785e8 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ba8bfe (0x7fbbbcda8bfe in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x1369d67 (0x7fbbb8569d67 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5bf5949 (0x7fbbbcdf5949 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: <unknown function> + 0x5bf5d01 (0x7fbbbcdf5d01 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0x5ba3eeb (0x7fbbbcda3eeb in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::TCPStore(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10d::TCPStoreOptions const&) + 0x4b5 (0x7fbbbcda67f5 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xc06325 (0x7fbbcbe06325 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0xc385b4 (0x7fbbcbe385b4 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x37f2dd (0x7fbbcb57f2dd in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #10: python3() [0x581d4f]
+<omitting python frames>
+frame #12: python3() [0x54ccc5]
+frame #14: python3() [0x59dc61]
+frame #15: python3() [0x599593]
+frame #16: <unknown function> + 0x37d35b (0x7fbbcb57d35b in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #20: python3() [0x5a3148]
+frame #24: python3() [0x5d2dfc]
+frame #25: python3() [0x581bcd]
+frame #28: python3() [0x6bce82]
+frame #31: <unknown function> + 0x2a1ca (0x7fbbd4c2a1ca in /lib/x86_64-linux-gnu/libc.so.6)
+frame #32: __libc_start_main + 0x8b (0x7fbbd4c2a28b in /lib/x86_64-linux-gnu/libc.so.6)
+
+[W701 10:19:52.013975108 TCPStore.cpp:343] [c10d] TCP client failed to connect/validate to host 192.168.1.10:12345 - retrying (try=1, timeout=900000ms, delay=82419ms): Interrupted system call
+Exception raised from delay at /pytorch/torch/csrc/distributed/c10d/socket.cpp:115 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fbbd39785e8 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ba8bfe (0x7fbbbcda8bfe in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x1369d67 (0x7fbbb8569d67 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5bf5949 (0x7fbbbcdf5949 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: <unknown function> + 0x5bf5d01 (0x7fbbbcdf5d01 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0x5ba3eeb (0x7fbbbcda3eeb in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::TCPStore(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10d::TCPStoreOptions const&) + 0x4b5 (0x7fbbbcda67f5 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xc06325 (0x7fbbcbe06325 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0xc385b4 (0x7fbbcbe385b4 in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x37f2dd (0x7fbbcb57f2dd in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #10: python3() [0x581d4f]
+<omitting python frames>
+frame #12: python3() [0x54ccc5]
+frame #14: python3() [0x59dc61]
+frame #15: python3() [0x599593]
+frame #16: <unknown function> + 0x37d35b (0x7fbbcb57d35b in /root/pytorch-venv/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #20: python3() [0x5a3148]
+frame #24: python3() [0x5d2dfc]
+frame #25: python3() [0x581bcd]
+frame #28: python3() [0x6bce82]
+frame #31: <unknown function> + 0x2a1ca (0x7fbbd4c2a1ca in /lib/x86_64-linux-gnu/libc.so.6)
+frame #32: __libc_start_main + 0x8b (0x7fbbd4c2a28b in /lib/x86_64-linux-gnu/libc.so.6)
+

@@ -12,6 +12,7 @@ export NCCL_NET=IB
 export NCCL_IB_HCA=xtrdma_0
 export NCCL_IB_GID_INDEX=1
 export NCCL_IB_QPS_PER_CONNECTION=4
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 # xt
 export LD_LIBRARY_PATH=/root/project/rdma/dpu_user_rdma/build/lib:/root/project/ai/nccl-tests/nccl/build/lib:$LD_LIBRARY_PATH
@@ -29,7 +30,7 @@ torchrun \
   --master_addr=192.168.1.10 \
   --master_port=12345 \
   train.py \
-  --model_name_or_path deepseek-ai/deepseek-llm-7b-base \
+  --model_name_or_path "/root/big/deepseek-llm-7b-base" \
   --deepspeed deepspeed_config.json \
   --per_device_train_batch_size 1 \
   --gradient_accumulation_steps 2 \
