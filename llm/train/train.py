@@ -7,15 +7,46 @@ from transformers import (
     DataCollatorForLanguageModeling,
 )
 from datasets import load_dataset
+from datasets import load_from_disk, Dataset, DatasetDict
+
 
 # 🧠 Load DeepSeek model and tokenizer
-model_name = "deepseek-ai/deepseek-llm-7b-base"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name)
+# model_name = "deepseek-ai/deepseek-llm-7b-base"
+model_name = "/root/big/deepseek-llm-7b-base"
+tokenizer = AutoTokenizer.from_pretrained(model_name, local_files_only=True, cache_dir="/root/big/deepseek-llm-7b-base/model_cache")
+model = AutoModelForCausalLM.from_pretrained(model_name, local_files_only=True)
 
 # 📚 Prepare dataset (use wikitext for example)
-dataset = load_dataset("wikitext", "wikitext-2-raw-v1")
-tokenized = dataset.map(
+# dataset = load_dataset("wikitext", "wikitext-2-raw-v1")
+# dataset = load_from_disk("/root/big/deepseek-llm-7b-base/dataset/wikitext-2-v1", "/root/big/deepseek-llm-7b-base/dataset/wikitext-2-raw-v1")
+# dataset = Dataset.from_dict({
+#     "text": [
+#         "Hello, this is a sample sentence.",
+#         "DeepSeek is a large language model.",
+#         "Distributed training is powerful!"
+#     ]
+# })
+
+dataset_dict = DatasetDict({
+    "train": Dataset.from_dict({
+        "text": [
+            "Hello, this is a sample sentence.",
+            "DeepSeek is a large language model.",
+            "Distributed training is powerful!"
+        ]
+    }),
+    "validation": Dataset.from_dict({
+        "text": [
+            "Validation example 1.",
+            "Validation example 2."
+        ]
+    })
+})
+
+train_dataset = dataset_dict["train"]
+
+
+tokenized = dataset_dict.map(
     lambda x: tokenizer(x["text"], return_special_tokens_mask=True),
     batched=True,
     remove_columns=["text"],

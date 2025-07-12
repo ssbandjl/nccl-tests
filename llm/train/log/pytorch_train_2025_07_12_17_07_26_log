@@ -1,0 +1,51 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:11<00:11, 11.15s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  7.10s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  7.71s/it]
+Map:   0%|          | 0/3 [00:00<?, ? examples/s]Map: 100%|██████████| 3/3 [00:00<00:00, 304.46 examples/s]
+[2025-07-12 17:07:52,426] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+df: /root/.triton/autotune: No such file or directory
+[2025-07-12 17:07:54,279] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-12 17:07:54,290] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-12 17:07:54,290] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/root/project/ai/nccl-tests/llm/train/train.py", line 58, in <module>
+[rank0]:     train_dataset=tokenized["train"],
+[rank0]:                   ~~~~~~~~~^^^^^^^^^
+[rank0]:   File "/root/deepseek-env/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 2858, in __getitem__
+[rank0]:     return Column(self, key)
+[rank0]:            ^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/deepseek-env/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 656, in __init__
+[rank0]:     raise ValueError(f"Column '{column_name}' doesn't exist.")
+[rank0]: ValueError: Column 'train' doesn't exist.
+[rank0]:[W712 17:07:58.162567099 ProcessGroupNCCL.cpp:1479] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+E0712 17:08:00.711000 85210 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 0 (pid: 85245) of binary: /root/deepseek-env/bin/python3
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 270, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-07-12_17:08:00
+  host      : s114
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 85245)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
