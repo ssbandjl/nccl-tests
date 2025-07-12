@@ -35,7 +35,7 @@ torchrun \
   --deepspeed deepspeed_config.json \
   --per_device_train_batch_size 1 \
   --gradient_accumulation_steps 2 \
-  --output_dir ./ds-output \
+  --output_dir /root/big/llm/ds-output \
   --fp16 > "$log_file" 2>&1
 
 # python3 -m torch.distributed.launch \
