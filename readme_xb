@@ -15,3 +15,10 @@ all reduce -> main
 
 
 ncclTopoSearchInit
+
+show gpu usage:
+watch -n 1 nvidia-smi
+
+clean cache:
+rm -rf ~/.cache/torch_extensions
+
