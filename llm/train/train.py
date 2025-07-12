@@ -42,6 +42,7 @@ model = AutoModelForCausalLM.from_pretrained(model_name, local_files_only=True)
 #         ]
 #     })
 # })
+# train_dataset = dataset_dict["train"]
 
 dataset = load_dataset("parquet", data_files={
     "train": "/root/big/deepseek-llm-7b-base/dataset/wikitext-2-raw-v1/train-00000-of-00001.parquet",
@@ -49,10 +50,9 @@ dataset = load_dataset("parquet", data_files={
     "test": "/root/big/deepseek-llm-7b-base/dataset/wikitext-2-raw-v1/test-00000-of-00001.parquet",
 })
 
-train_dataset = dataset_dict["train"]
 
 
-tokenized = dataset_dict.map(
+tokenized = dataset.map(
     lambda x: tokenizer(x["text"], return_special_tokens_mask=True),
     batched=True,
     remove_columns=["text"],
