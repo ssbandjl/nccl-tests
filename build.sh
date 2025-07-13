@@ -10,7 +10,7 @@
 export MPI_HOME="/usr/lib/x86_64-linux-gnu/openmpi"
 
 # a6000
-export NVCC_GENCODE="-gencode=arch=compute_86,code=sm_86"
+# export NVCC_GENCODE="-gencode=arch=compute_86,code=sm_86"
 
 # make -j32 CXXFLAGS="-I/usr/lib/x86_64-linux-gnu/openmpi/include -L/usr/lib/x86_64-linux-gnu/openmpi/lib -g -Og" MPI=1 CUDA_HOME=/usr/lib/cuda DEBUG=1
 make -j32 CXXFLAGS="-I/usr/lib/x86_64-linux-gnu/openmpi/include -L/usr/lib/x86_64-linux-gnu/openmpi/lib" MPI=1 CUDA_HOME=/usr/lib/cuda
