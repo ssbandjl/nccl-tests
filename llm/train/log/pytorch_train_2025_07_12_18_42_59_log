@@ -1,0 +1,57 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:11<00:11, 11.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  7.11s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  7.71s/it]
+[2025-07-12 18:43:23,804] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-12 18:43:25,436] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-12 18:43:25,447] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/root/project/ai/nccl-tests/llm/train/train.py", line 90, in <module>
+[rank1]:     trainer.train()
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2206, in train
+[rank1]:     return inner_training_loop(
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2312, in _inner_training_loop
+[rank1]:     self.optimizer, self.lr_scheduler = deepspeed_init(self, num_training_steps=max_steps)
+[rank1]:                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/integrations/deepspeed.py", line 444, in deepspeed_init
+[rank1]:     hf_deepspeed_config.trainer_config_finalize(args, model, num_training_steps)
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/integrations/deepspeed.py", line 268, in trainer_config_finalize
+[rank1]:     raise ValueError(
+[rank1]: ValueError: Please correct the following DeepSpeed config values that mismatch TrainingArguments values:
+[rank1]: - ds gradient_accumulation_steps=4 vs hf gradient_accumulation_steps=2
+[rank1]: - ds optimizer.params.weight_decay=0.01 vs hf weight_decay=0.0
+[rank1]: The easiest method is to set these DeepSpeed config values to 'auto'.
+[rank1]:[W712 18:43:30.406494060 ProcessGroupNCCL.cpp:1479] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+E0712 18:43:32.251000 168768 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 0 (pid: 168780) of binary: /root/deepseek-env/bin/python3
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 270, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-07-12_18:43:32
+  host      : s116
+  rank      : 1 (local_rank: 0)
+  exitcode  : 1 (pid: 168780)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

@@ -1,0 +1,80 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:11<00:11, 11.35s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  7.25s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  7.86s/it]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 36718 examples [00:00, 359051.34 examples/s]Generating train split: 36718 examples [00:00, 356771.43 examples/s]
+Generating validation split: 0 examples [00:00, ? examples/s]Generating validation split: 3760 examples [00:00, 346415.88 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 4358 examples [00:00, 481578.06 examples/s]
+Map:   0%|          | 0/36718 [00:00<?, ? examples/s]Map:   5%|▌         | 2000/36718 [00:00<00:03, 10227.74 examples/s]Map:  11%|█         | 4000/36718 [00:00<00:03, 10622.43 examples/s]Map:  16%|█▋        | 6000/36718 [00:00<00:02, 10905.77 examples/s]Map:  22%|██▏       | 8000/36718 [00:00<00:02, 10042.58 examples/s]Map:  27%|██▋       | 10000/36718 [00:00<00:02, 10138.78 examples/s]Map:  33%|███▎      | 12000/36718 [00:01<00:03, 7596.61 examples/s] Map:  35%|███▌      | 13000/36718 [00:01<00:03, 7903.88 examples/s]Map:  38%|███▊      | 14000/36718 [00:01<00:02, 8275.35 examples/s]Map:  44%|████▎     | 16000/36718 [00:01<00:02, 8730.96 examples/s]Map:  46%|████▋     | 17000/36718 [00:01<00:02, 8959.34 examples/s]Map:  52%|█████▏    | 19000/36718 [00:02<00:01, 9447.85 examples/s]Map:  57%|█████▋    | 21000/36718 [00:02<00:01, 9606.59 examples/s]Map:  60%|█████▉    | 22000/36718 [00:02<00:01, 9552.00 examples/s]Map:  65%|██████▌   | 24000/36718 [00:02<00:01, 10038.38 examples/s]Map:  71%|███████   | 26000/36718 [00:02<00:01, 10132.51 examples/s]Map:  76%|███████▋  | 28000/36718 [00:02<00:00, 9846.68 examples/s] Map:  79%|███████▉  | 29000/36718 [00:03<00:01, 7617.09 examples/s]Map:  82%|████████▏ | 30000/36718 [00:03<00:00, 8014.16 examples/s]Map:  84%|████████▍ | 31000/36718 [00:03<00:00, 8139.93 examples/s]Map:  87%|████████▋ | 32000/36718 [00:03<00:00, 8521.70 examples/s]Map:  90%|████████▉ | 33000/36718 [00:03<00:00, 8725.86 examples/s]Map:  93%|█████████▎| 34000/36718 [00:03<00:00, 8958.40 examples/s]Map:  98%|█████████▊| 36000/36718 [00:03<00:00, 9322.61 examples/s]Map: 100%|██████████| 36718/36718 [00:04<00:00, 9089.80 examples/s]
+Map:   0%|          | 0/3760 [00:00<?, ? examples/s]Map:  53%|█████▎    | 2000/3760 [00:00<00:00, 9868.73 examples/s]Map:  80%|███████▉  | 3000/3760 [00:00<00:00, 9673.77 examples/s]Map: 100%|██████████| 3760/3760 [00:00<00:00, 9642.93 examples/s]
+Map:   0%|          | 0/4358 [00:00<?, ? examples/s]Map:  23%|██▎       | 1000/4358 [00:00<00:00, 9375.60 examples/s]Map:  46%|████▌     | 2000/4358 [00:00<00:00, 9572.38 examples/s]Map:  69%|██████▉   | 3000/4358 [00:00<00:00, 9419.36 examples/s]Map: 100%|██████████| 4358/4358 [00:00<00:00, 10044.42 examples/s]Map: 100%|██████████| 4358/4358 [00:00<00:00, 9778.43 examples/s] 
+[2025-07-12 18:33:15,486] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-12 18:33:17,125] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-12 18:33:17,136] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py312_cu126/fused_adam/build.ninja...
+/root/deepseek-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module fused_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module fused_adam...
+Time to load fused_adam op: 0.03730297088623047 seconds
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/root/project/ai/nccl-tests/llm/train/train.py", line 90, in <module>
+[rank1]:     trainer.train()
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2206, in train
+[rank1]:     return inner_training_loop(
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2548, in _inner_training_loop
+[rank1]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank1]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 3797, in training_step
+[rank1]:     self.accelerator.backward(loss, **kwargs)
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/accelerate/accelerator.py", line 2545, in backward
+[rank1]:     self.deepspeed_engine_wrapped.backward(loss, sync_gradients=self.sync_gradients, **kwargs)
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/accelerate/utils/deepspeed.py", line 281, in backward
+[rank1]:     self.engine.step()
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 2432, in step
+[rank1]:     self._take_model_step(lr_kwargs)
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 2332, in _take_model_step
+[rank1]:     self.optimizer.step()
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage_1_and_2.py", line 2004, in step
+[rank1]:     int(self.partition_size[i])).to(self.single_partition_of_fp32_groups[i].dtype)
+[rank1]:                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.87 GiB. GPU 0 has a total capacity of 47.40 GiB of which 8.23 GiB is free. Including non-PyTorch memory, this process has 39.15 GiB memory in use. Of the allocated memory 38.63 GiB is allocated by PyTorch, and 46.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank1]:[W712 18:37:46.664612059 ProcessGroupNCCL.cpp:1479] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+E0712 18:37:48.266000 167536 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 0 (pid: 167550) of binary: /root/deepseek-env/bin/python3
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 270, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-07-12_18:37:48
+  host      : s116
+  rank      : 1 (local_rank: 0)
+  exitcode  : 1 (pid: 167550)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

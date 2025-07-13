@@ -14,6 +14,10 @@ export NCCL_IB_GID_INDEX=1
 export NCCL_IB_QPS_PER_CONNECTION=4
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
+mount s114:/root/big/deepseek-llm-7b-base /root/big/deepseek-llm-7b-base
+
+rm -rf ~/.cache/torch_extensions
+
 # xt
 export LD_LIBRARY_PATH=/root/project/rdma/dpu_user_rdma/build/lib:/root/project/ai/nccl-tests/nccl/build/lib:$LD_LIBRARY_PATH
 export HUGE_PAGE_NUM=100
@@ -24,7 +28,7 @@ export XT_CQ_INLINE_CQE=0
 # nproc_per_node: gpu_nums
 source ~/deepseek-env/bin/activate
 torchrun \
-  --nproc_per_node=1 \
+  --nproc_per_node=4 \
   --nnodes=2 \
   --node_rank=1 \
   --master_addr=192.168.1.10 \
@@ -32,8 +36,6 @@ torchrun \
   train.py \
   --model_name_or_path "/root/big/deepseek-llm-7b-base" \
   --deepspeed deepspeed_config.json \
-  --per_device_train_batch_size 1 \
-  --gradient_accumulation_steps 2 \
   --output_dir /root/big/llm/ds-output \
   --fp16 > "$log_file" 2>&1
 

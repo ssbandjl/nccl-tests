@@ -1,0 +1,260 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:36<00:36, 36.46s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:36<00:36, 36.47s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:36<00:36, 36.47s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:36<00:36, 36.47s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:44<00:00, 19.47s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:44<00:00, 19.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:44<00:00, 19.47s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:44<00:00, 22.02s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:44<00:00, 22.01s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:44<00:00, 22.02s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:44<00:00, 19.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:44<00:00, 22.01s/it]
+[2025-07-13 11:11:28,637] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 11:11:28,640] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 11:11:28,641] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 11:11:28,641] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 11:11:30,389] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 11:11:30,389] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 11:11:30,404] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 11:11:30,404] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 11:11:30,409] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 11:11:30,420] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 11:11:30,421] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 11:11:30,433] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Installed CUDA version 12.0 does not match the version torch was compiled with 12.6 but since the APIs are compatible, accepting this combination
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Creating extension directory /root/.cache/torch_extensions/py312_cu126/cpu_adam...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py312_cu126/cpu_adam/build.ninja...
+/root/deepseek-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Installed CUDA version 12.0 does not match the version torch was compiled with 12.6 but since the APIs are compatible, accepting this combination
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Installed CUDA version 12.0 does not match the version torch was compiled with 12.6 but since the APIs are compatible, accepting this combination
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Installed CUDA version 12.0 does not match the version torch was compiled with 12.6 but since the APIs are compatible, accepting this combination
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+[1/3] c++ -MMD -MF cpu_adam.o.d -DTORCH_EXTENSION_NAME=cpu_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -fPIC -std=c++17 -O3 -std=c++17 -g -Wno-reorder -L/usr/lib64 -lcudart -lcublas -g -march=native -fopenmp -D__AVX256__ -D__ENABLE_CUDA__ -UC10_USE_GLOG -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/cpu_adam.cpp -o cpu_adam.o 
+[2/3] c++ -MMD -MF cpu_adam_impl.o.d -DTORCH_EXTENSION_NAME=cpu_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -fPIC -std=c++17 -O3 -std=c++17 -g -Wno-reorder -L/usr/lib64 -lcudart -lcublas -g -march=native -fopenmp -D__AVX256__ -D__ENABLE_CUDA__ -UC10_USE_GLOG -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/cpu_adam_impl.cpp -o cpu_adam_impl.o 
+[3/3] c++ cpu_adam.o cpu_adam_impl.o -shared -lcurand -L/usr/lib64 -L/root/deepseek-env/lib/python3.12/site-packages/torch/lib -lc10 -lc10_cuda -ltorch_cpu -ltorch_cuda -ltorch -ltorch_python -L/usr/lib64 -lcudart -o cpu_adam.so
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 33.708369731903076 seconds
+Loading extension module cpu_adam...
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 33.71434187889099 seconds
+Time to load cpu_adam op: 33.712448596954346 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 33.80636787414551 seconds
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "/root/project/ai/nccl-tests/llm/train/train.py", line 90, in <module>
+[rank7]:     trainer.train()
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2206, in train
+[rank7]:     return inner_training_loop(
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2365, in _inner_training_loop
+[rank7]:     model, self.optimizer, self.lr_scheduler = self.accelerator.prepare(
+[rank7]:                                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/accelerate/accelerator.py", line 1424, in prepare
+[rank7]:     result = self._prepare_deepspeed(*args)
+[rank7]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/accelerate/accelerator.py", line 2108, in _prepare_deepspeed
+[rank7]:     engine, optimizer, _, lr_scheduler = ds_initialize(**kwargs)
+[rank7]:                                          ^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/__init__.py", line 193, in initialize
+[rank7]:     engine = DeepSpeedEngine(args=args,
+[rank7]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 335, in __init__
+[rank7]:     self._configure_optimizer(optimizer, model_parameters)
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 1443, in _configure_optimizer
+[rank7]:     self.optimizer = self._configure_zero_optimizer(basic_optimizer)
+[rank7]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 1781, in _configure_zero_optimizer
+[rank7]:     optimizer = DeepSpeedZeroOptimizer_Stage3(
+[rank7]:                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 424, in __init__
+[rank7]:     self._setup_for_real_optimizer()
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 549, in _setup_for_real_optimizer
+[rank7]:     self.initialize_optimizer_states()
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 1075, in initialize_optimizer_states
+[rank7]:     subgroup_gradient_buffer = get_accelerator().pin_memory(subgroup_gradient_buffer)
+[rank7]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/accelerator/cuda_accelerator.py", line 296, in pin_memory
+[rank7]:     return tensor.pin_memory()
+[rank7]:            ^^^^^^^^^^^^^^^^^^^
+[rank7]: RuntimeError: CUDA error: invalid argument
+[rank7]: CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[rank7]: For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[rank7]: Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/root/project/ai/nccl-tests/llm/train/train.py", line 90, in <module>
+[rank6]:     trainer.train()
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2206, in train
+[rank6]:     return inner_training_loop(
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2365, in _inner_training_loop
+[rank6]:     model, self.optimizer, self.lr_scheduler = self.accelerator.prepare(
+[rank6]:                                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/accelerate/accelerator.py", line 1424, in prepare
+[rank6]:     result = self._prepare_deepspeed(*args)
+[rank6]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/accelerate/accelerator.py", line 2108, in _prepare_deepspeed
+[rank6]:     engine, optimizer, _, lr_scheduler = ds_initialize(**kwargs)
+[rank6]:                                          ^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/__init__.py", line 193, in initialize
+[rank6]:     engine = DeepSpeedEngine(args=args,
+[rank6]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 335, in __init__
+[rank6]:     self._configure_optimizer(optimizer, model_parameters)
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 1443, in _configure_optimizer
+[rank6]:     self.optimizer = self._configure_zero_optimizer(basic_optimizer)
+[rank6]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 1781, in _configure_zero_optimizer
+[rank6]:     optimizer = DeepSpeedZeroOptimizer_Stage3(
+[rank6]:                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 424, in __init__
+[rank6]:     self._setup_for_real_optimizer()
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 549, in _setup_for_real_optimizer
+[rank6]:     self.initialize_optimizer_states()
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 1075, in initialize_optimizer_states
+[rank6]:     subgroup_gradient_buffer = get_accelerator().pin_memory(subgroup_gradient_buffer)
+[rank6]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/accelerator/cuda_accelerator.py", line 296, in pin_memory
+[rank6]:     return tensor.pin_memory()
+[rank6]:            ^^^^^^^^^^^^^^^^^^^
+[rank6]: RuntimeError: CUDA error: invalid argument
+[rank6]: CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[rank6]: For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[rank6]: Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/root/project/ai/nccl-tests/llm/train/train.py", line 90, in <module>
+[rank4]:     trainer.train()
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2206, in train
+[rank4]:     return inner_training_loop(
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2365, in _inner_training_loop
+[rank4]:     model, self.optimizer, self.lr_scheduler = self.accelerator.prepare(
+[rank4]:                                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/accelerate/accelerator.py", line 1424, in prepare
+[rank4]:     result = self._prepare_deepspeed(*args)
+[rank4]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/accelerate/accelerator.py", line 2108, in _prepare_deepspeed
+[rank4]:     engine, optimizer, _, lr_scheduler = ds_initialize(**kwargs)
+[rank4]:                                          ^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/__init__.py", line 193, in initialize
+[rank4]:     engine = DeepSpeedEngine(args=args,
+[rank4]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 335, in __init__
+[rank4]:     self._configure_optimizer(optimizer, model_parameters)
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 1443, in _configure_optimizer
+[rank4]:     self.optimizer = self._configure_zero_optimizer(basic_optimizer)
+[rank4]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 1781, in _configure_zero_optimizer
+[rank4]:     optimizer = DeepSpeedZeroOptimizer_Stage3(
+[rank4]:                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 424, in __init__
+[rank4]:     self._setup_for_real_optimizer()
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 549, in _setup_for_real_optimizer
+[rank4]:     self.initialize_optimizer_states()
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 1075, in initialize_optimizer_states
+[rank4]:     subgroup_gradient_buffer = get_accelerator().pin_memory(subgroup_gradient_buffer)
+[rank4]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/accelerator/cuda_accelerator.py", line 296, in pin_memory
+[rank4]:     return tensor.pin_memory()
+[rank4]:            ^^^^^^^^^^^^^^^^^^^
+[rank4]: RuntimeError: CUDA error: invalid argument
+[rank4]: CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[rank4]: For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[rank4]: Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/root/project/ai/nccl-tests/llm/train/train.py", line 90, in <module>
+[rank5]:     trainer.train()
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2206, in train
+[rank5]:     return inner_training_loop(
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2365, in _inner_training_loop
+[rank5]:     model, self.optimizer, self.lr_scheduler = self.accelerator.prepare(
+[rank5]:                                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/accelerate/accelerator.py", line 1424, in prepare
+[rank5]:     result = self._prepare_deepspeed(*args)
+[rank5]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/accelerate/accelerator.py", line 2108, in _prepare_deepspeed
+[rank5]:     engine, optimizer, _, lr_scheduler = ds_initialize(**kwargs)
+[rank5]:                                          ^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/__init__.py", line 193, in initialize
+[rank5]:     engine = DeepSpeedEngine(args=args,
+[rank5]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 335, in __init__
+[rank5]:     self._configure_optimizer(optimizer, model_parameters)
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 1443, in _configure_optimizer
+[rank5]:     self.optimizer = self._configure_zero_optimizer(basic_optimizer)
+[rank5]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 1781, in _configure_zero_optimizer
+[rank5]:     optimizer = DeepSpeedZeroOptimizer_Stage3(
+[rank5]:                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 424, in __init__
+[rank5]:     self._setup_for_real_optimizer()
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 549, in _setup_for_real_optimizer
+[rank5]:     self.initialize_optimizer_states()
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/stage3.py", line 1075, in initialize_optimizer_states
+[rank5]:     subgroup_gradient_buffer = get_accelerator().pin_memory(subgroup_gradient_buffer)
+[rank5]:                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/accelerator/cuda_accelerator.py", line 296, in pin_memory
+[rank5]:     return tensor.pin_memory()
+[rank5]:            ^^^^^^^^^^^^^^^^^^^
+[rank5]: RuntimeError: CUDA error: invalid argument
+[rank5]: CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+[rank5]: For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+[rank5]: Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank4]:[W713 11:13:06.853277352 ProcessGroupNCCL.cpp:1479] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+W0713 11:13:09.248000 53197 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 53209 closing signal SIGTERM
+W0713 11:13:09.302000 53197 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 53210 closing signal SIGTERM
+W0713 11:13:09.303000 53197 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 53212 closing signal SIGTERM
+E0713 11:13:11.129000 53197 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 2 (pid: 53211) of binary: /root/deepseek-env/bin/python3
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 270, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-07-13_11:13:09
+  host      : s116
+  rank      : 6 (local_rank: 2)
+  exitcode  : 1 (pid: 53211)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

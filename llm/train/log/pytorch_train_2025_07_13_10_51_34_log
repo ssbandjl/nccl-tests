@@ -1,0 +1,337 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:51<00:51, 51.72s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:51<00:51, 51.73s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:51<00:51, 51.72s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:51<00:51, 51.74s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:56<00:00, 24.36s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:56<00:00, 24.35s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:56<00:00, 28.46s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:56<00:00, 28.46s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:57<00:00, 24.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:57<00:00, 28.50s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:57<00:00, 24.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:57<00:00, 28.50s/it]
+[2025-07-13 10:52:40,883] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 10:52:40,936] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 10:52:41,049] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 10:52:41,102] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 10:52:42,471] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:52:42,486] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 10:52:42,512] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:52:42,524] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 10:52:42,699] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:52:42,711] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 10:52:42,754] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:52:42,767] [INFO] [comm.py:676:init_distributed] cdb=None
+W0713 10:55:13.887000 50352 torch/distributed/elastic/agent/server/api.py:719] Received 2 death signal, shutting down workers
+W0713 10:55:13.890000 50352 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 50367 closing signal SIGINT
+W0713 10:55:13.891000 50352 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 50368 closing signal SIGINT
+W0713 10:55:13.893000 50352 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 50369 closing signal SIGINT
+W0713 10:55:13.894000 50352 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 50370 closing signal SIGINT
+[W713 10:55:13.799604297 TCPStore.cpp:343] [c10d] TCP client failed to connect/validate to host 192.168.1.10:12345 - retrying (try=0, timeout=1800000ms, delay=74754ms): Interrupted system call
+Exception raised from delay at /pytorch/torch/csrc/distributed/c10d/socket.cpp:115 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x735f161785e8 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ba8bfe (0x735efeda8bfe in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x1369d67 (0x735efa569d67 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5bf5949 (0x735efedf5949 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: <unknown function> + 0x5bf5d01 (0x735efedf5d01 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0x5ba3eeb (0x735efeda3eeb in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::TCPStore(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10d::TCPStoreOptions const&) + 0x4b5 (0x735efeda67f5 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xc06325 (0x735f0de06325 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0xc385b4 (0x735f0de385b4 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x37f2dd (0x735f0d57f2dd in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #10: /root/deepseek-env/bin/python3() [0x581d4f]
+frame #11: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #12: /root/deepseek-env/bin/python3() [0x54ccc5]
+frame #13: _PyObject_Call + 0xf5 (0x54b4a5 in /root/deepseek-env/bin/python3)
+frame #14: /root/deepseek-env/bin/python3() [0x59dc61]
+frame #15: /root/deepseek-env/bin/python3() [0x599593]
+frame #16: <unknown function> + 0x37d35b (0x735f0d57d35b in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #17: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #18: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #19: /root/deepseek-env/bin/python3() [0x555136]
+frame #20: /root/deepseek-env/bin/python3() [0x5d3d4c]
+frame #21: /root/deepseek-env/bin/python3() [0x581de7]
+frame #22: PyObject_Vectorcall + 0x35 (0x549985 in /root/deepseek-env/bin/python3)
+frame #23: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #24: _PyObject_Call_Prepend + 0xc2 (0x54a7d2 in /root/deepseek-env/bin/python3)
+frame #25: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #26: /root/deepseek-env/bin/python3() [0x599593]
+frame #27: _PyObject_MakeTpCall + 0x75 (0x548f85 in /root/deepseek-env/bin/python3)
+frame #28: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #29: _PyObject_Call_Prepend + 0x18a (0x54a89a in /root/deepseek-env/bin/python3)
+frame #30: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #31: /root/deepseek-env/bin/python3() [0x599593]
+frame #32: PyObject_Call + 0x9c (0x54b13c in /root/deepseek-env/bin/python3)
+frame #33: _PyEval_EvalFrameDefault + 0x4cc6 (0x5dad16 in /root/deepseek-env/bin/python3)
+frame #34: PyObject_Vectorcall + 0x35 (0x549985 in /root/deepseek-env/bin/python3)
+frame #35: /root/deepseek-env/bin/python3() [0x5a2c80]
+frame #36: _PyObject_GenericGetAttrWithDict + 0xa8 (0x584be8 in /root/deepseek-env/bin/python3)
+frame #37: PyObject_GetAttr + 0x4d (0x58460d in /root/deepseek-env/bin/python3)
+frame #38: _PyEval_EvalFrameDefault + 0xee4 (0x5d6f34 in /root/deepseek-env/bin/python3)
+frame #39: PyObject_CallOneArg + 0x4d (0x54a66d in /root/deepseek-env/bin/python3)
+frame #40: _PyObject_GenericGetAttrWithDict + 0xa8 (0x584be8 in /root/deepseek-env/bin/python3)
+frame #41: PyObject_GetAttr + 0x4d (0x58460d in /root/deepseek-env/bin/python3)
+frame #42: _PyEval_EvalFrameDefault + 0xee4 (0x5d6f34 in /root/deepseek-env/bin/python3)
+frame #43: _PyObject_Call_Prepend + 0x18a (0x54a89a in /root/deepseek-env/bin/python3)
+frame #44: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #45: /root/deepseek-env/bin/python3() [0x599593]
+frame #46: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #47: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #48: PyEval_EvalCode + 0x15b (0x5d500b in /root/deepseek-env/bin/python3)
+frame #49: /root/deepseek-env/bin/python3() [0x6081e2]
+frame #50: /root/deepseek-env/bin/python3() [0x6b5033]
+frame #51: _PyRun_SimpleFileObject + 0x1aa (0x6b4d9a in /root/deepseek-env/bin/python3)
+frame #52: _PyRun_AnyFileObject + 0x4f (0x6b4bcf in /root/deepseek-env/bin/python3)
+frame #53: Py_RunMain + 0x3b5 (0x6bcc35 in /root/deepseek-env/bin/python3)
+frame #54: Py_BytesMain + 0x2d (0x6bc71d in /root/deepseek-env/bin/python3)
+frame #55: <unknown function> + 0x2a1ca (0x735f1d02a1ca in /lib/x86_64-linux-gnu/libc.so.6)
+frame #56: __libc_start_main + 0x8b (0x735f1d02a28b in /lib/x86_64-linux-gnu/libc.so.6)
+frame #57: _start + 0x25 (0x6575a5 in /root/deepseek-env/bin/python3)
+
+[W713 10:55:13.800848232 TCPStore.cpp:343] [c10d] TCP client failed to connect/validate to host 192.168.1.10:12345 - retrying (try=0, timeout=1800000ms, delay=80576ms): Interrupted system call
+Exception raised from delay at /pytorch/torch/csrc/distributed/c10d/socket.cpp:115 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7cc758d785e8 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ba8bfe (0x7cc7419a8bfe in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x1369d67 (0x7cc73d169d67 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5bf5949 (0x7cc7419f5949 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: <unknown function> + 0x5bf5d01 (0x7cc7419f5d01 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0x5ba3eeb (0x7cc7419a3eeb in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::TCPStore(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10d::TCPStoreOptions const&) + 0x4b5 (0x7cc7419a67f5 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xc06325 (0x7cc750a06325 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0xc385b4 (0x7cc750a385b4 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x37f2dd (0x7cc75017f2dd in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #10: /root/deepseek-env/bin/python3() [0x581d4f]
+frame #11: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #12: /root/deepseek-env/bin/python3() [0x54ccc5]
+frame #13: _PyObject_Call + 0xf5 (0x54b4a5 in /root/deepseek-env/bin/python3)
+frame #14: /root/deepseek-env/bin/python3() [0x59dc61]
+frame #15: /root/deepseek-env/bin/python3() [0x599593]
+frame #16: <unknown function> + 0x37d35b (0x7cc75017d35b in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #17: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #18: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #19: /root/deepseek-env/bin/python3() [0x555136]
+frame #20: /root/deepseek-env/bin/python3() [0x5d3d4c]
+frame #21: /root/deepseek-env/bin/python3() [0x581de7]
+frame #22: PyObject_Vectorcall + 0x35 (0x549985 in /root/deepseek-env/bin/python3)
+frame #23: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #24: _PyObject_Call_Prepend + 0xc2 (0x54a7d2 in /root/deepseek-env/bin/python3)
+frame #25: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #26: /root/deepseek-env/bin/python3() [0x599593]
+frame #27: _PyObject_MakeTpCall + 0x75 (0x548f85 in /root/deepseek-env/bin/python3)
+frame #28: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #29: _PyObject_Call_Prepend + 0x18a (0x54a89a in /root/deepseek-env/bin/python3)
+frame #30: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #31: /root/deepseek-env/bin/python3() [0x599593]
+frame #32: PyObject_Call + 0x9c (0x54b13c in /root/deepseek-env/bin/python3)
+frame #33: _PyEval_EvalFrameDefault + 0x4cc6 (0x5dad16 in /root/deepseek-env/bin/python3)
+frame #34: PyObject_Vectorcall + 0x35 (0x549985 in /root/deepseek-env/bin/python3)
+frame #35: /root/deepseek-env/bin/python3() [0x5a2c80]
+frame #36: _PyObject_GenericGetAttrWithDict + 0xa8 (0x584be8 in /root/deepseek-env/bin/python3)
+frame #37: PyObject_GetAttr + 0x4d (0x58460d in /root/deepseek-env/bin/python3)
+frame #38: _PyEval_EvalFrameDefault + 0xee4 (0x5d6f34 in /root/deepseek-env/bin/python3)
+frame #39: PyObject_CallOneArg + 0x4d (0x54a66d in /root/deepseek-env/bin/python3)
+frame #40: _PyObject_GenericGetAttrWithDict + 0xa8 (0x584be8 in /root/deepseek-env/bin/python3)
+frame #41: PyObject_GetAttr + 0x4d (0x58460d in /root/deepseek-env/bin/python3)
+frame #42: _PyEval_EvalFrameDefault + 0xee4 (0x5d6f34 in /root/deepseek-env/bin/python3)
+frame #43: _PyObject_Call_Prepend + 0x18a (0x54a89a in /root/deepseek-env/bin/python3)
+frame #44: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #45: /root/deepseek-env/bin/python3() [0x599593]
+frame #46: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #47: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #48: PyEval_EvalCode + 0x15b (0x5d500b in /root/deepseek-env/bin/python3)
+frame #49: /root/deepseek-env/bin/python3() [0x6081e2]
+frame #50: /root/deepseek-env/bin/python3() [0x6b5033]
+frame #51: _PyRun_SimpleFileObject + 0x1aa (0x6b4d9a in /root/deepseek-env/bin/python3)
+frame #52: _PyRun_AnyFileObject + 0x4f (0x6b4bcf in /root/deepseek-env/bin/python3)
+frame #53: Py_RunMain + 0x3b5 (0x6bcc35 in /root/deepseek-env/bin/python3)
+frame #54: Py_BytesMain + 0x2d (0x6bc71d in /root/deepseek-env/bin/python3)
+frame #55: <unknown function> + 0x2a1ca (0x7cc75fa2a1ca in /lib/x86_64-linux-gnu/libc.so.6)
+frame #56: __libc_start_main + 0x8b (0x7cc75fa2a28b in /lib/x86_64-linux-gnu/libc.so.6)
+frame #57: _start + 0x25 (0x6575a5 in /root/deepseek-env/bin/python3)
+
+[W713 10:55:13.802194720 TCPStore.cpp:343] [c10d] TCP client failed to connect/validate to host 192.168.1.10:12345 - retrying (try=0, timeout=1800000ms, delay=42338ms): Interrupted system call
+Exception raised from delay at /pytorch/torch/csrc/distributed/c10d/socket.cpp:115 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7278ea1785e8 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ba8bfe (0x7278d2da8bfe in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x1369d67 (0x7278ce569d67 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5bf5949 (0x7278d2df5949 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: <unknown function> + 0x5bf5d01 (0x7278d2df5d01 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0x5ba3eeb (0x7278d2da3eeb in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::TCPStore(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10d::TCPStoreOptions const&) + 0x4b5 (0x7278d2da67f5 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xc06325 (0x7278e1e06325 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0xc385b4 (0x7278e1e385b4 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x37f2dd (0x7278e157f2dd in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #10: /root/deepseek-env/bin/python3() [0x581d4f]
+frame #11: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #12: /root/deepseek-env/bin/python3() [0x54ccc5]
+frame #13: _PyObject_Call + 0xf5 (0x54b4a5 in /root/deepseek-env/bin/python3)
+frame #14: /root/deepseek-env/bin/python3() [0x59dc61]
+frame #15: /root/deepseek-env/bin/python3() [0x599593]
+frame #16: <unknown function> + 0x37d35b (0x7278e157d35b in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #17: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #18: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #19: /root/deepseek-env/bin/python3() [0x555136]
+frame #20: /root/deepseek-env/bin/python3() [0x5d3d4c]
+frame #21: /root/deepseek-env/bin/python3() [0x581de7]
+frame #22: PyObject_Vectorcall + 0x35 (0x549985 in /root/deepseek-env/bin/python3)
+frame #23: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #24: _PyObject_Call_Prepend + 0xc2 (0x54a7d2 in /root/deepseek-env/bin/python3)
+frame #25: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #26: /root/deepseek-env/bin/python3() [0x599593]
+frame #27: _PyObject_MakeTpCall + 0x75 (0x548f85 in /root/deepseek-env/bin/python3)
+frame #28: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #29: _PyObject_Call_Prepend + 0x18a (0x54a89a in /root/deepseek-env/bin/python3)
+frame #30: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #31: /root/deepseek-env/bin/python3() [0x599593]
+frame #32: PyObject_Call + 0x9c (0x54b13c in /root/deepseek-env/bin/python3)
+frame #33: _PyEval_EvalFrameDefault + 0x4cc6 (0x5dad16 in /root/deepseek-env/bin/python3)
+frame #34: PyObject_Vectorcall + 0x35 (0x549985 in /root/deepseek-env/bin/python3)
+frame #35: /root/deepseek-env/bin/python3() [0x5a2c80]
+frame #36: _PyObject_GenericGetAttrWithDict + 0xa8 (0x584be8 in /root/deepseek-env/bin/python3)
+frame #37: PyObject_GetAttr + 0x4d (0x58460d in /root/deepseek-env/bin/python3)
+frame #38: _PyEval_EvalFrameDefault + 0xee4 (0x5d6f34 in /root/deepseek-env/bin/python3)
+frame #39: PyObject_CallOneArg + 0x4d (0x54a66d in /root/deepseek-env/bin/python3)
+frame #40: _PyObject_GenericGetAttrWithDict + 0xa8 (0x584be8 in /root/deepseek-env/bin/python3)
+frame #41: PyObject_GetAttr + 0x4d (0x58460d in /root/deepseek-env/bin/python3)
+frame #42: _PyEval_EvalFrameDefault + 0xee4 (0x5d6f34 in /root/deepseek-env/bin/python3)
+frame #43: _PyObject_Call_Prepend + 0x18a (0x54a89a in /root/deepseek-env/bin/python3)
+frame #44: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #45: /root/deepseek-env/bin/python3() [0x599593]
+frame #46: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #47: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #48: PyEval_EvalCode + 0x15b (0x5d500b in /root/deepseek-env/bin/python3)
+frame #49: /root/deepseek-env/bin/python3() [0x6081e2]
+frame #50: /root/deepseek-env/bin/python3() [0x6b5033]
+frame #51: _PyRun_SimpleFileObject + 0x1aa (0x6b4d9a in /root/deepseek-env/bin/python3)
+frame #52: _PyRun_AnyFileObject + 0x4f (0x6b4bcf in /root/deepseek-env/bin/python3)
+frame #53: Py_RunMain + 0x3b5 (0x6bcc35 in /root/deepseek-env/bin/python3)
+frame #54: Py_BytesMain + 0x2d (0x6bc71d in /root/deepseek-env/bin/python3)
+frame #55: <unknown function> + 0x2a1ca (0x7278f102a1ca in /lib/x86_64-linux-gnu/libc.so.6)
+frame #56: __libc_start_main + 0x8b (0x7278f102a28b in /lib/x86_64-linux-gnu/libc.so.6)
+frame #57: _start + 0x25 (0x6575a5 in /root/deepseek-env/bin/python3)
+
+[W713 10:55:13.803525606 TCPStore.cpp:343] [c10d] TCP client failed to connect/validate to host 192.168.1.10:12345 - retrying (try=0, timeout=1800000ms, delay=46090ms): Interrupted system call
+Exception raised from delay at /pytorch/torch/csrc/distributed/c10d/socket.cpp:115 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7a55371785e8 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ba8bfe (0x7a55201a8bfe in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x1369d67 (0x7a551b969d67 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5bf5949 (0x7a55201f5949 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: <unknown function> + 0x5bf5d01 (0x7a55201f5d01 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: <unknown function> + 0x5ba3eeb (0x7a55201a3eeb in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::TCPStore::TCPStore(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10d::TCPStoreOptions const&) + 0x4b5 (0x7a55201a67f5 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: <unknown function> + 0xc06325 (0x7a552f206325 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0xc385b4 (0x7a552f2385b4 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #9: <unknown function> + 0x37f2dd (0x7a552e97f2dd in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #10: /root/deepseek-env/bin/python3() [0x581d4f]
+frame #11: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #12: /root/deepseek-env/bin/python3() [0x54ccc5]
+frame #13: _PyObject_Call + 0xf5 (0x54b4a5 in /root/deepseek-env/bin/python3)
+frame #14: /root/deepseek-env/bin/python3() [0x59dc61]
+frame #15: /root/deepseek-env/bin/python3() [0x599593]
+frame #16: <unknown function> + 0x37d35b (0x7a552e97d35b in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #17: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #18: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #19: /root/deepseek-env/bin/python3() [0x555136]
+frame #20: /root/deepseek-env/bin/python3() [0x5d3d4c]
+frame #21: /root/deepseek-env/bin/python3() [0x581de7]
+frame #22: PyObject_Vectorcall + 0x35 (0x549985 in /root/deepseek-env/bin/python3)
+frame #23: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #24: _PyObject_Call_Prepend + 0xc2 (0x54a7d2 in /root/deepseek-env/bin/python3)
+frame #25: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #26: /root/deepseek-env/bin/python3() [0x599593]
+frame #27: _PyObject_MakeTpCall + 0x75 (0x548f85 in /root/deepseek-env/bin/python3)
+frame #28: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #29: _PyObject_Call_Prepend + 0x18a (0x54a89a in /root/deepseek-env/bin/python3)
+frame #30: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #31: /root/deepseek-env/bin/python3() [0x599593]
+frame #32: PyObject_Call + 0x9c (0x54b13c in /root/deepseek-env/bin/python3)
+frame #33: _PyEval_EvalFrameDefault + 0x4cc6 (0x5dad16 in /root/deepseek-env/bin/python3)
+frame #34: PyObject_Vectorcall + 0x35 (0x549985 in /root/deepseek-env/bin/python3)
+frame #35: /root/deepseek-env/bin/python3() [0x5a2c80]
+frame #36: _PyObject_GenericGetAttrWithDict + 0xa8 (0x584be8 in /root/deepseek-env/bin/python3)
+frame #37: PyObject_GetAttr + 0x4d (0x58460d in /root/deepseek-env/bin/python3)
+frame #38: _PyEval_EvalFrameDefault + 0xee4 (0x5d6f34 in /root/deepseek-env/bin/python3)
+frame #39: PyObject_CallOneArg + 0x4d (0x54a66d in /root/deepseek-env/bin/python3)
+frame #40: _PyObject_GenericGetAttrWithDict + 0xa8 (0x584be8 in /root/deepseek-env/bin/python3)
+frame #41: PyObject_GetAttr + 0x4d (0x58460d in /root/deepseek-env/bin/python3)
+frame #42: _PyEval_EvalFrameDefault + 0xee4 (0x5d6f34 in /root/deepseek-env/bin/python3)
+frame #43: _PyObject_Call_Prepend + 0x18a (0x54a89a in /root/deepseek-env/bin/python3)
+frame #44: /root/deepseek-env/bin/python3() [0x59dacf]
+frame #45: /root/deepseek-env/bin/python3() [0x599593]
+frame #46: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #47: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #48: PyEval_EvalCode + 0x15b (0x5d500b in /root/deepseek-env/bin/python3)
+frame #49: /root/deepseek-env/bin/python3() [0x6081e2]
+frame #50: /root/deepseek-env/bin/python3() [0x6b5033]
+frame #51: _PyRun_SimpleFileObject + 0x1aa (0x6b4d9a in /root/deepseek-env/bin/python3)
+frame #52: _PyRun_AnyFileObject + 0x4f (0x6b4bcf in /root/deepseek-env/bin/python3)
+frame #53: Py_RunMain + 0x3b5 (0x6bcc35 in /root/deepseek-env/bin/python3)
+frame #54: Py_BytesMain + 0x2d (0x6bc71d in /root/deepseek-env/bin/python3)
+frame #55: <unknown function> + 0x2a1ca (0x7a553e22a1ca in /lib/x86_64-linux-gnu/libc.so.6)
+frame #56: __libc_start_main + 0x8b (0x7a553e22a28b in /lib/x86_64-linux-gnu/libc.so.6)
+frame #57: _start + 0x25 (0x6575a5 in /root/deepseek-env/bin/python3)
+
+W0713 10:55:14.020000 50352 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 50367 closing signal SIGTERM
+W0713 10:55:14.022000 50352 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 50368 closing signal SIGTERM
+W0713 10:55:14.025000 50352 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 50369 closing signal SIGTERM
+W0713 10:55:14.035000 50352 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 50370 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 870, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 50352 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 720, in run
+    self._shutdown(e.sigval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 50352 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 261, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 725, in run
+    self._shutdown()
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 50352 got signal: 2
