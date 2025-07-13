@@ -24,7 +24,7 @@ export XT_CQ_INLINE_CQE=0
 # nproc_per_node: gpu_nums
 source ~/deepseek-env/bin/activate
 torchrun \
-  --nproc_per_node=1 \
+  --nproc_per_node=4 \
   --nnodes=2 \
   --node_rank=1 \
   --master_addr=192.168.1.10 \

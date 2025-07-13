@@ -1,0 +1,159 @@
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 36718 examples [00:00, 457194.59 examples/s]
+Generating validation split: 0 examples [00:00, ? examples/s]Generating validation split: 3760 examples [00:00, 390303.00 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 4358 examples [00:00, 431306.67 examples/s]
+Map:   0%|          | 0/36718 [00:00<?, ? examples/s]Map:   0%|          | 0/36718 [00:00<?, ? examples/s]Map:   0%|          | 0/36718 [00:00<?, ? examples/s]Map:   0%|          | 0/36718 [00:00<?, ? examples/s]Map:   3%|▎         | 1000/36718 [00:00<00:04, 8214.73 examples/s]Map:   3%|▎         | 1000/36718 [00:00<00:04, 8787.62 examples/s]Map:   3%|▎         | 1000/36718 [00:00<00:05, 6903.87 examples/s]Map:   3%|▎         | 1000/36718 [00:00<00:04, 7376.13 examples/s]Map:   5%|▌         | 2000/36718 [00:00<00:04, 8582.61 examples/s]Map:   5%|▌         | 2000/36718 [00:00<00:04, 8453.12 examples/s]Map:   5%|▌         | 2000/36718 [00:00<00:04, 7426.68 examples/s]Map:   5%|▌         | 2000/36718 [00:00<00:04, 7016.37 examples/s]Map:   8%|▊         | 3000/36718 [00:00<00:03, 9066.59 examples/s]Map:   8%|▊         | 3000/36718 [00:00<00:04, 8347.67 examples/s]Map:  11%|█         | 4000/36718 [00:00<00:03, 10108.63 examples/s]Map:  11%|█         | 4000/36718 [00:00<00:03, 9283.48 examples/s]Map:  11%|█         | 4000/36718 [00:00<00:03, 8836.34 examples/s]Map:  11%|█         | 4000/36718 [00:00<00:03, 8650.17 examples/s]Map:  16%|█▋        | 6000/36718 [00:00<00:02, 10950.71 examples/s]Map:  16%|█▋        | 6000/36718 [00:00<00:03, 10199.60 examples/s]Map:  16%|█▋        | 6000/36718 [00:00<00:03, 10014.00 examples/s]Map:  16%|█▋        | 6000/36718 [00:00<00:02, 10299.18 examples/s]Map:  19%|█▉        | 7000/36718 [00:00<00:02, 10010.90 examples/s]Map:  22%|██▏       | 8000/36718 [00:00<00:02, 10370.99 examples/s]Map:  19%|█▉        | 7000/36718 [00:00<00:03, 9160.28 examples/s] Map:  22%|██▏       | 8000/36718 [00:00<00:03, 9174.64 examples/s]Map:  22%|██▏       | 8000/36718 [00:00<00:03, 9193.93 examples/s] Map:  25%|██▍       | 9000/36718 [00:00<00:02, 9984.83 examples/s] Map:  27%|██▋       | 10000/36718 [00:00<00:02, 10028.15 examples/s]Map:  25%|██▍       | 9000/36718 [00:00<00:02, 9374.34 examples/s]Map:  25%|██▍       | 9000/36718 [00:00<00:03, 9181.63 examples/s]Map:  27%|██▋       | 10000/36718 [00:01<00:02, 9658.89 examples/s]Map:  27%|██▋       | 10000/36718 [00:01<00:02, 9434.42 examples/s]Map:  30%|██▉       | 11000/36718 [00:01<00:02, 9694.57 examples/s]Map:  33%|███▎      | 12000/36718 [00:01<00:03, 7566.62 examples/s] Map:  33%|███▎      | 12000/36718 [00:01<00:03, 6602.63 examples/s]Map:  33%|███▎      | 12000/36718 [00:01<00:03, 6464.60 examples/s]Map:  33%|███▎      | 12000/36718 [00:01<00:03, 6378.68 examples/s]Map:  38%|███▊      | 14000/36718 [00:01<00:02, 8448.30 examples/s]Map:  35%|███▌      | 13000/36718 [00:01<00:03, 6982.74 examples/s]Map:  35%|███▌      | 13000/36718 [00:01<00:03, 6993.39 examples/s]Map:  38%|███▊      | 14000/36718 [00:01<00:03, 7482.89 examples/s]Map:  44%|████▎     | 16000/36718 [00:01<00:02, 8902.89 examples/s]Map:  41%|████      | 15000/36718 [00:01<00:02, 8050.52 examples/s]Map:  41%|████      | 15000/36718 [00:01<00:02, 7874.16 examples/s]Map:  49%|████▉     | 18000/36718 [00:01<00:02, 9323.64 examples/s]Map:  44%|████▎     | 16000/36718 [00:01<00:02, 7986.93 examples/s]Map:  44%|████▎     | 16000/36718 [00:01<00:02, 8236.73 examples/s]Map:  44%|████▎     | 16000/36718 [00:01<00:02, 8196.87 examples/s]Map:  46%|████▋     | 17000/36718 [00:02<00:02, 8253.68 examples/s]Map:  46%|████▋     | 17000/36718 [00:02<00:02, 8465.67 examples/s]Map:  46%|████▋     | 17000/36718 [00:02<00:02, 8417.95 examples/s]Map:  54%|█████▍    | 20000/36718 [00:02<00:01, 9528.10 examples/s]Map:  49%|████▉     | 18000/36718 [00:02<00:02, 8730.90 examples/s]Map:  49%|████▉     | 18000/36718 [00:02<00:02, 8636.79 examples/s]Map:  52%|█████▏    | 19000/36718 [00:02<00:01, 8926.71 examples/s]Map:  57%|█████▋    | 21000/36718 [00:02<00:01, 9524.93 examples/s]Map:  54%|█████▍    | 20000/36718 [00:02<00:01, 9636.98 examples/s]Map:  54%|█████▍    | 20000/36718 [00:02<00:01, 9641.36 examples/s]Map:  60%|█████▉    | 22000/36718 [00:02<00:01, 9549.99 examples/s]Map:  57%|█████▋    | 21000/36718 [00:02<00:01, 9649.47 examples/s]Map:  57%|█████▋    | 21000/36718 [00:02<00:01, 9232.25 examples/s]Map:  57%|█████▋    | 21000/36718 [00:02<00:01, 9557.05 examples/s]Map:  65%|██████▌   | 24000/36718 [00:02<00:01, 9975.58 examples/s]Map:  60%|█████▉    | 22000/36718 [00:02<00:01, 9139.20 examples/s]Map:  60%|█████▉    | 22000/36718 [00:02<00:01, 9339.19 examples/s]Map:  60%|█████▉    | 22000/36718 [00:02<00:01, 9111.49 examples/s]Map:  63%|██████▎   | 23000/36718 [00:02<00:01, 9288.44 examples/s]Map:  71%|███████   | 26000/36718 [00:02<00:01, 10354.09 examples/s]Map:  65%|██████▌   | 24000/36718 [00:02<00:01, 9827.72 examples/s]Map:  65%|██████▌   | 24000/36718 [00:02<00:01, 9678.21 examples/s]Map:  68%|██████▊   | 25000/36718 [00:02<00:01, 9738.66 examples/s]Map:  76%|███████▋  | 28000/36718 [00:02<00:00, 10008.05 examples/s]Map:  71%|███████   | 26000/36718 [00:02<00:01, 9962.64 examples/s]Map:  71%|███████   | 26000/36718 [00:02<00:01, 10051.77 examples/s]Map:  74%|███████▎  | 27000/36718 [00:03<00:00, 9854.64 examples/s]Map:  74%|███████▎  | 27000/36718 [00:03<00:00, 9864.34 examples/s]Map:  76%|███████▋  | 28000/36718 [00:03<00:00, 10070.65 examples/s]Map:  76%|███████▋  | 28000/36718 [00:03<00:00, 9851.04 examples/s]Map:  82%|████████▏ | 30000/36718 [00:03<00:00, 7923.23 examples/s] Map:  79%|███████▉  | 29000/36718 [00:03<00:01, 6990.06 examples/s]Map:  79%|███████▉  | 29000/36718 [00:03<00:01, 7350.24 examples/s]Map:  79%|███████▉  | 29000/36718 [00:03<00:01, 6869.08 examples/s] Map:  87%|████████▋ | 32000/36718 [00:03<00:00, 8628.70 examples/s]Map:  82%|████████▏ | 30000/36718 [00:03<00:00, 7244.35 examples/s]Map:  84%|████████▍ | 31000/36718 [00:03<00:00, 7793.01 examples/s]Map:  84%|████████▍ | 31000/36718 [00:03<00:00, 7964.89 examples/s]Map:  93%|█████████▎| 34000/36718 [00:03<00:00, 8782.32 examples/s]Map:  84%|████████▍ | 31000/36718 [00:03<00:00, 7610.93 examples/s]Map:  87%|████████▋ | 32000/36718 [00:03<00:00, 8255.14 examples/s]Map:  87%|████████▋ | 32000/36718 [00:03<00:00, 7880.25 examples/s]Map:  95%|█████████▌| 35000/36718 [00:03<00:00, 8917.22 examples/s]Map:  87%|████████▋ | 32000/36718 [00:03<00:00, 8010.47 examples/s]Map:  90%|████████▉ | 33000/36718 [00:03<00:00, 8387.28 examples/s]Map:  90%|████████▉ | 33000/36718 [00:03<00:00, 8146.87 examples/s]Map:  90%|████████▉ | 33000/36718 [00:03<00:00, 8371.22 examples/s]Map:  98%|█████████▊| 36000/36718 [00:03<00:00, 8800.34 examples/s]Map:  93%|█████████▎| 34000/36718 [00:03<00:00, 8557.76 examples/s]Map:  93%|█████████▎| 34000/36718 [00:03<00:00, 8420.63 examples/s]Map: 100%|██████████| 36718/36718 [00:04<00:00, 9132.52 examples/s]
+Map:  93%|█████████▎| 34000/36718 [00:04<00:00, 8710.04 examples/s]Map:   0%|          | 0/3760 [00:00<?, ? examples/s]Map:  95%|█████████▌| 35000/36718 [00:04<00:00, 8827.17 examples/s]Map:  95%|█████████▌| 35000/36718 [00:04<00:00, 8495.79 examples/s]Map:  98%|█████████▊| 36000/36718 [00:04<00:00, 8741.30 examples/s]Map:  98%|█████████▊| 36000/36718 [00:04<00:00, 8675.88 examples/s]Map:  98%|█████████▊| 36000/36718 [00:04<00:00, 9140.54 examples/s]Map:  53%|█████▎    | 2000/3760 [00:00<00:00, 11040.58 examples/s]Map: 100%|██████████| 36718/36718 [00:04<00:00, 8618.97 examples/s]
+Map:   0%|          | 0/3760 [00:00<?, ? examples/s]Map: 100%|██████████| 36718/36718 [00:04<00:00, 8565.55 examples/s]
+Map:   0%|          | 0/3760 [00:00<?, ? examples/s]Map: 100%|██████████| 36718/36718 [00:04<00:00, 8450.79 examples/s]
+Map: 100%|██████████| 3760/3760 [00:00<00:00, 10975.87 examples/s]Map: 100%|██████████| 3760/3760 [00:00<00:00, 10888.56 examples/s]
+Map:   0%|          | 0/4358 [00:00<?, ? examples/s]Map:   0%|          | 0/4358 [00:00<?, ? examples/s]Map:  53%|█████▎    | 2000/3760 [00:00<00:00, 10601.78 examples/s]Map:  23%|██▎       | 1000/4358 [00:00<00:00, 9128.41 examples/s]Map:  23%|██▎       | 1000/4358 [00:00<00:00, 9003.61 examples/s]Map:  53%|█████▎    | 2000/3760 [00:00<00:00, 10677.56 examples/s]Map:  46%|████▌     | 2000/4358 [00:00<00:00, 9339.16 examples/s]Map:  46%|████▌     | 2000/4358 [00:00<00:00, 9533.07 examples/s]Map: 100%|██████████| 3760/3760 [00:00<00:00, 9903.60 examples/s] Map: 100%|██████████| 3760/3760 [00:00<00:00, 9911.08 examples/s]
+Map:   0%|          | 0/4358 [00:00<?, ? examples/s]Map: 100%|██████████| 3760/3760 [00:00<00:00, 10018.33 examples/s]Map: 100%|██████████| 3760/3760 [00:00<00:00, 9993.77 examples/s] 
+Map:  69%|██████▉   | 3000/4358 [00:00<00:00, 9478.88 examples/s]Map:  69%|██████▉   | 3000/4358 [00:00<00:00, 9156.41 examples/s]Map:   0%|          | 0/4358 [00:00<?, ? examples/s]Map:  92%|█████████▏| 4000/4358 [00:00<00:00, 9643.76 examples/s]Map: 100%|██████████| 4358/4358 [00:00<00:00, 9810.82 examples/s]Map: 100%|██████████| 4358/4358 [00:00<00:00, 9537.25 examples/s]
+Map: 100%|██████████| 4358/4358 [00:00<00:00, 9480.87 examples/s]
+Map:  46%|████▌     | 2000/4358 [00:00<00:00, 10574.67 examples/s]Map:  46%|████▌     | 2000/4358 [00:00<00:00, 10857.38 examples/s]Map:  92%|█████████▏| 4000/4358 [00:00<00:00, 11328.80 examples/s]Map: 100%|██████████| 4358/4358 [00:00<00:00, 11211.47 examples/s]
+[2025-07-13 14:00:35,453] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 14:00:35,455] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Map:  92%|█████████▏| 4000/4358 [00:00<00:00, 11369.81 examples/s]Map: 100%|██████████| 4358/4358 [00:00<00:00, 11304.87 examples/s]
+[2025-07-13 14:00:35,582] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 14:00:35,623] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 14:00:37,023] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 14:00:37,037] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 14:00:37,118] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 14:00:37,131] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 14:00:37,131] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[2025-07-13 14:00:37,202] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 14:00:37,216] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 14:00:37,265] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 14:00:37,280] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 4. Using DeepSpeed's value.
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Creating extension directory /root/.cache/torch_extensions/py312_cu126/fused_adam...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py312_cu126/fused_adam/build.ninja...
+/root/deepseek-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module fused_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+[1/3] c++ -MMD -MF fused_adam_frontend.o.d -DTORCH_EXTENSION_NAME=fused_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -fPIC -std=c++17 -O3 -std=c++17 -g -Wno-reorder -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -UC10_USE_GLOG -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/fused_adam_frontend.cpp -o fused_adam_frontend.o 
+[2/3] /usr/bin/nvcc --generate-dependencies-with-compile --dependency-output multi_tensor_adam.cuda.o.d -DTORCH_EXTENSION_NAME=fused_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_70,code=compute_70 -gencode=arch=compute_70,code=sm_70 --compiler-options '-fPIC' -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -lineinfo --use_fast_math -gencode=arch=compute_70,code=sm_70 -gencode=arch=compute_70,code=compute_70 -UC10_USE_GLOG -std=c++17 -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/multi_tensor_adam.cu -o multi_tensor_adam.cuda.o 
+[3/3] c++ fused_adam_frontend.o multi_tensor_adam.cuda.o -shared -L/root/deepseek-env/lib/python3.12/site-packages/torch/lib -lc10 -lc10_cuda -ltorch_cpu -ltorch_cuda -ltorch -ltorch_python -L/usr/lib64 -lcudart -o fused_adam.so
+Loading extension module fused_adam...
+Time to load fused_adam op: 30.257985591888428 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 30.34592080116272 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 30.3454806804657 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 30.353151321411133 seconds
+Parameter Offload - Persistent parameters statistics: param_count = 49, numel = 100352
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+  0%|          | 0/1836 [00:00<?, ?it/s][2025-07-13 14:02:43,300] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 1/1836 [00:54<27:50:02, 54.61s/it][2025-07-13 14:03:18,137] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 2/1836 [01:29<21:53:39, 42.98s/it][2025-07-13 14:03:53,937] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 3/1836 [02:05<20:12:49, 39.70s/it][2025-07-13 14:04:27,422] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 4/1836 [02:38<18:57:14, 37.25s/it][2025-07-13 14:05:03,068] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 5/1836 [03:14<18:39:01, 36.67s/it][2025-07-13 14:05:44,101] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 6/1836 [03:55<19:23:39, 38.15s/it][2025-07-13 14:06:28,825] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 7/1836 [04:40<20:28:30, 40.30s/it][2025-07-13 14:07:04,624] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 8/1836 [05:15<19:44:10, 38.87s/it][2025-07-13 14:07:40,216] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 9/1836 [05:51<19:12:20, 37.84s/it][2025-07-13 14:08:08,794] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 10/1836 [06:20<17:44:39, 34.98s/it][2025-07-13 14:08:51,564] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 11/1836 [07:02<18:56:33, 37.37s/it][2025-07-13 14:09:39,463] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 12/1836 [07:50<20:33:20, 40.57s/it][2025-07-13 14:10:16,523] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 13/1836 [08:27<20:00:21, 39.51s/it][2025-07-13 14:10:51,356] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 14/1836 [09:02<19:16:49, 38.10s/it]W0713 14:11:40.470000 9564 torch/distributed/elastic/agent/server/api.py:719] Received 2 death signal, shutting down workers
+W0713 14:11:40.475000 9564 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 9631 closing signal SIGINT
+W0713 14:11:40.476000 9564 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 9632 closing signal SIGINT
+W0713 14:11:40.477000 9564 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 9633 closing signal SIGINT
+W0713 14:11:40.479000 9564 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 9634 closing signal SIGINT
+W0713 14:11:40.626000 9564 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 9631 closing signal SIGTERM
+W0713 14:11:40.628000 9564 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 9632 closing signal SIGTERM
+W0713 14:11:40.630000 9564 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 9633 closing signal SIGTERM
+W0713 14:11:40.632000 9564 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 9634 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 870, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 9564 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 720, in run
+    self._shutdown(e.sigval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 9564 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 261, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 725, in run
+    self._shutdown()
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 9564 got signal: 2
