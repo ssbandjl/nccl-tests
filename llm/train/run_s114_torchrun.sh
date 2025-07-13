@@ -25,7 +25,7 @@ export XT_CQ_INLINE_CQE=0
 # model_name_or_path deepseek-ai/deepseek-llm-7b-base, If it is a filepath on disc, it loads the model from that path. If it is not a path, it first tries to download a pre-trained SentenceTransformer model. If that fails, tries to construct a model from the Hugging Face Hub with that name
 source ~/deepseek-env/bin/activate
 torchrun \
-  --nproc_per_node=1 \
+  --nproc_per_node=4 \
   --nnodes=2 \
   --node_rank=0 \
   --master_addr=192.168.1.10 \
