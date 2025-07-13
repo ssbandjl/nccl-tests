@@ -1,0 +1,111 @@
+[W712 16:34:14.596768523 socket.cpp:755] [c10d] The client socket has failed to connect to [::ffff:192.168.1.10]:12345 (errno: 113 - No route to host).
+[W712 16:34:17.668695942 socket.cpp:755] [c10d] The client socket has failed to connect to 192.168.1.10:12345 (errno: 113 - No route to host).
+[E712 16:34:17.668752899 socket.cpp:809] [c10d] The client socket has failed to connect to any network address of (192.168.1.10, 12345).
+[W712 16:34:17.669294812 TCPStore.cpp:343] [c10d] TCP client failed to connect/validate to host 192.168.1.10:12345 - retrying (try=0, timeout=900000ms, delay=496ms): The client socket has failed to connect to any network address of (192.168.1.10, 12345). The client socket has failed to connect to 192.168.1.10:12345 (errno: 113 - No route to host).
+Exception raised from run at /pytorch/torch/csrc/distributed/c10d/socket.cpp:811 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7eaa7e3785e8 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ba8bfe (0x7eaa673a8bfe in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x1369fc4 (0x7eaa62b69fc4 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5bf5d01 (0x7eaa673f5d01 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: <unknown function> + 0x5ba3eeb (0x7eaa673a3eeb in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::TCPStore::TCPStore(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, c10d::TCPStoreOptions const&) + 0x4b5 (0x7eaa673a67f5 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: <unknown function> + 0xc06325 (0x7eaa76406325 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #7: <unknown function> + 0xc385b4 (0x7eaa764385b4 in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #8: <unknown function> + 0x37f2dd (0x7eaa75b7f2dd in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #9: /root/deepseek-env/bin/python3() [0x581d4f]
+frame #10: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #11: /root/deepseek-env/bin/python3() [0x54ccc5]
+frame #12: _PyObject_Call + 0xf5 (0x54b4a5 in /root/deepseek-env/bin/python3)
+frame #13: /root/deepseek-env/bin/python3() [0x59dc61]
+frame #14: /root/deepseek-env/bin/python3() [0x599593]
+frame #15: <unknown function> + 0x37d35b (0x7eaa75b7d35b in /root/deepseek-env/lib/python3.12/site-packages/torch/lib/libtorch_python.so)
+frame #16: _PyObject_MakeTpCall + 0x13e (0x54904e in /root/deepseek-env/bin/python3)
+frame #17: _PyEval_EvalFrameDefault + 0xadf (0x5d6b2f in /root/deepseek-env/bin/python3)
+frame #18: _PyObject_Call_Prepend + 0xc2 (0x54a7d2 in /root/deepseek-env/bin/python3)
+frame #19: /root/deepseek-env/bin/python3() [0x5a3148]
+frame #20: PyObject_Call + 0x9c (0x54b13c in /root/deepseek-env/bin/python3)
+frame #21: _PyEval_EvalFrameDefault + 0x4cc6 (0x5dad16 in /root/deepseek-env/bin/python3)
+frame #22: PyEval_EvalCode + 0x15b (0x5d500b in /root/deepseek-env/bin/python3)
+frame #23: /root/deepseek-env/bin/python3() [0x6081e2]
+frame #24: /root/deepseek-env/bin/python3() [0x6b5033]
+frame #25: _PyRun_SimpleFileObject + 0x1aa (0x6b4d9a in /root/deepseek-env/bin/python3)
+frame #26: _PyRun_AnyFileObject + 0x4f (0x6b4bcf in /root/deepseek-env/bin/python3)
+frame #27: Py_RunMain + 0x3b5 (0x6bcc35 in /root/deepseek-env/bin/python3)
+frame #28: Py_BytesMain + 0x2d (0x6bc71d in /root/deepseek-env/bin/python3)
+frame #29: <unknown function> + 0x2a1ca (0x7eaa7f42a1ca in /lib/x86_64-linux-gnu/libc.so.6)
+frame #30: __libc_start_main + 0x8b (0x7eaa7f42a28b in /lib/x86_64-linux-gnu/libc.so.6)
+frame #31: _start + 0x25 (0x6575a5 in /root/deepseek-env/bin/python3)
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 470, in cached_files
+    hf_hub_download(
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1008, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1115, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1636, in _raise_on_head_call_error
+    raise LocalEntryNotFoundError(
+huggingface_hub.errors.LocalEntryNotFoundError: Cannot find the requested files in the disk cache and outgoing traffic has been disabled. To enable hf.co look-ups and downloads online, set 'local_files_only' to False.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/project/ai/nccl-tests/llm/train/train.py", line 13, in <module>
+    tokenizer = AutoTokenizer.from_pretrained(model_name, local_files_only=True, cache_dir="/root/big/deepseek-llm-7b-base/model_cache")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 1003, in from_pretrained
+    config = AutoConfig.from_pretrained(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1197, in from_pretrained
+    config_dict, unused_kwargs = PretrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/configuration_utils.py", line 608, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/configuration_utils.py", line 667, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 312, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 543, in cached_files
+    raise OSError(
+OSError: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+E0712 16:34:23.393000 154819 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 0 (pid: 154856) of binary: /root/deepseek-env/bin/python3
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 270, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-07-12_16:34:23
+  host      : s116
+  rank      : 1 (local_rank: 0)
+  exitcode  : 1 (pid: 154856)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

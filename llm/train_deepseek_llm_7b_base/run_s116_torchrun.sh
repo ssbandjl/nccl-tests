@@ -12,9 +12,7 @@ export NCCL_NET=IB
 export NCCL_IB_HCA=xtrdma_0
 export NCCL_IB_GID_INDEX=1
 export NCCL_IB_QPS_PER_CONNECTION=4
-export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True,max_split_size_mb:64
-
-rm -rf ~/.cache/torch_extensions
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 # xt
 export LD_LIBRARY_PATH=/root/project/rdma/dpu_user_rdma/build/lib:/root/project/ai/nccl-tests/nccl/build/lib:$LD_LIBRARY_PATH
@@ -24,17 +22,18 @@ export XT_CQ_INLINE_CQE=0
 # export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libnccl.so.2.8.3
 
 # nproc_per_node: gpu_nums
-# model_name_or_path deepseek-ai/deepseek-llm-7b-base, If it is a filepath on disc, it loads the model from that path. If it is not a path, it first tries to download a pre-trained SentenceTransformer model. If that fails, tries to construct a model from the Hugging Face Hub with that name
 source ~/deepseek-env/bin/activate
 torchrun \
-  --nproc_per_node=4 \
+  --nproc_per_node=1 \
   --nnodes=2 \
-  --node_rank=0 \
+  --node_rank=1 \
   --master_addr=192.168.1.10 \
   --master_port=12345 \
   train.py \
   --model_name_or_path "/root/big/deepseek-llm-7b-base" \
   --deepspeed deepspeed_config.json \
+  --per_device_train_batch_size 1 \
+  --gradient_accumulation_steps 2 \
   --output_dir /root/big/llm/ds-output \
   --fp16 > "$log_file" 2>&1
 

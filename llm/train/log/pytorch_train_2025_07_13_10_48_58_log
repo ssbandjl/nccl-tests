@@ -1,0 +1,122 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:14<00:14, 14.83s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:15<00:15, 15.20s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:15<00:15, 15.25s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:15<00:15, 15.32s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:19<00:00,  8.86s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:19<00:00,  9.76s/it]
+/root/deepseek-env/lib/python3.12/site-packages/torch/cuda/__init__.py:174: UserWarning: CUDA initialization: CUDA driver initialization failed, you might not have a CUDA gpu. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+[2025-07-13 10:49:29,879] [WARNING] [real_accelerator.py:209:get_accelerator] Setting accelerator to CPU. If you have GPU or other accelerator, we were unable to detect it.
+[2025-07-13 10:49:29,914] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cpu (auto detect)
+Loading checkpoint shards: 100%|██████████| 2/2 [00:22<00:00, 10.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:22<00:00, 11.36s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:22<00:00, 10.69s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:22<00:00, 11.36s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:22<00:00, 10.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:22<00:00, 11.36s/it]
+[2025-07-13 10:49:31,950] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 10:49:31,972] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 10:49:32,027] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 10:49:32,243] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:49:32,262] [INFO] [comm.py:676:init_distributed] cdb=None
+No CUDA runtime is found, using CUDA_HOME='/usr'
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Creating extension directory /root/.cache/torch_extensions/py312_cu126/deepspeed_shm_comm...
+Emitting ninja build file /root/.cache/torch_extensions/py312_cu126/deepspeed_shm_comm/build.ninja...
+Building extension module deepspeed_shm_comm...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+[2025-07-13 10:49:33,690] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:49:33,703] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 10:49:33,790] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:49:33,798] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:49:33,802] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 10:49:33,811] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 10:49:33,811] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 8. Using DeepSpeed's value.
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/root/project/ai/nccl-tests/llm/train/train.py", line 90, in <module>
+[rank0]:     trainer.train()
+[rank0]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2206, in train
+[rank0]:     return inner_training_loop(
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2312, in _inner_training_loop
+[rank0]:     self.optimizer, self.lr_scheduler = deepspeed_init(self, num_training_steps=max_steps)
+[rank0]:                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/integrations/deepspeed.py", line 444, in deepspeed_init
+[rank0]:     hf_deepspeed_config.trainer_config_finalize(args, model, num_training_steps)
+[rank0]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/integrations/deepspeed.py", line 268, in trainer_config_finalize
+[rank0]:     raise ValueError(
+[rank0]: ValueError: Please correct the following DeepSpeed config values that mismatch TrainingArguments values:
+[rank0]: - ds gradient_accumulation_steps=8 vs hf gradient_accumulation_steps=4
+[rank0]: - ds train_batch_size=8 vs hf train_batch_size (calculated)=32
+[rank0]: The easiest method is to set these DeepSpeed config values to 'auto'.
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/root/project/ai/nccl-tests/llm/train/train.py", line 90, in <module>
+[rank1]:     trainer.train()
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2206, in train
+[rank1]:     return inner_training_loop(
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2312, in _inner_training_loop
+[rank1]:     self.optimizer, self.lr_scheduler = deepspeed_init(self, num_training_steps=max_steps)
+[rank1]:                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/integrations/deepspeed.py", line 444, in deepspeed_init
+[rank1]:     hf_deepspeed_config.trainer_config_finalize(args, model, num_training_steps)
+[rank1]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/integrations/deepspeed.py", line 268, in trainer_config_finalize
+[rank1]:     raise ValueError(
+[rank1]: ValueError: Please correct the following DeepSpeed config values that mismatch TrainingArguments values:
+[rank1]: - ds gradient_accumulation_steps=8 vs hf gradient_accumulation_steps=4
+[rank1]: - ds train_batch_size=8 vs hf train_batch_size (calculated)=32
+[rank1]: The easiest method is to set these DeepSpeed config values to 'auto'.
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/root/project/ai/nccl-tests/llm/train/train.py", line 90, in <module>
+[rank2]:     trainer.train()
+[rank2]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2206, in train
+[rank2]:     return inner_training_loop(
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2312, in _inner_training_loop
+[rank2]:     self.optimizer, self.lr_scheduler = deepspeed_init(self, num_training_steps=max_steps)
+[rank2]:                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/integrations/deepspeed.py", line 444, in deepspeed_init
+[rank2]:     hf_deepspeed_config.trainer_config_finalize(args, model, num_training_steps)
+[rank2]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/integrations/deepspeed.py", line 268, in trainer_config_finalize
+[rank2]:     raise ValueError(
+[rank2]: ValueError: Please correct the following DeepSpeed config values that mismatch TrainingArguments values:
+[rank2]: - ds gradient_accumulation_steps=8 vs hf gradient_accumulation_steps=4
+[rank2]: - ds train_batch_size=8 vs hf train_batch_size (calculated)=32
+[rank2]: The easiest method is to set these DeepSpeed config values to 'auto'.
+[rank0]:[W713 10:49:44.238443038 ProcessGroupNCCL.cpp:1479] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+W0713 10:49:47.051000 42813 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 42843 closing signal SIGTERM
+W0713 10:49:47.079000 42813 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 42844 closing signal SIGTERM
+W0713 10:49:47.080000 42813 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 42845 closing signal SIGTERM
+ninja: build stopped: interrupted by user.
+E0713 10:49:48.546000 42813 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 0 (pid: 42842) of binary: /root/deepseek-env/bin/python3
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 270, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-07-13_10:49:47
+  host      : s114
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 42842)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

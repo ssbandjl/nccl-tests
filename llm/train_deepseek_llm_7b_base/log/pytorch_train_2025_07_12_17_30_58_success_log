@@ -1,0 +1,26 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:11<00:11, 11.33s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:18<00:00,  8.74s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:18<00:00,  9.13s/it]
+Map:   0%|          | 0/3 [00:00<?, ? examples/s]Map: 100%|██████████| 3/3 [00:00<00:00, 312.87 examples/s]
+Map:   0%|          | 0/2 [00:00<?, ? examples/s]Map: 100%|██████████| 2/2 [00:00<00:00, 540.29 examples/s]
+[2025-07-12 17:31:45,037] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-12 17:31:46,571] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-12 17:31:46,581] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-12 17:31:46,581] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+/root/project/ai/nccl-tests/llm/train/train.py:74: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 2. Using DeepSpeed's value.
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py312_cu126/fused_adam/build.ninja...
+/root/deepseek-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module fused_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module fused_adam...
+Time to load fused_adam op: 0.03747415542602539 seconds
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [01:52<00:00, 112.77s/it]/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+                                              {'train_runtime': 250.5054, 'train_samples_per_second': 0.012, 'train_steps_per_second': 0.004, 'train_loss': 4.103692531585693, 'epoch': 1.0}
+100%|██████████| 1/1 [04:10<00:00, 112.77s/it]100%|██████████| 1/1 [04:10<00:00, 250.51s/it]
+[rank0]:[W712 17:36:57.947397209 ProcessGroupNCCL.cpp:1479] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())

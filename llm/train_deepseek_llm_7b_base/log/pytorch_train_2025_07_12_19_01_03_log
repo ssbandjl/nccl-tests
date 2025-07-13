@@ -1,8 +1,8 @@
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:11<00:11, 11.92s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  7.48s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:16<00:00,  8.14s/it]
-[2025-07-12 19:10:12,498] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-07-12 19:10:14,143] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
-[2025-07-12 19:10:14,155] [INFO] [comm.py:676:init_distributed] cdb=None
-[2025-07-12 19:10:14,155] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:11<00:11, 11.51s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  7.27s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  7.90s/it]
+[2025-07-12 19:01:34,007] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-12 19:01:35,643] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-12 19:01:35,654] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-12 19:01:35,654] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
 /root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
   trainer = Trainer(
 Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
@@ -18,8 +18,8 @@ Allowing ninja to set a default number of workers... (overridable by setting the
 [2/3] /usr/bin/nvcc --generate-dependencies-with-compile --dependency-output multi_tensor_adam.cuda.o.d -DTORCH_EXTENSION_NAME=fused_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_86,code=compute_86 -gencode=arch=compute_86,code=sm_86 --compiler-options '-fPIC' -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -lineinfo --use_fast_math -gencode=arch=compute_86,code=sm_86 -gencode=arch=compute_86,code=compute_86 -UC10_USE_GLOG -DBF16_AVAILABLE -U__CUDA_NO_BFLOAT16_OPERATORS__ -U__CUDA_NO_BFLOAT162_OPERATORS__ -U__CUDA_NO_BFLOAT16_CONVERSIONS__ -std=c++17 -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/multi_tensor_adam.cu -o multi_tensor_adam.cuda.o 
 [3/3] c++ fused_adam_frontend.o multi_tensor_adam.cuda.o -shared -L/root/deepseek-env/lib/python3.12/site-packages/torch/lib -lc10 -lc10_cuda -ltorch_cpu -ltorch_cuda -ltorch -ltorch_python -L/usr/lib64 -lcudart -o fused_adam.so
 Loading extension module fused_adam...
-Time to load fused_adam op: 29.775453329086304 seconds
-  0%|          | 0/18359 [00:00<?, ?it/s]  0%|          | 1/18359 [01:38<501:24:15, 98.33s/it][rank0]: Traceback (most recent call last):
+Time to load fused_adam op: 31.107585906982422 seconds
+  0%|          | 0/18359 [00:00<?, ?it/s]  0%|          | 1/18359 [01:16<387:57:06, 76.08s/it][rank0]: Traceback (most recent call last):
 [rank0]:   File "/root/project/ai/nccl-tests/llm/train/train.py", line 90, in <module>
 [rank0]:     trainer.train()
 [rank0]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2206, in train
@@ -42,8 +42,8 @@ Time to load fused_adam op: 29.775453329086304 seconds
 [rank0]:     single_grad_partition = self.flatten(self.averaged_gradients[i]).to(
 [rank0]:                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.87 GiB. GPU 0 has a total capacity of 47.40 GiB of which 8.17 GiB is free. Including non-PyTorch memory, this process has 39.21 GiB memory in use. Of the allocated memory 38.66 GiB is allocated by PyTorch, and 76.32 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
-[rank0]:[W712 19:15:05.323897902 ProcessGroupNCCL.cpp:1479] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
-E0712 19:15:07.923000 93952 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 0 (pid: 93999) of binary: /root/deepseek-env/bin/python3
+[rank0]:[W712 19:05:33.096296876 ProcessGroupNCCL.cpp:1479] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+E0712 19:05:35.667000 93525 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 0 (pid: 93576) of binary: /root/deepseek-env/bin/python3
 Traceback (most recent call last):
   File "/root/deepseek-env/bin/torchrun", line 8, in <module>
     sys.exit(main())
@@ -69,10 +69,10 @@ Failures:
 ------------------------------------------------------------
 Root Cause (first observed failure):
 [0]:
-  time      : 2025-07-12_19:15:07
+  time      : 2025-07-12_19:05:35
   host      : s114
   rank      : 0 (local_rank: 0)
-  exitcode  : 1 (pid: 93999)
+  exitcode  : 1 (pid: 93576)
   error_file: <N/A>
   traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
 ============================================================

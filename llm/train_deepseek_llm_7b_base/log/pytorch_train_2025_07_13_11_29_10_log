@@ -1,0 +1,26 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:19<00:19, 19.60s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:19<00:19, 19.60s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:19<00:19, 19.60s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:19<00:19, 19.65s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 13.57s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 13.57s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 14.48s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 14.48s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 13.58s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 13.57s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 14.48s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:28<00:00, 14.49s/it]
+[2025-07-13 11:30:06,153] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 11:30:06,153] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 11:30:07,209] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 11:30:07,251] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 11:30:08,558] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 11:30:08,580] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[2025-07-13 11:30:12,628] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 11:30:12,646] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[2025-07-13 11:30:14,469] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 11:30:14,482] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 11:30:14,482] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2025-07-13 11:30:14,492] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 11:30:14,507] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 4. Using DeepSpeed's value.
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(

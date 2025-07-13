@@ -1,0 +1,136 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:21<00:21, 21.67s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:21<00:21, 21.66s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:21<00:21, 21.67s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:21<00:21, 21.69s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:27<00:00, 12.24s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:27<00:00, 12.23s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:27<00:00, 12.24s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:27<00:00, 13.65s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:27<00:00, 13.65s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:27<00:00, 13.65s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:27<00:00, 12.25s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:27<00:00, 13.66s/it]
+[2025-07-13 10:55:55,187] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 10:55:55,190] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 10:55:55,194] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 10:55:55,326] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 10:55:57,466] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:55:57,482] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-13 10:55:57,482] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[2025-07-13 10:55:57,577] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:55:57,589] [INFO] [comm.py:676:init_distributed] cdb=None
+Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 4. Using DeepSpeed's value.
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[2025-07-13 10:55:58,199] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:55:58,212] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[2025-07-13 10:55:58,935] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 10:55:58,947] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Creating extension directory /root/.cache/torch_extensions/py312_cu126/fused_adam...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Creating extension directory /root/.cache/torch_extensions/py312_cu126/fused_adam...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py312_cu126/fused_adam/build.ninja...
+/root/deepseek-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module fused_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+[1/3] c++ -MMD -MF fused_adam_frontend.o.d -DTORCH_EXTENSION_NAME=fused_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -fPIC -std=c++17 -O3 -std=c++17 -g -Wno-reorder -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -UC10_USE_GLOG -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/fused_adam_frontend.cpp -o fused_adam_frontend.o 
+[2/3] /usr/bin/nvcc --generate-dependencies-with-compile --dependency-output multi_tensor_adam.cuda.o.d -DTORCH_EXTENSION_NAME=fused_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_70,code=compute_70 -gencode=arch=compute_70,code=sm_70 --compiler-options '-fPIC' -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -lineinfo --use_fast_math -gencode=arch=compute_70,code=sm_70 -gencode=arch=compute_70,code=compute_70 -UC10_USE_GLOG -std=c++17 -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/multi_tensor_adam.cu -o multi_tensor_adam.cuda.o 
+[3/3] c++ fused_adam_frontend.o multi_tensor_adam.cuda.o -shared -L/root/deepseek-env/lib/python3.12/site-packages/torch/lib -lc10 -lc10_cuda -ltorch_cpu -ltorch_cuda -ltorch -ltorch_python -L/usr/lib64 -lcudart -o fused_adam.so
+Loading extension module fused_adam...
+Time to load fused_adam op: 31.664017915725708 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 31.747418880462646 seconds
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Time to load fused_adam op: 31.74253797531128 seconds
+Time to load fused_adam op: 31.75360655784607 seconds
+Parameter Offload - Persistent parameters statistics: param_count = 61, numel = 249856
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+  0%|          | 0/1148 [00:00<?, ?it/s]W0713 11:00:18.155000 43963 torch/distributed/elastic/agent/server/api.py:719] Received 2 death signal, shutting down workers
+W0713 11:00:18.183000 43963 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 43983 closing signal SIGINT
+W0713 11:00:18.184000 43963 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 43984 closing signal SIGINT
+W0713 11:00:18.185000 43963 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 43985 closing signal SIGINT
+W0713 11:00:18.185000 43963 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 43986 closing signal SIGINT
+W0713 11:00:24.261000 43963 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 43983 closing signal SIGTERM
+W0713 11:00:24.263000 43963 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 43984 closing signal SIGTERM
+W0713 11:00:24.265000 43963 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 43985 closing signal SIGTERM
+W0713 11:00:24.267000 43963 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 43986 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 870, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 43963 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 720, in run
+    self._shutdown(e.sigval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 43963 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 261, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 725, in run
+    self._shutdown()
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 43963 got signal: 2

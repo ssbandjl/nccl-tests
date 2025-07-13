@@ -1,0 +1,372 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] tid:7071, main(), common.cu:701, NCCL version: 22703, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:8563, main(), common.cu:701, NCCL version: 22703, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr116] tid:8564, main(), common.cu:701, NCCL version: 22703, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr114] tid:7072, main(), common.cu:701, NCCL version: 22703, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:8565, main(), common.cu:701, NCCL version: 22703, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr116] tid:8566, main(), common.cu:701, NCCL version: 22703, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr114] tid:7073, main(), common.cu:701, NCCL version: 22703, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:7075, main(), common.cu:701, NCCL version: 22703, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+# nThread 1 nGpus 1 minBytes 4 maxBytes 67108864 step: 2(factor) warmup iters: 30 iters: 100 agg iters: 1 validation: 0 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid   7071 on     gdr114 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid   8563 on     gdr116 device  0 [0x04] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid   7072 on     gdr114 device  1 [0x05] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid   8564 on     gdr116 device  1 [0x05] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid   7073 on     gdr114 device  2 [0x09] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid   8565 on     gdr116 device  2 [0x09] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid   7075 on     gdr114 device  3 [0x0a] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid   8566 on     gdr116 device  3 [0x0a] Tesla V100-SXM2-16GB
+gdr114:7071:7071 [0] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr114:7071:7071 [0] NCCL INFO cudaDriverVersion 12090
+gdr114:7073:7073 [2] NCCL INFO cudaDriverVersion 12090
+gdr114:7072:7072 [1] NCCL INFO cudaDriverVersion 12090
+gdr114:7075:7075 [3] NCCL INFO cudaDriverVersion 12090
+gdr114:7071:7071 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+gdr114:7072:7072 [1] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr114:7072:7072 [1] NCCL INFO NCCL version 2.27.3+cuda12.9
+gdr114:7073:7073 [2] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr114:7073:7073 [2] NCCL INFO NCCL version 2.27.3+cuda12.9
+gdr114:7075:7075 [3] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.114<0>
+gdr114:7075:7075 [3] NCCL INFO NCCL version 2.27.3+cuda12.9
+gdr116:8563:8563 [0] NCCL INFO cudaDriverVersion 12090
+gdr116:8564:8564 [1] NCCL INFO cudaDriverVersion 12090
+gdr116:8566:8566 [3] NCCL INFO cudaDriverVersion 12090
+gdr116:8565:8565 [2] NCCL INFO cudaDriverVersion 12090
+gdr116:8564:8564 [1] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.116<0>
+gdr116:8564:8564 [1] NCCL INFO NCCL version 2.27.3+cuda12.9
+gdr116:8563:8563 [0] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.116<0>
+gdr116:8563:8563 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+gdr116:8566:8566 [3] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.116<0>
+gdr116:8566:8566 [3] NCCL INFO NCCL version 2.27.3+cuda12.9
+gdr116:8565:8565 [2] NCCL INFO Bootstrap: Using enp129s0f0:10.20.10.116<0>
+gdr116:8565:8565 [2] NCCL INFO NCCL version 2.27.3+cuda12.9
+gdr114:7071:7097 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+gdr114:7071:7097 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr114:7071:7097 [0] NCCL INFO NCCL_IB_HCA set to xtrdma_0
+gdr114:7072:7099 [1] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+gdr114:7072:7099 [1] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr114:7073:7100 [2] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+gdr114:7073:7100 [2] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr114:7075:7098 [3] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+gdr114:7075:7098 [3] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr114:7073:7100 [2] NCCL INFO NCCL_IB_HCA set to xtrdma_0
+gdr114:7072:7099 [1] NCCL INFO NCCL_IB_HCA set to xtrdma_0
+gdr114:7075:7098 [3] NCCL INFO NCCL_IB_HCA set to xtrdma_0
+gdr116:8563:8583 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+gdr116:8563:8583 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr116:8564:8584 [1] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+gdr116:8564:8584 [1] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr116:8566:8586 [3] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+gdr116:8566:8586 [3] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr116:8564:8584 [1] NCCL INFO NCCL_IB_HCA set to xtrdma_0
+gdr116:8563:8583 [0] NCCL INFO NCCL_IB_HCA set to xtrdma_0
+gdr116:8565:8585 [2] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+gdr116:8565:8585 [2] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
+gdr116:8566:8586 [3] NCCL INFO NCCL_IB_HCA set to xtrdma_0
+gdr116:8565:8585 [2] NCCL INFO NCCL_IB_HCA set to xtrdma_0
+gdr114:7071:7097 [0] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:7071:7097 [0] NCCL INFO Initialized NET plugin IB
+gdr114:7071:7097 [0] NCCL INFO Assigned NET plugin IB to comm
+gdr114:7071:7097 [0] NCCL INFO Using network IB
+gdr114:7072:7099 [1] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:7072:7099 [1] NCCL INFO Initialized NET plugin IB
+gdr114:7072:7099 [1] NCCL INFO Assigned NET plugin IB to comm
+gdr114:7072:7099 [1] NCCL INFO Using network IB
+gdr114:7075:7098 [3] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:7075:7098 [3] NCCL INFO Initialized NET plugin IB
+gdr114:7075:7098 [3] NCCL INFO Assigned NET plugin IB to comm
+gdr114:7075:7098 [3] NCCL INFO Using network IB
+gdr114:7073:7100 [2] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:7073:7100 [2] NCCL INFO Initialized NET plugin IB
+gdr114:7073:7100 [2] NCCL INFO Assigned NET plugin IB to comm
+gdr114:7073:7100 [2] NCCL INFO Using network IB
+gdr114:7071:7097 [0] NCCL INFO ncclCommInitRank comm 0x64484ef585f0 rank 0 nranks 8 cudaDev 0 nvmlDev 0 busId 4000 commId 0xcb81cd8c90837e05 - Init START
+gdr114:7072:7099 [1] NCCL INFO ncclCommInitRank comm 0x5b382fcce030 rank 2 nranks 8 cudaDev 1 nvmlDev 1 busId 5000 commId 0xcb81cd8c90837e05 - Init START
+gdr114:7073:7100 [2] NCCL INFO ncclCommInitRank comm 0x5e319bc12190 rank 4 nranks 8 cudaDev 2 nvmlDev 2 busId 9000 commId 0xcb81cd8c90837e05 - Init START
+gdr114:7075:7098 [3] NCCL INFO ncclCommInitRank comm 0x62b051ae42d0 rank 6 nranks 8 cudaDev 3 nvmlDev 3 busId a000 commId 0xcb81cd8c90837e05 - Init START
+gdr116:8564:8584 [1] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:8564:8584 [1] NCCL INFO Initialized NET plugin IB
+gdr116:8564:8584 [1] NCCL INFO Assigned NET plugin IB to comm
+gdr116:8564:8584 [1] NCCL INFO Using network IB
+gdr116:8566:8586 [3] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:8566:8586 [3] NCCL INFO Initialized NET plugin IB
+gdr116:8566:8586 [3] NCCL INFO Assigned NET plugin IB to comm
+gdr116:8566:8586 [3] NCCL INFO Using network IB
+gdr116:8563:8583 [0] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:8563:8583 [0] NCCL INFO Initialized NET plugin IB
+gdr116:8563:8583 [0] NCCL INFO Assigned NET plugin IB to comm
+gdr116:8563:8583 [0] NCCL INFO Using network IB
+gdr116:8565:8585 [2] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:8565:8585 [2] NCCL INFO Initialized NET plugin IB
+gdr116:8565:8585 [2] NCCL INFO Assigned NET plugin IB to comm
+gdr116:8565:8585 [2] NCCL INFO Using network IB
+gdr116:8564:8584 [1] NCCL INFO ncclCommInitRank comm 0x5ebc387e2c60 rank 3 nranks 8 cudaDev 1 nvmlDev 1 busId 5000 commId 0xcb81cd8c90837e05 - Init START
+gdr116:8566:8586 [3] NCCL INFO ncclCommInitRank comm 0x62ba73104da0 rank 7 nranks 8 cudaDev 3 nvmlDev 3 busId a000 commId 0xcb81cd8c90837e05 - Init START
+gdr116:8563:8583 [0] NCCL INFO ncclCommInitRank comm 0x5ee3dfc101c0 rank 1 nranks 8 cudaDev 0 nvmlDev 0 busId 4000 commId 0xcb81cd8c90837e05 - Init START
+gdr116:8564:8584 [1] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:8566:8586 [3] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:7071:7097 [0] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:7072:7099 [1] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:8563:8583 [0] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:8565:8585 [2] NCCL INFO ncclCommInitRank comm 0x6162ef4b6c20 rank 5 nranks 8 cudaDev 2 nvmlDev 2 busId 9000 commId 0xcb81cd8c90837e05 - Init START
+gdr114:7075:7098 [3] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:7073:7100 [2] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:8565:8585 [2] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:7073:7100 [2] NCCL INFO Bootstrap timings total 0.054960 (create 0.000053, send 0.000112, recv 0.052243, ring 0.001051, delay 0.000001)
+gdr114:7071:7097 [0] NCCL INFO Bootstrap timings total 0.076489 (create 0.000082, send 0.000193, recv 0.070504, ring 0.005091, delay 0.000001)
+gdr114:7072:7099 [1] NCCL INFO Bootstrap timings total 0.055733 (create 0.000055, send 0.000122, recv 0.049192, ring 0.005002, delay 0.000000)
+gdr114:7075:7098 [3] NCCL INFO Bootstrap timings total 0.054821 (create 0.000037, send 0.000106, recv 0.048766, ring 0.001597, delay 0.000000)
+gdr116:8565:8585 [2] NCCL INFO Bootstrap timings total 0.002929 (create 0.000051, send 0.000294, recv 0.000500, ring 0.000767, delay 0.000001)
+gdr116:8563:8583 [0] NCCL INFO Bootstrap timings total 0.006808 (create 0.000034, send 0.000209, recv 0.001108, ring 0.005071, delay 0.000001)
+gdr116:8564:8584 [1] NCCL INFO Bootstrap timings total 0.006906 (create 0.000033, send 0.000248, recv 0.000566, ring 0.005580, delay 0.000000)
+gdr116:8566:8586 [3] NCCL INFO Bootstrap timings total 0.006962 (create 0.000068, send 0.000302, recv 0.000832, ring 0.005306, delay 0.000000)
+gdr114:7071:7097 [0] NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr114:7072:7099 [1] NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr114:7075:7098 [3] NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr114:7073:7100 [2] NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr116:8565:8585 [2] NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr116:8563:8583 [0] NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr116:8564:8584 [1] NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr116:8566:8586 [3] NCCL INFO NCCL_P2P_LEVEL set by environment to PIX
+gdr114:7071:7097 [0] NCCL INFO NCCL_TOPO_DUMP_FILE set by environment to topo_all_reduce_perf.xml
+gdr116:8565:8585 [2] NCCL INFO Setting affinity for GPU 2 to 2,30
+gdr116:8565:8585 [2] NCCL INFO NVLS multicast support is not available on dev 2 (NVLS_NCHANNELS 0)
+gdr116:8566:8586 [3] NCCL INFO Setting affinity for GPU 3 to 3,31
+gdr116:8566:8586 [3] NCCL INFO NVLS multicast support is not available on dev 3 (NVLS_NCHANNELS 0)
+gdr116:8564:8584 [1] NCCL INFO Setting affinity for GPU 1 to 1,29
+gdr116:8564:8584 [1] NCCL INFO NVLS multicast support is not available on dev 1 (NVLS_NCHANNELS 0)
+gdr116:8563:8583 [0] NCCL INFO Setting affinity for GPU 0 to 0,28
+gdr116:8563:8583 [0] NCCL INFO NVLS multicast support is not available on dev 0 (NVLS_NCHANNELS 0)
+gdr114:7075:7098 [3] NCCL INFO Setting affinity for GPU 3 to 3,31
+gdr114:7075:7098 [3] NCCL INFO NVLS multicast support is not available on dev 3 (NVLS_NCHANNELS 0)
+gdr114:7072:7099 [1] NCCL INFO Setting affinity for GPU 1 to 1,29
+gdr114:7072:7099 [1] NCCL INFO NVLS multicast support is not available on dev 1 (NVLS_NCHANNELS 0)
+gdr114:7073:7100 [2] NCCL INFO Setting affinity for GPU 2 to 2,30
+gdr114:7073:7100 [2] NCCL INFO NVLS multicast support is not available on dev 2 (NVLS_NCHANNELS 0)
+gdr114:7071:7097 [0] NCCL INFO Setting affinity for GPU 0 to 0,28
+gdr114:7071:7097 [0] NCCL INFO NVLS multicast support is not available on dev 0 (NVLS_NCHANNELS 0)
+gdr114:7073:7100 [2] NCCL INFO comm 0x5e319bc12190 rank 4 nRanks 8 nNodes 2 localRanks 4 localRank 2 MNNVL 0
+gdr114:7073:7100 [2] NCCL INFO NCCL_MAX_NCHANNELS set by environment to 1.
+gdr114:7073:7100 [2] NCCL INFO Trees [0] 6/-1/-1->4->2
+gdr114:7073:7100 [2] NCCL INFO P2P Chunksize set to 131072
+gdr114:7071:7097 [0] NCCL INFO comm 0x64484ef585f0 rank 0 nRanks 8 nNodes 2 localRanks 4 localRank 0 MNNVL 0
+gdr114:7071:7097 [0] NCCL INFO NCCL_MAX_NCHANNELS set by environment to 1.
+gdr114:7071:7097 [0] NCCL INFO Channel 00/01 : 0 2 4 6 1 3 5 7
+gdr114:7071:7097 [0] NCCL INFO Trees [0] 2/1/-1->0->-1
+gdr114:7071:7097 [0] NCCL INFO P2P Chunksize set to 131072
+gdr114:7073:7100 [2] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:8565:8585 [2] NCCL INFO comm 0x6162ef4b6c20 rank 5 nRanks 8 nNodes 2 localRanks 4 localRank 2 MNNVL 0
+gdr116:8565:8585 [2] NCCL INFO NCCL_MAX_NCHANNELS set by environment to 1.
+gdr116:8565:8585 [2] NCCL INFO Trees [0] 7/-1/-1->5->3
+gdr116:8565:8585 [2] NCCL INFO P2P Chunksize set to 131072
+gdr114:7071:7097 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:7071:7097 [0] NCCL INFO Check P2P Type isAllDirectP2p 0 directMode 0
+gdr114:7075:7098 [3] NCCL INFO comm 0x62b051ae42d0 rank 6 nRanks 8 nNodes 2 localRanks 4 localRank 3 MNNVL 0
+gdr114:7075:7098 [3] NCCL INFO NCCL_MAX_NCHANNELS set by environment to 1.
+gdr114:7075:7098 [3] NCCL INFO Trees [0] -1/-1/-1->6->4
+gdr114:7075:7098 [3] NCCL INFO P2P Chunksize set to 131072
+gdr114:7072:7099 [1] NCCL INFO comm 0x5b382fcce030 rank 2 nRanks 8 nNodes 2 localRanks 4 localRank 1 MNNVL 0
+gdr114:7072:7099 [1] NCCL INFO NCCL_MAX_NCHANNELS set by environment to 1.
+gdr114:7072:7099 [1] NCCL INFO Trees [0] 4/-1/-1->2->0
+gdr114:7072:7099 [1] NCCL INFO P2P Chunksize set to 131072
+gdr116:8564:8584 [1] NCCL INFO comm 0x5ebc387e2c60 rank 3 nRanks 8 nNodes 2 localRanks 4 localRank 1 MNNVL 0
+gdr116:8564:8584 [1] NCCL INFO NCCL_MAX_NCHANNELS set by environment to 1.
+gdr116:8564:8584 [1] NCCL INFO Trees [0] 5/-1/-1->3->1
+gdr116:8564:8584 [1] NCCL INFO P2P Chunksize set to 131072
+gdr114:7071:7120 [0] NCCL INFO [Proxy Service] Device 0 CPU core 28
+gdr114:7075:7098 [3] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:7073:7118 [2] NCCL INFO [Proxy Service] Device 2 CPU core 2
+gdr114:7073:7119 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 2
+gdr116:8564:8584 [1] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:7072:7099 [1] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:8566:8586 [3] NCCL INFO comm 0x62ba73104da0 rank 7 nRanks 8 nNodes 2 localRanks 4 localRank 3 MNNVL 0
+gdr116:8566:8586 [3] NCCL INFO NCCL_MAX_NCHANNELS set by environment to 1.
+gdr116:8566:8586 [3] NCCL INFO Trees [0] -1/-1/-1->7->5
+gdr116:8566:8586 [3] NCCL INFO P2P Chunksize set to 131072
+gdr114:7071:7121 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 28
+gdr116:8565:8585 [2] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:7075:7122 [3] NCCL INFO [Proxy Service] Device 3 CPU core 31
+gdr116:8563:8583 [0] NCCL INFO comm 0x5ee3dfc101c0 rank 1 nRanks 8 nNodes 2 localRanks 4 localRank 0 MNNVL 0
+gdr116:8563:8583 [0] NCCL INFO NCCL_MAX_NCHANNELS set by environment to 1.
+gdr116:8563:8583 [0] NCCL INFO Trees [0] 3/-1/-1->1->0
+gdr114:7072:7123 [1] NCCL INFO [Proxy Service] Device 1 CPU core 29
+gdr116:8564:8595 [1] NCCL INFO [Proxy Service] Device 1 CPU core 29
+gdr116:8564:8597 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 29
+gdr114:7075:7124 [3] NCCL INFO [Proxy Service UDS] Device 3 CPU core 31
+gdr116:8565:8596 [2] NCCL INFO [Proxy Service] Device 2 CPU core 2
+gdr116:8565:8598 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 2
+gdr114:7072:7125 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 29
+gdr116:8566:8586 [3] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:8563:8583 [0] NCCL INFO P2P Chunksize set to 131072
+gdr116:8563:8583 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:8566:8599 [3] NCCL INFO [Proxy Service] Device 3 CPU core 3
+gdr116:8566:8600 [3] NCCL INFO [Proxy Service UDS] Device 3 CPU core 3
+gdr116:8563:8601 [0] NCCL INFO [Proxy Service] Device 0 CPU core 28
+gdr116:8563:8602 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 28
+gdr114:7073:7100 [2] NCCL INFO NCCL_PROTO set by environment to Simple
+gdr114:7073:7100 [2] NCCL INFO NCCL_ALGO set by environment to Ring
+gdr114:7073:7100 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:7073:7100 [2] NCCL INFO 1 coll channels, 1 collnet channels, 0 nvls channels, 1 p2p channels, 1 p2p channels per peer
+gdr114:7072:7099 [1] NCCL INFO NCCL_PROTO set by environment to Simple
+gdr114:7072:7099 [1] NCCL INFO NCCL_ALGO set by environment to Ring
+gdr114:7072:7099 [1] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:7072:7099 [1] NCCL INFO 1 coll channels, 1 collnet channels, 0 nvls channels, 1 p2p channels, 1 p2p channels per peer
+gdr116:8564:8584 [1] NCCL INFO NCCL_PROTO set by environment to Simple
+gdr116:8564:8584 [1] NCCL INFO NCCL_ALGO set by environment to Ring
+gdr116:8564:8584 [1] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr116:8564:8584 [1] NCCL INFO 1 coll channels, 1 collnet channels, 0 nvls channels, 1 p2p channels, 1 p2p channels per peer
+gdr114:7071:7097 [0] NCCL INFO NCCL_PROTO set by environment to Simple
+gdr114:7071:7097 [0] NCCL INFO NCCL_ALGO set by environment to Ring
+gdr114:7071:7097 [0] NCCL INFO Enabled NCCL Func/Proto/Algo Matrix:
+     Function |       LL     LL128    Simple   |          Tree           Ring  CollNetDirect   CollNetChain           NVLS       NVLSTree            PAT  
+    Broadcast |        0         0         1   |             0              1              0              0              0              0              0  
+       Reduce |        0         0         1   |             0              1              0              0              0              0              0  
+    AllGather |        0         0         1   |             0              1              0              0              0              0              0  
+ReduceScatter |        0         0         1   |             0              1              0              0              0              0              0  
+    AllReduce |        0         0         1   |             0              1              0              0              0              0              0  
+
+gdr114:7071:7097 [0] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:7071:7097 [0] NCCL INFO 1 coll channels, 1 collnet channels, 0 nvls channels, 1 p2p channels, 1 p2p channels per peer
+gdr116:8565:8585 [2] NCCL INFO NCCL_PROTO set by environment to Simple
+gdr116:8565:8585 [2] NCCL INFO NCCL_ALGO set by environment to Ring
+gdr116:8565:8585 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:7075:7098 [3] NCCL INFO NCCL_PROTO set by environment to Simple
+gdr114:7075:7098 [3] NCCL INFO NCCL_ALGO set by environment to Ring
+gdr114:7075:7098 [3] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:7075:7098 [3] NCCL INFO 1 coll channels, 1 collnet channels, 0 nvls channels, 1 p2p channels, 1 p2p channels per peer
+gdr116:8566:8586 [3] NCCL INFO NCCL_PROTO set by environment to Simple
+gdr116:8566:8586 [3] NCCL INFO NCCL_ALGO set by environment to Ring
+gdr116:8566:8586 [3] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr116:8566:8586 [3] NCCL INFO 1 coll channels, 1 collnet channels, 0 nvls channels, 1 p2p channels, 1 p2p channels per peer
+gdr116:8565:8585 [2] NCCL INFO 1 coll channels, 1 collnet channels, 0 nvls channels, 1 p2p channels, 1 p2p channels per peer
+gdr116:8563:8583 [0] NCCL INFO NCCL_PROTO set by environment to Simple
+gdr116:8563:8583 [0] NCCL INFO NCCL_ALGO set by environment to Ring
+gdr116:8563:8583 [0] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr116:8563:8583 [0] NCCL INFO 1 coll channels, 1 collnet channels, 0 nvls channels, 1 p2p channels, 1 p2p channels per peer
+gdr114:7071:7097 [0] NCCL INFO CC Off, workFifoBytes 1048576
+gdr114:7072:7099 [1] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:7072:7099 [1] NCCL INFO ncclCommInitRank comm 0x5b382fcce030 rank 2 nranks 8 cudaDev 1 nvmlDev 1 busId 5000 commId 0xcb81cd8c90837e05 - Init COMPLETE
+gdr114:7072:7099 [1] NCCL INFO Init timings - ncclCommInitRank: rank 2 nranks 8 total 0.69 (kernels 0.20, alloc 0.39, bootstrap 0.06, allgathers 0.00, topo 0.04, graphs 0.00, connections 0.00, rest 0.00)
+gdr114:7073:7100 [2] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:7073:7100 [2] NCCL INFO ncclCommInitRank comm 0x5e319bc12190 rank 4 nranks 8 cudaDev 2 nvmlDev 2 busId 9000 commId 0xcb81cd8c90837e05 - Init COMPLETE
+gdr114:7073:7100 [2] NCCL INFO Init timings - ncclCommInitRank: rank 4 nranks 8 total 0.69 (kernels 0.20, alloc 0.39, bootstrap 0.05, allgathers 0.00, topo 0.04, graphs 0.00, connections 0.00, rest 0.00)
+gdr114:7075:7098 [3] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:7075:7098 [3] NCCL INFO ncclCommInitRank comm 0x62b051ae42d0 rank 6 nranks 8 cudaDev 3 nvmlDev 3 busId a000 commId 0xcb81cd8c90837e05 - Init COMPLETE
+gdr114:7075:7098 [3] NCCL INFO Init timings - ncclCommInitRank: rank 6 nranks 8 total 0.69 (kernels 0.20, alloc 0.39, bootstrap 0.05, allgathers 0.00, topo 0.04, graphs 0.00, connections 0.00, rest 0.00)
+gdr114:7071:7097 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:7071:7097 [0] NCCL INFO ncclCommInitRank comm 0x64484ef585f0 rank 0 nranks 8 cudaDev 0 nvmlDev 0 busId 4000 commId 0xcb81cd8c90837e05 - Init COMPLETE
+gdr114:7071:7097 [0] NCCL INFO Init timings - ncclCommInitRank: rank 0 nranks 8 total 0.70 (kernels 0.20, alloc 0.39, bootstrap 0.08, allgathers 0.00, topo 0.04, graphs 0.00, connections 0.00, rest 0.00)
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllReduceRunColl
+gdr116:8566:8586 [3] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:8566:8586 [3] NCCL INFO ncclCommInitRank comm 0x62ba73104da0 rank 7 nranks 8 cudaDev 3 nvmlDev 3 busId a000 commId 0xcb81cd8c90837e05 - Init COMPLETE
+gdr116:8566:8586 [3] NCCL INFO Init timings - ncclCommInitRank: rank 7 nranks 8 total 0.65 (kernels 0.20, alloc 0.40, bootstrap 0.01, allgathers 0.00, topo 0.03, graphs 0.00, connections 0.00, rest 0.00)
+gdr116:8565:8585 [2] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:8565:8585 [2] NCCL INFO ncclCommInitRank comm 0x6162ef4b6c20 rank 5 nranks 8 cudaDev 2 nvmlDev 2 busId 9000 commId 0xcb81cd8c90837e05 - Init COMPLETE
+gdr116:8565:8585 [2] NCCL INFO Init timings - ncclCommInitRank: rank 5 nranks 8 total 0.65 (kernels 0.21, alloc 0.39, bootstrap 0.00, allgathers 0.00, topo 0.03, graphs 0.00, connections 0.00, rest 0.00)
+gdr116:8564:8584 [1] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:8564:8584 [1] NCCL INFO ncclCommInitRank comm 0x5ebc387e2c60 rank 3 nranks 8 cudaDev 1 nvmlDev 1 busId 5000 commId 0xcb81cd8c90837e05 - Init COMPLETE
+gdr116:8564:8584 [1] NCCL INFO Init timings - ncclCommInitRank: rank 3 nranks 8 total 0.65 (kernels 0.20, alloc 0.40, bootstrap 0.01, allgathers 0.00, topo 0.03, graphs 0.00, connections 0.00, rest 0.00)
+gdr116:8563:8583 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:8563:8583 [0] NCCL INFO ncclCommInitRank comm 0x5ee3dfc101c0 rank 1 nranks 8 cudaDev 0 nvmlDev 0 busId 4000 commId 0xcb81cd8c90837e05 - Init COMPLETE
+gdr116:8563:8583 [0] NCCL INFO Init timings - ncclCommInitRank: rank 1 nranks 8 total 0.65 (kernels 0.20, alloc 0.40, bootstrap 0.01, allgathers 0.00, topo 0.03, graphs 0.00, connections 0.00, rest 0.00)
+gdr116:8563:8605 [0] NCCL INFO Channel 00/0 : 1[0] -> 3[1] via P2P/CUMEM
+gdr116:8564:8603 [1] NCCL INFO Channel 00 : 3[1] -> 5[2] via SHM/direct/direct
+gdr116:8565:8606 [2] NCCL INFO Channel 00 : 5[2] -> 7[3] via SHM/direct/direct
+gdr114:7072:7128 [1] NCCL INFO Channel 00 : 2[1] -> 4[2] via SHM/direct/direct
+gdr114:7073:7129 [2] NCCL INFO Channel 00 : 4[2] -> 6[3] via SHM/direct/direct
+gdr114:7071:7130 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 28
+gdr114:7071:7126 [0] NCCL INFO Channel 00/0 : 7[3] -> 0[0] [receive] via NET/IB/0
+gdr116:8566:8607 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 3
+gdr116:8566:8604 [3] NCCL INFO Channel 00/0 : 7[3] -> 0[0] [send] via NET/IB/0
+gdr114:7071:7126 [0] NCCL INFO Channel 00/0 : 0[0] -> 2[1] via P2P/CUMEM
+gdr114:7071:7120 [0] NCCL INFO NCCL_IB_QPS_PER_CONNECTION set by environment to 4.
+gdr116:8566:8599 [3] NCCL INFO NCCL_IB_QPS_PER_CONNECTION set by environment to 4.
+gdr116:8563:8605 [0] NCCL INFO Channel 00/0 : 6[3] -> 1[0] [receive] via NET/IB/0
+gdr116:8563:8608 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 28
+gdr114:7075:7131 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 31
+gdr114:7075:7127 [3] NCCL INFO Channel 00/0 : 6[3] -> 1[0] [send] via NET/IB/0
+gdr114:7075:7122 [3] NCCL INFO NCCL_IB_QPS_PER_CONNECTION set by environment to 4.
+gdr116:8563:8601 [0] NCCL INFO NCCL_IB_QPS_PER_CONNECTION set by environment to 4.
+gdr114:7075:7122 [3] NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+gdr116:8566:8599 [3] NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+gdr116:8563:8601 [0] NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+gdr114:7071:7120 [0] NCCL INFO NCCL_IB_GID_INDEX set by environment to 1.
+gdr116:8563:8601 [0] NCCL INFO NCCL_IB_TIMEOUT set by environment to 24.
+gdr114:7071:7120 [0] NCCL INFO NCCL_IB_TIMEOUT set by environment to 24.
+gdr116:8563:8601 [0] NCCL INFO NCCL_GDR_FLUSH_DISABLE set by environment to 1.
+gdr114:7071:7120 [0] NCCL INFO NCCL_GDR_FLUSH_DISABLE set by environment to 1.
+gdr114:7075:7122 [3] NCCL INFO NCCL_IB_TIMEOUT set by environment to 24.
+gdr116:8566:8599 [3] NCCL INFO NCCL_IB_TIMEOUT set by environment to 24.
+gdr114:7072:7128 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:7075:7127 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:7071:7126 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:7073:7129 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr116:8563:8605 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr116:8565:8606 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr116:8564:8603 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr116:8566:8604 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+           4             1     float     sum      -1    440.8    0.00    0.00    N/A    441.0    0.00    0.00    N/A
+           8             2     float     sum      -1    442.0    0.00    0.00    N/A    441.3    0.00    0.00    N/A
+          16             4     float     sum      -1    441.5    0.00    0.00    N/A    443.3    0.00    0.00    N/A
+          32             8     float     sum      -1    446.4    0.00    0.00    N/A    445.4    0.00    0.00    N/A
+          64            16     float     sum      -1    462.6    0.00    0.00    N/A    464.6    0.00    0.00    N/A
+         128            32     float     sum      -1    491.8    0.00    0.00    N/A    491.0    0.00    0.00    N/A
+         256            64     float     sum      -1    490.3    0.00    0.00    N/A    489.8    0.00    0.00    N/A
+         512           128     float     sum      -1    491.6    0.00    0.00    N/A    491.9    0.00    0.00    N/A
+        1024           256     float     sum      -1    493.1    0.00    0.00    N/A    492.1    0.00    0.00    N/A
+        2048           512     float     sum      -1    497.6    0.00    0.01    N/A    498.2    0.00    0.01    N/A
+        4096          1024     float     sum      -1    518.1    0.01    0.01    N/A    500.5    0.01    0.01    N/A
+        8192          2048     float     sum      -1    504.6    0.02    0.03    N/A    502.2    0.02    0.03    N/A
+       16384          4096     float     sum      -1    507.6    0.03    0.06    N/A    508.5    0.03    0.06    N/A
+       32768          8192     float     sum      -1    517.5    0.06    0.11    N/A    516.4    0.06    0.11    N/A
+       65536         16384     float     sum      -1    544.6    0.12    0.21    N/A    541.2    0.12    0.21    N/A
+      131072         32768     float     sum      -1    608.8    0.22    0.38    N/A    603.5    0.22    0.38    N/A
+      262144         65536     float     sum      -1   1014.6    0.26    0.45    N/A   1013.3    0.26    0.45    N/A
+      524288        131072     float     sum      -1   1119.4    0.47    0.82    N/A   1118.9    0.47    0.82    N/A
+     1048576        262144     float     sum      -1   1919.7    0.55    0.96    N/A   1912.7    0.55    0.96    N/A
+     2097152        524288     float     sum      -1   3487.8    0.60    1.05    N/A   3529.2    0.59    1.04    N/A
+     4194304       1048576     float     sum      -1   6652.9    0.63    1.10    N/A   6634.9    0.63    1.11    N/A
+     8388608       2097152     float     sum      -1    52886    0.16    0.28    N/A    12801    0.66    1.15    N/A
+    16777216       4194304     float     sum      -1    25205    0.67    1.16    N/A    25168    0.67    1.17    N/A
+    33554432       8388608     float     sum      -1    95812    0.35    0.61    N/A    50348    0.67    1.17    N/A
+    67108864      16777216     float     sum      -1   131710    0.51    0.89    N/A   144275    0.47    0.81    N/A
+gdr114:7071:7071 [0] NCCL INFO comm 0x64484ef585f0 rank 0 nranks 8 cudaDev 0 busId 4000 - Destroy COMPLETE
+gdr116:8566:8566 [3] NCCL INFO comm 0x62ba73104da0 rank 7 nranks 8 cudaDev 3 busId a000 - Destroy COMPLETE
+gdr116:8563:8563 [0] NCCL INFO comm 0x5ee3dfc101c0 rank 1 nranks 8 cudaDev 0 busId 4000 - Destroy COMPLETE
+gdr116:8565:8565 [2] NCCL INFO comm 0x6162ef4b6c20 rank 5 nranks 8 cudaDev 2 busId 9000 - Destroy COMPLETE
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.352606 
+#
+gdr114:7075:7075 [3] NCCL INFO comm 0x62b051ae42d0 rank 6 nranks 8 cudaDev 3 busId a000 - Destroy COMPLETE
+gdr114:7072:7072 [1] NCCL INFO comm 0x5b382fcce030 rank 2 nranks 8 cudaDev 1 busId 5000 - Destroy COMPLETE
+gdr116:8564:8564 [1] NCCL INFO comm 0x5ebc387e2c60 rank 3 nranks 8 cudaDev 1 busId 5000 - Destroy COMPLETE
+gdr114:7073:7073 [2] NCCL INFO comm 0x5e319bc12190 rank 4 nranks 8 cudaDev 2 busId 9000 - Destroy COMPLETE
+

@@ -12,13 +12,13 @@ from datasets import load_from_disk, Dataset, DatasetDict
 
 # 🧠 Load DeepSeek model and tokenizer
 # model_name = "deepseek-ai/deepseek-llm-7b-base"
-model_name = "/root/big/deepseek-llm-7b-base"
-tokenizer = AutoTokenizer.from_pretrained(model_name, local_files_only=True, cache_dir="/root/big/deepseek-llm-7b-base/model_cache")
+model_name = "/root/big/llm/deepseek-coder-1.3b-base"
+tokenizer = AutoTokenizer.from_pretrained(model_name, local_files_only=True)
 model = AutoModelForCausalLM.from_pretrained(model_name, local_files_only=True)
 
 # 📚 Prepare dataset (use wikitext for example)
 # dataset = load_dataset("wikitext", "wikitext-2-raw-v1")
-# dataset = load_from_disk("/root/big/deepseek-llm-7b-base/dataset/wikitext-2-v1", "/root/big/deepseek-llm-7b-base/dataset/wikitext-2-raw-v1")
+# dataset = load_from_disk("/root/big/llm/dataset/wikitext-2-v1", "/root/big/llm/dataset/wikitext-2-raw-v1")
 # dataset = Dataset.from_dict({
 #     "text": [
 #         "Hello, this is a sample sentence.",
@@ -45,9 +45,9 @@ model = AutoModelForCausalLM.from_pretrained(model_name, local_files_only=True)
 # train_dataset = dataset_dict["train"]
 
 dataset = load_dataset("parquet", data_files={
-    "train": "/root/big/deepseek-llm-7b-base/dataset/wikitext-2-raw-v1/train-00000-of-00001.parquet",
-    "validation": "/root/big/deepseek-llm-7b-base/dataset/wikitext-2-raw-v1/validation-00000-of-00001.parquet",
-    "test": "/root/big/deepseek-llm-7b-base/dataset/wikitext-2-raw-v1/test-00000-of-00001.parquet",
+    "train": "/root/big/llm/dataset/wikitext-2-raw-v1/train-00000-of-00001.parquet",
+    "validation": "/root/big/llm/dataset/wikitext-2-raw-v1/validation-00000-of-00001.parquet",
+    "test": "/root/big/llm/dataset/wikitext-2-raw-v1/test-00000-of-00001.parquet",
 })
 
 
