@@ -35,7 +35,7 @@ torchrun \
   train.py \
   --model_name_or_path "/root/big/llm/deepseek-coder-1.3b-base" \
   --deepspeed deepspeed_config.json \
-  --output_dir /root/big/llm/ds-output \
+  --output_dir /root/big/llm/ds-output_1_3b \
   --fp16 > "$log_file" 2>&1
 
 # python3 -m torch.distributed.launch \

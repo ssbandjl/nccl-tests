@@ -63,7 +63,7 @@ collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
 # ⚙️ Training args (DeepSpeed JSON is external)
 training_args = TrainingArguments(
-    output_dir="/root/big/llm/ds-output",
+    output_dir="/root/big/llm/ds-output_1_3b",
     per_device_train_batch_size=1,
     gradient_accumulation_steps=4,
     num_train_epochs=1,
