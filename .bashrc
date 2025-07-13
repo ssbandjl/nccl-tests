@@ -100,6 +100,8 @@ fi
 #
 #
 
+AF_BDF=08:00.0
+
 ips='s114 s116'
 run_cmd_no_master(){
 	local command=$*
@@ -134,7 +136,7 @@ function run_cmd(){
 }
 
 
-export PATH=$PATH:/usr/local/cuda/bin
+export PATH=$PATH:/usr/local/cuda/bin:/root/project/net/ucx/install-debug/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
 export CUDAHOME=$CUDA_HOME:/usr/local/cuda
 
@@ -174,4 +176,214 @@ nccl_test_build(){
     cd /root/project/ai/nccl-tests/
     ./build.sh
     cd -
+}
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+#__conda_setup="$('/root/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    eval "$__conda_setup"
+#else
+#    if [ -f "/root/miniconda3/etc/profile.d/conda.sh" ]; then
+#        . "/root/miniconda3/etc/profile.d/conda.sh"
+#    else
+#        export PATH="/root/miniconda3/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
+# <<< conda initialize <<<
+
+
+fpga_version() {
+/bin/expect <<EOF
+set timeout -1
+spawn /root/project/debug/pci_debug/dpu-debugutils/pcie_debug-master/bin/pci_debug -s $AF_BDF
+expect {
+    "PCI>" { send "d 200014 100\r" }
+}
+sleep 1
+interact
+EOF
+}
+
+
+fpga_enable_rto() {
+/bin/expect <<EOF
+set timeout -1
+spawn /root/project/debug/pci_debug/dpu-debugutils/pcie_debug-master/bin/pci_debug -s $AF_BDF
+expect {
+    "PCI>" { send "d 0x2a00D8 4\r" }
+}
+expect {
+    "PCI>" { send "c 0x2a00D8 1\r" }
+}
+sleep 1
+interact
+EOF
+}
+
+
+load_driver(){
+        cd /root/project/rdma/dpu_kernel_rdma
+        ./load_driver.sh
+        cd -
+
+        # cd /root/big/big/ofed/infiniband/core/
+        # ls|while read file;do echo $file;insmod $file;done
+        # cd -
+}
+
+remove_eth_and_rdma_module(){
+	rmmod xt_rdma
+	rmmod dpu_snd1
+}
+
+
+git_update(){
+	git stash
+	git pull
+	git stash pop
+}
+
+
+shutdown_s114_and_s116(){
+        ssh root@s116 "shutdown -h now"
+        shutdown -h now
+}
+
+git_push_current_branch(){
+	git push origin HEAD
+}
+
+
+show_register_rdma(){
+	cd /root/project/debug/dpu-debugutils/
+	./reg_display/bin/reg_display -s $AF_BDF -m rdmadebug
+	cd -
+}
+
+# apt install libncurses5 nfs-common -y
+update_fpga(){
+	mkdir -p /opt/localnet/EDA1
+	mount -t nfs 10.20.10.83:/opt/localnet/EDA1 /opt/localnet/EDA1
+	source /opt/localnet/EDA1/xilinx/Vivado/2023.2/settings64.sh
+	vivado
+}
+
+fpga_count(){
+	echo -e "\n============ FPGA COUNTER ============"
+	/root/project/debug/dpu-debugutils/reg_display/bin/reg_display -s $AF_BDF -m rdmadebug
+}
+
+
+pci_dbg_clean_count() {
+# apt-get install expect -y
+/bin/expect <<EOF
+set timeout -1
+spawn /root/project/debug/pci_debug/dpu-debugutils/pcie_debug-master/bin/pci_debug -s $AF_BDF
+expect {
+    "PCI>" { send "c 1000018 1\r" }
+}
+expect {
+    "PCI>" { send "c 380084 1\r" }
+}
+expect {
+    "PCI>" { send "d 380084 100\r" }
+}
+sleep 1
+interact
+EOF
+fpga_count
+}
+
+fpga_default_config() {
+/bin/expect <<EOF
+set timeout -1
+spawn /root/project/debug/pci_debug/dpu-debugutils/pcie_debug-master/bin/pci_debug -s $AF_BDF
+# wait_ack_fetch:0x0c, retry_fetch:0x08
+expect {
+    "PCI>" { send "c 220118 0c08\r" }
+}
+# fetch_mode:0, dbpro_cc_en, add_num:2
+expect {
+    "PCI>" { send "c 220304 40000002\r" }
+}
+# fpath_en: 1
+expect {
+    "PCI>" { send "c 220738 1\r" }
+}
+# db shap
+expect {
+    "PCI>" { send "c 22071c 0\r" }
+}
+# sq pkt ost
+expect {
+    "PCI>" { send "c 220724 01f001b0\r" }
+}
+# eirq pkt
+expect {
+    "PCI>" { send "c 220728 03f003b0\r" }
+}
+# pkt ost
+expect {
+    "PCI>" { send "c 22072c 0\r" }
+}
+# db ost
+expect {
+    "PCI>" { send "c 220770 60\r" }
+}
+# db ost
+expect {
+    "PCI>" { send "c 220774 1\r" }
+}
+# bg
+expect {
+    "PCI>" { send "c 220734 1\r" }
+}
+# dsch fwqe
+expect {
+    "PCI>" { send "c b00130 5102\r" }
+}
+# quanta
+expect {
+    "PCI>" { send "c b00144 4000\r" }
+}
+# host0 db shap
+expect {
+    "PCI>" { send "c b00150 0\r" }
+}
+sleep 1
+interact
+EOF
+}
+
+pci_debug(){
+	/root/project/debug/pci_debug/dpu-debugutils/pcie_debug-master/bin/pci_debug -s $AF_BDF
+}
+
+
+ib_dev() {
+    export LD_LIBRARY_PATH=/root/project/rdma/dpu_user_rdma/build/lib
+    export HUGE_PAGE_NUM=100
+    export XT_CQ_INLINE_CQE=0
+    ibv_devices
+    ibv_devinfo
+}
+
+run_nccl_tests(){
+    cd /root/project/ai/nccl-tests
+    ./run_nccl_tests_on_13p_u24_k61x.sh
+}
+
+nvidia_gpu(){
+	lspci|grep -i nvidia
+}
+
+copy_abi(){
+	cd /root/project/rdma/dpu_user_rdma/
+	cp kernel-headers/rdma/xtrdma-abi.h /lib/modules/`uname -r`/build/include/uapi/rdma/xtrdma-abi.h
+	cp kernel-headers/rdma/ib_user_ioctl_verbs.h /lib/modules/`uname -r`/build/include/uapi/rdma/ib_user_ioctl_verbs.h
+}
+
+show_ecode(){
+	show_register_rdma |grep -i ecode -C15
 }
