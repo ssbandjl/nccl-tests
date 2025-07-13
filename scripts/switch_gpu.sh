@@ -25,6 +25,10 @@ lspci -tv
 apt-get install -y cuda-drivers (GPU Tesla V100驱动安装命令)
 # install cuda(u24/A6000 and v100)
 apt install nvidia-cuda-toolkit
+
+# install save nccl version
+sudo apt install libnccl2=2.27.3-1+cuda12.9 libnccl-dev=2.27.3-1+cuda12.9
+
 nvcc --version
 
 
