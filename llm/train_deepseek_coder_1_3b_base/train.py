@@ -67,7 +67,8 @@ training_args = TrainingArguments(
     per_device_train_batch_size=1,
     gradient_accumulation_steps=4,
     num_train_epochs=1,
-    save_steps=1000,
+    save_strategy="steps",
+    save_steps=100,
     save_total_limit=2,
     logging_steps=50,
     fp16=True,
@@ -76,7 +77,7 @@ training_args = TrainingArguments(
     overwrite_output_dir=True,
 )
 
-# 🚀 HuggingFace Trainer
+# 🚀 HuggingFace Trainer, save_steps for checkpoint
 trainer = Trainer(
     model=model,
     args=training_args,

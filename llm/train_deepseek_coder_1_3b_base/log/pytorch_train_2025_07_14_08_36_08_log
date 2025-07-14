@@ -1,0 +1,165 @@
+[2025-07-14 08:36:45,737] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-14 08:36:45,741] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-14 08:36:45,823] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-14 08:36:45,928] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-14 08:36:47,248] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-14 08:36:47,260] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-14 08:36:47,460] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-14 08:36:47,474] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-14 08:36:47,501] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-14 08:36:47,514] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-14 08:36:47,514] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[2025-07-14 08:36:47,652] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-14 08:36:47,665] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 4. Using DeepSpeed's value.
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Creating extension directory /root/.cache/torch_extensions/py312_cu126/fused_adam...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py312_cu126/fused_adam/build.ninja...
+/root/deepseek-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module fused_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+[1/3] c++ -MMD -MF fused_adam_frontend.o.d -DTORCH_EXTENSION_NAME=fused_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -fPIC -std=c++17 -O3 -std=c++17 -g -Wno-reorder -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -UC10_USE_GLOG -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/fused_adam_frontend.cpp -o fused_adam_frontend.o 
+[2/3] /usr/bin/nvcc --generate-dependencies-with-compile --dependency-output multi_tensor_adam.cuda.o.d -DTORCH_EXTENSION_NAME=fused_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_70,code=compute_70 -gencode=arch=compute_70,code=sm_70 --compiler-options '-fPIC' -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -lineinfo --use_fast_math -gencode=arch=compute_70,code=sm_70 -gencode=arch=compute_70,code=compute_70 -UC10_USE_GLOG -std=c++17 -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/multi_tensor_adam.cu -o multi_tensor_adam.cuda.o 
+[3/3] c++ fused_adam_frontend.o multi_tensor_adam.cuda.o -shared -L/root/deepseek-env/lib/python3.12/site-packages/torch/lib -lc10 -lc10_cuda -ltorch_cpu -ltorch_cuda -ltorch -ltorch_python -L/usr/lib64 -lcudart -o fused_adam.so
+Loading extension module fused_adam...
+Time to load fused_adam op: 31.127325534820557 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 31.147091388702393 seconds
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Time to load fused_adam op: 31.14678978919983 seconds
+Time to load fused_adam op: 31.15227222442627 seconds
+Parameter Offload - Persistent parameters statistics: param_count = 49, numel = 100352
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+  0%|          | 0/1148 [00:00<?, ?it/s]No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[2025-07-14 08:38:24,244] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 1/1148 [00:50<16:09:41, 50.72s/it][2025-07-14 08:38:48,826] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 2/1148 [01:15<11:15:05, 35.35s/it][2025-07-14 08:39:16,350] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 3/1148 [01:42<10:06:21, 31.77s/it][2025-07-14 08:39:48,580] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 4/1148 [02:15<10:09:15, 31.95s/it][2025-07-14 08:40:18,220] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 5/1148 [02:44<9:52:49, 31.12s/it] [2025-07-14 08:41:05,591] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 6/1148 [03:32<11:37:28, 36.65s/it][2025-07-14 08:41:36,868] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 7/1148 [04:03<11:03:29, 34.89s/it][2025-07-14 08:42:03,918] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 8/1148 [04:30<10:15:29, 32.39s/it][2025-07-14 08:42:36,212] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 9/1148 [05:02<10:14:21, 32.36s/it][2025-07-14 08:43:15,331] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 10/1148 [05:41<10:53:22, 34.45s/it]W0714 08:43:39.492000 19851 torch/distributed/elastic/agent/server/api.py:719] Received 2 death signal, shutting down workers
+W0714 08:43:39.496000 19851 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 19854 closing signal SIGINT
+W0714 08:43:39.498000 19851 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 19855 closing signal SIGINT
+W0714 08:43:39.499000 19851 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 19856 closing signal SIGINT
+W0714 08:43:39.500000 19851 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 19857 closing signal SIGINT
+W0714 08:43:39.643000 19851 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 19854 closing signal SIGTERM
+W0714 08:43:39.644000 19851 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 19855 closing signal SIGTERM
+W0714 08:43:39.646000 19851 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 19856 closing signal SIGTERM
+W0714 08:43:39.647000 19851 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 19857 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 870, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 19851 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 720, in run
+    self._shutdown(e.sigval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 19851 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 261, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 725, in run
+    self._shutdown()
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 19851 got signal: 2

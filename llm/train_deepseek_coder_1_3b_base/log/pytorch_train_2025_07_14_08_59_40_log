@@ -1,0 +1,160 @@
+[2025-07-14 08:59:53,919] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-14 08:59:53,926] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-14 08:59:53,929] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-14 08:59:54,105] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-14 08:59:55,486] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-14 08:59:55,498] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-14 08:59:55,499] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-14 08:59:55,510] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-14 08:59:55,547] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-14 08:59:55,560] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-14 08:59:55,895] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-14 08:59:55,909] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-07-14 08:59:55,909] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:81: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:81: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:81: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:81: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 4. Using DeepSpeed's value.
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Creating extension directory /root/.cache/torch_extensions/py312_cu126/fused_adam...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py312_cu126/fused_adam/build.ninja...
+/root/deepseek-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module fused_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+[1/3] c++ -MMD -MF fused_adam_frontend.o.d -DTORCH_EXTENSION_NAME=fused_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -fPIC -std=c++17 -O3 -std=c++17 -g -Wno-reorder -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -UC10_USE_GLOG -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/fused_adam_frontend.cpp -o fused_adam_frontend.o 
+[2/3] /usr/bin/nvcc --generate-dependencies-with-compile --dependency-output multi_tensor_adam.cuda.o.d -DTORCH_EXTENSION_NAME=fused_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_70,code=compute_70 -gencode=arch=compute_70,code=sm_70 --compiler-options '-fPIC' -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -lineinfo --use_fast_math -gencode=arch=compute_70,code=sm_70 -gencode=arch=compute_70,code=compute_70 -UC10_USE_GLOG -std=c++17 -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/multi_tensor_adam.cu -o multi_tensor_adam.cuda.o 
+[3/3] c++ fused_adam_frontend.o multi_tensor_adam.cuda.o -shared -L/root/deepseek-env/lib/python3.12/site-packages/torch/lib -lc10 -lc10_cuda -ltorch_cpu -ltorch_cuda -ltorch -ltorch_python -L/usr/lib64 -lcudart -o fused_adam.so
+Loading extension module fused_adam...
+Time to load fused_adam op: 31.02416181564331 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 31.050745010375977 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 31.046030521392822 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 31.046196460723877 seconds
+Parameter Offload - Persistent parameters statistics: param_count = 49, numel = 100352
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+  0%|          | 0/1148 [00:00<?, ?it/s]No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[2025-07-14 09:01:19,159] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 1/1148 [00:35<11:09:55, 35.04s/it] stage3_gather_16bit_weights_on_model_save=false. Saving the full checkpoint instead, use zero_to_fp32.py to recover weights
+ stage3_gather_16bit_weights_on_model_save=false. Saving the full checkpoint instead, use zero_to_fp32.py to recover weights
+ stage3_gather_16bit_weights_on_model_save=false. Saving the full checkpoint instead, use zero_to_fp32.py to recover weights
+ stage3_gather_16bit_weights_on_model_save=false. Saving the full checkpoint instead, use zero_to_fp32.py to recover weights
+W0714 09:01:56.932000 21946 torch/distributed/elastic/agent/server/api.py:719] Received 2 death signal, shutting down workers
+W0714 09:01:56.969000 21946 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 21949 closing signal SIGINT
+W0714 09:01:56.971000 21946 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 21950 closing signal SIGINT
+W0714 09:01:56.972000 21946 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 21951 closing signal SIGINT
+W0714 09:01:56.973000 21946 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 21952 closing signal SIGINT
+W0714 09:01:57.079000 21946 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 21949 closing signal SIGTERM
+W0714 09:01:57.080000 21946 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 21950 closing signal SIGTERM
+W0714 09:01:57.086000 21946 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 21951 closing signal SIGTERM
+W0714 09:01:57.087000 21946 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 21952 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 870, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 21946 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 720, in run
+    self._shutdown(e.sigval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 21946 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 261, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 725, in run
+    self._shutdown()
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 21946 got signal: 2

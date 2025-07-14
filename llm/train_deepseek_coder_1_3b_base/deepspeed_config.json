@@ -34,5 +34,9 @@
     "thread_count": 1,
     "single_submit": false,
     "overlap_events": true
+  },
+  "checkpoint": {
+    "tag": "latest",
+    "save": "/root/big/llm/ds-output_1_3b"
   }
 }
