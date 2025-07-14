@@ -1,4 +1,5 @@
 log_file=log/cx6dx/pytorch_train_$(date +'%Y_%m_%d_%H_%M_%S')_log
+echo $log_file
 
 export NCCL_DEBUG=0 # INFO | TRACE | 0
 export NCCL_DEBUG_SUBSYS=ALL
@@ -13,6 +14,8 @@ export NCCL_IB_HCA=mlx5_0
 export NCCL_IB_GID_INDEX=3
 export NCCL_IB_QPS_PER_CONNECTION=4
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True,max_split_size_mb:64
+
+sudo mount s114:/root/big/llm /root/big/llm
 
 # mlx
 export LD_LIBRARY_PATH=/root/project/ai/nccl-tests/nccl/build/lib:$LD_LIBRARY_PATH
