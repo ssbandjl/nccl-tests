@@ -3,6 +3,8 @@
 # Unlike the rest of the PyTorch this file must be python2 compliant.
 # This script outputs relevant system environment info
 # Run it with `python collect_env.py` or `python -m torch.utils.collect_env`
+
+# source ~/deepseek-env/bin/activate
 import datetime
 import json
 import locale
