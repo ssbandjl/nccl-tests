@@ -1,4 +1,4 @@
-root@gdr114:/lib/x86_64-linux-gnu# /root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a
+root@gdr114:/lib/x86_64-linux-gnu# /root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a  # double 
 
 ************************************
 * Waiting for client to connect... *
@@ -63,7 +63,7 @@ root@gdr116:~/project/rdma/dpu_user_rdma# /root/project/rdma/sdn/perftest/ib_wri
  128        5000             161.95             161.47               1.322765
  256        5000             321.59             320.95               1.314616
  512        5000             630.38             626.07               1.282186
- 1024       5000             1093.16            1086.58              1.112655
+ 1024       5000             1093.16            1086.58              1.112655, 1.11 * 1024, paload, double 
  2048       5000             1578.82            1568.75              0.803198
  4096       5000             2187.36            2183.49              0.558974
  8192       5000             2687.40            2687.06              0.343943

@@ -1,0 +1,34 @@
+{
+  "name": "all_reduce_perf_13p",
+  "type": "cppdbg",
+  "request": "launch",
+  "program": "${workspaceFolder}/build/all_reduce_perf",
+  "args": ["-b", "8", "-e", "1G", "-f", "2", "-g", "1"],
+  "stopAtEntry": false,
+  "cwd": "${workspaceFolder}/build",
+  "environment": [
+    {"name": "NCCL_IB_HCA", "value":"xtrdma_0"},
+    {"name": "NCCL_IB_GID_INDEX", "value":"1"},
+    {"name": "NCCL_DEBUG", "value":"TRACE"},
+    {"name": "NCCL_DEBUG_SUBSYS", "value":"ALL"},
+    {"name": "HUGE_PAGE_NUM", "value":"100"},
+    {"name": "XT_CQ_INLINE_CQE", "value":"0"},
+    {"name": "LD_LIBRARY_PATH", "value":"/root/project/rdma/dpu_user_rdma/build/lib:/root/project/ai/nccl-tests/nccl/build/lib"},
+    {"name": "NCCL_NET_GDR_LEVEL", "value":"SYS"}
+  ],
+  "externalConsole": false,
+  "MIMode": "gdb",
+  "miDebuggerPath": "/usr/bin/gdb",
+  "setupCommands": [
+    {
+      "description": "Enable pretty-printing for gdb",
+      "text": "-enable-pretty-printing",
+      "ignoreFailures": true
+    },
+    {
+      "description": "Set Disassembly Flavor to Intel",
+      "text": "-gdb-set disassembly-flavor intel",
+      "ignoreFailures": true
+    }
+  ]
+},
