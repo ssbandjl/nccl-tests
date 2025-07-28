@@ -1,4 +1,6 @@
+mkdir -p log/xw
 log_file=log/pytorch_train_$(date +'%Y_%m_%d_%H_%M_%S')_log
+echo $log_file
 
 export NCCL_DEBUG=0 # INFO | TRACE | 0
 export NCCL_DEBUG_SUBSYS=ALL
@@ -32,6 +34,11 @@ torchrun \
   --master_addr=192.168.1.10 \
   --master_port=12345 \
   train.py \
+  --tp_size 4 \
+  --dp_size 2 \
+  --ep_size 2 \
+  --use_dpu_embedding \
+  --model_parallel_size 2 \
   --model_name_or_path "/root/big/llm/deepseek-coder-1.3b-base" \
   --deepspeed deepspeed_config.json \
   --per_device_train_batch_size 1 \
