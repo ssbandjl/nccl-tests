@@ -34,6 +34,7 @@ torchrun \
   --tp_size 4 \
   --dp_size 2 \
   --ep_size 2 \
+  --model_parallel_size 2 \
   --use_dpu_embedding \
   --model_name_or_path "/root/big/llm/deepseek-coder-1.3b-base" \
   --deepspeed deepspeed_config.json \
