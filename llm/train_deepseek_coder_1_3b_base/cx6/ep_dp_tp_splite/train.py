@@ -16,6 +16,10 @@ model_name = "/root/big/llm/deepseek-coder-1.3b-base"
 tokenizer = AutoTokenizer.from_pretrained(model_name, local_files_only=True)
 model = AutoModelForCausalLM.from_pretrained(model_name, local_files_only=True)
 
+import logging
+logging.basicConfig(level=logging.DEBUG)
+logging.getLogger("deepspeed").setLevel(logging.DEBUG)
+
 # 📚 Prepare dataset (use wikitext for example)
 # dataset = load_dataset("wikitext", "wikitext-2-raw-v1")
 # dataset = load_from_disk("/root/big/llm/dataset/wikitext-2-v1", "/root/big/llm/dataset/wikitext-2-raw-v1")
