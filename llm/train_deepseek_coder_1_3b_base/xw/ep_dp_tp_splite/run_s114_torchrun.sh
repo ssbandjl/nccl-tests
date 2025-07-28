@@ -1,5 +1,5 @@
-mkdir -p log/cx6dx
-log_file=log/cx6dx/pytorch_train_$(date +'%Y_%m_%d_%H_%M_%S')_log
+mkdir -p log/xw
+log_file=log/xw/pytorch_train_$(date +'%Y_%m_%d_%H_%M_%S')_log
 echo $log_file
 
 export NCCL_DEBUG=0 # INFO | TRACE | 0
@@ -11,16 +11,19 @@ export NCCL_IB_TIMEOUT=24
 export NCCL_P2P_LEVEL=NVL
 export OMP_NUM_THREADS=1
 export NCCL_NET=IB
-export NCCL_IB_HCA=mlx5_0
-export NCCL_IB_GID_INDEX=3
+export NCCL_IB_HCA=xtrdma_0
+export NCCL_IB_GID_INDEX=1
 export NCCL_IB_QPS_PER_CONNECTION=4
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True,max_split_size_mb:64
 
 rm -rf ~/.cache/torch_extensions
 
-# mlx
-export LD_LIBRARY_PATH=/root/project/ai/nccl-tests/nccl/build/lib:$LD_LIBRARY_PATH
-export DS_LOG_LEVEL=debug
+# xt
+export LD_LIBRARY_PATH=/root/project/rdma/dpu_user_rdma/build/lib:/root/project/ai/nccl-tests/nccl/build/lib:$LD_LIBRARY_PATH
+export HUGE_PAGE_NUM=100
+# export HUGE_PAGE_NUM=0
+export XT_CQ_INLINE_CQE=0
+# export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libnccl.so.2.8.3
 
 # nproc_per_node: gpu_nums
 # model_name_or_path deepseek-ai/deepseek-coder-1.3b-base, If it is a filepath on disc, it loads the model from that path. If it is not a path, it first tries to download a pre-trained SentenceTransformer model. If that fails, tries to construct a model from the Hugging Face Hub with that name
@@ -41,4 +44,11 @@ torchrun \
   --deepspeed deepspeed_config.json \
   --output_dir /root/big/llm/ds-output_1_3b \
   --fp16 > "$log_file" 2>&1
-  
+
+# python3 -m torch.distributed.launch \
+#   --nproc_per_node=1 \
+#   --nnodes=2 \
+#   --node_rank=0 \
+#   --master_addr=192.168.1.10 \
+#   --master_port=12345 \
+#   train3.py > "$log_file" 2>&1
