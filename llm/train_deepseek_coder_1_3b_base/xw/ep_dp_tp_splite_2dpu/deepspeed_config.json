@@ -1,0 +1,45 @@
+{
+  "train_micro_batch_size_per_gpu": 1,
+  "gradient_accumulation_steps": "auto",
+  "train_batch_size": "auto",
+  "optimizer": {
+    "type": "AdamW",
+    "params": {
+      "lr": "auto",
+      "betas": [0.9, 0.999],
+      "eps": 1e-8,
+      "weight_decay": "auto"
+    }
+  },
+  "zero_optimization": {
+    "stage": 3,
+    "allgather_partitions": true,
+    "allgather_bucket_size": 5000000,
+    "overlap_comm": false,
+    "reduce_scatter": true,
+    "reduce_bucket_size": 5000000,
+    "contiguous_gradients": false
+  },
+  "fp16": {
+    "enabled": true,
+    "loss_scale": 128,
+    "loss_scale_window": 1000,
+    "hysteresis": 2,
+    "min_loss_scale": 1
+  },
+  "gradient_clipping": 1.0,
+  "aio": {
+    "block_size": 524288,
+    "queue_depth": 2,
+    "thread_count": 1,
+    "single_submit": false,
+    "overlap_events": true
+  },
+  "checkpoint": {
+    "tag": "latest",
+    "save": "/root/big/llm/ds-output_1_3b"
+  },
+  "logging": {
+    "log_level": "debug"
+  }
+}
