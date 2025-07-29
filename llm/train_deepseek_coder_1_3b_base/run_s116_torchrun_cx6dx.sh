@@ -23,7 +23,7 @@ export LD_LIBRARY_PATH=/root/project/ai/nccl-tests/nccl/build/lib:$LD_LIBRARY_PA
 # nproc_per_node: gpu_nums
 source ~/deepseek-env/bin/activate
 torchrun \
-  --nproc_per_node=4 \
+  --nproc_per_node=1 \
   --nnodes=2 \
   --node_rank=1 \
   --master_addr=192.168.1.10 \

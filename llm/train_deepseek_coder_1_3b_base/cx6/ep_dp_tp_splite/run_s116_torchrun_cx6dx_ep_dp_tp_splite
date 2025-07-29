@@ -20,6 +20,7 @@ sudo mount s114:/root/big/llm /root/big/llm
 
 # mlx
 export LD_LIBRARY_PATH=/root/project/ai/nccl-tests/nccl/build/lib:$LD_LIBRARY_PATH
+export DS_LOG_LEVEL=debug
 
 # nproc_per_node: gpu_nums
 source ~/deepseek-env/bin/activate
