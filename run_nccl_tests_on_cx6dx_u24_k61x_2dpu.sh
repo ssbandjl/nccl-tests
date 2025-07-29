@@ -32,12 +32,12 @@ for algo in ${ALGO_LIST};do
   log_file=log/cx6dx/2dpu/nccl_tests_${algo}_cx6dx_nic_pix_gpu_u24_k61x_2dpu_$(date +'%Y_%m_%d_%H_%M_%S')_log
 	echo $algo
 	echo $log_file
-  mpirun -np 4 -H 192.168.1.10:1,192.168.1.11:1,192.168.2.10:1,192.168.2.11:1 \
+  mpirun -np 8 -H 192.168.1.10:2,192.168.1.11:2,192.168.2.10:2,192.168.2.11:2 -bind-to core -map-by node \
     -x NCCL_DEBUG=TRACE \
     -x NCCL_DEBUG_SUBSYS=NET \
     -x NCCL_IB_DISABLE=0 \
     -x NCCL_NET=IB \
-    -x NCCL_IB_HCA=mlx5_0:1,mlx5_2:1 \
+    -x NCCL_IB_HCA=mlx5_2:1,mlx5_0:1 \
     -x NCCL_IB_GID_INDEX=3 \
     -x NCCL_NET_GDR_LEVEL=SYS \
     -x NCCL_IB_QPS_PER_CONNECTION=4 \
