@@ -1,0 +1,193 @@
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 470, in cached_files
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 470, in cached_files
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 470, in cached_files
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 470, in cached_files
+        hf_hub_download(        hf_hub_download(
+hf_hub_download(hf_hub_download(
+
+
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)    
+validate_repo_id(arg_value)        
+validate_repo_id(arg_value)validate_repo_id(arg_value)
+
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+    raise HFValidationError(huggingface_hub.errors
+.HFValidationError: huggingface_hub.errorsRepo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/big/llm/deepseek-coder-1.3b-base'. Use `repo_type` argument if needed.        .
+raise HFValidationError(raise HFValidationError(HFValidationError
+
+: 
+Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/big/llm/deepseek-coder-1.3b-base'. Use `repo_type` argument if needed.huggingface_hub.errorshuggingface_hub.errors
+.During handling of the above exception, another exception occurred:
+HFValidationError.: HFValidationError
+
+Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/big/llm/deepseek-coder-1.3b-base'. Use `repo_type` argument if needed.: 
+Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/big/llm/deepseek-coder-1.3b-base'. Use `repo_type` argument if needed.Traceback (most recent call last):
+During handling of the above exception, another exception occurred:
+
+
+
+  File "/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py", line 16, in <module>
+
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+During handling of the above exception, another exception occurred:
+
+
+  File "/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py", line 16, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py", line 16, in <module>
+  File "/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py", line 16, in <module>
+    tokenizer = AutoTokenizer.from_pretrained(model_name, local_files_only=True)
+    tokenizer = AutoTokenizer.from_pretrained(model_name, local_files_only=True)
+    tokenizer = AutoTokenizer.from_pretrained(model_name, local_files_only=True)    
+tokenizer = AutoTokenizer.from_pretrained(model_name, local_files_only=True) 
+                                          ^   ^   ^   ^ ^^  ^^  ^^  ^^  ^^  ^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^
+^^  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 983, in from_pretrained
+^^  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 983, in from_pretrained
+^^^^^^^^^^^
+
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 983, in from_pretrained
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 983, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+        tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+ 
+                                                                           ^ ^   ^^  ^^  ^ ^ ^ ^ ^ ^ ^^^ ^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 815, in get_tokenizer_config
+^
+^^^^  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 815, in get_tokenizer_config
+^^
+^^^  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 815, in get_tokenizer_config
+
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 815, in get_tokenizer_config
+    resolved_config_file = cached_file(
+    resolved_config_file = cached_file( 
+               resolved_config_file = cached_file( resolved_config_file = cached_file( 
+ 
+                                                                                  ^   ^  ^^  ^^  ^^  ^^  ^^  ^^^^^^^^^^^^^^^^^^^^^
+^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 312, in cached_file
+^^^^  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 312, in cached_file
+^^^^^^
+
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 312, in cached_file
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 312, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)    
+file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)    
+file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+                              ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^
+^^^^^  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 523, in cached_files
+^^  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 523, in cached_files
+^^^^^^
+
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 523, in cached_files
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 523, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision) for filename in full_filenames    
+_get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision) for filename in full_filenames
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision) for filename in full_filenames
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision) for filename in full_filenames
+          ^^ ^^ ^^^ ^^^ ^^^ ^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 140, in _get_cache_file_to_return
+^^^^^  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 140, in _get_cache_file_to_return
+
+^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 140, in _get_cache_file_to_return
+  File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/hub.py", line 140, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision)
+    resolved_file = try_to_load_from_cache(path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision)
+    resolved_file = try_to_load_from_cache(path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision)
+    resolved_file = try_to_load_from_cache(path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision)
+                                                              ^   ^   ^   ^   ^^  ^^  ^ ^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+^^^^^^^
+^^
+
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    validate_repo_id(arg_value)
+        validate_repo_id(arg_value)validate_repo_id(arg_value)
+
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+  File "/root/deepseek-env/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/big/llm/deepseek-coder-1.3b-base'. Use `repo_type` argument if needed.
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError    : raise HFValidationError(Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/big/llm/deepseek-coder-1.3b-base'. Use `repo_type` argument if needed.    
+
+raise HFValidationError(
+huggingface_hub.errors.HFValidationErrorhuggingface_hub.errors: .Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/big/llm/deepseek-coder-1.3b-base'. Use `repo_type` argument if needed.HFValidationError
+: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/big/llm/deepseek-coder-1.3b-base'. Use `repo_type` argument if needed.
+E0714 17:02:22.830000 6787 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 0 (pid: 6788) of binary: /root/deepseek-env/bin/python3
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 270, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2025-07-14_17:02:22
+  host      : s116
+  rank      : 2 (local_rank: 1)
+  exitcode  : 1 (pid: 6789)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2025-07-14_17:02:22
+  host      : s116
+  rank      : 3 (local_rank: 2)
+  exitcode  : 1 (pid: 6790)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2025-07-14_17:02:22
+  host      : s116
+  rank      : 4 (local_rank: 3)
+  exitcode  : 1 (pid: 6791)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-07-14_17:02:22
+  host      : s116
+  rank      : 1 (local_rank: 0)
+  exitcode  : 1 (pid: 6788)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

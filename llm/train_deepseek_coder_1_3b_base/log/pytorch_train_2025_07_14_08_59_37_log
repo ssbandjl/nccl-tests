@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 5, in <module>
+    from torch.distributed.run import main
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/__init__.py", line 2126, in <module>
+    from torch import _VF as _VF, functional as functional  # usort: skip
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/functional.py", line 8, in <module>
+    import torch.nn.functional as F
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/__init__.py", line 8, in <module>
+    from torch.nn.modules import *  # usort: skip # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/__init__.py", line 2, in <module>
+    from .linear import Bilinear, Identity, LazyLinear, Linear  # usort: skip
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 7, in <module>
+    from torch.nn import functional as F, init
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/functional.py", line 11, in <module>
+    from torch._jit_internal import (
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/_jit_internal.py", line 42, in <module>
+    import torch.distributed.rpc
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/rpc/__init__.py", line 77, in <module>
+    from .server_process_global_profiler import _server_process_global_profile
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/rpc/server_process_global_profiler.py", line 7, in <module>
+    from torch.autograd.profiler_legacy import profile
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/autograd/__init__.py", line 16, in <module>
+    from torch import _vmap_internals
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/_vmap_internals.py", line 8, in <module>
+    from torch.utils._pytree import _broadcast_to_and_flatten, tree_flatten, tree_unflatten
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/utils/_pytree.py", line 1205, in <module>
+    def map_only(type_or_types_or_pred: Type2[T, S], /) -> MapOnlyFn[Fn2[T, S, Any]]:
+                                        ~~~~~^^^^^^
+  File "/usr/lib/python3.12/typing.py", line 977, in _typevar_subst
+    def _typevar_subst(self, arg):
+    
+KeyboardInterrupt

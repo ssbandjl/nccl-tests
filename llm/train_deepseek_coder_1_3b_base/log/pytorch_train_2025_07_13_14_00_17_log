@@ -1,0 +1,212 @@
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 36718 examples [00:00, 349893.00 examples/s]Generating train split: 36718 examples [00:00, 348333.96 examples/s]
+Generating validation split: 0 examples [00:00, ? examples/s]Generating validation split: 3760 examples [00:00, 461870.93 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 4358 examples [00:00, 528762.09 examples/s]
+Map:   0%|          | 0/36718 [00:00<?, ? examples/s]Map:   5%|▌         | 2000/36718 [00:00<00:03, 9643.05 examples/s]Map:  11%|█         | 4000/36718 [00:00<00:03, 10024.03 examples/s]Map:  16%|█▋        | 6000/36718 [00:00<00:02, 10502.02 examples/s]Map:  22%|██▏       | 8000/36718 [00:00<00:02, 9809.07 examples/s] Map:  25%|██▍       | 9000/36718 [00:00<00:02, 9822.22 examples/s]Map:  27%|██▋       | 10000/36718 [00:01<00:02, 9834.28 examples/s]Map:  30%|██▉       | 11000/36718 [00:01<00:02, 9755.71 examples/s]Map:  33%|███▎      | 12000/36718 [00:01<00:04, 6135.75 examples/s]Map:  38%|███▊      | 14000/36718 [00:01<00:02, 7679.22 examples/s]Map:  44%|████▎     | 16000/36718 [00:01<00:02, 8738.65 examples/s]Map:  49%|████▉     | 18000/36718 [00:01<00:02, 9203.82 examples/s]Map:  54%|█████▍    | 20000/36718 [00:02<00:01, 10014.09 examples/s]Map:  60%|█████▉    | 22000/36718 [00:02<00:01, 10427.27 examples/s]Map:  65%|██████▌   | 24000/36718 [00:02<00:01, 11166.29 examples/s]Map:  71%|███████   | 26000/36718 [00:02<00:00, 10993.71 examples/s]Map:  76%|███████▋  | 28000/36718 [00:02<00:00, 10291.00 examples/s]Map:  82%|████████▏ | 30000/36718 [00:03<00:00, 8280.37 examples/s] Map:  84%|████████▍ | 31000/36718 [00:03<00:00, 8318.29 examples/s]Map:  90%|████████▉ | 33000/36718 [00:03<00:00, 8786.53 examples/s]Map:  93%|█████████▎| 34000/36718 [00:03<00:00, 8844.56 examples/s]Map:  98%|█████████▊| 36000/36718 [00:03<00:00, 9182.65 examples/s]Map: 100%|██████████| 36718/36718 [00:03<00:00, 9213.75 examples/s]
+Map:   0%|          | 0/3760 [00:00<?, ? examples/s]Map:  53%|█████▎    | 2000/3760 [00:00<00:00, 9586.16 examples/s]Map:  80%|███████▉  | 3000/3760 [00:00<00:00, 9417.96 examples/s]Map: 100%|██████████| 3760/3760 [00:00<00:00, 9381.78 examples/s]
+Map:   0%|          | 0/4358 [00:00<?, ? examples/s]Map:  23%|██▎       | 1000/4358 [00:00<00:00, 9383.92 examples/s]Map:  46%|████▌     | 2000/4358 [00:00<00:00, 9593.21 examples/s]Map:  69%|██████▉   | 3000/4358 [00:00<00:00, 9473.62 examples/s]Map: 100%|██████████| 4358/4358 [00:00<00:00, 10068.79 examples/s]Map: 100%|██████████| 4358/4358 [00:00<00:00, 9811.39 examples/s] 
+[2025-07-13 14:00:57,626] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-07-13 14:00:59,214] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-07-13 14:00:59,226] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py:80: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py312_cu126/fused_adam/build.ninja...
+/root/deepseek-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module fused_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module fused_adam...
+Time to load fused_adam op: 0.03785872459411621 seconds
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+W0713 14:10:59.598000 16700 torch/distributed/elastic/agent/server/api.py:719] Received 2 death signal, shutting down workers
+W0713 14:10:59.600000 16700 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 16711 closing signal SIGINT
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/train.py", line 90, in <module>
+[rank4]:     trainer.train()
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2206, in train
+[rank4]:     return inner_training_loop(
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 2548, in _inner_training_loop
+[rank4]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank4]:                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 3749, in training_step
+[rank4]:     loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/trainer.py", line 3836, in compute_loss
+[rank4]:     outputs = model(**inputs)
+[rank4]:               ^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank4]:     return forward_call(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 20, in wrapped_fn
+[rank4]:     ret_val = func(*args, **kwargs)
+[rank4]:               ^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/engine.py", line 2105, in forward
+[rank4]:     loss = self.module(*inputs, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+[rank4]:     return inner()
+[rank4]:            ^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1805, in inner
+[rank4]:     result = forward_call(*args, **kwargs)
+[rank4]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/generic.py", line 943, in wrapper
+[rank4]:     output = func(self, *args, **kwargs)
+[rank4]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 553, in forward
+[rank4]:     outputs: BaseModelOutputWithPast = self.model(
+[rank4]:                                        ^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+[rank4]:     return inner()
+[rank4]:            ^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1805, in inner
+[rank4]:     result = forward_call(*args, **kwargs)
+[rank4]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/utils/generic.py", line 943, in wrapper
+[rank4]:     output = func(self, *args, **kwargs)
+[rank4]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 441, in forward
+[rank4]:     layer_outputs = decoder_layer(
+[rank4]:                     ^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/modeling_layers.py", line 83, in __call__
+[rank4]:     return super().__call__(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+[rank4]:     return inner()
+[rank4]:            ^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1805, in inner
+[rank4]:     result = forward_call(*args, **kwargs)
+[rank4]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 290, in forward
+[rank4]:     hidden_states, self_attn_weights = self.self_attn(
+[rank4]:                                        ^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+[rank4]:     return inner()
+[rank4]:            ^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1805, in inner
+[rank4]:     result = forward_call(*args, **kwargs)
+[rank4]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 259, in forward
+[rank4]:     attn_output = self.o_proj(attn_output)
+[rank4]:                   ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank4]:     return self._call_impl(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1857, in _call_impl
+[rank4]:     return inner()
+[rank4]:            ^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in inner
+[rank4]:     args_result = hook(self, args)
+[rank4]:                   ^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+[rank4]:     return fn(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 298, in _pre_forward_module_hook
+[rank4]:     self.pre_sub_module_forward_function(module)
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[rank4]:     return func(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/parameter_offload.py", line 473, in pre_sub_module_forward_function
+[rank4]:     param_coordinator.fetch_sub_module(sub_module, forward=True)
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+[rank4]:     return fn(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/utils/nvtx.py", line 20, in wrapped_fn
+[rank4]:     ret_val = func(*args, **kwargs)
+[rank4]:               ^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[rank4]:     return func(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/deepspeed/runtime/zero/partitioned_param_coordinator.py", line 335, in fetch_sub_module
+[rank4]:     self.__ongoing_fetch_events.popleft().synchronize()
+[rank4]:   File "/root/deepseek-env/lib/python3.12/site-packages/torch/cuda/streams.py", line 227, in synchronize
+[rank4]:     super().synchronize()
+[rank4]: KeyboardInterrupt
+W0713 14:10:59.898000 16700 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 16711 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 870, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 16700 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 720, in run
+    self._shutdown(e.sigval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 16700 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 261, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 725, in run
+    self._shutdown()
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 16700 got signal: 2
