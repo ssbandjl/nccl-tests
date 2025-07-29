@@ -42,7 +42,7 @@ for algo in ${ALGO_LIST};do
     -x NCCL_NET_GDR_LEVEL=SYS \
     -x NCCL_IB_QPS_PER_CONNECTION=4 \
     -x NCCL_GDR_FLUSH_DISABLE=1 \
-    -x NCCL_MAX_NCHANNELS=1 \
+    -x NCCL_MAX_NCHANNELS=4 \
     -x LD_LIBRARY_PATH=/root/project/ai/nccl-tests/nccl/build/lib \
     -x NCCL_TOPO_DUMP_FILE=topo_${algo}.xml \
     --allow-run-as-root \
