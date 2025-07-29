@@ -23,23 +23,22 @@ CUDA_VISIBLE_DEVICES=1
 COMMENT
 
 ALGO_LIST="all_reduce_perf"
-ALGO_LIST="all_reduce_perf"
 ALGO_LIST="all_gather_perf all_reduce_perf alltoall_perf broadcast_perf gather_perf hypercube_perf reduce_perf reduce_scatter_perf scatter_perf sendrecv_perf"
+ALGO_LIST="all_reduce_perf"
+mkdir -p log/13p/2dpu/
 for algo in ${ALGO_LIST};do
-  log_file=log/13p/nccl_tests_${algo}_13p_u24_k61x_2dpu_$(date +'%Y_%m_%d_%H_%M_%S')_log
+  log_file=log/13p/2dpu/nccl_tests_${algo}_13p_u24_k61x_2dpu_$(date +'%Y_%m_%d_%H_%M_%S')_log
 	echo $algo
 	echo $log_file
-  mpirun -np 4 -H 192.168.1.10:1,192.168.2.11:1,192.168.1.11:1,192.168.2.11:1 \
-    -bind-to core -map-by node \
-    -x NCCL_DEBUG=INFO \
+  mpirun -np 4 -H 192.168.1.10:2,192.168.1.11:2,192.168.2.10:2,192.168.2.11:2 \
+    -x NCCL_DEBUG=TRACE \
     -x NCCL_IB_DISABLE=0 \
     -x NCCL_NET=IB \
     -x NCCL_IB_TIMEOUT=24 \
-    -x NCCL_IB_HCA=xtrdma_0,xtrdma_4 \
+    -x NCCL_IB_HCA=xtrdma_0:1,xtrdma_4:1 \
     -x NCCL_IB_GID_INDEX=1 \
     -x NCCL_NET_GDR_LEVEL=SYS \
     -x NCCL_IB_QPS_PER_CONNECTION=4 \
-    -x NCCL_P2P_LEVEL=PIX \
     -x NCCL_ALGO=Ring \
     -x NCCL_PROTO=Simple \
     -x NCCL_GDR_FLUSH_DISABLE=1 \
