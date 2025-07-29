@@ -32,6 +32,7 @@ for algo in ${ALGO_LIST};do
 	echo $log_file
   mpirun -np 4 -H 192.168.1.10:2,192.168.1.11:2,192.168.2.10:2,192.168.2.11:2 \
     -x NCCL_DEBUG=TRACE \
+    -x NCCL_DEBUG_SUBSYS=NET \
     -x NCCL_IB_DISABLE=0 \
     -x NCCL_NET=IB \
     -x NCCL_IB_TIMEOUT=24 \
