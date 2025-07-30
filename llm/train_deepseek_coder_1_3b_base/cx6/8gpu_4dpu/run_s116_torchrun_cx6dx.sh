@@ -14,6 +14,7 @@ export NCCL_NET=IB
 export NCCL_IB_HCA=mlx5_0,mlx5_2
 export NCCL_IB_GID_INDEX=3
 export NCCL_IB_QPS_PER_CONNECTION=4
+export NCCL_MAX_NCHANNELS=4
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True,max_split_size_mb:64
 
 sudo mount s114:/root/big/llm /root/big/llm
