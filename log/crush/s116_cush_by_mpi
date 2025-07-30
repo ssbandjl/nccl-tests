@@ -1,0 +1,1331 @@
+
+[Wed Jul 30 17:26:21 2025] 2524b99a8: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:21 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:660, QPC
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_hw_flush_qp(), /root/project/rdma/dpu_kernel_rdma/qp.c:32, (pid 13470): Flush QP
+[Wed Jul 30 17:26:21 2025] xtrdma_get_aeqe_info(), /root/project/rdma/dpu_kernel_rdma/event.c:156, (pid 0): ecode[0x8], qp_st[4], wqe_idx_wrap[0], queue_wqe_idx[0], pkt_opcode[29], queue_num[661]
+[Wed Jul 30 17:26:21 2025] 2524b99b0: 0xc000 001d 0800 0295
+[Wed Jul 30 17:26:21 2025] 2524b99b8: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:21 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:661, QPC
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_ib_dealloc_pd(), /root/project/rdma/dpu_kernel_rdma/pd.c:43, (pid 13470): [xtrdma_dealloc_pd]
+[Wed Jul 30 17:26:21 2025] xtrdma_hw_flush_qp(), /root/project/rdma/dpu_kernel_rdma/qp.c:32, (pid 13470): Flush QP
+[Wed Jul 30 17:26:21 2025] xtrdma_get_aeqe_info(), /root/project/rdma/dpu_kernel_rdma/event.c:156, (pid 0): ecode[0x8], qp_st[4], wqe_idx_wrap[0], queue_wqe_idx[0], pkt_opcode[125], queue_num[662]
+[Wed Jul 30 17:26:21 2025] 2524b99c0: 0xc000 007d 0800 0296
+[Wed Jul 30 17:26:21 2025] 2524b99c8: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:21 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:662, QPC
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_hw_flush_qp(), /root/project/rdma/dpu_kernel_rdma/qp.c:32, (pid 13470): Flush QP
+[Wed Jul 30 17:26:21 2025] xtrdma_get_aeqe_info(), /root/project/rdma/dpu_kernel_rdma/event.c:156, (pid 0): ecode[0x8], qp_st[4], wqe_idx_wrap[0], queue_wqe_idx[0], pkt_opcode[125], queue_num[663]
+[Wed Jul 30 17:26:21 2025] 2524b99d0: 0xc000 007d 0800 0297
+[Wed Jul 30 17:26:21 2025] 2524b99d8: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:21 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:663, QPC
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_hw_flush_qp(), /root/project/rdma/dpu_kernel_rdma/qp.c:32, (pid 13470): Flush QP
+[Wed Jul 30 17:26:21 2025] xtrdma_get_aeqe_info(), /root/project/rdma/dpu_kernel_rdma/event.c:156, (pid 0): ecode[0x8], qp_st[4], wqe_idx_wrap[0], queue_wqe_idx[0], pkt_opcode[125], queue_num[664]
+[Wed Jul 30 17:26:21 2025] 2524b99e0: 0xc000 007d 0800 0298
+[Wed Jul 30 17:26:21 2025] 2524b99e8: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:21 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:664, QPC
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_hw_flush_qp(), /root/project/rdma/dpu_kernel_rdma/qp.c:32, (pid 13470): Flush QP
+[Wed Jul 30 17:26:21 2025] xtrdma_get_aeqe_info(), /root/project/rdma/dpu_kernel_rdma/event.c:156, (pid 0): ecode[0x8], qp_st[4], wqe_idx_wrap[0], queue_wqe_idx[0], pkt_opcode[125], queue_num[665]
+[Wed Jul 30 17:26:21 2025] 2524b99f0: 0xc000 007d 0800 0299
+[Wed Jul 30 17:26:21 2025] 2524b99f8: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:21 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:665, QPC
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_hw_flush_qp(), /root/project/rdma/dpu_kernel_rdma/qp.c:32, (pid 13470): Flush QP
+[Wed Jul 30 17:26:21 2025] xtrdma_get_aeqe_info(), /root/project/rdma/dpu_kernel_rdma/event.c:156, (pid 0): ecode[0x8], qp_st[4], wqe_idx_wrap[0], queue_wqe_idx[0], pkt_opcode[125], queue_num[666]
+[Wed Jul 30 17:26:21 2025] 2524b9a00: 0xc000 007d 0800 029a
+[Wed Jul 30 17:26:21 2025] 2524b9a08: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:21 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:666, QPC
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_hw_flush_qp(), /root/project/rdma/dpu_kernel_rdma/qp.c:32, (pid 13470): Flush QP
+[Wed Jul 30 17:26:21 2025] xtrdma_get_aeqe_info(), /root/project/rdma/dpu_kernel_rdma/event.c:156, (pid 0): ecode[0x8], qp_st[4], wqe_idx_wrap[0], queue_wqe_idx[0], pkt_opcode[125], queue_num[667]
+[Wed Jul 30 17:26:21 2025] 2524b9a10: 0xc000 007d 0800 029b
+[Wed Jul 30 17:26:21 2025] 2524b9a18: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:21 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:667, QPC
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_hw_flush_qp(), /root/project/rdma/dpu_kernel_rdma/qp.c:32, (pid 13470): Flush QP
+[Wed Jul 30 17:26:21 2025] xtrdma_get_aeqe_info(), /root/project/rdma/dpu_kernel_rdma/event.c:156, (pid 0): ecode[0x8], qp_st[4], wqe_idx_wrap[0], queue_wqe_idx[0], pkt_opcode[125], queue_num[668]
+[Wed Jul 30 17:26:21 2025] 2524b9a20: 0xc000 007d 0800 029c
+[Wed Jul 30 17:26:21 2025] 2524b9a28: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:21 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:668, QPC
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_hw_flush_qp(), /root/project/rdma/dpu_kernel_rdma/qp.c:32, (pid 13470): Flush QP
+[Wed Jul 30 17:26:21 2025] xtrdma_get_aeqe_info(), /root/project/rdma/dpu_kernel_rdma/event.c:156, (pid 0): ecode[0x8], qp_st[4], wqe_idx_wrap[0], queue_wqe_idx[0], pkt_opcode[125], queue_num[669]
+[Wed Jul 30 17:26:21 2025] 2524b9a30: 0xc000 007d 0800 029d
+[Wed Jul 30 17:26:21 2025] 2524b9a38: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:21 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:669, QPC
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_hw_flush_qp(), /root/project/rdma/dpu_kernel_rdma/qp.c:32, (pid 13470): Flush QP
+[Wed Jul 30 17:26:21 2025] xtrdma_get_aeqe_info(), /root/project/rdma/dpu_kernel_rdma/event.c:156, (pid 0): ecode[0x8], qp_st[4], wqe_idx_wrap[0], queue_wqe_idx[0], pkt_opcode[125], queue_num[670]
+[Wed Jul 30 17:26:21 2025] 2524b9a40: 0xc000 007d 0800 029e
+[Wed Jul 30 17:26:21 2025] 2524b9a48: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:21 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:670, QPC
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:21 2025] xtrdma_hw_flush_qp(), /root/project/rdma/dpu_kernel_rdma/qp.c:32, (pid 13470): Flush QP
+[Wed Jul 30 17:26:21 2025] xtrdma_get_aeqe_info(), /root/project/rdma/dpu_kernel_rdma/event.c:156, (pid 0): ecode[0x8], qp_st[4], wqe_idx_wrap[0], queue_wqe_idx[0], pkt_opcode[125], queue_num[671]
+[Wed Jul 30 17:26:21 2025] 2524b9a50: 0xc000 007d 0800 029f
+[Wed Jul 30 17:26:21 2025] 2524b9a58: 0x0000 0000 0000 0000
+[Wed Jul 30 17:26:22 2025] xtrdma_free_qpc(), /root/project/rdma/dpu_kernel_rdma/qp.c:1181, (pid 13470): Free qpn:671, QPC
+[Wed Jul 30 17:26:22 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:22 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:22 2025] xtrdma_free_user_buf:317:(pid 13470): use huge page, not need to free sd page mem
+[Wed Jul 30 17:26:22 2025] xtrdma_ib_dealloc_pd(), /root/project/rdma/dpu_kernel_rdma/pd.c:43, (pid 13470): [xtrdma_dealloc_pd]
+[Wed Jul 30 17:26:38 2025] watchdog: Watchdog detected hard LOCKUP on cpu 0
+[Wed Jul 30 17:26:38 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:26:38 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:26:38 2025] CPU: 0 UID: 0 PID: 13469 Comm: all_reduce_perf Tainted: P           OE      6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:26:38 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[Wed Jul 30 17:26:38 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:26:38 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x23a/0x310
+[Wed Jul 30 17:26:38 2025] Code: e5 10 c1 e0 12 45 89 ee 41 09 c6 44 89 f0 c1 e8 10 66 87 43 02 89 c2 c1 e2 10 81 fa ff ff 00 00 77 51 31 d2 eb 02 f3 90 8b 03 <66> 85 c0 75 f7 44 39 f0 0f 84 94 00 00 00 c6 03 01 48 85 d2 74 0e
+[Wed Jul 30 17:26:38 2025] RSP: 0018:ffffb046bb10f5b8 EFLAGS: 00000002
+[Wed Jul 30 17:26:38 2025] RAX: 0000000000080101 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:26:38 2025] RDX: 0000000000000000 RSI: 0000000000000101 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:26:38 2025] RBP: ffffb046bb10f5e0 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:26:38 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b57ff037940
+[Wed Jul 30 17:26:38 2025] R13: 0000000000000000 R14: 0000000000040000 R15: 000000000000024a
+[Wed Jul 30 17:26:38 2025] FS:  00007cbe9b885000(0000) GS:ffff9b57ff000000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:26:38 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:26:38 2025] CR2: 000058f60f5560c0 CR3: 0000000256a52001 CR4: 00000000003706f0
+[Wed Jul 30 17:26:38 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:26:38 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:26:38 2025] Call Trace:
+[Wed Jul 30 17:26:38 2025]  <NMI>
+[Wed Jul 30 17:26:38 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:26:38 2025]  ? watchdog_hardlockup_check+0x1cb/0x3b0
+[Wed Jul 30 17:26:38 2025]  ? __pfx_read_tsc+0x10/0x10
+[Wed Jul 30 17:26:38 2025]  ? watchdog_overflow_callback+0x68/0x80
+[Wed Jul 30 17:26:38 2025]  ? __perf_event_overflow+0x112/0x340
+[Wed Jul 30 17:26:38 2025]  ? x86_perf_event_set_period+0xda/0x1e0
+[Wed Jul 30 17:26:38 2025]  ? perf_event_overflow+0x19/0x30
+[Wed Jul 30 17:26:38 2025]  ? handle_pmi_common+0x17a/0x430
+[Wed Jul 30 17:26:38 2025]  ? __ghes_peek_estatus.isra.0+0x4e/0xc0
+[Wed Jul 30 17:26:38 2025]  ? intel_pmu_handle_irq+0x107/0x260
+[Wed Jul 30 17:26:38 2025]  ? perf_event_nmi_handler+0x2b/0x50
+[Wed Jul 30 17:26:38 2025]  ? nmi_handle+0x67/0x180
+[Wed Jul 30 17:26:38 2025]  ? default_do_nmi+0x47/0x150
+[Wed Jul 30 17:26:38 2025]  ? exc_nmi+0x1c1/0x290
+[Wed Jul 30 17:26:38 2025]  ? end_repeat_nmi+0xf/0x53
+[Wed Jul 30 17:26:38 2025]  ? native_queued_spin_lock_slowpath+0x23a/0x310
+[Wed Jul 30 17:26:38 2025]  ? native_queued_spin_lock_slowpath+0x23a/0x310
+[Wed Jul 30 17:26:38 2025]  ? native_queued_spin_lock_slowpath+0x23a/0x310
+[Wed Jul 30 17:26:38 2025]  </NMI>
+[Wed Jul 30 17:26:38 2025]  <TASK>
+[Wed Jul 30 17:26:38 2025]  _raw_spin_lock_irq+0x51/0x80
+[Wed Jul 30 17:26:38 2025]  xtrdma_ib_create_qp+0x9e9/0x1b00 [xt_rdma]
+[Wed Jul 30 17:26:38 2025]  create_qp+0x1a8/0x2b0 [ib_core]
+[Wed Jul 30 17:26:38 2025]  ib_create_qp_user+0x28/0x140 [ib_core]
+[Wed Jul 30 17:26:38 2025]  ib_uverbs_handler_UVERBS_METHOD_QP_CREATE+0x41d/0x750 [ib_uverbs]
+[Wed Jul 30 17:26:38 2025]  ? __pfx_ib_uverbs_qp_event_handler+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:26:38 2025]  ib_uverbs_run_method+0x307/0x330 [ib_uverbs]
+[Wed Jul 30 17:26:38 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_CREATE+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:26:38 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:26:38 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:26:38 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:26:38 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:26:38 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:26:38 2025]  ? __call_rcu_common+0xcd/0x380
+[Wed Jul 30 17:26:38 2025]  ? __pfx_vm_area_free_rcu_cb+0x10/0x10
+[Wed Jul 30 17:26:38 2025]  ? call_rcu+0x34/0x50
+[Wed Jul 30 17:26:38 2025]  ? vm_area_free+0x15/0x20
+[Wed Jul 30 17:26:38 2025]  ? remove_vma+0x74/0x90
+[Wed Jul 30 17:26:38 2025]  ? do_vmi_align_munmap+0x255/0x5b0
+[Wed Jul 30 17:26:38 2025]  ? __vm_munmap+0xc6/0x180
+[Wed Jul 30 17:26:38 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:26:38 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:26:38 2025]  ? tick_program_event+0x43/0xa0
+[Wed Jul 30 17:26:38 2025]  ? hrtimer_interrupt+0x121/0x250
+[Wed Jul 30 17:26:38 2025]  ? irqentry_exit_to_user_mode+0x43/0x250
+[Wed Jul 30 17:26:38 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:26:38 2025]  ? sysvec_apic_timer_interrupt+0x57/0xc0
+[Wed Jul 30 17:26:38 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:26:38 2025] RIP: 0033:0x7cbe99324ded
+[Wed Jul 30 17:26:38 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:26:38 2025] RSP: 002b:00007ffebeb3c520 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:26:38 2025] RAX: ffffffffffffffda RBX: 00007ffebeb3c5d0 RCX: 00007cbe99324ded
+[Wed Jul 30 17:26:38 2025] RDX: 00007ffebeb3c5f0 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:26:38 2025] RBP: 00007ffebeb3c570 R08: 000058f60f545ce0 R09: 00007ffebeb3c698
+[Wed Jul 30 17:26:38 2025] R10: 000000010004000a R11: 0000000000000246 R12: 00007ffebeb3c75c
+[Wed Jul 30 17:26:38 2025] R13: 0000000000000013 R14: 000058f60f5070c0 R15: 00007ffebeb3c880
+[Wed Jul 30 17:26:38 2025]  </TASK>
+[Wed Jul 30 17:26:39 2025] watchdog: Watchdog detected hard LOCKUP on cpu 1
+[Wed Jul 30 17:26:39 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:26:39 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:26:39 2025] CPU: 1 UID: 0 PID: 13470 Comm: all_reduce_perf Tainted: P           OE      6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:26:39 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[Wed Jul 30 17:26:39 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:26:39 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x2be/0x310
+[Wed Jul 30 17:26:39 2025] Code: 4d 63 ff 4c 8d a8 40 79 03 00 49 81 ff 00 20 00 00 73 49 4e 03 2c fd e0 fe d8 a1 4d 89 65 00 41 8b 44 24 08 85 c0 75 0b f3 90 <41> 8b 44 24 08 85 c0 74 f5 49 8b 14 24 48 85 d2 0f 84 64 ff ff ff
+[Wed Jul 30 17:26:39 2025] RSP: 0018:ffffb046bb117558 EFLAGS: 00000046
+[Wed Jul 30 17:26:39 2025] RAX: 0000000000000000 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:26:39 2025] RDX: 000000000000001e RSI: 0000000000780101 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:26:39 2025] RBP: ffffb046bb117580 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:26:39 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b57ff0b7940
+[Wed Jul 30 17:26:39 2025] R13: ffff9b57ff7b7940 R14: 0000000000080000 R15: 000000000000001d
+[Wed Jul 30 17:26:39 2025] FS:  00007102201fd000(0000) GS:ffff9b57ff080000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:26:39 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:26:39 2025] CR2: 00005f9e1bca4100 CR3: 0000000109318001 CR4: 00000000003706f0
+[Wed Jul 30 17:26:39 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:26:39 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:26:39 2025] Call Trace:
+[Wed Jul 30 17:26:39 2025]  <NMI>
+[Wed Jul 30 17:26:39 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:26:39 2025]  ? watchdog_hardlockup_check+0x1cb/0x3b0
+[Wed Jul 30 17:26:39 2025]  ? __pfx_read_tsc+0x10/0x10
+[Wed Jul 30 17:26:39 2025]  ? watchdog_overflow_callback+0x68/0x80
+[Wed Jul 30 17:26:39 2025]  ? __perf_event_overflow+0x112/0x340
+[Wed Jul 30 17:26:39 2025]  ? x86_perf_event_set_period+0xda/0x1e0
+[Wed Jul 30 17:26:39 2025]  ? perf_event_overflow+0x19/0x30
+[Wed Jul 30 17:26:39 2025]  ? handle_pmi_common+0x17a/0x430
+[Wed Jul 30 17:26:39 2025]  ? __ghes_peek_estatus.isra.0+0x4e/0xc0
+[Wed Jul 30 17:26:39 2025]  ? intel_pmu_handle_irq+0x107/0x260
+[Wed Jul 30 17:26:39 2025]  ? perf_event_nmi_handler+0x2b/0x50
+[Wed Jul 30 17:26:39 2025]  ? nmi_handle+0x67/0x180
+[Wed Jul 30 17:26:39 2025]  ? default_do_nmi+0x47/0x150
+[Wed Jul 30 17:26:39 2025]  ? exc_nmi+0x1c1/0x290
+[Wed Jul 30 17:26:39 2025]  ? end_repeat_nmi+0xf/0x53
+[Wed Jul 30 17:26:39 2025]  ? native_queued_spin_lock_slowpath+0x2be/0x310
+[Wed Jul 30 17:26:39 2025]  ? native_queued_spin_lock_slowpath+0x2be/0x310
+[Wed Jul 30 17:26:39 2025]  ? native_queued_spin_lock_slowpath+0x2be/0x310
+[Wed Jul 30 17:26:39 2025]  </NMI>
+[Wed Jul 30 17:26:39 2025]  <TASK>
+[Wed Jul 30 17:26:39 2025]  _raw_spin_lock_irq+0x51/0x80
+[Wed Jul 30 17:26:39 2025]  xtrdma_ib_create_qp+0x9e9/0x1b00 [xt_rdma]
+[Wed Jul 30 17:26:39 2025]  create_qp+0x1a8/0x2b0 [ib_core]
+[Wed Jul 30 17:26:39 2025]  ib_create_qp_user+0x28/0x140 [ib_core]
+[Wed Jul 30 17:26:39 2025]  ib_uverbs_handler_UVERBS_METHOD_QP_CREATE+0x41d/0x750 [ib_uverbs]
+[Wed Jul 30 17:26:39 2025]  ? __pfx_ib_uverbs_qp_event_handler+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:26:39 2025]  ib_uverbs_run_method+0x307/0x330 [ib_uverbs]
+[Wed Jul 30 17:26:39 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_CREATE+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:26:39 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:26:39 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:26:39 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:26:39 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:26:39 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:26:39 2025]  ? rseq_get_rseq_cs+0x22/0x260
+[Wed Jul 30 17:26:39 2025]  ? rseq_ip_fixup+0x8f/0x1f0
+[Wed Jul 30 17:26:39 2025]  ? ib_uverbs_ioctl+0xda/0x130 [ib_uverbs]
+[Wed Jul 30 17:26:39 2025]  ? syscall_exit_to_user_mode+0x18d/0x250
+[Wed Jul 30 17:26:39 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:26:39 2025]  ? vm_mmap_pgoff+0x125/0x1a0
+[Wed Jul 30 17:26:39 2025]  ? ksys_mmap_pgoff+0x189/0x250
+[Wed Jul 30 17:26:39 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:26:39 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:26:39 2025]  ? syscall_exit_to_user_mode+0x18d/0x250
+[Wed Jul 30 17:26:39 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:26:39 2025]  ? syscall_exit_to_user_mode+0x18d/0x250
+[Wed Jul 30 17:26:39 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:26:39 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:26:39 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:26:39 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:26:39 2025]  ? exc_page_fault+0x96/0x1c0
+[Wed Jul 30 17:26:39 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:26:39 2025] RIP: 0033:0x71021ff24ded
+[Wed Jul 30 17:26:39 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:26:39 2025] RSP: 002b:00007ffc4a652fb0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:26:39 2025] RAX: ffffffffffffffda RBX: 00007ffc4a653060 RCX: 000071021ff24ded
+[Wed Jul 30 17:26:39 2025] RDX: 00007ffc4a653080 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:26:39 2025] RBP: 00007ffc4a653000 R08: 00005f9e1bcb42e0 R09: 00007ffc4a653128
+[Wed Jul 30 17:26:39 2025] R10: 000000010004000a R11: 0000000000000246 R12: 00007ffc4a6531ec
+[Wed Jul 30 17:26:39 2025] R13: 0000000000000013 R14: 00005f9e1bc75210 R15: 00007ffc4a653310
+[Wed Jul 30 17:26:39 2025]  </TASK>
+[Wed Jul 30 17:26:46 2025] watchdog: BUG: soft lockup - CPU#28 stuck for 26s! [all_reduce_perf:13468]
+[Wed Jul 30 17:26:46 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:26:46 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:26:46 2025] CPU: 28 UID: 0 PID: 13468 Comm: all_reduce_perf Tainted: P           OE      6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:26:46 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[Wed Jul 30 17:26:46 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:26:46 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x84/0x310
+[Wed Jul 30 17:26:46 2025] Code: 0f ba 2b 08 0f 92 c2 8b 03 0f b6 d2 c1 e2 08 30 e4 09 d0 3d ff 00 00 00 77 6c 85 c0 74 10 0f b6 03 84 c0 74 09 f3 90 0f b6 03 <84> c0 75 f7 b8 01 00 00 00 66 89 03 5b 41 5c 41 5d 41 5e 41 5f 5d
+[Wed Jul 30 17:26:46 2025] RSP: 0018:ffffb04686ad0e60 EFLAGS: 00000202
+[Wed Jul 30 17:26:46 2025] RAX: 0000000000000001 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:26:46 2025] RDX: 0000000000000000 RSI: 0000000000000001 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:26:46 2025] RBP: ffffb04686ad0e88 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:26:46 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b494c35f480
+[Wed Jul 30 17:26:46 2025] R13: 0000000080000000 R14: ffff9b4a0f3428c0 R15: ffff9b48cea0eb98
+[Wed Jul 30 17:26:46 2025] FS:  00007b0164a8e000(0000) GS:ffff9b57ff700000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:26:46 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:26:46 2025] CR2: 00005909c5fd9140 CR3: 000000010a35c001 CR4: 00000000003706f0
+[Wed Jul 30 17:26:46 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:26:46 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:26:46 2025] Call Trace:
+[Wed Jul 30 17:26:46 2025]  <IRQ>
+[Wed Jul 30 17:26:46 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:26:46 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:26:46 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:26:46 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:26:46 2025]  ? clockevents_program_event+0xc1/0x150
+[Wed Jul 30 17:26:46 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:26:46 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:26:46 2025]  ? sysvec_apic_timer_interrupt+0x47/0xc0
+[Wed Jul 30 17:26:46 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:26:46 2025]  ? native_queued_spin_lock_slowpath+0x84/0x310
+[Wed Jul 30 17:26:46 2025]  _raw_spin_lock+0x3f/0x60
+[Wed Jul 30 17:26:46 2025]  xtrdma_eq_share_dpc+0x4ac/0x610 [xt_rdma]
+[Wed Jul 30 17:26:46 2025]  tasklet_action_common.isra.0+0xda/0x1e0
+[Wed Jul 30 17:26:46 2025]  tasklet_action+0x29/0x40
+[Wed Jul 30 17:26:46 2025]  handle_softirqs+0xea/0x340
+[Wed Jul 30 17:26:46 2025]  __irq_exit_rcu+0xd2/0xf0
+[Wed Jul 30 17:26:46 2025]  irq_exit_rcu+0xe/0x20
+[Wed Jul 30 17:26:46 2025]  common_interrupt+0xb6/0xe0
+[Wed Jul 30 17:26:46 2025]  </IRQ>
+[Wed Jul 30 17:26:46 2025]  <TASK>
+[Wed Jul 30 17:26:46 2025]  asm_common_interrupt+0x27/0x40
+[Wed Jul 30 17:26:46 2025] RIP: 0010:__xa_erase+0x23/0xa0
+[Wed Jul 30 17:26:46 2025] Code: 90 90 90 90 90 90 90 55 48 89 e5 48 83 ec 40 65 48 8b 04 25 28 00 00 00 48 89 45 f8 31 c0 48 89 7d c0 48 8d 7d c0 48 89 75 c8 <31> f6 48 c7 45 d0 00 00 00 00 48 c7 45 d8 03 00 00 00 48 c7 45 e0
+[Wed Jul 30 17:26:46 2025] RSP: 0018:ffffb046ba2e7768 EFLAGS: 00000246
+[Wed Jul 30 17:26:46 2025] RAX: 0000000000000000 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:26:46 2025] RDX: 0000000000000000 RSI: 0000000000000247 RDI: ffffb046ba2e7768
+[Wed Jul 30 17:26:46 2025] RBP: ffffb046ba2e77a8 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:26:46 2025] R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000247
+[Wed Jul 30 17:26:46 2025] R13: ffff9b48cea0e800 R14: ffff9b48d4098000 R15: ffff9b48d4098000
+[Wed Jul 30 17:26:46 2025]  xa_erase+0x1d/0x40
+[Wed Jul 30 17:26:46 2025]  xtrdma_ib_destroy_qp+0xdf/0x350 [xt_rdma]
+[Wed Jul 30 17:26:46 2025]  ib_destroy_qp_user+0x9d/0x1a0 [ib_core]
+[Wed Jul 30 17:26:46 2025]  uverbs_free_qp+0x36/0xa0 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  destroy_hw_idr_uobject+0x24/0x60 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  uverbs_destroy_uobject+0x3b/0x1d0 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  uobj_destroy+0x41/0x80 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  ib_uverbs_run_method+0x23a/0x330 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_DESTROY+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:26:46 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:26:46 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:26:46 2025]  ? vm_mmap_pgoff+0x125/0x1a0
+[Wed Jul 30 17:26:46 2025]  ? ksys_mmap_pgoff+0x189/0x250
+[Wed Jul 30 17:26:46 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:26:46 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:26:46 2025]  ? rcu_core+0x1d6/0x370
+[Wed Jul 30 17:26:46 2025]  ? rcu_core_si+0xe/0x20
+[Wed Jul 30 17:26:46 2025]  ? handle_softirqs+0xea/0x340
+[Wed Jul 30 17:26:46 2025]  ? irqentry_exit_to_user_mode+0x43/0x250
+[Wed Jul 30 17:26:46 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:26:46 2025]  ? sysvec_apic_timer_interrupt+0x57/0xc0
+[Wed Jul 30 17:26:46 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:26:46 2025] RIP: 0033:0x7b0162524ded
+[Wed Jul 30 17:26:46 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:26:46 2025] RSP: 002b:00007ffddbd2d630 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:26:46 2025] RAX: ffffffffffffffda RBX: 00007ffddbd2d710 RCX: 00007b0162524ded
+[Wed Jul 30 17:26:46 2025] RDX: 00007ffddbd2d730 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:26:46 2025] RBP: 00007ffddbd2d680 R08: 00005909c5fc8d60 R09: 0000000000000030
+[Wed Jul 30 17:26:46 2025] R10: 00005909c5f97260 R11: 0000000000000246 R12: 00007ffddbd2d6ec
+[Wed Jul 30 17:26:46 2025] R13: 0000000000000022 R14: 00005909c5f8a140 R15: 0000000000000010
+[Wed Jul 30 17:26:46 2025]  </TASK>
+[Wed Jul 30 17:26:46 2025] watchdog: BUG: soft lockup - CPU#29 stuck for 26s! [all_reduce_perf:13471]
+[Wed Jul 30 17:26:46 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:26:46 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:26:46 2025] audit: type=1400 audit(1753867606.024:215): apparmor="DENIED" operation="open" class="file" profile="rsyslogd" name="/run/systemd/sessions/" pid=1660 comm=72733A6D61696E20513A526567 requested_mask="r" denied_mask="r" fsuid=102 ouid=0
+[Wed Jul 30 17:26:46 2025] CPU: 29 UID: 0 PID: 13471 Comm: all_reduce_perf Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:26:46 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:26:46 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:26:46 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x2be/0x310
+[Wed Jul 30 17:26:46 2025] Code: 4d 63 ff 4c 8d a8 40 79 03 00 49 81 ff 00 20 00 00 73 49 4e 03 2c fd e0 fe d8 a1 4d 89 65 00 41 8b 44 24 08 85 c0 75 0b f3 90 <41> 8b 44 24 08 85 c0 74 f5 49 8b 14 24 48 85 d2 0f 84 64 ff ff ff
+[Wed Jul 30 17:26:46 2025] RSP: 0018:ffffb046bb11f710 EFLAGS: 00000246
+[Wed Jul 30 17:26:46 2025] RAX: 0000000000000000 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:26:46 2025] RDX: 0000000000000001 RSI: 0000000000040101 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:26:46 2025] RBP: ffffb046bb11f738 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:26:46 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b57ff7b7940
+[Wed Jul 30 17:26:46 2025] R13: ffff9b57ff037940 R14: 0000000000780000 R15: 0000000000000000
+[Wed Jul 30 17:26:46 2025] FS:  000079ec8c097000(0000) GS:ffff9b57ff780000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:26:46 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:26:46 2025] CR2: 0000597ba42fbc90 CR3: 0000000250c64001 CR4: 00000000003706f0
+[Wed Jul 30 17:26:46 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:26:46 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:26:46 2025] Call Trace:
+[Wed Jul 30 17:26:46 2025]  <IRQ>
+[Wed Jul 30 17:26:46 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:26:46 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:26:46 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:26:46 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:26:46 2025]  ? clockevents_program_event+0xc1/0x150
+[Wed Jul 30 17:26:46 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:26:46 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:26:46 2025]  ? sysvec_apic_timer_interrupt+0x9b/0xc0
+[Wed Jul 30 17:26:46 2025]  </IRQ>
+[Wed Jul 30 17:26:46 2025]  <TASK>
+[Wed Jul 30 17:26:46 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:26:46 2025]  ? native_queued_spin_lock_slowpath+0x2be/0x310
+[Wed Jul 30 17:26:46 2025]  _raw_spin_lock+0x3f/0x60
+[Wed Jul 30 17:26:46 2025]  xa_erase+0x12/0x40
+[Wed Jul 30 17:26:46 2025]  xtrdma_ib_destroy_qp+0xdf/0x350 [xt_rdma]
+[Wed Jul 30 17:26:46 2025]  ib_destroy_qp_user+0x9d/0x1a0 [ib_core]
+[Wed Jul 30 17:26:46 2025]  uverbs_free_qp+0x36/0xa0 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  destroy_hw_idr_uobject+0x24/0x60 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  uverbs_destroy_uobject+0x3b/0x1d0 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  uobj_destroy+0x41/0x80 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  ib_uverbs_run_method+0x23a/0x330 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_DESTROY+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:26:46 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:26:46 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:26:46 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:26:46 2025]  ? vm_mmap_pgoff+0x125/0x1a0
+[Wed Jul 30 17:26:46 2025]  ? ksys_mmap_pgoff+0x189/0x250
+[Wed Jul 30 17:26:46 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:26:46 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:26:46 2025]  ? update_load_avg+0x82/0x840
+[Wed Jul 30 17:26:46 2025]  ? sched_clock_noinstr+0x9/0x10
+[Wed Jul 30 17:26:46 2025]  ? sched_clock+0x10/0x30
+[Wed Jul 30 17:26:46 2025]  ? sugov_get_util+0x50/0xb0
+[Wed Jul 30 17:26:46 2025]  ? sugov_update_single_freq+0x207/0x2d0
+[Wed Jul 30 17:26:46 2025]  ? sched_balance_domains+0xd7/0x400
+[Wed Jul 30 17:26:46 2025]  ? sched_balance_softirq+0x51/0x80
+[Wed Jul 30 17:26:46 2025]  ? handle_softirqs+0xea/0x340
+[Wed Jul 30 17:26:46 2025]  ? irqentry_exit_to_user_mode+0x43/0x250
+[Wed Jul 30 17:26:46 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:26:46 2025]  ? sysvec_apic_timer_interrupt+0x57/0xc0
+[Wed Jul 30 17:26:46 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:26:46 2025] RIP: 0033:0x79ec89b24ded
+[Wed Jul 30 17:26:46 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:26:46 2025] RSP: 002b:00007ffc27aeb5c0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:26:46 2025] RAX: ffffffffffffffda RBX: 00007ffc27aeb6a0 RCX: 000079ec89b24ded
+[Wed Jul 30 17:26:46 2025] RDX: 00007ffc27aeb6c0 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:26:46 2025] RBP: 00007ffc27aeb610 R08: 0000597ba42eb8b0 R09: 0000000000000030
+[Wed Jul 30 17:26:46 2025] R10: 0000597ba42b9db0 R11: 0000000000000246 R12: 00007ffc27aeb67c
+[Wed Jul 30 17:26:46 2025] R13: 0000000000000022 R14: 0000597ba42acc90 R15: 0000000000000004
+[Wed Jul 30 17:26:46 2025]  </TASK>
+[Wed Jul 30 17:26:50 2025] watchdog: BUG: soft lockup - CPU#33 stuck for 26s! [kworker/u225:1:12714]
+[Wed Jul 30 17:26:50 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:26:50 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:26:50 2025] CPU: 33 UID: 0 PID: 12714 Comm: kworker/u225:1 Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:26:50 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:26:50 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:26:50 2025] Workqueue: writeback wb_workfn (flush-8:0)
+[Wed Jul 30 17:26:50 2025] RIP: 0010:smp_call_function_many_cond+0x143/0x570
+[Wed Jul 30 17:26:50 2025] Code: 63 e0 49 8b 1f 49 81 fc 00 20 00 00 0f 83 fb 03 00 00 4a 03 1c e5 e0 fe d8 a1 8b 53 08 48 89 de 83 e2 01 74 0a f3 90 8b 4e 08 <83> e1 01 75 f6 83 c0 01 eb b1 48 83 c4 40 5b 41 5c 41 5d 41 5e 41
+[Wed Jul 30 17:26:50 2025] RSP: 0018:ffffb046b7f133d0 EFLAGS: 00000202
+[Wed Jul 30 17:26:50 2025] RAX: 0000000000000000 RBX: ffff9b57ff040180 RCX: 0000000000000011
+[Wed Jul 30 17:26:50 2025] RDX: 0000000000000001 RSI: ffff9b57ff040180 RDI: 0000000000000000
+[Wed Jul 30 17:26:50 2025] RBP: ffffb046b7f13438 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:26:50 2025] R10: ffff9b48c4522a20 R11: 0000000000000000 R12: 0000000000000000
+[Wed Jul 30 17:26:50 2025] R13: 0000000000000001 R14: 0000000000000021 R15: ffff9b57ff9b7e00
+[Wed Jul 30 17:26:50 2025] FS:  0000000000000000(0000) GS:ffff9b57ff980000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:26:50 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:26:50 2025] CR2: 00007165c2a057a4 CR3: 0000001bf7e3e004 CR4: 00000000003706f0
+[Wed Jul 30 17:26:50 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:26:50 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:26:50 2025] Call Trace:
+[Wed Jul 30 17:26:50 2025]  <IRQ>
+[Wed Jul 30 17:26:50 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:26:50 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:26:50 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:26:50 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:26:50 2025]  ? clockevents_program_event+0xc1/0x150
+[Wed Jul 30 17:26:50 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:26:50 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:26:50 2025]  ? sysvec_apic_timer_interrupt+0x9b/0xc0
+[Wed Jul 30 17:26:50 2025]  </IRQ>
+[Wed Jul 30 17:26:50 2025]  <TASK>
+[Wed Jul 30 17:26:50 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:26:50 2025]  ? smp_call_function_many_cond+0x143/0x570
+[Wed Jul 30 17:26:50 2025]  ? __pfx_flush_tlb_func+0x10/0x10
+[Wed Jul 30 17:26:50 2025]  on_each_cpu_cond_mask+0x24/0x60
+[Wed Jul 30 17:26:50 2025]  native_flush_tlb_multi+0x67/0x130
+[Wed Jul 30 17:26:50 2025]  ? map_pte+0x10b/0x140
+[Wed Jul 30 17:26:50 2025]  flush_tlb_mm_range+0x155/0x1c0
+[Wed Jul 30 17:26:50 2025]  ? page_vma_mapped_walk+0x4d6/0x7f0
+[Wed Jul 30 17:26:50 2025]  ptep_clear_flush+0x69/0x90
+[Wed Jul 30 17:26:50 2025]  page_vma_mkclean_one.constprop.0+0x135/0x290
+[Wed Jul 30 17:26:50 2025]  page_mkclean_one+0x89/0xc0
+[Wed Jul 30 17:26:50 2025]  rmap_walk_file+0xd7/0x200
+[Wed Jul 30 17:26:50 2025]  folio_mkclean+0xa4/0xf0
+[Wed Jul 30 17:26:50 2025]  ? __pfx_page_mkclean_one+0x10/0x10
+[Wed Jul 30 17:26:50 2025]  ? __pfx_invalid_mkclean_vma+0x10/0x10
+[Wed Jul 30 17:26:50 2025]  folio_clear_dirty_for_io+0x63/0x1d0
+[Wed Jul 30 17:26:50 2025]  ? mpage_process_folio+0x46/0x150
+[Wed Jul 30 17:26:50 2025]  mpage_submit_folio+0x2c/0xc0
+[Wed Jul 30 17:26:50 2025]  mpage_map_and_submit_buffers+0x11c/0x210
+[Wed Jul 30 17:26:50 2025]  mpage_map_and_submit_extent+0x61/0x330
+[Wed Jul 30 17:26:50 2025]  ext4_do_writepages+0x63b/0x780
+[Wed Jul 30 17:26:50 2025]  ext4_writepages+0xbb/0x190
+[Wed Jul 30 17:26:50 2025]  do_writepages+0x7e/0x270
+[Wed Jul 30 17:26:50 2025]  __writeback_single_inode+0x44/0x290
+[Wed Jul 30 17:26:50 2025]  writeback_sb_inodes+0x254/0x560
+[Wed Jul 30 17:26:50 2025]  __writeback_inodes_wb+0x54/0x100
+[Wed Jul 30 17:26:50 2025]  ? queue_io+0x113/0x120
+[Wed Jul 30 17:26:50 2025]  wb_writeback+0x1a0/0x320
+[Wed Jul 30 17:26:50 2025]  wb_do_writeback+0x1ef/0x2a0
+[Wed Jul 30 17:26:50 2025]  wb_workfn+0x4c/0x150
+[Wed Jul 30 17:26:50 2025]  process_one_work+0x17b/0x3d0
+[Wed Jul 30 17:26:50 2025]  worker_thread+0x2de/0x410
+[Wed Jul 30 17:26:50 2025]  ? _raw_spin_lock_irqsave+0xe/0x20
+[Wed Jul 30 17:26:50 2025]  ? __pfx_worker_thread+0x10/0x10
+[Wed Jul 30 17:26:50 2025]  kthread+0xe4/0x110
+[Wed Jul 30 17:26:50 2025]  ? __pfx_kthread+0x10/0x10
+[Wed Jul 30 17:26:50 2025]  ret_from_fork+0x47/0x70
+[Wed Jul 30 17:26:50 2025]  ? __pfx_kthread+0x10/0x10
+[Wed Jul 30 17:26:50 2025]  ret_from_fork_asm+0x1a/0x30
+[Wed Jul 30 17:26:50 2025]  </TASK>
+[Wed Jul 30 17:27:14 2025] watchdog: BUG: soft lockup - CPU#28 stuck for 53s! [all_reduce_perf:13468]
+[Wed Jul 30 17:27:14 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:27:14 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:27:14 2025] CPU: 28 UID: 0 PID: 13468 Comm: all_reduce_perf Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:27:14 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:27:14 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:27:14 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x81/0x310
+[Wed Jul 30 17:27:14 2025] Code: 00 00 f0 0f ba 2b 08 0f 92 c2 8b 03 0f b6 d2 c1 e2 08 30 e4 09 d0 3d ff 00 00 00 77 6c 85 c0 74 10 0f b6 03 84 c0 74 09 f3 90 <0f> b6 03 84 c0 75 f7 b8 01 00 00 00 66 89 03 5b 41 5c 41 5d 41 5e
+[Wed Jul 30 17:27:14 2025] RSP: 0018:ffffb04686ad0e60 EFLAGS: 00000202
+[Wed Jul 30 17:27:14 2025] RAX: 0000000000000001 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:27:14 2025] RDX: 0000000000000000 RSI: 0000000000000001 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:27:14 2025] RBP: ffffb04686ad0e88 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:27:14 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b494c35f480
+[Wed Jul 30 17:27:14 2025] R13: 0000000080000000 R14: ffff9b4a0f3428c0 R15: ffff9b48cea0eb98
+[Wed Jul 30 17:27:14 2025] FS:  00007b0164a8e000(0000) GS:ffff9b57ff700000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:27:14 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:27:14 2025] CR2: 00005909c5fd9140 CR3: 000000010a35c001 CR4: 00000000003706f0
+[Wed Jul 30 17:27:14 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:27:14 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:27:14 2025] Call Trace:
+[Wed Jul 30 17:27:14 2025]  <IRQ>
+[Wed Jul 30 17:27:14 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:27:14 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:27:14 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:27:14 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:27:14 2025]  ? clockevents_program_event+0xc1/0x150
+[Wed Jul 30 17:27:14 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:27:14 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:27:14 2025]  ? sysvec_apic_timer_interrupt+0x47/0xc0
+[Wed Jul 30 17:27:14 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:27:14 2025]  ? native_queued_spin_lock_slowpath+0x81/0x310
+[Wed Jul 30 17:27:14 2025]  _raw_spin_lock+0x3f/0x60
+[Wed Jul 30 17:27:14 2025]  xtrdma_eq_share_dpc+0x4ac/0x610 [xt_rdma]
+[Wed Jul 30 17:27:14 2025]  tasklet_action_common.isra.0+0xda/0x1e0
+[Wed Jul 30 17:27:14 2025]  tasklet_action+0x29/0x40
+[Wed Jul 30 17:27:14 2025]  handle_softirqs+0xea/0x340
+[Wed Jul 30 17:27:14 2025]  __irq_exit_rcu+0xd2/0xf0
+[Wed Jul 30 17:27:14 2025]  irq_exit_rcu+0xe/0x20
+[Wed Jul 30 17:27:14 2025]  common_interrupt+0xb6/0xe0
+[Wed Jul 30 17:27:14 2025]  </IRQ>
+[Wed Jul 30 17:27:14 2025]  <TASK>
+[Wed Jul 30 17:27:14 2025]  asm_common_interrupt+0x27/0x40
+[Wed Jul 30 17:27:14 2025] RIP: 0010:__xa_erase+0x23/0xa0
+[Wed Jul 30 17:27:14 2025] Code: 90 90 90 90 90 90 90 55 48 89 e5 48 83 ec 40 65 48 8b 04 25 28 00 00 00 48 89 45 f8 31 c0 48 89 7d c0 48 8d 7d c0 48 89 75 c8 <31> f6 48 c7 45 d0 00 00 00 00 48 c7 45 d8 03 00 00 00 48 c7 45 e0
+[Wed Jul 30 17:27:14 2025] RSP: 0018:ffffb046ba2e7768 EFLAGS: 00000246
+[Wed Jul 30 17:27:14 2025] RAX: 0000000000000000 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:27:14 2025] RDX: 0000000000000000 RSI: 0000000000000247 RDI: ffffb046ba2e7768
+[Wed Jul 30 17:27:14 2025] RBP: ffffb046ba2e77a8 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:27:14 2025] R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000247
+[Wed Jul 30 17:27:14 2025] R13: ffff9b48cea0e800 R14: ffff9b48d4098000 R15: ffff9b48d4098000
+[Wed Jul 30 17:27:14 2025]  xa_erase+0x1d/0x40
+[Wed Jul 30 17:27:14 2025]  xtrdma_ib_destroy_qp+0xdf/0x350 [xt_rdma]
+[Wed Jul 30 17:27:14 2025]  ib_destroy_qp_user+0x9d/0x1a0 [ib_core]
+[Wed Jul 30 17:27:14 2025]  uverbs_free_qp+0x36/0xa0 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  destroy_hw_idr_uobject+0x24/0x60 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  uverbs_destroy_uobject+0x3b/0x1d0 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  uobj_destroy+0x41/0x80 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  ib_uverbs_run_method+0x23a/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_DESTROY+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:27:14 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:27:14 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:27:14 2025]  ? vm_mmap_pgoff+0x125/0x1a0
+[Wed Jul 30 17:27:14 2025]  ? ksys_mmap_pgoff+0x189/0x250
+[Wed Jul 30 17:27:14 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:27:14 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:27:14 2025]  ? rcu_core+0x1d6/0x370
+[Wed Jul 30 17:27:14 2025]  ? rcu_core_si+0xe/0x20
+[Wed Jul 30 17:27:14 2025]  ? handle_softirqs+0xea/0x340
+[Wed Jul 30 17:27:14 2025]  ? irqentry_exit_to_user_mode+0x43/0x250
+[Wed Jul 30 17:27:14 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:27:14 2025]  ? sysvec_apic_timer_interrupt+0x57/0xc0
+[Wed Jul 30 17:27:14 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:27:14 2025] RIP: 0033:0x7b0162524ded
+[Wed Jul 30 17:27:14 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:27:14 2025] RSP: 002b:00007ffddbd2d630 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:27:14 2025] RAX: ffffffffffffffda RBX: 00007ffddbd2d710 RCX: 00007b0162524ded
+[Wed Jul 30 17:27:14 2025] RDX: 00007ffddbd2d730 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:27:14 2025] RBP: 00007ffddbd2d680 R08: 00005909c5fc8d60 R09: 0000000000000030
+[Wed Jul 30 17:27:14 2025] R10: 00005909c5f97260 R11: 0000000000000246 R12: 00007ffddbd2d6ec
+[Wed Jul 30 17:27:14 2025] R13: 0000000000000022 R14: 00005909c5f8a140 R15: 0000000000000010
+[Wed Jul 30 17:27:14 2025]  </TASK>
+[Wed Jul 30 17:27:14 2025] watchdog: BUG: soft lockup - CPU#29 stuck for 53s! [all_reduce_perf:13471]
+[Wed Jul 30 17:27:14 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:27:14 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:27:14 2025] CPU: 29 UID: 0 PID: 13471 Comm: all_reduce_perf Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:27:14 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:27:14 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:27:14 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x2be/0x310
+[Wed Jul 30 17:27:14 2025] Code: 4d 63 ff 4c 8d a8 40 79 03 00 49 81 ff 00 20 00 00 73 49 4e 03 2c fd e0 fe d8 a1 4d 89 65 00 41 8b 44 24 08 85 c0 75 0b f3 90 <41> 8b 44 24 08 85 c0 74 f5 49 8b 14 24 48 85 d2 0f 84 64 ff ff ff
+[Wed Jul 30 17:27:14 2025] RSP: 0018:ffffb046bb11f710 EFLAGS: 00000246
+[Wed Jul 30 17:27:14 2025] RAX: 0000000000000000 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:27:14 2025] RDX: 0000000000000001 RSI: 0000000000040101 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:27:14 2025] RBP: ffffb046bb11f738 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:27:14 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b57ff7b7940
+[Wed Jul 30 17:27:14 2025] R13: ffff9b57ff037940 R14: 0000000000780000 R15: 0000000000000000
+[Wed Jul 30 17:27:14 2025] FS:  000079ec8c097000(0000) GS:ffff9b57ff780000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:27:14 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:27:14 2025] CR2: 0000597ba42fbc90 CR3: 0000000250c64001 CR4: 00000000003706f0
+[Wed Jul 30 17:27:14 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:27:14 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:27:14 2025] Call Trace:
+[Wed Jul 30 17:27:14 2025]  <IRQ>
+[Wed Jul 30 17:27:14 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:27:14 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:27:14 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:27:14 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:27:14 2025]  ? clockevents_program_event+0xc1/0x150
+[Wed Jul 30 17:27:14 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:27:14 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:27:14 2025]  ? sysvec_apic_timer_interrupt+0x9b/0xc0
+[Wed Jul 30 17:27:14 2025]  </IRQ>
+[Wed Jul 30 17:27:14 2025]  <TASK>
+[Wed Jul 30 17:27:14 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:27:14 2025]  ? native_queued_spin_lock_slowpath+0x2be/0x310
+[Wed Jul 30 17:27:14 2025]  _raw_spin_lock+0x3f/0x60
+[Wed Jul 30 17:27:14 2025]  xa_erase+0x12/0x40
+[Wed Jul 30 17:27:14 2025]  xtrdma_ib_destroy_qp+0xdf/0x350 [xt_rdma]
+[Wed Jul 30 17:27:14 2025]  ib_destroy_qp_user+0x9d/0x1a0 [ib_core]
+[Wed Jul 30 17:27:14 2025]  uverbs_free_qp+0x36/0xa0 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  destroy_hw_idr_uobject+0x24/0x60 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  uverbs_destroy_uobject+0x3b/0x1d0 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  uobj_destroy+0x41/0x80 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  ib_uverbs_run_method+0x23a/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_DESTROY+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:27:14 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:27:14 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:27:14 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:27:14 2025]  ? vm_mmap_pgoff+0x125/0x1a0
+[Wed Jul 30 17:27:14 2025]  ? ksys_mmap_pgoff+0x189/0x250
+[Wed Jul 30 17:27:14 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:27:14 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:27:14 2025]  ? update_load_avg+0x82/0x840
+[Wed Jul 30 17:27:14 2025]  ? sched_clock_noinstr+0x9/0x10
+[Wed Jul 30 17:27:14 2025]  ? sched_clock+0x10/0x30
+[Wed Jul 30 17:27:14 2025]  ? sugov_get_util+0x50/0xb0
+[Wed Jul 30 17:27:14 2025]  ? sugov_update_single_freq+0x207/0x2d0
+[Wed Jul 30 17:27:14 2025]  ? sched_balance_domains+0xd7/0x400
+[Wed Jul 30 17:27:14 2025]  ? sched_balance_softirq+0x51/0x80
+[Wed Jul 30 17:27:14 2025]  ? handle_softirqs+0xea/0x340
+[Wed Jul 30 17:27:14 2025]  ? irqentry_exit_to_user_mode+0x43/0x250
+[Wed Jul 30 17:27:14 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:27:14 2025]  ? sysvec_apic_timer_interrupt+0x57/0xc0
+[Wed Jul 30 17:27:14 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:27:14 2025] RIP: 0033:0x79ec89b24ded
+[Wed Jul 30 17:27:14 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:27:14 2025] RSP: 002b:00007ffc27aeb5c0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:27:14 2025] RAX: ffffffffffffffda RBX: 00007ffc27aeb6a0 RCX: 000079ec89b24ded
+[Wed Jul 30 17:27:14 2025] RDX: 00007ffc27aeb6c0 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:27:14 2025] RBP: 00007ffc27aeb610 R08: 0000597ba42eb8b0 R09: 0000000000000030
+[Wed Jul 30 17:27:14 2025] R10: 0000597ba42b9db0 R11: 0000000000000246 R12: 00007ffc27aeb67c
+[Wed Jul 30 17:27:14 2025] R13: 0000000000000022 R14: 0000597ba42acc90 R15: 0000000000000004
+[Wed Jul 30 17:27:14 2025]  </TASK>
+[Wed Jul 30 17:27:18 2025] watchdog: BUG: soft lockup - CPU#33 stuck for 52s! [kworker/u225:1:12714]
+[Wed Jul 30 17:27:18 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:27:18 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:27:18 2025] CPU: 33 UID: 0 PID: 12714 Comm: kworker/u225:1 Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:27:18 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:27:18 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:27:18 2025] Workqueue: writeback wb_workfn (flush-8:0)
+[Wed Jul 30 17:27:18 2025] RIP: 0010:smp_call_function_many_cond+0x13e/0x570
+[Wed Jul 30 17:27:18 2025] Code: 82 02 73 35 4c 63 e0 49 8b 1f 49 81 fc 00 20 00 00 0f 83 fb 03 00 00 4a 03 1c e5 e0 fe d8 a1 8b 53 08 48 89 de 83 e2 01 74 0a <f3> 90 8b 4e 08 83 e1 01 75 f6 83 c0 01 eb b1 48 83 c4 40 5b 41 5c
+[Wed Jul 30 17:27:18 2025] RSP: 0018:ffffb046b7f133d0 EFLAGS: 00000202
+[Wed Jul 30 17:27:18 2025] RAX: 0000000000000000 RBX: ffff9b57ff040180 RCX: 0000000000000001
+[Wed Jul 30 17:27:18 2025] RDX: 0000000000000001 RSI: ffff9b57ff040180 RDI: 0000000000000000
+[Wed Jul 30 17:27:18 2025] RBP: ffffb046b7f13438 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:27:18 2025] R10: ffff9b48c4522a20 R11: 0000000000000000 R12: 0000000000000000
+[Wed Jul 30 17:27:18 2025] R13: 0000000000000001 R14: 0000000000000021 R15: ffff9b57ff9b7e00
+[Wed Jul 30 17:27:18 2025] FS:  0000000000000000(0000) GS:ffff9b57ff980000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:27:18 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:27:18 2025] CR2: 00007165c2a057a4 CR3: 0000001bf7e3e004 CR4: 00000000003706f0
+[Wed Jul 30 17:27:18 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:27:18 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:27:18 2025] Call Trace:
+[Wed Jul 30 17:27:18 2025]  <IRQ>
+[Wed Jul 30 17:27:18 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:27:18 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:27:18 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:27:18 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:27:18 2025]  ? clockevents_program_event+0xc1/0x150
+[Wed Jul 30 17:27:18 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:27:18 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:27:18 2025]  ? sysvec_apic_timer_interrupt+0x9b/0xc0
+[Wed Jul 30 17:27:18 2025]  </IRQ>
+[Wed Jul 30 17:27:18 2025]  <TASK>
+[Wed Jul 30 17:27:18 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:27:18 2025]  ? smp_call_function_many_cond+0x13e/0x570
+[Wed Jul 30 17:27:18 2025]  ? __pfx_flush_tlb_func+0x10/0x10
+[Wed Jul 30 17:27:18 2025]  on_each_cpu_cond_mask+0x24/0x60
+[Wed Jul 30 17:27:18 2025]  native_flush_tlb_multi+0x67/0x130
+[Wed Jul 30 17:27:18 2025]  ? map_pte+0x10b/0x140
+[Wed Jul 30 17:27:18 2025]  flush_tlb_mm_range+0x155/0x1c0
+[Wed Jul 30 17:27:18 2025]  ? page_vma_mapped_walk+0x4d6/0x7f0
+[Wed Jul 30 17:27:18 2025]  ptep_clear_flush+0x69/0x90
+[Wed Jul 30 17:27:18 2025]  page_vma_mkclean_one.constprop.0+0x135/0x290
+[Wed Jul 30 17:27:18 2025]  page_mkclean_one+0x89/0xc0
+[Wed Jul 30 17:27:18 2025]  rmap_walk_file+0xd7/0x200
+[Wed Jul 30 17:27:18 2025]  folio_mkclean+0xa4/0xf0
+[Wed Jul 30 17:27:18 2025]  ? __pfx_page_mkclean_one+0x10/0x10
+[Wed Jul 30 17:27:18 2025]  ? __pfx_invalid_mkclean_vma+0x10/0x10
+[Wed Jul 30 17:27:18 2025]  folio_clear_dirty_for_io+0x63/0x1d0
+[Wed Jul 30 17:27:18 2025]  ? mpage_process_folio+0x46/0x150
+[Wed Jul 30 17:27:18 2025]  mpage_submit_folio+0x2c/0xc0
+[Wed Jul 30 17:27:18 2025]  mpage_map_and_submit_buffers+0x11c/0x210
+[Wed Jul 30 17:27:18 2025]  mpage_map_and_submit_extent+0x61/0x330
+[Wed Jul 30 17:27:18 2025]  ext4_do_writepages+0x63b/0x780
+[Wed Jul 30 17:27:18 2025]  ext4_writepages+0xbb/0x190
+[Wed Jul 30 17:27:18 2025]  do_writepages+0x7e/0x270
+[Wed Jul 30 17:27:18 2025]  __writeback_single_inode+0x44/0x290
+[Wed Jul 30 17:27:18 2025]  writeback_sb_inodes+0x254/0x560
+[Wed Jul 30 17:27:18 2025]  __writeback_inodes_wb+0x54/0x100
+[Wed Jul 30 17:27:18 2025]  ? queue_io+0x113/0x120
+[Wed Jul 30 17:27:18 2025]  wb_writeback+0x1a0/0x320
+[Wed Jul 30 17:27:18 2025]  wb_do_writeback+0x1ef/0x2a0
+[Wed Jul 30 17:27:18 2025]  wb_workfn+0x4c/0x150
+[Wed Jul 30 17:27:18 2025]  process_one_work+0x17b/0x3d0
+[Wed Jul 30 17:27:18 2025]  worker_thread+0x2de/0x410
+[Wed Jul 30 17:27:18 2025]  ? _raw_spin_lock_irqsave+0xe/0x20
+[Wed Jul 30 17:27:18 2025]  ? __pfx_worker_thread+0x10/0x10
+[Wed Jul 30 17:27:18 2025]  kthread+0xe4/0x110
+[Wed Jul 30 17:27:18 2025]  ? __pfx_kthread+0x10/0x10
+[Wed Jul 30 17:27:18 2025]  ret_from_fork+0x47/0x70
+[Wed Jul 30 17:27:18 2025]  ? __pfx_kthread+0x10/0x10
+[Wed Jul 30 17:27:18 2025]  ret_from_fork_asm+0x1a/0x30
+[Wed Jul 30 17:27:18 2025]  </TASK>
+[Wed Jul 30 17:27:20 2025] rcu: INFO: rcu_preempt self-detected stall on CPU
+[Wed Jul 30 17:27:20 2025] rcu:         28-....: (1 GPs behind) idle=0cd4/1/0x4000000000000000 softirq=25674/25675 fqs=12562
+[Wed Jul 30 17:27:20 2025] rcu:                  hardirqs   softirqs   csw/system
+[Wed Jul 30 17:27:20 2025] rcu:          number:        0          0            0
+[Wed Jul 30 17:27:20 2025] rcu:         cputime:        0      29996            0   ==> 29996(ms)
+[Wed Jul 30 17:27:20 2025] rcu:         (t=60000 jiffies g=97749 q=959 ncpus=56)
+[Wed Jul 30 17:27:20 2025] Sending NMI from CPU 28 to CPUs 0:
+[Wed Jul 30 17:27:20 2025] NMI backtrace for cpu 0
+[Wed Jul 30 17:27:20 2025] CPU: 0 UID: 0 PID: 13469 Comm: all_reduce_perf Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:27:20 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:27:20 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:27:20 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x238/0x310
+[Wed Jul 30 17:27:20 2025] Code: 41 c1 e5 10 c1 e0 12 45 89 ee 41 09 c6 44 89 f0 c1 e8 10 66 87 43 02 89 c2 c1 e2 10 81 fa ff ff 00 00 77 51 31 d2 eb 02 f3 90 <8b> 03 66 85 c0 75 f7 44 39 f0 0f 84 94 00 00 00 c6 03 01 48 85 d2
+[Wed Jul 30 17:27:20 2025] RSP: 0018:ffffb046bb10f5b8 EFLAGS: 00000002
+[Wed Jul 30 17:27:20 2025] RAX: 0000000000080101 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:27:20 2025] RDX: 0000000000000000 RSI: 0000000000000101 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:27:20 2025] RBP: ffffb046bb10f5e0 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:27:20 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b57ff037940
+[Wed Jul 30 17:27:20 2025] R13: 0000000000000000 R14: 0000000000040000 R15: 000000000000024a
+[Wed Jul 30 17:27:20 2025] FS:  00007cbe9b885000(0000) GS:ffff9b57ff000000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:27:20 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:27:20 2025] CR2: 000058f60f5560c0 CR3: 0000000256a52001 CR4: 00000000003706f0
+[Wed Jul 30 17:27:20 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:27:20 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:27:20 2025] Call Trace:
+[Wed Jul 30 17:27:20 2025]  <NMI>
+[Wed Jul 30 17:27:20 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:27:20 2025]  ? nmi_cpu_backtrace+0xb5/0x120
+[Wed Jul 30 17:27:20 2025]  ? sched_clock_noinstr+0x9/0x10
+[Wed Jul 30 17:27:20 2025]  ? nmi_cpu_backtrace_handler+0x11/0x20
+[Wed Jul 30 17:27:20 2025]  ? nmi_handle+0x67/0x180
+[Wed Jul 30 17:27:20 2025]  ? default_do_nmi+0x47/0x150
+[Wed Jul 30 17:27:20 2025]  ? exc_nmi+0x1c1/0x290
+[Wed Jul 30 17:27:20 2025]  ? end_repeat_nmi+0xf/0x53
+[Wed Jul 30 17:27:20 2025]  ? native_queued_spin_lock_slowpath+0x238/0x310
+[Wed Jul 30 17:27:20 2025]  ? native_queued_spin_lock_slowpath+0x238/0x310
+[Wed Jul 30 17:27:20 2025]  ? native_queued_spin_lock_slowpath+0x238/0x310
+[Wed Jul 30 17:27:20 2025]  </NMI>
+[Wed Jul 30 17:27:20 2025]  <TASK>
+[Wed Jul 30 17:27:20 2025]  _raw_spin_lock_irq+0x51/0x80
+[Wed Jul 30 17:27:20 2025]  xtrdma_ib_create_qp+0x9e9/0x1b00 [xt_rdma]
+[Wed Jul 30 17:27:20 2025]  create_qp+0x1a8/0x2b0 [ib_core]
+[Wed Jul 30 17:27:20 2025]  ib_create_qp_user+0x28/0x140 [ib_core]
+[Wed Jul 30 17:27:20 2025]  ib_uverbs_handler_UVERBS_METHOD_QP_CREATE+0x41d/0x750 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  ? __pfx_ib_uverbs_qp_event_handler+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  ib_uverbs_run_method+0x307/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_CREATE+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:27:20 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:27:20 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:27:20 2025]  ? __call_rcu_common+0xcd/0x380
+[Wed Jul 30 17:27:20 2025]  ? __pfx_vm_area_free_rcu_cb+0x10/0x10
+[Wed Jul 30 17:27:20 2025]  ? call_rcu+0x34/0x50
+[Wed Jul 30 17:27:20 2025]  ? vm_area_free+0x15/0x20
+[Wed Jul 30 17:27:20 2025]  ? remove_vma+0x74/0x90
+[Wed Jul 30 17:27:20 2025]  ? do_vmi_align_munmap+0x255/0x5b0
+[Wed Jul 30 17:27:20 2025]  ? __vm_munmap+0xc6/0x180
+[Wed Jul 30 17:27:20 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:27:20 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:27:20 2025]  ? tick_program_event+0x43/0xa0
+[Wed Jul 30 17:27:20 2025]  ? hrtimer_interrupt+0x121/0x250
+[Wed Jul 30 17:27:20 2025]  ? irqentry_exit_to_user_mode+0x43/0x250
+[Wed Jul 30 17:27:20 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:27:20 2025]  ? sysvec_apic_timer_interrupt+0x57/0xc0
+[Wed Jul 30 17:27:20 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:27:20 2025] RIP: 0033:0x7cbe99324ded
+[Wed Jul 30 17:27:20 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:27:20 2025] RSP: 002b:00007ffebeb3c520 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:27:20 2025] RAX: ffffffffffffffda RBX: 00007ffebeb3c5d0 RCX: 00007cbe99324ded
+[Wed Jul 30 17:27:20 2025] RDX: 00007ffebeb3c5f0 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:27:20 2025] RBP: 00007ffebeb3c570 R08: 000058f60f545ce0 R09: 00007ffebeb3c698
+[Wed Jul 30 17:27:20 2025] R10: 000000010004000a R11: 0000000000000246 R12: 00007ffebeb3c75c
+[Wed Jul 30 17:27:20 2025] R13: 0000000000000013 R14: 000058f60f5070c0 R15: 00007ffebeb3c880
+[Wed Jul 30 17:27:20 2025]  </TASK>
+[Wed Jul 30 17:27:20 2025] CPU: 28 UID: 0 PID: 13468 Comm: all_reduce_perf Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:27:20 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:27:20 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:27:20 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x81/0x310
+[Wed Jul 30 17:27:20 2025] Code: 00 00 f0 0f ba 2b 08 0f 92 c2 8b 03 0f b6 d2 c1 e2 08 30 e4 09 d0 3d ff 00 00 00 77 6c 85 c0 74 10 0f b6 03 84 c0 74 09 f3 90 <0f> b6 03 84 c0 75 f7 b8 01 00 00 00 66 89 03 5b 41 5c 41 5d 41 5e
+[Wed Jul 30 17:27:20 2025] RSP: 0018:ffffb04686ad0e60 EFLAGS: 00000202
+[Wed Jul 30 17:27:20 2025] RAX: 0000000000000001 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:27:20 2025] RDX: 0000000000000000 RSI: 0000000000000001 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:27:20 2025] RBP: ffffb04686ad0e88 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:27:20 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b494c35f480
+[Wed Jul 30 17:27:20 2025] R13: 0000000080000000 R14: ffff9b4a0f3428c0 R15: ffff9b48cea0eb98
+[Wed Jul 30 17:27:20 2025] FS:  00007b0164a8e000(0000) GS:ffff9b57ff700000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:27:20 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:27:20 2025] CR2: 00005909c5fd9140 CR3: 000000010a35c001 CR4: 00000000003706f0
+[Wed Jul 30 17:27:20 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:27:20 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:27:20 2025] Call Trace:
+[Wed Jul 30 17:27:20 2025]  <IRQ>
+[Wed Jul 30 17:27:20 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:27:20 2025]  ? dump_cpu_task+0x74/0x90
+[Wed Jul 30 17:27:20 2025]  ? rcu_dump_cpu_stacks+0xeb/0x180
+[Wed Jul 30 17:27:20 2025]  ? print_cpu_stall+0x13a/0x2d0
+[Wed Jul 30 17:27:20 2025]  ? check_cpu_stall+0x13c/0x230
+[Wed Jul 30 17:27:20 2025]  ? rcu_pending+0x34/0x230
+[Wed Jul 30 17:27:20 2025]  ? __cgroup_account_cputime_field+0x39/0x80
+[Wed Jul 30 17:27:20 2025]  ? account_system_index_time+0x9a/0xd0
+[Wed Jul 30 17:27:20 2025]  ? rcu_sched_clock_irq+0xcd/0x370
+[Wed Jul 30 17:27:20 2025]  ? update_process_times+0x6f/0xb0
+[Wed Jul 30 17:27:20 2025]  ? tick_nohz_handler+0x97/0x170
+[Wed Jul 30 17:27:20 2025]  ? __pfx_tick_nohz_handler+0x10/0x10
+[Wed Jul 30 17:27:20 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:27:20 2025]  ? clockevents_program_event+0xc1/0x150
+[Wed Jul 30 17:27:20 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:27:20 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:27:20 2025]  ? sysvec_apic_timer_interrupt+0x47/0xc0
+[Wed Jul 30 17:27:20 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:27:20 2025]  ? native_queued_spin_lock_slowpath+0x81/0x310
+[Wed Jul 30 17:27:20 2025]  _raw_spin_lock+0x3f/0x60
+[Wed Jul 30 17:27:20 2025]  xtrdma_eq_share_dpc+0x4ac/0x610 [xt_rdma]
+[Wed Jul 30 17:27:20 2025]  tasklet_action_common.isra.0+0xda/0x1e0
+[Wed Jul 30 17:27:20 2025]  tasklet_action+0x29/0x40
+[Wed Jul 30 17:27:20 2025]  handle_softirqs+0xea/0x340
+[Wed Jul 30 17:27:20 2025]  __irq_exit_rcu+0xd2/0xf0
+[Wed Jul 30 17:27:20 2025]  irq_exit_rcu+0xe/0x20
+[Wed Jul 30 17:27:20 2025]  common_interrupt+0xb6/0xe0
+[Wed Jul 30 17:27:20 2025]  </IRQ>
+[Wed Jul 30 17:27:20 2025]  <TASK>
+[Wed Jul 30 17:27:20 2025]  asm_common_interrupt+0x27/0x40
+[Wed Jul 30 17:27:20 2025] RIP: 0010:__xa_erase+0x23/0xa0
+[Wed Jul 30 17:27:20 2025] Code: 90 90 90 90 90 90 90 55 48 89 e5 48 83 ec 40 65 48 8b 04 25 28 00 00 00 48 89 45 f8 31 c0 48 89 7d c0 48 8d 7d c0 48 89 75 c8 <31> f6 48 c7 45 d0 00 00 00 00 48 c7 45 d8 03 00 00 00 48 c7 45 e0
+[Wed Jul 30 17:27:20 2025] RSP: 0018:ffffb046ba2e7768 EFLAGS: 00000246
+[Wed Jul 30 17:27:20 2025] RAX: 0000000000000000 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:27:20 2025] RDX: 0000000000000000 RSI: 0000000000000247 RDI: ffffb046ba2e7768
+[Wed Jul 30 17:27:20 2025] RBP: ffffb046ba2e77a8 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:27:20 2025] R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000247
+[Wed Jul 30 17:27:20 2025] R13: ffff9b48cea0e800 R14: ffff9b48d4098000 R15: ffff9b48d4098000
+[Wed Jul 30 17:27:20 2025]  xa_erase+0x1d/0x40
+[Wed Jul 30 17:27:20 2025]  xtrdma_ib_destroy_qp+0xdf/0x350 [xt_rdma]
+[Wed Jul 30 17:27:20 2025]  ib_destroy_qp_user+0x9d/0x1a0 [ib_core]
+[Wed Jul 30 17:27:20 2025]  uverbs_free_qp+0x36/0xa0 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  destroy_hw_idr_uobject+0x24/0x60 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  uverbs_destroy_uobject+0x3b/0x1d0 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  uobj_destroy+0x41/0x80 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  ib_uverbs_run_method+0x23a/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_DESTROY+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:27:20 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:27:20 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:27:20 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:27:20 2025]  ? vm_mmap_pgoff+0x125/0x1a0
+[Wed Jul 30 17:27:20 2025]  ? ksys_mmap_pgoff+0x189/0x250
+[Wed Jul 30 17:27:20 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:27:20 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:27:20 2025]  ? rcu_core+0x1d6/0x370
+[Wed Jul 30 17:27:20 2025]  ? rcu_core_si+0xe/0x20
+[Wed Jul 30 17:27:20 2025]  ? handle_softirqs+0xea/0x340
+[Wed Jul 30 17:27:20 2025]  ? irqentry_exit_to_user_mode+0x43/0x250
+[Wed Jul 30 17:27:20 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:27:20 2025]  ? sysvec_apic_timer_interrupt+0x57/0xc0
+[Wed Jul 30 17:27:20 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:27:20 2025] RIP: 0033:0x7b0162524ded
+[Wed Jul 30 17:27:20 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:27:20 2025] RSP: 002b:00007ffddbd2d630 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:27:20 2025] RAX: ffffffffffffffda RBX: 00007ffddbd2d710 RCX: 00007b0162524ded
+[Wed Jul 30 17:27:20 2025] RDX: 00007ffddbd2d730 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:27:20 2025] RBP: 00007ffddbd2d680 R08: 00005909c5fc8d60 R09: 0000000000000030
+[Wed Jul 30 17:27:20 2025] R10: 00005909c5f97260 R11: 0000000000000246 R12: 00007ffddbd2d6ec
+[Wed Jul 30 17:27:20 2025] R13: 0000000000000022 R14: 00005909c5f8a140 R15: 0000000000000010
+[Wed Jul 30 17:27:20 2025]  </TASK>
+[Wed Jul 30 17:27:42 2025] watchdog: BUG: soft lockup - CPU#29 stuck for 79s! [all_reduce_perf:13471]
+[Wed Jul 30 17:27:42 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:27:42 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:27:42 2025] CPU: 29 UID: 0 PID: 13471 Comm: all_reduce_perf Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:27:42 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:27:42 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:27:42 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x2be/0x310
+[Wed Jul 30 17:27:42 2025] Code: 4d 63 ff 4c 8d a8 40 79 03 00 49 81 ff 00 20 00 00 73 49 4e 03 2c fd e0 fe d8 a1 4d 89 65 00 41 8b 44 24 08 85 c0 75 0b f3 90 <41> 8b 44 24 08 85 c0 74 f5 49 8b 14 24 48 85 d2 0f 84 64 ff ff ff
+[Wed Jul 30 17:27:42 2025] RSP: 0018:ffffb046bb11f710 EFLAGS: 00000246
+[Wed Jul 30 17:27:42 2025] RAX: 0000000000000000 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:27:42 2025] RDX: 0000000000000001 RSI: 0000000000040101 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:27:42 2025] RBP: ffffb046bb11f738 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:27:42 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b57ff7b7940
+[Wed Jul 30 17:27:42 2025] R13: ffff9b57ff037940 R14: 0000000000780000 R15: 0000000000000000
+[Wed Jul 30 17:27:42 2025] FS:  000079ec8c097000(0000) GS:ffff9b57ff780000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:27:42 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:27:42 2025] CR2: 0000597ba42fbc90 CR3: 0000000250c64001 CR4: 00000000003706f0
+[Wed Jul 30 17:27:42 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:27:42 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:27:42 2025] Call Trace:
+[Wed Jul 30 17:27:42 2025]  <IRQ>
+[Wed Jul 30 17:27:42 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:27:42 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:27:42 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:27:42 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:27:42 2025]  ? clockevents_program_event+0xc1/0x150
+[Wed Jul 30 17:27:42 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:27:42 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:27:42 2025]  ? sysvec_apic_timer_interrupt+0x9b/0xc0
+[Wed Jul 30 17:27:42 2025]  </IRQ>
+[Wed Jul 30 17:27:42 2025]  <TASK>
+[Wed Jul 30 17:27:42 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:27:42 2025]  ? native_queued_spin_lock_slowpath+0x2be/0x310
+[Wed Jul 30 17:27:42 2025]  _raw_spin_lock+0x3f/0x60
+[Wed Jul 30 17:27:42 2025]  xa_erase+0x12/0x40
+[Wed Jul 30 17:27:42 2025]  xtrdma_ib_destroy_qp+0xdf/0x350 [xt_rdma]
+[Wed Jul 30 17:27:42 2025]  ib_destroy_qp_user+0x9d/0x1a0 [ib_core]
+[Wed Jul 30 17:27:42 2025]  uverbs_free_qp+0x36/0xa0 [ib_uverbs]
+[Wed Jul 30 17:27:42 2025]  destroy_hw_idr_uobject+0x24/0x60 [ib_uverbs]
+[Wed Jul 30 17:27:42 2025]  uverbs_destroy_uobject+0x3b/0x1d0 [ib_uverbs]
+[Wed Jul 30 17:27:42 2025]  uobj_destroy+0x41/0x80 [ib_uverbs]
+[Wed Jul 30 17:27:42 2025]  ib_uverbs_run_method+0x23a/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:42 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_DESTROY+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:27:42 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:42 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:27:42 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:27:42 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:27:42 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:27:42 2025]  ? vm_mmap_pgoff+0x125/0x1a0
+[Wed Jul 30 17:27:42 2025]  ? ksys_mmap_pgoff+0x189/0x250
+[Wed Jul 30 17:27:42 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:27:42 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:27:42 2025]  ? update_load_avg+0x82/0x840
+[Wed Jul 30 17:27:42 2025]  ? sched_clock_noinstr+0x9/0x10
+[Wed Jul 30 17:27:42 2025]  ? sched_clock+0x10/0x30
+[Wed Jul 30 17:27:42 2025]  ? sugov_get_util+0x50/0xb0
+[Wed Jul 30 17:27:42 2025]  ? sugov_update_single_freq+0x207/0x2d0
+[Wed Jul 30 17:27:42 2025]  ? sched_balance_domains+0xd7/0x400
+[Wed Jul 30 17:27:42 2025]  ? sched_balance_softirq+0x51/0x80
+[Wed Jul 30 17:27:42 2025]  ? handle_softirqs+0xea/0x340
+[Wed Jul 30 17:27:42 2025]  ? irqentry_exit_to_user_mode+0x43/0x250
+[Wed Jul 30 17:27:42 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:27:42 2025]  ? sysvec_apic_timer_interrupt+0x57/0xc0
+[Wed Jul 30 17:27:42 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:27:42 2025] RIP: 0033:0x79ec89b24ded
+[Wed Jul 30 17:27:42 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:27:42 2025] RSP: 002b:00007ffc27aeb5c0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:27:42 2025] RAX: ffffffffffffffda RBX: 00007ffc27aeb6a0 RCX: 000079ec89b24ded
+[Wed Jul 30 17:27:42 2025] RDX: 00007ffc27aeb6c0 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:27:42 2025] RBP: 00007ffc27aeb610 R08: 0000597ba42eb8b0 R09: 0000000000000030
+[Wed Jul 30 17:27:42 2025] R10: 0000597ba42b9db0 R11: 0000000000000246 R12: 00007ffc27aeb67c
+[Wed Jul 30 17:27:42 2025] R13: 0000000000000022 R14: 0000597ba42acc90 R15: 0000000000000004
+[Wed Jul 30 17:27:42 2025]  </TASK>
+[Wed Jul 30 17:27:46 2025] watchdog: BUG: soft lockup - CPU#28 stuck for 82s! [all_reduce_perf:13468]
+[Wed Jul 30 17:27:46 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:27:46 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:27:46 2025] CPU: 28 UID: 0 PID: 13468 Comm: all_reduce_perf Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:27:46 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:27:46 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:27:46 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x84/0x310
+[Wed Jul 30 17:27:46 2025] Code: 0f ba 2b 08 0f 92 c2 8b 03 0f b6 d2 c1 e2 08 30 e4 09 d0 3d ff 00 00 00 77 6c 85 c0 74 10 0f b6 03 84 c0 74 09 f3 90 0f b6 03 <84> c0 75 f7 b8 01 00 00 00 66 89 03 5b 41 5c 41 5d 41 5e 41 5f 5d
+[Wed Jul 30 17:27:46 2025] RSP: 0018:ffffb04686ad0e60 EFLAGS: 00000202
+[Wed Jul 30 17:27:46 2025] RAX: 0000000000000001 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:27:46 2025] RDX: 0000000000000000 RSI: 0000000000000001 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:27:46 2025] RBP: ffffb04686ad0e88 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:27:46 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b494c35f480
+[Wed Jul 30 17:27:46 2025] R13: 0000000080000000 R14: ffff9b4a0f3428c0 R15: ffff9b48cea0eb98
+[Wed Jul 30 17:27:46 2025] FS:  00007b0164a8e000(0000) GS:ffff9b57ff700000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:27:46 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:27:46 2025] CR2: 00005909c5fd9140 CR3: 000000010a35c001 CR4: 00000000003706f0
+[Wed Jul 30 17:27:46 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:27:46 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:27:46 2025] Call Trace:
+[Wed Jul 30 17:27:46 2025]  <IRQ>
+[Wed Jul 30 17:27:46 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:27:46 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:27:46 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:27:46 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:27:46 2025]  ? clockevents_program_event+0xc1/0x150
+[Wed Jul 30 17:27:46 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:27:46 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:27:46 2025]  ? sysvec_apic_timer_interrupt+0x47/0xc0
+[Wed Jul 30 17:27:46 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:27:46 2025]  ? native_queued_spin_lock_slowpath+0x84/0x310
+[Wed Jul 30 17:27:46 2025]  _raw_spin_lock+0x3f/0x60
+[Wed Jul 30 17:27:46 2025]  xtrdma_eq_share_dpc+0x4ac/0x610 [xt_rdma]
+[Wed Jul 30 17:27:46 2025]  tasklet_action_common.isra.0+0xda/0x1e0
+[Wed Jul 30 17:27:46 2025]  tasklet_action+0x29/0x40
+[Wed Jul 30 17:27:46 2025]  handle_softirqs+0xea/0x340
+[Wed Jul 30 17:27:46 2025]  __irq_exit_rcu+0xd2/0xf0
+[Wed Jul 30 17:27:46 2025]  irq_exit_rcu+0xe/0x20
+[Wed Jul 30 17:27:46 2025]  common_interrupt+0xb6/0xe0
+[Wed Jul 30 17:27:46 2025]  </IRQ>
+[Wed Jul 30 17:27:46 2025]  <TASK>
+[Wed Jul 30 17:27:46 2025]  asm_common_interrupt+0x27/0x40
+[Wed Jul 30 17:27:46 2025] RIP: 0010:__xa_erase+0x23/0xa0
+[Wed Jul 30 17:27:46 2025] Code: 90 90 90 90 90 90 90 55 48 89 e5 48 83 ec 40 65 48 8b 04 25 28 00 00 00 48 89 45 f8 31 c0 48 89 7d c0 48 8d 7d c0 48 89 75 c8 <31> f6 48 c7 45 d0 00 00 00 00 48 c7 45 d8 03 00 00 00 48 c7 45 e0
+[Wed Jul 30 17:27:46 2025] RSP: 0018:ffffb046ba2e7768 EFLAGS: 00000246
+[Wed Jul 30 17:27:46 2025] RAX: 0000000000000000 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:27:46 2025] RDX: 0000000000000000 RSI: 0000000000000247 RDI: ffffb046ba2e7768
+[Wed Jul 30 17:27:46 2025] RBP: ffffb046ba2e77a8 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:27:46 2025] R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000247
+[Wed Jul 30 17:27:46 2025] R13: ffff9b48cea0e800 R14: ffff9b48d4098000 R15: ffff9b48d4098000
+[Wed Jul 30 17:27:46 2025]  xa_erase+0x1d/0x40
+[Wed Jul 30 17:27:46 2025]  xtrdma_ib_destroy_qp+0xdf/0x350 [xt_rdma]
+[Wed Jul 30 17:27:46 2025]  ib_destroy_qp_user+0x9d/0x1a0 [ib_core]
+[Wed Jul 30 17:27:46 2025]  uverbs_free_qp+0x36/0xa0 [ib_uverbs]
+[Wed Jul 30 17:27:46 2025]  destroy_hw_idr_uobject+0x24/0x60 [ib_uverbs]
+[Wed Jul 30 17:27:46 2025]  uverbs_destroy_uobject+0x3b/0x1d0 [ib_uverbs]
+[Wed Jul 30 17:27:46 2025]  uobj_destroy+0x41/0x80 [ib_uverbs]
+[Wed Jul 30 17:27:46 2025]  ib_uverbs_run_method+0x23a/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:46 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_DESTROY+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:27:46 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:27:46 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:27:46 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:27:46 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:27:46 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:27:46 2025]  ? vm_mmap_pgoff+0x125/0x1a0
+[Wed Jul 30 17:27:46 2025]  ? ksys_mmap_pgoff+0x189/0x250
+[Wed Jul 30 17:27:46 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:27:46 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:27:46 2025]  ? rcu_core+0x1d6/0x370
+[Wed Jul 30 17:27:46 2025]  ? rcu_core_si+0xe/0x20
+[Wed Jul 30 17:27:46 2025]  ? handle_softirqs+0xea/0x340
+[Wed Jul 30 17:27:46 2025]  ? irqentry_exit_to_user_mode+0x43/0x250
+[Wed Jul 30 17:27:46 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:27:46 2025]  ? sysvec_apic_timer_interrupt+0x57/0xc0
+[Wed Jul 30 17:27:46 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:27:46 2025] RIP: 0033:0x7b0162524ded
+[Wed Jul 30 17:27:46 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:27:46 2025] RSP: 002b:00007ffddbd2d630 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:27:46 2025] RAX: ffffffffffffffda RBX: 00007ffddbd2d710 RCX: 00007b0162524ded
+[Wed Jul 30 17:27:46 2025] RDX: 00007ffddbd2d730 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:27:46 2025] RBP: 00007ffddbd2d680 R08: 00005909c5fc8d60 R09: 0000000000000030
+[Wed Jul 30 17:27:46 2025] R10: 00005909c5f97260 R11: 0000000000000246 R12: 00007ffddbd2d6ec
+[Wed Jul 30 17:27:46 2025] R13: 0000000000000022 R14: 00005909c5f8a140 R15: 0000000000000010
+[Wed Jul 30 17:27:46 2025]  </TASK>
+[Wed Jul 30 17:27:46 2025] watchdog: BUG: soft lockup - CPU#33 stuck for 78s! [kworker/u225:1:12714]
+[Wed Jul 30 17:27:46 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:27:46 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:27:46 2025] CPU: 33 UID: 0 PID: 12714 Comm: kworker/u225:1 Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:27:46 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:27:46 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:27:46 2025] Workqueue: writeback wb_workfn (flush-8:0)
+[Wed Jul 30 17:27:46 2025] RIP: 0010:smp_call_function_many_cond+0x143/0x570
+[Wed Jul 30 17:27:46 2025] Code: 63 e0 49 8b 1f 49 81 fc 00 20 00 00 0f 83 fb 03 00 00 4a 03 1c e5 e0 fe d8 a1 8b 53 08 48 89 de 83 e2 01 74 0a f3 90 8b 4e 08 <83> e1 01 75 f6 83 c0 01 eb b1 48 83 c4 40 5b 41 5c 41 5d 41 5e 41
+[Wed Jul 30 17:27:46 2025] RSP: 0018:ffffb046b7f133d0 EFLAGS: 00000202
+[Wed Jul 30 17:27:46 2025] RAX: 0000000000000000 RBX: ffff9b57ff040180 RCX: 0000000000000011
+[Wed Jul 30 17:27:46 2025] RDX: 0000000000000001 RSI: ffff9b57ff040180 RDI: 0000000000000000
+[Wed Jul 30 17:27:46 2025] RBP: ffffb046b7f13438 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:27:46 2025] R10: ffff9b48c4522a20 R11: 0000000000000000 R12: 0000000000000000
+[Wed Jul 30 17:27:46 2025] R13: 0000000000000001 R14: 0000000000000021 R15: ffff9b57ff9b7e00
+[Wed Jul 30 17:27:46 2025] FS:  0000000000000000(0000) GS:ffff9b57ff980000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:27:46 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:27:46 2025] CR2: 00007165c2a057a4 CR3: 0000001bf7e3e004 CR4: 00000000003706f0
+[Wed Jul 30 17:27:46 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:27:46 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:27:46 2025] Call Trace:
+[Wed Jul 30 17:27:46 2025]  <IRQ>
+[Wed Jul 30 17:27:46 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:27:46 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:27:46 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:27:46 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:27:46 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:27:46 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:27:46 2025]  ? sysvec_apic_timer_interrupt+0x9b/0xc0
+[Wed Jul 30 17:27:46 2025]  </IRQ>
+[Wed Jul 30 17:27:46 2025]  <TASK>
+[Wed Jul 30 17:27:46 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:27:46 2025]  ? smp_call_function_many_cond+0x143/0x570
+[Wed Jul 30 17:27:46 2025]  ? __pfx_flush_tlb_func+0x10/0x10
+[Wed Jul 30 17:27:46 2025]  on_each_cpu_cond_mask+0x24/0x60
+[Wed Jul 30 17:27:46 2025]  native_flush_tlb_multi+0x67/0x130
+[Wed Jul 30 17:27:46 2025]  ? map_pte+0x10b/0x140
+[Wed Jul 30 17:27:46 2025]  flush_tlb_mm_range+0x155/0x1c0
+[Wed Jul 30 17:27:46 2025]  ? page_vma_mapped_walk+0x4d6/0x7f0
+[Wed Jul 30 17:27:46 2025]  ptep_clear_flush+0x69/0x90
+[Wed Jul 30 17:27:46 2025]  page_vma_mkclean_one.constprop.0+0x135/0x290
+[Wed Jul 30 17:27:46 2025]  page_mkclean_one+0x89/0xc0
+[Wed Jul 30 17:27:46 2025]  rmap_walk_file+0xd7/0x200
+[Wed Jul 30 17:27:46 2025]  folio_mkclean+0xa4/0xf0
+[Wed Jul 30 17:27:46 2025]  ? __pfx_page_mkclean_one+0x10/0x10
+[Wed Jul 30 17:27:46 2025]  ? __pfx_invalid_mkclean_vma+0x10/0x10
+[Wed Jul 30 17:27:46 2025]  folio_clear_dirty_for_io+0x63/0x1d0
+[Wed Jul 30 17:27:46 2025]  ? mpage_process_folio+0x46/0x150
+[Wed Jul 30 17:27:46 2025]  mpage_submit_folio+0x2c/0xc0
+[Wed Jul 30 17:27:46 2025]  mpage_map_and_submit_buffers+0x11c/0x210
+[Wed Jul 30 17:27:46 2025]  mpage_map_and_submit_extent+0x61/0x330
+[Wed Jul 30 17:27:46 2025]  ext4_do_writepages+0x63b/0x780
+[Wed Jul 30 17:27:46 2025]  ext4_writepages+0xbb/0x190
+[Wed Jul 30 17:27:46 2025]  do_writepages+0x7e/0x270
+[Wed Jul 30 17:27:46 2025]  __writeback_single_inode+0x44/0x290
+[Wed Jul 30 17:27:46 2025]  writeback_sb_inodes+0x254/0x560
+[Wed Jul 30 17:27:46 2025]  __writeback_inodes_wb+0x54/0x100
+[Wed Jul 30 17:27:46 2025]  ? queue_io+0x113/0x120
+[Wed Jul 30 17:27:46 2025]  wb_writeback+0x1a0/0x320
+[Wed Jul 30 17:27:46 2025]  wb_do_writeback+0x1ef/0x2a0
+[Wed Jul 30 17:27:46 2025]  wb_workfn+0x4c/0x150
+[Wed Jul 30 17:27:46 2025]  process_one_work+0x17b/0x3d0
+[Wed Jul 30 17:27:46 2025]  worker_thread+0x2de/0x410
+[Wed Jul 30 17:27:46 2025]  ? _raw_spin_lock_irqsave+0xe/0x20
+[Wed Jul 30 17:27:46 2025]  ? __pfx_worker_thread+0x10/0x10
+[Wed Jul 30 17:27:46 2025]  kthread+0xe4/0x110
+[Wed Jul 30 17:27:46 2025]  ? __pfx_kthread+0x10/0x10
+[Wed Jul 30 17:27:46 2025]  ret_from_fork+0x47/0x70
+[Wed Jul 30 17:27:46 2025]  ? __pfx_kthread+0x10/0x10
+[Wed Jul 30 17:27:46 2025]  ret_from_fork_asm+0x1a/0x30
+[Wed Jul 30 17:27:46 2025]  </TASK>
+
+
+
+[Wed Jul 30 17:28:10 2025] watchdog: BUG: soft lockup - CPU#29 stuck for 105s! [all_reduce_perf:13471]
+[Wed Jul 30 17:28:10 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:28:10 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:28:10 2025] CPU: 29 UID: 0 PID: 13471 Comm: all_reduce_perf Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:28:10 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:28:10 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:28:10 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x2c3/0x310
+[Wed Jul 30 17:28:10 2025] Code: a8 40 79 03 00 49 81 ff 00 20 00 00 73 49 4e 03 2c fd e0 fe d8 a1 4d 89 65 00 41 8b 44 24 08 85 c0 75 0b f3 90 41 8b 44 24 08 <85> c0 74 f5 49 8b 14 24 48 85 d2 0f 84 64 ff ff ff 0f 0d 0a e9 5c
+[Wed Jul 30 17:28:10 2025] RSP: 0018:ffffb046bb11f710 EFLAGS: 00000246
+[Wed Jul 30 17:28:10 2025] RAX: 0000000000000000 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:28:10 2025] RDX: 0000000000000001 RSI: 0000000000040101 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:28:10 2025] RBP: ffffb046bb11f738 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:28:10 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b57ff7b7940
+[Wed Jul 30 17:28:10 2025] R13: ffff9b57ff037940 R14: 0000000000780000 R15: 0000000000000000
+[Wed Jul 30 17:28:10 2025] FS:  000079ec8c097000(0000) GS:ffff9b57ff780000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:28:10 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:28:10 2025] CR2: 0000597ba42fbc90 CR3: 0000000250c64001 CR4: 00000000003706f0
+[Wed Jul 30 17:28:10 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:28:10 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:28:10 2025] Call Trace:
+[Wed Jul 30 17:28:10 2025]  <IRQ>
+[Wed Jul 30 17:28:10 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:28:10 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:28:10 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:28:10 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:28:10 2025]  ? clockevents_program_event+0xc1/0x150
+[Wed Jul 30 17:28:10 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:28:10 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:28:10 2025]  ? sysvec_apic_timer_interrupt+0x9b/0xc0
+[Wed Jul 30 17:28:10 2025]  </IRQ>
+[Wed Jul 30 17:28:10 2025]  <TASK>
+[Wed Jul 30 17:28:10 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:28:10 2025]  ? native_queued_spin_lock_slowpath+0x2c3/0x310
+[Wed Jul 30 17:28:10 2025]  _raw_spin_lock+0x3f/0x60
+[Wed Jul 30 17:28:10 2025]  xa_erase+0x12/0x40
+[Wed Jul 30 17:28:10 2025]  xtrdma_ib_destroy_qp+0xdf/0x350 [xt_rdma]
+[Wed Jul 30 17:28:10 2025]  ib_destroy_qp_user+0x9d/0x1a0 [ib_core]
+[Wed Jul 30 17:28:10 2025]  uverbs_free_qp+0x36/0xa0 [ib_uverbs]
+[Wed Jul 30 17:28:10 2025]  destroy_hw_idr_uobject+0x24/0x60 [ib_uverbs]
+[Wed Jul 30 17:28:10 2025]  uverbs_destroy_uobject+0x3b/0x1d0 [ib_uverbs]
+[Wed Jul 30 17:28:10 2025]  uobj_destroy+0x41/0x80 [ib_uverbs]
+[Wed Jul 30 17:28:10 2025]  ib_uverbs_run_method+0x23a/0x330 [ib_uverbs]
+[Wed Jul 30 17:28:10 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_DESTROY+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:28:10 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:28:10 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:28:10 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:28:10 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:28:10 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:28:10 2025]  ? vm_mmap_pgoff+0x125/0x1a0
+[Wed Jul 30 17:28:10 2025]  ? ksys_mmap_pgoff+0x189/0x250
+[Wed Jul 30 17:28:10 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:28:10 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:28:10 2025]  ? update_load_avg+0x82/0x840
+[Wed Jul 30 17:28:10 2025]  ? sched_clock_noinstr+0x9/0x10
+[Wed Jul 30 17:28:10 2025]  ? sched_clock+0x10/0x30
+[Wed Jul 30 17:28:10 2025]  ? sugov_get_util+0x50/0xb0
+[Wed Jul 30 17:28:10 2025]  ? sugov_update_single_freq+0x207/0x2d0
+[Wed Jul 30 17:28:10 2025]  ? sched_balance_domains+0xd7/0x400
+[Wed Jul 30 17:28:10 2025]  ? sched_balance_softirq+0x51/0x80
+[Wed Jul 30 17:28:10 2025]  ? handle_softirqs+0xea/0x340
+[Wed Jul 30 17:28:10 2025]  ? irqentry_exit_to_user_mode+0x43/0x250
+[Wed Jul 30 17:28:10 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:28:10 2025]  ? sysvec_apic_timer_interrupt+0x57/0xc0
+[Wed Jul 30 17:28:10 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:28:10 2025] RIP: 0033:0x79ec89b24ded
+[Wed Jul 30 17:28:10 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:28:10 2025] RSP: 002b:00007ffc27aeb5c0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:28:10 2025] RAX: ffffffffffffffda RBX: 00007ffc27aeb6a0 RCX: 000079ec89b24ded
+[Wed Jul 30 17:28:10 2025] RDX: 00007ffc27aeb6c0 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:28:10 2025] RBP: 00007ffc27aeb610 R08: 0000597ba42eb8b0 R09: 0000000000000030
+[Wed Jul 30 17:28:10 2025] R10: 0000597ba42b9db0 R11: 0000000000000246 R12: 00007ffc27aeb67c
+[Wed Jul 30 17:28:10 2025] R13: 0000000000000022 R14: 0000597ba42acc90 R15: 0000000000000004
+[Wed Jul 30 17:28:10 2025]  </TASK>
+[Wed Jul 30 17:28:14 2025] watchdog: BUG: soft lockup - CPU#28 stuck for 108s! [all_reduce_perf:13468]
+[Wed Jul 30 17:28:14 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:28:14 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:28:14 2025] CPU: 28 UID: 0 PID: 13468 Comm: all_reduce_perf Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:28:14 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:28:14 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:28:14 2025] RIP: 0010:native_queued_spin_lock_slowpath+0x81/0x310
+[Wed Jul 30 17:28:14 2025] Code: 00 00 f0 0f ba 2b 08 0f 92 c2 8b 03 0f b6 d2 c1 e2 08 30 e4 09 d0 3d ff 00 00 00 77 6c 85 c0 74 10 0f b6 03 84 c0 74 09 f3 90 <0f> b6 03 84 c0 75 f7 b8 01 00 00 00 66 89 03 5b 41 5c 41 5d 41 5e
+[Wed Jul 30 17:28:14 2025] RSP: 0018:ffffb04686ad0e60 EFLAGS: 00000202
+[Wed Jul 30 17:28:14 2025] RAX: 0000000000000001 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:28:14 2025] RDX: 0000000000000000 RSI: 0000000000000001 RDI: ffff9b48cea0eb30
+[Wed Jul 30 17:28:14 2025] RBP: ffffb04686ad0e88 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:28:14 2025] R10: 0000000000000000 R11: 0000000000000000 R12: ffff9b494c35f480
+[Wed Jul 30 17:28:14 2025] R13: 0000000080000000 R14: ffff9b4a0f3428c0 R15: ffff9b48cea0eb98
+[Wed Jul 30 17:28:14 2025] FS:  00007b0164a8e000(0000) GS:ffff9b57ff700000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:28:14 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:28:14 2025] CR2: 00005909c5fd9140 CR3: 000000010a35c001 CR4: 00000000003706f0
+[Wed Jul 30 17:28:14 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:28:14 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:28:14 2025] Call Trace:
+[Wed Jul 30 17:28:14 2025]  <IRQ>
+[Wed Jul 30 17:28:14 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:28:14 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:28:14 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:28:14 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:28:14 2025]  ? clockevents_program_event+0xc1/0x150
+[Wed Jul 30 17:28:14 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:28:14 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:28:14 2025]  ? sysvec_apic_timer_interrupt+0x47/0xc0
+[Wed Jul 30 17:28:14 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:28:14 2025]  ? native_queued_spin_lock_slowpath+0x81/0x310
+[Wed Jul 30 17:28:14 2025]  _raw_spin_lock+0x3f/0x60
+[Wed Jul 30 17:28:14 2025]  xtrdma_eq_share_dpc+0x4ac/0x610 [xt_rdma]
+[Wed Jul 30 17:28:14 2025]  tasklet_action_common.isra.0+0xda/0x1e0
+[Wed Jul 30 17:28:14 2025]  tasklet_action+0x29/0x40
+[Wed Jul 30 17:28:14 2025]  handle_softirqs+0xea/0x340
+[Wed Jul 30 17:28:14 2025]  __irq_exit_rcu+0xd2/0xf0
+[Wed Jul 30 17:28:14 2025]  irq_exit_rcu+0xe/0x20
+[Wed Jul 30 17:28:14 2025]  common_interrupt+0xb6/0xe0
+[Wed Jul 30 17:28:14 2025]  </IRQ>
+[Wed Jul 30 17:28:14 2025]  <TASK>
+[Wed Jul 30 17:28:14 2025]  asm_common_interrupt+0x27/0x40
+[Wed Jul 30 17:28:14 2025] RIP: 0010:__xa_erase+0x23/0xa0
+[Wed Jul 30 17:28:14 2025] Code: 90 90 90 90 90 90 90 55 48 89 e5 48 83 ec 40 65 48 8b 04 25 28 00 00 00 48 89 45 f8 31 c0 48 89 7d c0 48 8d 7d c0 48 89 75 c8 <31> f6 48 c7 45 d0 00 00 00 00 48 c7 45 d8 03 00 00 00 48 c7 45 e0
+[Wed Jul 30 17:28:14 2025] RSP: 0018:ffffb046ba2e7768 EFLAGS: 00000246
+[Wed Jul 30 17:28:14 2025] RAX: 0000000000000000 RBX: ffff9b48cea0eb30 RCX: 0000000000000000
+[Wed Jul 30 17:28:14 2025] RDX: 0000000000000000 RSI: 0000000000000247 RDI: ffffb046ba2e7768
+[Wed Jul 30 17:28:14 2025] RBP: ffffb046ba2e77a8 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:28:14 2025] R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000247
+[Wed Jul 30 17:28:14 2025] R13: ffff9b48cea0e800 R14: ffff9b48d4098000 R15: ffff9b48d4098000
+[Wed Jul 30 17:28:14 2025]  xa_erase+0x1d/0x40
+[Wed Jul 30 17:28:14 2025]  xtrdma_ib_destroy_qp+0xdf/0x350 [xt_rdma]
+[Wed Jul 30 17:28:14 2025]  ib_destroy_qp_user+0x9d/0x1a0 [ib_core]
+[Wed Jul 30 17:28:14 2025]  uverbs_free_qp+0x36/0xa0 [ib_uverbs]
+[Wed Jul 30 17:28:14 2025]  destroy_hw_idr_uobject+0x24/0x60 [ib_uverbs]
+[Wed Jul 30 17:28:14 2025]  uverbs_destroy_uobject+0x3b/0x1d0 [ib_uverbs]
+[Wed Jul 30 17:28:14 2025]  uobj_destroy+0x41/0x80 [ib_uverbs]
+[Wed Jul 30 17:28:14 2025]  ib_uverbs_run_method+0x23a/0x330 [ib_uverbs]
+[Wed Jul 30 17:28:14 2025]  ? __pfx_ib_uverbs_handler_UVERBS_METHOD_QP_DESTROY+0x10/0x10 [ib_uverbs]
+[Wed Jul 30 17:28:14 2025]  ib_uverbs_cmd_verbs+0x24a/0x330 [ib_uverbs]
+[Wed Jul 30 17:28:14 2025]  ib_uverbs_ioctl+0xbe/0x130 [ib_uverbs]
+[Wed Jul 30 17:28:14 2025]  __x64_sys_ioctl+0xa3/0xf0
+[Wed Jul 30 17:28:14 2025]  x64_sys_call+0x11ad/0x25f0
+[Wed Jul 30 17:28:14 2025]  do_syscall_64+0x7e/0x170
+[Wed Jul 30 17:28:14 2025]  ? vm_mmap_pgoff+0x125/0x1a0
+[Wed Jul 30 17:28:14 2025]  ? ksys_mmap_pgoff+0x189/0x250
+[Wed Jul 30 17:28:14 2025]  ? syscall_exit_to_user_mode+0x4e/0x250
+[Wed Jul 30 17:28:14 2025]  ? do_syscall_64+0x8a/0x170
+[Wed Jul 30 17:28:14 2025]  ? rcu_core+0x1d6/0x370
+[Wed Jul 30 17:28:14 2025]  ? rcu_core_si+0xe/0x20
+[Wed Jul 30 17:28:14 2025]  ? handle_softirqs+0xea/0x340
+[Wed Jul 30 17:28:14 2025]  ? irqentry_exit_to_user_mode+0x43/0x250
+[Wed Jul 30 17:28:14 2025]  ? irqentry_exit+0x43/0x50
+[Wed Jul 30 17:28:14 2025]  ? sysvec_apic_timer_interrupt+0x57/0xc0
+[Wed Jul 30 17:28:14 2025]  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+[Wed Jul 30 17:28:14 2025] RIP: 0033:0x7b0162524ded
+[Wed Jul 30 17:28:14 2025] Code: 04 25 28 00 00 00 48 89 45 c8 31 c0 48 8d 45 10 c7 45 b0 10 00 00 00 48 89 45 b8 48 8d 45 d0 48 89 45 c0 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 1a 48 8b 45 c8 64 48 2b 04 25 28 00 00 00
+[Wed Jul 30 17:28:14 2025] RSP: 002b:00007ffddbd2d630 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[Wed Jul 30 17:28:14 2025] RAX: ffffffffffffffda RBX: 00007ffddbd2d710 RCX: 00007b0162524ded
+[Wed Jul 30 17:28:14 2025] RDX: 00007ffddbd2d730 RSI: 00000000c0181b01 RDI: 000000000000003a
+[Wed Jul 30 17:28:14 2025] RBP: 00007ffddbd2d680 R08: 00005909c5fc8d60 R09: 0000000000000030
+[Wed Jul 30 17:28:14 2025] R10: 00005909c5f97260 R11: 0000000000000246 R12: 00007ffddbd2d6ec
+[Wed Jul 30 17:28:14 2025] R13: 0000000000000022 R14: 00005909c5f8a140 R15: 0000000000000010
+[Wed Jul 30 17:28:14 2025]  </TASK>
+[Wed Jul 30 17:28:14 2025] watchdog: BUG: soft lockup - CPU#33 stuck for 104s! [kworker/u225:1:12714]
+[Wed Jul 30 17:28:14 2025] Modules linked in: cfg80211 xt_rdma(OE) ib_uverbs ib_core dpu_snd1(OE) veth nf_conntrack_netlink xt_nat xt_tcpudp xt_conntrack xt_MASQUERADE xt_set ip_set nft_chain_nat nf_nat nf_conntrack nf_defrag_ipv6 nf_defrag_ipv4 xt_addrtype nft_compat nf_tables libcrc32c xfrm_user xfrm_algo nvidia_uvm(POE) snd_seq_dummy snd_hrtimer snd_seq_midi snd_seq_midi_event snd_rawmidi snd_seq snd_seq_device snd_timer snd soundcore qrtr nvidia_drm(POE) nvidia_modeset(POE) mlx5_core(OE) mlxdevm(OE) psample mlxfw(OE) tls pci_hyperv_intf mlx_compat(OE) binfmt_misc nvidia(POE) nls_iso8859_1 intel_rapl_msr intel_rapl_common intel_uncore_frequency intel_uncore_frequency_common sb_edac x86_pkg_temp_thermal intel_powerclamp coretemp kvm_intel ipmi_ssif kvm crct10dif_pclmul polyval_clmulni polyval_generic ghash_clmulni_intel sha256_ssse3 sha1_ssse3 aesni_intel crypto_simd cryptd drm_ttm_helper rapl intel_cstate ttm ast mei_me i2c_i801 video mxm_wmi i2c_mux i2c_smbus mei lpc_ich ioatdma acpi_power_meter joydev input_leds ipmi_si
+[Wed Jul 30 17:28:14 2025]  acpi_ipmi ipmi_devintf ipmi_msghandler acpi_pad mac_hid overlay iptable_filter ip6table_filter ip6_tables br_netfilter bridge stp llc arp_tables knem(OE) nfsd msr auth_rpcgss nfs_acl parport_pc lockd ppdev grace lp parport efi_pstore sunrpc nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid crc32_pclmul igb i2c_algo_bit dca ahci xhci_pci libahci xhci_pci_renesas wmi
+[Wed Jul 30 17:28:14 2025] CPU: 33 UID: 0 PID: 12714 Comm: kworker/u225:1 Tainted: P           OEL     6.11.0-19-generic #19~24.04.1-Ubuntu
+[Wed Jul 30 17:28:14 2025] Tainted: [P]=PROPRIETARY_MODULE, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE, [L]=SOFTLOCKUP
+[Wed Jul 30 17:28:14 2025] Hardware name: Supermicro SYS-4028GR-TR/X10DRG-O+-CPU, BIOS 2.0a 07/27/2016
+[Wed Jul 30 17:28:14 2025] Workqueue: writeback wb_workfn (flush-8:0)
+[Wed Jul 30 17:28:14 2025] RIP: 0010:smp_call_function_many_cond+0x143/0x570
+[Wed Jul 30 17:28:14 2025] Code: 63 e0 49 8b 1f 49 81 fc 00 20 00 00 0f 83 fb 03 00 00 4a 03 1c e5 e0 fe d8 a1 8b 53 08 48 89 de 83 e2 01 74 0a f3 90 8b 4e 08 <83> e1 01 75 f6 83 c0 01 eb b1 48 83 c4 40 5b 41 5c 41 5d 41 5e 41
+[Wed Jul 30 17:28:14 2025] RSP: 0018:ffffb046b7f133d0 EFLAGS: 00000202
+[Wed Jul 30 17:28:14 2025] RAX: 0000000000000000 RBX: ffff9b57ff040180 RCX: 0000000000000011
+[Wed Jul 30 17:28:14 2025] RDX: 0000000000000001 RSI: ffff9b57ff040180 RDI: 0000000000000000
+[Wed Jul 30 17:28:14 2025] RBP: ffffb046b7f13438 R08: 0000000000000000 R09: 0000000000000000
+[Wed Jul 30 17:28:14 2025] R10: ffff9b48c4522a20 R11: 0000000000000000 R12: 0000000000000000
+[Wed Jul 30 17:28:14 2025] R13: 0000000000000001 R14: 0000000000000021 R15: ffff9b57ff9b7e00
+[Wed Jul 30 17:28:14 2025] FS:  0000000000000000(0000) GS:ffff9b57ff980000(0000) knlGS:0000000000000000
+[Wed Jul 30 17:28:14 2025] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[Wed Jul 30 17:28:14 2025] CR2: 00007165c2a057a4 CR3: 0000001bf7e3e004 CR4: 00000000003706f0
+[Wed Jul 30 17:28:14 2025] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[Wed Jul 30 17:28:14 2025] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[Wed Jul 30 17:28:14 2025] Call Trace:
+[Wed Jul 30 17:28:14 2025]  <IRQ>
+[Wed Jul 30 17:28:14 2025]  ? show_regs+0x6c/0x80
+[Wed Jul 30 17:28:14 2025]  ? watchdog_timer_fn+0x218/0x2a0
+[Wed Jul 30 17:28:14 2025]  ? __pfx_watchdog_timer_fn+0x10/0x10
+[Wed Jul 30 17:28:14 2025]  ? __hrtimer_run_queues+0x112/0x2a0
+[Wed Jul 30 17:28:14 2025]  ? hrtimer_interrupt+0xf8/0x250
+[Wed Jul 30 17:28:14 2025]  ? __sysvec_apic_timer_interrupt+0x59/0x130
+[Wed Jul 30 17:28:14 2025]  ? sysvec_apic_timer_interrupt+0x9b/0xc0
+[Wed Jul 30 17:28:14 2025]  </IRQ>
+[Wed Jul 30 17:28:14 2025]  <TASK>
+[Wed Jul 30 17:28:14 2025]  ? asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[Wed Jul 30 17:28:14 2025]  ? smp_call_function_many_cond+0x143/0x570
+[Wed Jul 30 17:28:14 2025]  ? __pfx_flush_tlb_func+0x10/0x10
+[Wed Jul 30 17:28:14 2025]  on_each_cpu_cond_mask+0x24/0x60
+[Wed Jul 30 17:28:14 2025]  native_flush_tlb_multi+0x67/0x130
+[Wed Jul 30 17:28:14 2025]  ? map_pte+0x10b/0x140
+[Wed Jul 30 17:28:14 2025]  flush_tlb_mm_range+0x155/0x1c0
+[Wed Jul 30 17:28:14 2025]  ? page_vma_mapped_walk+0x4d6/0x7f0
+[Wed Jul 30 17:28:14 2025]  ptep_clear_flush+0x69/0x90
+[Wed Jul 30 17:28:14 2025]  page_vma_mkclean_one.constprop.0+0x135/0x290
+[Wed Jul 30 17:28:14 2025]  page_mkclean_one+0x89/0xc0
+[Wed Jul 30 17:28:14 2025]  rmap_walk_file+0xd7/0x200
+[Wed Jul 30 17:28:14 2025]  folio_mkclean+0xa4/0xf0
+[Wed Jul 30 17:28:14 2025]  ? __pfx_page_mkclean_one+0x10/0x10
+[Wed Jul 30 17:28:14 2025]  ? __pfx_invalid_mkclean_vma+0x10/0x10
+[Wed Jul 30 17:28:14 2025]  folio_clear_dirty_for_io+0x63/0x1d0
+[Wed Jul 30 17:28:14 2025]  ? mpage_process_folio+0x46/0x150
+[Wed Jul 30 17:28:14 2025]  mpage_submit_folio+0x2c/0xc0
+[Wed Jul 30 17:28:14 2025]  mpage_map_and_submit_buffers+0x11c/0x210
+[Wed Jul 30 17:28:14 2025]  mpage_map_and_submit_extent+0x61/0x330
+[Wed Jul 30 17:28:14 2025]  ext4_do_writepages+0x63b/0x780
+[Wed Jul 30 17:28:14 2025]  ext4_writepages+0xbb/0x190
+[Wed Jul 30 17:28:14 2025]  do_writepages+0x7e/0x270
+[Wed Jul 30 17:28:14 2025]  __writeback_single_inode+0x44/0x290
+[Wed Jul 30 17:28:14 2025]  writeback_sb_inodes+0x254/0x560
+[Wed Jul 30 17:28:14 2025]  __writeback_inodes_wb+0x54/0x100
+[Wed Jul 30 17:28:14 2025]  ? queue_io+0x113/0x120
+[Wed Jul 30 17:28:14 2025]  wb_writeback+0x1a0/0x320
+[Wed Jul 30 17:28:14 2025]  wb_do_writeback+0x1ef/0x2a0
+[Wed Jul 30 17:28:14 2025]  wb_workfn+0x4c/0x150
+[Wed Jul 30 17:28:14 2025]  process_one_work+0x17b/0x3d0
+[Wed Jul 30 17:28:14 2025]  worker_thread+0x2de/0x410
+[Wed Jul 30 17:28:14 2025]  ? _raw_spin_lock_irqsave+0xe/0x20
+[Wed Jul 30 17:28:14 2025]  ? __pfx_worker_thread+0x10/0x10
+[Wed Jul 30 17:28:14 2025]  kthread+0xe4/0x110
+[Wed Jul 30 17:28:14 2025]  ? __pfx_kthread+0x10/0x10
+[Wed Jul 30 17:28:14 2025]  ret_from_fork+0x47/0x70
+[Wed Jul 30 17:28:14 2025]  ? __pfx_kthread+0x10/0x10
+[Wed Jul 30 17:28:14 2025]  ret_from_fork_asm+0x1a/0x30
+[Wed Jul 30 17:28:14 2025]  </TASK>
