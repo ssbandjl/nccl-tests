@@ -136,3 +136,77 @@ CA 'xtrdma_7'
                 Port GUID: 0x020102fffed50004
                 Link layer: Ethernet
 root@gdr116:~/project/ai/nccl-tests# 
+
+
+
+root@gdr114:~/project/ai/nccl-tests# ibstat 
+CA 'mlx5_0'
+        CA type: MT4125
+        Number of ports: 1
+        Firmware version: 22.35.1012
+        Hardware version: 0
+        Node GUID: 0xe8ebd3030008d178
+        System image GUID: 0xe8ebd3030008d178
+        Port 1:
+                State: Active
+                Physical state: LinkUp
+                Rate: 25
+                Base lid: 0
+                LMC: 0
+                SM lid: 0
+                Capability mask: 0x00010000
+                Port GUID: 0xeaebd3fffe08d178
+                Link layer: Ethernet
+CA 'mlx5_1'
+        CA type: MT4125
+        Number of ports: 1
+        Firmware version: 22.35.1012
+        Hardware version: 0
+        Node GUID: 0xe8ebd3030008d179
+        System image GUID: 0xe8ebd3030008d178
+        Port 1:
+                State: Down
+                Physical state: Disabled
+                Rate: 40
+                Base lid: 0
+                LMC: 0
+                SM lid: 0
+                Capability mask: 0x00010000
+                Port GUID: 0xeaebd3fffe08d179
+                Link layer: Ethernet
+CA 'mlx5_2'
+        CA type: MT4125
+        Number of ports: 1
+        Firmware version: 22.43.2566
+        Hardware version: 0
+        Node GUID: 0x08c0eb03004c5a6c
+        System image GUID: 0x08c0eb03004c5a6c
+        Port 1:
+                State: Active
+                Physical state: LinkUp
+                Rate: 25
+                Base lid: 0
+                LMC: 0
+                SM lid: 0
+                Capability mask: 0x00010000
+                Port GUID: 0x0ac0ebfffe4c5a6c
+                Link layer: Ethernet
+CA 'mlx5_3'
+        CA type: MT4125
+        Number of ports: 1
+        Firmware version: 22.43.2566
+        Hardware version: 0
+        Node GUID: 0x08c0eb03004c5a6d
+        System image GUID: 0x08c0eb03004c5a6c
+        Port 1:
+                State: Down
+                Physical state: Disabled
+                Rate: 40
+                Base lid: 0
+                LMC: 0
+                SM lid: 0
+                Capability mask: 0x00010000
+                Port GUID: 0x0ac0ebfffe4c5a6d
+                Link layer: Ethernet
+root@gdr114:~/project/ai/nccl-tests# 
+

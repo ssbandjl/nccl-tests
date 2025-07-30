@@ -45,13 +45,20 @@ ibv_devinfo
 # modify rdma user driver Cmakelist.txt
 # set(IBVERBS_PABI_VERSION "57")
 
-rdma_set_perftest_env(){
+rdma_set_perftest_env_to_perftest(){
   cd /root/project/rdma/dpu_user_rdma/
   sed 's/set(IBVERBS_PABI_VERSION \"34\")/set(IBVERBS_PABI_VERSION \"57\")/g' /root/project/rdma/dpu_user_rdma/CMakeLists.txt |grep 'set(IBVERBS_PABI_VERSION "57")'
   sed -i 's/set(IBVERBS_PABI_VERSION \"34\")/set(IBVERBS_PABI_VERSION \"57\")/g' /root/project/rdma/dpu_user_rdma/CMakeLists.txt
   ./build.sh
   rm -f /root/project/rdma/dpu_user_rdma/build/lib/libmlx5.so.1
   ln -s /root/project/rdma/rdma-core/build/lib/libmlx5.so.1.25.58.0 /root/project/rdma/dpu_user_rdma/build/lib/libmlx5.so.1
+}
+
+rdma_set_perftest_env_to_nccl(){
+  cd /root/project/rdma/dpu_user_rdma/
+  sed 's/set(IBVERBS_PABI_VERSION \"57\")/set(IBVERBS_PABI_VERSION \"34\")/g' /root/project/rdma/dpu_user_rdma/CMakeLists.txt |grep 'set(IBVERBS_PABI_VERSION "34")'
+  sed -i 's/set(IBVERBS_PABI_VERSION \"57\")/set(IBVERBS_PABI_VERSION \"34\")/g' /root/project/rdma/dpu_user_rdma/CMakeLists.txt
+  ./build.sh
 }
 
 
@@ -61,7 +68,6 @@ export XT_CQ_INLINE_CQE=0
 
 # s:
 /root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a --report_gbits
-
 # c:
 /root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a --report_gbits 192.168.1.10
 
@@ -70,12 +76,16 @@ export XT_CQ_INLINE_CQE=0
 /root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a -b --report_gbits
 /root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a -b --report_gbits 192.168.1.10
 
+
+
+
+
 # Write_IMM
-/root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a -b --use_imm --report_gbits
-/root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a -b --use_imm --report_gbits 192.168.1.10
+/root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a -b --write_with_imm --report_gbits
+/root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -a -b --write_with_imm --report_gbits 192.168.1.10
 
 # set msg size
-/root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -b --use_imm -s 8M --report_gbits
-/root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -b --use_imm -s 8M --report_gbits 192.168.1.10
+/root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -b --write_with_imm -s 8M --report_gbits
+/root/project/rdma/sdn/perftest/ib_write_bw -d xtrdma_0 -F -b --write_with_imm -s 8M --report_gbits 192.168.1.10
 
 

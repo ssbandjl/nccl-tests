@@ -20,6 +20,7 @@ export NCCL_PROTO=LL | Simple | LL128
 
 CUDA_VISIBLE_DEVICES=1
 
+NCCL_IB_HCA=xtrdma_0:1,xtrdma_4:1, Use ports 1 of cards
 COMMENT
 
 ALGO_LIST="all_reduce_perf"
