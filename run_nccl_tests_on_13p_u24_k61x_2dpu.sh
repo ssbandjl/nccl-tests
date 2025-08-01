@@ -23,6 +23,8 @@ CUDA_VISIBLE_DEVICES=1
 NCCL_IB_HCA=xtrdma_0:1,xtrdma_4:1, Use ports 1 of cards
 --oversubscribe
 --mca btl ^vader,ofi
+--mca btl_ofi_verbose 100 \
+--mca btl_base_verbose 100 \
 COMMENT
 
 ALGO_LIST="all_reduce_perf"
@@ -33,7 +35,9 @@ for algo in ${ALGO_LIST};do
   log_file=log/13p/2dpu/nccl_tests_${algo}_13p_u24_k61x_2dpu_$(date +'%Y_%m_%d_%H_%M_%S')_log
 	echo $algo
 	echo $log_file
-  mpirun -np 8 -H 192.168.1.10:2,192.168.2.10:2,192.168.1.11:2,192.168.2.11:2 -bind-to core -map-by slot --oversubscribe --mca btl ^vader,ofi --report-bindings \
+  mpirun -np 8 -H 192.168.1.10:2,192.168.2.10:2,192.168.1.11:2,192.168.2.11:2 -bind-to core -map-by slot --oversubscribe --mca btl ^vader --report-bindings \
+    --mca btl_ofi_verbose 100 \
+    --mca btl_base_verbose 100 \
     -x NCCL_DEBUG=TRACE \
     -x NCCL_DEBUG_SUBSYS=NET \
     -x NCCL_IB_DISABLE=0 \
