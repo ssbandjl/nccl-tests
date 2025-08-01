@@ -1,0 +1,1807 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114:11849] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr114:11849] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr114:11849] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr114:11849] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr116:26484] MCW rank 6 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr116:26485] MCW rank 4 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr116:26484] MCW rank 7 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr116:26485] MCW rank 5 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr114] tid:11879, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:26490, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr114] tid:11881, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:11880, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:11883, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:26489, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr116] tid:26491, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr116] tid:26488, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114:11879] mca: base: components_register: registering framework btl components
+[gdr114:11879] mca: base: components_register: found loaded component tcp
+[gdr114:11879] mca: base: components_register: component tcp register function successful
+[gdr114:11879] mca: base: components_register: found loaded component openib
+[gdr114:11879] mca: base: components_register: component openib register function successful
+[gdr114:11879] mca: base: components_register: found loaded component self
+[gdr114:11879] mca: base: components_register: component self register function successful
+[gdr114:11879] mca: base: components_register: found loaded component ofi
+[gdr114:11879] mca: base: components_register: component ofi register function successful
+[gdr114:11879] mca: base: components_register: found loaded component sm
+[gdr114:11879] mca: base: components_open: opening btl components
+[gdr114:11879] mca: base: components_open: found loaded component tcp
+[gdr114:11879] mca: base: components_open: component tcp open function successful
+[gdr114:11879] mca: base: components_open: found loaded component openib
+[gdr114:11879] mca: base: components_open: component openib open function successful
+[gdr114:11879] mca: base: components_open: found loaded component self
+[gdr114:11879] mca: base: components_open: component self open function successful
+[gdr114:11879] mca: base: components_open: found loaded component ofi
+[gdr114:11879] mca: base: components_open: component ofi open function successful
+[gdr114:11879] select: initializing btl component tcp
+[gdr114:11879] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr114:11879] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr114:11879] btl: tcp: Using interface: sppp 
+[gdr114:11879] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr114:11879] btl:tcp: Successfully bound to AF_INET port 1024
+[gdr114:11879] btl:tcp: my listening v4 socket is 0.0.0.0:1024
+[gdr114:11879] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr114:11879] btl:tcp: Successfully bound to AF_INET6 port 1024
+[gdr114:11879] btl:tcp: my listening v6 socket port is 1024
+[gdr114:11879] btl:tcp: examining interface enp129s0f0
+[gdr114:11879] btl:tcp: using ipv6 interface enp129s0f0
+[gdr114:11879] btl:tcp: examining interface enp8s0f0
+[gdr114:11879] btl:tcp: using ipv6 interface enp8s0f0
+[gdr114:11879] btl:tcp: examining interface enp137s0f0
+[gdr114:11879] btl:tcp: using ipv6 interface enp137s0f0
+[gdr114:11879] select: init of component tcp returned success
+[gdr114:11879] select: initializing btl component openib
+[gdr114:11879] Checking distance from this process to device=xtrdma_0
+[gdr114:11881] mca: base: components_register: registering framework btl components
+[gdr114:11881] mca: base: components_register: found loaded component tcp
+[gdr114:11881] mca: base: components_register: component tcp register function successful
+[gdr114:11881] mca: base: components_register: found loaded component openib
+[gdr114:11881] mca: base: components_register: component openib register function successful
+[gdr114:11881] mca: base: components_register: found loaded component self
+[gdr114:11881] mca: base: components_register: component self register function successful
+[gdr114:11881] mca: base: components_register: found loaded component ofi
+[gdr114:11881] mca: base: components_register: component ofi register function successful
+[gdr114:11881] mca: base: components_register: found loaded component sm
+[gdr114:11881] mca: base: components_open: opening btl components
+[gdr114:11881] mca: base: components_open: found loaded component tcp
+[gdr114:11881] mca: base: components_open: component tcp open function successful
+[gdr114:11881] mca: base: components_open: found loaded component openib
+[gdr114:11881] mca: base: components_open: component openib open function successful
+[gdr114:11881] mca: base: components_open: found loaded component self
+[gdr114:11881] mca: base: components_open: component self open function successful
+[gdr114:11881] mca: base: components_open: found loaded component ofi
+[gdr114:11881] mca: base: components_open: component ofi open function successful
+[gdr114:11881] select: initializing btl component tcp
+[gdr114:11881] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr114:11881] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr114:11881] btl: tcp: Using interface: sppp 
+[gdr114:11881] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr114:11881] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr114:11881] btl:tcp: Successfully bound to AF_INET port 1025
+[gdr114:11881] btl:tcp: my listening v4 socket is 0.0.0.0:1025
+[gdr114:11881] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr114:11881] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr114:11881] btl:tcp: Successfully bound to AF_INET6 port 1025
+[gdr114:11881] btl:tcp: my listening v6 socket port is 1025
+[gdr114:11881] btl:tcp: examining interface enp129s0f0
+[gdr114:11881] btl:tcp: using ipv6 interface enp129s0f0
+[gdr114:11881] btl:tcp: examining interface enp8s0f0
+[gdr114:11881] btl:tcp: using ipv6 interface enp8s0f0
+[gdr114:11881] btl:tcp: examining interface enp137s0f0
+[gdr114:11881] btl:tcp: using ipv6 interface enp137s0f0
+[gdr114:11881] select: init of component tcp returned success
+[gdr114:11881] select: initializing btl component openib
+[gdr114:11881] Checking distance from this process to device=xtrdma_0
+[gdr114:11883] mca: base: components_register: registering framework btl components
+[gdr114:11883] mca: base: components_register: found loaded component tcp
+[gdr114:11883] mca: base: components_register: component tcp register function successful
+[gdr114:11883] mca: base: components_register: found loaded component openib
+[gdr114:11883] mca: base: components_register: component openib register function successful
+[gdr114:11883] mca: base: components_register: found loaded component self
+[gdr114:11883] mca: base: components_register: component self register function successful
+[gdr114:11883] mca: base: components_register: found loaded component ofi
+[gdr114:11883] mca: base: components_register: component ofi register function successful
+[gdr114:11883] mca: base: components_register: found loaded component sm
+[gdr114:11883] mca: base: components_open: opening btl components
+[gdr114:11883] mca: base: components_open: found loaded component tcp
+[gdr114:11883] mca: base: components_open: component tcp open function successful
+[gdr114:11883] mca: base: components_open: found loaded component openib
+[gdr114:11883] mca: base: components_open: component openib open function successful
+[gdr114:11883] mca: base: components_open: found loaded component self
+[gdr114:11883] mca: base: components_open: component self open function successful
+[gdr114:11883] mca: base: components_open: found loaded component ofi
+[gdr114:11883] mca: base: components_open: component ofi open function successful
+[gdr114:11883] select: initializing btl component tcp
+[gdr114:11883] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr114:11883] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr114:11883] btl: tcp: Using interface: sppp 
+[gdr114:11883] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr114:11883] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr114:11883] btl:tcp: Attempting to bind to AF_INET port 1026
+[gdr114:11883] btl:tcp: Successfully bound to AF_INET port 1026
+[gdr114:11883] btl:tcp: my listening v4 socket is 0.0.0.0:1026
+[gdr114:11883] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr114:11883] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr114:11883] btl:tcp: Attempting to bind to AF_INET6 port 1026
+[gdr114:11883] btl:tcp: Successfully bound to AF_INET6 port 1026
+[gdr114:11883] btl:tcp: my listening v6 socket port is 1026
+[gdr114:11883] btl:tcp: examining interface enp129s0f0
+[gdr114:11883] btl:tcp: using ipv6 interface enp129s0f0
+[gdr114:11883] btl:tcp: examining interface enp8s0f0
+[gdr114:11883] btl:tcp: using ipv6 interface enp8s0f0
+[gdr114:11883] btl:tcp: examining interface enp137s0f0
+[gdr114:11883] btl:tcp: using ipv6 interface enp137s0f0
+[gdr114:11883] select: init of component tcp returned success
+[gdr114:11883] select: initializing btl component openib
+[gdr114:11883] Checking distance from this process to device=xtrdma_0
+Authorization required, but no authorization protocol specified
+
+[gdr114:11879] hwloc_distances->nbobjs=2
+[gdr114:11879] hwloc_distances->values[0]=10
+[gdr114:11879] hwloc_distances->values[1]=21
+[gdr114:11879] Process is bound: distance to device is 0.000000
+[gdr114:11879] Checking distance from this process to device=xtrdma_1
+[gdr114:11879] hwloc_distances->nbobjs=2
+[gdr114:11879] hwloc_distances->values[0]=10
+[gdr114:11879] hwloc_distances->values[1]=21
+[gdr114:11879] Process is bound: distance to device is 0.000000
+[gdr114:11879] Checking distance from this process to device=xtrdma_2
+[gdr114:11879] hwloc_distances->nbobjs=2
+[gdr114:11879] hwloc_distances->values[0]=10
+[gdr114:11879] hwloc_distances->values[1]=21
+[gdr114:11879] Process is bound: distance to device is 0.000000
+[gdr114:11879] Checking distance from this process to device=xtrdma_3
+[gdr114:11879] hwloc_distances->nbobjs=2
+[gdr114:11879] hwloc_distances->values[0]=10
+[gdr114:11879] hwloc_distances->values[1]=21
+[gdr114:11879] Process is bound: distance to device is 0.000000
+[gdr114:11879] Checking distance from this process to device=xtrdma_4
+[gdr114:11879] hwloc_distances->nbobjs=2
+[gdr114:11879] hwloc_distances->values[0]=10
+[gdr114:11879] hwloc_distances->values[1]=21
+[gdr114:11879] Process is bound: distance to device is 0.000000
+[gdr114:11879] Checking distance from this process to device=xtrdma_5
+[gdr114:11879] hwloc_distances->nbobjs=2
+[gdr114:11879] hwloc_distances->values[0]=10
+[gdr114:11879] hwloc_distances->values[1]=21
+[gdr114:11879] Process is bound: distance to device is 0.000000
+[gdr114:11879] Checking distance from this process to device=xtrdma_6
+[gdr114:11879] hwloc_distances->nbobjs=2
+[gdr114:11879] hwloc_distances->values[0]=10
+[gdr114:11879] hwloc_distances->values[1]=21
+[gdr114:11879] Process is bound: distance to device is 0.000000
+[gdr114:11879] Checking distance from this process to device=xtrdma_7
+[gdr114:11879] hwloc_distances->nbobjs=2
+[gdr114:11879] hwloc_distances->values[0]=10
+[gdr114:11879] hwloc_distances->values[1]=21
+[gdr114:11879] Process is bound: distance to device is 0.000000
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6692 not exists, now remove huge file:/dev/hugepages/huge_file_6692_1754029049_0x5be9ece8f3e0_1367820272
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6692 not exists, now remove huge file:/dev/hugepages/huge_file_6692_1754029049_0x5be9ece7ebc0_286317525
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6692 not exists, now remove huge file:/dev/hugepages/huge_file_6692_1754029049_0x5be9ece6e3a0_1088687650
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6692 not exists, now remove huge file:/dev/hugepages/huge_file_6692_1754029049_0x5be9ece5db80_1341845828
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6692 not exists, now remove huge file:/dev/hugepages/huge_file_6692_1754029049_0x5be9ece4d360_848442611
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6692 not exists, now remove huge file:/dev/hugepages/huge_file_6692_1754029049_0x5be9ece3cb40_5557854
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6692 not exists, now remove huge file:/dev/hugepages/huge_file_6692_1754029049_0x5be9ece2c320_11052922
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6692 not exists, now remove huge file:/dev/hugepages/huge_file_6692_1754029049_0x5be9ece1bb00_33679269
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6691 not exists, now remove huge file:/dev/hugepages/huge_file_6691_1754029049_0x6403cdeb1e90_650272998
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6691 not exists, now remove huge file:/dev/hugepages/huge_file_6691_1754029049_0x6403cdea1670_436664543
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6691 not exists, now remove huge file:/dev/hugepages/huge_file_6691_1754029049_0x6403cde90e50_1577309379
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6691 not exists, now remove huge file:/dev/hugepages/huge_file_6691_1754029049_0x6403cde80630_874073282
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6691 not exists, now remove huge file:/dev/hugepages/huge_file_6691_1754029049_0x6403cde6fe10_1964697115
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6691 not exists, now remove huge file:/dev/hugepages/huge_file_6691_1754029049_0x6403cde5f5f0_1454212172
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6691 not exists, now remove huge file:/dev/hugepages/huge_file_6691_1754029049_0x6403cde4edd0_593879928
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6691 not exists, now remove huge file:/dev/hugepages/huge_file_6691_1754029049_0x6403cde3e5b0_838687914
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6689 not exists, now remove huge file:/dev/hugepages/huge_file_6689_1754029049_0x59ce1271fb50_1355958261
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6689 not exists, now remove huge file:/dev/hugepages/huge_file_6689_1754029049_0x59ce1270f330_518901713
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6689 not exists, now remove huge file:/dev/hugepages/huge_file_6689_1754029049_0x59ce126feb10_524321233
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6689 not exists, now remove huge file:/dev/hugepages/huge_file_6689_1754029049_0x59ce126ee2f0_768958313
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6690 not exists, now remove huge file:/dev/hugepages/huge_file_6690_1754029049_0x595c505b8400_1315657115
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6689 not exists, now remove huge file:/dev/hugepages/huge_file_6689_1754029049_0x59ce126ddad0_1078488562
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6690 not exists, now remove huge file:/dev/hugepages/huge_file_6690_1754029049_0x595c505a7be0_128191520
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6689 not exists, now remove huge file:/dev/hugepages/huge_file_6689_1754029049_0x59ce126cd2b0_354009863
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6690 not exists, now remove huge file:/dev/hugepages/huge_file_6690_1754029049_0x595c505973c0_1305565535
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6689 not exists, now remove huge file:/dev/hugepages/huge_file_6689_1754029049_0x59ce126bca90_1054929383
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6690 not exists, now remove huge file:/dev/hugepages/huge_file_6690_1754029049_0x595c50586ba0_263261521
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6689 not exists, now remove huge file:/dev/hugepages/huge_file_6689_1754029049_0x59ce126ac270_1165374159
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6690 not exists, now remove huge file:/dev/hugepages/huge_file_6690_1754029049_0x595c50576380_611320880
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6690 not exists, now remove huge file:/dev/hugepages/huge_file_6690_1754029049_0x595c50565b60_1986786062
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6690 not exists, now remove huge file:/dev/hugepages/huge_file_6690_1754029049_0x595c50555340_631247148
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6690 not exists, now remove huge file:/dev/hugepages/huge_file_6690_1754029049_0x595c50544b20_2113481925
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6692 not exists, now remove huge file:/dev/hugepages/huge_file_6692_1754029048_0x5be9ecdf5770_2115773676
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6691 not exists, now remove huge file:/dev/hugepages/huge_file_6691_1754029048_0x6403cde18200_162882323
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6689 not exists, now remove huge file:/dev/hugepages/huge_file_6689_1754029048_0x59ce12685ec0_1587924109
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6690 not exists, now remove huge file:/dev/hugepages/huge_file_6690_1754029048_0x595c5051e770_1420070827
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6692 not exists, now remove huge file:/dev/hugepages/huge_file_6692_1754029048_0x5be9ecdde590_2131255536
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6691 not exists, now remove huge file:/dev/hugepages/huge_file_6691_1754029048_0x6403cde01050_2106331123
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6690 not exists, now remove huge file:/dev/hugepages/huge_file_6690_1754029048_0x595c505075c0_266368234
+[gdr114] tid:11879, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:6689 not exists, now remove huge file:/dev/hugepages/huge_file_6689_1754029048_0x59ce1266ed10_1834175597
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030415_0x5f6952de25c0_1477938891
+[gdr116:26491] mca: base: components_register: registering framework btl components
+[gdr116:26491] mca: base: components_register: found loaded component sm
+[gdr116:26491] mca: base: components_register: found loaded component ofi
+[gdr116:26490] mca: base: components_register: registering framework btl components
+[gdr116:26490] mca: base: components_register: found loaded component sm
+[gdr116:26490] mca: base: components_register: found loaded component ofi
+[gdr116:26490] mca: base: components_register: component ofi register function successful
+[gdr116:26491] mca: base: components_register: component ofi register function successful
+[gdr116:26490] mca: base: components_register: found loaded component self
+[gdr116:26491] mca: base: components_register: found loaded component self
+[gdr116:26490] mca: base: components_register: component self register function successful
+[gdr116:26490] mca: base: components_register: found loaded component tcp
+[gdr116:26491] mca: base: components_register: component self register function successful
+[gdr116:26490] mca: base: components_register: component tcp register function successful
+[gdr116:26491] mca: base: components_register: found loaded component tcp
+[gdr116:26490] mca: base: components_register: found loaded component openib
+[gdr116:26491] mca: base: components_register: component tcp register function successful
+[gdr116:26491] mca: base: components_register: found loaded component openib
+[gdr116:26490] mca: base: components_register: component openib register function successful
+[gdr116:26490] mca: base: components_open: opening btl components
+[gdr116:26491] mca: base: components_register: component openib register function successful
+[gdr116:26491] mca: base: components_open: opening btl components
+[gdr116:26491] mca: base: components_open: found loaded component ofi
+[gdr116:26491] mca: base: components_open: component ofi open function successful
+[gdr116:26491] mca: base: components_open: found loaded component self
+[gdr116:26491] mca: base: components_open: component self open function successful
+[gdr116:26491] mca: base: components_open: found loaded component tcp
+[gdr116:26490] mca: base: components_open: found loaded component ofi
+[gdr116:26490] mca: base: components_open: component ofi open function successful
+[gdr116:26490] mca: base: components_open: found loaded component self
+[gdr116:26490] mca: base: components_open: component self open function successful
+[gdr116:26490] mca: base: components_open: found loaded component tcp
+[gdr116:26490] mca: base: components_open: component tcp open function successful
+[gdr116:26490] mca: base: components_open: found loaded component openib
+[gdr116:26490] mca: base: components_open: component openib open function successful
+[gdr116:26490] select: initializing btl component ofi
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:307: btl:ofi:provider_include = "(null)"
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:310: btl:ofi:provider_exclude = "shm,sockets,tcp,udp,rstream,usnic,net"
+[gdr116:26491] mca: base: components_open: component tcp open function successful
+[gdr116:26491] mca: base: components_open: found loaded component openib
+[gdr116:26491] mca: base: components_open: component openib open function successful
+[gdr116:26491] select: initializing btl component ofi
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:307: btl:ofi:provider_include = "(null)"
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:310: btl:ofi:provider_exclude = "shm,sockets,tcp,udp,rstream,usnic,net"
+[gdr114:11880] mca: base: components_register: registering framework btl components
+[gdr114:11880] mca: base: components_register: found loaded component tcp
+[gdr114:11880] mca: base: components_register: component tcp register function successful
+[gdr114:11880] mca: base: components_register: found loaded component openib
+[gdr114:11880] mca: base: components_register: component openib register function successful
+[gdr114:11880] mca: base: components_register: found loaded component self
+[gdr114:11880] mca: base: components_register: component self register function successful
+[gdr114:11880] mca: base: components_register: found loaded component ofi
+[gdr114:11880] mca: base: components_register: component ofi register function successful
+[gdr114:11880] mca: base: components_register: found loaded component sm
+[gdr114:11880] mca: base: components_open: opening btl components
+[gdr114:11880] mca: base: components_open: found loaded component tcp
+[gdr114:11880] mca: base: components_open: component tcp open function successful
+[gdr114:11880] mca: base: components_open: found loaded component openib
+[gdr114:11880] mca: base: components_open: component openib open function successful
+[gdr114:11880] mca: base: components_open: found loaded component self
+[gdr114:11880] mca: base: components_open: component self open function successful
+[gdr114:11880] mca: base: components_open: found loaded component ofi
+[gdr114:11880] mca: base: components_open: component ofi open function successful
+[gdr114:11880] select: initializing btl component tcp
+[gdr114:11880] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr114:11880] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr114:11880] btl: tcp: Using interface: sppp 
+[gdr114:11880] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr114:11880] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr114:11880] btl:tcp: Attempting to bind to AF_INET port 1026
+[gdr114:11880] btl:tcp: Attempting to bind to AF_INET port 1027
+[gdr114:11880] btl:tcp: Successfully bound to AF_INET port 1027
+[gdr114:11880] btl:tcp: my listening v4 socket is 0.0.0.0:1027
+[gdr114:11880] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr114:11880] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr114:11880] btl:tcp: Attempting to bind to AF_INET6 port 1026
+[gdr114:11880] btl:tcp: Attempting to bind to AF_INET6 port 1027
+[gdr114:11880] btl:tcp: Successfully bound to AF_INET6 port 1027
+[gdr114:11880] btl:tcp: my listening v6 socket port is 1027
+[gdr114:11880] btl:tcp: examining interface enp129s0f0
+[gdr114:11880] btl:tcp: using ipv6 interface enp129s0f0
+[gdr114:11880] btl:tcp: examining interface enp8s0f0
+[gdr114:11880] btl:tcp: using ipv6 interface enp8s0f0
+[gdr114:11880] btl:tcp: examining interface enp137s0f0
+[gdr114:11880] btl:tcp: using ipv6 interface enp137s0f0
+[gdr114:11880] select: init of component tcp returned success
+[gdr114:11880] select: initializing btl component openib
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2, actrue_cqe:1023
+[gdr114:11880] Checking distance from this process to device=xtrdma_0
+[gdr116:26489] mca: base: components_register: registering framework btl components
+[gdr116:26489] mca: base: components_register: found loaded component sm
+[gdr116:26489] mca: base: components_register: found loaded component ofi
+[gdr116:26489] mca: base: components_register: component ofi register function successful
+[gdr116:26489] mca: base: components_register: found loaded component self
+[gdr116:26489] mca: base: components_register: component self register function successful
+[gdr116:26489] mca: base: components_register: found loaded component tcp
+[gdr116:26489] mca: base: components_register: component tcp register function successful
+[gdr116:26489] mca: base: components_register: found loaded component openib
+[gdr116:26489] mca: base: components_register: component openib register function successful
+[gdr116:26489] mca: base: components_open: opening btl components
+[gdr116:26489] mca: base: components_open: found loaded component ofi
+[gdr116:26489] mca: base: components_open: component ofi open function successful
+[gdr116:26489] mca: base: components_open: found loaded component self
+[gdr116:26489] mca: base: components_open: component self open function successful
+[gdr116:26489] mca: base: components_open: found loaded component tcp
+[gdr116:26489] mca: base: components_open: component tcp open function successful
+[gdr116:26489] mca: base: components_open: found loaded component openib
+[gdr116:26489] mca: base: components_open: component openib open function successful
+[gdr116:26489] select: initializing btl component ofi
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:307: btl:ofi:provider_include = "(null)"
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:310: btl:ofi:provider_exclude = "shm,sockets,tcp,udp,rstream,usnic,net"
+[gdr116:26488] mca: base: components_register: registering framework btl components
+[gdr116:26488] mca: base: components_register: found loaded component sm
+[gdr116:26488] mca: base: components_register: found loaded component ofi
+[gdr116:26488] mca: base: components_register: component ofi register function successful
+[gdr116:26488] mca: base: components_register: found loaded component self
+[gdr116:26488] mca: base: components_register: component self register function successful
+[gdr116:26488] mca: base: components_register: found loaded component tcp
+[gdr116:26488] mca: base: components_register: component tcp register function successful
+[gdr116:26488] mca: base: components_register: found loaded component openib
+[gdr116:26488] mca: base: components_register: component openib register function successful
+[gdr116:26488] mca: base: components_open: opening btl components
+[gdr116:26488] mca: base: components_open: found loaded component ofi
+[gdr116:26488] mca: base: components_open: component ofi open function successful
+[gdr116:26488] mca: base: components_open: found loaded component self
+[gdr116:26488] mca: base: components_open: component self open function successful
+[gdr116:26488] mca: base: components_open: found loaded component tcp
+[gdr116:26488] mca: base: components_open: component tcp open function successful
+[gdr116:26488] mca: base: components_open: found loaded component openib
+[gdr116:26488] mca: base: components_open: component openib open function successful
+[gdr116:26488] select: initializing btl component ofi
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:307: btl:ofi:provider_include = "(null)"
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:310: btl:ofi:provider_exclude = "shm,sockets,tcp,udp,rstream,usnic,net"
+Authorization required, but no authorization protocol specified
+
+[gdr114:11881] hwloc_distances->nbobjs=2
+[gdr114:11881] hwloc_distances->values[0]=10
+[gdr114:11881] hwloc_distances->values[1]=21
+[gdr114:11881] Process is bound: distance to device is 0.000000
+[gdr114:11881] Checking distance from this process to device=xtrdma_1
+[gdr114:11881] hwloc_distances->nbobjs=2
+[gdr114:11881] hwloc_distances->values[0]=10
+[gdr114:11881] hwloc_distances->values[1]=21
+[gdr114:11881] Process is bound: distance to device is 0.000000
+[gdr114:11881] Checking distance from this process to device=xtrdma_2
+[gdr114:11881] hwloc_distances->nbobjs=2
+[gdr114:11881] hwloc_distances->values[0]=10
+[gdr114:11881] hwloc_distances->values[1]=21
+[gdr114:11881] Process is bound: distance to device is 0.000000
+[gdr114:11881] Checking distance from this process to device=xtrdma_3
+[gdr114:11881] hwloc_distances->nbobjs=2
+[gdr114:11881] hwloc_distances->values[0]=10
+[gdr114:11881] hwloc_distances->values[1]=21
+[gdr114:11881] Process is bound: distance to device is 0.000000
+[gdr114:11881] Checking distance from this process to device=xtrdma_4
+[gdr114:11881] hwloc_distances->nbobjs=2
+[gdr114:11881] hwloc_distances->values[0]=10
+[gdr114:11881] hwloc_distances->values[1]=21
+[gdr114:11881] Process is bound: distance to device is 0.000000
+[gdr114:11881] Checking distance from this process to device=xtrdma_5
+[gdr114:11881] hwloc_distances->nbobjs=2
+[gdr114:11881] hwloc_distances->values[0]=10
+[gdr114:11881] hwloc_distances->values[1]=21
+[gdr114:11881] Process is bound: distance to device is 0.000000
+[gdr114:11881] Checking distance from this process to device=xtrdma_6
+[gdr114:11881] hwloc_distances->nbobjs=2
+[gdr114:11881] hwloc_distances->values[0]=10
+[gdr114:11881] hwloc_distances->values[1]=21
+[gdr114:11881] Process is bound: distance to device is 0.000000
+[gdr114:11881] Checking distance from this process to device=xtrdma_7
+[gdr114:11881] hwloc_distances->nbobjs=2
+[gdr114:11881] hwloc_distances->values[0]=10
+[gdr114:11881] hwloc_distances->values[1]=21
+[gdr114:11881] Process is bound: distance to device is 0.000000
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb24ea650_267892764
+Authorization required, but no authorization protocol specified
+
+[gdr114:11883] hwloc_distances->nbobjs=2
+[gdr114:11883] hwloc_distances->values[0]=10
+[gdr114:11883] hwloc_distances->values[1]=21
+[gdr114:11883] Process is bound: distance to device is 0.000000
+[gdr114:11883] Checking distance from this process to device=xtrdma_1
+[gdr114:11883] hwloc_distances->nbobjs=2
+[gdr114:11883] hwloc_distances->values[0]=10
+[gdr114:11883] hwloc_distances->values[1]=21
+[gdr114:11883] Process is bound: distance to device is 0.000000
+[gdr114:11883] Checking distance from this process to device=xtrdma_2
+[gdr114:11883] hwloc_distances->nbobjs=2
+[gdr114:11883] hwloc_distances->values[0]=10
+[gdr114:11883] hwloc_distances->values[1]=21
+[gdr114:11883] Process is bound: distance to device is 0.000000
+[gdr114:11883] Checking distance from this process to device=xtrdma_3
+[gdr114:11883] hwloc_distances->nbobjs=2
+[gdr114:11883] hwloc_distances->values[0]=10
+[gdr114:11883] hwloc_distances->values[1]=21
+[gdr114:11883] Process is bound: distance to device is 0.000000
+[gdr114:11883] Checking distance from this process to device=xtrdma_4
+[gdr114:11883] hwloc_distances->nbobjs=2
+[gdr114:11883] hwloc_distances->values[0]=10
+[gdr114:11883] hwloc_distances->values[1]=21
+[gdr114:11883] Process is bound: distance to device is 0.000000
+[gdr114:11883] Checking distance from this process to device=xtrdma_5
+[gdr114:11883] hwloc_distances->nbobjs=2
+[gdr114:11883] hwloc_distances->values[0]=10
+[gdr114:11883] hwloc_distances->values[1]=21
+[gdr114:11883] Process is bound: distance to device is 0.000000
+[gdr114:11883] Checking distance from this process to device=xtrdma_6
+[gdr114:11883] hwloc_distances->nbobjs=2
+[gdr114:11883] hwloc_distances->values[0]=10
+[gdr114:11883] hwloc_distances->values[1]=21
+[gdr114:11883] Process is bound: distance to device is 0.000000
+[gdr114:11883] Checking distance from this process to device=xtrdma_7
+[gdr114:11883] hwloc_distances->nbobjs=2
+[gdr114:11883] hwloc_distances->values[0]=10
+[gdr114:11883] hwloc_distances->values[1]=21
+[gdr114:11883] Process is bound: distance to device is 0.000000
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030415_0x5e9063577330_309944537
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2, actrue_cqe:1023
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            gdr114
+  Device name:           xtrdma_0
+  Device vendor ID:      0x10ee
+  Device vendor part ID: 36920
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030415_0x5f6952df9770_1258219625
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2501800_750095147
+Authorization required, but no authorization protocol specified
+
+[gdr114:11880] hwloc_distances->nbobjs=2
+[gdr114:11880] hwloc_distances->values[0]=10
+[gdr114:11880] hwloc_distances->values[1]=21
+[gdr114:11880] Process is bound: distance to device is 0.000000
+[gdr114:11880] Checking distance from this process to device=xtrdma_1
+[gdr114:11880] hwloc_distances->nbobjs=2
+[gdr114:11880] hwloc_distances->values[0]=10
+[gdr114:11880] hwloc_distances->values[1]=21
+[gdr114:11880] Process is bound: distance to device is 0.000000
+[gdr114:11880] Checking distance from this process to device=xtrdma_2
+[gdr114:11880] hwloc_distances->nbobjs=2
+[gdr114:11880] hwloc_distances->values[0]=10
+[gdr114:11880] hwloc_distances->values[1]=21
+[gdr114:11880] Process is bound: distance to device is 0.000000
+[gdr114:11880] Checking distance from this process to device=xtrdma_3
+[gdr114:11880] hwloc_distances->nbobjs=2
+[gdr114:11880] hwloc_distances->values[0]=10
+[gdr114:11880] hwloc_distances->values[1]=21
+[gdr114:11880] Process is bound: distance to device is 0.000000
+[gdr114:11880] Checking distance from this process to device=xtrdma_4
+[gdr114:11880] hwloc_distances->nbobjs=2
+[gdr114:11880] hwloc_distances->values[0]=10
+[gdr114:11880] hwloc_distances->values[1]=21
+[gdr114:11880] Process is bound: distance to device is 0.000000
+[gdr114:11880] Checking distance from this process to device=xtrdma_5
+[gdr114:11880] hwloc_distances->nbobjs=2
+[gdr114:11880] hwloc_distances->values[0]=10
+[gdr114:11880] hwloc_distances->values[1]=21
+[gdr114:11880] Process is bound: distance to device is 0.000000
+[gdr114:11880] Checking distance from this process to device=xtrdma_6
+[gdr114:11880] hwloc_distances->nbobjs=2
+[gdr114:11880] hwloc_distances->values[0]=10
+[gdr114:11880] hwloc_distances->values[1]=21
+[gdr114:11880] Process is bound: distance to device is 0.000000
+[gdr114:11880] Checking distance from this process to device=xtrdma_7
+[gdr114:11880] hwloc_distances->nbobjs=2
+[gdr114:11880] hwloc_distances->values[0]=10
+[gdr114:11880] hwloc_distances->values[1]=21
+[gdr114:11880] Process is bound: distance to device is 0.000000
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030415_0x588abc483330_34344709
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030415_0x5e906358e4e0_433489950
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2501800_572672556
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030415_0x5f6952df9770_1717394419
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2501800_514869332
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030415_0x5f6952df9770_1402558717
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030415_0x5e906358e4e0_1343515011
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030415_0x588abc49a4e0_966736500
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2501800_1438296516
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030415_0x5f6952df9770_1483669547
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_285824106
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030415_0x5e906358e4e0_1622433265
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030415_0x588abc49a4e0_181873837
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030415_0x5f6952e1fb20_1564593167
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_255466180
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030415_0x5f6952e1fb20_144578284
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030415_0x5e906358e4e0_2002004148
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030415_0x588abc49a4e0_636623818
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_637390024
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030415_0x5f6952e1fb20_2008433973
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030415_0x5e90635b4890_827803960
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030415_0x588abc49a4e0_591212494
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:2, actrue_cqe:1023
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           gdr114
+  Local device:         xtrdma_0
+  Local port:           1
+  CPCs attempted:       udcm
+--------------------------------------------------------------------------
+[gdr114:11881] select: init of component openib returned failure
+[gdr114:11881] mca: base: close: component openib closed
+[gdr114:11881] mca: base: close: unloading component openib
+[gdr114:11881] select: initializing btl component self
+[gdr114:11881] select: init of component self returned success
+[gdr114:11881] select: initializing btl component ofi
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:307: btl:ofi:provider_include = "(null)"
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:310: btl:ofi:provider_exclude = "shm,sockets,tcp,udp,rstream,usnic,net"
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:2, actrue_cqe:1023
+[gdr114:11879] select: init of component openib returned failure
+[gdr114:11879] mca: base: close: component openib closed
+[gdr114:11879] mca: base: close: unloading component openib
+[gdr114:11879] select: initializing btl component self
+[gdr114:11879] select: init of component self returned success
+[gdr114:11879] select: initializing btl component ofi
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:307: btl:ofi:provider_include = "(null)"
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:310: btl:ofi:provider_exclude = "shm,sockets,tcp,udp,rstream,usnic,net"
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030415_0x5e90635b4890_229939201
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030415_0x588abc4c0890_1084996040
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030415_0x588abc4c0890_1185543507
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030415_0x5e90635b4890_1624950910
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030415_0x588abc4c0890_1422014676
+[gdr114:11883] select: init of component openib returned failure
+[gdr114:11883] mca: base: close: component openib closed
+[gdr114:11883] mca: base: close: unloading component openib
+[gdr114:11883] select: initializing btl component self
+[gdr114:11883] select: init of component self returned success
+[gdr114:11883] select: initializing btl component ofi
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:307: btl:ofi:provider_include = "(null)"
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:310: btl:ofi:provider_exclude = "shm,sockets,tcp,udp,rstream,usnic,net"
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_1400993074
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_141945346
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_520122033
+[gdr114:11880] select: init of component openib returned failure
+[gdr114:11880] mca: base: close: component openib closed
+[gdr114:11880] mca: base: close: unloading component openib
+[gdr114:11880] select: initializing btl component self
+[gdr114:11880] select: init of component self returned success
+[gdr114:11880] select: initializing btl component ofi
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:307: btl:ofi:provider_include = "(null)"
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:310: btl:ofi:provider_exclude = "shm,sockets,tcp,udp,rstream,usnic,net"
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_1245378895
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_864018232
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_1059644806
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_673480465
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_1827671879
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030415_0x5bbeb2527bb0_641266660
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030416_0x5bbeb2527bb0_1882449606
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030416_0x5bbeb25383d0_1953655903
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030416_0x5bbeb2548bf0_645997142
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e1fb20_2043400207
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030416_0x5bbeb2559410_1408046516
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e1fb20_865267494
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030416_0x5bbeb2569c30_2013128600
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e1fb20_911893459
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030416_0x5bbeb257a450_682684425
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e1fb20_621865029
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030416_0x5bbeb258ac70_1173676558
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e1fb20_620733922
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030416_0x5bbeb259b490_160112267
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e1fb20_26943981
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e1fb20_684608271
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e1fb20_8959054
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e1fb20_799122480
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e1fb20_1683996258
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e30340_1034365234
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e40b60_1814953279
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e51380_250072679
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e61ba0_1773672404
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635b4890_426057214
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e723c0_399668887
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635b4890_1068276885
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e82be0_1430976461
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635b4890_906109167
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030416_0x5f6952e93400_1968131931
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635b4890_546915701
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635b4890_844951263
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635b4890_390097724
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635b4890_1916908565
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635b4890_873606668
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635b4890_1860710594
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635b4890_1347270169
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635c50b0_1743559776
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635d58d0_1760021031
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635e60f0_938180877
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4c0890_342047026
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e90635f6910_311949636
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4c0890_660186404
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e9063607130_929840887
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4c0890_860942116
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e9063617950_1036591490
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4c0890_299710448
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030416_0x5e9063628170_929201037
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4c0890_127760566
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4c0890_2024412669
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4c0890_694199765
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4c0890_1039190220
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4c0890_384781267
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4c0890_1299605865
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4d10b0_1198069620
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs2, name:xtrdma_2
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4e18d0_2042157997
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs3, name:xtrdma_3
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc4f20f0_322201978
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs4, name:xtrdma_4
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc502910_527227509
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs5, name:xtrdma_5
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc513130_1307010515
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs6, name:xtrdma_6
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc523950_1590135067
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs7, name:xtrdma_7
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030416_0x588abc534170_2114214997
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btrxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26491] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+l_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26489] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr116:26491] select: init of component ofi returned success
+[gdr116:26491] select: initializing btl component self
+[gdr116:26491] select: init of component self returned success
+[gdr116:26491] select: initializing btl component tcp
+[gdr116:26491] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr116:26491] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr116:26491] btl: tcp: Using interface: sppp 
+[gdr116:26491] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr116:26491] btl:tcp: Successfully bound to AF_INET port 1024
+[gdr116:26491] btl:tcp: my listening v4 socket is 0.0.0.0:1024
+[gdr116:26491] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr116:26491] btl:tcp: Successfully bound to AF_INET6 port 1024
+[gdr116:26491] btl:tcp: my listening v6 socket port is 1024
+[gdr116:26491] btl:tcp: examining interface enp129s0f0
+[gdr116:26491] btl:tcp: using ipv6 interface enp129s0f0
+[gdr116:26491] btl:tcp: examining interface docker0
+[gdr116:26491] btl:tcp: using ipv6 interface docker0
+[gdr116:26491] btl:tcp: examining interface enp8s0f0
+[gdr116:26491] btl:tcp: using ipv6 interface enp8s0f0
+[gdr116:26491] btl:tcp: examining interface enp137s0f0
+[gdr116:26491] btl:tcp: using ipv6 interface enp137s0f0
+[gdr116:26491] select: init of component tcp returned success
+[gdr116:26491] select: initializing btl component openib
+[gdr116:26491] Checking distance from this process to device=xtrdma_0
+[gdr116:26491] hwloc_distances->nbobjs=2
+[gdr116:26491] hwloc_distances->values[0]=10
+[gdr116:26491] hwloc_distances->values[1]=21
+[gdr116:26491] Process is bound: distance to device is 0.000000
+[gdr116:26491] Checking distance from this process to device=xtrdma_1
+[gdr116:26491] hwloc_distances->nbobjs=2
+[gdr116:26491] hwloc_distances->values[0]=10
+[gdr116:26491] hwloc_distances->values[1]=21
+[gdr116:26491] Process is bound: distance to device is 0.000000
+[gdr116:26491] Checking distance from this process to device=xtrdma_2
+[gdr116:26491] hwloc_distances->nbobjs=2
+[gdr116:26491] hwloc_distances->values[0]=10
+[gdr116:26491] hwloc_distances->values[1]=21
+[gdr116:26491] Process is bound: distance to device is 0.000000
+[gdr116:26491] Checking distance from this process to device=xtrdma_3
+[gdr116:26491] hwloc_distances->nbobjs=2
+[gdr116:26491] hwloc_distances->values[0]=10
+[gdr116:26491] hwloc_distances->values[1]=21
+[gdr116:26491] Process is bound: distance to device is 0.000000
+[gdr116:26491] Checking distance from this process to device=xtrdma_4
+[gdr116:26491] hwloc_distances->nbobjs=2
+[gdr116:26491] hwloc_distances->values[0]=10
+[gdr116:26491] hwloc_distances->values[1]=21
+[gdr116:26491] Process is bound: distance to device is 0.000000
+[gdr116:26491] Checking distance from this process to device=xtrdma_5
+[gdr116:26491] hwloc_distances->nbobjs=2
+[gdr116:26491] hwloc_distances->values[0]=10
+[gdr116:26491] hwloc_distances->values[1]=21
+[gdr116:26491] Process is bound: distance to device is 0.000000
+[gdr116:26491] Checking distance from this process to device=xtrdma_6
+[gdr116:26491] hwloc_distances->nbobjs=2
+[gdr116:26491] hwloc_distances->values[0]=10
+[gdr116:26491] hwloc_distances->values[1]=21
+[gdr116:26491] Process is bound: distance to device is 0.000000
+[gdr116:26491] Checking distance from this process to device=xtrdma_7
+[gdr116:26491] hwloc_distances->nbobjs=2
+[gdr116:26491] hwloc_distances->values[0]=10
+[gdr116:26491] hwloc_distances->values[1]=21
+[gdr116:26491] Process is bound: distance to device is 0.000000
+[gdr116:26489] select: init of component ofi returned success
+[gdr116:26489] select: initializing btl component self
+[gdr116:26489] select: init of component self returned success
+[gdr116:26489] select: initializing btl component tcp
+[gdr116:26489] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr116:26489] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr116:26489] btl: tcp: Using interface: sppp 
+[gdr116:26489] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr116:26489] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr116:26489] btl:tcp: Successfully bound to AF_INET port 1025
+[gdr116:26489] btl:tcp: my listening v4 socket is 0.0.0.0:1025
+[gdr116:26489] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr116:26489] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr116:26489] btl:tcp: Successfully bound to AF_INET6 port 1025
+[gdr116:26489] btl:tcp: my listening v6 socket port is 1025
+[gdr116:26489] btl:tcp: examining interface enp129s0f0
+[gdr116:26489] btl:tcp: using ipv6 interface enp129s0f0
+[gdr116:26489] btl:tcp: examining interface docker0
+[gdr116:26489] btl:tcp: using ipv6 interface docker0
+[gdr116:26489] btl:tcp: examining interface enp8s0f0
+[gdr116:26489] btl:tcp: using ipv6 interface enp8s0f0
+[gdr116:26489] btl:tcp: examining interface enp137s0f0
+[gdr116:26489] btl:tcp: using ipv6 interface enp137s0f0
+[gdr116:26489] select: init of component tcp returned success
+[gdr116:26489] select: initializing btl component openib
+[gdr116:26489] Checking distance from this process to device=xtrdma_0
+[gdr116:26489] hwloc_distances->nbobjs=2
+[gdr116:26489] hwloc_distances->values[0]=10
+[gdr116:26489] hwloc_distances->values[1]=21
+[gdr116:26489] Process is bound: distance to device is 0.000000
+[gdr116:26489] Checking distance from this process to device=xtrdma_1
+[gdr116:26489] hwloc_distances->nbobjs=2
+[gdr116:26489] hwloc_distances->values[0]=10
+[gdr116:26489] hwloc_distances->values[1]=21
+[gdr116:26489] Process is bound: distance to device is 0.000000
+[gdr116:26489] Checking distance from this process to device=xtrdma_2
+[gdr116:26489] hwloc_distances->nbobjs=2
+[gdr116:26489] hwloc_distances->values[0]=10
+[gdr116:26489] hwloc_distances->values[1]=21
+[gdr116:26489] Process is bound: distance to device is 0.000000
+[gdr116:26489] Checking distance from this process to device=xtrdma_3
+[gdr116:26489] hwloc_distances->nbobjs=2
+[gdr116:26489] hwloc_distances->values[0]=10
+[gdr116:26489] hwloc_distances->values[1]=21
+[gdr116:26489] Process is bound: distance to device is 0.000000
+[gdr116:26489] Checking distance from this process to device=xtrdma_4
+[gdr116:26489] hwloc_distances->nbobjs=2
+[gdr116:26489] hwloc_distances->values[0]=10
+[gdr116:26489] hwloc_distances->values[1]=21
+[gdr116:26489] Process is bound: distance to device is 0.000000
+[gdr116:26489] Checking distance from this process to device=xtrdma_5
+[gdr116:26489] hwloc_distances->nbobjs=2
+[gdr116:26489] hwloc_distances->values[0]=10
+[gdr116:26489] hwloc_distances->values[1]=21
+[gdr116:26489] Process is bound: distance to device is 0.000000
+[gdr116:26489] Checking distance from this process to device=xtrdma_6
+[gdr116:26489] hwloc_distances->nbobjs=2
+[gdr116:26489] hwloc_distances->values[0]=10
+[gdr116:26489] hwloc_distances->values[1]=21
+[gdr116:26489] Process is bound: distance to device is 0.000000
+[gdr116:26489] Checking distance from this process to device=xtrdma_7
+[gdr116:26489] hwloc_distances->nbobjs=2
+[gdr116:26489] hwloc_distances->values[0]=10
+[gdr116:26489] hwloc_distances->values[1]=21
+[gdr116:26489] Process is bound: distance to device is 0.000000
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_2, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11881, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11881, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11881_1754030418_0x5bbeb25abcb0_1383301206
+[gdr114] tid:11879, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11879, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11879_1754030418_0x5f6952ea6cf0_1937639993
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11881] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114] tid:11881, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:768, actrue_cqe:1023
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11879] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114] tid:11879, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:768, actrue_cqe:1023
+[gdr116:26489] select: init of component openib returned failure
+[gdr116:26489] mca: base: close: component openib closed
+[gdr116:26489] mca: base: close: unloading component openib
+[gdr114:11881] select: init of component ofi returned success
+[gdr114:11879] select: init of component ofi returned success
+[gdr116:26491] select: init of component openib returned failure
+[gdr116:26491] mca: base: close: component openib closed
+[gdr116:26491] mca: base: close: unloading component openib
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_3, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_5, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114:11849] 47 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[gdr114:11849] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[gdr114:11849] 11 more processes have sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_6, need_cqe:1, actrue_cqe:1023
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26490] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+Authorization required, but no authorization protocol specified
+
+[gdr116:26490] select: init of component ofi returned success
+[gdr116:26490] select: initializing btl component self
+[gdr116:26490] select: init of component self returned success
+[gdr116:26490] select: initializing btl component tcp
+[gdr116:26490] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr116:26490] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr116:26490] btl: tcp: Using interface: sppp 
+[gdr116:26490] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr116:26490] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr116:26490] btl:tcp: Attempting to bind to AF_INET port 1026
+[gdr116:26490] btl:tcp: Successfully bound to AF_INET port 1026
+[gdr116:26490] btl:tcp: my listening v4 socket is 0.0.0.0:1026
+[gdr116:26490] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr116:26490] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr116:26490] btl:tcp: Attempting to bind to AF_INET6 port 1026
+[gdr116:26490] btl:tcp: Successfully bound to AF_INET6 port 1026
+[gdr116:26490] btl:tcp: my listening v6 socket port is 1026
+[gdr116:26490] btl:tcp: examining interface enp129s0f0
+[gdr116:26490] btl:tcp: using ipv6 interface enp129s0f0
+[gdr116:26490] btl:tcp: examining interface docker0
+[gdr116:26490] btl:tcp: using ipv6 interface docker0
+[gdr116:26490] btl:tcp: examining interface enp8s0f0
+[gdr116:26490] btl:tcp: using ipv6 interface enp8s0f0
+[gdr116:26490] btl:tcp: examining interface enp137s0f0
+[gdr116:26490] btl:tcp: using ipv6 interface enp137s0f0
+[gdr116:26490] select: init of component tcp returned success
+[gdr116:26490] select: initializing btl component openib
+[gdr116:26490] Checking distance from this process to device=xtrdma_0
+[gdr116:26490] hwloc_distances->nbobjs=2
+[gdr116:26490] hwloc_distances->values[0]=10
+[gdr116:26490] hwloc_distances->values[1]=21
+[gdr116:26490] Process is bound: distance to device is 0.000000
+[gdr116:26490] Checking distance from this process to device=xtrdma_1
+[gdr116:26490] hwloc_distances->nbobjs=2
+[gdr116:26490] hwloc_distances->values[0]=10
+[gdr116:26490] hwloc_distances->values[1]=21
+[gdr116:26490] Process is bound: distance to device is 0.000000
+[gdr116:26490] Checking distance from this process to device=xtrdma_2
+[gdr116:26490] hwloc_distances->nbobjs=2
+[gdr116:26490] hwloc_distances->values[0]=10
+[gdr116:26490] hwloc_distances->values[1]=21
+[gdr116:26490] Process is bound: distance to device is 0.000000
+[gdr116:26490] Checking distance from this process to device=xtrdma_3
+[gdr116:26490] hwloc_distances->nbobjs=2
+[gdr116:26490] hwloc_distances->values[0]=10
+[gdr116:26490] hwloc_distances->values[1]=21
+[gdr116:26490] Process is bound: distance to device is 0.000000
+[gdr116:26490] Checking distance from this process to device=xtrdma_4
+[gdr116:26490] hwloc_distances->nbobjs=2
+[gdr116:26490] hwloc_distances->values[0]=10
+[gdr116:26490] hwloc_distances->values[1]=21
+[gdr116:26490] Process is bound: distance to device is 0.000000
+[gdr116:26490] Checking distance from this process to device=xtrdma_5
+[gdr116:26490] hwloc_distances->nbobjs=2
+[gdr116:26490] hwloc_distances->values[0]=10
+[gdr116:26490] hwloc_distances->values[1]=21
+[gdr116:26490] Process is bound: distance to device is 0.000000
+[gdr116:26490] Checking distance from this process to device=xtrdma_6
+[gdr116:26490] hwloc_distances->nbobjs=2
+[gdr116:26490] hwloc_distances->values[0]=10
+[gdr116:26490] hwloc_distances->values[1]=21
+[gdr116:26490] Process is bound: distance to device is 0.000000
+[gdr116:26490] Checking distance from this process to device=xtrdma_7
+[gdr116:26490] hwloc_distances->nbobjs=2
+[gdr116:26490] hwloc_distances->values[0]=10
+[gdr116:26490] hwloc_distances->values[1]=21
+[gdr116:26490] Process is bound: distance to device is 0.000000
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11883, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11883, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11883_1754030420_0x5e9063638990_1277264900
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11883] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114] tid:11883, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:768, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_7, need_cqe:1, actrue_cqe:1023
+[gdr114:11883] select: init of component ofi returned success
+[gdr116:26490] select: init of component openib returned failure
+[gdr116:26490] mca: base: close: component openib closed
+[gdr116:26490] mca: base: close: unloading component openib
+[gdr114] tid:11880, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:11880, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_11880_1754030421_0x588abc544990_948433973
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114:11880] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr114] tid:11880, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_4, need_cqe:768, actrue_cqe:1023
+[gdr114:11880] select: init of component ofi returned success
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "tcp;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+[gdr116:26488] ../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:70: btl:ofi: "net;ofi_rxm" in exclude list
+Authorization required, but no authorization protocol specified
+
+[gdr116:26488] select: init of component ofi returned success
+[gdr116:26488] select: initializing btl component self
+[gdr116:26488] select: init of component self returned success
+[gdr116:26488] select: initializing btl component tcp
+[gdr116:26488] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr116:26488] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr116:26488] btl: tcp: Using interface: sppp 
+[gdr116:26488] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr116:26488] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr116:26488] btl:tcp: Attempting to bind to AF_INET port 1026
+[gdr116:26488] btl:tcp: Attempting to bind to AF_INET port 1027
+[gdr116:26488] btl:tcp: Successfully bound to AF_INET port 1027
+[gdr116:26488] btl:tcp: my listening v4 socket is 0.0.0.0:1027
+[gdr116:26488] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr116:26488] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr116:26488] btl:tcp: Attempting to bind to AF_INET6 port 1026
+[gdr116:26488] btl:tcp: Attempting to bind to AF_INET6 port 1027
+[gdr116:26488] btl:tcp: Successfully bound to AF_INET6 port 1027
+[gdr116:26488] btl:tcp: my listening v6 socket port is 1027
+[gdr116:26488] btl:tcp: examining interface enp129s0f0
+[gdr116:26488] btl:tcp: using ipv6 interface enp129s0f0
+[gdr116:26488] btl:tcp: examining interface docker0
+[gdr116:26488] btl:tcp: using ipv6 interface docker0
+[gdr116:26488] btl:tcp: examining interface enp8s0f0
+[gdr116:26488] btl:tcp: using ipv6 interface enp8s0f0
+[gdr116:26488] btl:tcp: examining interface enp137s0f0
+[gdr116:26488] btl:tcp: using ipv6 interface enp137s0f0
+[gdr116:26488] select: init of component tcp returned success
+[gdr116:26488] select: initializing btl component openib
+[gdr116:26488] Checking distance from this process to device=xtrdma_0
+[gdr116:26488] hwloc_distances->nbobjs=2
+[gdr116:26488] hwloc_distances->values[0]=10
+[gdr116:26488] hwloc_distances->values[1]=21
+[gdr116:26488] Process is bound: distance to device is 0.000000
+[gdr116:26488] Checking distance from this process to device=xtrdma_1
+[gdr116:26488] hwloc_distances->nbobjs=2
+[gdr116:26488] hwloc_distances->values[0]=10
+[gdr116:26488] hwloc_distances->values[1]=21
+[gdr116:26488] Process is bound: distance to device is 0.000000
+[gdr116:26488] Checking distance from this process to device=xtrdma_2
+[gdr116:26488] hwloc_distances->nbobjs=2
+[gdr116:26488] hwloc_distances->values[0]=10
+[gdr116:26488] hwloc_distances->values[1]=21
+[gdr116:26488] Process is bound: distance to device is 0.000000
+[gdr116:26488] Checking distance from this process to device=xtrdma_3
+[gdr116:26488] hwloc_distances->nbobjs=2
+[gdr116:26488] hwloc_distances->values[0]=10
+[gdr116:26488] hwloc_distances->values[1]=21
+[gdr116:26488] Process is bound: distance to device is 0.000000
+[gdr116:26488] Checking distance from this process to device=xtrdma_4
+[gdr116:26488] hwloc_distances->nbobjs=2
+[gdr116:26488] hwloc_distances->values[0]=10
+[gdr116:26488] hwloc_distances->values[1]=21
+[gdr116:26488] Process is bound: distance to device is 0.000000
+[gdr116:26488] Checking distance from this process to device=xtrdma_5
+[gdr116:26488] hwloc_distances->nbobjs=2
+[gdr116:26488] hwloc_distances->values[0]=10
+[gdr116:26488] hwloc_distances->values[1]=21
+[gdr116:26488] Process is bound: distance to device is 0.000000
+[gdr116:26488] Checking distance from this process to device=xtrdma_6
+[gdr116:26488] hwloc_distances->nbobjs=2
+[gdr116:26488] hwloc_distances->values[0]=10
+[gdr116:26488] hwloc_distances->values[1]=21
+[gdr116:26488] Process is bound: distance to device is 0.000000
+[gdr116:26488] Checking distance from this process to device=xtrdma_7
+[gdr116:26488] hwloc_distances->nbobjs=2
+[gdr116:26488] hwloc_distances->values[0]=10
+[gdr116:26488] hwloc_distances->values[1]=21
+[gdr116:26488] Process is bound: distance to device is 0.000000
+[gdr116:26488] select: init of component openib returned failure
+[gdr116:26488] mca: base: close: component openib closed
+[gdr116:26488] mca: base: close: unloading component openib
+[gdr114:11880] mca: bml: Using self btl for send to [[31436,1],1] on node gdr114
+[gdr114:11881] mca: bml: Using self btl for send to [[31436,1],2] on node gdr114
+[gdr116:26490] mca: bml: Using self btl for send to [[31436,1],7] on node gdr116
+[gdr116:26491] mca: bml: Using self btl for send to [[31436,1],5] on node gdr116
+[gdr114:11879] mca: bml: Using self btl for send to [[31436,1],0] on node gdr114
+[gdr114:11883] mca: bml: Using self btl for send to [[31436,1],3] on node gdr114
+[gdr116:26488] mca: bml: Using self btl for send to [[31436,1],6] on node gdr116
+[gdr116:26489] mca: bml: Using self btl for send to [[31436,1],4] on node gdr116
+[gdr114] tid:11881, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:122, VERBS: ibv_cmd_create_ah success !!!err 0 attr.global:1 sgid_idx:0
+[gdr114] tid:11881, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:126, DGID: 80fe:100d5feff020102 
+[gdr114] tid:11881, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:132, DMAC (from GID): 02:01:02:d5:00:01
+[gdr114] tid:11879, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:122, VERBS: ibv_cmd_create_ah success !!!err 0 attr.global:1 sgid_idx:0
+[gdr114] tid:11879, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:126, DGID: 80fe:100d5feff020102 
+[gdr114] tid:11879, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:132, DMAC (from GID): 02:01:02:d5:00:01
+[gdr114] tid:11881, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:122, VERBS: ibv_cmd_create_ah success !!!err 0 attr.global:1 sgid_idx:0
+[gdr114] tid:11881, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:126, DGID: 80fe:100d5feff020102 
+[gdr114] tid:11881, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:132, DMAC (from GID): 02:01:02:d5:00:01
+[gdr114] tid:11879, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:122, VERBS: ibv_cmd_create_ah success !!!err 0 attr.global:1 sgid_idx:0
+[gdr114] tid:11879, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:126, DGID: 80fe:100d5feff020102 
+[gdr114] tid:11879, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:132, DMAC (from GID): 02:01:02:d5:00:01
+[gdr114][[31436,1],3][../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:243:mca_btl_ofi_exit] BTL OFI will now abort.
+[gdr114][[31436,1],2][../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:243:mca_btl_ofi_exit] BTL OFI will now abort.
+[gdr114][[31436,1],1][../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:243:mca_btl_ofi_exit] BTL OFI will now abort.
+[gdr114][[31436,1],0][../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:243:mca_btl_ofi_exit] BTL OFI will now abort.
+[gdr114] tid:11883, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:120, VERBS: ibv_cmd_create_ah err 110 attr.global:1 sgid_idx:0
+[gdr114] tid:11883, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:126, DGID: 80fe:100d5feff020102 
+[gdr114] tid:11883, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:132, DMAC (from GID): 02:01:02:d5:00:01
+[gdr114] tid:11881, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:120, VERBS: ibv_cmd_create_ah err 110 attr.global:1 sgid_idx:0
+[gdr114] tid:11881, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:126, DGID: 80fe:100dbfeff020102 
+[gdr114] tid:11881, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:132, DMAC (from GID): 02:01:02:db:00:01
+[gdr114] tid:11880, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:120, VERBS: ibv_cmd_create_ah err 110 attr.global:1 sgid_idx:0
+[gdr114] tid:11880, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:126, DGID: 80fe:100d5feff020102 
+[gdr114] tid:11880, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:132, DMAC (from GID): 02:01:02:d5:00:01
+[gdr114] tid:11879, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:120, VERBS: ibv_cmd_create_ah err 110 attr.global:1 sgid_idx:0
+[gdr114] tid:11879, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:126, DGID: 80fe:100dbfeff020102 
+[gdr114] tid:11879, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:132, DMAC (from GID): 02:01:02:db:00:01
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+[gdr116][[31436,1],6][../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:243:mca_btl_ofi_exit] BTL OFI will now abort.
+[gdr116][[31436,1],7][../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:243:mca_btl_ofi_exit] BTL OFI will now abort.
+[gdr116][[31436,1],5][../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:243:mca_btl_ofi_exit] BTL OFI will now abort.
+[gdr116][[31436,1],4][../../../../../../opal/mca/btl/ofi/btl_ofi_component.c:243:mca_btl_ofi_exit] BTL OFI will now abort.
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[31436,1],1]
+  Exit code:    1
+--------------------------------------------------------------------------
+[gdr114:11849] 16 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[gdr114:11849] 4 more processes have sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
