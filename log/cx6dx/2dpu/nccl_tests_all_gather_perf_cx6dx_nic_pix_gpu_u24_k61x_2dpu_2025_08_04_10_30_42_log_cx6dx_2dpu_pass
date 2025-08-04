@@ -1,0 +1,1037 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr116] tid:5582, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr116] tid:5583, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr114] tid:6339, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:6340, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr116:05582] mca: base: components_register: registering framework btl components
+[gdr116:05582] mca: base: components_register: found loaded component sm
+[gdr116:05582] mca: base: components_register: found loaded component vader
+[gdr116:05582] mca: base: components_register: component vader register function successful
+[gdr116:05582] mca: base: components_register: found loaded component self
+[gdr116:05582] mca: base: components_register: component self register function successful
+[gdr116:05582] mca: base: components_register: found loaded component tcp
+[gdr116:05582] mca: base: components_register: component tcp register function successful
+[gdr116:05582] mca: base: components_open: opening btl components
+[gdr116:05582] mca: base: components_open: found loaded component vader
+[gdr116:05582] mca: base: components_open: component vader open function successful
+[gdr116:05582] mca: base: components_open: found loaded component self
+[gdr116:05582] mca: base: components_open: component self open function successful
+[gdr116:05582] mca: base: components_open: found loaded component tcp
+[gdr116:05582] mca: base: components_open: component tcp open function successful
+[gdr116:05582] select: initializing btl component vader
+[gdr116:05582] select: init of component vader returned success
+[gdr116:05582] select: initializing btl component self
+[gdr116:05582] select: init of component self returned success
+[gdr116:05582] select: initializing btl component tcp
+[gdr116:05582] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr116:05582] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr116:05582] btl: tcp: Using interface: sppp 
+[gdr116:05582] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr116:05582] btl:tcp: Successfully bound to AF_INET port 1024
+[gdr116:05582] btl:tcp: my listening v4 socket is 0.0.0.0:1024
+[gdr116:05582] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr116:05582] btl:tcp: Successfully bound to AF_INET6 port 1024
+[gdr116:05582] btl:tcp: my listening v6 socket port is 1024
+[gdr116:05582] btl:tcp: examining interface enp129s0f0
+[gdr116:05582] btl:tcp: using ipv6 interface enp129s0f0
+[gdr116:05582] btl:tcp: examining interface enp8s0f0np0
+[gdr116:05582] btl:tcp: using ipv6 interface enp8s0f0np0
+[gdr116:05582] btl:tcp: examining interface enp137s0f0np0
+[gdr116:05582] btl:tcp: using ipv6 interface enp137s0f0np0
+[gdr116:05582] btl:tcp: examining interface docker0
+[gdr116:05582] btl:tcp: using ipv6 interface docker0
+[gdr116:05582] select: init of component tcp returned success
+[gdr116:05583] mca: base: components_register: registering framework btl components
+[gdr116:05583] mca: base: components_register: found loaded component sm
+[gdr116:05583] mca: base: components_register: found loaded component vader
+[gdr116:05583] mca: base: components_register: component vader register function successful
+[gdr116:05583] mca: base: components_register: found loaded component self
+[gdr116:05583] mca: base: components_register: component self register function successful
+[gdr116:05583] mca: base: components_register: found loaded component tcp
+[gdr116:05583] mca: base: components_register: component tcp register function successful
+[gdr116:05583] mca: base: components_open: opening btl components
+[gdr116:05583] mca: base: components_open: found loaded component vader
+[gdr116:05583] mca: base: components_open: component vader open function successful
+[gdr116:05583] mca: base: components_open: found loaded component self
+[gdr116:05583] mca: base: components_open: component self open function successful
+[gdr116:05583] mca: base: components_open: found loaded component tcp
+[gdr116:05583] mca: base: components_open: component tcp open function successful
+[gdr116:05583] select: initializing btl component vader
+[gdr116:05583] select: init of component vader returned success
+[gdr116:05583] select: initializing btl component self
+[gdr116:05583] select: init of component self returned success
+[gdr116:05583] select: initializing btl component tcp
+[gdr116:05583] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr116:05583] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr116:05583] btl: tcp: Using interface: sppp 
+[gdr116:05583] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr116:05583] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr116:05583] btl:tcp: Successfully bound to AF_INET port 1025
+[gdr116:05583] btl:tcp: my listening v4 socket is 0.0.0.0:1025
+[gdr116:05583] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr116:05583] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr116:05583] btl:tcp: Successfully bound to AF_INET6 port 1025
+[gdr116:05583] btl:tcp: my listening v6 socket port is 1025
+[gdr116:05583] btl:tcp: examining interface enp129s0f0
+[gdr116:05583] btl:tcp: using ipv6 interface enp129s0f0
+[gdr116:05583] btl:tcp: examining interface enp8s0f0np0
+[gdr116:05583] btl:tcp: using ipv6 interface enp8s0f0np0
+[gdr116:05583] btl:tcp: examining interface enp137s0f0np0
+[gdr116:05583] btl:tcp: using ipv6 interface enp137s0f0np0
+[gdr116:05583] btl:tcp: examining interface docker0
+[gdr116:05583] btl:tcp: using ipv6 interface docker0
+[gdr116:05583] select: init of component tcp returned success
+[gdr114:06340] mca: base: components_register: registering framework btl components
+[gdr114:06340] mca: base: components_register: found loaded component tcp
+[gdr114:06339] mca: base: components_register: registering framework btl components
+[gdr114:06339] mca: base: components_register: found loaded component tcp
+[gdr114:06339] mca: base: components_register: component tcp register function successful
+[gdr114:06339] mca: base: components_register: found loaded component vader
+[gdr114:06340] mca: base: components_register: component tcp register function successful
+[gdr114:06340] mca: base: components_register: found loaded component vader
+[gdr114:06339] mca: base: components_register: component vader register function successful
+[gdr114:06339] mca: base: components_register: found loaded component self
+[gdr114:06340] mca: base: components_register: component vader register function successful
+[gdr114:06340] mca: base: components_register: found loaded component self
+[gdr114:06339] mca: base: components_register: component self register function successful
+[gdr114:06339] mca: base: components_register: found loaded component sm
+[gdr114:06339] mca: base: components_open: opening btl components
+[gdr114:06340] mca: base: components_register: component self register function successful
+[gdr114:06340] mca: base: components_register: found loaded component sm
+[gdr114:06340] mca: base: components_open: opening btl components
+[gdr114:06340] mca: base: components_open: found loaded component tcp
+[gdr114:06340] mca: base: components_open: component tcp open function successful
+[gdr114:06340] mca: base: components_open: found loaded component vader
+[gdr114:06340] mca: base: components_open: component vader open function successful
+[gdr114:06339] mca: base: components_open: found loaded component tcp
+[gdr114:06339] mca: base: components_open: component tcp open function successful
+[gdr114:06339] mca: base: components_open: found loaded component vader
+[gdr114:06339] mca: base: components_open: component vader open function successful
+[gdr114:06339] mca: base: components_open: found loaded component self
+[gdr114:06339] mca: base: components_open: component self open function successful
+[gdr114:06339] select: initializing btl component tcp
+[gdr114:06340] mca: base: components_open: found loaded component self
+[gdr114:06340] mca: base: components_open: component self open function successful
+[gdr114:06340] select: initializing btl component tcp
+[gdr114:06340] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr114:06340] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr114:06340] btl: tcp: Using interface: sppp 
+[gdr114:06339] btl: tcp: Searching for exclude address+prefix: 127.0.0.1 / 8
+[gdr114:06339] btl: tcp: Found match: 127.0.0.1 (lo)
+[gdr114:06339] btl: tcp: Using interface: sppp 
+[gdr114:06339] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr114:06339] btl:tcp: Successfully bound to AF_INET port 1024
+[gdr114:06339] btl:tcp: my listening v4 socket is 0.0.0.0:1024
+[gdr114:06339] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr114:06339] btl:tcp: Successfully bound to AF_INET6 port 1024
+[gdr114:06339] btl:tcp: my listening v6 socket port is 1024
+[gdr114:06339] btl:tcp: examining interface enp129s0f0
+[gdr114:06339] btl:tcp: using ipv6 interface enp129s0f0
+[gdr114:06339] btl:tcp: examining interface enp8s0f0np0
+[gdr114:06339] btl:tcp: using ipv6 interface enp8s0f0np0
+[gdr114:06339] btl:tcp: examining interface enp137s0f0np0
+[gdr114:06339] btl:tcp: using ipv6 interface enp137s0f0np0
+[gdr114:06339] select: init of component tcp returned success
+[gdr114:06339] select: initializing btl component vader
+[gdr114:06339] select: init of component vader returned success
+[gdr114:06339] select: initializing btl component self
+[gdr114:06339] select: init of component self returned success
+[gdr114:06340] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr114:06340] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr114:06340] btl:tcp: Successfully bound to AF_INET port 1025
+[gdr114:06340] btl:tcp: my listening v4 socket is 0.0.0.0:1025
+[gdr114:06340] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr114:06340] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr114:06340] btl:tcp: Successfully bound to AF_INET6 port 1025
+[gdr114:06340] btl:tcp: my listening v6 socket port is 1025
+[gdr114:06340] btl:tcp: examining interface enp129s0f0
+[gdr114:06340] btl:tcp: using ipv6 interface enp129s0f0
+[gdr114:06340] btl:tcp: examining interface enp8s0f0np0
+[gdr114:06340] btl:tcp: using ipv6 interface enp8s0f0np0
+[gdr114:06340] btl:tcp: examining interface enp137s0f0np0
+[gdr114:06340] btl:tcp: using ipv6 interface enp137s0f0np0
+[gdr114:06340] select: init of component tcp returned success
+[gdr114:06340] select: initializing btl component vader
+[gdr114:06340] select: init of component vader returned success
+[gdr114:06340] select: initializing btl component self
+[gdr114:06340] select: init of component self returned success
+[gdr114:06339] mca: bml: Using vader btl for send to [[19494,1],2] on node (null)
+[gdr114:06339] mca: bml: Using self btl for send to [[19494,1],0] on node gdr114
+[gdr114:06340] mca: bml: Using vader btl for send to [[19494,1],0] on node (null)
+[gdr114:06340] mca: bml: Using self btl for send to [[19494,1],2] on node gdr114
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] mca: bml: Using vader btl for send to [[19494,1],1] on node (null)
+[gdr116:05583] mca: bml: Using self btl for send to [[19494,1],3] on node gdr116
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 172.17.0.1: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 172.17.0.1: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 172.17.0.1: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] mca: bml: Using vader btl for send to [[19494,1],3] on node (null)
+[gdr116:05582] mca: bml: Using self btl for send to [[19494,1],1] on node gdr116
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 172.17.0.1: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 172.17.0.1: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 172.17.0.1: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 172.17.0.1: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 172.17.0.1: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] mca: bml: Using tcp btl for send to [[19494,1],3] on node (null)
+[gdr114:06339] mca: bml: Using tcp btl for send to [[19494,1],1] on node (null)
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] mca: bml: Using tcp btl for send to [[19494,1],3] on node (null)
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] mca: bml: Using tcp btl for send to [[19494,1],1] on node (null)
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 10.20.10.114 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.1.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06340] btl:tcp: path from 192.168.2.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06340] mca: bml: Using tcp btl for send to [[19494,1],3] on node (null)
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] mca: bml: Using tcp btl for send to [[19494,1],1] on node (null)
+[gdr114:06339] btl: tcp: attempting to connect() to [[19494,1],1] address 192.168.2.11 on port 1024
+[gdr114:06340] btl: tcp: attempting to connect() to [[19494,1],3] address 192.168.2.11 on port 1025
+[gdr114:06339] btl:tcp: would block, so allowing background progress
+[gdr114:06340] btl:tcp: would block, so allowing background progress
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] mca: bml: Using tcp btl for send to [[19494,1],0] on node (null)
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] mca: bml: Using tcp btl for send to [[19494,1],2] on node (null)
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] mca: bml: Using tcp btl for send to [[19494,1],0] on node (null)
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] mca: bml: Using tcp btl for send to [[19494,1],2] on node (null)
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] mca: bml: Using tcp btl for send to [[19494,1],2] on node (null)
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] mca: bml: Using tcp btl for send to [[19494,1],0] on node (null)
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: host unknown, process [[19494,1],2] UNREACHABLE
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl: tcp: attempting to connect() to [[19494,1],2] address 192.168.2.10 on port 1025
+[gdr116:05582] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05582] btl:tcp: host unknown, process [[19494,1],0] UNREACHABLE
+[gdr116:05583] btl:tcp: would block, so allowing background progress
+[gdr116:05582] btl: tcp: attempting to connect() to [[19494,1],0] address 192.168.2.10 on port 1024
+[gdr116:05582] btl:tcp: would block, so allowing background progress
+[gdr114:06339] btl:tcp: connect() to 192.168.2.11:1024 completed (complete_connect), sending connect ACK
+[gdr114:06340] btl:tcp: connect() to 192.168.2.11:1025 completed (complete_connect), sending connect ACK
+[gdr114:06340] btl: tcp: Match incoming connection from [[19494,1],3] 192.168.2.11 with locally known IP 10.20.10.116 failed (iface 0/3)!
+[gdr114:06340] btl: tcp: Match incoming connection from [[19494,1],3] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 1/3)!
+[gdr114:06340] btl:tcp: now connected to 192.168.2.11, process [[19494,1],3]
+[gdr116:05583] btl:tcp: connect() to 192.168.2.10:1025 completed (complete_connect), sending connect ACK
+[gdr116:05583] btl: tcp: Match incoming connection from [[19494,1],2] 192.168.2.10 with locally known IP 10.20.10.114 failed (iface 0/3)!
+[gdr116:05583] btl: tcp: Match incoming connection from [[19494,1],2] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 1/3)!
+[gdr116:05583] btl:tcp: now connected to 192.168.2.10, process [[19494,1],2]
+[gdr114:06339] btl: tcp: Match incoming connection from [[19494,1],1] 192.168.2.11 with locally known IP 10.20.10.116 failed (iface 0/3)!
+[gdr114:06339] btl: tcp: Match incoming connection from [[19494,1],1] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 1/3)!
+[gdr114:06339] btl:tcp: now connected to 192.168.2.11, process [[19494,1],1]
+[gdr116:05582] btl:tcp: connect() to 192.168.2.10:1024 completed (complete_connect), sending connect ACK
+[gdr116:05582] btl: tcp: Match incoming connection from [[19494,1],0] 192.168.2.10 with locally known IP 10.20.10.114 failed (iface 0/3)!
+[gdr116:05582] btl: tcp: Match incoming connection from [[19494,1],0] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 1/3)!
+[gdr114:06339] btl: tcp: attempting to connect() to [[19494,1],1] address 192.168.1.11 on port 1024
+[gdr114:06339] btl:tcp: would block, so allowing background progress
+[gdr116:05582] btl:tcp: now connected to 192.168.2.10, process [[19494,1],0]
+[gdr114:06340] btl: tcp: attempting to connect() to [[19494,1],3] address 192.168.1.11 on port 1025
+[gdr114:06340] btl:tcp: would block, so allowing background progress
+[gdr114:06339] btl:tcp: connect() to 192.168.1.11:1024 completed (complete_connect), sending connect ACK
+[gdr116:05583] btl: tcp: attempting to connect() to [[19494,1],2] address 192.168.1.10 on port 1025
+[gdr114:06340] btl:tcp: connect() to 192.168.1.11:1025 completed (complete_connect), sending connect ACK
+[gdr116:05582] btl: tcp: attempting to connect() to [[19494,1],0] address 192.168.1.10 on port 1024
+[gdr116:05582] btl:tcp: would block, so allowing background progress
+[gdr116:05583] btl:tcp: would block, so allowing background progress
+[gdr114:06339] btl: tcp: Match incoming connection from [[19494,1],1] 192.168.1.11 with locally known IP 10.20.10.116 failed (iface 0/3)!
+[gdr114:06339] btl: tcp: Match incoming connection from [[19494,1],1] 192.168.1.11 with locally known IP 192.168.2.11 failed (iface 2/3)!
+[gdr114:06339] btl:tcp: now connected to 192.168.1.11, process [[19494,1],1]
+[gdr114:06340] btl: tcp: Match incoming connection from [[19494,1],3] 192.168.1.11 with locally known IP 10.20.10.116 failed (iface 0/3)!
+[gdr114:06340] btl: tcp: Match incoming connection from [[19494,1],3] 192.168.1.11 with locally known IP 192.168.2.11 failed (iface 2/3)!
+[gdr114:06340] btl:tcp: now connected to 192.168.1.11, process [[19494,1],3]
+[gdr116:05583] btl:tcp: connect() to 192.168.1.10:1025 completed (complete_connect), sending connect ACK
+[gdr116:05582] btl: tcp: Match incoming connection from [[19494,1],0] 192.168.1.10 with locally known IP 10.20.10.114 failed (iface 0/3)!
+[gdr116:05582] btl: tcp: Match incoming connection from [[19494,1],0] 192.168.1.10 with locally known IP 192.168.2.10 failed (iface 2/3)!
+[gdr116:05582] btl:tcp: now connected to 192.168.1.10, process [[19494,1],0]
+[gdr116:05582] btl:tcp: connect() to 192.168.1.10:1024 completed (complete_connect), sending connect ACK
+[gdr116:05583] btl: tcp: Match incoming connection from [[19494,1],2] 192.168.1.10 with locally known IP 10.20.10.114 failed (iface 0/3)!
+[gdr116:05583] btl: tcp: Match incoming connection from [[19494,1],2] 192.168.1.10 with locally known IP 192.168.2.10 failed (iface 2/3)!
+[gdr116:05583] btl:tcp: now connected to 192.168.1.10, process [[19494,1],2]
+[gdr116:05583] btl: tcp: attempting to connect() to [[19494,1],2] address 10.20.10.114 on port 1025
+[gdr116:05583] btl:tcp: would block, so allowing background progress
+[gdr116:05582] btl: tcp: attempting to connect() to [[19494,1],0] address 10.20.10.114 on port 1024
+[gdr116:05582] btl:tcp: would block, so allowing background progress
+[gdr114:06340] btl:tcp: now connected to 10.20.10.116, process [[19494,1],3]
+[gdr116:05583] btl:tcp: connect() to 10.20.10.114:1025 completed (complete_connect), sending connect ACK
+[gdr116:05582] btl:tcp: connect() to 10.20.10.114:1024 completed (complete_connect), sending connect ACK
+[gdr114:06339] btl:tcp: now connected to 10.20.10.116, process [[19494,1],1]
+# nThread 1 nGpus 1 minBytes 4 maxBytes 67108864 step: 2(factor) warmup iters: 30 iters: 100 agg iters: 1 validation: 0 graph: 0, parallel_init:0
+#
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] mca: bml: Using tcp btl for send to [[19494,1],0] on node (null)
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] mca: bml: Using tcp btl for send to [[19494,1],0] on node (null)
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] mca: bml: Using tcp btl for send to [[19494,1],0] on node (null)
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 10.20.10.114: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 10.20.10.116 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 10.20.10.114: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: path from 172.17.0.1 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:05583] btl:tcp: host unknown, process [[19494,1],0] UNREACHABLE
+[gdr116:05583] btl: tcp: attempting to connect() to [[19494,1],0] address 192.168.2.10 on port 1024
+[gdr116:05583] btl:tcp: would block, so allowing background progress
+[gdr116:05583] btl:tcp: connect() to 192.168.2.10:1024 completed (complete_connect), sending connect ACK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 10.20.10.116: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 10.20.10.114 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.1.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 10.20.10.116: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:06339] btl:tcp: path from 192.168.2.10 to 172.17.0.1: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:06339] btl: tcp: Match incoming connection from [[19494,1],3] 192.168.2.11 with locally known IP 10.20.10.116 failed (iface 0/3)!
+[gdr114:06339] btl: tcp: Match incoming connection from [[19494,1],3] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 1/3)!
+[gdr114:06339] btl:tcp: now connected to 192.168.2.11, process [[19494,1],3]
+#  Rank  0 Group  0 Pid   6339 on     gdr114 device  0 [0x05] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid   5582 on     gdr116 device  0 [0x05] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid   6340 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid   5583 on     gdr116 device  1 [0x09] Tesla V100-SXM2-16GB
+[gdr114:06339] btl: tcp: Match incoming connection from [[19494,1],3] 192.168.1.11 with locally known IP 10.20.10.116 failed (iface 0/3)!
+[gdr114:06339] btl:tcp: now connected to 192.168.1.11, process [[19494,1],3]
+[gdr116:05583] btl: tcp: attempting to connect() to [[19494,1],0] address 192.168.1.10 on port 1024
+[gdr116:05583] btl:tcp: would block, so allowing background progress
+[gdr116:05583] btl:tcp: connect() to 192.168.1.10:1024 completed (complete_connect), sending connect ACK
+[gdr114:06339] mca: bml: Using tcp btl for send to [[19494,1],3] on node (null)
+[gdr114:06339] mca: bml: Using tcp btl for send to [[19494,1],3] on node (null)
+[gdr114:06339] mca: bml: Using tcp btl for send to [[19494,1],3] on node (null)
+gdr114:6339:6339 [0] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:6340:6340 [1] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:5583:5583 [1] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:5582:5582 [0] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:6339:6359 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:6340:6360 [1] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:6339:6359 [0] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to mlx5_0:1
+gdr114:6340:6360 [1] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to mlx5_0:1
+[gdr114] tid:6359, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr114] tid:6360, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+gdr116:5583:5592 [1] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr116:5583:5592 [1] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to mlx5_0:1
+[gdr116] tid:5592, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+gdr114:6339:6359 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
+[gdr114] tid:6359, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+gdr114:6340:6360 [1] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
+[gdr114] tid:6360, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+[gdr114] tid:6359, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+[gdr114] tid:6360, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+gdr116:5583:5592 [1] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
+[gdr116] tid:5592, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+[gdr114] tid:6359, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name mlx5_2 matchIfList failed
+[gdr114] tid:6360, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name mlx5_2 matchIfList failed
+[gdr116] tid:5592, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+gdr116:5582:5593 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+[gdr114] tid:6359, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_3, 
+[gdr114] tid:6360, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_3, 
+gdr116:5582:5593 [0] ncclIbInit(), transport/net_ib.cc:600 NCCL INFO NCCL_IB_HCA set to mlx5_0:1
+[gdr114] tid:6359, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr114] tid:6359, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+[gdr114] tid:6360, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+gdr114:6339:6359 [0] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+[gdr114] tid:6360, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr114:6340:6360 [1] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+[gdr116] tid:5593, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:4
+[gdr116] tid:5592, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name mlx5_2 matchIfList failed
+gdr116:5582:5593 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [0] name=mlx5_0 speed=25000 ndevs=1
+[gdr116] tid:5593, ncclIbInit(), transport/net_ib.cc:686, Match dev:mlx5_0
+[gdr116] tid:5593, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_1, 
+[gdr116] tid:5592, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_3, 
+[gdr116] tid:5592, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:5592, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr116:5583:5592 [1] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+[gdr116] tid:5593, ncclIbInit(), transport/net_ib.cc:645, NCCL dev_name mlx5_2 matchIfList failed
+[gdr116] tid:5593, ncclIbInit(), transport/net_ib.cc:634, NCCL state:1 not match, dev_name mlx5_3, 
+[gdr116] tid:5593, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:1
+[gdr116] tid:5593, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr116:5582:5593 [0] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]mlx5_0:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+[gdr114] tid:6359, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr114] tid:6360, dmaBufSupported(), init.cc:293, gpu:1, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr116] tid:5592, dmaBufSupported(), init.cc:293, gpu:1, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr116] tid:5593, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr114] tid:6359, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:6359, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr114] tid:6359, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr114] tid:6360, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:6360, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr114] tid:6360, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr116] tid:5592, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:5592, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr116] tid:5592, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr116] tid:5593, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:5593, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr116] tid:5593, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr114] tid:6359, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:6360, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:5592, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:6360, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:6360, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr114:6340:6360 [1] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+[gdr116] tid:5593, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:6359, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:6359, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr114:6339:6359 [0] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+[gdr116] tid:5592, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:5592, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr116:5583:5592 [1] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+[gdr116] tid:5593, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:5593, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr116:5582:5593 [0] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+[gdr116] tid:5593, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:5592, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:6360, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:6359, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:5593, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:5593, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr116:5582:5593 [0] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+gdr116:5582:5593 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [1] name=mlx5_0 speed=25000 ndevs=1
+[gdr116] tid:5593, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:5593, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr116:5582:5593 [0] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+[gdr116] tid:5593, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:5593, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr116:5582:5593 [0] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_0'
+[gdr116] tid:5592, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:5592, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr116:5583:5592 [1] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+gdr116:5583:5592 [1] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [1] name=mlx5_0 speed=25000 ndevs=1
+[gdr116] tid:5592, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:5592, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr116:5583:5592 [1] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+[gdr116] tid:5592, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr116] tid:5592, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr116:5583:5592 [1] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_0'
+[gdr114] tid:6360, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:6360, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr114:6340:6360 [1] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+gdr114:6340:6360 [1] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [1] name=mlx5_0 speed=25000 ndevs=1
+[gdr114] tid:6360, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:6360, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr114:6340:6360 [1] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+[gdr114] tid:6360, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:6360, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr114:6340:6360 [1] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_0'
+[gdr114] tid:6359, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:6359, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr114:6339:6359 [0] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+gdr114:6339:6359 [0] ncclIbMakeVDeviceInternal(), transport/net_ib.cc:552 NCCL INFO NET/IB : Made virtual device [1] name=mlx5_0 speed=25000 ndevs=1
+[gdr114] tid:6359, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:6359, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr114:6339:6359 [0] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'mlx5_0'
+[gdr114] tid:6359, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:mlx5_0, nic_support_dmabuf:4
+[gdr114] tid:6359, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic mlx5_0 support dmabuf
+gdr114:6339:6359 [0] ncclTopoPopulateNics(), graph/topo.cc:1235 NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'mlx5_0'
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+[gdr116:05583] btl: tcp: attempting to connect() to [[19494,1],0] address 10.20.10.114 on port 1024
+[gdr116:05583] btl:tcp: would block, so allowing background progress
+[gdr116:05583] btl:tcp: connect() to 10.20.10.114:1024 completed (complete_connect), sending connect ACK
+[gdr114:06339] btl:tcp: now connected to 10.20.10.116, process [[19494,1],3]
+gdr114:6340:6366 [1] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 0 from local rank 1, transport 1
+gdr114:6340:6370 [1] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7a7d18000d20
+gdr116:5582:5598 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 0 from local rank 0, transport 1
+gdr116:5582:5602 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x77c9f8000d20
+gdr116:5582:5598 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 1 from local rank 0, transport 1
+gdr116:5582:5602 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x77c9f8000d98
+gdr114:6340:6366 [1] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 1 from local rank 1, transport 1
+gdr114:6340:6370 [1] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7a7d18000d98
+gdr114:6339:6367 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 0 from local rank 0, transport 2
+gdr114:6339:6371 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x7ef014000d20
+gdr114:6339:6371 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 3[1] -> 0[0] [receive] via NET/IB/1
+gdr114:6339:6367 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 1 from local rank 0, transport 2
+gdr114:6339:6371 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x7ef014000d98
+gdr116:5583:5599 [1] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 0 from local rank 1, transport 2
+gdr114:6339:6371 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 3[1] -> 0[0] [receive] via NET/IB/1
+gdr116:5583:5603 [1] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x750704000d20
+gdr116:5583:5603 [1] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 3[1] -> 0[0] [send] via NET/IB/1
+gdr116:5583:5599 [1] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 1 from local rank 1, transport 2
+gdr116:5583:5603 [1] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x750704000d98
+gdr116:5583:5603 [1] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 3[1] -> 0[0] [send] via NET/IB/1
+gdr114:6339:6367 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 2 from local rank 0, transport 1
+gdr114:6339:6371 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x7ef014000e10
+gdr116:5583:5599 [1] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 2 from local rank 1, transport 1
+gdr116:5583:5603 [1] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x750704000e10
+gdr114:6339:6367 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 3 from local rank 0, transport 1
+gdr114:6339:6371 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x7ef014000e88
+gdr116:5583:5599 [1] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 3 from local rank 1, transport 1
+gdr116:5583:5603 [1] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x750704000e88
+[gdr114] tid:6367, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr116] tid:5599, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:6367, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+gdr116:5583:5599 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=502 pkey=0 pd=0x7507040087d0, access_flags:0x2
+gdr116:5583:5599 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=503 pkey=0 pd=0x7507040087d0, access_flags:0x2
+gdr116:5583:5599 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=504 pkey=0 pd=0x7507040087d0, access_flags:0x2
+gdr116:5583:5599 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=505 pkey=0 pd=0x7507040087d0, access_flags:0x2
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 502 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x186af2 fifoLkey=0x186af2
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 503 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x186af2 fifoLkey=0x186af2
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 504 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x186af2 fifoLkey=0x186af2
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 505 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x186af2 fifoLkey=0x186af2
+[gdr116] tid:5599, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+gdr114:6339:6367 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=503 pkey=0 pd=0x7ef0140088b0, access_flags:0x2
+gdr116:5583:5599 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=506 pkey=0 pd=0x7507040087d0, access_flags:0x2
+gdr116:5583:5599 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=507 pkey=0 pd=0x7507040087d0, access_flags:0x2
+gdr114:6339:6367 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=504 pkey=0 pd=0x7ef0140088b0, access_flags:0x2
+gdr116:5583:5599 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=508 pkey=0 pd=0x7507040087d0, access_flags:0x2
+gdr114:6339:6367 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=505 pkey=0 pd=0x7ef0140088b0, access_flags:0x2
+gdr116:5583:5599 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=509 pkey=0 pd=0x7507040087d0, access_flags:0x2
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 506 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x1869ef fifoLkey=0x1869ef
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 507 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x1869ef fifoLkey=0x1869ef
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 508 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x1869ef fifoLkey=0x1869ef
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 509 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000002, comp_mask=0x0} GID 3 (0/B01A8C0FFFF0000) fifoRkey=0x1869ef fifoLkey=0x1869ef
+gdr114:6339:6367 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=506 pkey=0 pd=0x7ef0140088b0, access_flags:0x2
+gdr114:6339:6367 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=507 pkey=0 pd=0x7ef0140088b0, access_flags:0x2
+gdr114:6339:6367 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=508 pkey=0 pd=0x7ef0140088b0, access_flags:0x2
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 503 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 504 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 505 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 506 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr114:6339:6367 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=509 pkey=0 pd=0x7ef0140088b0, access_flags:0x2
+gdr114:6339:6367 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=510 pkey=0 pd=0x7ef0140088b0, access_flags:0x2
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 507 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 508 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 509 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr116:5583:5599 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 510 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr114:6340:6366 [1] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 2 from local rank 1, transport 2
+gdr114:6340:6370 [1] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7a7d18000e10
+gdr114:6340:6370 [1] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 2[1] -> 1[0] [send] via NET/IB/1
+gdr114:6340:6366 [1] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy send connection 3 from local rank 1, transport 2
+gdr114:6340:6370 [1] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 1 -> connection 0x7a7d18000e88
+gdr114:6340:6370 [1] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 2[1] -> 1[0] [send] via NET/IB/1
+gdr116:5582:5598 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 2 from local rank 0, transport 2
+gdr116:5582:5602 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x77c9f8000e10
+gdr116:5582:5602 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 2[1] -> 1[0] [receive] via NET/IB/1
+gdr116:5582:5598 [0] proxyConnInit(), proxy.cc:1403 NCCL INFO New proxy recv connection 3 from local rank 0, transport 2
+gdr116:5582:5602 [0] ncclProxyConnect(), proxy.cc:1134 NCCL INFO Connected to proxy localRank 0 -> connection 0x77c9f8000e88
+gdr116:5582:5602 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 2[1] -> 1[0] [receive] via NET/IB/1
+[gdr114] tid:6366, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr116] tid:5598, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr116] tid:5598, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+gdr114:6340:6366 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=511 pkey=0 pd=0x7a7d180087e0, access_flags:0x2
+gdr114:6340:6366 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=512 pkey=0 pd=0x7a7d180087e0, access_flags:0x2
+gdr114:6340:6366 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=513 pkey=0 pd=0x7a7d180087e0, access_flags:0x2
+gdr114:6340:6366 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=514 pkey=0 pd=0x7a7d180087e0, access_flags:0x2
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 511 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x1853d9 fifoLkey=0x1853d9
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 512 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x1853d9 fifoLkey=0x1853d9
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 513 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x1853d9 fifoLkey=0x1853d9
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 514 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x1853d9 fifoLkey=0x1853d9
+[gdr114] tid:6366, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+gdr114:6340:6366 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=515 pkey=0 pd=0x7a7d180087e0, access_flags:0x2
+gdr114:6340:6366 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=516 pkey=0 pd=0x7a7d180087e0, access_flags:0x2
+gdr116:5582:5598 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=510 pkey=0 pd=0x77c9f80088c0, access_flags:0x2
+gdr114:6340:6366 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=517 pkey=0 pd=0x7a7d180087e0, access_flags:0x2
+gdr114:6340:6366 [1] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=518 pkey=0 pd=0x7a7d180087e0, access_flags:0x2
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 515 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x184ad0 fifoLkey=0x184ad0
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 516 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x184ad0 fifoLkey=0x184ad0
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 517 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x184ad0 fifoLkey=0x184ad0
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1381 NCCL INFO NET/IB: NCCL Dev 1 IbDev 0 Port 1 qpn 518 mtu 3 query_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0} GID 3 (0/A01A8C0FFFF0000) fifoRkey=0x184ad0 fifoLkey=0x184ad0
+gdr116:5582:5598 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=511 pkey=0 pd=0x77c9f80088c0, access_flags:0x2
+gdr116:5582:5598 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=512 pkey=0 pd=0x77c9f80088c0, access_flags:0x2
+gdr116:5582:5598 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=513 pkey=0 pd=0x77c9f80088c0, access_flags:0x2
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 510 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 511 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 512 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 513 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr116:5582:5598 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=514 pkey=0 pd=0x77c9f80088c0, access_flags:0x2
+gdr116:5582:5598 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=515 pkey=0 pd=0x77c9f80088c0, access_flags:0x2
+gdr116:5582:5598 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=516 pkey=0 pd=0x77c9f80088c0, access_flags:0x2
+gdr116:5582:5598 [0] ncclIbCreateQp(), transport/net_ib.cc:1151 NCCL INFO NET/IB : port=1 dev=0 devName=mlx5_0 ndevs=1 nmdevs=2 qpn=517 pkey=0 pd=0x77c9f80088c0, access_flags:0x2
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 514 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 515 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 516 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+gdr114:6340:6366 [1] ncclIbConnect(), transport/net_ib.cc:1476 NCCL INFO NET/IB: IbDev 0 Port 1 qpn 517 set_ece={supported=1, vendor_id=0x15b3, options=0x30000000, comp_mask=0x0}
+           0             0     float    none      -1     0.29    0.00    0.00    N/A     0.27    0.00    0.00    N/A
+           0             0     float    none      -1     0.23    0.00    0.00    N/A     0.22    0.00    0.00    N/A
+           0             0     float    none      -1     0.26    0.00    0.00    N/A     0.22    0.00    0.00    N/A
+           0             0     float    none      -1     0.27    0.00    0.00    N/A     0.28    0.00    0.00    N/A
+          64             4     float    none      -1    24.89    0.00    0.00    N/A    24.83    0.00    0.00    N/A
+         128             8     float    none      -1    24.42    0.01    0.00    N/A    44.39    0.00    0.00    N/A
+         256            16     float    none      -1    24.43    0.01    0.01    N/A    24.35    0.01    0.01    N/A
+         512            32     float    none      -1    23.92    0.02    0.02    N/A    24.42    0.02    0.02    N/A
+        1024            64     float    none      -1    24.81    0.04    0.03    N/A    24.28    0.04    0.03    N/A
+        2048           128     float    none      -1    22.43    0.09    0.07    N/A    22.75    0.09    0.07    N/A
+        4096           256     float    none      -1    22.93    0.18    0.13    N/A    23.27    0.18    0.13    N/A
+        8192           512     float    none      -1    26.00    0.32    0.24    N/A    25.58    0.32    0.24    N/A
+       16384          1024     float    none      -1    30.88    0.53    0.40    N/A    30.14    0.54    0.41    N/A
+       32768          2048     float    none      -1    40.59    0.81    0.61    N/A    37.32    0.88    0.66    N/A
+       65536          4096     float    none      -1    59.86    1.09    0.82    N/A    58.47    1.12    0.84    N/A
+      131072          8192     float    none      -1    82.21    1.59    1.20    N/A    79.59    1.65    1.24    N/A
+      262144         16384     float    none      -1    106.8    2.45    1.84    N/A    107.2    2.45    1.83    N/A
+      524288         32768     float    none      -1    167.4    3.13    2.35    N/A    165.6    3.17    2.38    N/A
+     1048576         65536     float    none      -1    305.2    3.44    2.58    N/A    301.6    3.48    2.61    N/A
+     2097152        131072     float    none      -1    604.9    3.47    2.60    N/A    607.1    3.45    2.59    N/A
+     4194304        262144     float    none      -1   1168.0    3.59    2.69    N/A   1174.1    3.57    2.68    N/A
+     8388608        524288     float    none      -1   2384.8    3.52    2.64    N/A   2361.4    3.55    2.66    N/A
+    16777216       1048576     float    none      -1   4554.5    3.68    2.76    N/A   4607.2    3.64    2.73    N/A
+    33554432       2097152     float    none      -1   9226.5    3.64    2.73    N/A   9205.2    3.65    2.73    N/A
+    67108864       4194304     float    none      -1    18054    3.72    2.79    N/A    18074    3.71    2.78    N/A
+[gdr114] tid:6367, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(503)
+[gdr116] tid:5599, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(502)
+[gdr116] tid:5598, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(510)
+[gdr114] tid:6367, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(504)
+[gdr116] tid:5599, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(503)
+[gdr116] tid:5598, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(511)
+[gdr114] tid:6366, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(511)
+[gdr114] tid:6367, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(505)
+[gdr116] tid:5599, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(504)
+[gdr116] tid:5598, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(512)
+[gdr114] tid:6366, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(512)
+[gdr114] tid:6367, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(506)
+[gdr114] tid:6366, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(513)
+[gdr116] tid:5599, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(505)
+[gdr116] tid:5598, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(513)
+[gdr114] tid:6366, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(514)
+[gdr114] tid:6367, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(507)
+[gdr114] tid:6367, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(508)
+[gdr116] tid:5599, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(506)
+[gdr116] tid:5598, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(514)
+[gdr114] tid:6366, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(515)
+[gdr116] tid:5599, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(507)
+[gdr114] tid:6367, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(509)
+[gdr116] tid:5598, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(515)
+[gdr114] tid:6366, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(516)
+[gdr114] tid:6367, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(510)
+[gdr116] tid:5599, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(508)
+[gdr116] tid:5598, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(516)
+[gdr114] tid:6366, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(517)
+[gdr116] tid:5599, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(509)
+[gdr116] tid:5598, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(517)
+[gdr114] tid:6366, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(518)
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 1.06276 
+#
+[gdr114:06340] mca: base: close: component tcp closed
+[gdr114:06340] mca: base: close: unloading component tcp
+[gdr114:06340] mca: base: close: component vader closed
+[gdr114:06340] mca: base: close: unloading component vader
+[gdr114:06339] mca: base: close: component tcp closed
+[gdr114:06339] mca: base: close: unloading component tcp
+[gdr114:06340] mca: base: close: component self closed
+[gdr114:06340] mca: base: close: unloading component self
+[gdr114:06339] mca: base: close: component vader closed
+[gdr114:06339] mca: base: close: unloading component vader
+[gdr114:06339] mca: base: close: component self closed
+[gdr114:06339] mca: base: close: unloading component self
+[gdr116:05582] mca: base: close: component vader closed
+[gdr116:05582] mca: base: close: unloading component vader
+[gdr116:05582] mca: base: close: component self closed
+[gdr116:05582] mca: base: close: unloading component self
+[gdr116:05583] mca: base: close: component vader closed
+[gdr116:05583] mca: base: close: unloading component vader
+[gdr116:05583] mca: base: close: component self closed
+[gdr116:05583] mca: base: close: unloading component self
+[gdr116:05582] mca: base: close: component tcp closed
+[gdr116:05582] mca: base: close: unloading component tcp
+[gdr116:05583] mca: base: close: component tcp closed
+[gdr116:05583] mca: base: close: unloading component tcp
+
