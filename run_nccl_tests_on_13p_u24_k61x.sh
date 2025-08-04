@@ -35,6 +35,8 @@ for algo in ${ALGO_LIST};do
 	echo $log_file
   mpirun -np 8 -H 192.168.1.10:4,192.168.1.11:4\
     -bind-to core -map-by node \
+    --mca btl_ofi_verbose 100 \
+    --mca btl_base_verbose 100 \
     -x NCCL_DEBUG=TRACE \
     -x NCCL_IB_DISABLE=0 \
     -x NCCL_NET=IB \
