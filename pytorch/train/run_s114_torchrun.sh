@@ -21,6 +21,7 @@ export XT_CQ_INLINE_CQE=0
 # export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libnccl.so.2.8.3
 
 # nproc_per_node: gpu_nums
+# deactivate
 source ~/pytorch-venv/bin/activate
 torchrun \
   --nproc_per_node=4 \
