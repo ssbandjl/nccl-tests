@@ -1,0 +1,49 @@
+[gdr114:09502] mca: bml: Using self btl for send to [[29056,1],1] on node gdr114
+libfabric:9502:1754443066::ofi_rxd:av:rxd_av_set_addrlen():74<info> determine dgram address len
+[gdr114] tid:9502, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:133, VERBS: ibv_cmd_create_ah err 101 attr.global:1 sgid_idx:0
+[gdr114:09501] mca: bml: Using self btl for send to [[29056,1],0] on node gdr114
+[gdr114:09505] mca: bml: Using self btl for send to [[29056,1],3] on node gdr114
+[gdr114:09503] mca: bml: Using self btl for send to [[29056,1],2] on node gdr114
+libfabric:9501:1754443066::ofi_rxd:av:rxd_av_set_addrlen():74<info> determine dgram address len
+libfabric:9505:1754443066::ofi_rxd:av:rxd_av_set_addrlen():74<info> determine dgram address len
+libfabric:9503:1754443066::ofi_rxd:av:rxd_av_set_addrlen():74<info> determine dgram address len
+[gdr114] tid:9505, xtrdma_ucreate_ah(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uverbs.c:133, VERBS: ibv_cmd_create_ah err 101 attr.global:1 sgid_idx:0
+[gdr116:07099] mca: bml: Using self btl for send to [[29056,1],5] on node gdr116
+RDMA Stack trace (depth: 14):
+/root/project/rdma/dpu_user_rdma/build/lib/libxtrdma-rdmav34.so(+0x38b1)[0x7e20354648b1]
+/root/project/rdma/dpu_user_rdma/build/lib/libxtrdma-rdmav34.so(+0x3a95)[0x7e2035464a95]
+/root/project/rdma/dpu_user_rdma/build/lib/libibverbs.so.1(ibv_create_ah+0x37)[0x7e203588236b]
+/lib/x86_64-linux-gnu/libfabric.so.1(+0x807be)[0x7e2034e957be]
+/lib/x86_64-linux-gnu/libfabric.so.1(+0xbdee4)[0x7e2034ed2ee4]
+/usr/lib/x86_64-linux-gnu/openmpi/lib/openmpi3/mca_btl_ofi.so(+0x41b6)[0x7e20358521b6]
+/usr/lib/x86_64-linux-gnu/openmpi/lib/openmpi3/mca_bml_r2.so(+0x3aae)[0x7e2044429aae]
+/usr/lib/x86_64-linux-gnu/openmpi/lib/openmpi3/mca_pml_ob1.so(mca_pml_ob1_add_procs+0xdc)[0x7e20358a3d1c]
+RDMA Stack trace (depth: 14):
+/root/project/rdma/dpu_user_rdma/build/lib/libxtrdma-rdmav34.so(+0x38b1)[0x7498900518b1]
+/root/project/rdma/dpu_user_rdma/build/lib/libxtrdma-rdmav34.so(+0x3a95)[0x749890051a95]
+/root/project/rdma/dpu_user_rdma/build/lib/libibverbs.so.1(ibv_create_ah+0x37)[0x74989170436b]
+/lib/x86_64-linux-gnu/libfabric.so.1(+0x807be)[0x7498906ef7be]
+/lib/x86_64-linux-gnu/libfabric.so.1(+0xbdee4)[0x74989072cee4]
+/usr/lib/x86_64-linux-gnu/openmpi/lib/openmpi3/mca_btl_ofi.so(+0x41b6)[0x7498916ce1b6]
+/usr/lib/x86_64-linux-gnu/openmpi/lib/openmpi3/mca_bml_r2.so(+0x3aae)[0x7498a001baae]
+/usr/lib/x86_64-linux-gnu/openmpi/lib/openmpi3/mca_pml_ob1.so(mca_pml_ob1_add_procs+0xdc)[0x749891723d1c]
+/lib/x86_64-linux-gnu/libmpi.so.40(ompi_mpi_init+0x87c)[0x7498a9a0751c]
+[gdr116:07097] mca: bml: Using self btl for send to [[29056,1],4] on node gdr116
+libfabric:7097:1754443066::ofi_rxd:av:rxd_av_set_addrlen():74<info> determine dgram address len
+[gdr116:07098] mca: bml: Using self btl for send to [[29056,1],7] on node gdr116
+/lib/x86_64-linux-gnu/libmpi.so.40(ompi_mpi_init+0x87c)[0x7e204e3ba51c]
+/lib/x86_64-linux-gnu/libmpi.so.40(MPI_Init+0x72)[0x7498a999dd82]
+/root/project/ai/nccl-tests/build/all_reduce_perf(+0x4328)[0x5589288db328]
+[gdr116:07096] mca: bml: Using self btl for send to [[29056,1],6] on node gdr116
+libfabric:7099:1754443066::ofi_rxd:av:rxd_av_set_addrlen():74<info> determine dgram address len
+/lib/x86_64-linux-gnu/libmpi.so.40(MPI_Init+0x72)[0x7e204e350d82]
+/root/project/ai/nccl-tests/build/all_reduce_perf(+0x4328)[0x5f4cb9a3d328]
+/lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7e204bc2a1ca]
+/lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7498a6e2a1ca]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7498a6e2a28b]
+libfabric:7098:1754443066::ofi_rxd:av:rxd_av_set_addrlen():74<info> determine dgram address len
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7e204bc2a28b]
+/root/project/ai/nccl-tests/build/all_reduce_perf(+0x6bd5)[0x5f4cb9a3fbd5]
+libfabric:9505:1754443066::verbs:av:vrb_dgram_av_insert_addr():96<warn> Unable to create Address Handle, errno - 101
+libfabric:9505:1754443066::ofi_rxd:av:rxd_av_set_addrlen():88<warn> addr insert failed: 0 (Success)
+/root/project/ai/nccl-tests/build/all_reduce_perf(+0x6bd5)[0x5589288ddbd5]
