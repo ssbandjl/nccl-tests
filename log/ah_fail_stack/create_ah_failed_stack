@@ -34,6 +34,8 @@ libfabric:7097:1754443066::ofi_rxd:av:rxd_av_set_addrlen():74<info> determine dg
 /lib/x86_64-linux-gnu/libmpi.so.40(ompi_mpi_init+0x87c)[0x7e204e3ba51c]
 /lib/x86_64-linux-gnu/libmpi.so.40(MPI_Init+0x72)[0x7498a999dd82]
 /root/project/ai/nccl-tests/build/all_reduce_perf(+0x4328)[0x5589288db328]
+
+
 [gdr116:07096] mca: bml: Using self btl for send to [[29056,1],6] on node gdr116
 libfabric:7099:1754443066::ofi_rxd:av:rxd_av_set_addrlen():74<info> determine dgram address len
 /lib/x86_64-linux-gnu/libmpi.so.40(MPI_Init+0x72)[0x7e204e350d82]
