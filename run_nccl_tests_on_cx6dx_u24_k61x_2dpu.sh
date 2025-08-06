@@ -33,7 +33,7 @@ for algo in ${ALGO_LIST};do
   log_file=log/cx6dx/2dpu/nccl_tests_${algo}_cx6dx_nic_pix_gpu_u24_k61x_2dpu_$(date +'%Y_%m_%d_%H_%M_%S')_log
 	echo $algo
 	echo $log_file
-  mpirun -np 8 -H 192.168.1.10:2,192.168.1.11:2,192.168.2.10:2,192.168.2.11:2 -bind-to core -map-by node \
+  mpirun -np 8 -H 192.168.1.10:2,192.168.1.11:2,192.168.2.10:2,192.168.2.11:2 -bind-to core -map-by node --report-bindings \
     --mca btl_ofi_verbose 100 \
     --mca btl_base_verbose 100 \
     -x NCCL_DEBUG=TRACE \

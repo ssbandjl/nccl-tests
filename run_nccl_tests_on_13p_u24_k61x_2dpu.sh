@@ -26,9 +26,11 @@ NCCL_IB_HCA=xtrdma_0:1,xtrdma_4:1, Use ports 1 of cards
 --mca btl_ofi_verbose 100 \
 --mca btl_base_verbose 100 \
 /usr/local/bin/mpirun
+-x FI_PROVIDER=rxm
 COMMENT
-export FI_LOG_LEVEL=debug
 
+
+export FI_LOG_LEVEL=debug
 export LD_LIBRARY_PATH=/root/project/rdma/dpu_user_rdma/build/lib
 export HUGE_PAGE_NUM=100
 export XT_CQ_INLINE_CQE=0
@@ -41,10 +43,9 @@ for algo in ${ALGO_LIST};do
   log_file=log/13p/2dpu/nccl_tests_${algo}_13p_u24_k61x_2dpu_$(date +'%Y_%m_%d_%H_%M_%S')_log
 	echo $algo
 	echo $log_file
-    mpirun -np 4 -H 192.168.1.10:1,192.168.2.10:1,192.168.1.11:1,192.168.2.11:1 -bind-to core --map-by core --mca btl ^tcp --mca btl_ofi_provider_include rxm --report-bindings \
+    mpirun -np 8 -H 192.168.1.10:2,192.168.2.10:2,192.168.1.11:2,192.168.2.11:2 -bind-to core -map-by node --report-bindings \
     --mca btl_ofi_verbose 100 \
     --mca btl_base_verbose 100 \
-    -x FI_PROVIDER=rxm \
     -x NCCL_DEBUG=TRACE \
     -x FI_LOG_LEVEL=debug \
     -x NCCL_DEBUG_SUBSYS=NET \
