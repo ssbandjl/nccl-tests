@@ -1,0 +1,1254 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/parquet/parquet.py HTTP/1.1" 404 0
+DEBUG:filelock:Attempting to acquire lock 138817452133840 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 138817452133840 acquired on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 138817452133840 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 138817452133840 released on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Attempting to acquire lock 138817365104960 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 138817365104960 acquired on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 138817365104960 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 138817365104960 released on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/parquet/parquet.py HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/parquet/parquet.py HTTP/1.1" 404 0
+DEBUG:filelock:Attempting to acquire lock 128304465803648 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 128304465803648 acquired on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Attempting to acquire lock 123355604398112 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 123355604398112 not acquired on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock, waiting 0.05 seconds ...
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 128304465803648 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 128304465803648 released on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Attempting to acquire lock 128304465140800 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 128304465140800 acquired on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 128304465140800 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 128304465140800 released on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Attempting to acquire lock 123355604398112 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 123355604398112 acquired on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 123355604398112 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 123355604398112 released on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Attempting to acquire lock 123355597754528 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 123355597754528 acquired on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 123355597754528 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 123355597754528 released on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+[2025-08-11 11:31:10,742] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-08-11 11:31:10,821] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/parquet/parquet.py HTTP/1.1" 404 0
+DEBUG:filelock:Attempting to acquire lock 136423615974672 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 136423615974672 acquired on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 136423615974672 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 136423615974672 released on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+[2025-08-11 11:31:10,911] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+DEBUG:filelock:Attempting to acquire lock 136423600432976 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 136423600432976 acquired on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 136423600432976 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 136423600432976 released on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+[2025-08-11 11:31:11,107] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-08-11 11:31:12,310] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-11 11:31:12,321] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-08-11 11:31:12,376] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-11 11:31:12,388] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-08-11 11:31:12,445] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-11 11:31:12,457] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-08-11 11:31:12,753] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-11 11:31:12,765] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-08-11 11:31:12,766] [INFO] [comm.py:707:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/xw/2dpu/train.py:87: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/xw/2dpu/train.py:87: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/xw/2dpu/train.py:87: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/xw/2dpu/train.py:87: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+WARNING:accelerate.accelerator:Gradient accumulation steps mismatch: GradientAccumulationPlugin has 1, DeepSpeed config has 4. Using DeepSpeed's value.
+gdr114:335522:335522 [0] NCCL INFO NCCL_SOCKET_IFNAME set to enp8s0f0,enp137s0f0
+gdr114:335522:335522 [0] NCCL INFO cudaDriverVersion 12090
+gdr114:335522:335522 [0] NCCL INFO NCCL version 2.26.2+cuda12.2
+gdr114:335524:335524 [2] NCCL INFO cudaDriverVersion 12090
+gdr114:335524:335524 [2] NCCL INFO NCCL_SOCKET_IFNAME set to enp8s0f0,enp137s0f0
+gdr114:335525:335525 [3] NCCL INFO cudaDriverVersion 12090
+gdr114:335525:335525 [3] NCCL INFO NCCL_SOCKET_IFNAME set to enp8s0f0,enp137s0f0
+gdr114:335523:335523 [1] NCCL INFO cudaDriverVersion 12090
+gdr114:335523:335523 [1] NCCL INFO NCCL_SOCKET_IFNAME set to enp8s0f0,enp137s0f0
+gdr114:335524:335524 [2] NCCL INFO NCCL version 2.26.2+cuda12.2
+gdr114:335525:335525 [3] NCCL INFO NCCL version 2.26.2+cuda12.2
+gdr114:335523:335523 [1] NCCL INFO NCCL version 2.26.2+cuda12.2
+gdr114:335522:335704 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:335522:335704 [0] NCCL INFO NCCL_IB_HCA set to xtrdma_0:1,xtrdma_1:1
+[gdr114] tid:335704, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:335704, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:333503 not exists, now remove huge file:/dev/hugepages/huge_file_333503_1754882721_0x7115738841c0_889021349
+[gdr114] tid:335704, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:333503 not exists, now remove huge file:/dev/hugepages/huge_file_333503_1754882721_0x71157385dc60_1876702819
+[gdr114] tid:335704, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:333505 not exists, now remove huge file:/dev/hugepages/huge_file_333505_1754882720_0x74b8438841c0_182350946
+[gdr114] tid:335704, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:333505 not exists, now remove huge file:/dev/hugepages/huge_file_333505_1754882720_0x74b84385dc60_697457587
+[gdr114] tid:335704, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:333504 not exists, now remove huge file:/dev/hugepages/huge_file_333504_1754882720_0x7fcdf38841c0_1922619372
+[gdr114] tid:335704, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:333504 not exists, now remove huge file:/dev/hugepages/huge_file_333504_1754882720_0x7fcdf385dc60_147363985
+[gdr114] tid:335704, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:333500 not exists, now remove huge file:/dev/hugepages/huge_file_333500_1754882719_0x729c478841c0_1070042002
+[gdr114] tid:335704, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:333500 not exists, now remove huge file:/dev/hugepages/huge_file_333500_1754882719_0x729c4785dc60_1660444709
+[gdr114] tid:335704, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_335522_1754883075_0x7c136385dc60_42025575
+gdr114:335524:335705 [2] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:335524:335705 [2] NCCL INFO NCCL_IB_HCA set to xtrdma_0:1,xtrdma_1:1
+[gdr114] tid:335705, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:335705, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_335524_1754883075_0x74b0eb85dc60_900681917
+gdr114:335525:335707 [3] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:335525:335707 [3] NCCL INFO NCCL_IB_HCA set to xtrdma_0:1,xtrdma_1:1
+[gdr114] tid:335707, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:335707, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_335525_1754883075_0x7030ab85dc60_1631521499
+gdr114:335523:335706 [1] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:335523:335706 [1] NCCL INFO NCCL_IB_HCA set to xtrdma_0:1,xtrdma_1:1
+[gdr114] tid:335706, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:335706, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_335523_1754883075_0x7e40a385dc60_44652996
+gdr114:335522:335704 [0] NCCL INFO NET/IB : Made virtual device [0] name=xtrdma_0 speed=25000 ndevs=1
+[gdr114] tid:335704, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:335704, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_335522_1754883075_0x7c13638841c0_1184590205
+gdr114:335524:335705 [2] NCCL INFO NET/IB : Made virtual device [0] name=xtrdma_0 speed=25000 ndevs=1
+[gdr114] tid:335705, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:335705, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_335524_1754883075_0x74b0eb8841c0_2144662507
+gdr114:335525:335707 [3] NCCL INFO NET/IB : Made virtual device [0] name=xtrdma_0 speed=25000 ndevs=1
+[gdr114] tid:335707, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:335707, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_335525_1754883075_0x7030ab8841c0_1085089855
+gdr114:335523:335706 [1] NCCL INFO NET/IB : Made virtual device [0] name=xtrdma_0 speed=25000 ndevs=1
+[gdr114] tid:335706, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:335706, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_335523_1754883075_0x7e40a38841c0_1219496691
+gdr114:335522:335704 [0] NCCL INFO NET/IB : Made virtual device [1] name=xtrdma_1 speed=25000 ndevs=1
+gdr114:335522:335704 [0] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp8s0f0:192.168.1.10<0>
+gdr114:335522:335704 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:335522:335704 [0] NCCL INFO Using network IB
+gdr114:335522:335704 [0] NCCL INFO ncclCommInitRankConfig comm 0x4dc5f4c0 rank 0 nranks 8 cudaDev 0 nvmlDev 0 busId 5000 commId 0x330ec72a3537ca41 - Init START
+gdr114:335524:335705 [2] NCCL INFO NET/IB : Made virtual device [1] name=xtrdma_1 speed=25000 ndevs=1
+gdr114:335524:335705 [2] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp8s0f0:192.168.1.10<0>
+gdr114:335524:335705 [2] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:335524:335705 [2] NCCL INFO Using network IB
+gdr114:335524:335705 [2] NCCL INFO ncclCommInitRankConfig comm 0x23d64d70 rank 2 nranks 8 cudaDev 2 nvmlDev 2 busId 84000 commId 0x330ec72a3537ca41 - Init START
+gdr114:335525:335707 [3] NCCL INFO NET/IB : Made virtual device [1] name=xtrdma_1 speed=25000 ndevs=1
+gdr114:335525:335707 [3] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp8s0f0:192.168.1.10<0>
+gdr114:335525:335707 [3] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:335525:335707 [3] NCCL INFO Using network IB
+gdr114:335525:335707 [3] NCCL INFO ncclCommInitRankConfig comm 0x9d5bceb0 rank 3 nranks 8 cudaDev 3 nvmlDev 3 busId 88000 commId 0x330ec72a3537ca41 - Init START
+gdr114:335523:335706 [1] NCCL INFO NET/IB : Made virtual device [1] name=xtrdma_1 speed=25000 ndevs=1
+gdr114:335523:335706 [1] NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp8s0f0:192.168.1.10<0>
+gdr114:335523:335706 [1] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:335523:335706 [1] NCCL INFO Using network IB
+gdr114:335523:335706 [1] NCCL INFO ncclCommInitRankConfig comm 0x292ff500 rank 1 nranks 8 cudaDev 1 nvmlDev 1 busId 9000 commId 0x330ec72a3537ca41 - Init START
+gdr114:335524:335705 [2] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:335523:335706 [1] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:335525:335707 [3] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:335522:335704 [0] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr114:335523:335706 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335525:335707 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335522:335704 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335524:335705 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335525:335707 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335525:335707 [3] NCCL INFO NET/IB : Made virtual device [2] name=xtrdma_0 speed=25000 ndevs=1
+gdr114:335525:335707 [3] NCCL INFO NET/IB : Made virtual device [3] name=xtrdma_1 speed=25000 ndevs=1
+gdr114:335525:335707 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335525:335707 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335523:335706 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335525:335707 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'xtrdma_0'
+gdr114:335525:335707 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'xtrdma_1'
+gdr114:335523:335706 [1] NCCL INFO NET/IB : Made virtual device [2] name=xtrdma_0 speed=25000 ndevs=1
+gdr114:335523:335706 [1] NCCL INFO NET/IB : Made virtual device [3] name=xtrdma_1 speed=25000 ndevs=1
+gdr114:335523:335706 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335523:335706 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335523:335706 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'xtrdma_0'
+gdr114:335523:335706 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'xtrdma_1'
+gdr114:335524:335705 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335522:335704 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335524:335705 [2] NCCL INFO NET/IB : Made virtual device [2] name=xtrdma_0 speed=25000 ndevs=1
+gdr114:335524:335705 [2] NCCL INFO NET/IB : Made virtual device [3] name=xtrdma_1 speed=25000 ndevs=1
+gdr114:335522:335704 [0] NCCL INFO NET/IB : Made virtual device [2] name=xtrdma_0 speed=25000 ndevs=1
+gdr114:335524:335705 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335522:335704 [0] NCCL INFO NET/IB : Made virtual device [3] name=xtrdma_1 speed=25000 ndevs=1
+gdr114:335524:335705 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335522:335704 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335524:335705 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'xtrdma_0'
+gdr114:335522:335704 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335524:335705 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'xtrdma_1'
+gdr114:335522:335704 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'xtrdma_0'
+gdr114:335522:335704 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'xtrdma_1'
+gdr114:335524:335705 [2] NCCL INFO NCCL_P2P_LEVEL set by environment to NVL
+gdr114:335524:335705 [2] NCCL INFO Setting affinity for GPU 2 to fffc00,0fffc000
+gdr114:335524:335705 [2] NCCL INFO NVLS multicast support is not available on dev 2
+gdr114:335525:335707 [3] NCCL INFO NCCL_P2P_LEVEL set by environment to NVL
+gdr114:335522:335704 [0] NCCL INFO NCCL_P2P_LEVEL set by environment to NVL
+gdr114:335523:335706 [1] NCCL INFO NCCL_P2P_LEVEL set by environment to NVL
+gdr114:335525:335707 [3] NCCL INFO Setting affinity for GPU 3 to fffc00,0fffc000
+gdr114:335525:335707 [3] NCCL INFO NVLS multicast support is not available on dev 3
+gdr114:335522:335704 [0] NCCL INFO Setting affinity for GPU 0 to 03ff,f0003fff
+gdr114:335523:335706 [1] NCCL INFO Setting affinity for GPU 1 to 03ff,f0003fff
+gdr114:335522:335704 [0] NCCL INFO NVLS multicast support is not available on dev 0
+gdr114:335523:335706 [1] NCCL INFO NVLS multicast support is not available on dev 1
+gdr114:335522:335704 [0] NCCL INFO comm 0x4dc5f4c0 rank 0 nRanks 8 nNodes 2 localRanks 4 localRank 0 MNNVL 0
+gdr114:335523:335706 [1] NCCL INFO comm 0x292ff500 rank 1 nRanks 8 nNodes 2 localRanks 4 localRank 1 MNNVL 0
+gdr114:335525:335707 [3] NCCL INFO comm 0x9d5bceb0 rank 3 nRanks 8 nNodes 2 localRanks 4 localRank 3 MNNVL 0
+gdr114:335524:335705 [2] NCCL INFO comm 0x23d64d70 rank 2 nRanks 8 nNodes 2 localRanks 4 localRank 2 MNNVL 0
+gdr114:335522:335704 [0] NCCL INFO Channel 00/04 : 0 1 3 2 4 5 7 6
+gdr114:335522:335704 [0] NCCL INFO Channel 01/04 : 0 1 3 2 4 5 7 6
+gdr114:335522:335704 [0] NCCL INFO Channel 02/04 : 0 1 3 2 4 5 7 6
+gdr114:335522:335704 [0] NCCL INFO Channel 03/04 : 0 1 3 2 4 5 7 6
+gdr114:335524:335705 [2] NCCL INFO Trees [0] 3/-1/-1->2->0 [1] 0/-1/-1->2->3 [2] 3/-1/-1->2->0 [3] 0/-1/-1->2->3
+gdr114:335525:335707 [3] NCCL INFO Trees [0] -1/-1/-1->3->2 [1] 2/7/-1->3->-1 [2] -1/-1/-1->3->2 [3] 2/-1/-1->3->7
+gdr114:335524:335705 [2] NCCL INFO P2P Chunksize set to 131072
+gdr114:335522:335704 [0] NCCL INFO Trees [0] 2/-1/-1->0->1 [1] 1/-1/-1->0->2 [2] 2/-1/-1->0->1 [3] 1/-1/-1->0->2
+gdr114:335525:335707 [3] NCCL INFO P2P Chunksize set to 131072
+gdr114:335523:335706 [1] NCCL INFO Trees [0] 0/5/-1->1->-1 [1] -1/-1/-1->1->0 [2] 0/-1/-1->1->5 [3] -1/-1/-1->1->0
+gdr114:335522:335704 [0] NCCL INFO P2P Chunksize set to 131072
+gdr114:335523:335706 [1] NCCL INFO P2P Chunksize set to 131072
+gdr114:335522:335704 [0] NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr114:335522:335990 [0] NCCL INFO [Proxy Service] Device 0 CPU core 1
+gdr114:335524:335992 [2] NCCL INFO [Proxy Service] Device 2 CPU core 44
+gdr114:335525:335991 [3] NCCL INFO [Proxy Service] Device 3 CPU core 47
+gdr114:335522:335994 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 32
+gdr114:335523:335997 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 10
+gdr114:335523:335993 [1] NCCL INFO [Proxy Service] Device 1 CPU core 31
+gdr114:335524:335996 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 20
+gdr114:335525:335995 [3] NCCL INFO [Proxy Service UDS] Device 3 CPU core 21
+gdr114:335525:335707 [3] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:335525:335707 [3] NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:335524:335705 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:335524:335705 [2] NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:335523:335706 [1] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:335523:335706 [1] NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:335522:335704 [0] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:335522:335704 [0] NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:335522:335704 [0] NCCL INFO CC Off, workFifoBytes 1048576
+gdr114:335522:335704 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:335522:335704 [0] NCCL INFO ncclCommInitRankConfig comm 0x4dc5f4c0 rank 0 nranks 8 cudaDev 0 nvmlDev 0 busId 5000 commId 0x330ec72a3537ca41 - Init COMPLETE
+gdr114:335524:335705 [2] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:335522:335704 [0] NCCL INFO Init timings - ncclCommInitRankConfig: rank 0 nranks 8 total 3.66 (kernels 0.17, alloc 0.17, bootstrap 3.28, allgathers 0.01, topo 0.02, graphs 0.00, connections 0.01, rest 0.00)
+gdr114:335524:335705 [2] NCCL INFO ncclCommInitRankConfig comm 0x23d64d70 rank 2 nranks 8 cudaDev 2 nvmlDev 2 busId 84000 commId 0x330ec72a3537ca41 - Init COMPLETE
+gdr114:335525:335707 [3] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:335524:335705 [2] NCCL INFO Init timings - ncclCommInitRankConfig: rank 2 nranks 8 total 3.65 (kernels 0.17, alloc 0.16, bootstrap 3.28, allgathers 0.01, topo 0.02, graphs 0.00, connections 0.01, rest 0.00)
+gdr114:335525:335707 [3] NCCL INFO ncclCommInitRankConfig comm 0x9d5bceb0 rank 3 nranks 8 cudaDev 3 nvmlDev 3 busId 88000 commId 0x330ec72a3537ca41 - Init COMPLETE
+gdr114:335525:335707 [3] NCCL INFO Init timings - ncclCommInitRankConfig: rank 3 nranks 8 total 3.65 (kernels 0.19, alloc 0.16, bootstrap 3.27, allgathers 0.01, topo 0.02, graphs 0.00, connections 0.01, rest 0.00)
+gdr114:335523:335706 [1] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:335523:335706 [1] NCCL INFO ncclCommInitRankConfig comm 0x292ff500 rank 1 nranks 8 cudaDev 1 nvmlDev 1 busId 9000 commId 0x330ec72a3537ca41 - Init COMPLETE
+gdr114:335523:335706 [1] NCCL INFO Init timings - ncclCommInitRankConfig: rank 1 nranks 8 total 3.65 (kernels 0.19, alloc 0.17, bootstrap 3.25, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.01, rest 0.00)
+gdr114:335525:335991 [3] NCCL INFO New proxy recv connection 0 from local rank 3, transport 1
+gdr114:335525:335998 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c004f40
+gdr114:335525:335991 [3] NCCL INFO New proxy recv connection 1 from local rank 3, transport 1
+gdr114:335525:335998 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c004fb8
+gdr114:335522:335990 [0] NCCL INFO New proxy send connection 0 from local rank 0, transport 1
+gdr114:335522:335999 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c004f40
+gdr114:335523:335993 [1] NCCL INFO New proxy recv connection 0 from local rank 1, transport 1
+gdr114:335523:336001 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064004f40
+gdr114:335522:335999 [0] NCCL INFO Channel 00 : 0[0] -> 1[1] via SHM/direct/direct
+gdr114:335522:335990 [0] NCCL INFO New proxy send connection 1 from local rank 0, transport 1
+gdr114:335522:335999 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c004fb8
+gdr114:335525:335991 [3] NCCL INFO New proxy recv connection 2 from local rank 3, transport 1
+gdr114:335525:335998 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c005030
+gdr114:335523:335993 [1] NCCL INFO New proxy recv connection 1 from local rank 1, transport 1
+gdr114:335523:336001 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064004fb8
+gdr114:335522:335999 [0] NCCL INFO Channel 01 : 0[0] -> 1[1] via SHM/direct/direct
+gdr114:335522:335990 [0] NCCL INFO New proxy send connection 2 from local rank 0, transport 1
+gdr114:335522:335999 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005030
+gdr114:335525:335991 [3] NCCL INFO New proxy recv connection 3 from local rank 3, transport 1
+gdr114:335525:335998 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c0050a8
+gdr114:335523:335993 [1] NCCL INFO New proxy recv connection 2 from local rank 1, transport 1
+gdr114:335523:336001 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064005030
+gdr114:335522:335999 [0] NCCL INFO Channel 02 : 0[0] -> 1[1] via SHM/direct/direct
+gdr114:335522:335990 [0] NCCL INFO New proxy send connection 3 from local rank 0, transport 1
+gdr114:335522:335999 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c0050a8
+gdr114:335523:335993 [1] NCCL INFO New proxy recv connection 3 from local rank 1, transport 1
+gdr114:335523:336001 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e40640050a8
+gdr114:335522:335999 [0] NCCL INFO Channel 03 : 0[0] -> 1[1] via SHM/direct/direct
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 4 from local rank 1, transport 1
+gdr114:335523:336001 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064005120
+gdr114:335523:336001 [1] NCCL INFO Channel 00 : 1[1] -> 3[3] via SHM/direct/direct
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 5 from local rank 1, transport 1
+gdr114:335523:336001 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064005198
+gdr114:335523:336001 [1] NCCL INFO Channel 01 : 1[1] -> 3[3] via SHM/direct/direct
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 6 from local rank 1, transport 1
+gdr114:335523:336001 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064005210
+gdr114:335523:336001 [1] NCCL INFO Channel 02 : 1[1] -> 3[3] via SHM/direct/direct
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 7 from local rank 1, transport 1
+gdr114:335523:336001 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064005288
+gdr114:335523:336001 [1] NCCL INFO Channel 03 : 1[1] -> 3[3] via SHM/direct/direct
+gdr114:335525:335991 [3] NCCL INFO New proxy send connection 4 from local rank 3, transport 1
+gdr114:335525:335998 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c005120
+gdr114:335525:335998 [3] NCCL INFO Channel 00 : 3[3] -> 2[2] via SHM/direct/direct
+gdr114:335525:335991 [3] NCCL INFO New proxy send connection 5 from local rank 3, transport 1
+gdr114:335525:335998 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c005198
+gdr114:335525:335998 [3] NCCL INFO Channel 01 : 3[3] -> 2[2] via SHM/direct/direct
+gdr114:335525:335991 [3] NCCL INFO New proxy send connection 6 from local rank 3, transport 1
+gdr114:335525:335998 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c005210
+gdr114:335525:335998 [3] NCCL INFO Channel 02 : 3[3] -> 2[2] via SHM/direct/direct
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 0 from local rank 2, transport 2
+gdr114:335525:335991 [3] NCCL INFO New proxy send connection 7 from local rank 3, transport 1
+gdr114:335525:335998 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c005288
+gdr114:335524:336000 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac004f40
+gdr114:335524:336002 [2] NCCL INFO [Proxy Progress] Device 2 CPU core 51
+gdr114:335524:336000 [2] NCCL INFO Channel 00/0 : 2[2] -> 4[0] [send] via NET/IB/2
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 1 from local rank 2, transport 2
+gdr114:335524:336000 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac004fb8
+gdr114:335524:336000 [2] NCCL INFO Channel 01/0 : 2[2] -> 4[0] [send] via NET/IB/3
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 2 from local rank 2, transport 2
+gdr114:335524:336000 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005030
+gdr114:335524:336000 [2] NCCL INFO Channel 02/0 : 2[2] -> 4[0] [send] via NET/IB/2
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 3 from local rank 2, transport 2
+gdr114:335524:336000 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac0050a8
+gdr114:335524:336000 [2] NCCL INFO Channel 03/0 : 2[2] -> 4[0] [send] via NET/IB/3
+gdr114:335525:335998 [3] NCCL INFO Channel 03 : 3[3] -> 2[2] via SHM/direct/direct
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 4 from local rank 0, transport 2
+gdr114:335522:335990 [0] NCCL INFO New proxy send connection 5 from local rank 1, transport 0
+gdr114:335522:335999 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005120
+gdr114:335523:336001 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005198
+gdr114:335522:336003 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 39
+gdr114:335522:335999 [0] NCCL INFO Channel 00/0 : 6[2] -> 0[0] [receive] via NET/IB/2
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 6 from local rank 0, transport 2
+gdr114:335522:335999 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005210
+gdr114:335522:335999 [0] NCCL INFO Channel 01/0 : 6[2] -> 0[0] [receive] via NET/IB/3
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 7 from local rank 0, transport 2
+gdr114:335522:335999 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005288
+gdr114:335522:335999 [0] NCCL INFO Channel 02/0 : 6[2] -> 0[0] [receive] via NET/IB/2
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 8 from local rank 0, transport 2
+gdr114:335522:335999 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005300
+gdr114:335522:335999 [0] NCCL INFO Channel 03/0 : 6[2] -> 0[0] [receive] via NET/IB/3
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 8 from local rank 0, transport 0
+gdr114:335522:335999 [0] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064005300
+gdr114:335525:335991 [3] NCCL INFO New proxy send connection 8 from local rank 1, transport 0
+gdr114:335523:336001 [1] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c005300
+gdr114:335524:335992 [2] NCCL INFO New proxy recv connection 4 from local rank 2, transport 1
+gdr114:335524:336000 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005120
+gdr114:335524:335992 [2] NCCL INFO New proxy recv connection 5 from local rank 2, transport 1
+gdr114:335524:336000 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005198
+gdr114:335524:335992 [2] NCCL INFO New proxy recv connection 6 from local rank 2, transport 1
+gdr114:335524:336000 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005210
+gdr114:335524:335992 [2] NCCL INFO New proxy recv connection 7 from local rank 2, transport 1
+gdr114:335524:336000 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005288
+gdr114:335525:335991 [3] NCCL INFO New proxy send connection 9 from local rank 2, transport 0
+gdr114:335524:336000 [2] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c005378
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 9 from local rank 3, transport 0
+gdr114:335525:335998 [3] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064005378
+[gdr114] tid:335992, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1460
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1461
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1462
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1463
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335990, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1460 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x373ea fifoLkey=0x373ea
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1461 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x373ea fifoLkey=0x373ea
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1462 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x373ea fifoLkey=0x373ea
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1463 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x373ea fifoLkey=0x373ea
+[gdr114] tid:335992, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1464
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1290
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1291
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1292
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1465
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1293
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1290 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2b55f fifoLkey=0x2b55f
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1291 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2b55f fifoLkey=0x2b55f
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1292 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2b55f fifoLkey=0x2b55f
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1293 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2b55f fifoLkey=0x2b55f
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 8 from local rank 3, transport 0
+gdr114:335525:335998 [3] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005300
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1466
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1467
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1468
+[gdr114] tid:335990, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1294
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1295
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1296
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1424 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1425 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1426 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1427 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1297
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1298
+[gdr114] tid:335992, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1469
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1470
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1471
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1472
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1469 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x37ed3 fifoLkey=0x37ed3
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1470 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x37ed3 fifoLkey=0x37ed3
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1471 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x37ed3 fifoLkey=0x37ed3
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1472 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x37ed3 fifoLkey=0x37ed3
+[gdr114] tid:335992, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1299
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1300
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1301
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335992, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1302
+gdr114:335524:335992 [2] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1299 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2b92f fifoLkey=0x2b92f
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1300 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2b92f fifoLkey=0x2b92f
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1301 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2b92f fifoLkey=0x2b92f
+gdr114:335524:335992 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1302 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2b92f fifoLkey=0x2b92f
+[gdr114] tid:335990, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1473
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1334 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1335 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1336 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1337 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1474
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1475
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1476
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1477
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1429 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1430 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1431 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1433 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+[gdr114] tid:335990, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1303
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1304
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1305
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1306
+[gdr114] tid:335990, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1307
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1343 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1344 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1345 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:335992 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1346 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:335998 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:335524:336000 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:335523:336001 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:335522:335999 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Creating extension directory /root/.cache/torch_extensions/py312_cu126/fused_adam...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py312_cu126/fused_adam/build.ninja...
+/root/deepseek-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module fused_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+[1/3] c++ -MMD -MF fused_adam_frontend.o.d -DTORCH_EXTENSION_NAME=fused_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -fPIC -std=c++17 -O3 -std=c++17 -g -Wno-reorder -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -UC10_USE_GLOG -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/fused_adam_frontend.cpp -o fused_adam_frontend.o 
+[2/3] /usr/bin/nvcc --generate-dependencies-with-compile --dependency-output multi_tensor_adam.cuda.o.d -DTORCH_EXTENSION_NAME=fused_adam -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1016\" -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/includes -I/root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include -isystem /root/deepseek-env/lib/python3.12/site-packages/torch/include/torch/csrc/api/include -isystem /usr/include/python3.12 -D_GLIBCXX_USE_CXX11_ABI=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_70,code=compute_70 -gencode=arch=compute_70,code=sm_70 --compiler-options '-fPIC' -O3 -DVERSION_GE_1_1 -DVERSION_GE_1_3 -DVERSION_GE_1_5 -lineinfo --use_fast_math -gencode=arch=compute_70,code=sm_70 -gencode=arch=compute_70,code=compute_70 -UC10_USE_GLOG -std=c++17 -c /root/deepseek-env/lib/python3.12/site-packages/deepspeed/ops/csrc/adam/multi_tensor_adam.cu -o multi_tensor_adam.cuda.o 
+[3/3] c++ fused_adam_frontend.o multi_tensor_adam.cuda.o -shared -L/root/deepseek-env/lib/python3.12/site-packages/torch/lib -lc10 -lc10_cuda -ltorch_cpu -ltorch_cuda -ltorch -ltorch_python -L/usr/lib64 -lcudart -o fused_adam.so
+Loading extension module fused_adam...
+Time to load fused_adam op: 29.94545006752014 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 29.94378399848938 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 29.944624185562134 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 29.951751232147217 seconds
+gdr114:335522:336044 [0] NCCL INFO Using network IB
+gdr114:335522:336044 [0] NCCL INFO ncclCommInitRankConfig comm 0x4de9a850 rank 0 nranks 8 cudaDev 0 nvmlDev 0 busId 5000 commId 0xe0232388be37ec28 - Init START
+gdr114:335524:336045 [2] NCCL INFO Using network IB
+gdr114:335523:336046 [1] NCCL INFO Using network IB
+gdr114:335524:336045 [2] NCCL INFO ncclCommInitRankConfig comm 0x23f9e520 rank 2 nranks 8 cudaDev 2 nvmlDev 2 busId 84000 commId 0xe0232388be37ec28 - Init START
+gdr114:335523:336046 [1] NCCL INFO ncclCommInitRankConfig comm 0x29542680 rank 1 nranks 8 cudaDev 1 nvmlDev 1 busId 9000 commId 0xe0232388be37ec28 - Init START
+gdr114:335525:336047 [3] NCCL INFO Using network IB
+gdr114:335525:336047 [3] NCCL INFO ncclCommInitRankConfig comm 0x9d7f6360 rank 3 nranks 8 cudaDev 3 nvmlDev 3 busId 88000 commId 0xe0232388be37ec28 - Init START
+gdr114:335523:336046 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335524:336045 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335522:336044 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335525:336047 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335523:336046 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335523:336046 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335523:336046 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335523:336046 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'xtrdma_0'
+gdr114:335523:336046 [1] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'xtrdma_1'
+gdr114:335525:336047 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335525:336047 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335525:336047 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335525:336047 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'xtrdma_0'
+gdr114:335525:336047 [3] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'xtrdma_1'
+gdr114:335524:336045 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335524:336045 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335524:336045 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335522:336044 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335524:336045 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'xtrdma_0'
+gdr114:335522:336044 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 0 'xtrdma_0'
+gdr114:335524:336045 [2] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'xtrdma_1'
+gdr114:335522:336044 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 1 'xtrdma_1'
+gdr114:335522:336044 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 2 'xtrdma_0'
+gdr114:335522:336044 [0] NCCL INFO NET/IB : GPU Direct RDMA Disabled for HCA 3 'xtrdma_1'
+gdr114:335522:336044 [0] NCCL INFO Setting affinity for GPU 0 to 03ff,f0003fff
+gdr114:335522:336044 [0] NCCL INFO NVLS multicast support is not available on dev 0
+gdr114:335523:336046 [1] NCCL INFO Setting affinity for GPU 1 to 03ff,f0003fff
+gdr114:335523:336046 [1] NCCL INFO NVLS multicast support is not available on dev 1
+gdr114:335524:336045 [2] NCCL INFO Setting affinity for GPU 2 to fffc00,0fffc000
+gdr114:335524:336045 [2] NCCL INFO NVLS multicast support is not available on dev 2
+gdr114:335525:336047 [3] NCCL INFO Setting affinity for GPU 3 to fffc00,0fffc000
+gdr114:335525:336047 [3] NCCL INFO NVLS multicast support is not available on dev 3
+gdr114:335525:336047 [3] NCCL INFO comm 0x9d7f6360 rank 3 nRanks 8 nNodes 2 localRanks 4 localRank 3 MNNVL 0
+gdr114:335524:336045 [2] NCCL INFO comm 0x23f9e520 rank 2 nRanks 8 nNodes 2 localRanks 4 localRank 2 MNNVL 0
+gdr114:335523:336046 [1] NCCL INFO comm 0x29542680 rank 1 nRanks 8 nNodes 2 localRanks 4 localRank 1 MNNVL 0
+gdr114:335522:336044 [0] NCCL INFO comm 0x4de9a850 rank 0 nRanks 8 nNodes 2 localRanks 4 localRank 0 MNNVL 0
+gdr114:335525:336047 [3] NCCL INFO Trees [0] -1/-1/-1->3->2 [1] 2/7/-1->3->-1 [2] -1/-1/-1->3->2 [3] 2/-1/-1->3->7
+gdr114:335525:336047 [3] NCCL INFO P2P Chunksize set to 131072
+gdr114:335522:336044 [0] NCCL INFO Channel 00/04 : 0 1 3 2 4 5 7 6
+gdr114:335523:336046 [1] NCCL INFO Trees [0] 0/5/-1->1->-1 [1] -1/-1/-1->1->0 [2] 0/-1/-1->1->5 [3] -1/-1/-1->1->0
+gdr114:335522:336044 [0] NCCL INFO Channel 01/04 : 0 1 3 2 4 5 7 6
+gdr114:335524:336045 [2] NCCL INFO Trees [0] 3/-1/-1->2->0 [1] 0/-1/-1->2->3 [2] 3/-1/-1->2->0 [3] 0/-1/-1->2->3
+gdr114:335523:336046 [1] NCCL INFO P2P Chunksize set to 131072
+gdr114:335522:336044 [0] NCCL INFO Channel 02/04 : 0 1 3 2 4 5 7 6
+gdr114:335524:336045 [2] NCCL INFO P2P Chunksize set to 131072
+gdr114:335522:336044 [0] NCCL INFO Channel 03/04 : 0 1 3 2 4 5 7 6
+gdr114:335522:336044 [0] NCCL INFO Trees [0] 2/-1/-1->0->1 [1] 1/-1/-1->0->2 [2] 2/-1/-1->0->1 [3] 1/-1/-1->0->2
+gdr114:335522:336044 [0] NCCL INFO P2P Chunksize set to 131072
+gdr114:335522:336044 [0] NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr114:335522:336048 [0] NCCL INFO [Proxy Service] Device 0 CPU core 29
+gdr114:335524:336050 [2] NCCL INFO [Proxy Service] Device 2 CPU core 16
+gdr114:335525:336049 [3] NCCL INFO [Proxy Service] Device 3 CPU core 17
+gdr114:335524:336052 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 47
+gdr114:335523:336053 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 7
+gdr114:335522:336054 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 32
+gdr114:335523:336051 [1] NCCL INFO [Proxy Service] Device 1 CPU core 30
+gdr114:335525:336055 [3] NCCL INFO [Proxy Service UDS] Device 3 CPU core 21
+gdr114:335525:336047 [3] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:335525:336047 [3] NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:335524:336045 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:335524:336045 [2] NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:335522:336044 [0] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:335523:336046 [1] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:335522:336044 [0] NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:335523:336046 [1] NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:335522:336044 [0] NCCL INFO CC Off, workFifoBytes 1048576
+gdr114:335522:336044 [0] NCCL INFO ncclCommInitRankConfig comm 0x4de9a850 rank 0 nranks 8 cudaDev 0 nvmlDev 0 busId 5000 commId 0xe0232388be37ec28 - Init COMPLETE
+gdr114:335524:336045 [2] NCCL INFO ncclCommInitRankConfig comm 0x23f9e520 rank 2 nranks 8 cudaDev 2 nvmlDev 2 busId 84000 commId 0xe0232388be37ec28 - Init COMPLETE
+gdr114:335522:336044 [0] NCCL INFO Init timings - ncclCommInitRankConfig: rank 0 nranks 8 total 0.04 (kernels 0.00, alloc 0.00, bootstrap 0.00, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.01, rest 0.00)
+gdr114:335524:336045 [2] NCCL INFO Init timings - ncclCommInitRankConfig: rank 2 nranks 8 total 0.04 (kernels 0.00, alloc 0.00, bootstrap 0.00, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.01, rest 0.00)
+gdr114:335525:336047 [3] NCCL INFO ncclCommInitRankConfig comm 0x9d7f6360 rank 3 nranks 8 cudaDev 3 nvmlDev 3 busId 88000 commId 0xe0232388be37ec28 - Init COMPLETE
+gdr114:335523:336046 [1] NCCL INFO ncclCommInitRankConfig comm 0x29542680 rank 1 nranks 8 cudaDev 1 nvmlDev 1 busId 9000 commId 0xe0232388be37ec28 - Init COMPLETE
+gdr114:335525:336047 [3] NCCL INFO Init timings - ncclCommInitRankConfig: rank 3 nranks 8 total 0.04 (kernels 0.00, alloc 0.00, bootstrap 0.00, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.01, rest 0.00)
+gdr114:335523:336046 [1] NCCL INFO Init timings - ncclCommInitRankConfig: rank 1 nranks 8 total 0.04 (kernels 0.00, alloc 0.00, bootstrap 0.00, allgathers 0.00, topo 0.02, graphs 0.00, connections 0.01, rest 0.00)
+gdr114:335522:336048 [0] NCCL INFO New proxy send connection 0 from local rank 0, transport 1
+gdr114:335525:336049 [3] NCCL INFO New proxy recv connection 0 from local rank 3, transport 1
+gdr114:335525:336058 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064004f40
+gdr114:335522:336056 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc004f40
+gdr114:335523:336051 [1] NCCL INFO New proxy recv connection 0 from local rank 1, transport 1
+gdr114:335523:336059 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040004f40
+gdr114:335522:336056 [0] NCCL INFO Channel 00 : 0[0] -> 1[1] via SHM/direct/direct
+gdr114:335522:336048 [0] NCCL INFO New proxy send connection 1 from local rank 0, transport 1
+gdr114:335522:336056 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc004fb8
+gdr114:335523:336051 [1] NCCL INFO New proxy recv connection 1 from local rank 1, transport 1
+gdr114:335523:336059 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040004fb8
+gdr114:335525:336049 [3] NCCL INFO New proxy recv connection 1 from local rank 3, transport 1
+gdr114:335525:336058 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064004fb8
+gdr114:335522:336056 [0] NCCL INFO Channel 01 : 0[0] -> 1[1] via SHM/direct/direct
+gdr114:335522:336048 [0] NCCL INFO New proxy send connection 2 from local rank 0, transport 1
+gdr114:335522:336056 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005030
+gdr114:335523:336051 [1] NCCL INFO New proxy recv connection 2 from local rank 1, transport 1
+gdr114:335523:336059 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040005030
+gdr114:335525:336049 [3] NCCL INFO New proxy recv connection 2 from local rank 3, transport 1
+gdr114:335525:336058 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064005030
+gdr114:335522:336056 [0] NCCL INFO Channel 02 : 0[0] -> 1[1] via SHM/direct/direct
+gdr114:335522:336048 [0] NCCL INFO New proxy send connection 3 from local rank 0, transport 1
+gdr114:335522:336056 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc0050a8
+gdr114:335523:336051 [1] NCCL INFO New proxy recv connection 3 from local rank 1, transport 1
+gdr114:335523:336059 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e40400050a8
+gdr114:335525:336049 [3] NCCL INFO New proxy recv connection 3 from local rank 3, transport 1
+gdr114:335525:336058 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x7030640050a8
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 0 from local rank 2, transport 2
+gdr114:335524:336060 [2] NCCL INFO [Proxy Progress] Device 2 CPU core 23
+gdr114:335524:336057 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080004f40
+gdr114:335524:336057 [2] NCCL INFO Channel 00/0 : 2[2] -> 4[0] [send] via NET/IB/2
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 1 from local rank 2, transport 2
+gdr114:335524:336057 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080004fb8
+gdr114:335524:336057 [2] NCCL INFO Channel 01/0 : 2[2] -> 4[0] [send] via NET/IB/3
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 2 from local rank 2, transport 2
+gdr114:335524:336057 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005030
+gdr114:335524:336057 [2] NCCL INFO Channel 02/0 : 2[2] -> 4[0] [send] via NET/IB/2
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 3 from local rank 2, transport 2
+gdr114:335524:336057 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0800050a8
+gdr114:335524:336057 [2] NCCL INFO Channel 03/0 : 2[2] -> 4[0] [send] via NET/IB/3
+gdr114:335522:336056 [0] NCCL INFO Channel 03 : 0[0] -> 1[1] via SHM/direct/direct
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 4 from local rank 1, transport 1
+gdr114:335523:336059 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040005120
+gdr114:335523:336059 [1] NCCL INFO Channel 00 : 1[1] -> 3[3] via SHM/direct/direct
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 5 from local rank 1, transport 1
+gdr114:335523:336059 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040005198
+gdr114:335523:336059 [1] NCCL INFO Channel 01 : 1[1] -> 3[3] via SHM/direct/direct
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 6 from local rank 1, transport 1
+gdr114:335523:336059 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040005210
+gdr114:335523:336059 [1] NCCL INFO Channel 02 : 1[1] -> 3[3] via SHM/direct/direct
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 7 from local rank 1, transport 1
+gdr114:335523:336059 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040005288
+gdr114:335523:336059 [1] NCCL INFO Channel 03 : 1[1] -> 3[3] via SHM/direct/direct
+gdr114:335525:336049 [3] NCCL INFO New proxy send connection 4 from local rank 3, transport 1
+gdr114:335525:336058 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064005120
+gdr114:335525:336058 [3] NCCL INFO Channel 00 : 3[3] -> 2[2] via SHM/direct/direct
+gdr114:335525:336049 [3] NCCL INFO New proxy send connection 5 from local rank 3, transport 1
+gdr114:335525:336058 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064005198
+gdr114:335525:336058 [3] NCCL INFO Channel 01 : 3[3] -> 2[2] via SHM/direct/direct
+gdr114:335525:336049 [3] NCCL INFO New proxy send connection 6 from local rank 3, transport 1
+gdr114:335525:336058 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064005210
+gdr114:335525:336058 [3] NCCL INFO Channel 02 : 3[3] -> 2[2] via SHM/direct/direct
+gdr114:335525:336049 [3] NCCL INFO New proxy send connection 7 from local rank 3, transport 1
+gdr114:335525:336058 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064005288
+gdr114:335525:336058 [3] NCCL INFO Channel 03 : 3[3] -> 2[2] via SHM/direct/direct
+gdr114:335524:336050 [2] NCCL INFO New proxy recv connection 4 from local rank 2, transport 1
+gdr114:335524:336057 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005120
+gdr114:335524:336050 [2] NCCL INFO New proxy recv connection 5 from local rank 2, transport 1
+gdr114:335524:336057 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005198
+gdr114:335524:336050 [2] NCCL INFO New proxy recv connection 6 from local rank 2, transport 1
+gdr114:335524:336057 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005210
+gdr114:335524:336050 [2] NCCL INFO New proxy recv connection 7 from local rank 2, transport 1
+gdr114:335524:336057 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005288
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 4 from local rank 0, transport 2
+gdr114:335522:336048 [0] NCCL INFO New proxy send connection 5 from local rank 1, transport 0
+gdr114:335522:336056 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005120
+gdr114:335523:336059 [1] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005198
+gdr114:335522:336061 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 6
+gdr114:335522:336056 [0] NCCL INFO Channel 00/0 : 6[2] -> 0[0] [receive] via NET/IB/2
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 6 from local rank 0, transport 2
+gdr114:335522:336056 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005210
+gdr114:335522:336056 [0] NCCL INFO Channel 01/0 : 6[2] -> 0[0] [receive] via NET/IB/3
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 7 from local rank 0, transport 2
+gdr114:335522:336056 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005288
+gdr114:335522:336056 [0] NCCL INFO Channel 02/0 : 6[2] -> 0[0] [receive] via NET/IB/2
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 8 from local rank 0, transport 2
+gdr114:335522:336056 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005300
+gdr114:335522:336056 [0] NCCL INFO Channel 03/0 : 6[2] -> 0[0] [receive] via NET/IB/3
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 8 from local rank 0, transport 0
+gdr114:335522:336056 [0] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040005300
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 9 from local rank 3, transport 0
+gdr114:335525:336058 [3] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040005378
+gdr114:335525:336049 [3] NCCL INFO New proxy send connection 8 from local rank 2, transport 0
+gdr114:335524:336057 [2] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064005300
+[gdr114] tid:336050, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+gdr114:335525:336049 [3] NCCL INFO New proxy send connection 9 from local rank 1, transport 0
+gdr114:335523:336059 [1] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064005378
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1478
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1479
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1480
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1481
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1478 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x389fc fifoLkey=0x389fc
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1479 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x389fc fifoLkey=0x389fc
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1480 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x389fc fifoLkey=0x389fc
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1481 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x389fc fifoLkey=0x389fc
+[gdr114] tid:336050, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336048, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1482
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1308
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1309
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1310
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1311
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1483
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1308 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2cb59 fifoLkey=0x2cb59
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1309 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2cb59 fifoLkey=0x2cb59
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1310 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2cb59 fifoLkey=0x2cb59
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1311 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2cb59 fifoLkey=0x2cb59
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 8 from local rank 3, transport 0
+gdr114:335525:336058 [3] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005300
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1484
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1485
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1486
+[gdr114] tid:336048, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1312
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1313
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1314
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1442 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1443 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1444 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1445 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1315
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1316
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1352 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1353 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1354 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1355 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+[gdr114] tid:336050, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1487
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1488
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1489
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1490
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1487 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x394ae fifoLkey=0x394ae
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1488 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x394ae fifoLkey=0x394ae
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1489 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x394ae fifoLkey=0x394ae
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1490 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x394ae fifoLkey=0x394ae
+[gdr114] tid:336050, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336048, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1317
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1491
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1318
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1319
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336050, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1320
+gdr114:335524:336050 [2] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1492
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1317 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2d6f6 fifoLkey=0x2d6f6
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1318 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2d6f6 fifoLkey=0x2d6f6
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1319 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2d6f6 fifoLkey=0x2d6f6
+gdr114:335524:336050 [2] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1320 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2d6f6 fifoLkey=0x2d6f6
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1493
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1494
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1495
+[gdr114] tid:336048, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1321
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1322
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1323
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1451 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1452 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1453 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1454 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1324
+[gdr114] tid:336048, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1325
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1361 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1362 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1363 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336050 [2] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1364 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:336058 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:335524:336057 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:335523:336059 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:335522:336056 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+Parameter Offload - Persistent parameters statistics: param_count = 49, numel = 100352
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+gdr114:335525:336049 [3] NCCL INFO New proxy recv connection 10 from local rank 3, transport 1
+gdr114:335525:336063 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x7030640053f0
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 9 from local rank 2, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005378
+gdr114:335524:336064 [2] NCCL INFO Channel 00 : 2[2] -> 3[3] via SHM/direct/direct
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 10 from local rank 2, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0800053f0
+gdr114:335525:336049 [3] NCCL INFO New proxy recv connection 11 from local rank 3, transport 1
+gdr114:335525:336063 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064005468
+gdr114:335524:336064 [2] NCCL INFO Channel 01 : 2[2] -> 3[3] via SHM/direct/direct
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 11 from local rank 2, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005468
+gdr114:335525:336049 [3] NCCL INFO New proxy recv connection 12 from local rank 3, transport 1
+gdr114:335525:336063 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x7030640054e0
+gdr114:335524:336064 [2] NCCL INFO Channel 02 : 2[2] -> 3[3] via SHM/direct/direct
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 12 from local rank 2, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0800054e0
+gdr114:335525:336049 [3] NCCL INFO New proxy recv connection 13 from local rank 3, transport 1
+gdr114:335525:336063 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064005558
+gdr114:335524:336064 [2] NCCL INFO Channel 03 : 2[2] -> 3[3] via SHM/direct/direct
+gdr114:335524:336050 [2] NCCL INFO New proxy recv connection 13 from local rank 2, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005558
+gdr114:335524:336050 [2] NCCL INFO New proxy recv connection 14 from local rank 2, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0800055d0
+gdr114:335524:336050 [2] NCCL INFO New proxy recv connection 15 from local rank 2, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005648
+gdr114:335524:336050 [2] NCCL INFO New proxy recv connection 16 from local rank 2, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0800056c0
+gdr114:335523:336051 [1] NCCL INFO New proxy recv connection 10 from local rank 1, transport 2
+gdr114:335523:336062 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e40400053f0
+gdr114:335523:336065 [1] NCCL INFO [Proxy Progress] Device 1 CPU core 31
+gdr114:335523:336062 [1] NCCL INFO Channel 00/0 : 5[1] -> 1[1] [receive] via NET/IB/2
+gdr114:335523:336051 [1] NCCL INFO New proxy recv connection 11 from local rank 1, transport 2
+gdr114:335523:336062 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040005468
+gdr114:335523:336062 [1] NCCL INFO Channel 02/0 : 5[1] -> 1[1] [receive] via NET/IB/2
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 12 from local rank 1, transport 2
+gdr114:335523:336062 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e40400054e0
+gdr114:335523:336062 [1] NCCL INFO Channel 00/0 : 1[1] -> 5[1] [send] via NET/IB/2
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 13 from local rank 1, transport 2
+gdr114:335523:336062 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040005558
+gdr114:335523:336062 [1] NCCL INFO Channel 02/0 : 1[1] -> 5[1] [send] via NET/IB/2
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 14 from local rank 1, transport 1
+gdr114:335523:336062 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e40400055d0
+gdr114:335523:336062 [1] NCCL INFO Channel 00 : 1[1] -> 0[0] via SHM/direct/direct
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 15 from local rank 1, transport 1
+gdr114:335523:336062 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040005648
+gdr114:335523:336062 [1] NCCL INFO Channel 01 : 1[1] -> 0[0] via SHM/direct/direct
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 16 from local rank 1, transport 1
+gdr114:335523:336062 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e40400056c0
+gdr114:335523:336062 [1] NCCL INFO Channel 02 : 1[1] -> 0[0] via SHM/direct/direct
+gdr114:335523:336051 [1] NCCL INFO New proxy send connection 17 from local rank 1, transport 1
+gdr114:335523:336062 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4040005738
+gdr114:335523:336062 [1] NCCL INFO Channel 03 : 1[1] -> 0[0] via SHM/direct/direct
+gdr114:335525:336049 [3] NCCL INFO New proxy recv connection 14 from local rank 3, transport 2
+gdr114:335525:336063 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x7030640055d0
+gdr114:335525:336066 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 20
+gdr114:335525:336063 [3] NCCL INFO Channel 01/0 : 7[3] -> 3[3] [receive] via NET/IB/3
+gdr114:335525:336049 [3] NCCL INFO New proxy recv connection 15 from local rank 3, transport 2
+gdr114:335525:336063 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064005648
+gdr114:335525:336063 [3] NCCL INFO Channel 03/0 : 7[3] -> 3[3] [receive] via NET/IB/3
+gdr114:335525:336049 [3] NCCL INFO New proxy send connection 16 from local rank 3, transport 2
+gdr114:335525:336063 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x7030640056c0
+gdr114:335525:336063 [3] NCCL INFO Channel 01/0 : 3[3] -> 7[3] [send] via NET/IB/3
+gdr114:335525:336049 [3] NCCL INFO New proxy send connection 17 from local rank 3, transport 2
+gdr114:335525:336063 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x703064005738
+gdr114:335525:336063 [3] NCCL INFO Channel 03/0 : 3[3] -> 7[3] [send] via NET/IB/3
+[gdr114] tid:336049, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1326
+gdr114:335525:336049 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1327
+gdr114:335525:336049 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1328
+gdr114:335525:336049 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1329
+gdr114:335525:336049 [3] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335525:336049 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1326 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2e102 fifoLkey=0x2e102
+gdr114:335525:336049 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1327 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2e102 fifoLkey=0x2e102
+gdr114:335525:336049 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1328 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2e102 fifoLkey=0x2e102
+gdr114:335525:336049 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1329 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2e102 fifoLkey=0x2e102
+[gdr114] tid:336049, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1330
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+gdr114:335522:336048 [0] NCCL INFO New proxy send connection 9 from local rank 0, transport 1
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005378
+gdr114:335522:336067 [0] NCCL INFO Channel 00 : 0[0] -> 2[2] via SHM/direct/direct
+gdr114:335522:336048 [0] NCCL INFO New proxy send connection 10 from local rank 0, transport 1
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc0053f0
+gdr114:335522:336067 [0] NCCL INFO Channel 01 : 0[0] -> 2[2] via SHM/direct/direct
+gdr114:335522:336048 [0] NCCL INFO New proxy send connection 11 from local rank 0, transport 1
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005468
+gdr114:335522:336067 [0] NCCL INFO Channel 02 : 0[0] -> 2[2] via SHM/direct/direct
+gdr114:335522:336048 [0] NCCL INFO New proxy send connection 12 from local rank 0, transport 1
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc0054e0
+gdr114:335522:336067 [0] NCCL INFO Channel 03 : 0[0] -> 2[2] via SHM/direct/direct
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 17 from local rank 2, transport 1
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 13 from local rank 0, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005738
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005558
+gdr114:335524:336064 [2] NCCL INFO Channel 00 : 2[2] -> 0[0] via SHM/direct/direct
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 18 from local rank 2, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0800057b0
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 14 from local rank 0, transport 1
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc0055d0
+gdr114:335524:336064 [2] NCCL INFO Channel 01 : 2[2] -> 0[0] via SHM/direct/direct
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 19 from local rank 2, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005828
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 15 from local rank 0, transport 1
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005648
+gdr114:335524:336064 [2] NCCL INFO Channel 02 : 2[2] -> 0[0] via SHM/direct/direct
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 20 from local rank 2, transport 1
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0800058a0
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 16 from local rank 0, transport 1
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc0056c0
+gdr114:335524:336064 [2] NCCL INFO Channel 03 : 2[2] -> 0[0] via SHM/direct/direct
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 17 from local rank 0, transport 1
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005738
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1331
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 18 from local rank 0, transport 1
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc0057b0
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 19 from local rank 0, transport 1
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005828
+gdr114:335522:336048 [0] NCCL INFO New proxy recv connection 20 from local rank 0, transport 1
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc0058a0
+gdr114:335522:336048 [0] NCCL INFO New proxy send connection 21 from local rank 2, transport 0
+gdr114:335524:336064 [2] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c12dc005918
+gdr114:335524:336050 [2] NCCL INFO New proxy send connection 21 from local rank 0, transport 0
+gdr114:335522:336067 [0] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b080005918
+[gdr114] tid:336051, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1332
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1496
+gdr114:335523:336051 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1497
+gdr114:335523:336051 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1498
+gdr114:335523:336051 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1333
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1499
+gdr114:335523:336051 [1] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335523:336051 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1496 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x39fc6 fifoLkey=0x39fc6
+gdr114:335523:336051 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1497 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x39fc6 fifoLkey=0x39fc6
+gdr114:335523:336051 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1498 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x39fc6 fifoLkey=0x39fc6
+gdr114:335523:336051 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1499 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x39fc6 fifoLkey=0x39fc6
+[gdr114] tid:336051, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1500
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1334
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1501
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1502
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1503
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1504
+gdr114:335525:336049 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1370 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:336049 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1371 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:336049 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1372 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:336049 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1373 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+[gdr114] tid:336051, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1505
+gdr114:335523:336051 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1506
+gdr114:335523:336051 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1507
+gdr114:335523:336051 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1508
+gdr114:335523:336051 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336049, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+gdr114:335523:336051 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1505 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3a3a0 fifoLkey=0x3a3a0
+gdr114:335523:336051 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1506 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3a3a0 fifoLkey=0x3a3a0
+gdr114:335523:336051 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1507 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3a3a0 fifoLkey=0x3a3a0
+gdr114:335523:336051 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1508 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3a3a0 fifoLkey=0x3a3a0
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1335
+gdr114:335525:336049 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1336
+gdr114:335525:336049 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1337
+gdr114:335525:336049 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1338
+gdr114:335525:336049 [3] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335525:336049 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1335 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2ec31 fifoLkey=0x2ec31
+gdr114:335525:336049 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1336 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2ec31 fifoLkey=0x2ec31
+gdr114:335525:336049 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1337 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2ec31 fifoLkey=0x2ec31
+gdr114:335525:336049 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1338 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2ec31 fifoLkey=0x2ec31
+[gdr114] tid:336049, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1339
+gdr114:335523:336051 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1460 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:336051 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1461 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:336051 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1462 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:336051 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1463 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1340
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1341
+[gdr114] tid:336051, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1342
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1509
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1510
+[gdr114] tid:336049, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1343
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1511
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1512
+[gdr114] tid:336051, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1513
+gdr114:335525:336049 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1379 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:336049 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1380 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:336049 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1381 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:336049 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1382 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335524:336064 [2] NCCL INFO Connected all trees
+gdr114:335525:336063 [3] NCCL INFO Connected all trees
+gdr114:335523:336051 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1469 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:336051 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1470 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:336051 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1471 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:336051 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1472 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335522:336067 [0] NCCL INFO Connected all trees
+gdr114:335523:336062 [1] NCCL INFO Connected all trees
+  0%|          | 0/1148 [00:00<?, ?it/s]gdr114:335525:335991 [3] NCCL INFO New proxy recv connection 10 from local rank 3, transport 1
+gdr114:335525:336245 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c0053f0
+gdr114:335522:335990 [0] NCCL INFO New proxy send connection 9 from local rank 0, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005378
+gdr114:335522:336247 [0] NCCL INFO Channel 00 : 0[0] -> 2[2] via SHM/direct/direct
+gdr114:335522:335990 [0] NCCL INFO New proxy send connection 10 from local rank 0, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c0053f0
+gdr114:335525:335991 [3] NCCL INFO New proxy recv connection 11 from local rank 3, transport 1
+gdr114:335525:336245 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c005468
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 9 from local rank 2, transport 1
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005378
+gdr114:335522:336247 [0] NCCL INFO Channel 01 : 0[0] -> 2[2] via SHM/direct/direct
+gdr114:335522:335990 [0] NCCL INFO New proxy send connection 11 from local rank 0, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005468
+gdr114:335524:336248 [2] NCCL INFO Channel 00 : 2[2] -> 3[3] via SHM/direct/direct
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 10 from local rank 2, transport 1
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac0053f0
+gdr114:335525:335991 [3] NCCL INFO New proxy recv connection 12 from local rank 3, transport 1
+gdr114:335525:336245 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c0054e0
+gdr114:335524:336248 [2] NCCL INFO Channel 01 : 2[2] -> 3[3] via SHM/direct/direct
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 11 from local rank 2, transport 1
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005468
+gdr114:335522:336247 [0] NCCL INFO Channel 02 : 0[0] -> 2[2] via SHM/direct/direct
+gdr114:335522:335990 [0] NCCL INFO New proxy send connection 12 from local rank 0, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c0054e0
+gdr114:335525:335991 [3] NCCL INFO New proxy recv connection 13 from local rank 3, transport 1
+gdr114:335525:336245 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c005558
+gdr114:335522:336247 [0] NCCL INFO Channel 03 : 0[0] -> 2[2] via SHM/direct/direct
+gdr114:335524:336248 [2] NCCL INFO Channel 02 : 2[2] -> 3[3] via SHM/direct/direct
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 12 from local rank 2, transport 1
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac0054e0
+gdr114:335524:336248 [2] NCCL INFO Channel 03 : 2[2] -> 3[3] via SHM/direct/direct
+gdr114:335524:335992 [2] NCCL INFO New proxy recv connection 13 from local rank 2, transport 1
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005558
+gdr114:335524:335992 [2] NCCL INFO New proxy recv connection 14 from local rank 2, transport 1
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac0055d0
+gdr114:335523:335993 [1] NCCL INFO New proxy recv connection 10 from local rank 1, transport 2
+gdr114:335523:336246 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e40640053f0
+gdr114:335523:336249 [1] NCCL INFO [Proxy Progress] Device 1 CPU core 3
+gdr114:335523:336246 [1] NCCL INFO Channel 00/0 : 5[1] -> 1[1] [receive] via NET/IB/2
+gdr114:335523:335993 [1] NCCL INFO New proxy recv connection 11 from local rank 1, transport 2
+gdr114:335523:336246 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064005468
+gdr114:335523:336246 [1] NCCL INFO Channel 02/0 : 5[1] -> 1[1] [receive] via NET/IB/2
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 12 from local rank 1, transport 2
+gdr114:335523:336246 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e40640054e0
+gdr114:335523:336246 [1] NCCL INFO Channel 00/0 : 1[1] -> 5[1] [send] via NET/IB/2
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 13 from local rank 1, transport 2
+gdr114:335523:336246 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064005558
+gdr114:335523:336246 [1] NCCL INFO Channel 02/0 : 1[1] -> 5[1] [send] via NET/IB/2
+gdr114:335524:335992 [2] NCCL INFO New proxy recv connection 15 from local rank 2, transport 1
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005648
+gdr114:335524:335992 [2] NCCL INFO New proxy recv connection 16 from local rank 2, transport 1
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac0056c0
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 13 from local rank 0, transport 1
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 17 from local rank 2, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005558
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005738
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 14 from local rank 1, transport 1
+gdr114:335523:336246 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e40640055d0
+gdr114:335523:336246 [1] NCCL INFO Channel 00 : 1[1] -> 0[0] via SHM/direct/direct
+gdr114:335524:336248 [2] NCCL INFO Channel 00 : 2[2] -> 0[0] via SHM/direct/direct
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 15 from local rank 1, transport 1
+gdr114:335523:336246 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064005648
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 18 from local rank 2, transport 1
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac0057b0
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 14 from local rank 0, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c0055d0
+gdr114:335523:336246 [1] NCCL INFO Channel 01 : 1[1] -> 0[0] via SHM/direct/direct
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 16 from local rank 1, transport 1
+gdr114:335523:336246 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e40640056c0
+gdr114:335524:336248 [2] NCCL INFO Channel 01 : 2[2] -> 0[0] via SHM/direct/direct
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 19 from local rank 2, transport 1
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005828
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 15 from local rank 0, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005648
+gdr114:335523:336246 [1] NCCL INFO Channel 02 : 1[1] -> 0[0] via SHM/direct/direct
+gdr114:335523:335993 [1] NCCL INFO New proxy send connection 17 from local rank 1, transport 1
+gdr114:335523:336246 [1] NCCL INFO Connected to proxy localRank 1 -> connection 0x7e4064005738
+gdr114:335524:336248 [2] NCCL INFO Channel 02 : 2[2] -> 0[0] via SHM/direct/direct
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 20 from local rank 2, transport 1
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac0058a0
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 16 from local rank 0, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c0056c0
+gdr114:335523:336246 [1] NCCL INFO Channel 03 : 1[1] -> 0[0] via SHM/direct/direct
+gdr114:335524:336248 [2] NCCL INFO Channel 03 : 2[2] -> 0[0] via SHM/direct/direct
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 17 from local rank 0, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005738
+gdr114:335525:335991 [3] NCCL INFO New proxy recv connection 14 from local rank 3, transport 2
+gdr114:335525:336245 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c0055d0
+gdr114:335525:336250 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 46
+gdr114:335525:336245 [3] NCCL INFO Channel 01/0 : 7[3] -> 3[3] [receive] via NET/IB/3
+gdr114:335525:335991 [3] NCCL INFO New proxy recv connection 15 from local rank 3, transport 2
+gdr114:335525:336245 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c005648
+gdr114:335525:336245 [3] NCCL INFO Channel 03/0 : 7[3] -> 3[3] [receive] via NET/IB/3
+gdr114:335525:335991 [3] NCCL INFO New proxy send connection 16 from local rank 3, transport 2
+gdr114:335525:336245 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c0056c0
+gdr114:335525:336245 [3] NCCL INFO Channel 01/0 : 3[3] -> 7[3] [send] via NET/IB/3
+gdr114:335525:335991 [3] NCCL INFO New proxy send connection 17 from local rank 3, transport 2
+gdr114:335525:336245 [3] NCCL INFO Connected to proxy localRank 3 -> connection 0x70306c005738
+gdr114:335525:336245 [3] NCCL INFO Channel 03/0 : 3[3] -> 7[3] [send] via NET/IB/3
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 18 from local rank 0, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c0057b0
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 19 from local rank 0, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005828
+gdr114:335522:335990 [0] NCCL INFO New proxy recv connection 20 from local rank 0, transport 1
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c0058a0
+gdr114:335524:335992 [2] NCCL INFO New proxy send connection 21 from local rank 0, transport 0
+gdr114:335522:336247 [0] NCCL INFO Connected to proxy localRank 2 -> connection 0x74b0ac005918
+gdr114:335522:335990 [0] NCCL INFO New proxy send connection 21 from local rank 2, transport 0
+gdr114:335524:336248 [2] NCCL INFO Connected to proxy localRank 0 -> connection 0x7c130c005918
+[gdr114] tid:335991, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335993, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1344
+gdr114:335525:335991 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1514
+gdr114:335523:335993 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1345
+gdr114:335525:335991 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1515
+gdr114:335523:335993 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1346
+gdr114:335525:335991 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1516
+gdr114:335523:335993 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1347
+gdr114:335525:335991 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1517
+gdr114:335523:335993 [1] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335525:335991 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1344 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2f707 fifoLkey=0x2f707
+gdr114:335525:335991 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1345 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2f707 fifoLkey=0x2f707
+gdr114:335525:335991 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1346 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2f707 fifoLkey=0x2f707
+gdr114:335525:335991 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1347 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x2f707 fifoLkey=0x2f707
+[gdr114] tid:335991, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+gdr114:335523:335993 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1514 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3b52d fifoLkey=0x3b52d
+gdr114:335523:335993 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1515 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3b52d fifoLkey=0x3b52d
+gdr114:335523:335993 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1516 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3b52d fifoLkey=0x3b52d
+gdr114:335523:335993 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1517 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3b52d fifoLkey=0x3b52d
+[gdr114] tid:335993, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1348
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1518
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1349
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1519
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1350
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1520
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1351
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1521
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1352
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1522
+gdr114:335525:335991 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1388 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:335991 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1389 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:335991 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1390 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:335991 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1391 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:335993 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1478 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:335993 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1479 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:335993 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1480 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:335993 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1481 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+[gdr114] tid:335991, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1353
+[gdr114] tid:335993, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1354
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1523
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1355
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1524
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1356
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1525
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1526
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1357
+[gdr114] tid:335991, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1527
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1358
+gdr114:335525:335991 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1359
+gdr114:335525:335991 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1360
+gdr114:335525:335991 [3] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335993, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:335991, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1361
+gdr114:335525:335991 [3] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335525:335991 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1358 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x30548 fifoLkey=0x30548
+gdr114:335525:335991 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1359 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x30548 fifoLkey=0x30548
+gdr114:335525:335991 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1360 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x30548 fifoLkey=0x30548
+gdr114:335525:335991 [3] NCCL INFO NET/IB: NCCL Dev 3 IbDev 1 Port 1 qpn 1361 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A02A8C0FFFF0000) fifoRkey=0x30548 fifoLkey=0x30548
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1528
+gdr114:335523:335993 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1529
+gdr114:335523:335993 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1530
+gdr114:335523:335993 [1] NCCL INFO Call to ibv_query_ece not supported
+[gdr114] tid:335993, xtrdma_ucreate_qp(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/uqp.c:418, qpn:1531
+gdr114:335523:335993 [1] NCCL INFO Call to ibv_query_ece not supported
+gdr114:335523:335993 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1528 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3c3ed fifoLkey=0x3c3ed
+gdr114:335523:335993 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1529 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3c3ed fifoLkey=0x3c3ed
+gdr114:335523:335993 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1530 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3c3ed fifoLkey=0x3c3ed
+gdr114:335523:335993 [1] NCCL INFO NET/IB: NCCL Dev 2 IbDev 0 Port 1 qpn 1531 mtu 3 query_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0} GID 1 (0/A01A8C0FFFF0000) fifoRkey=0x3c3ed fifoLkey=0x3c3ed
+gdr114:335525:335991 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1397 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:335991 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1398 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:335991 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1399 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:335991 [3] NCCL INFO NET/IB: IbDev 1 Port 1 qpn 1400 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335525:336245 [3] NCCL INFO Connected all trees
+gdr114:335524:336248 [2] NCCL INFO Connected all trees
+gdr114:335523:335993 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1487 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:335993 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1488 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:335993 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1489 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:335993 [1] NCCL INFO NET/IB: IbDev 0 Port 1 qpn 1490 set_ece={supported=0, vendor_id=0x0, options=0x0, comp_mask=0x0}
+gdr114:335523:336246 [1] NCCL INFO Connected all trees
+gdr114:335522:336247 [0] NCCL INFO Connected all trees
+[2025-08-11 11:38:20,943] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 1/1148 [05:35<106:57:17, 335.69s/it][2025-08-11 11:41:57,821] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 2/1148 [09:12<84:36:48, 265.80s/it] [2025-08-11 11:45:35,170] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 3/1148 [12:49<77:30:09, 243.68s/it][2025-08-11 11:50:02,885] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 4/1148 [17:17<80:27:02, 253.17s/it][2025-08-11 11:52:57,614] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  0%|          | 5/1148 [20:12<71:23:59, 224.88s/it][2025-08-11 11:57:13,712] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 6/1148 [24:28<74:42:15, 235.50s/it][2025-08-11 12:00:27,079] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 7/1148 [27:41<70:16:25, 221.72s/it][2025-08-11 12:03:49,483] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 8/1148 [31:04<68:15:52, 215.57s/it][2025-08-11 12:07:55,376] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 9/1148 [35:10<71:12:13, 225.05s/it][2025-08-11 12:11:24,045] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 10/1148 [38:38<69:32:32, 219.99s/it][2025-08-11 12:15:00,293] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 11/1148 [42:15<69:07:09, 218.85s/it][2025-08-11 12:18:51,473] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 12/1148 [46:06<70:14:32, 222.60s/it][2025-08-11 12:23:04,755] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 13/1148 [50:19<73:06:39, 231.89s/it][2025-08-11 12:25:57,611] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|          | 14/1148 [53:12<67:25:45, 214.06s/it][2025-08-11 12:29:54,205] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|▏         | 15/1148 [57:08<69:30:27, 220.85s/it][2025-08-11 12:33:24,620] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|▏         | 16/1148 [1:00:39<68:27:29, 217.71s/it][2025-08-11 12:35:34,582] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  1%|▏         | 17/1148 [1:02:49<60:06:28, 191.33s/it][2025-08-11 12:39:17,881] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  2%|▏         | 18/1148 [1:06:32<63:04:14, 200.93s/it][2025-08-11 12:42:47,441] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  2%|▏         | 19/1148 [1:10:02<63:49:38, 203.52s/it][2025-08-11 12:46:30,244] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  2%|▏         | 20/1148 [1:13:44<65:35:04, 209.31s/it][2025-08-11 12:50:45,210] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  2%|▏         | 21/1148 [1:17:59<69:48:59, 223.02s/it][2025-08-11 12:55:05,473] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  2%|▏         | 22/1148 [1:22:20<73:15:03, 234.19s/it][2025-08-11 12:58:24,126] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  2%|▏         | 23/1148 [1:25:38<69:51:10, 223.53s/it][2025-08-11 13:01:32,309] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  2%|▏         | 24/1148 [1:28:47<66:28:45, 212.92s/it][2025-08-11 13:04:35,649] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  2%|▏         | 25/1148 [1:31:50<63:39:04, 204.05s/it][2025-08-11 13:08:36,148] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  2%|▏         | 26/1148 [1:35:50<67:00:11, 214.98s/it][2025-08-11 13:11:36,452] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  2%|▏         | 27/1148 [1:38:51<63:42:13, 204.58s/it][2025-08-11 13:15:01,490] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  2%|▏         | 28/1148 [1:42:16<63:41:22, 204.72s/it][2025-08-11 13:19:37,433] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 29/1148 [1:46:52<70:16:29, 226.09s/it][2025-08-11 13:23:23,355] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 30/1148 [1:50:38<70:11:48, 226.04s/it][2025-08-11 13:26:25,891] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 31/1148 [1:53:40<66:05:05, 212.99s/it][2025-08-11 13:29:45,253] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 32/1148 [1:57:00<64:45:31, 208.90s/it][2025-08-11 13:33:12,606] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 33/1148 [2:00:27<64:33:25, 208.44s/it][2025-08-11 13:37:45,068] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 34/1148 [2:04:59<70:26:34, 227.64s/it][2025-08-11 13:41:29,275] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 35/1148 [2:08:44<70:03:39, 226.61s/it][2025-08-11 13:45:24,878] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 36/1148 [2:12:39<70:49:52, 229.31s/it][2025-08-11 13:48:50,559] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 37/1148 [2:16:05<68:34:47, 222.22s/it][2025-08-11 13:52:14,234] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 38/1148 [2:19:28<66:48:09, 216.66s/it][2025-08-11 13:55:46,717] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 39/1148 [2:23:01<66:21:23, 215.40s/it][2025-08-11 13:59:20,508] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  3%|▎         | 40/1148 [2:26:35<66:08:52, 214.92s/it][2025-08-11 14:03:07,481] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  4%|▎         | 41/1148 [2:30:22<67:11:59, 218.54s/it][2025-08-11 14:06:00,448] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  4%|▎         | 42/1148 [2:33:15<62:56:21, 204.87s/it][2025-08-11 14:10:01,158] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  4%|▎         | 43/1148 [2:37:15<66:10:58, 215.62s/it][2025-08-11 14:13:25,466] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  4%|▍         | 44/1148 [2:40:40<65:04:56, 212.23s/it][2025-08-11 14:17:05,367] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  4%|▍         | 45/1148 [2:44:20<65:43:44, 214.53s/it][2025-08-11 14:20:02,636] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  4%|▍         | 46/1148 [2:47:17<62:14:52, 203.35s/it][2025-08-11 14:22:59,250] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  4%|▍         | 47/1148 [2:50:13<59:44:17, 195.33s/it][2025-08-11 14:26:30,333] [WARNING] [stage3.py:2164:step] 1 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  4%|▍         | 48/1148 [2:53:45<61:07:41, 200.06s/it][2025-08-11 14:29:15,916] [WARNING] [stage3.py:2164:step] 2 pytorch allocator cache flushes since last step. this happens when there is high memory pressure and is detrimental to performance. if this is happening frequently consider adjusting settings to reduce memory consumption. If you are unable to make the cache flushes go away consider adding get_accelerator().empty_cache() calls in your training loop to ensure that all ranks flush their caches at the same time
+  4%|▍         | 49/1148 [2:56:30<57:54:55, 189.71s/it]W0811 14:32:20.697000 335487 torch/distributed/elastic/agent/server/api.py:719] Received 2 death signal, shutting down workers
+W0811 14:32:20.700000 335487 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 335522 closing signal SIGINT
+W0811 14:32:20.702000 335487 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 335523 closing signal SIGINT
+W0811 14:32:20.703000 335487 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 335524 closing signal SIGINT
+W0811 14:32:20.704000 335487 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 335525 closing signal SIGINT
+W0811 14:32:32.816000 335487 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 335522 closing signal SIGTERM
+W0811 14:32:32.818000 335487 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 335523 closing signal SIGTERM
+W0811 14:32:32.823000 335487 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 335524 closing signal SIGTERM
+W0811 14:32:32.825000 335487 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 335525 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 870, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 335487 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 261, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 720, in run
+    self._shutdown(e.sigval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 335487 got signal: 2

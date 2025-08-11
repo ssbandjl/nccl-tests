@@ -38,8 +38,8 @@ export XT_CQ_INLINE_CQE=0
 export XT_CQ_INLINE_CQE=0
 
 ALGO_LIST="all_reduce_perf"
-ALGO_LIST="all_gather_perf all_reduce_perf alltoall_perf broadcast_perf gather_perf hypercube_perf reduce_perf reduce_scatter_perf scatter_perf sendrecv_perf"
 ALGO_LIST="all_reduce_perf"
+ALGO_LIST="all_gather_perf all_reduce_perf alltoall_perf broadcast_perf gather_perf hypercube_perf reduce_perf reduce_scatter_perf scatter_perf sendrecv_perf"
 mkdir -p log/13p/2dpu/
 for algo in ${ALGO_LIST};do
   log_file=log/13p/2dpu/nccl_tests_${algo}_13p_u24_k61x_2dpu_$(date +'%Y_%m_%d_%H_%M_%S')_log
@@ -64,7 +64,6 @@ for algo in ${ALGO_LIST};do
     -x NCCL_IB_QPS_PER_CONNECTION=4 \
     -x NCCL_GDR_FLUSH_DISABLE=1 \
     -x NCCL_MAX_NCHANNELS=4 \
-    -x NCCL_IB_TIMEOUT=22 \
     -x LD_LIBRARY_PATH=/root/project/rdma/dpu_user_rdma/build/lib:/root/project/ai/nccl-tests/nccl/build/lib \
     -x HUGE_PAGE_NUM=20 \
     -x XT_CQ_INLINE_CQE=0 \
