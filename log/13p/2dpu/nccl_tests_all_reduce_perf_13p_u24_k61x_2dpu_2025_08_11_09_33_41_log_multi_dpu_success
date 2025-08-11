@@ -1,0 +1,1912 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114:324365] MCW rank 7 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr114:324365] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr114:324365] MCW rank 3 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr114:324365] MCW rank 6 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr116:206727] MCW rank 2 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr116:206728] MCW rank 1 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr116:206728] MCW rank 4 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr116:206727] MCW rank 5 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../../../../../../../..][../../../../../../../../../../../../../..]
+[gdr114] tid:324404, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:206732, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr116] tid:206731, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr114] tid:324405, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr116] tid:206734, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr116] tid:206733, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.0, CUDA Driver Version: 12.9
+[gdr114] tid:324406, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+[gdr114] tid:324409, main(), common.cu:701, NCCL version: 22606, CUDA Runtime Version: 12.9, CUDA Driver Version: 12.9
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114:324404] mca: base: components_register: registering framework btl components
+[gdr114:324404] mca: base: components_register: found loaded component tcp
+[gdr114:324404] mca: base: components_register: component tcp register function successful
+[gdr114:324404] mca: base: components_register: found loaded component openib
+[gdr114:324404] mca: base: components_register: component openib register function successful
+[gdr114:324404] mca: base: components_register: found loaded component self
+[gdr114:324404] mca: base: components_register: component self register function successful
+[gdr114:324404] mca: base: components_register: found loaded component sm
+[gdr114:324404] mca: base: components_open: opening btl components
+[gdr114:324404] mca: base: components_open: found loaded component tcp
+[gdr114:324404] mca: base: components_open: component tcp open function successful
+[gdr114:324404] mca: base: components_open: found loaded component openib
+[gdr114:324404] mca: base: components_open: component openib open function successful
+[gdr114:324404] mca: base: components_open: found loaded component self
+[gdr114:324404] mca: base: components_open: component self open function successful
+[gdr114:324404] select: initializing btl component tcp
+[gdr114:324404] btl: tcp: Searching for include address+prefix: 192.168.1.0 / 24
+[gdr114:324404] btl: tcp: Found match: 192.168.1.10 (enp8s0f0)
+[gdr114:324404] btl: tcp: Searching for include address+prefix: 192.168.2.0 / 24
+[gdr114:324404] btl: tcp: Found match: 192.168.2.10 (enp137s0f0)
+[gdr114:324404] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr114:324404] btl:tcp: Successfully bound to AF_INET port 1024
+[gdr114:324404] btl:tcp: my listening v4 socket is 0.0.0.0:1024
+[gdr114:324404] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr114:324404] btl:tcp: Successfully bound to AF_INET6 port 1024
+[gdr114:324404] btl:tcp: my listening v6 socket port is 1024
+[gdr114:324404] btl:tcp: examining interface enp8s0f0
+[gdr114:324404] btl:tcp: using ipv6 interface enp8s0f0
+[gdr114:324404] btl:tcp: examining interface enp137s0f0
+[gdr114:324404] btl:tcp: using ipv6 interface enp137s0f0
+[gdr114:324404] select: init of component tcp returned success
+[gdr114:324404] select: initializing btl component openib
+[gdr114:324404] Checking distance from this process to device=xtrdma_0
+[gdr114:324409] mca: base: components_register: registering framework btl components
+[gdr114:324409] mca: base: components_register: found loaded component tcp
+[gdr114:324409] mca: base: components_register: component tcp register function successful
+[gdr114:324409] mca: base: components_register: found loaded component openib
+[gdr114:324409] mca: base: components_register: component openib register function successful
+[gdr114:324409] mca: base: components_register: found loaded component self
+[gdr114:324409] mca: base: components_register: component self register function successful
+[gdr114:324409] mca: base: components_register: found loaded component sm
+[gdr114:324409] mca: base: components_open: opening btl components
+[gdr114:324409] mca: base: components_open: found loaded component tcp
+[gdr114:324409] mca: base: components_open: component tcp open function successful
+[gdr114:324409] mca: base: components_open: found loaded component openib
+[gdr114:324409] mca: base: components_open: component openib open function successful
+[gdr114:324409] mca: base: components_open: found loaded component self
+[gdr114:324409] mca: base: components_open: component self open function successful
+[gdr114:324409] select: initializing btl component tcp
+[gdr114:324409] btl: tcp: Searching for include address+prefix: 192.168.1.0 / 24
+[gdr114:324409] btl: tcp: Found match: 192.168.1.10 (enp8s0f0)
+[gdr114:324409] btl: tcp: Searching for include address+prefix: 192.168.2.0 / 24
+[gdr114:324409] btl: tcp: Found match: 192.168.2.10 (enp137s0f0)
+[gdr114:324409] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr114:324409] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr114:324409] btl:tcp: Successfully bound to AF_INET port 1025
+[gdr114:324409] btl:tcp: my listening v4 socket is 0.0.0.0:1025
+[gdr114:324409] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr114:324409] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr114:324409] btl:tcp: Successfully bound to AF_INET6 port 1025
+[gdr114:324409] btl:tcp: my listening v6 socket port is 1025
+[gdr114:324409] btl:tcp: examining interface enp8s0f0
+[gdr114:324409] btl:tcp: using ipv6 interface enp8s0f0
+[gdr114:324409] btl:tcp: examining interface enp137s0f0
+[gdr114:324409] btl:tcp: using ipv6 interface enp137s0f0
+[gdr114:324409] select: init of component tcp returned success
+[gdr114:324409] select: initializing btl component openib
+[gdr116:206732] mca: base: components_register: registering framework btl components
+[gdr116:206732] mca: base: components_register: found loaded component sm
+[gdr116:206732] mca: base: components_register: found loaded component self
+[gdr116:206731] mca: base: components_register: registering framework btl components
+[gdr116:206731] mca: base: components_register: found loaded component sm
+[gdr116:206731] mca: base: components_register: found loaded component self
+[gdr116:206732] mca: base: components_register: component self register function successful
+[gdr116:206731] mca: base: components_register: component self register function successful
+[gdr116:206732] mca: base: components_register: found loaded component tcp
+[gdr116:206731] mca: base: components_register: found loaded component tcp
+[gdr116:206732] mca: base: components_register: component tcp register function successful
+[gdr116:206731] mca: base: components_register: component tcp register function successful
+[gdr116:206731] mca: base: components_register: found loaded component openib
+[gdr116:206732] mca: base: components_register: found loaded component openib
+[gdr114:324405] mca: base: components_register: registering framework btl components
+[gdr114:324405] mca: base: components_register: found loaded component tcp
+[gdr116:206731] mca: base: components_register: component openib register function successful
+[gdr116:206731] mca: base: components_open: opening btl components
+[gdr116:206731] mca: base: components_open: found loaded component self
+[gdr116:206731] mca: base: components_open: component self open function successful
+[gdr116:206731] mca: base: components_open: found loaded component tcp
+[gdr116:206732] mca: base: components_register: component openib register function successful
+[gdr116:206732] mca: base: components_open: opening btl components
+[gdr116:206732] mca: base: components_open: found loaded component self
+[gdr116:206732] mca: base: components_open: component self open function successful
+[gdr116:206732] mca: base: components_open: found loaded component tcp
+[gdr116:206732] mca: base: components_open: component tcp open function successful
+[gdr116:206732] mca: base: components_open: found loaded component openib
+[gdr116:206732] mca: base: components_open: component openib open function successful
+[gdr116:206732] select: initializing btl component self
+[gdr116:206732] select: init of component self returned success
+[gdr116:206732] select: initializing btl component tcp
+[gdr116:206732] btl: tcp: Searching for include address+prefix: 192.168.1.0 / 24
+[gdr116:206732] btl: tcp: Found match: 192.168.1.11 (enp8s0f0)
+[gdr116:206732] btl: tcp: Searching for include address+prefix: 192.168.2.0 / 24
+[gdr116:206731] mca: base: components_open: component tcp open function successful
+[gdr116:206731] mca: base: components_open: found loaded component openib
+[gdr116:206731] mca: base: components_open: component openib open function successful
+[gdr116:206731] select: initializing btl component self
+[gdr116:206731] select: init of component self returned success
+[gdr116:206731] select: initializing btl component tcp
+[gdr114:324405] mca: base: components_register: component tcp register function successful
+[gdr114:324405] mca: base: components_register: found loaded component openib
+[gdr116:206732] btl: tcp: Found match: 192.168.2.11 (enp137s0f0)
+[gdr116:206731] btl: tcp: Searching for include address+prefix: 192.168.1.0 / 24
+[gdr116:206731] btl: tcp: Found match: 192.168.1.11 (enp8s0f0)
+[gdr116:206731] btl: tcp: Searching for include address+prefix: 192.168.2.0 / 24
+[gdr116:206731] btl: tcp: Found match: 192.168.2.11 (enp137s0f0)
+[gdr116:206732] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr116:206732] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr116:206732] btl:tcp: Successfully bound to AF_INET port 1025
+[gdr116:206732] btl:tcp: my listening v4 socket is 0.0.0.0:1025
+[gdr116:206732] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr116:206731] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr116:206731] btl:tcp: Successfully bound to AF_INET port 1024
+[gdr116:206732] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr116:206732] btl:tcp: Successfully bound to AF_INET6 port 1025
+[gdr116:206732] btl:tcp: my listening v6 socket port is 1025
+[gdr116:206731] btl:tcp: my listening v4 socket is 0.0.0.0:1024
+[gdr116:206732] btl:tcp: examining interface enp8s0f0
+[gdr116:206732] btl:tcp: using ipv6 interface enp8s0f0
+[gdr116:206732] btl:tcp: examining interface enp137s0f0
+[gdr116:206732] btl:tcp: using ipv6 interface enp137s0f0
+[gdr116:206731] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr116:206731] btl:tcp: Successfully bound to AF_INET6 port 1024
+[gdr116:206732] select: init of component tcp returned success
+[gdr116:206732] select: initializing btl component openib
+[gdr116:206731] btl:tcp: my listening v6 socket port is 1024
+[gdr116:206731] btl:tcp: examining interface enp8s0f0
+[gdr116:206731] btl:tcp: using ipv6 interface enp8s0f0
+[gdr116:206731] btl:tcp: examining interface enp137s0f0
+[gdr116:206731] btl:tcp: using ipv6 interface enp137s0f0
+[gdr114:324405] mca: base: components_register: component openib register function successful
+[gdr114:324405] mca: base: components_register: found loaded component self
+[gdr116:206731] select: init of component tcp returned success
+[gdr116:206731] select: initializing btl component openib
+[gdr114:324405] mca: base: components_register: component self register function successful
+[gdr114:324405] mca: base: components_register: found loaded component sm
+[gdr114:324405] mca: base: components_open: opening btl components
+[gdr114:324405] mca: base: components_open: found loaded component tcp
+[gdr114:324405] mca: base: components_open: component tcp open function successful
+[gdr114:324405] mca: base: components_open: found loaded component openib
+[gdr114:324405] mca: base: components_open: component openib open function successful
+[gdr114:324405] mca: base: components_open: found loaded component self
+[gdr114:324405] mca: base: components_open: component self open function successful
+[gdr114:324405] select: initializing btl component tcp
+[gdr114:324405] btl: tcp: Searching for include address+prefix: 192.168.1.0 / 24
+[gdr114:324405] btl: tcp: Found match: 192.168.1.10 (enp8s0f0)
+[gdr114:324405] btl: tcp: Searching for include address+prefix: 192.168.2.0 / 24
+[gdr114:324405] btl: tcp: Found match: 192.168.2.10 (enp137s0f0)
+[gdr114:324405] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr114:324405] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr114:324405] btl:tcp: Attempting to bind to AF_INET port 1026
+[gdr114:324405] btl:tcp: Successfully bound to AF_INET port 1026
+[gdr114:324405] btl:tcp: my listening v4 socket is 0.0.0.0:1026
+[gdr114:324405] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr114:324405] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr114:324405] btl:tcp: Attempting to bind to AF_INET6 port 1026
+[gdr114:324405] btl:tcp: Successfully bound to AF_INET6 port 1026
+[gdr114:324405] btl:tcp: my listening v6 socket port is 1026
+[gdr114:324405] btl:tcp: examining interface enp8s0f0
+[gdr114:324405] btl:tcp: using ipv6 interface enp8s0f0
+[gdr114:324405] btl:tcp: examining interface enp137s0f0
+[gdr114:324405] btl:tcp: using ipv6 interface enp137s0f0
+[gdr114:324405] select: init of component tcp returned success
+[gdr114:324405] select: initializing btl component openib
+[gdr114:324409] Checking distance from this process to device=xtrdma_0
+[gdr114:324406] mca: base: components_register: registering framework btl components
+[gdr114:324406] mca: base: components_register: found loaded component tcp
+[gdr114:324406] mca: base: components_register: component tcp register function successful
+[gdr114:324406] mca: base: components_register: found loaded component openib
+[gdr114:324406] mca: base: components_register: component openib register function successful
+[gdr114:324406] mca: base: components_register: found loaded component self
+[gdr114:324406] mca: base: components_register: component self register function successful
+[gdr114:324406] mca: base: components_register: found loaded component sm
+[gdr114:324406] mca: base: components_open: opening btl components
+[gdr114:324406] mca: base: components_open: found loaded component tcp
+[gdr114:324406] mca: base: components_open: component tcp open function successful
+[gdr114:324406] mca: base: components_open: found loaded component openib
+[gdr114:324406] mca: base: components_open: component openib open function successful
+[gdr114:324406] mca: base: components_open: found loaded component self
+[gdr114:324406] mca: base: components_open: component self open function successful
+[gdr114:324406] select: initializing btl component tcp
+[gdr114:324406] btl: tcp: Searching for include address+prefix: 192.168.1.0 / 24
+[gdr114:324406] btl: tcp: Found match: 192.168.1.10 (enp8s0f0)
+[gdr114:324406] btl: tcp: Searching for include address+prefix: 192.168.2.0 / 24
+[gdr114:324406] btl: tcp: Found match: 192.168.2.10 (enp137s0f0)
+[gdr114:324406] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr114:324406] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr114:324406] btl:tcp: Attempting to bind to AF_INET port 1026
+[gdr114:324406] btl:tcp: Attempting to bind to AF_INET port 1027
+[gdr114:324406] btl:tcp: Successfully bound to AF_INET port 1027
+[gdr114:324406] btl:tcp: my listening v4 socket is 0.0.0.0:1027
+[gdr114:324406] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr114:324406] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr114:324406] btl:tcp: Attempting to bind to AF_INET6 port 1026
+[gdr114:324406] btl:tcp: Attempting to bind to AF_INET6 port 1027
+[gdr114:324406] btl:tcp: Successfully bound to AF_INET6 port 1027
+[gdr114:324406] btl:tcp: my listening v6 socket port is 1027
+[gdr114:324406] btl:tcp: examining interface enp8s0f0
+[gdr114:324406] btl:tcp: using ipv6 interface enp8s0f0
+[gdr114:324406] btl:tcp: examining interface enp137s0f0
+[gdr114:324406] btl:tcp: using ipv6 interface enp137s0f0
+[gdr114:324406] select: init of component tcp returned success
+[gdr114:324406] select: initializing btl component openib
+[gdr114:324405] Checking distance from this process to device=xtrdma_0
+[gdr116:206731] Checking distance from this process to device=xtrdma_0
+[gdr116:206732] Checking distance from this process to device=xtrdma_0
+[gdr114:324406] Checking distance from this process to device=xtrdma_0
+[gdr116:206734] mca: base: components_register: registering framework btl components
+[gdr116:206734] mca: base: components_register: found loaded component sm
+[gdr116:206734] mca: base: components_register: found loaded component self
+[gdr116:206734] mca: base: components_register: component self register function successful
+[gdr116:206734] mca: base: components_register: found loaded component tcp
+[gdr116:206734] mca: base: components_register: component tcp register function successful
+[gdr116:206734] mca: base: components_register: found loaded component openib
+[gdr116:206733] mca: base: components_register: registering framework btl components
+[gdr116:206733] mca: base: components_register: found loaded component sm
+[gdr116:206733] mca: base: components_register: found loaded component self
+[gdr116:206733] mca: base: components_register: component self register function successful
+[gdr116:206733] mca: base: components_register: found loaded component tcp
+[gdr116:206733] mca: base: components_register: component tcp register function successful
+[gdr116:206733] mca: base: components_register: found loaded component openib
+[gdr116:206734] mca: base: components_register: component openib register function successful
+[gdr116:206734] mca: base: components_open: opening btl components
+[gdr116:206734] mca: base: components_open: found loaded component self
+[gdr116:206734] mca: base: components_open: component self open function successful
+[gdr116:206734] mca: base: components_open: found loaded component tcp
+[gdr116:206734] mca: base: components_open: component tcp open function successful
+[gdr116:206734] mca: base: components_open: found loaded component openib
+[gdr116:206734] mca: base: components_open: component openib open function successful
+[gdr116:206734] select: initializing btl component self
+[gdr116:206734] select: init of component self returned success
+[gdr116:206734] select: initializing btl component tcp
+[gdr116:206734] btl: tcp: Searching for include address+prefix: 192.168.1.0 / 24
+[gdr116:206734] btl: tcp: Found match: 192.168.1.11 (enp8s0f0)
+[gdr116:206734] btl: tcp: Searching for include address+prefix: 192.168.2.0 / 24
+[gdr116:206734] btl: tcp: Found match: 192.168.2.11 (enp137s0f0)
+[gdr116:206734] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr116:206734] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr116:206734] btl:tcp: Attempting to bind to AF_INET port 1026
+[gdr116:206734] btl:tcp: Successfully bound to AF_INET port 1026
+[gdr116:206734] btl:tcp: my listening v4 socket is 0.0.0.0:1026
+[gdr116:206734] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr116:206734] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr116:206734] btl:tcp: Attempting to bind to AF_INET6 port 1026
+[gdr116:206734] btl:tcp: Successfully bound to AF_INET6 port 1026
+[gdr116:206734] btl:tcp: my listening v6 socket port is 1026
+[gdr116:206734] btl:tcp: examining interface enp8s0f0
+[gdr116:206734] btl:tcp: using ipv6 interface enp8s0f0
+[gdr116:206734] btl:tcp: examining interface enp137s0f0
+[gdr116:206734] btl:tcp: using ipv6 interface enp137s0f0
+[gdr116:206734] select: init of component tcp returned success
+[gdr116:206734] select: initializing btl component openib
+[gdr116:206733] mca: base: components_register: component openib register function successful
+[gdr116:206733] mca: base: components_open: opening btl components
+[gdr116:206733] mca: base: components_open: found loaded component self
+[gdr116:206733] mca: base: components_open: component self open function successful
+[gdr116:206733] mca: base: components_open: found loaded component tcp
+[gdr116:206733] mca: base: components_open: component tcp open function successful
+[gdr116:206733] mca: base: components_open: found loaded component openib
+[gdr116:206733] mca: base: components_open: component openib open function successful
+[gdr116:206733] select: initializing btl component self
+[gdr116:206733] select: init of component self returned success
+[gdr116:206733] select: initializing btl component tcp
+[gdr116:206733] btl: tcp: Searching for include address+prefix: 192.168.1.0 / 24
+[gdr116:206733] btl: tcp: Found match: 192.168.1.11 (enp8s0f0)
+[gdr116:206733] btl: tcp: Searching for include address+prefix: 192.168.2.0 / 24
+[gdr116:206733] btl: tcp: Found match: 192.168.2.11 (enp137s0f0)
+[gdr116:206733] btl:tcp: Attempting to bind to AF_INET port 1024
+[gdr116:206733] btl:tcp: Attempting to bind to AF_INET port 1025
+[gdr116:206733] btl:tcp: Attempting to bind to AF_INET port 1026
+[gdr116:206733] btl:tcp: Attempting to bind to AF_INET port 1027
+[gdr116:206733] btl:tcp: Successfully bound to AF_INET port 1027
+[gdr116:206733] btl:tcp: my listening v4 socket is 0.0.0.0:1027
+[gdr116:206733] btl:tcp: Attempting to bind to AF_INET6 port 1024
+[gdr116:206733] btl:tcp: Attempting to bind to AF_INET6 port 1025
+[gdr116:206733] btl:tcp: Attempting to bind to AF_INET6 port 1026
+[gdr116:206733] btl:tcp: Attempting to bind to AF_INET6 port 1027
+[gdr116:206733] btl:tcp: Successfully bound to AF_INET6 port 1027
+[gdr116:206733] btl:tcp: my listening v6 socket port is 1027
+[gdr116:206733] btl:tcp: examining interface enp8s0f0
+[gdr116:206733] btl:tcp: using ipv6 interface enp8s0f0
+[gdr116:206733] btl:tcp: examining interface enp137s0f0
+[gdr116:206733] btl:tcp: using ipv6 interface enp137s0f0
+[gdr116:206733] select: init of component tcp returned success
+[gdr116:206733] select: initializing btl component openib
+[gdr116:206734] Checking distance from this process to device=xtrdma_0
+[gdr116:206733] Checking distance from this process to device=xtrdma_0
+Authorization required, but no authorization protocol specified
+
+[gdr114:324404] hwloc_distances->nbobjs=2
+[gdr114:324404] hwloc_distances->values[0]=10
+[gdr114:324404] hwloc_distances->values[1]=21
+[gdr114:324404] Process is bound: distance to device is 0.000000
+[gdr114:324404] Checking distance from this process to device=xtrdma_1
+[gdr114:324404] hwloc_distances->nbobjs=2
+[gdr114:324404] hwloc_distances->values[0]=10
+[gdr114:324404] hwloc_distances->values[1]=21
+[gdr114:324404] Process is bound: distance to device is 0.000000
+[gdr114] tid:324404, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323828 not exists, now remove huge file:/dev/hugepages/huge_file_323828_1754875871_0x71aa0b8c4310_401931859
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323828 not exists, now remove huge file:/dev/hugepages/huge_file_323828_1754875871_0x71aa0b89cfb0_1725754173
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323829 not exists, now remove huge file:/dev/hugepages/huge_file_323829_1754875871_0x7bed078c4310_1999247149
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323832 not exists, now remove huge file:/dev/hugepages/huge_file_323832_1754875871_0x7d97f38c4310_261213242
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323827 not exists, now remove huge file:/dev/hugepages/huge_file_323827_1754875871_0x7df16b8c4310_888450147
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323829 not exists, now remove huge file:/dev/hugepages/huge_file_323829_1754875871_0x7bed0789cfb0_1118547830
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323832 not exists, now remove huge file:/dev/hugepages/huge_file_323832_1754875871_0x7d97f389cfb0_1379486623
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323827 not exists, now remove huge file:/dev/hugepages/huge_file_323827_1754875871_0x7df16b89cfb0_2067009285
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323829 not exists, now remove huge file:/dev/hugepages/huge_file_323829_1754875870_0x57ff064812c0_1158172997
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323832 not exists, now remove huge file:/dev/hugepages/huge_file_323832_1754875870_0x5f2e27aa0780_473404853
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323828 not exists, now remove huge file:/dev/hugepages/huge_file_323828_1754875870_0x605923989ff0_801136464
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323827 not exists, now remove huge file:/dev/hugepages/huge_file_323827_1754875870_0x642cb64564f0_2131525931
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323829 not exists, now remove huge file:/dev/hugepages/huge_file_323829_1754875870_0x57ff0646b740_1236563320
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323832 not exists, now remove huge file:/dev/hugepages/huge_file_323832_1754875870_0x5f2e27a8ac00_211239157
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323828 not exists, now remove huge file:/dev/hugepages/huge_file_323828_1754875870_0x605923974700_571480656
+[gdr114] tid:324404, huge_clear_no_use_file(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:100, pid:323827 not exists, now remove huge file:/dev/hugepages/huge_file_323827_1754875869_0x642cb6440970_1040228129
+[gdr114] tid:324404, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324404_1754876022_0x64c4ab55b970_1945599828
+[gdr114] tid:324404, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2, actrue_cqe:1023
+Authorization required, but no authorization protocol specified
+
+[gdr114:324409] hwloc_distances->nbobjs=2
+[gdr114:324409] hwloc_distances->values[0]=10
+[gdr114:324409] hwloc_distances->values[1]=21
+[gdr114:324409] Process is bound: distance to device is 0.000000
+[gdr114:324409] Checking distance from this process to device=xtrdma_1
+[gdr114:324409] hwloc_distances->nbobjs=2
+[gdr114:324409] hwloc_distances->values[0]=10
+[gdr114:324409] hwloc_distances->values[1]=21
+[gdr114:324409] Process is bound: distance to device is 0.000000
+[gdr114] tid:324409, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:324409, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324409_1754876022_0x62ed2c893740_1348041707
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr114:324405] hwloc_distances->nbobjs=2
+[gdr114:324405] hwloc_distances->values[0]=10
+[gdr114:324405] hwloc_distances->values[1]=21
+[gdr114:324405] Process is bound: distance to device is 0.000000
+[gdr114:324405] Checking distance from this process to device=xtrdma_1
+[gdr114:324405] hwloc_distances->nbobjs=2
+[gdr114:324405] hwloc_distances->values[0]=10
+[gdr114:324405] hwloc_distances->values[1]=21
+[gdr114:324405] Process is bound: distance to device is 0.000000
+[gdr114] tid:324405, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:324405, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324405_1754876022_0x6100183ada10_889222284
+[gdr114:324406] hwloc_distances->nbobjs=2
+[gdr114:324406] hwloc_distances->values[0]=10
+[gdr114:324406] hwloc_distances->values[1]=21
+[gdr114:324406] Process is bound: distance to device is 0.000000
+[gdr114:324406] Checking distance from this process to device=xtrdma_1
+[gdr114:324406] hwloc_distances->nbobjs=2
+[gdr114:324406] hwloc_distances->values[0]=10
+[gdr114:324406] hwloc_distances->values[1]=21
+[gdr114:324406] Process is bound: distance to device is 0.000000
+[gdr114] tid:324406, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:324406, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324406_1754876022_0x642025fe29a0_1856274706
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr116:206732] hwloc_distances->nbobjs=2
+[gdr116:206732] hwloc_distances->values[0]=10
+[gdr116:206732] hwloc_distances->values[1]=21
+[gdr116:206732] Process is bound: distance to device is 0.000000
+[gdr116:206732] Checking distance from this process to device=xtrdma_1
+[gdr116:206732] hwloc_distances->nbobjs=2
+[gdr116:206732] hwloc_distances->values[0]=10
+[gdr116:206732] hwloc_distances->values[1]=21
+[gdr116:206732] Process is bound: distance to device is 0.000000
+[gdr116:206731] hwloc_distances->nbobjs=2
+[gdr116:206731] hwloc_distances->values[0]=10
+[gdr116:206731] hwloc_distances->values[1]=21
+[gdr116:206731] Process is bound: distance to device is 0.000000
+[gdr116:206731] Checking distance from this process to device=xtrdma_1
+[gdr116:206731] hwloc_distances->nbobjs=2
+[gdr116:206731] hwloc_distances->values[0]=10
+[gdr116:206731] hwloc_distances->values[1]=21
+[gdr116:206731] Process is bound: distance to device is 0.000000
+[gdr114] tid:324409, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2, actrue_cqe:1023
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+[gdr116:206734] hwloc_distances->nbobjs=2
+[gdr116:206734] hwloc_distances->values[0]=10
+[gdr116:206734] hwloc_distances->values[1]=21
+[gdr116:206734] Process is bound: distance to device is 0.000000
+[gdr116:206734] Checking distance from this process to device=xtrdma_1
+[gdr116:206734] hwloc_distances->nbobjs=2
+[gdr116:206734] hwloc_distances->values[0]=10
+[gdr116:206734] hwloc_distances->values[1]=21
+[gdr116:206734] Process is bound: distance to device is 0.000000
+[gdr116:206733] hwloc_distances->nbobjs=2
+[gdr116:206733] hwloc_distances->values[0]=10
+[gdr116:206733] hwloc_distances->values[1]=21
+[gdr116:206733] Process is bound: distance to device is 0.000000
+[gdr116:206733] Checking distance from this process to device=xtrdma_1
+[gdr116:206733] hwloc_distances->nbobjs=2
+[gdr116:206733] hwloc_distances->values[0]=10
+[gdr116:206733] hwloc_distances->values[1]=21
+[gdr116:206733] Process is bound: distance to device is 0.000000
+[gdr114] tid:324405, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:324406, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2, actrue_cqe:1023
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            gdr114
+  Device name:           xtrdma_0
+  Device vendor ID:      0x10ee
+  Device vendor part ID: 36920
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+[gdr114] tid:324404, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:324404, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324404_1754876022_0x64c4ab581370_356615410
+[gdr114] tid:324405, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:324409, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:324409, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324409_1754876022_0x62ed2c8a92c0_1903145912
+[gdr114] tid:324405, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324405_1754876022_0x6100183d3410_1884614770
+[gdr114] tid:324404, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:324405, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2, actrue_cqe:1023
+[gdr114] tid:324409, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2, actrue_cqe:1023
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           gdr114
+  Local device:         xtrdma_0
+  Local port:           1
+  CPCs attempted:       udcm
+--------------------------------------------------------------------------
+[gdr114:324409] select: init of component openib returned failure
+[gdr114:324409] mca: base: close: component openib closed
+[gdr114:324409] mca: base: close: unloading component openib
+[gdr114:324404] select: init of component openib returned failure
+[gdr114:324404] mca: base: close: component openib closed
+[gdr114:324404] mca: base: close: unloading component openib
+[gdr114:324409] select: initializing btl component self
+[gdr114:324409] select: init of component self returned success
+[gdr114:324404] select: initializing btl component self
+[gdr114:324404] select: init of component self returned success
+[gdr114] tid:324406, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:324406, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324406_1754876022_0x6420260084c0_1704608900
+[gdr114:324405] select: init of component openib returned failure
+[gdr114:324405] mca: base: close: component openib closed
+[gdr114:324405] mca: base: close: unloading component openib
+[gdr114:324405] select: initializing btl component self
+[gdr114:324405] select: init of component self returned success
+[gdr114] tid:324406, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2, actrue_cqe:1023
+[gdr116:206734] select: init of component openib returned failure
+[gdr116:206734] mca: base: close: component openib closed
+[gdr116:206734] mca: base: close: unloading component openib
+[gdr116:206732] select: init of component openib returned failure
+[gdr116:206732] mca: base: close: component openib closed
+[gdr116:206732] mca: base: close: unloading component openib
+[gdr116:206731] select: init of component openib returned failure
+[gdr116:206731] mca: base: close: component openib closed
+[gdr116:206731] mca: base: close: unloading component openib
+[gdr116:206733] select: init of component openib returned failure
+[gdr116:206733] mca: base: close: component openib closed
+[gdr116:206733] mca: base: close: unloading component openib
+[gdr114:324406] select: init of component openib returned failure
+[gdr114:324406] mca: base: close: component openib closed
+[gdr114:324406] mca: base: close: unloading component openib
+[gdr114:324406] select: initializing btl component self
+[gdr114:324406] select: init of component self returned success
+[gdr116:206731] mca: bml: Using self btl for send to [[42892,1],1] on node gdr116
+[gdr114:324405] mca: bml: Using self btl for send to [[42892,1],3] on node gdr114
+[gdr114:324404] mca: bml: Using self btl for send to [[42892,1],0] on node gdr114
+[gdr116:206733] mca: bml: Using self btl for send to [[42892,1],4] on node gdr116
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],3] on node (null)
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],6] on node (null)
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],7] on node (null)
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] mca: bml: Using tcp btl for send to [[42892,1],1] on node (null)
+[gdr114:324409] mca: bml: Using self btl for send to [[42892,1],7] on node gdr114
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr114:324405] mca: bml: Using tcp btl for send to [[42892,1],6] on node (null)
+[gdr114:324405] mca: bml: Using tcp btl for send to [[42892,1],7] on node (null)
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] mca: bml: Using self btl for send to [[42892,1],5] on node gdr116
+[gdr116:206731] mca: bml: Using tcp btl for send to [[42892,1],4] on node (null)
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr114:324405] mca: bml: Using tcp btl for send to [[42892,1],6] on node (null)
+[gdr114:324405] mca: bml: Using tcp btl for send to [[42892,1],7] on node (null)
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],3] on node (null)
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],6] on node (null)
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],7] on node (null)
+[gdr116:206732] mca: bml: Using self btl for send to [[42892,1],2] on node gdr116
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] mca: bml: Using tcp btl for send to [[42892,1],5] on node (null)
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] mca: bml: Using tcp btl for send to [[42892,1],1] on node (null)
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] mca: bml: Using tcp btl for send to [[42892,1],2] on node (null)
+[gdr116:206731] mca: bml: Using tcp btl for send to [[42892,1],4] on node (null)
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] mca: bml: Using tcp btl for send to [[42892,1],5] on node (null)
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr114:324409] mca: bml: Using tcp btl for send to [[42892,1],3] on node (null)
+[gdr114:324409] mca: bml: Using tcp btl for send to [[42892,1],6] on node (null)
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] mca: bml: Using tcp btl for send to [[42892,1],2] on node (null)
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr114:324409] mca: bml: Using tcp btl for send to [[42892,1],3] on node (null)
+[gdr114:324409] mca: bml: Using tcp btl for send to [[42892,1],6] on node (null)
+[gdr114:324406] mca: bml: Using self btl for send to [[42892,1],6] on node gdr114
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr114:324406] mca: bml: Using tcp btl for send to [[42892,1],3] on node (null)
+[gdr114:324406] mca: bml: Using tcp btl for send to [[42892,1],7] on node (null)
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr114:324406] mca: bml: Using tcp btl for send to [[42892,1],3] on node (null)
+[gdr114:324406] mca: bml: Using tcp btl for send to [[42892,1],7] on node (null)
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] mca: bml: Using tcp btl for send to [[42892,1],2] on node (null)
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] mca: bml: Using tcp btl for send to [[42892,1],2] on node (null)
+[gdr114:324409] btl: tcp: attempting to connect() to [[42892,1],6] address 192.168.2.10 on port 1027
+[gdr114:324405] btl: tcp: attempting to connect() to [[42892,1],2] address 192.168.2.11 on port 1025
+[gdr114:324405] btl:tcp: would block, so allowing background progress
+[gdr114:324409] btl:tcp: would block, so allowing background progress
+[gdr114:324409] btl:tcp: connect() to 192.168.2.10:1027 completed (complete_connect), sending connect ACK
+[gdr114:324406] btl: tcp: attempting to connect() to [[42892,1],7] address 192.168.2.10 on port 1025
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],1] on node (null)
+[gdr114:324406] btl:tcp: would block, so allowing background progress
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: connect() to 192.168.2.10:1025 completed (complete_connect), sending connect ACK
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],1] on node (null)
+[gdr114:324409] btl: tcp: Match incoming connection from [[42892,1],6] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 0/2)!
+[gdr114:324404] btl: tcp: attempting to connect() to [[42892,1],1] address 192.168.2.11 on port 1024
+[gdr114:324409] btl:tcp: now connected to 192.168.2.10, process [[42892,1],6]
+[gdr114:324404] btl:tcp: would block, so allowing background progress
+[gdr114:324406] btl: tcp: Match incoming connection from [[42892,1],7] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 0/2)!
+[gdr114:324406] btl:tcp: now connected to 192.168.2.10, process [[42892,1],7]
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] mca: bml: Using tcp btl for send to [[42892,1],5] on node (null)
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] mca: bml: Using tcp btl for send to [[42892,1],3] on node (null)
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] mca: bml: Using tcp btl for send to [[42892,1],4] on node (null)
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] mca: bml: Using tcp btl for send to [[42892,1],5] on node (null)
+[gdr114:324409] btl: tcp: attempting to connect() to [[42892,1],5] address 192.168.2.11 on port 1026
+[gdr114:324409] btl:tcp: would block, so allowing background progress
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] mca: bml: Using tcp btl for send to [[42892,1],4] on node (null)
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] mca: bml: Using tcp btl for send to [[42892,1],4] on node (null)
+[gdr114:324406] btl: tcp: attempting to connect() to [[42892,1],4] address 192.168.2.11 on port 1027
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] mca: bml: Using tcp btl for send to [[42892,1],5] on node (null)
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] mca: bml: Using tcp btl for send to [[42892,1],4] on node (null)
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] mca: bml: Using tcp btl for send to [[42892,1],5] on node (null)
+[gdr114:324406] btl:tcp: would block, so allowing background progress
+[gdr114:324409] btl:tcp: connect() to 192.168.2.11:1026 completed (complete_connect), sending connect ACK
+[gdr116:206732] mca: bml: Using tcp btl for send to [[42892,1],3] on node (null)
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr116:206731] btl: tcp: attempting to connect() to [[42892,1],0] address 192.168.2.10 on port 1024
+[gdr114:324406] btl:tcp: connect() to 192.168.2.11:1027 completed (complete_connect), sending connect ACK
+[gdr116:206734] btl: tcp: attempting to connect() to [[42892,1],4] address 192.168.2.11 on port 1027
+[gdr116:206733] btl: tcp: attempting to connect() to [[42892,1],5] address 192.168.2.11 on port 1026
+[gdr116:206732] btl: tcp: attempting to connect() to [[42892,1],3] address 192.168.2.10 on port 1026
+[gdr116:206731] btl:tcp: would block, so allowing background progress
+[gdr116:206733] btl:tcp: would block, so allowing background progress
+[gdr116:206732] btl:tcp: would block, so allowing background progress
+[gdr116:206734] btl:tcp: would block, so allowing background progress
+[gdr116:206733] btl:tcp: connect() to 192.168.2.11:1026 completed (complete_connect), sending connect ACK
+[gdr116:206734] btl:tcp: connect() to 192.168.2.11:1027 completed (complete_connect), sending connect ACK
+[gdr116:206733] btl: tcp: Match incoming connection from [[42892,1],5] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 0/2)!
+[gdr116:206733] btl:tcp: now connected to 192.168.2.11, process [[42892,1],5]
+[gdr116:206734] btl: tcp: Match incoming connection from [[42892,1],4] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 0/2)!
+[gdr116:206734] btl:tcp: now connected to 192.168.2.11, process [[42892,1],4]
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] mca: bml: Using tcp btl for send to [[42892,1],6] on node (null)
+[gdr114:324409] btl: tcp: Match incoming connection from [[42892,1],5] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 0/2)!
+[gdr114:324409] btl:tcp: now connected to 192.168.2.11, process [[42892,1],5]
+[gdr114:324406] btl: tcp: Match incoming connection from [[42892,1],4] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 0/2)!
+[gdr114:324406] btl:tcp: now connected to 192.168.2.11, process [[42892,1],4]
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] mca: bml: Using tcp btl for send to [[42892,1],7] on node (null)
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] mca: bml: Using tcp btl for send to [[42892,1],6] on node (null)
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] mca: bml: Using tcp btl for send to [[42892,1],7] on node (null)
+[gdr116:206733] btl: tcp: attempting to connect() to [[42892,1],6] address 192.168.2.10 on port 1027
+[gdr116:206733] btl:tcp: would block, so allowing background progress
+[gdr114:324409] btl: tcp: attempting to connect() to [[42892,1],3] address 192.168.2.10 on port 1026
+[gdr114:324409] btl:tcp: would block, so allowing background progress
+[gdr114:324409] btl:tcp: connect() to 192.168.2.10:1026 completed (complete_connect), sending connect ACK
+[gdr116:206734] btl: tcp: attempting to connect() to [[42892,1],7] address 192.168.2.10 on port 1025
+[gdr116:206733] btl: tcp: Match incoming connection from [[42892,1],6] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 0/2)!
+[gdr116:206733] btl:tcp: now connected to 192.168.2.10, process [[42892,1],6]
+[gdr116:206734] btl:tcp: would block, so allowing background progress
+[gdr116:206733] btl:tcp: connect() to 192.168.2.10:1027 completed (complete_connect), sending connect ACK
+[gdr116:206734] btl: tcp: Match incoming connection from [[42892,1],7] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 0/2)!
+[gdr116:206734] btl:tcp: now connected to 192.168.2.10, process [[42892,1],7]
+[gdr116:206734] btl:tcp: connect() to 192.168.2.10:1025 completed (complete_connect), sending connect ACK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] mca: bml: Using tcp btl for send to [[42892,1],2] on node (null)
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324406] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324406] mca: bml: Using tcp btl for send to [[42892,1],2] on node (null)
+[gdr114:324406] btl: tcp: attempting to connect() to [[42892,1],2] address 192.168.2.11 on port 1025
+[gdr116:206733] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] mca: bml: Using tcp btl for send to [[42892,1],1] on node (null)
+[gdr114:324406] btl:tcp: would block, so allowing background progress
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206734] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206734] mca: bml: Using tcp btl for send to [[42892,1],1] on node (null)
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr116:206734] btl: tcp: attempting to connect() to [[42892,1],1] address 192.168.2.11 on port 1024
+[gdr116:206733] btl: tcp: attempting to connect() to [[42892,1],0] address 192.168.2.10 on port 1024
+[gdr114:324406] btl:tcp: connect() to 192.168.2.11:1025 completed (complete_connect), sending connect ACK
+[gdr116:206734] btl:tcp: would block, so allowing background progress
+[gdr116:206734] btl:tcp: connect() to 192.168.2.11:1024 completed (complete_connect), sending connect ACK
+[gdr116:206733] btl:tcp: would block, so allowing background progress
+[gdr116:206733] btl:tcp: connect() to 192.168.2.10:1024 completed (complete_connect), sending connect ACK
+[gdr114:324405] btl:tcp: connect() to 192.168.2.11:1025 completed (complete_connect), sending connect ACK
+[gdr114:324405] btl: tcp: Match incoming connection from [[42892,1],7] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 0/2)!
+[gdr114:324405] btl:tcp: now connected to 192.168.2.10, process [[42892,1],7]
+[gdr114:324404] btl:tcp: connect() to 192.168.2.11:1024 completed (complete_connect), sending connect ACK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl: tcp: Match incoming connection from [[42892,1],4] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 0/2)!
+[gdr114:324404] btl:tcp: now connected to 192.168.2.11, process [[42892,1],4]
+[gdr114:324405] btl: tcp: Match incoming connection from [[42892,1],2] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 0/2)!
+[gdr114:324405] btl:tcp: now connected to 192.168.2.11, process [[42892,1],2]
+[gdr114:324404] btl: tcp: Match incoming connection from [[42892,1],1] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 0/2)!
+[gdr114:324404] btl:tcp: now connected to 192.168.2.11, process [[42892,1],1]
+[gdr116:206732] btl:tcp: connect() to 192.168.2.10:1026 completed (complete_connect), sending connect ACK
+[gdr116:206732] btl: tcp: Match incoming connection from [[42892,1],3] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 0/2)!
+[gdr116:206732] btl:tcp: now connected to 192.168.2.10, process [[42892,1],3]
+[gdr116:206731] btl:tcp: connect() to 192.168.2.10:1024 completed (complete_connect), sending connect ACK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] btl: tcp: Match incoming connection from [[42892,1],0] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 0/2)!
+[gdr116:206731] btl:tcp: now connected to 192.168.2.10, process [[42892,1],0]
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl: tcp: Match incoming connection from [[42892,1],6] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 0/2)!
+[gdr116:206732] btl:tcp: now connected to 192.168.2.10, process [[42892,1],6]
+[gdr116:206731] btl: tcp: Match incoming connection from [[42892,1],5] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 0/2)!
+[gdr116:206731] btl:tcp: now connected to 192.168.2.11, process [[42892,1],5]
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] mca: bml: Using tcp btl for send to [[42892,1],1] on node (null)
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324405] mca: bml: Using tcp btl for send to [[42892,1],1] on node (null)
+[gdr114:324405] btl: tcp: attempting to connect() to [[42892,1],1] address 192.168.2.11 on port 1024
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324405] btl:tcp: would block, so allowing background progress
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],2] on node (null)
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324404] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],2] on node (null)
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206732] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206732] mca: bml: Using tcp btl for send to [[42892,1],0] on node (null)
+[gdr114:324404] btl: tcp: attempting to connect() to [[42892,1],2] address 192.168.2.11 on port 1025
+[gdr116:206732] btl: tcp: attempting to connect() to [[42892,1],0] address 192.168.2.10 on port 1024
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] mca: bml: Using tcp btl for send to [[42892,1],3] on node (null)
+[gdr114:324405] btl:tcp: connect() to 192.168.2.11:1024 completed (complete_connect), sending connect ACK
+[gdr114:324404] btl:tcp: would block, so allowing background progress
+[gdr116:206732] btl:tcp: would block, so allowing background progress
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206731] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206731] mca: bml: Using tcp btl for send to [[42892,1],3] on node (null)
+[gdr116:206731] btl: tcp: attempting to connect() to [[42892,1],3] address 192.168.2.10 on port 1026
+[gdr114:324404] btl: tcp: Match incoming connection from [[42892,1],2] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 0/2)!
+[gdr114:324404] btl:tcp: now connected to 192.168.2.11, process [[42892,1],2]
+[gdr114:324404] btl:tcp: connect() to 192.168.2.11:1025 completed (complete_connect), sending connect ACK
+[gdr116:206732] btl:tcp: connect() to 192.168.2.10:1024 completed (complete_connect), sending connect ACK
+[gdr116:206731] btl:tcp: would block, so allowing background progress
+[gdr114:324405] btl: tcp: Match incoming connection from [[42892,1],1] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 0/2)!
+[gdr114:324405] btl:tcp: now connected to 192.168.2.11, process [[42892,1],1]
+[gdr116:206731] btl: tcp: Match incoming connection from [[42892,1],3] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 0/2)!
+[gdr116:206731] btl:tcp: now connected to 192.168.2.10, process [[42892,1],3]
+[gdr116:206731] btl:tcp: connect() to 192.168.2.10:1026 completed (complete_connect), sending connect ACK
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],4] on node (null)
+[gdr114:324404] mca: bml: Using tcp btl for send to [[42892,1],4] on node (null)
+[gdr116:206732] btl: tcp: Match incoming connection from [[42892,1],0] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 0/2)!
+[gdr116:206732] btl:tcp: now connected to 192.168.2.10, process [[42892,1],0]
+[gdr116:206732] mca: bml: Using tcp btl for send to [[42892,1],6] on node (null)
+[gdr116:206732] mca: bml: Using tcp btl for send to [[42892,1],6] on node (null)
+[gdr116:206731] mca: bml: Using tcp btl for send to [[42892,1],5] on node (null)
+[gdr116:206731] mca: bml: Using tcp btl for send to [[42892,1],5] on node (null)
+# nThread 1 nGpus 1 minBytes 4 maxBytes 67108864 step: 2(factor) warmup iters: 30 iters: 100 agg iters: 1 validation: 0 graph: 0, parallel_init:0
+#
+#  Rank  0 Group  0 Pid 324404 on     gdr114 device  0 [0x05] Tesla V100-SXM2-16GB
+#  Rank  1 Group  0 Pid 206731 on     gdr116 device  0 [0x05] Tesla V100-SXM2-16GB
+#  Rank  2 Group  0 Pid 206732 on     gdr116 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  3 Group  0 Pid 324405 on     gdr114 device  1 [0x09] Tesla V100-SXM2-16GB
+#  Rank  4 Group  0 Pid 206733 on     gdr116 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  5 Group  0 Pid 206734 on     gdr116 device  3 [0x88] Tesla V100-SXM2-16GB
+#  Rank  6 Group  0 Pid 324406 on     gdr114 device  2 [0x84] Tesla V100-SXM2-16GB
+#  Rank  7 Group  0 Pid 324409 on     gdr114 device  3 [0x88] Tesla V100-SXM2-16GB
+[gdr114:324404] btl: tcp: attempting to connect() to [[42892,1],3] address 192.168.2.10 on port 1026
+[gdr114:324404] btl:tcp: would block, so allowing background progress
+[gdr114:324404] btl:tcp: connect() to 192.168.2.10:1026 completed (complete_connect), sending connect ACK
+[gdr114:324405] btl: tcp: Match incoming connection from [[42892,1],0] 192.168.2.10 with locally known IP 192.168.1.10 failed (iface 0/2)!
+[gdr114:324405] btl:tcp: now connected to 192.168.2.10, process [[42892,1],0]
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] mca: bml: Using tcp btl for send to [[42892,1],7] on node (null)
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.1.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.1.11 to 192.168.2.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.1.10: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr116:206733] btl:tcp: path from 192.168.2.11 to 192.168.2.10: IPV4 PRIVATE SAME NETWORK
+[gdr116:206733] mca: bml: Using tcp btl for send to [[42892,1],7] on node (null)
+[gdr116:206733] btl: tcp: attempting to connect() to [[42892,1],7] address 192.168.2.10 on port 1025
+[gdr116:206733] btl:tcp: would block, so allowing background progress
+[gdr116:206733] btl:tcp: connect() to 192.168.2.10:1025 completed (complete_connect), sending connect ACK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.1.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.1.10 to 192.168.2.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.1.11: IPV4 PRIVATE DIFFERENT NETWORK
+[gdr114:324409] btl:tcp: path from 192.168.2.10 to 192.168.2.11: IPV4 PRIVATE SAME NETWORK
+[gdr114:324409] btl: tcp: Match incoming connection from [[42892,1],4] 192.168.2.11 with locally known IP 192.168.1.11 failed (iface 0/2)!
+[gdr114:324409] btl:tcp: now connected to 192.168.2.11, process [[42892,1],4]
+gdr114:324406:324406 [2] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr114:324409:324409 [3] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr114:324405:324405 [1] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr114:324404:324404 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr114:324404:324404 [0] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:206733:206733 [2] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr116:206733:206733 [2] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:324409:324409 [3] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:324405:324405 [1] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:324406:324406 [2] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:206731:206731 [0] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr116:206732:206732 [1] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr116:206734:206734 [3] initOnceFunc(), misc/cudawrap.cc:251 NCCL INFO cudaDriverVersion 12090
+gdr116:206731:206731 [0] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:206732:206732 [1] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr116:206734:206734 [3] showVersion(), init.cc:547 NCCL INFO NCCL version 2.26.6+cudaCUDA_MAJOR.CUDA_MINOR
+gdr114:324406:324444 [2] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:324405:324443 [1] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+gdr114:324409:324445 [3] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+[gdr114] tid:324444, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr114] tid:324444, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:324445, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr114] tid:324445, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:324443, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr114] tid:324443, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:324445, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324409_1754876023_0x7bf5cb89cfb0_1039755518
+[gdr114] tid:324444, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324406_1754876023_0x7e4da789cfb0_1639544765
+[gdr114] tid:324443, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324405_1754876023_0x738a3789cfb0_1019896529
+gdr114:324404:324442 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+[gdr114] tid:324442, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr114] tid:324442, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs0, name:xtrdma_0
+[gdr114] tid:324442, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324404_1754876023_0x739b2789cfb0_495526876
+[gdr114] tid:324444, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:324444, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:324445, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:324445, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:324443, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:324443, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:324444, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324406_1754876023_0x7e4da78c4310_934491878
+[gdr114] tid:324445, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324409_1754876023_0x7bf5cb8c4310_329231859
+[gdr114] tid:324443, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324405_1754876023_0x738a378c4310_237181655
+[gdr114] tid:324442, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr114] tid:324442, xtrdma_ualloc_context(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/umain.c:237, Open dev_name:uverbs1, name:xtrdma_1
+[gdr114] tid:324442, huge_mem_init(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/huge_mem.c:139, Huge map file /dev/hugepages/huge_file_324404_1754876023_0x739b278c4310_265745161
+[gdr114] tid:324443, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_1
+[gdr114] tid:324443, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:2
+[gdr114] tid:324443, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr114:324405:324443 [1] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+[gdr114] tid:324445, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_1
+[gdr114] tid:324445, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:2
+[gdr114] tid:324445, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr114:324409:324445 [3] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+[gdr114] tid:324444, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_1
+[gdr114] tid:324444, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:2
+[gdr114] tid:324444, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr114:324406:324444 [2] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:324405:324443 [1] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:324405:324443 [1] commAlloc(), init.cc:340 NCCL INFO Using network IB
+gdr114:324409:324445 [3] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:324409:324445 [3] commAlloc(), init.cc:340 NCCL INFO Using network IB
+gdr114:324406:324444 [2] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:324406:324444 [2] commAlloc(), init.cc:340 NCCL INFO Using network IB
+[gdr114] tid:324442, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_1
+[gdr114] tid:324442, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:2
+[gdr114] tid:324442, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr114:324404:324442 [0] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp129s0f0:10.20.10.114<0>
+gdr114:324404:324442 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr114:324404:324442 [0] commAlloc(), init.cc:340 NCCL INFO Using network IB
+[gdr114] tid:324445, dmaBufSupported(), init.cc:293, gpu:3, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr114] tid:324443, dmaBufSupported(), init.cc:293, gpu:1, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+[gdr114] tid:324444, dmaBufSupported(), init.cc:293, gpu:2, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+gdr114:324409:324445 [3] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x62ed2d4ac190 rank 7 nranks 8 cudaDev 3 nvmlDev 3 busId 88000 commId 0x31407f448416336f - Init START
+gdr114:324406:324444 [2] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x642026bf3ce0 rank 6 nranks 8 cudaDev 2 nvmlDev 2 busId 84000 commId 0x31407f448416336f - Init START
+gdr114:324405:324443 [1] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x610018fc66e0 rank 3 nranks 8 cudaDev 1 nvmlDev 1 busId 9000 commId 0x31407f448416336f - Init START
+gdr116:206734:206754 [3] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+[gdr116] tid:206754, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr114] tid:324442, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+gdr114:324404:324442 [0] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x64c4ac17e6b0 rank 0 nranks 8 cudaDev 0 nvmlDev 0 busId 5000 commId 0x31407f448416336f - Init START
+gdr114:324409:324445 [3] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:206732:206753 [1] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+[gdr116] tid:206754, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:206753, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+gdr116:206731:206752 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+[gdr116] tid:206752, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr116] tid:206754, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_1
+[gdr116] tid:206754, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:2
+[gdr116] tid:206754, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr116:206734:206754 [3] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:206734:206754 [3] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:206734:206754 [3] commAlloc(), init.cc:340 NCCL INFO Using network IB
+[gdr116] tid:206752, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+gdr116:206733:206751 [2] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO NET/Plugin: Could not find: libnccl-net.so. Using internal net plugin.
+[gdr116] tid:206753, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:206751, ncclIbInit(), transport/net_ib.cc:610, NCCL rdma dev_num:2
+[gdr116] tid:206751, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_0
+[gdr116] tid:206752, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_1
+[gdr116] tid:206752, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:2
+[gdr116] tid:206752, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr116:206731:206752 [0] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:206731:206752 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:206731:206752 [0] commAlloc(), init.cc:340 NCCL INFO Using network IB
+[gdr116] tid:206754, dmaBufSupported(), init.cc:293, gpu:3, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+gdr116:206734:206754 [3] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x63bc06ef1a20 rank 5 nranks 8 cudaDev 3 nvmlDev 3 busId 88000 commId 0x31407f448416336f - Init START
+gdr114:324406:324444 [2] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[gdr116] tid:206753, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_1
+[gdr116] tid:206753, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:2
+[gdr116] tid:206753, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr116:206732:206753 [1] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:206732:206753 [1] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:206732:206753 [1] commAlloc(), init.cc:340 NCCL INFO Using network IB
+[gdr116] tid:206751, ncclIbInit(), transport/net_ib.cc:686, Match dev:xtrdma_1
+[gdr116] tid:206751, ncclIbInit(), transport/net_ib.cc:695, NCCL Match dev_num:2
+[gdr116] tid:206751, ncclIbInit(), transport/net_ib.cc:712, Using enp129s0f0
+gdr116:206733:206751 [2] ncclIbInit(), transport/net_ib.cc:713 NCCL INFO NET/IB : Using [0]xtrdma_0:1/RoCE [1]xtrdma_1:1/RoCE [RO]; OOB enp129s0f0:10.20.10.116<0>
+gdr116:206733:206751 [2] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+gdr116:206733:206751 [2] commAlloc(), init.cc:340 NCCL INFO Using network IB
+[gdr116] tid:206752, dmaBufSupported(), init.cc:293, gpu:0, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+gdr116:206731:206752 [0] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x58901b824780 rank 1 nranks 8 cudaDev 0 nvmlDev 0 busId 5000 commId 0x31407f448416336f - Init START
+gdr114:324404:324442 [0] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[gdr116] tid:206753, dmaBufSupported(), init.cc:293, gpu:1, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+gdr116:206732:206753 [1] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x5c146b48ec90 rank 2 nranks 8 cudaDev 1 nvmlDev 1 busId 9000 commId 0x31407f448416336f - Init START
+gdr116:206731:206752 [0] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:206732:206753 [1] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[gdr116] tid:206751, dmaBufSupported(), init.cc:293, gpu:2, not support dmabuf(no CU_DEVICE_ATTRIBUTE_DMA_BUF_SUPPORTED attr)
+gdr116:206733:206751 [2] ncclCommInitRankFunc(), init.cc:1416 NCCL INFO ncclCommInitRank comm 0x5aaa40e8f2a0 rank 4 nranks 8 cudaDev 2 nvmlDev 2 busId 84000 commId 0x31407f448416336f - Init START
+gdr114:324405:324443 [1] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:206733:206751 [2] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+gdr116:206734:206754 [3] rasClientInitSocket(), ras/client_support.cc:162 NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+[gdr114] tid:324445, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:324445, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr114] tid:324445, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr114] tid:324442, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:324442, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr114] tid:324442, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr114] tid:324444, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:324444, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr114] tid:324444, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr116] tid:206754, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:206754, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr116] tid:206754, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr116] tid:206751, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:206751, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr116] tid:206753, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:206753, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr116] tid:206751, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr116] tid:206753, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr116] tid:206752, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr116] tid:206752, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr116] tid:206752, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr114] tid:324443, ncclCommInitRankFunc(), init.cc:1424, Init transport rank
+[gdr114] tid:324443, initTransportsRank(), init.cc:720, AllGather1 - begin, ncclCalloc
+[gdr114] tid:324443, ncclGpuGdrSupport(), plugin/net.cc:255, Cuda check GPU gdr attr, gdrSupport(cudaDevAttrGPUDirectRDMASupported):1
+[gdr114] tid:324444, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:324445, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:324442, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:324443, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206752, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206754, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206753, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:206751, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324442, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324445, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324444, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:324443, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324442, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324445, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324443, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr114] tid:324444, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206752, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206754, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206753, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206752, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206754, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206751, ncclTopoGetSystem(), graph/topo.cc:1354, ncclTopoProcessNet, name:IB
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206753, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_0, nic_support_dmabuf:4
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_0 support dmabuf
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1228, NCCL GDR, Nic_Indirect_Access_GPU(nv_peer_support):5, gpu_dma_buf_enable:0, nic_name:xtrdma_1, nic_support_dmabuf:4
+[gdr116] tid:206751, ncclTopoPopulateNics(), graph/topo.cc:1233, Nic xtrdma_1 support dmabuf
+gdr114:324404:324442 [0] ncclTopoGetCpuAffinity(), graph/topo.cc:1580 NCCL INFO Setting affinity for GPU 0 to 10000001
+gdr114:324405:324443 [1] ncclTopoGetCpuAffinity(), graph/topo.cc:1580 NCCL INFO Setting affinity for GPU 1 to 20000002
+gdr116:206732:206753 [1] ncclTopoGetCpuAffinity(), graph/topo.cc:1580 NCCL INFO Setting affinity for GPU 1 to 10000001
+gdr116:206731:206752 [0] ncclTopoGetCpuAffinity(), graph/topo.cc:1580 NCCL INFO Setting affinity for GPU 0 to 10000001
+gdr114:324405:324443 [1] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x610018fc66e0 rank 3 nRanks 8 nNodes 2 localRanks 4 localRank 1 MNNVL 0
+gdr114:324405:324443 [1] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] 0/2/-1->3->-1 [1] -1/-1/-1->3->0 [2] 0/-1/-1->3->2 [3] -1/-1/-1->3->0
+gdr114:324405:324443 [1] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr114:324404:324442 [0] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x64c4ac17e6b0 rank 0 nRanks 8 nNodes 2 localRanks 4 localRank 0 MNNVL 0
+gdr114:324405:324458 [1] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 1 CPU core 1
+gdr114:324409:324445 [3] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x62ed2d4ac190 rank 7 nRanks 8 nNodes 2 localRanks 4 localRank 3 MNNVL 0
+gdr114:324404:324442 [0] dumpLine(), graph/rings.cc:25 NCCL INFO Channel 00/04 : 0 3 7 6 1 2 5 4
+gdr114:324404:324442 [0] dumpLine(), graph/rings.cc:25 NCCL INFO Channel 01/04 : 0 3 7 6 1 2 5 4
+gdr114:324404:324442 [0] dumpLine(), graph/rings.cc:25 NCCL INFO Channel 02/04 : 0 3 7 6 1 2 5 4
+gdr114:324404:324442 [0] dumpLine(), graph/rings.cc:25 NCCL INFO Channel 03/04 : 0 3 7 6 1 2 5 4
+gdr114:324404:324442 [0] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] 6/-1/-1->0->3 [1] 3/-1/-1->0->6 [2] 6/-1/-1->0->3 [3] 3/-1/-1->0->6
+gdr114:324406:324444 [2] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x642026bf3ce0 rank 6 nRanks 8 nNodes 2 localRanks 4 localRank 2 MNNVL 0
+gdr114:324406:324444 [2] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] 7/-1/-1->6->0 [1] 0/-1/-1->6->7 [2] 7/-1/-1->6->0 [3] 0/-1/-1->6->7
+gdr114:324406:324444 [2] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr114:324409:324445 [3] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] -1/-1/-1->7->6 [1] 6/5/-1->7->-1 [2] -1/-1/-1->7->6 [3] 6/-1/-1->7->5
+gdr114:324409:324445 [3] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr114:324405:324459 [1] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 1 CPU core 1
+gdr114:324404:324442 [0] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr114:324404:324442 [0] ncclTransportCheckP2pType(), transport.cc:98 NCCL INFO Check P2P Type intraNodeP2pSupport 0 directMode 0
+gdr114:324404:324460 [0] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 0 CPU core 28
+gdr116:206732:206753 [1] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x5c146b48ec90 rank 2 nRanks 8 nNodes 2 localRanks 4 localRank 1 MNNVL 0
+gdr116:206732:206753 [1] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] 1/-1/-1->2->3 [1] -1/-1/-1->2->1 [2] 1/3/-1->2->-1 [3] -1/-1/-1->2->1
+gdr116:206732:206753 [1] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr114:324409:324461 [3] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 3 CPU core 3
+gdr114:324409:324464 [3] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 3 CPU core 3
+gdr114:324404:324462 [0] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 0 CPU core 28
+gdr116:206734:206754 [3] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x63bc06ef1a20 rank 5 nRanks 8 nNodes 2 localRanks 4 localRank 3 MNNVL 0
+gdr116:206734:206754 [3] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] -1/-1/-1->5->4 [1] 4/-1/-1->5->7 [2] -1/-1/-1->5->4 [3] 4/7/-1->5->-1
+gdr114:324406:324463 [2] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 2 CPU core 2
+gdr116:206734:206754 [3] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr116:206733:206751 [2] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x5aaa40e8f2a0 rank 4 nRanks 8 nNodes 2 localRanks 4 localRank 2 MNNVL 0
+gdr116:206733:206751 [2] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] 5/-1/-1->4->1 [1] 1/-1/-1->4->5 [2] 5/-1/-1->4->1 [3] 1/-1/-1->4->5
+gdr114:324406:324465 [2] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 2 CPU core 2
+gdr116:206731:206752 [0] initTransportsRank(), init.cc:1003 NCCL INFO comm 0x58901b824780 rank 1 nRanks 8 nNodes 2 localRanks 4 localRank 0 MNNVL 0
+gdr116:206732:206767 [1] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 1 CPU core 0
+gdr116:206733:206751 [2] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr116:206731:206752 [0] initTransportsRank(), init.cc:1059 NCCL INFO Trees [0] 4/-1/-1->1->2 [1] 2/-1/-1->1->4 [2] 4/-1/-1->1->2 [3] 2/-1/-1->1->4
+gdr116:206731:206752 [0] computeBuffSizes(), init.cc:652 NCCL INFO P2P Chunksize set to 131072
+gdr116:206733:206768 [2] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 2 CPU core 29
+gdr116:206733:206771 [2] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 2 CPU core 29
+gdr116:206731:206773 [0] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 0 CPU core 0
+gdr116:206731:206774 [0] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 0 CPU core 0
+gdr116:206732:206770 [1] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 1 CPU core 0
+gdr116:206734:206769 [3] ncclProxyService(), proxy.cc:1575 NCCL INFO [Proxy Service] Device 3 CPU core 1
+gdr116:206734:206772 [3] ncclProxyServiceUDS(), proxy.cc:1766 NCCL INFO [Proxy Service UDS] Device 3 CPU core 1
+gdr114:324409:324445 [3] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:324409:324445 [3] initTransportsRank(), init.cc:1234 NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:324405:324443 [1] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:324405:324443 [1] initTransportsRank(), init.cc:1234 NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:324404:324442 [0] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:324404:324442 [0] initTransportsRank(), init.cc:1234 NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:324406:324444 [2] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr114:324406:324444 [2] initTransportsRank(), init.cc:1234 NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr116:206733:206751 [2] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr116:206733:206751 [2] initTransportsRank(), init.cc:1234 NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr114:324404:324442 [0] devCommSetup(), init.cc:483 NCCL INFO CC Off, workFifoBytes 1048576
+gdr114:324406:324444 [2] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:324406:324444 [2] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x642026bf3ce0 rank 6 nranks 8 cudaDev 2 nvmlDev 2 busId 84000 commId 0x31407f448416336f - Init COMPLETE
+gdr114:324406:324444 [2] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 6 nranks 8 total 0.51 (kernels 0.19, alloc 0.09, bootstrap 0.15, allgathers 0.03, topo 0.05, graphs 0.00, connections 0.01, rest 0.00)
+gdr114:324404:324442 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:324404:324442 [0] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x64c4ac17e6b0 rank 0 nranks 8 cudaDev 0 nvmlDev 0 busId 5000 commId 0x31407f448416336f - Init COMPLETE
+gdr114:324404:324442 [0] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 0 nranks 8 total 0.52 (kernels 0.21, alloc 0.07, bootstrap 0.14, allgathers 0.03, topo 0.05, graphs 0.00, connections 0.01, rest 0.00)
+#
+#                                                              out-of-place                       in-place          
+gdr114:324409:324445 [3] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:324409:324445 [3] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x62ed2d4ac190 rank 7 nranks 8 cudaDev 3 nvmlDev 3 busId 88000 commId 0x31407f448416336f - Init COMPLETE
+gdr114:324409:324445 [3] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 7 nranks 8 total 0.51 (kernels 0.19, alloc 0.08, bootstrap 0.15, allgathers 0.03, topo 0.05, graphs 0.00, connections 0.01, rest 0.00)
+gdr114:324405:324443 [1] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr114:324405:324443 [1] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x610018fc66e0 rank 3 nranks 8 cudaDev 1 nvmlDev 1 busId 9000 commId 0x31407f448416336f - Init COMPLETE
+gdr114:324405:324443 [1] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 3 nranks 8 total 0.51 (kernels 0.19, alloc 0.09, bootstrap 0.15, allgathers 0.03, topo 0.05, graphs 0.00, connections 0.01, rest 0.00)
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+AllReduceRunColl
+gdr116:206731:206752 [0] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr116:206731:206752 [0] initTransportsRank(), init.cc:1234 NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr116:206734:206754 [3] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr116:206734:206754 [3] initTransportsRank(), init.cc:1234 NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr116:206732:206753 [1] ncclTopoTuneModel(), graph/tuning.cc:510 NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+gdr116:206732:206753 [1] initTransportsRank(), init.cc:1234 NCCL INFO 4 coll channels, 4 collnet channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+gdr116:206734:206754 [3] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:206734:206754 [3] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x63bc06ef1a20 rank 5 nranks 8 cudaDev 3 nvmlDev 3 busId 88000 commId 0x31407f448416336f - Init COMPLETE
+gdr116:206734:206754 [3] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 5 nranks 8 total 0.50 (kernels 0.26, alloc 0.09, bootstrap 0.05, allgathers 0.01, topo 0.07, graphs 0.01, connections 0.01, rest 0.00)
+gdr116:206733:206751 [2] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:206733:206751 [2] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x5aaa40e8f2a0 rank 4 nranks 8 cudaDev 2 nvmlDev 2 busId 84000 commId 0x31407f448416336f - Init COMPLETE
+gdr116:206733:206751 [2] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 4 nranks 8 total 0.51 (kernels 0.33, alloc 0.08, bootstrap 0.00, allgathers 0.00, topo 0.07, graphs 0.01, connections 0.01, rest 0.00)
+gdr116:206732:206753 [1] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:206732:206753 [1] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x5c146b48ec90 rank 2 nranks 8 cudaDev 1 nvmlDev 1 busId 9000 commId 0x31407f448416336f - Init COMPLETE
+gdr116:206732:206753 [1] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 2 nranks 8 total 0.50 (kernels 0.28, alloc 0.12, bootstrap 0.01, allgathers 0.01, topo 0.07, graphs 0.01, connections 0.01, rest 0.00)
+gdr116:206731:206752 [0] openPluginLib(), plugin/plugin_open.cc:102 NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+gdr116:206731:206752 [0] ncclCommInitRankFunc(), init.cc:1445 NCCL INFO ncclCommInitRank comm 0x58901b824780 rank 1 nranks 8 cudaDev 0 nvmlDev 0 busId 5000 commId 0x31407f448416336f - Init COMPLETE
+gdr116:206731:206752 [0] ncclCommInitRankFunc(), init.cc:1451 NCCL INFO Init timings - ncclCommInitRank: rank 1 nranks 8 total 0.50 (kernels 0.29, alloc 0.10, bootstrap 0.02, allgathers 0.01, topo 0.07, graphs 0.01, connections 0.01, rest 0.00)
+gdr114:324404:324467 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 0[0] -> 3[1] via SHM/direct/direct
+gdr114:324404:324467 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 0[0] -> 3[1] via SHM/direct/direct
+gdr114:324404:324467 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 0[0] -> 3[1] via SHM/direct/direct
+gdr114:324404:324467 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 0[0] -> 3[1] via SHM/direct/direct
+gdr116:206731:206775 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 1[0] -> 2[1] via SHM/direct/direct
+gdr116:206731:206775 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 1[0] -> 2[1] via SHM/direct/direct
+gdr116:206731:206775 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 1[0] -> 2[1] via SHM/direct/direct
+gdr116:206731:206775 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 1[0] -> 2[1] via SHM/direct/direct
+gdr114:324405:324468 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 3[1] -> 7[3] via SHM/direct/direct
+gdr114:324405:324468 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 3[1] -> 7[3] via SHM/direct/direct
+gdr114:324405:324468 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 3[1] -> 7[3] via SHM/direct/direct
+gdr114:324405:324468 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 3[1] -> 7[3] via SHM/direct/direct
+gdr114:324409:324466 [3] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 7[3] -> 6[2] via SHM/direct/direct
+gdr114:324409:324466 [3] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 7[3] -> 6[2] via SHM/direct/direct
+gdr114:324409:324466 [3] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 7[3] -> 6[2] via SHM/direct/direct
+gdr114:324406:324470 [2] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 2 CPU core 2
+gdr114:324406:324469 [2] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 6[2] -> 1[0] [send] via NET/IB/2
+gdr114:324409:324466 [3] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 7[3] -> 6[2] via SHM/direct/direct
+gdr114:324406:324469 [2] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 6[2] -> 1[0] [send] via NET/IB/3
+gdr114:324406:324469 [2] sendSetup(), transport/net.cc:217 NCCL INFO Channel 02/0 : 6[2] -> 1[0] [send] via NET/IB/2
+gdr114:324406:324469 [2] sendSetup(), transport/net.cc:217 NCCL INFO Channel 03/0 : 6[2] -> 1[0] [send] via NET/IB/3
+gdr116:206732:206776 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 2[1] -> 5[3] via SHM/direct/direct
+gdr116:206732:206776 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 2[1] -> 5[3] via SHM/direct/direct
+gdr116:206732:206776 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 2[1] -> 5[3] via SHM/direct/direct
+gdr116:206732:206776 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 2[1] -> 5[3] via SHM/direct/direct
+gdr116:206733:206779 [2] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 2 CPU core 1
+gdr116:206733:206778 [2] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 4[2] -> 0[0] [send] via NET/IB/2
+gdr116:206733:206778 [2] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 4[2] -> 0[0] [send] via NET/IB/3
+gdr116:206733:206778 [2] sendSetup(), transport/net.cc:217 NCCL INFO Channel 02/0 : 4[2] -> 0[0] [send] via NET/IB/2
+gdr116:206733:206778 [2] sendSetup(), transport/net.cc:217 NCCL INFO Channel 03/0 : 4[2] -> 0[0] [send] via NET/IB/3
+gdr114:324404:324471 [0] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 0 CPU core 28
+gdr114:324404:324467 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 4[2] -> 0[0] [receive] via NET/IB/2
+gdr114:324404:324467 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 4[2] -> 0[0] [receive] via NET/IB/3
+gdr114:324404:324467 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 02/0 : 4[2] -> 0[0] [receive] via NET/IB/2
+gdr114:324404:324467 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 03/0 : 4[2] -> 0[0] [receive] via NET/IB/3
+gdr116:206734:206777 [3] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 5[3] -> 4[2] via SHM/direct/direct
+gdr116:206734:206777 [3] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 5[3] -> 4[2] via SHM/direct/direct
+gdr116:206734:206777 [3] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 5[3] -> 4[2] via SHM/direct/direct
+gdr116:206734:206777 [3] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 5[3] -> 4[2] via SHM/direct/direct
+gdr116:206731:206780 [0] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 0 CPU core 0
+gdr116:206731:206775 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 6[2] -> 1[0] [receive] via NET/IB/2
+gdr116:206731:206775 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 6[2] -> 1[0] [receive] via NET/IB/3
+gdr116:206731:206775 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 02/0 : 6[2] -> 1[0] [receive] via NET/IB/2
+[gdr114] tid:324460, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr114] tid:324460, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr116] tid:206768, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+gdr116:206731:206775 [0] recvSetup(), transport/net.cc:263 NCCL INFO Channel 03/0 : 6[2] -> 1[0] [receive] via NET/IB/3
+[gdr114] tid:324463, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324463, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr116] tid:206773, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr116] tid:206773, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr114] tid:324460, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr116] tid:206768, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=816 pkey=0 pd=0x7e4d70009980, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=817 pkey=0 pd=0x7e4d70009980, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=818 pkey=0 pd=0x739afc0395b0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=819 pkey=0 pd=0x7e4d70009980, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=820 pkey=0 pd=0x7e4d70009980, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324463, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=821 pkey=0 pd=0x739afc0395b0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=758 pkey=0 pd=0x7e4d7000bfe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=759 pkey=0 pd=0x7e4d7000bfe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=760 pkey=0 pd=0x7e4d7000bfe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=822 pkey=0 pd=0x739afc0395b0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=761 pkey=0 pd=0x7e4d7000bfe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=823 pkey=0 pd=0x739afc0395b0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=762 pkey=0 pd=0x739afc039fe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=763 pkey=0 pd=0x739afc039fe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=764 pkey=0 pd=0x739afc039fe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=765 pkey=0 pd=0x739afc039fe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr114] tid:324460, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr116] tid:206773, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr116] tid:206773, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr114] tid:324463, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324463, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr116] tid:206768, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=824 pkey=0 pd=0x7e4d70009980, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=825 pkey=0 pd=0x7e4d70009980, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=826 pkey=0 pd=0x7e4d70009980, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=827 pkey=0 pd=0x7e4d70009980, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324463, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:324460, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr116] tid:206768, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=766 pkey=0 pd=0x7e4d7000bfe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=828 pkey=0 pd=0x739afc0395b0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=767 pkey=0 pd=0x7e4d7000bfe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=768 pkey=0 pd=0x7e4d7000bfe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324463, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=769 pkey=0 pd=0x7e4d7000bfe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=829 pkey=0 pd=0x739afc0395b0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=830 pkey=0 pd=0x739afc0395b0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=831 pkey=0 pd=0x739afc0395b0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=770 pkey=0 pd=0x739afc039fe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=771 pkey=0 pd=0x739afc039fe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=772 pkey=0 pd=0x739afc039fe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324460, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=773 pkey=0 pd=0x739afc039fe0, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+gdr114:324406:324469 [2] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:324405:324468 [1] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:324409:324466 [3] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr114:324404:324467 [0] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr116:206732:206776 [1] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr116:206731:206775 [0] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr116:206734:206777 [3] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+gdr116:206733:206778 [2] ncclTransportRingConnect(), transport/generic.cc:31 NCCL INFO Connected all rings, use ring PXN 0 GDR 0
+[gdr114:324365] 15 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[gdr114:324365] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[gdr114:324365] 15 more processes have sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+gdr114:324406:324531 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 6[2] -> 7[3] via SHM/direct/direct
+gdr114:324406:324531 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 6[2] -> 7[3] via SHM/direct/direct
+gdr114:324406:324531 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 6[2] -> 7[3] via SHM/direct/direct
+gdr114:324406:324531 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 6[2] -> 7[3] via SHM/direct/direct
+gdr116:206731:206781 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 1[0] -> 4[2] via SHM/direct/direct
+gdr116:206733:206783 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 4[2] -> 5[3] via SHM/direct/direct
+gdr116:206733:206783 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 4[2] -> 5[3] via SHM/direct/direct
+gdr116:206733:206783 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 4[2] -> 5[3] via SHM/direct/direct
+gdr116:206731:206781 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 1[0] -> 4[2] via SHM/direct/direct
+gdr116:206733:206783 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 4[2] -> 5[3] via SHM/direct/direct
+gdr116:206731:206781 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 1[0] -> 4[2] via SHM/direct/direct
+gdr116:206731:206781 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 1[0] -> 4[2] via SHM/direct/direct
+gdr114:324406:324531 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 6[2] -> 0[0] via SHM/direct/direct
+gdr114:324406:324531 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 6[2] -> 0[0] via SHM/direct/direct
+gdr114:324406:324531 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 6[2] -> 0[0] via SHM/direct/direct
+gdr114:324406:324531 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 6[2] -> 0[0] via SHM/direct/direct
+gdr114:324405:324534 [1] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 1 CPU core 29
+gdr114:324405:324532 [1] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 2[1] -> 3[1] [receive] via NET/IB/2
+gdr114:324405:324532 [1] recvSetup(), transport/net.cc:263 NCCL INFO Channel 02/0 : 2[1] -> 3[1] [receive] via NET/IB/2
+gdr116:206732:206785 [1] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 1 CPU core 0
+gdr116:206732:206782 [1] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 2[1] -> 3[1] [send] via NET/IB/2
+gdr116:206732:206782 [1] sendSetup(), transport/net.cc:217 NCCL INFO Channel 02/0 : 2[1] -> 3[1] [send] via NET/IB/2
+gdr114:324405:324532 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 3[1] -> 0[0] via SHM/direct/direct
+gdr114:324405:324532 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 3[1] -> 0[0] via SHM/direct/direct
+gdr114:324405:324532 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 3[1] -> 0[0] via SHM/direct/direct
+gdr114:324405:324532 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 3[1] -> 0[0] via SHM/direct/direct
+gdr116:206732:206782 [1] recvSetup(), transport/net.cc:263 NCCL INFO Channel 00/0 : 3[1] -> 2[1] [receive] via NET/IB/2
+gdr116:206732:206782 [1] recvSetup(), transport/net.cc:263 NCCL INFO Channel 02/0 : 3[1] -> 2[1] [receive] via NET/IB/2
+gdr116:206732:206782 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 2[1] -> 1[0] via SHM/direct/direct
+gdr116:206732:206782 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 2[1] -> 1[0] via SHM/direct/direct
+gdr116:206732:206782 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 2[1] -> 1[0] via SHM/direct/direct
+gdr114:324405:324532 [1] sendSetup(), transport/net.cc:217 NCCL INFO Channel 00/0 : 3[1] -> 2[1] [send] via NET/IB/2
+gdr114:324405:324532 [1] sendSetup(), transport/net.cc:217 NCCL INFO Channel 02/0 : 3[1] -> 2[1] [send] via NET/IB/2
+gdr114:324404:324533 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 0[0] -> 6[2] via SHM/direct/direct
+gdr114:324404:324533 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 0[0] -> 6[2] via SHM/direct/direct
+gdr114:324409:324535 [3] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 3 CPU core 3
+gdr114:324404:324533 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 0[0] -> 6[2] via SHM/direct/direct
+gdr114:324409:324530 [3] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 5[3] -> 7[3] [receive] via NET/IB/3
+gdr116:206732:206782 [1] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 2[1] -> 1[0] via SHM/direct/direct
+gdr114:324409:324530 [3] recvSetup(), transport/net.cc:263 NCCL INFO Channel 03/0 : 5[3] -> 7[3] [receive] via NET/IB/3
+gdr114:324404:324533 [0] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 0[0] -> 6[2] via SHM/direct/direct
+gdr116:206733:206783 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 00 : 4[2] -> 1[0] via SHM/direct/direct
+gdr116:206734:206786 [3] ncclProxyProgress(), proxy.cc:910 NCCL INFO [Proxy Progress] Device 3 CPU core 29
+gdr116:206734:206784 [3] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 5[3] -> 7[3] [send] via NET/IB/3
+gdr116:206734:206784 [3] sendSetup(), transport/net.cc:217 NCCL INFO Channel 03/0 : 5[3] -> 7[3] [send] via NET/IB/3
+gdr114:324409:324530 [3] sendSetup(), transport/net.cc:217 NCCL INFO Channel 01/0 : 7[3] -> 5[3] [send] via NET/IB/3
+gdr114:324409:324530 [3] sendSetup(), transport/net.cc:217 NCCL INFO Channel 03/0 : 7[3] -> 5[3] [send] via NET/IB/3
+gdr116:206733:206783 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 01 : 4[2] -> 1[0] via SHM/direct/direct
+gdr116:206733:206783 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 02 : 4[2] -> 1[0] via SHM/direct/direct
+gdr116:206733:206783 [2] shmSendSetup(), transport/shm.cc:128 NCCL INFO Channel 03 : 4[2] -> 1[0] via SHM/direct/direct
+gdr116:206734:206784 [3] recvSetup(), transport/net.cc:263 NCCL INFO Channel 01/0 : 7[3] -> 5[3] [receive] via NET/IB/3
+gdr116:206734:206784 [3] recvSetup(), transport/net.cc:263 NCCL INFO Channel 03/0 : 7[3] -> 5[3] [receive] via NET/IB/3
+[gdr114] tid:324461, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr114] tid:324461, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr116] tid:206769, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324461, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr116] tid:206769, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=774 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=775 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:206769, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr116] tid:206769, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr114] tid:324458, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr114] tid:324458, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr116] tid:206767, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=776 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=777 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324458, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr116] tid:206767, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324461, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=832 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=778 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=833 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr116] tid:206767, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr116] tid:206767, ncclIbAccept(), transport/net_ib.cc:1608, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4, rComm->base.vProps.ndevs:1
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=779 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=834 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=780 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=835 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=781 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324458, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:324461, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324461, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=836 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=782 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=783 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=837 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=784 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=785 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324461, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324461, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_1, need_cqe:2048, actrue_cqe:4095
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=838 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=786 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=787 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=839 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=788 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324461, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=1 devName=xtrdma_1 ndevs=2 nmdevs=4 qpn=789 pkey=0 pd=0x7bf59803fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+[gdr114] tid:324458, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=840 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=841 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=842 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=843 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbConnect(), transport/net_ib.cc:1312, localNqps:4, remoteNqps:4, rComm->base.nqps:4, ncclParamIbQpsPerConn:4
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ucreate_cq(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ucq.c:220, dev_name:xtrdma_0, need_cqe:2048, actrue_cqe:4095
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=844 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=845 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=846 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+[gdr114] tid:324458, ncclIbCreateQp(), transport/net_ib.cc:1154, NET/IB : ncclIbCreateQp port=1 dev=0 devName=xtrdma_0 ndevs=2 nmdevs=4 qpn=847 pkey=0 pd=0x738a0403fc20, access_flags:0x2, max_send_wr:512, max_recv_wr:256
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+No huge page, use normal page, xtrdma_alloc_buf(), /root/project/rdma/dpu_user_rdma/providers/xtrdma/ualloc_buf.c:22
+gdr116:206733:206783 [2] ncclTransportTreeConnect(), transport/generic.cc:50 NCCL INFO Connected all trees
+gdr114:324409:324530 [3] ncclTransportTreeConnect(), transport/generic.cc:50 NCCL INFO Connected all trees
+gdr116:206734:206784 [3] ncclTransportTreeConnect(), transport/generic.cc:50 NCCL INFO Connected all trees
+gdr114:324406:324531 [2] ncclTransportTreeConnect(), transport/generic.cc:50 NCCL INFO Connected all trees
+gdr114:324404:324533 [0] ncclTransportTreeConnect(), transport/generic.cc:50 NCCL INFO Connected all trees
+gdr114:324405:324532 [1] ncclTransportTreeConnect(), transport/generic.cc:50 NCCL INFO Connected all trees
+gdr116:206731:206781 [0] ncclTransportTreeConnect(), transport/generic.cc:50 NCCL INFO Connected all trees
+gdr116:206732:206782 [1] ncclTransportTreeConnect(), transport/generic.cc:50 NCCL INFO Connected all trees
+           4             1     float     sum      -1    111.5    0.00    0.00    N/A    110.7    0.00    0.00    N/A
+           8             2     float     sum      -1    111.0    0.00    0.00    N/A    110.6    0.00    0.00    N/A
+          16             4     float     sum      -1    110.9    0.00    0.00    N/A    111.5    0.00    0.00    N/A
+          32             8     float     sum      -1    111.7    0.00    0.00    N/A    110.9    0.00    0.00    N/A
+          64            16     float     sum      -1    112.7    0.00    0.00    N/A    111.7    0.00    0.00    N/A
+         128            32     float     sum      -1    113.1    0.00    0.00    N/A    114.4    0.00    0.00    N/A
+         256            64     float     sum      -1    114.0    0.00    0.00    N/A    115.9    0.00    0.00    N/A
+         512           128     float     sum      -1    116.8    0.00    0.01    N/A    115.1    0.00    0.01    N/A
+        1024           256     float     sum      -1    121.5    0.01    0.01    N/A    117.7    0.01    0.02    N/A
+        2048           512     float     sum      -1    255.3    0.01    0.01    N/A    269.4    0.01    0.01    N/A
+        4096          1024     float     sum      -1    253.1    0.02    0.03    N/A    372.2    0.01    0.02    N/A
+        8192          2048     float     sum      -1    260.1    0.03    0.06    N/A    282.9    0.03    0.05    N/A
+       16384          4096     float     sum      -1    268.8    0.06    0.11    N/A    237.8    0.07    0.12    N/A
+       32768          8192     float     sum      -1    435.4    0.08    0.13    N/A    352.2    0.09    0.16    N/A
+       65536         16384     float     sum      -1    616.0    0.11    0.19    N/A    636.0    0.10    0.18    N/A
+      131072         32768     float     sum      -1    818.9    0.16    0.28    N/A    837.4    0.16    0.27    N/A
+      262144         65536     float     sum      -1    863.6    0.30    0.53    N/A   1237.0    0.21    0.37    N/A
+      524288        131072     float     sum      -1   2216.1    0.24    0.41    N/A   1940.9    0.27    0.47    N/A
+     1048576        262144     float     sum      -1   1943.8    0.54    0.94    N/A   1215.0    0.86    1.51    N/A
+     2097152        524288     float     sum      -1    36654    0.06    0.10    N/A    16285    0.13    0.23    N/A
+     4194304       1048576     float     sum      -1   101934    0.04    0.07    N/A   6982.3    0.60    1.05    N/A
+     8388608       2097152     float     sum      -1   7084.9    1.18    2.07    N/A    25720    0.33    0.57    N/A
+    16777216       4194304     float     sum      -1   125922    0.13    0.23    N/A   120611    0.14    0.24    N/A
+    33554432       8388608     float     sum      -1   103482    0.32    0.57    N/A   109974    0.31    0.53    N/A
+    67108864      16777216     float     sum      -1   113172    0.59    1.04    N/A   116051    0.58    1.01    N/A
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(816)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(818)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(816)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(832)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(817)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(821)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(820)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(833)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(817)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(821)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(832)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(818)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(822)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(833)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(819)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(834)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(823)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(835)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(822)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(819)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(834)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(774)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(820)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(823)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(835)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(758)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(775)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(762)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(759)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(776)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(763)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(760)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(777)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(764)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(761)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(774)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(765)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(778)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(836)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(824)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(837)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(825)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(838)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(826)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(828)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(839)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(827)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(829)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(775)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(830)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(758)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(779)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(762)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(776)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(759)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(763)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(777)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(760)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(764)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(761)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(765)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(831)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(836)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(780)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(837)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(781)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(824)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(838)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(766)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(825)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(828)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(839)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(826)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(829)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(827)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(830)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(778)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(831)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(840)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(767)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(840)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(768)
+[gdr116] tid:206768, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(769)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(770)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(782)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(771)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(779)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(780)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(766)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(781)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(767)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(770)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(768)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(771)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(841)
+[gdr114] tid:324463, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(769)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(772)
+[gdr114] tid:324460, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(773)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(782)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(783)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(772)
+gdr116:206733:206858 [2] commFree(), init.cc:256 NCCL INFO comm 0x5aaa40e8f2a0 rank 4 nranks 8 cudaDev 2 busId 84000 - Destroy COMPLETE
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(841)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(783)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(784)
+[gdr116] tid:206773, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(773)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(784)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(785)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(842)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(842)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(785)
+gdr114:324406:324580 [2] commFree(), init.cc:256 NCCL INFO comm 0x642026bf3ce0 rank 6 nranks 8 cudaDev 2 busId 84000 - Destroy COMPLETE
+gdr114:324404:324577 [0] commFree(), init.cc:256 NCCL INFO comm 0x64c4ac17e6b0 rank 0 nranks 8 cudaDev 0 busId 5000 - Destroy COMPLETE
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 0.272928 
+#
+gdr116:206731:206856 [0] commFree(), init.cc:256 NCCL INFO comm 0x58901b824780 rank 1 nranks 8 cudaDev 0 busId 5000 - Destroy COMPLETE
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(843)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(843)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(786)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(787)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(786)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(788)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(787)
+[gdr116] tid:206769, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(789)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(844)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(844)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(788)
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(845)
+[gdr114] tid:324461, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(789)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(845)
+gdr116:206734:206857 [3] commFree(), init.cc:256 NCCL INFO comm 0x63bc06ef1a20 rank 5 nranks 8 cudaDev 3 busId 88000 - Destroy COMPLETE
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(846)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(846)
+gdr114:324409:324579 [3] commFree(), init.cc:256 NCCL INFO comm 0x62ed2d4ac190 rank 7 nranks 8 cudaDev 3 busId 88000 - Destroy COMPLETE
+[gdr116] tid:206767, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(847)
+[gdr114] tid:324458, wrap_ibv_destroy_qp(), misc/ibvwrap.cc:207, Destroy QP(847)
+gdr114:324405:324578 [1] commFree(), init.cc:256 NCCL INFO comm 0x610018fc66e0 rank 3 nranks 8 cudaDev 1 busId 9000 - Destroy COMPLETE
+gdr116:206732:206859 [1] commFree(), init.cc:256 NCCL INFO comm 0x5c146b48ec90 rank 2 nranks 8 cudaDev 1 busId 9000 - Destroy COMPLETE
+[gdr114:324409] mca: base: close: component tcp closed
+[gdr114:324409] mca: base: close: unloading component tcp
+[gdr114:324409] mca: base: close: component self closed
+[gdr114:324409] mca: base: close: unloading component self
+[gdr116:206734] mca: base: close: component self closed
+[gdr116:206734] mca: base: close: unloading component self
+[gdr116:206734] mca: base: close: component tcp closed
+[gdr116:206734] mca: base: close: unloading component tcp
+[gdr116:206733] mca: base: close: component self closed
+[gdr116:206733] mca: base: close: unloading component self
+[gdr116:206733] mca: base: close: component tcp closed
+[gdr116:206733] mca: base: close: unloading component tcp
+[gdr114:324406] mca: base: close: component tcp closed
+[gdr114:324406] mca: base: close: unloading component tcp
+[gdr114:324404] mca: base: close: component tcp closed
+[gdr114:324404] mca: base: close: unloading component tcp
+[gdr114:324406] mca: base: close: component self closed
+[gdr114:324406] mca: base: close: unloading component self
+[gdr114:324404] mca: base: close: component self closed
+[gdr114:324404] mca: base: close: unloading component self
+[gdr114:324405] mca: base: close: component tcp closed
+[gdr114:324405] mca: base: close: unloading component tcp
+[gdr114:324405] mca: base: close: component self closed
+[gdr114:324405] mca: base: close: unloading component self
+[gdr116:206732] mca: base: close: component self closed
+[gdr116:206732] mca: base: close: unloading component self
+[gdr116:206732] mca: base: close: component tcp closed
+[gdr116:206732] mca: base: close: unloading component tcp
+[gdr116:206731] mca: base: close: component self closed
+[gdr116:206731] mca: base: close: unloading component self
+[gdr116:206731] mca: base: close: component tcp closed
+[gdr116:206731] mca: base: close: unloading component tcp
+
