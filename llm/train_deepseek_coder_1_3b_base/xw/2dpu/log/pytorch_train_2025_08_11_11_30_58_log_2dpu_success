@@ -1,0 +1,153 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): s3.amazonaws.com:443
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/parquet/parquet.py HTTP/1.1" 404 0
+DEBUG:filelock:Attempting to acquire lock 127920324720112 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 127920324720112 acquired on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 127920324720112 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 127920324720112 released on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Attempting to acquire lock 127920326850512 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 127920326850512 acquired on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 127920326850512 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 127920326850512 released on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/parquet/parquet.py HTTP/1.1" 404 0
+DEBUG:filelock:Attempting to acquire lock 123836306582000 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 123836306582000 acquired on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 123836306582000 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 123836306582000 released on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Attempting to acquire lock 123836298526256 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 123836298526256 acquired on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 123836298526256 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 123836298526256 released on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/parquet/parquet.py HTTP/1.1" 404 0
+DEBUG:filelock:Attempting to acquire lock 129092616811824 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 129092616811824 acquired on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 129092616811824 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 129092616811824 released on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Attempting to acquire lock 129092609981808 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 129092609981808 acquired on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 129092609981808 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 129092609981808 released on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+[2025-08-11 11:31:10,919] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-08-11 11:31:11,021] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+DEBUG:urllib3.connectionpool:https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/parquet/parquet.py HTTP/1.1" 404 0
+[2025-08-11 11:31:11,035] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+DEBUG:filelock:Attempting to acquire lock 130078401590816 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 130078401590816 acquired on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 130078401590816 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Lock 130078401590816 released on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_parquet_default-9f9a30b843ea0194_0.0.0_9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d.lock
+DEBUG:filelock:Attempting to acquire lock 130078401177472 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 130078401177472 acquired on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:fsspec.local:open file: /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d/dataset_info.json
+DEBUG:filelock:Attempting to release lock 130078401177472 on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+DEBUG:filelock:Lock 130078401177472 released on /root/.cache/huggingface/datasets/parquet/default-9f9a30b843ea0194/0.0.0/9c460aabd2aa27d1496e5e38d2060760561f0ac2cd6a110134eefa5b3f153b8d_builder.lock
+[2025-08-11 11:31:11,286] [INFO] [real_accelerator.py:254:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-08-11 11:31:12,433] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-11 11:31:12,444] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-08-11 11:31:12,673] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/xw/2dpu/train.py:87: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[2025-08-11 11:31:12,685] [INFO] [comm.py:676:init_distributed] cdb=None
+[2025-08-11 11:31:12,694] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-11 11:31:12,706] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/xw/2dpu/train.py:87: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/xw/2dpu/train.py:87: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[2025-08-11 11:31:13,065] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-11 11:31:13,078] [INFO] [comm.py:676:init_distributed] cdb=None
+/root/project/ai/nccl-tests/llm/train_deepseek_coder_1_3b_base/xw/2dpu/train.py:87: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /root/.cache/torch_extensions/py312_cu126/fused_adam/build.ninja...
+/root/deepseek-env/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module fused_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+
+Using /root/.cache/torch_extensions/py312_cu126 as PyTorch extensions root...
+ninja: no work to do.
+Loading extension module fused_adam...
+Time to load fused_adam op: 0.03485298156738281 seconds
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Time to load fused_adam op: 0.10256242752075195 seconds
+Time to load fused_adam op: 0.10279703140258789 seconds
+Loading extension module fused_adam...
+Time to load fused_adam op: 0.10401391983032227 seconds
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+W0811 14:31:45.739000 217899 torch/distributed/elastic/agent/server/api.py:719] Received 2 death signal, shutting down workers
+W0811 14:31:45.740000 217899 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 217914 closing signal SIGINT
+W0811 14:31:45.742000 217899 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 217915 closing signal SIGINT
+W0811 14:31:45.743000 217899 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 217916 closing signal SIGINT
+W0811 14:31:45.744000 217899 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 217917 closing signal SIGINT
+W0811 14:31:46.274000 217899 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 217914 closing signal SIGTERM
+W0811 14:31:46.276000 217899 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 217915 closing signal SIGTERM
+W0811 14:31:46.278000 217899 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 217916 closing signal SIGTERM
+W0811 14:31:46.279000 217899 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 217917 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 711, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 870, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 217899 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/deepseek-env/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 261, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 720, in run
+    self._shutdown(e.sigval)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 372, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 577, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 912, in _close
+    handler.proc.wait(time_to_wait)
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2047, in _wait
+    time.sleep(delay)
+  File "/root/deepseek-env/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 217899 got signal: 2

@@ -1,3 +1,4 @@
+mkdir -p log
 log_file=log/pytorch_train_$(date +'%Y_%m_%d_%H_%M_%S')_log
 echo $log_file
 
@@ -10,7 +11,8 @@ export NCCL_IB_TIMEOUT=24
 export NCCL_P2P_LEVEL=NVL
 export OMP_NUM_THREADS=1
 export NCCL_NET=IB
-export NCCL_IB_HCA=xtrdma_0,xtrdma_1
+export NCCL_SOCKET_IFNAME=enp8s0f0,enp137s0f0
+export NCCL_IB_HCA=xtrdma_0:1,xtrdma_1:1
 export NCCL_IB_GID_INDEX=1
 export NCCL_IB_QPS_PER_CONNECTION=4
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
